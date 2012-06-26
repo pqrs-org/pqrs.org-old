@@ -47,33 +47,28 @@
         {{/language_ja}}
       </h1>
     </div>
+    <iframe width="320" height="240" src="http://www.youtube.com/embed/2rI0Sw1bHLM" frameborder="0"></iframe>
+    <hr />
     <div class="row">
-      <div class="span6">
-        <iframe width="300" height="225" src="http://www.youtube.com/embed/2rI0Sw1bHLM" frameborder="0"></iframe>
+      <div class="span3">
+        {{#lightbox}}
+          img/photo.jpg photo
+        {{/lightbox}}
       </div>
       <div class="span3">
-        <img alt="BulletGBA" src="img/photo.jpg" height="240" />
-        <br />
-        <br />
-        <img alt="Title"
-        {{#imgsrc}}
-          img/normal.png
-        {{/imgsrc}}
-        />
+        {{#lightbox}}
+          img/title.png title
+        {{/lightbox}}
       </div>
       <div class="span3">
-        <img alt="Title"
-        {{#imgsrc}}
-          img/title.png
-        {{/imgsrc}}
-        />
-        <br />
-        <br />
-        <img alt="Title"
-        {{#imgsrc}}
-          img/shooting.png
-        {{/imgsrc}}
-        />
+        {{#lightbox}}
+          img/normal.png simulator
+        {{/lightbox}}
+      </div>
+      <div class="span3">
+        {{#lightbox}}
+          img/shooting.png shooting mode
+        {{/lightbox}}
       </div>
     </div>
   </section>
