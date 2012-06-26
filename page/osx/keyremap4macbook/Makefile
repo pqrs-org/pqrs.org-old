@@ -1,0 +1,13 @@
+all:
+	./index.rb
+	./document.rb
+	./xml.rb
+	./faq.rb
+	./extra.rb
+	./pckeyboardhack.rb
+	./noejectdelay.rb
+	./source.rb
+	./history.rb
+	./list.rb
+	./donation.rb
+	./contact.rb

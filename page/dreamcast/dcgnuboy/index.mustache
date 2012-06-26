@@ -1,0 +1,210 @@
+<div class="container">
+  <header>
+    <div class="hero-unit">
+
+      <h1>dcgnuboy</h1>
+
+      <p>
+        {{#language_en}}
+          Gameboy &amp; Gameboy Color emulator for Dreamcast.
+          <br />
+          <small>
+            Dreamcast porting of gnuboy.
+          </small>
+        {{/language_en}}
+        {{#language_ja}}
+          Dreamcast用のゲームボーイ＆ゲームボーイカラーエミュレータ
+          <br />
+          <small>
+            gnuboyのドリームキャスト移植
+          </small>
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-primary btn-large"
+            href="package/gnuboy-1.0.3-0.6.zip">
+            {{#language_en}}
+              Download&nbsp;<small>(1ST_READ.BIN, IP.BIN, etc)</small>
+            {{/language_en}}
+            {{#language_ja}}
+              ダウンロード&nbsp;<small>(1ST_READ.BIN、IP.BINなど)</small>
+            {{/language_ja}}
+          </a>
+        {{/strip_html}}
+
+        {{#strip_html}}
+          <a class="btn btn-large"
+            href="source/dcgnuboy-1.0.3-0.6.tar.gz">
+            {{#language_en}}
+              Source Code
+            {{/language_en}}
+            {{#language_ja}}
+              ソースコード
+            {{/language_ja}}
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Status
+        {{/language_en}}
+        {{#language_ja}}
+          状況
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Implemented
+          {{/language_en}}
+          {{#language_ja}}
+            実装済み
+          {{/language_ja}}
+        </h2>
+        <ul>
+          {{#language_en}}
+            <li>Gameboy &amp; Gameboy Color emulation.</li>
+            <li>Sound emulation.</li>
+            <li>Save and Load.</li>
+            <li>Quick State Save and Load.</li>
+            <li>VMU State Save and Load.</li>
+            <li>Frame skipping.</li>
+            <li>Screen adjustment.</li>
+          {{/language_en}}
+          {{#language_ja}}
+            <li>ゲームボーイ＆ゲームボーイカラーエミュレータのエミュレーション</li>
+            <li>サウンドのエミュレーション</li>
+            <li>セーブ・ロード</li>
+            <li>クイックステートセーブ・ロード</li>
+            <li>VMUへのステートセーブ・ロード</li>
+            <li>フレームスキップ</li>
+            <li>画面の調整</li>
+          {{/language_ja}}
+        </ul>
+      </div>
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Not implemented
+          {{/language_en}}
+          {{#language_ja}}
+            未実装
+          {{/language_ja}}
+        </h2>
+        <ul>
+          {{#language_en}}
+            <li>Suitable emulation speed on some Gameboy Color games.</li>
+            <li>Refactoring of source code</li>
+          {{/language_en}}
+          {{#language_ja}}
+            <li>いくつかのゲームボーイカラーのゲームにおける適切な速度のエミュレーション</li>
+            <li>ソースコードのリファクタリング</li>
+          {{/language_ja}}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Manual
+        {{/language_en}}
+        {{#language_ja}}
+          使い方
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            Main Menu
+          {{/language_en}}
+          {{#language_ja}}
+            メインメニュー
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A Button</dt><dd>ROM menu.</dd>
+            <dt>B Button</dt><dd>VMU menu.</dd>
+            <dt>Y Button</dt><dd>Credit.</dd>
+            <dt>START + Y + L + R</dt><dd>Reset.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Aボタン</dt><dd>ROMメニュー</dd>
+            <dt>Bボタン</dt><dd>VMUメニュー</dd>
+            <dt>Yボタン</dt><dd>クレジット</dd>
+            <dt>START + Y + L + R</dt><dd>リセット</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            ROM Menu
+          {{/language_en}}
+          {{#language_ja}}
+            ROMメニュー
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A Button</dt><dd>Move to the directory.</dd>
+            <dt>Y Button</dt><dd>Move to the parent directory.</dd>
+            <dt>X + D-pad</dt><dd>Accelerate cursor.</dd>
+            <dt>Analog stick</dt><dd>Adjust cursor wait.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Aボタン</dt><dd>ディレクトリに移動</dd>
+            <dt>Yボタン</dt><dd>親ディレクトリに移動</dd>
+            <dt>X + 十字キー</dt><dd>高速なカーソル移動</dd>
+            <dt>アナログスティック</dt><dd>カーソル速度を調整</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            During Game
+          {{/language_en}}
+          {{#language_ja}}
+            ゲーム中
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>X Button</dt><dd>Gameboy B button.</dd>
+            <dt>A Button</dt><dd>Gameboy A button.</dd>
+            <dt>Y Button</dt><dd>Gameboy Select button.</dd>
+            <dt>START</dt><dd>Gameboy Start button.</dd>
+            <dt>D-pad</dt><dd>Gameboy D-pad.</dd>
+            <dt>L + R + START</dt><dd>Exit game.</dd>
+            <dt>R + B</dt><dd>Quick state save menu.</dd>
+            <dt>R + Y</dt><dd>VMU state save menu.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>X Button</dt><dd>GameboyのBボタン</dd>
+            <dt>A Button</dt><dd>GameboyのAボタン</dd>
+            <dt>Y Button</dt><dd>Gameboyのセレクトボタン</dd>
+            <dt>START</dt><dd>Gameboyのスタートボタン</dd>
+            <dt>十字キー</dt><dd>Gameboyの十字キー</dd>
+            <dt>L + R + START</dt><dd>ゲームを終了</dd>
+            <dt>R + B</dt><dd>クイックステートセーブメニュー</dd>
+            <dt>R + Y</dt><dd>VMUステートセーブメニュー</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>

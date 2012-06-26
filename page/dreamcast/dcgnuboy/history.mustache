@@ -1,0 +1,27 @@
+<div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Version History
+        {{/language_en}}
+        {{#language_ja}}
+          更新履歴
+        {{/language_ja}}
+      </h1>
+    </div>
+    {{#histories}}
+      <h2>
+        Version {{version}}
+        {{#updated}}
+          <small>
+            {{#format_date}}
+              {{updated}}
+            {{/format_date}}
+          </small>
+        {{/updated}}
+      </h2>
+      {{{body_l10n}}}
+    {{/histories}}
+  </section>
+</div>

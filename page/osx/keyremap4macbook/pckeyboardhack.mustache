@@ -1,0 +1,199 @@
+<div class="container">
+  <header>
+    <div class="hero-unit">
+      <h1>PCKeyboardHack</h1>
+
+      <ul>
+        {{#language_en}}
+          <li>PCKeyboardHack can change caps lock key behavior. For example, changing caps lock key to delete Key.</li>
+          <li>PCKeyboardHack can activate International Keys on Non-Apple keyboard.</li>
+        {{/language_en}}
+        {{#language_ja}}
+          <li>PCKeyboardHackはcaps lockキーの動作を変更します。（例: caps lockキーをdeleteキーにする）</li>
+          <li>PCKeyboardHackはPC用のキーボードにある「無変換」「変換」「ひらがな」などのキーをOS Xで使用可能にします。</li>
+        {{/language_ja}}
+      </ul>
+
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-primary btn-large"
+            href="files/PCKeyboardHack-7.4.0.dmg">
+            {{#language_en}}
+              Download PCKeyboardHack-7.4.0
+            {{/language_en}}
+            {{#language_ja}}
+              PCKeyboardHack-7.4.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label">
+              {{#language_en}}
+                For OS X 10.7, 10.6
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.7、10.6用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn"
+            href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">
+            {{#language_en}}
+              Download PCKeyboardHack-5.1.0
+            {{/language_en}}
+            {{#language_ja}}
+              PCKeyboardHack-5.1.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label">
+              {{#language_en}}
+                For OS X 10.5, 10.4
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.5、10.4用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+
+  {{> ../../pqrs_tabs }}
+
+  {{#current_tab_howtouse}}
+    <section>
+      <div class="row">
+        <div class="span8">
+          <h2>Step1</h2>
+          <p>
+            {{#language_en}}
+              Open System Preferences &gt; PCKeyboardHack.
+            {{/language_en}}
+            {{#language_ja}}
+              システム環境設定のPCKeyboardHackから設定を行ないます。
+            {{/language_ja}}
+          </p>
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/preferencepane-pckeyboardhack.png System Preferences
+          {{/lightbox}}
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="span8">
+          <h2>Step2</h2>
+          <p>
+            {{#language_en}}
+              Activate items and change the keycode if needed.
+            {{/language_en}}
+            {{#language_ja}}
+              有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
+            {{/language_ja}}
+          </p>
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/prefpane_pckeyboardhack.png PCKeyboardHack
+          {{/lightbox}}
+        </div>
+      </div>
+      <br />
+      <div class="row" id="noaction">
+        <div class="span8">
+          <h2>
+            Step3
+            <span class="label label-important">Important</span>
+          </h2>
+          <p>
+            {{#language_en}}
+              If you are using PCKeyboardHack to change the behavior of caps lock,
+              open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
+              change caps lock configuration to "No Action".
+            {{/language_en}}
+            {{#language_ja}}
+              caps lockキーの動作を変更するためにPCKeyboardHackを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
+            {{/language_ja}}
+          </p>
+          <p>
+            {{#language_en}}
+              You need to do this step to to reduce caps lock delay.
+            {{/language_en}}
+            {{#language_ja}}
+              caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+            {{/language_ja}}
+          </p>
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/capslock.png No Action
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_howtouse}}
+
+  {{#current_tab_uninstall}}
+    <section>
+      <div class="row">
+        <div class="span8">
+          <h2>Step1</h2>
+          <p>
+            {{#language_en}}
+              Press the "Launch uninstaller" button in PCKeyboardHack Preferences.
+            {{/language_en}}
+            {{#language_ja}}
+              環境設定パネルの「Launch uninstaller」ボタンを押してください。
+            {{/language_ja}}
+          </p>
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/uninstaller_pkh1.png PCKeyboardHack
+          {{/lightbox}}
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="span8">
+          <h2>Step2</h2>
+          <p>
+            {{#language_en}}
+              Press the "uninstall" button on the uninstaller.
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストーラの「uninstall」ボタンを押してください。
+            {{/language_ja}}
+          </p>
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/uninstaller_pkh2.png uninstaller
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_uninstall}}
+
+  {{#current_tab_history}}
+    <section>
+      {{#histories}}
+        <h2>
+          Version {{version}}
+          {{#updated}}
+            <small>
+              {{#format_date}}
+                {{updated}}
+              {{/format_date}}
+            </small>
+          {{/updated}}
+        </h2>
+        {{{body_l10n}}}
+      {{/histories}}
+    </section>
+  {{/current_tab_history}}
+</div>

@@ -1,0 +1,289 @@
+<div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Source Code
+        {{/language_en}}
+        {{#language_ja}}
+          ソースコード
+        {{/language_ja}}
+      </h1>
+    </div>
+    <p>
+      {{#strip_html}}
+        <a class="btn btn-large"
+          href="files/bulletgba-5.0.tar.gz">
+          {{#language_en}}
+            Download Source Code
+          {{/language_en}}
+          {{#language_ja}}
+            ソースコードをダウンロード
+          {{/language_ja}}
+        </a>
+      {{/strip_html}}
+    </p>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          How to build
+        {{/language_en}}
+        {{#language_ja}}
+          ビルド方法
+        {{/language_ja}}
+      </h1>
+    </div>
+    <h2>
+      {{#language_en}}
+        Requirements
+      {{/language_en}}
+      {{#language_ja}}
+        必要な環境
+      {{/language_ja}}
+    </h2>
+    <ul>
+      <li>
+        <a href="http://sourceforge.net/projects/devkitpro/" target="_blank">devkitPro r18 (buildscripts 20060412)</a>
+        {{#language_en}}
+          (You need to use version r18. Do not use the latest release!)
+        {{/language_en}}
+        {{#language_ja}}
+          （最新版ではなく、r18を使う必要があります。）
+        {{/language_ja}}
+      </li>
+    </ul>
+    <h2>
+      {{#language_en}}
+        Steps
+      {{/language_en}}
+      {{#language_ja}}
+        手順
+      {{/language_ja}}
+    </h2>
+    <ol>
+      <li>
+        {{#language_en}}
+          Execute the following commands in Terminal.
+        {{/language_en}}
+        {{#language_ja}}
+          以下のコマンドをターミナルから実行してください。
+        {{/language_ja}}
+        <pre>{{#strip_lines}}
+          $ tar ztf bulletgba-5.0.tar.gz
+          $ cd bulletgba-5.0/bulletgba/
+          $ make
+        {{/strip_lines}}</pre>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          How to replace graphic resources
+        {{/language_en}}
+        {{#language_ja}}
+          画像の差し替え方法
+        {{/language_ja}}
+      </h1>
+    </div>
+    <h2>
+      {{#language_en}}
+        Steps
+      {{/language_en}}
+      {{#language_ja}}
+        手順
+      {{/language_ja}}
+    </h2>
+    <ol>
+      <li>
+        {{#language_en}}
+          Download <a href="files/tools.tar.gz">tools.tar.gz</a>.
+        {{/language_en}}
+        {{#language_ja}}
+          <a href="files/tools.tar.gz">tools.tar.gz</a>をダウンロードします。
+        {{/language_ja}}
+      </li>
+      <li>
+        {{#language_en}}
+          Execute following commands to setup gba-tools.
+        {{/language_en}}
+        {{#language_ja}}
+          以下のコマンドを実行して変換ツールをセットアップします。
+        {{/language_ja}}
+        <pre>{{#strip_lines}}
+          $ mkdir ~/gba
+          $ cd ~/gba
+          $ tar zxf tools.tar.gz
+          $ cd tools/bmp2c
+          $ make clean all
+        {{/strip_lines}}</pre>
+      </li>
+      <li>
+        {{#language_en}}
+          Modify graphic resources under bulletgba/images.
+        {{/language_en}}
+        {{#language_ja}}
+          bulletgba/imagesにある画像を変更します。
+        {{/language_ja}}
+      </li>
+      <li>
+        {{#language_en}}
+          Execute following commands to convert graphic resources.
+        {{/language_en}}
+        {{#language_ja}}
+          以下のコマンドを実行して画像を変換します。
+        {{/language_ja}}
+        <pre>{{#strip_lines}}
+          $ cd bulletgba-5.0/bulletgba/images/
+          $ ./conv.sh
+        {{/strip_lines}}</pre>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          How to add BulletML
+        {{/language_en}}
+        {{#language_ja}}
+          BulletMLの追加方法
+        {{/language_ja}}
+      </h1>
+    </div>
+    <h2>
+      {{#language_en}}
+        Requirements
+      {{/language_en}}
+      {{#language_ja}}
+        必要な環境
+      {{/language_ja}}
+    </h2>
+    <ul>
+      <li>
+        {{#language_en}}
+          You need PHP 5.0+ to convert BulletML to C++.
+        {{/language_en}}
+        {{#language_ja}}
+          BulletMLをC++のコードに変換するためにPHP 5.0以降が必要です。
+        {{/language_ja}}
+      </li>
+    </ul>
+    <h2>
+      {{#language_en}}
+        Steps
+      {{/language_en}}
+      {{#language_ja}}
+        手順
+      {{/language_ja}}
+    </h2>
+    <ol>
+      <li>
+        {{#language_en}}
+          Extract source code.
+        {{/language_en}}
+        {{#language_ja}}
+          ソースコードを展開します。
+        {{/language_ja}}
+      </li>
+      <li>
+        {{#language_en}}
+          Put BulletML to bulletgba-5.0/bulletgba/generator/data/xml/user/.
+        {{/language_en}}
+        {{#language_ja}}
+          BulletMLをbulletgba-5.0/bulletgba/generator/data/xml/user/に置きます。
+        {{/language_ja}}
+      </li>
+      <li>
+        {{#language_en}}
+          Execute following commands to convert BulletML into C++.
+        {{/language_en}}
+        {{#language_ja}}
+          以下のコマンドを実行してBulletMLをC++に変換します。
+        {{/language_ja}}
+        <pre>{{#strip_lines}}
+          $ tar ztf bulletgba-5.0.tar.gz
+          $ cd bulletgba-5.0/bulletgba/generator/
+          $ make copy all
+        {{/strip_lines}}</pre>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Supported BulletML
+        {{/language_en}}
+        {{#language_ja}}
+          対応しているBulletML
+        {{/language_ja}}
+      </h1>
+    </div>
+    <p>
+      {{#language_en}}
+        The most BulletML are supported. But there are little exception.
+      {{/language_en}}
+      {{#language_ja}}
+        ほとんどのBulletMLに対応していますが、いくつか制限があります。
+      {{/language_ja}}
+    </p>
+    <ul>
+      {{#language_en}}
+        <li>&lt;accel&gt; does not work properly.</li>
+      {{/language_en}}
+      {{#language_ja}}
+        <li>&lt;accel&gt;は適切に動作しません。</li>
+      {{/language_ja}}
+      <li>
+        {{#language_en}}
+          &lt;*Ref&gt; which contains $rand in &lt;param&gt; does not work properly.
+        {{/language_en}}
+        {{#language_ja}}
+          &lt;param&gt;に$randを含む&lt;*Ref&gt;は適切に動作しません。
+        {{/language_ja}}
+        {{#indented_xml}}
+          |<fireRef>
+          |  <param>1.0 * 3.4 + 4.2</param>     <!-- *** This line works fine. *** -->
+          |  <param>$rand + 1</param>           <!-- *** This line does not work properly. *** -->
+          |</fireRef>
+        {{/indented_xml}}
+    </ul>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Thanks
+        {{/language_en}}
+        {{#language_ja}}
+          謝辞
+        {{/language_ja}}
+      </h1>
+    </div>
+    <p>
+      {{#language_en}}
+        BulletGBA uses following softwares and data.
+      {{/language_en}}
+      {{#language_ja}}
+        BulletGBAは以下のソフトウェアやデータを使用しています。
+      {{/language_ja}}
+    </p>
+    <ul>
+      <li><a target="_blank" href="http://www.devkitpro.org/">devkitPro</a></li>
+      <li><a target="_blank" href="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml/index_e.html">BulletML</a></li>
+      <li><a target="_blank" href="http://shinh.skr.jp/sdmkun/zipup.cgi">弾幕やさん</a></li>
+      <li><a target="_blank" href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html">Mersenne Twister</a></li>
+      <li><a target="_blank" href="http://www.graphicartsunit.com/gaupra/">GAU Cube Bold</a></li>
+    </ul>
+  </section>
+
+</div>

@@ -1,0 +1,862 @@
+<div class="container">
+  <header>
+    <div class="page-header">
+      <h1>Manual</h1>
+    </div>
+  </header>
+
+  {{> ../../pqrs_tabs }}
+
+  {{#current_tab_install}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            How to install
+          {{/language_en}}
+          {{#language_ja}}
+            インストール方法
+          {{/language_ja}}
+        </h1>
+      </div>
+      <div class="row">
+        <div class="span4">
+          <h2>Step1</h2>
+
+          <p>
+            {{#language_en}}
+              Open a downloaded dmg file.
+            {{/language_en}}
+            {{#language_ja}}
+              ダウンロードしたdmgファイルを開きます。
+            {{/language_ja}}
+          </p>
+          <p>
+            <img
+            alt="dmg"
+            {{#imgsrc}}
+              img/dmg.png
+            {{/imgsrc}}
+            />
+          </p>
+        </div>
+        <div class="span4">
+          <h2>Step2</h2>
+
+          <p>
+            {{#language_en}}
+              A pkg file in dmg file. Open this pkg file.
+            {{/language_en}}
+            {{#language_ja}}
+              pkgファイルがあるので開きます。
+            {{/language_ja}}
+          </p>
+          <p>
+            <img
+            alt="pkg"
+            {{#imgsrc}}
+              img/pkg.png
+            {{/imgsrc}}
+            />
+          </p>
+        </div>
+        <div class="span4">
+          <h2>Step3</h2>
+
+          <p>
+            {{#language_en}}
+              Installer is launched. Install KeyRemap4MacBook.
+            {{/language_en}}
+            {{#language_ja}}
+              インストーラが起動しますので、KeyRemap4MacBookをインストールします。
+            {{/language_ja}}
+          </p>
+          {{#lightbox}}
+            img/installer.png installer
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_install}}
+
+  {{#current_tab_remapping}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Remapping keys
+          {{/language_en}}
+          {{#language_ja}}
+            キーのリマッピング
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          KeyRemap4MacBook Prefs has been installed into System Preferences.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBookの設定画面はシステム環境設定にインストールされます。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/preferencepane.png System Preferences
+          {{/lightbox}}
+        </div>
+      </div>
+      <br />
+      <p>
+        {{#language_en}}
+          Open KeyRemap4MacBook Prefs and activate your favorite settings from prepared settings.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBookの設定画面を開いて、お好みの設定を有効にしてください。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/prefpane.png System Preferences
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_remapping}}
+
+  {{#current_tab_keyrepeat}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Change key repeat rate
+          {{/language_en}}
+          {{#language_ja}}
+            キーリピート速度の変更
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          KeyRemap4MacBook provides very finely customization of key repeat rate.
+          <br />
+          You also can accelerate key repeat rate beyond the limits of OS X.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBookは非常に細かくキーリピート速度を設定することが出来ます。
+          <br />
+          またOS Xの限界を越えてキーリピート速度を加速することも出来ます。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          Open "Key Repeat" tab and change "Initial Wait" and "Wait".
+        {{/language_en}}
+        {{#language_ja}}
+          Key Repeatタブを開いて、Initial WaitとWaitの値を変更してください。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/keyrepeat.png key repeat rate
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_keyrepeat}}
+
+  {{#current_tab_uninstall}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            How to uninstall
+          {{/language_en}}
+          {{#language_ja}}
+            アンインストール方法
+          {{/language_ja}}
+        </h1>
+      </div>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Press the "launch uninstaller" button from "Misc &amp; Uninstall" tab.
+          {{/language_en}}
+          {{#language_ja}}
+            「Misc &amp; Uninstall」タブの「launch uninstaller」ボタンを押してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/uninstall.png preferences pane
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then, uninstaller is launched. Press the "uninstall" button.
+          {{/language_en}}
+          {{#language_ja}}
+            アンインストーラが起動しますので、「uninstall」ボタンを押してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/uninstaller.png uninstaller
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+  {{/current_tab_uninstall}}
+
+  {{#current_tab_eventviewer}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            How to confirm result of key remappings
+          {{/language_en}}
+          {{#language_ja}}
+            キーリマップの結果を確認する方法
+          {{/language_ja}}
+        </h1>
+      </div>
+
+      <p>
+        {{#language_en}}
+          You can examine keyboard and mouse events by using EventViewer.
+          <br />
+          Launch EventViewer from a menu.
+        {{/language_en}}
+        {{#language_ja}}
+          EventViewerでキーボードやマウスのイベントを確認することが出来ます。
+          <br />
+          メニューからEventViewerを起動してください。
+        {{/language_ja}}
+
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/eventviewer-menu.png menu
+          {{/lightbox}}
+        </div>
+        <div class="span4">
+          {{#lightbox}}
+            img/eventviewer-sample.png eventviewer
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_eventviewer}}
+
+  {{#current_tab_privatexml}}
+    <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            How to add your own settings
+          {{/language_en}}
+          {{#language_ja}}
+            設定の追加の方法
+          {{/language_ja}}
+        </h1>
+      </div>
+
+      <p>
+        {{#language_en}}
+          You can add your own settings by "private.xml".
+        {{/language_en}}
+        {{#language_ja}}
+          「private.xml」にて設定を追加することが出来ます。
+        {{/language_ja}}
+      </p>
+
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Click "Open private.xml" button on "Misc &amp; Uninstall" tab.
+          {{/language_en}}
+          {{#language_ja}}
+            「Misc &amp; Uninstall」タブの「Open private.xml」を押してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/open_private_xml.png open private.xml
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then, Finder is opened.
+          {{/language_en}}
+          {{#language_ja}}
+            Finderが開きます。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/private.xml.png finder
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Open private.xml with your preferred text editor.
+          {{/language_en}}
+          {{#language_ja}}
+            private.xmlをテキストエディタで開きます。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/private.xml.open_with.png finder
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Update the contents of private.xml to <a href="files/private.xml">private.xml</a>.
+          {{/language_en}}
+          {{#language_ja}}
+            ファイルの中身を<a href="files/private.xml">private.xml</a>の内容に変更します。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/textedit.png textedit
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Press "ReloadXML" button on "Change Key" tab.
+          {{/language_en}}
+          {{#language_ja}}
+            「Change key」タブの「ReloadXML」ボタンを押してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/reload_xml.png ReloadXML
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            New settings have been added.
+          {{/language_en}}
+          {{#language_ja}}
+            新しい設定が追加されました。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/reloaded.png reloaded
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Edit private.xml as you like, and press ReloadXML button.
+          {{/language_en}}
+          {{#language_ja}}
+            private.xmlの中身を好きなように変更して、ReloadXMLボタンを押してください。
+          {{/language_ja}}
+
+          <ul>
+            <li>
+              <a href="xml.html.{{language}}">
+                {{#language_en}}
+                  private.xml Reference Manual
+                {{/language_en}}
+                {{#language_ja}}
+                  private.xml Reference Manual（英語）
+                {{/language_ja}}
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          {{#language_en}}
+            Completed!
+            <br />
+            Please send your new settings to me. I'll merge them into prepared settings.
+            <br />
+            You can send it by either following ways.
+            <ul>
+              <li>Send a message to <a href="contact.html.{{language}}">Google Groups or mail</a>.</li>
+              <li><a href="https://github.com/tekezo/KeyRemap4MacBook">Sending a pull request on github</a>.</li>
+            </ul>
+          {{/language_en}}
+          {{#language_ja}}
+            完了です。
+            <br />
+            もしよければ追加した設定をお送りください。パッケージに取り込みます。
+            <br />
+            以下のいずれかの方法で送れます。
+            <ul>
+              <li><a href="contact.html.{{language}}">Google Groups、もしくはメール</a></li>
+              <li><a href="https://github.com/tekezo/KeyRemap4MacBook">githubへのpull request</a></li>
+            </ul>
+          {{/language_ja}}
+        </li>
+      </ol>
+    </section>
+  {{/current_tab_privatexml}}
+
+  {{#current_tab_misc}}
+    <section id="growl">
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Growl notifications
+          {{/language_en}}
+          {{#language_ja}}
+            Growl通知
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          Growl notifications are displayed when you use settings which sends notifications such as Complete Vi Mode, Fn_Lock.
+        {{/language_en}}
+        {{#language_ja}}
+          Complete Vi ModeやFn_Lockなどを使うと以下のような通知が表示されます。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/growl.png growl
+          {{/lightbox}}
+        </div>
+      </div>
+
+      <h2>Recommended setting</h2>
+      <p>
+        {{#language_en}}
+          We recommend you to change setting of Growl for a more comfortable experience.
+        {{/language_en}}
+        {{#language_ja}}
+          通知をより快適に使うために、Growlの設定を変更することをオススメします。
+        {{/language_ja}}
+      </p>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Choose KeyRemap4MacBook in "Growl Preference > Applications".
+          {{/language_en}}
+          {{#language_ja}}
+            Growlの設定のApplicationsタブからKeyRemap4MacBookを選択します。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/growl-applications.png growl applications
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Change the style to another one which is not default such as Brushed.
+          {{/language_en}}
+          {{#language_ja}}
+            スタイルをBrushedなど、標準のものとは別のものに指定します。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/growl-keyremap4macbook.png growl keyremap4macbook
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Change duration to 0 seconds.
+          {{/language_en}}
+          {{#language_ja}}
+            先程指定したスタイルの表示秒数を0秒に指定します。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/growl-duration.png growl duration
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <h2>
+        {{#language_en}}
+          Warning of Growl
+        {{/language_en}}
+        {{#language_ja}}
+          Growlの警告について
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          This warning is displayed when Growl is not running.
+        {{/language_en}}
+        {{#language_ja}}
+          Growlが動作していない場合、以下の警告が表示されます。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/growl_is_not_running.png warning
+          {{/lightbox}}
+        </div>
+      </div>
+      <p>
+        {{#language_en}}
+          Please install Growl from <a target="_blank" href="http://growl.info/">Growl web site</a>.
+        {{/language_en}}
+        {{#language_ja}}
+          <a target="_blank" href="http://growl.info/">Growlのウェブサイト</a>からGrowlをインストールしてください。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          If you don't want to install Growl,
+          please activate "General > Suppress Growl warning" in "KeyRemap4MacBook Preference > Change Key".
+          <br />
+          It suppresses this warning.
+        {{/language_en}}
+        {{#language_ja}}
+          もし、Growlをインストールしたくない場合はKeyRemap4MacBookの設定画面の「Change Key」タブにある「General > Suppress Growl warning」を有効にしてください。警告を表示しなくなります。
+        {{/language_ja}}
+      </p>
+    </section>
+
+    <section id="multitouchextension">
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Multi-touch extension
+          {{/language_en}}
+          {{#language_ja}}
+            マルチタッチ拡張
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          An application named "multi-touch extension" is attached since KeyRemap4MacBook-7.1.0.
+          <br />
+          You can use this application with multi-touch devices such as MacBook, Magic Mouse and Magic Trackpad.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBook-7.1.0からmulti-touch extensionというアプリケーションが付属しています。
+          <br />
+          MacBookやMagic Mouse、Magic Trackpadなどのマルチタッチデバイスと一緒に使います。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          This application activates specific setting while fingers touch the multi-touch device.
+          <br />
+          For example, you can activate Complete Vi Mode while two fingers touch the device.
+        {{/language_en}}
+        {{#language_ja}}
+          このアプリケーションは、マルチタッチデバイスに指が触れている間だけ特定の設定を有効にします。
+          <br />
+          例えば、指が2本触れているときだけ、Complete Vi Modeを有効にするなどです。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html">ThumbSense</a> is one of the function which multi-touch extension supplies.
+        {{/language_en}}
+        {{#language_ja}}
+          <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html">ThumbSense</a>はマルチタッチ拡張が提供する機能の一つです。
+        {{/language_ja}}
+      </p>
+
+      <h2>
+        {{#language_en}}
+          How to use multi-touch extension
+        {{/language_en}}
+        {{#language_ja}}
+          マルチタッチ拡張の使い方
+        {{/language_ja}}
+      </h2>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Click "Launch multi-touch extension" button in "KeyRemap4MacBook Preference &gt; Misc &amp; Uninstall".
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBookの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/mte1.png preferences pane
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then application is launched. Click the icon in Dock.
+          {{/language_en}}
+          {{#language_ja}}
+            アプリケーションが立ち上がるのでDockからアイコンをクリックします。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/mte2.png dock
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then the preference window is opened. Change checkboxes and text if needed.
+            <br />
+            The value of "Target setting" such as notsave.thumbsense is &lt;identifier&gt; in
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
+          {{/language_en}}
+          {{#language_ja}}
+            設定画面が開くので、必要に応じてチェックボックスやテキストの中身を変更してください。
+            <br />
+            notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/mte3.png multi-touch extension
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="multipleconfigurations">
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Multiple configurations
+          {{/language_en}}
+          {{#language_ja}}
+            複数の設定の使い分け
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          You can switch activated settings from menu bar.
+        {{/language_en}}
+        {{#language_ja}}
+          メニューバーから複数の設定を使い分けることができます。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/statusbar.png multi-touch extension
+          {{/lightbox}}
+        </div>
+      </div>
+      <h2>
+        {{#language_en}}
+          How to use multiple configurations
+        {{/language_en}}
+        {{#language_ja}}
+          複数の設定の使い方
+        {{/language_ja}}
+      </h2>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Add new configuration from "MenuBar" tab.
+          {{/language_en}}
+          {{#language_ja}}
+            設定の追加を「MenuBar」タブから行ないます。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/menubar_setting.png menubar tab
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Choose the configuration from menu bar.
+          {{/language_en}}
+          {{#language_ja}}
+            メニューバーから設定を切り替えます。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/switch_current_setting.png menu bar
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Set up remapping for the selected configuration.
+          {{/language_en}}
+          {{#language_ja}}
+            切り替えた設定用にリマッピングの設定を行います。
+          {{/language_ja}}
+        </li>
+      </ol>
+    </section>
+
+    <section id="commandlineinterface">
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Command line interface
+          {{/language_en}}
+          {{#language_ja}}
+            コマンドラインインターフェース
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          KeyRemap4MacBook provides a command line interface. (KeyRemap4MacBook_cli command)
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBookはコマンドラインインターフェースを提供しています。(KeyRemap4MacBook_cliコマンド)
+        {{/language_ja}}
+      </p>
+      <ul>
+        <li>
+          {{#language_en}}
+            You can get a list of changed setting.
+          {{/language_en}}
+          {{#language_ja}}
+            変更した設定の一覧を取得できます。
+          {{/language_ja}}
+        </li>
+        <li>
+          {{#language_en}}
+            You can activate/deactivate setting.
+          {{/language_en}}
+          {{#language_ja}}
+            設定の有効化/無効化をできます。
+          {{/language_ja}}
+        </li>
+        <li>
+          {{#language_en}}
+            You can choose the configuration from multiple configurations.
+          {{/language_en}}
+          {{#language_ja}}
+            複数の設定の切り替えをできます。
+          {{/language_ja}}
+        </li>
+      </ul>
+
+      <h2>
+        {{#language_en}}
+          How to show help
+        {{/language_en}}
+        {{#language_ja}}
+          使い方の表示方法
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          Execute KeyRemap4MacBook_cli with no argument.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBook_cliを引数なしで実行します。
+        {{/language_ja}}
+      </p>
+      <pre>{{#strip_indented_lines}}
+        |$ /Library/org.pqrs/KeyRemap4MacBook/app/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli
+        |Usage:
+        |  KeyRemap4MacBook_cli list
+        |  KeyRemap4MacBook_cli selected
+        |  KeyRemap4MacBook_cli changed
+        |  KeyRemap4MacBook_cli select INDEX
+        |  KeyRemap4MacBook_cli enable IDENTIFIER
+        |  KeyRemap4MacBook_cli disable IDENTIFIER
+        |
+        |Example:
+        |  KeyRemap4MacBook_cli list
+        |  KeyRemap4MacBook_cli selected
+        |  KeyRemap4MacBook_cli changed
+        |  KeyRemap4MacBook_cli select 1
+        |  KeyRemap4MacBook_cli enable remap.shiftL2commandL
+        |  KeyRemap4MacBook_cli disable remap.shiftL2commandL
+      {{/strip_indented_lines}}</pre>
+
+      <h2>
+        {{#language_en}}
+          About "list" and "select" option
+        {{/language_en}}
+        {{#language_ja}}
+          list、selectオプションについて
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          You can choose the configuration from multiple configurations.
+        {{/language_en}}
+        {{#language_ja}}
+          複数の設定の切り替えをできます。
+        {{/language_ja}}
+      </p>
+      <ol>
+        <li>
+          {{#language_en}}
+            Get a list by "list" option.
+          {{/language_en}}
+          {{#language_ja}}
+            listオプションで複数の設定の一覧を取得します。
+          {{/language_ja}}
+          <pre>{{#strip_indented_lines}}
+            |$ /Library/org.pqrs/KeyRemap4MacBook/app/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli list
+            |Default
+            |Don't Remap
+            |Empty
+            |Test
+          {{/strip_indented_lines}}</pre>
+        </li>
+        <li>
+          {{#language_en}}
+            Choose a configuration by "select" option.
+            <br />
+            The numeral argument is a configuration index. It starts from 0.
+          {{/language_en}}
+          {{#language_ja}}
+            selectオプションで切り替えを行ないます。
+            <br />
+            数字のオプションは設定のインデックスです。これは0から始まります。
+          {{/language_ja}}
+          <pre>{{#strip_indented_lines}}
+            |$ /Library/org.pqrs/KeyRemap4MacBook/app/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli select 1
+          {{/strip_indented_lines}}</pre>
+        </li>
+      </ol>
+    </section>
+  {{/current_tab_misc}}
+</div>

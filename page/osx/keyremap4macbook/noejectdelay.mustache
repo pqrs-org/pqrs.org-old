@@ -1,0 +1,122 @@
+<div class="container">
+  <header>
+    <div class="hero-unit">
+      <h1>NoEjectDelay</h1>
+
+      <ul>
+        {{#language_en}}
+          <li>NoEjectDelay eliminates the eject key delay.</li>
+          {{! <li>NoEjectDelay disables F12Eject feature.</li> }}
+        {{/language_en}}
+        {{#language_ja}}
+          <li>NoEjectDelayはEjectキーの遅延を無効化します。</li>
+          {{! <li>NoEjectDelayはF12Eject機能を無効化します。</li> }}
+        {{/language_ja}}
+      </ul>
+
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-primary btn-large"
+            href="files/NoEjectDelay-3.4.0.dmg">
+            {{#language_en}}
+              Download NoEjectDelay-3.4.0
+            {{/language_en}}
+            {{#language_ja}}
+              NoEjectDelay-3.4.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label">
+              {{#language_en}}
+                For OS X 10.7, 10.6
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.7、10.6用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn"
+            href="files/NoEjectDelay-1.1.0.pkg.tar.gz">
+            {{#language_en}}
+              Download NoEjectDelay-1.1.0
+            {{/language_en}}
+            {{#language_ja}}
+              NoEjectDelay-1.1.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label">
+              {{#language_en}}
+                For OS X 10.5, 10.4
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.5、10.4用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+
+  {{> ../../pqrs_tabs }}
+
+  {{#current_tab_howtouse}}
+    <section>
+      <p>
+        {{#language_en}}
+          No configuration required.
+          <br />
+          NoEjectDelay becomes effective immediately after installation has completed and OS X has been restarted.
+        {{/language_en}}
+        {{#language_ja}}
+          設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
+        {{/language_ja}}
+      </p>
+    </section>
+  {{/current_tab_howtouse}}
+
+  {{#current_tab_uninstall}}
+    <section>
+      <p>
+        {{#language_en}}
+          Execute the following commands in Terminal.app.
+        {{/language_en}}
+        {{#language_ja}}
+          以下のコマンドをTerminal.appで実行してください。
+        {{/language_ja}}
+      </p>
+      <pre>{{#strip_lines}}
+        $ sudo /Library/org.pqrs/NoEjectDelay/extra/uninstall.sh
+      {{/strip_lines}}</pre>
+      <p>
+        {{#language_en}}
+          Then restart OS X.
+        {{/language_en}}
+        {{#language_ja}}
+          その後にOS Xを再起動してください。
+        {{/language_ja}}
+      </p>
+    </section>
+  {{/current_tab_uninstall}}
+
+  {{#current_tab_history}}
+    <section>
+      {{#histories}}
+        <h2>
+          Version {{version}}
+          {{#updated}}
+            <small>
+              {{#format_date}}
+                {{updated}}
+              {{/format_date}}
+            </small>
+          {{/updated}}
+        </h2>
+        {{{body_l10n}}}
+      {{/histories}}
+    </section>
+  {{/current_tab_history}}
+</div>

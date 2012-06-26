@@ -1,0 +1,253 @@
+<div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Controls
+        {{/language_en}}
+        {{#language_ja}}
+          操作方法
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            At Main Menu
+          {{/language_en}}
+          {{#language_ja}}
+            メインメニュー
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A Button</dt>
+            <dd>Choose.</dd>
+
+            <dt>B Button</dt>
+            <dd>Cancel.</dd>
+
+            <dt>Control Pad</dt>
+            <dd>Move cursor.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Aボタン</dt>
+            <dd>選択</dd>
+
+            <dt>Bボタン</dt>
+            <dd>キャンセル</dd>
+
+            <dt>十字キー</dt>
+            <dd>カーソル移動</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span6">
+        <img alt="Title"
+        {{#imgsrc}}
+          img/title.png
+        {{/imgsrc}}
+        />
+      </div>
+    </div>
+
+    <hr width="50%" />
+
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            In Game
+          {{/language_en}}
+          {{#language_ja}}
+            ゲーム中
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A,B Button</dt>
+            <dd>Shot.</dd>
+
+            <dt>L,R Button</dt>
+            <dd>Laser.</dd>
+
+            <dt>Select</dt>
+            <dd>Back to Main Menu.</dd>
+
+            <dt>Control Pad</dt>
+            <dd>Move.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>A、Bボタン</dt>
+            <dd>ショット</dd>
+
+            <dt>L、Rボタン</dt>
+            <dd>レーザー</dd>
+
+            <dt>セレクトボタン</dt>
+            <dd>メインメニューに戻る</dd>
+
+            <dt>十字キー</dt>
+            <dd>移動</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span6">
+        <img alt="Game"
+        {{#imgsrc}}
+          img/ss-main.png
+        {{/imgsrc}}
+        />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Manual
+        {{/language_en}}
+        {{#language_ja}}
+          マニュアル
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Playing the game
+          {{/language_en}}
+          {{#language_ja}}
+            ルール
+          {{/language_ja}}
+        </h2>
+        {{#language_en}}
+          Defeat the boss within three minutes time limits.
+        {{/language_en}}
+        {{#language_ja}}
+          3分以内にボスを倒してください。
+        {{/language_ja}}
+      </div>
+      <div class="span6">
+        <img alt="Boss"
+        {{#imgsrc}}
+          img/bosscore.png
+        {{/imgsrc}}
+        />
+      </div>
+    </div>
+
+    <hr width="50%" />
+
+    <h2>
+      {{#language_en}}
+        Enemy Bullets
+      {{/language_en}}
+      {{#language_ja}}
+        敵弾の種類
+      {{/language_ja}}
+    </h2>
+
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          {{#language_en}}
+            <th>
+              Destroyable Bullet
+            </th>
+            <th>
+              Suicide Bullet
+            </th>
+            <th>
+              Aimed Suicide Bullet
+            </th>
+          {{/language_en}}
+          {{#language_ja}}
+            <th>
+              破壊可能弾
+            </th>
+            <th>
+              打ち返し弾
+            </th>
+            <th>
+              自機狙い打ち返し弾
+            </th>
+          {{/language_ja}}
+        </tr>
+        <tr>
+          <td>
+            <img alt="Destroyable Bullet"
+            {{#imgsrc}}
+              img/spr_bullet.png
+            {{/imgsrc}}
+            />
+          </td>
+          <td>
+            <img alt="Suicide Bullet"
+            {{#imgsrc}}
+              img/spr_suicide_bullet_original_direction.png
+            {{/imgsrc}}
+            />
+          </td>
+          <td>
+            <img alt="Aimed Suicide Bullet"
+            {{#imgsrc}}
+              img/spr_suicide_bullet_target_self.png
+            {{/imgsrc}}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      {{#language_en}}
+        Suicide Bullets and Aimed Suicide Bullets are generated when you shot Destroyable Bullet.
+      {{/language_en}}
+      {{#language_ja}}
+        打ち返し弾と自機狙い打ち返し弾は破壊可能弾を打つと発生します。
+      {{/language_ja}}
+    </p>
+
+    <hr width="50%" />
+
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Laser
+          {{/language_en}}
+          {{#language_ja}}
+            レーザー
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Laser destroys all enemy bullets.
+          {{/language_en}}
+          {{#language_ja}}
+            レーザーは全ての敵弾を破壊します。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            You can use Laser when Power is 100%.
+          {{/language_en}}
+          {{#language_ja}}
+            パワーが100%のときにレーザーを使えます。
+          {{/language_ja}}
+        </p>
+      </div>
+      <div class="span6">
+        <img alt="Boss"
+        {{#imgsrc}}
+          img/laser.png
+        {{/imgsrc}}
+        />
+      </div>
+    </div>
+  </section>
+</div>

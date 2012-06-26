@@ -1,0 +1,396 @@
+<div class="container">
+  <header>
+    <div class="hero-unit">
+
+      <h1>NesterDC</h1>
+
+      <p>
+        {{#language_en}}
+          NES emulator for Dreamcast.
+          <br />
+          <small>
+            Optimized Dreamcast porting of
+
+            {{#strip_html}}
+              <a href="http://www.emulation9.com/takeda/" target="_blank">
+              unofficial nester
+              </a>
+              .
+            {{/strip_html}}
+          </small>
+        {{/language_en}}
+        {{#language_ja}}
+          Dreamcast用のファミコンエミュレータ
+          <br />
+          <small>
+            {{#strip_html}}
+              最適化された
+              <a href="http://www.emulation9.com/takeda/" target="_blank">
+              unofficial nester
+              </a>
+              のドリームキャスト移植
+            {{/strip_html}}
+          </small>
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-primary btn-large"
+            href="7.1/nesterdc-7.1.zip">
+            {{#language_en}}
+              Download&nbsp;<small>(1ST_READ.BIN, IP.BIN, etc)</small>
+            {{/language_en}}
+            {{#language_ja}}
+              ダウンロード&nbsp;<small>(1ST_READ.BIN、IP.BINなど)</small>
+            {{/language_ja}}
+          </a>
+        {{/strip_html}}
+
+        {{#strip_html}}
+          <a class="btn btn-large"
+            href="7.1/nesterdc-7.1.tar.gz">
+            {{#language_en}}
+              Source Code
+            {{/language_en}}
+            {{#language_ja}}
+              ソースコード
+            {{/language_ja}}
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Status
+        {{/language_en}}
+        {{#language_ja}}
+          状況
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Implemented
+          {{/language_en}}
+          {{#language_ja}}
+            実装済み
+          {{/language_ja}}
+        </h2>
+        <ul>
+          {{#language_en}}
+            <li>NES emulation without frame drop in most games.</li>
+            <li>Sound emulation (including external chips.)</li>
+            <li>FDS emulation (disksys.rom is necessary.)</li>
+            <li>Save and Load.</li>
+            <li>Quick State Save and Load.</li>
+            <li>VMU State Save and Load.</li>
+            <li>Game Genie.</li>
+            <li>NNNesterJ style cheat code.</li>
+            <li>4 people play simultaneously.</li>
+            <li>Frame skipping.</li>
+            <li>Screen adjustment.</li>
+            <li>
+              NES external devices:
+              <ul>
+                <li>Family Keyboard     (controlled by Dreamcast Keyboard)</li>
+                <li>Optical Gun         (controlled by Dreamcast Controller, Dreamcast Mouse)</li>
+                <li>Hyper Shot          (controlled by Dreamcast Controller)</li>
+                <li>Crazy Climber       (controlled by Dreamcast Controller)</li>
+                <li>Microphone          (controlled by Dreamcast Controller)</li>
+                <li>Arkanoid Paddle     (controlled by Dreamcast Mouse)</li>
+                <li>Mahjong Controller  (controlled by Dreamcast Keyboard)</li>
+              </ul>
+            </li>
+            <li>
+              Dreamcast devices:
+              <ul>
+                <li>Dreamcast Controller</li>
+                <li>Arcade Stick</li>
+                <li>Dreamcast Keyboard (jp106 only)</li>
+                <li>Dreamcast Mouse</li>
+                <li>VGA</li>
+                <li>VMU</li>
+              </ul>
+            </li>
+            <li>Directories support in ROM select menu.</li>
+            <li>Show information on VMU LCD.</li>
+            <li>VMU remove menu. (You can erase VMU data easily.)</li>
+            <li>
+              Virtual maple port binding on Dreamcast Controllers.
+              (You can bind DC<=>NES controllers correspondence,
+              like binding Dreamcast Controller #2 as NES Controller #0.)
+            </li>
+          {{/language_en}}
+          {{#language_ja}}
+            <li>ほとんどのゲームで処理落ちなしのエミュレーション</li>
+            <li>外部チップを含むサウンドのエミュレーション</li>
+            <li>ディスクシステムのエミュレーション</li>
+            <li>セーブ・ロード</li>
+            <li>クイックステートセーブ・ロード</li>
+            <li>VMUへのステートセーブ・ロード</li>
+            <li>Game Genie</li>
+            <li>NNNesterJ形式のチートコード</li>
+            <li>4人同時プレイ</li>
+            <li>フレームスキップ</li>
+            <li>画面の調整</li>
+            <li>
+              NESの外部デバイス
+              <ul>
+                <li>キーボード             （Dreamcastのキーボードで操作）</li>
+                <li>光線銃                 （Dreamcastのコントローラやマウスで操作）</li>
+                <li>ハイパーショット       （Dreamcastのコントローラやマウスで操作）</li>
+                <li>クレイジークライマー   （Dreamcastのコントローラで操作）</li>
+                <li>マイク                 （Dreamcastのコントローラで操作）</li>
+                <li>アルカノイドパドル     （Dreamcastのマウスで操作）</li>
+                <li>マージャンコントローラ （Dreamcastのキーボードで操作）</li>
+              </ul>
+            </li>
+            <li>
+              Dreamcastのデバイス
+              <ul>
+                <li>Dreamcastのコントローラ</li>
+                <li>アーケードスティック</li>
+                <li>Dreamcastのキーボード（jp106のみ）</li>
+                <li>Dreamcastのマウス</li>
+                <li>VGA</li>
+                <li>VMU</li>
+              </ul>
+            </li>
+            <li>ROM選択画面でのディレクトリのサポート</li>
+            <li>VMUの液晶への情報表示</li>
+            <li>VMUのデータ整理画面</li>
+            <li>
+              Dreamcastのコントローラとファミコンのコントローラのマッピング設定。
+              （Dreamcastの1番目のコントローラでファミコンの2番目のコントローラを操作するなど。）
+            </li>
+          {{/language_ja}}
+        </ul>
+      </div>
+      <div class="span6">
+        <h2>
+          {{#language_en}}
+            Not implemented
+          {{/language_en}}
+          {{#language_ja}}
+            未実装
+          {{/language_ja}}
+        </h2>
+        <ul>
+          {{#language_en}}
+            <li>
+              Dreamcast device support:
+              <ul>
+                <li>Dreamcast Light Gun</li>
+                <li>Dreamcast Keyboard (except jp106)</li>
+                <li>Dreamcast Racing Controller</li>
+                <li>Dreamcast Twin Stick</li>
+                <li>etc</li>
+              </ul>
+            </li>
+            <li>
+              Known Bug: Generating petit-noise on Kirby-adventure (Hoshi-no-kirby).
+            </li>
+          {{/language_en}}
+          {{#language_ja}}
+            <li>
+              Dreamcastのデバイス
+              <ul>
+                <li>ガン</li>
+                <li>jp106以外のキーボード</li>
+                <li>レーシングコントローラ</li>
+                <li>ツインスティック</li>
+                <li>その他</li>
+              </ul>
+            </li>
+            <li>
+              既知のバグ: 星のカービィで音にノイズがのります。
+            </li>
+          {{/language_ja}}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Manual
+        {{/language_en}}
+        {{#language_ja}}
+          使い方
+        {{/language_ja}}
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            Main Menu
+          {{/language_en}}
+          {{#language_ja}}
+            メインメニュー
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A Button</dt><dd>ROM menu.</dd>
+            <dt>X Button</dt><dd>Option menu.</dd>
+            <dt>B Button</dt><dd>VMU menu.</dd>
+            <dt>Y Button</dt><dd>Credit.</dd>
+            <dt>START + Y + L + R</dt><dd>Reset.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Aボタン</dt><dd>ROMメニュー</dd>
+            <dt>Xボタン</dt><dd>オプションメニュー</dd>
+            <dt>Bボタン</dt><dd>VMUメニュー</dd>
+            <dt>Yボタン</dt><dd>クレジット</dd>
+            <dt>START + Y + L + R</dt><dd>リセット</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            ROM Menu
+          {{/language_en}}
+          {{#language_ja}}
+            ROMメニュー
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>A Button</dt><dd>Move to the directory.</dd>
+            <dt>Y Button</dt><dd>Move to the parent directory.</dd>
+            <dt>X + D-pad</dt><dd>Accelerate cursor.</dd>
+            <dt>Analog stick</dt><dd>Adjust cursor wait.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Aボタン</dt><dd>ディレクトリに移動</dd>
+            <dt>Yボタン</dt><dd>親ディレクトリに移動</dd>
+            <dt>X + 十字キー</dt><dd>高速なカーソル移動</dd>
+            <dt>アナログスティック</dt><dd>カーソル速度を調整</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+      <div class="span4">
+        <h2>
+          {{#language_en}}
+            During Game
+          {{/language_en}}
+          {{#language_ja}}
+            ゲーム中
+          {{/language_ja}}
+        </h2>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>X Button</dt><dd>NES B Button.</dd>
+            <dt>A Button</dt><dd>NES A Button.</dd>
+            <dt>Y Button</dt><dd>NES Select.</dd>
+            <dt>START</dt><dd>NES Start.</dd>
+            <dt>D-pad</dt><dd>NES D-pad.</dd>
+            <dt>
+              L Trigger
+            </dt>
+            <dd>
+              Toggle rapid fire.
+              (You can confirm the status of rapid fire at VMU LCD.)
+            </dd>
+            <dt>L + R + START</dt><dd>Exit game.</dd>
+            <dt>R + B</dt><dd>Quick state save menu.</dd>
+            <dt>R + Y</dt><dd>VMU state save menu.</dd>
+            <dt>
+              R + X
+            </dt>
+            <dd>
+              System menu.
+              <ul>
+                <li>Reset.</li>
+                <li>Change disk side on FDS.</li>
+              </ul>
+            </dd>
+            <dt>
+              R + A
+            </dt>
+            <dd>
+              Option menu.
+              <ul>
+                <li>Rapid fire setting.</li>
+                <li>Adjust screen setting.</li>
+              </ul>
+            </dd>
+            <dt>R + START</dt><dd>Cheat menu.</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>Xボタン</dt><dd>ファミコンのBボタン</dd>
+            <dt>Aボタン</dt><dd>ファミコンのAボタン</dd>
+            <dt>Yボタン</dt><dd>ファミコンのセレクトボタン</dd>
+            <dt>START</dt><dd>ファミコンのスタートボタン</dd>
+            <dt>十字キー</dt><dd>ファミコンの十字キー</dd>
+            <dt>Lトリガー</dt>
+            <dd>
+              連射モードの切り換え
+              （VMUの液晶で連射モードの状態を確認できます。）
+            </dd>
+            <dt>L + R + START</dt><dd>ゲームを終了</dd>
+            <dt>R + B</dt><dd>クイックステートセーブメニュー</dd>
+            <dt>R + Y</dt><dd>VMUステートセーブメニュー</dd>
+            <dt>
+              R + X
+            </dt>
+            <dd>
+              システムメニュー
+              <ul>
+                <li>リセット</li>
+                <li>ディスクシステムのA面、B面切り替え</li>
+              </ul>
+            </dd>
+            <dt>
+              R + A
+            </dt>
+            <dd>
+              オプションメニュー
+              <ul>
+                <li>連射の設定</li>
+                <li>画面の調整</li>
+              </ul>
+            </dd>
+            <dt>R + Y</dt><dd>チートメニュー</dd>
+          {{/language_ja}}
+        </dl>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>Analog stick</dt>
+            <dd>
+              Adjust frame skip.
+              (You can confirm the status of frame skip at VMU LCD.)
+            </dd>
+            <dt>Analog-Up</dt><dd>no skip</dd>
+            <dt>Analog-Down</dt><dd>x2.0</dd>
+            <dt>Analog-Right</dt><dd>x1.0</dd>
+            <dt>Analog-Left</dt><dd>x1.5</dd>
+            <dt>R + Analog-Left</dt><dd>x4.0</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>アナログスティック</dt>
+            <dd>
+              フレームスキップの変更
+              （VMUの液晶でフレームスキップの状態を確認できます。）
+            </dd>
+            <dt>アナログ上</dt><dd>スキップなし</dd>
+            <dt>アナログ下</dt><dd>2倍速</dd>
+            <dt>アナログ右</dt><dd>等速</dd>
+            <dt>アナログ左</dt><dd>1.5倍速</dd>
+            <dt>R + アナログ左</dt><dd>4倍速</dd>
+          {{/language_ja}}
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>

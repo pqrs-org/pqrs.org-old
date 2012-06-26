@@ -1,0 +1,40 @@
+<div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Donation
+        {{/language_en}}
+        {{#language_ja}}
+          寄付
+        {{/language_ja}}
+      </h1>
+    </div>
+    <p>
+      {{#language_en}}
+        I accept donations by PayPal.
+        You can donate from one of the following buttons.
+      {{/language_en}}
+      {{#language_ja}}
+        PayPalにて寄付を受け付けています。以下のいずれかのボタンから寄付できます。
+      {{/language_ja}}
+    </p>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_donations"/>
+    <input type="hidden" name="business" value="tekezo@pqrs.org"/>
+    <input type="hidden" name="lc" value="US"/>
+    <input type="hidden" name="item_name" value="KeyRemap4MacBook"/>
+    <input type="hidden" name="no_note" value="0"/>
+    <input type="hidden" name="currency_code" value="USD"/>
+    <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
+
+    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+    </form>
+
+    <p>
+      <a href='http://www.pledgie.com/campaigns/11108'><img alt='Click here to lend your support to: KeyRemap4MacBook and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/11108.png?skin_name=chrome' border='0' /></a>
+    </p>
+  </section>
+</div>

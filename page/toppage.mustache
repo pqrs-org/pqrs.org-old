@@ -1,0 +1,26 @@
+<div class="container">
+  {{#sections}}
+    <section id="{{id}}">
+      <div class="page-header">
+        <h1>{{name}}</h1>
+      </div>
+      <div class="row">
+        {{#items}}
+          <div class="span4">
+            <h2 style="white-space: nowrap">
+              {{#strip_html}}
+                <a href="{{link}}">
+                  {{#icon}}
+                    <img src="{{icon}}" alt="{{name}}" width="32" height="32" />
+                  {{/icon}}
+                  {{name}}
+                </a>
+              {{/strip_html}}
+            </h2>
+            {{{body_l10n}}}
+          </div>
+        {{/items}}
+      </div>
+    </section>
+  {{/sections}}
+</div>
