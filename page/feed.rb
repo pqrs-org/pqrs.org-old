@@ -7,9 +7,9 @@ class Feed < PqrsBase
   def title
     case @language
     when :en
-      'pqrs.org: Recently Update Pages'
+      'pqrs.org News Feed'
     when :ja
-      'pqrs.org: 最近更新したページ'
+      'pqrs.org News Feed'
     end
   end
 
