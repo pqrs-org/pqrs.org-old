@@ -148,6 +148,45 @@
     </section>
   {{/current_tab_general}}
 
+  {{#current_tab_trackpad}}
+    <section>
+      <h2>
+        {{#language_en}}
+          Swipe gesture in Safari does not work properly when I activated "simultaneous key presses remapping".
+          What should I do?
+        {{/language_en}}
+        {{#language_ja}}
+          「キーの同時押しのリマッピング」を有効にしているとSafariでのスワイプが動作しません。どうすれば良いですか？
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          Please activate "General > Don't remap Apple's pointing devices".
+        {{/language_en}}
+        {{#language_ja}}
+          「General > Don't remap Apple's pointing devices」の設定を有効にしてください。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          "Simultaneous key presses remapping" brings a delay into keyboard and pointing device events to detect simultaneous presses.
+          And this delay breaks some gestures unfortunately.
+        {{/language_en}}
+        {{#language_ja}}
+          「キーの同時押しのリマッピング」は同時押しを検出するために、キーボードやポインティングデバイスのイベントに対して遅延をもたらします。。残念ながら、この遅延はいくつかのジェスチャーを動かなくさせます。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          This above setting disables a delay of pointing device events and solves this gesture issue.
+        {{/language_en}}
+        {{#language_ja}}
+          上記の設定はポインティングデバイスのイベントへの遅延を無効にして、このジェスチャーの問題を解決します。
+        {{/language_ja}}
+      </p>
+    </section>
+  {{/current_tab_trackpad}}
+
   {{#current_tab_capslock}}
     <section>
       <h2>
