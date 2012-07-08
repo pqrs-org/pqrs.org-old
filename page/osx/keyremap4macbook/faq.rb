@@ -23,8 +23,8 @@ class Faq < Keyremap4macbookBase
        :tab => 'trackpad',
        :href => '/macosx/keyremap4macbook/faq-trackpad.html',
        :name_l10n => {
-         :en => 'Trackpad',
-         :ja => 'Trackpad',
+         :en => 'trackpad',
+         :ja => 'trackpad',
        }
      },
      {
