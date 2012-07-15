@@ -102,6 +102,54 @@
     </section>
   {{/current_tab_uninstall}}
 
+  {{#current_tab_faq}}
+    <section>
+      <h2>
+        {{#language_en}}
+          NoEjectDelay does not work on developer-only beta of OS X. Why?
+        {{/language_en}}
+        {{#language_ja}}
+          NoEjectDelayが開発者向けのベータ版のOS Xで動作しません。なぜですか？
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          We need to modify secret values of OS X to performs purpose of NoEjectDelay.
+        {{/language_en}}
+        {{#language_ja}}
+          NoEjectDelayの機能を実現させるにはOS Xの隠された値を変更する必要があります。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          However, we cannot access those secret values via SDK which Apple provides.
+          We need source code of OS X to modify these values.
+        {{/language_en}}
+        {{#language_ja}}
+          しかし、Appleが提供するSDKからは隠されたにアクセスすることはできません。これらの値を変更するには、OS Xのソースコードが必要です。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          This source code will not be published until new OS X is shipped.
+          Therefore, NoEjectDelay is intentionally disabled on beta version of OS X.
+        {{/language_en}}
+        {{#language_ja}}
+          このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          Please wait until new OS X is shipped from Apple.
+          And please wait new version of NoEjectDelay for new OS X.
+        {{/language_en}}
+        {{#language_ja}}
+          Appleから新しいOS Xがリリースされ、新しいOS X向けのNoEjectDelayがリリースされるまでお待ちください。
+        {{/language_ja}}
+      </p>
+    </section>
+  {{/current_tab_faq}}
+
   {{#current_tab_history}}
     <section>
       {{#histories}}
