@@ -28,6 +28,14 @@ class Pckeyboardhack < Keyremap4macbookBase
        }
      },
      {
+       :tab => 'faq',
+       :href => '/macosx/keyremap4macbook/pckeyboardhack-faq.html',
+       :name_l10n => {
+         :en => 'Q&A',
+         :ja => 'Q&A',
+       }
+     },
+     {
        :tab => 'history',
        :href => '/macosx/keyremap4macbook/pckeyboardhack-history.html',
        :name_l10n => {
