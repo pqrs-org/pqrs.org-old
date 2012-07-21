@@ -80,25 +80,49 @@
 
   {{#current_tab_uninstall}}
     <section>
-      <p>
-        {{#language_en}}
-          Execute the following commands in Terminal.app.
-        {{/language_en}}
-        {{#language_ja}}
-          以下のコマンドをTerminal.appで実行してください。
-        {{/language_ja}}
-      </p>
-      <pre>{{#strip_lines}}
-        $ sudo /Library/org.pqrs/NoEjectDelay/extra/uninstall.sh
-      {{/strip_lines}}</pre>
-      <p>
-        {{#language_en}}
-          Then restart OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          その後にOS Xを再起動してください。
-        {{/language_ja}}
-      </p>
+      <ol>
+        <li>
+          {{#language_en}}
+            Download <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelay Uninstaller</a>.
+          {{/language_en}}
+          {{#language_ja}}
+            <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
+          {{/language_ja}}
+        </li>
+        <li>
+          {{#language_en}}
+            Execute uninstaller.
+          {{/language_en}}
+          {{#language_ja}}
+            アンインストーラを実行してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span3">
+              {{#lightbox}}
+                img/noejectdelayuninstaller1.png NoEjectDelay Uninstaller
+              {{/lightbox}}
+            </div>
+            <div class="span3">
+              {{#lightbox}}
+                img/noejectdelayuninstaller2.png NoEjectDelay Uninstaller
+              {{/lightbox}}
+            </div>
+            <div class="span3">
+              {{#lightbox}}
+                img/noejectdelayuninstaller3.png NoEjectDelay Uninstaller
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then restart OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            その後にOS Xを再起動してください。
+          {{/language_ja}}
+        </li>
+      </ol>
     </section>
   {{/current_tab_uninstall}}
 
