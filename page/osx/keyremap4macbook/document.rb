@@ -12,16 +12,8 @@ class Document < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'install',
-       :href => '/macosx/keyremap4macbook/document.html',
-       :name_l10n => {
-         :en => 'how to install',
-         :ja => 'インストール',
-       }
-     },
-     {
        :tab => 'remapping',
-       :href => '/macosx/keyremap4macbook/document-remapping.html',
+       :href => '/macosx/keyremap4macbook/document.html',
        :name_l10n => {
          :en => 'remapping keys',
          :ja => 'キーリマップ',
