@@ -17,6 +17,26 @@ class Feed < PqrsBase
     data = [
             {
               :item_title_l10n => {
+                :en => 'NoEjectDelay-4.0.0 has been released',
+                :ja => 'NoEjectDelay-4.0.0リリース',
+              },
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
+              :updated => '2012-08-06',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Update for OS X 10.8 Mountain Lion.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.8 Mountain Lionに対応しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
+              :item_title_l10n => {
                 :en => 'KeyRemap4MacBook-7.8.0 has been released',
                 :ja => 'KeyRemap4MacBook-7.8.0リリース',
               },
