@@ -12,8 +12,16 @@ class Noejectdelay < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'howtouse',
+       :tab => 'installation',
        :href => '/macosx/keyremap4macbook/noejectdelay.html',
+       :name_l10n => {
+         :en => 'Installation',
+         :ja => 'インストール方法',
+       }
+     },
+     {
+       :tab => 'howtouse',
+       :href => '/macosx/keyremap4macbook/noejectdelay-usage.html',
        :name_l10n => {
          :en => 'How to use',
          :ja => '使い方',
