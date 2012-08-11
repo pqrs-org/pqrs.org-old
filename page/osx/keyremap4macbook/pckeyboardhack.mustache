@@ -253,43 +253,56 @@
 
   {{#current_tab_uninstall}}
     <section>
-      <div class="row">
-        <div class="span8">
-          <h2>Step1</h2>
-          <p>
-            {{#language_en}}
-              Press the "Launch uninstaller" button in PCKeyboardHack Preferences.
-            {{/language_en}}
-            {{#language_ja}}
-              環境設定パネルの「Launch uninstaller」ボタンを押してください。
-            {{/language_ja}}
-          </p>
-        </div>
-        <div class="span4">
-          {{#lightbox}}
-            img/uninstaller_pkh1.png PCKeyboardHack
-          {{/lightbox}}
-        </div>
-      </div>
-      <br />
-      <div class="row">
-        <div class="span8">
-          <h2>Step2</h2>
-          <p>
-            {{#language_en}}
-              Press the "uninstall" button on the uninstaller.
-            {{/language_en}}
-            {{#language_ja}}
-              アンインストーラの「uninstall」ボタンを押してください。
-            {{/language_ja}}
-          </p>
-        </div>
-        <div class="span4">
-          {{#lightbox}}
-            img/uninstaller_pkh2.png uninstaller
-          {{/lightbox}}
-        </div>
-      </div>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Press the "Launch uninstaller" button in PCKeyboardHack Preferences.
+          {{/language_en}}
+          {{#language_ja}}
+            環境設定パネルの「Launch uninstaller」ボタンを押してください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/uninstaller_pkh1.png PCKeyboardHack
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Proceed uninstallation.
+          {{/language_en}}
+          {{#language_ja}}
+            アンインストールを進めてください。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span3">
+              {{#lightbox}}
+                img/pckeyboardhackuninstaller1.png PCKeyboardHack Uninstaller
+              {{/lightbox}}
+            </div>
+            <div class="span3">
+              {{#lightbox}}
+                img/pckeyboardhackuninstaller2.png PCKeyboardHack Uninstaller
+              {{/lightbox}}
+            </div>
+            <div class="span3">
+              {{#lightbox}}
+                img/pckeyboardhackuninstaller3.png PCKeyboardHack Uninstaller
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Then restart OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            その後にOS Xを再起動してください。
+          {{/language_ja}}
+        </li>
+      </ol>
     </section>
   {{/current_tab_uninstall}}
 
