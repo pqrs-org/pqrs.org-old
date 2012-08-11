@@ -49,6 +49,22 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.0.0',
+              :updated => '2012-08-11',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Update for OS X 10.8 Mountain Lion.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.8 Mountain Lionに対応しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '7.4.0',
               :updated => '2012-04-24',
               :body_l10n => {
