@@ -101,49 +101,51 @@
         {{/language_ja}}
       </p>
 
-      <h2>
-        {{#language_en}}
-          KeyRemap4MacBook does not work (or Prefs is empty) after boot on OS X 10.7. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          Lion (OS X 10.7)で起動直後に動作せず、設定画面が空になります。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          "Resume" feature introduced by Lion delays launching apps at login.
-        {{/language_en}}
-        {{#language_ja}}
-          Lionで導入された「再開」機能によって多数のアプリケーションが再開される場合、ログイン時に起動するアプリケーションの実行が遅れる場合があります。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          Until KeyRemap4MacBook.app is launched at login,
-          the keyboard layout is not changed and KeyRemap4MacBook Prefs is empty.
-        {{/language_en}}
-        {{#language_ja}}
-          ログイン時にKeyRemap4MacBookアプリが起動するまではキーが変換されませんし、設定画面が空になります。
-        {{/language_ja}}
-      </p>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/empty.png preferences pane
-          {{/lightbox}}
+      <div id="atlogin">
+        <h2>
+          {{#language_en}}
+            KeyRemap4MacBook does not work (or Prefs is empty) after boot on OS X 10.7. What should I do?
+          {{/language_en}}
+          {{#language_ja}}
+            Lion (OS X 10.7)で起動直後に動作せず、設定画面が空になります。どうすれば良いですか？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            "Resume" feature introduced by Lion delays launching apps at login.
+          {{/language_en}}
+          {{#language_ja}}
+            Lionで導入された「再開」機能によって多数のアプリケーションが再開される場合、ログイン時に起動するアプリケーションの実行が遅れる場合があります。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            Until KeyRemap4MacBook.app is launched at login,
+            the keyboard layout is not changed and KeyRemap4MacBook Prefs is empty.
+          {{/language_en}}
+          {{#language_ja}}
+            ログイン時にKeyRemap4MacBookアプリが起動するまではキーが変換されませんし、設定画面が空になります。
+          {{/language_ja}}
+        </p>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/empty.png preferences pane
+            {{/lightbox}}
+          </div>
         </div>
-      </div>
-      <br />
-      <p>
-        {{#language_en}}
-          Please wait a minute until menu of KeyRemap4MacBook is shown.
-        {{/language_en}}
-        {{#language_ja}}
-          起動が完了するとメニューが表示されますので、それまで1分ほどお待ちください。
-        {{/language_ja}}
         <br />
-        <img alt="menu" {{#imgsrc}}img/menu.png{{/imgsrc}} />
-      </p>
+        <p>
+          {{#language_en}}
+            Please wait a minute until menu of KeyRemap4MacBook is shown.
+          {{/language_en}}
+          {{#language_ja}}
+            起動が完了するとメニューが表示されますので、それまで1分ほどお待ちください。
+          {{/language_ja}}
+          <br />
+          <img alt="menu" {{#imgsrc}}img/menu.png{{/imgsrc}} />
+        </p>
+      </div>
 
     </section>
   {{/current_tab_general}}
