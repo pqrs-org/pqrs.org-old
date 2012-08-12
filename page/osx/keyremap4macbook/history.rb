@@ -150,7 +150,7 @@ EOS
   <li>Some improvements on Mac OS X 10.7 (Lion).</li>
   <li>
     Removed "General &gt; Enable CapsLock LED Hack" from preferences.<br />
-    If you're using this setting for PCKeyboardHack, use <a href="pckeyboardhack.html.en#noaction">"No Action" configuration</a> instead.
+    If you're using this setting for PCKeyboardHack, use <a href="pckeyboardhack-usage.html.en#noaction">"No Action" configuration</a> instead.
   </li>
   <li>
     Cleaned up "Simultaneous Vi Mode".<br />
@@ -177,7 +177,7 @@ EOS
   <li>Mac OS X 10.7での動作を改善しました。</li>
   <li>
     「General &gt; Enable CapsLock LED Hack」の設定を削除しました。<br />
-    PCKeyboardHackのためにこの設定を使っている場合は、<a href="pckeyboardhack.html.ja#noaction">「アクションなし」の方法</a>に変更してください。
+    PCKeyboardHackのためにこの設定を使っている場合は、<a href="pckeyboardhack-usage.html.ja#noaction">「アクションなし」の方法</a>に変更してください。
   </li>
   <li>
     「Simultaneous Vi Mode」を整理しました。<br />
