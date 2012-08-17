@@ -800,5 +800,128 @@
         </li>
       </ol>
     </section>
+
+    <section id="debugmode">
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Debug Mode
+          {{/language_en}}
+          {{#language_ja}}
+            デバッグモード
+          {{/language_ja}}
+        </h1>
+      </div>
+      <p>
+        {{#language_en}}
+          You can investigate a normal key code by <a href="document-eventviewer.html.en">EventViewer</a>.
+          <br />
+          However, you cannot investigate key events which will be processed on the system side,
+          such as Command + Tab, brightness controls and volume controls.
+        {{/language_en}}
+        {{#language_ja}}
+          通常のキーイベントは<a href="document-eventviewer.html.ja">EventViewer</a>で確認することが出来ます。
+          <br />
+          しかし、輝度や音量のコントロールやCommand+Tabなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
+        {{/language_ja}}
+      </p>
+
+      <p>
+        {{#language_en}}
+          You have to enable debug mode in order to show these system key events.
+        {{/language_en}}
+        {{#language_ja}}
+          これらのシステムキーイベントを表示するために、デバッグモードを有効にする必要があります。
+        {{/language_ja}}
+      </p>
+
+      <ol>
+        <li>
+          {{#language_en}}
+            Run the following command in Terminal.app.
+          {{/language_en}}
+          {{#language_ja}}
+            以下のコマンドをTerminal.appで実行します。
+          {{/language_ja}}
+
+          <pre>{{#strip_indented_lines}}
+            |$ sudo sysctl -w keyremap4macbook.debug=1
+            |Password: &lt;enter your password&gt;
+          {{/strip_indented_lines}}</pre>
+        </li>
+
+        <li>
+          {{#language_en}}
+            Then, key events are output to log.
+            <br />
+            You can show log by running this command in Terminal.app.
+          {{/language_en}}
+          {{#language_ja}}
+            そうすると、ログにキーイベントが出力されます。
+            <br />
+            あなたは、Terminal.appで次のコマンドを実行してログを表示することができます。
+          {{/language_ja}}
+
+          <div>
+            <span class="label label-note">
+              OS X 10.8+
+            </span>
+
+            <pre>{{#strip_indented_lines}}
+              |$ sudo tail -f /var/log/system.log
+              |Password: &lt;enter your password&gt;
+            {{/strip_indented_lines}}</pre>
+          </div>
+
+          <div>
+            <span class="label label-note">
+              OS X 10.7
+            </span>
+
+            <pre>{{#strip_indented_lines}}
+              |$ sudo tail -f /var/log/kernel.log
+              |Password: &lt;enter your password&gt;
+            {{/strip_indented_lines}}</pre>
+          </div>
+        </li>
+
+        <li>
+          {{#language_en}}
+            The following messages are shown when you press keys.
+          {{/language_en}}
+          {{#language_ja}}
+            キーを押すたびに以下のようなログが表示されます。
+          {{/language_ja}}
+
+          <pre>{{#strip_indented_lines}}
+            |Aug 18 03:09:45 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80000000, key   55, kbdType  43, repeat = 0
+            |Aug 18 03:09:45 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [sending]: eventType 11, flags 0x00040001, key   40, kbdType  43, repeat = 0
+          {{/strip_indented_lines}}</pre>
+        </li>
+
+        <li>
+          {{#language_en}}
+            Press the C key while holding down the Control key to stop the message.
+          {{/language_en}}
+          {{#language_ja}}
+            メッセージを停止するには、Controlキーを押しながらCキーを押します。
+          {{/language_ja}}
+        </li>
+
+        <li>
+          {{#language_en}}
+            Disable debug mode by running this command in Terminal.app.
+          {{/language_en}}
+          {{#language_ja}}
+            以下のコマンドでデバッグモードを終了してください。
+          {{/language_ja}}
+
+          <pre>{{#strip_indented_lines}}
+            |$ sudo sysctl -w keyremap4macbook.debug=0
+            |Password: &lt;enter your password&gt;
+          {{/strip_indented_lines}}</pre>
+        </li>
+      </ol>
+    </section>
   {{/current_tab_misc}}
 </div>
