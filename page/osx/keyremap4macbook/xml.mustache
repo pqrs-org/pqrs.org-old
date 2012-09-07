@@ -651,6 +651,32 @@
       {{/indented_xml}}
     </section>
 
+    <section id="dropbox">
+      <div class="page-header">
+        <h1>&lt;include&gt; with Dropbox</h1>
+      </div>
+      <p>
+        You can synchronize your private.xml by Dropbox or other file syncing service.
+      </p>
+      <h2>private.xml</h2>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <include path="../../../Dropbox/private/KeyRemap4MacBook/core.xml" />
+        |</root>
+      {{/indented_xml}}
+
+      <h2>Dropbox/private/KeyRemap4MacBook/core.xml</h2>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <item>
+        |    <name>Dropbox Test!</name>
+        |  </item>
+        |</root>
+      {{/indented_xml}}
+    </section>
+
     <section id="replacementdef">
       <div class="page-header">
         <h1>&lt;include&gt; with &lt;replacementdef&gt;</h1>
