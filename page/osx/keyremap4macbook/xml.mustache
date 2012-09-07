@@ -618,6 +618,107 @@
         You can also overwrite existent device definitions by private.xml.
       </p>
     </section>
+
+    <section id="locationid">
+      <div class="page-header">
+        <h1>How to distinguish multiple devices which have same Vendor ID and Product ID</h1>
+      </div>
+      <p>
+        Since KeyRemap4MacBook-7.8.19,
+        you can use "Location ID" in order to distinguish multiple devices which have same Vendor ID and Product ID.
+      </p>
+      <h2>Learn about "Location ID"</h2>
+      <ul>
+        <li>"Location ID" is an unique identifier even if devices have same Vendor ID and Product ID.</li>
+        <li>The behavior of "Location ID" is different for each type of device.</li>
+      </ul>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th>
+              Device Type
+            </th>
+            <th>
+              What's Location ID?
+            </th>
+            <th>
+              Is immutable?
+            </th>
+          </tr>
+          <tr>
+            <td>
+              USB Device
+            </td>
+            <td>
+              Location ID is determined by USB port.
+            </td>
+            <td>
+              This value will be changed when you pull out USB device and plug it into other USB port.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Bluetooth Device
+            </td>
+            <td>
+              Location ID is determined by Bluetooth Address.
+            </td>
+            <td>
+              This value is immutable.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Examine Location ID</h2>
+      <p>
+        You can examin Location ID by <a href="document-eventviewer.html.{{language}}">EventViewer</a>.
+      </p>
+
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/eventviewer-locationid.png Location ID
+          {{/lightbox}}
+        </div>
+      </div>
+
+      <h2>Location ID in XML</h2>
+      <p>
+        You can specify Location ID like this.
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <devicevendordef>
+        |    <vendorname>HEWLETT_PACKARD</vendorname>
+        |    <vendorid>0x03f0</vendorid>
+        |  </devicevendordef>
+        |
+        |  <deviceproductdef>
+        |    <productname>MY_HP_KEYBOARD</productname>
+        |    <productid>0x0224</productid>
+        |  </deviceproductdef>
+        |
+        |  <devicelocationdef>
+        |    <locationname>MY_HP_KEYBOARD_PRIMARY</locationname>
+        |    <locationid>0xfa120000</locationid>
+        |  </devicelocationdef>
+        |
+        |  <item>
+        |    <name>Space to Tab in MY_HP_KEYBOARD</name>
+        |    <identifier>private.deviceproductdef</identifier>
+        |    <device_only>
+        |      DeviceVendor::HEWLETT_PACKARD,
+        |      DeviceProduct::MY_HP_KEYBOARD,
+        |      DeviceLocation::MY_HP_KEYBOARD_PRIMARY,
+        |    </device_only>
+        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+        |  </item>
+        |
+        |</root>
+      {{/indented_xml}}
+    </section>
   {{/current_tab_devicedef}}
 
   {{#current_tab_include}}
