@@ -860,7 +860,7 @@
         |  <item>
         |    <name>Change space to tab except in my ignore apps.</name>
         |    <identifier>private.space_to_tab_except_my_ignore_apps</identifier>
-        |    <only>{{curly}} MY_IGNORE_APPS }}</only>
+        |    <not>{{curly}} MY_IGNORE_APPS }}</not>
         |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
         |  </item>
         |</root>
@@ -870,7 +870,7 @@
       </p>
 
       {{#indented_xml}}
-        |<only>{{curly}} MY_IGNORE_APPS }}</only>
+        |<not>{{curly}} MY_IGNORE_APPS }}</not>
         |
         |<!-- ↑ is replaced to ↓ -->
         |
