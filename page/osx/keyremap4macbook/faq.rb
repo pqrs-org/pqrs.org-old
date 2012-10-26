@@ -51,6 +51,14 @@ class Faq < Keyremap4macbookBase
          :ja => 'ejectキー',
        }
      },
+     {
+       :tab => 'power',
+       :href => '/macosx/keyremap4macbook/faq-power.html',
+       :name_l10n => {
+         :en => 'power key',
+         :ja => '電源ボタン',
+       }
+     },
     ]
   end
 end
