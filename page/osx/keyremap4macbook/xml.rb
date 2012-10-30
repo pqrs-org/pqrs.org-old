@@ -48,6 +48,14 @@ class Xml < Keyremap4macbookBase
        }
      },
      {
+       :tab => 'inputsource',
+       :href => '/macosx/keyremap4macbook/xml-inputsource.html',
+       :name_l10n => {
+         :en => 'input source',
+         :ja => 'input source',
+       }
+     },
+     {
        :tab => 'include',
        :href => '/macosx/keyremap4macbook/xml-include.html',
        :name_l10n => {
