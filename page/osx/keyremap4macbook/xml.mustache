@@ -730,6 +730,186 @@
     </section>
   {{/current_tab_devicedef}}
 
+  {{#current_tab_inputsource}}
+    <section>
+      <div class="page-header">
+        <h1>Functions</h1>
+      </div>
+      <p>
+        There are two functions related with input source.
+      </p>
+      <ul>
+        <li><a href="#vkchangeinputsourcedef">Change input source by virtual key code.</a></li>
+        <li><a href="#inputsourceonly">You can define settings which are effective on specific input source only.</a></li>
+      </ul>
+    </section>
+
+    <section id="vkchangeinputsourcedef">
+      <div class="page-header">
+        <h1>Change input source by virtual key code.</h1>
+      </div>
+
+      <h2>An example</h2>
+      <p>
+        This private.xml changes input source to Dvorak by <span class="label">Right Shift Key + D</span>.
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <vkchangeinputsourcedef>
+        |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK</name>
+        |    <inputsourceid_equal>com.apple.keylayout.Dvorak</inputsourceid_equal>
+        |  </vkchangeinputsourcedef>
+        |
+        |  <item>
+        |    <name>Change input source to Dvorak by right shift key + D</name>
+        |    <identifier>private.change_input_source_to_dvorak</identifier>
+        |    <autogen>
+        |      --KeyToKey--
+        |      KeyCode::D, ModifierFlag::SHIFT_R,
+        |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
+        |    </autogen>
+        |  </item>
+        |</root>
+      {{/indented_xml}}
+
+      <h2>Virtual key code definition</h2>
+      <p>
+        You can define new virtual key code by <code>&lt;vkchangeinputsourcedef&gt;</code>.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <code>&lt;name&gt;</code> is a name of virtual key code.
+            This name must be started with <code>KeyCode::VK_CHANGE_INPUTSOURCE_</code>.
+            <br />
+            For example, <code>&lt;name&gt;KeyCode::VK_CHANGE_INPUTSOURCE_YOUR_LANGUAGE&lt;/name&gt;</code>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>&lt;inputsourceid_equal&gt;</code> is a input source id of target input source.
+            <br />
+            <a href="#inputsourceid">How to examine input source id.</a>
+          </p>
+        </li>
+      </ul>
+
+      <h2>Prepared virtual key code definitions</h2>
+      <p>
+        KeyRemap4MacBook provides
+        <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
+        <br />
+        You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
+      </p>
+    </section>
+
+    <section id="inputsourceonly">
+      <div class="page-header">
+        <h1>Settings which are effective on specific input source only.</h1>
+      </div>
+
+      <h2>An example</h2>
+      <p>
+        This private.xml exchanges space key and tab key on Dvorak.
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <inputsourcedef>
+        |    <name>MY_DVORAK</name>
+        |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+        |  </inputsourcedef>
+        |
+        |  <item>
+        |    <name>Swap Space and Tab</name>
+        |    <identifier>private.app_safari_swap_space_and_tab</identifier>
+        |    <inputsource_only>MY_DVORAK</inputsource_only>
+        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+        |  </item>
+        |</root>
+      {{/indented_xml}}
+
+      <h2>Steps</h2>
+      <ol class="steps">
+        <li>
+          <p>
+            Examine Input Source ID of target input source.
+            <br />
+            <a href="#inputsourceid">How to examine input source id.</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Add <code>&lt;inputsourcedef&gt;</code> your private.xml.
+          </p>
+          {{#indented_xml}}
+            |<?xml version="1.0"?>
+            |<root>
+            |  <inputsourcedef>
+            |    <name>MY_DVORAK</name>
+            |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+            |  </inputsourcedef>
+            |</root>
+          {{/indented_xml}}
+        </li>
+        <li>
+          <p>
+            Then, you can use <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code> in private.xml.
+          </p>
+          {{#indented_xml}}
+            |<?xml version="1.0"?>
+            |<root>
+            |  <inputsourcedef>
+            |    <name>MY_DVORAK</name>
+            |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+            |  </inputsourcedef>
+            |
+            |  <item>
+            |    <name>Swap Space and Tab</name>
+            |    <identifier>private.app_safari_swap_space_and_tab</identifier>
+            |    <inputsource_only>MY_DVORAK</inputsource_only>
+            |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+            |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+            |  </item>
+            |</root>
+          {{/indented_xml}}
+        </li>
+      </ol>
+
+      <h2>Prepared input source definitions</h2>
+      <p>
+        KeyRemap4MacBook provides <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
+        <br />
+        You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
+      </p>
+    </section>
+
+    <section id="inputsourceid">
+      <div class="page-header">
+        <h1>How to examine input source id</h1>
+      </div>
+      <p>
+        You can examine input source id by Event Viewer.
+      </p>
+      <ol>
+        <li>Launch <a href="document-eventviewer.html.{{ language }}">Event Viewer</a>.</li>
+        <li>Switch input source into target input source.</li>
+        <li>Switch input source into other input source.</li>
+        <li>Again, switch input source into target input source.</li>
+        <li>See <span class="label">Input Source ID</span> in Event Viewer.</li>
+      </ol>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/eventviewer-inputsource.png Event Viewer
+          {{/lightbox}}
+        </div>
+      </div>
+    </section>
+  {{/current_tab_inputsource}}
+
   {{#current_tab_include}}
     <section>
       <div class="page-header">
