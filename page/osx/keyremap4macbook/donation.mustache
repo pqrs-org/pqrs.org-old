@@ -20,18 +20,40 @@
       {{/language_ja}}
     </p>
 
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_donations"/>
-    <input type="hidden" name="business" value="tekezo@pqrs.org"/>
-    <input type="hidden" name="lc" value="US"/>
-    <input type="hidden" name="item_name" value="KeyRemap4MacBook"/>
-    <input type="hidden" name="no_note" value="0"/>
-    <input type="hidden" name="currency_code" value="USD"/>
-    <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
+    <hr />
 
-    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-    </form>
+    <h2>PayPal</h2>
+
+    <div class="clearfix">
+      <img class="pull-left" src="https://www.paypalobjects.com/en_US/i/logo/PayPal_mark_180x113.gif" alt="PayPal" style="margin-right: 20px" />
+
+      <div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_xclick"/>
+        <input type="hidden" name="business" value="tekezo@pqrs.org"/>
+        <input type="hidden" name="lc" value="US"/>
+        <input type="hidden" name="item_name" value="KeyRemap4MacBook"/>
+        <input type="hidden" name="no_note" value="0"/>
+        <input type="hidden" name="currency_code" value="USD"/>
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
+
+        <select name="amount" class="span2">
+          <option value="10.00">$10</option>
+          <option value="20.00">$20</option>
+          <option value="30.00">$30</option>
+          <option value="40.00">$40</option>
+          <option value="50.00">$50</option>
+          <option value="">Other</option>
+        </select>
+        <br />
+        <button type="submit" class="btn">Open PayPal Payments Form</button>
+        </form>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Pledgie</h2>
 
     <p>
       <a href='http://www.pledgie.com/campaigns/11108'><img alt='Click here to lend your support to: KeyRemap4MacBook and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/11108.png?skin_name=chrome' border='0' /></a>
