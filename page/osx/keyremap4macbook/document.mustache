@@ -57,6 +57,68 @@
           {{/lightbox}}
         </div>
       </div>
+
+      <div id="newprefs">
+        <h2>
+          {{#language_en}}
+            Since KeyRemap4MacBook-7.99.0
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBook-7.99.0以降
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            The preferences has been integrated into app since KeyRemap4MacBook-7.99.0.
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBook-7.99.0以降では、設定画面はアプリ内に統合されています。
+          {{/language_ja}}
+        </p>
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
+            {{/language_en}}
+            {{#language_ja}}
+              Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
+            {{/language_ja}}
+          </li>
+          <li>
+            <p>
+              {{#language_en}}
+                Click KeyRemap4MacBook.
+              {{/language_en}}
+              {{#language_ja}}
+                KeyRemap4MacBookをクリックしてください。
+              {{/language_ja}}
+            </p>
+            <p>
+              <img
+              alt="launchpad"
+              {{#imgsrc}}
+                img/launchpad.png
+              {{/imgsrc}}
+              />
+            </p>
+          </li>
+          <li>
+            {{#language_en}}
+              Activate your favorite settings from prepared settings.
+            {{/language_en}}
+            {{#language_ja}}
+              お好みの設定を有効にしてください。
+            {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/preferences.png Preferences
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
     </section>
   {{/current_tab_remapping}}
 
@@ -758,6 +820,11 @@
       <p>
         <span class="label label-info">Note</span>
         reloadxml is available since version 7.8.40.
+      </p>
+      <p>
+        <span class="label label-info">Note</span>
+        Since version 7.99.4, KeyRemap4MacBook_cli is placed at
+        /Applications/KeyRemap4MacBook.app/Contents/Applications/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli
       </p>
 
       <h2>
