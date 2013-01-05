@@ -357,6 +357,55 @@
         |<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
       {{/indented_xml}}
     </section>
+
+    <section id="identifier">
+      <div class="page-header">
+        <h1>Type of identifier prefix</h1>
+      </div>
+
+      <p>
+        You can add a special behavior by using some prefix on &lt;identifier&gt;.
+      </p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>
+              Prefix
+            </th>
+            <th>
+              Behavior
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              notsave.
+            </td>
+            <td>
+              "notsave." prefix is designed for creating "mode".
+              <ul>
+                <li>This setting is not saved even if it was enabled.</li>
+                <li>This setting priority is higher than normal settings.</li>
+                <li>User cannot enable this setting by Preference. (Use KeyCode::VK_CONFIG_*.)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              passthrough.
+            </td>
+            <td>
+              "passthrough." prefix is designed for turning "Pass Through Mode" off.
+              <ul>
+                <li>This setting is effective even if in "Pass Through Mode".</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   {{/current_tab_basic}}
 
   {{#current_tab_appdef}}
