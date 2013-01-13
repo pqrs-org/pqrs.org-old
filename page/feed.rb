@@ -17,6 +17,48 @@ class Feed < PqrsBase
     data = [
             {
               :item_title_l10n => {
+                :en => 'PCKeyboardHack-9.0.0 has been released',
+                :ja => 'PCKeyboardHack-9.0.0リリース',
+              },
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.' + @language.to_s,
+              :updated => '2013-01-13',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>The preferences has been integrated into app.</li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定画面をアプリに統合しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
+              :item_title_l10n => {
+                :en => 'NoEjectDelay-4.1.0 has been released',
+                :ja => 'NoEjectDelay-4.1.0リリース',
+              },
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
+              :updated => '2013-01-13',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Fixed a minor issue in the installer.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>インストーラのささいな問題を修正しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
+              :item_title_l10n => {
                 :en => 'PCKeyboardHack-8.0.0 has been released',
                 :ja => 'PCKeyboardHack-8.0.0リリース',
               },
