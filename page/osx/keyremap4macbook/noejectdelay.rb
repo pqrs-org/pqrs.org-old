@@ -20,10 +20,10 @@ class Noejectdelay < Keyremap4macbookBase
        }
      },
      {
-       :tab => 'howtouse',
+       :tab => 'usage',
        :href => '/macosx/keyremap4macbook/noejectdelay-usage.html',
        :name_l10n => {
-         :en => 'How to use',
+         :en => 'Usage',
          :ja => '使い方',
        }
      },
@@ -31,7 +31,7 @@ class Noejectdelay < Keyremap4macbookBase
        :tab => 'uninstall',
        :href => '/macosx/keyremap4macbook/noejectdelay-uninstall.html',
        :name_l10n => {
-         :en => 'How to uninstall',
+         :en => 'Uninstall',
          :ja => 'アンインストール方法',
        }
      },
@@ -56,6 +56,22 @@ class Noejectdelay < Keyremap4macbookBase
 
   def histories
     data = [
+            {
+              :version => '4.1.0',
+              :updated => '2013-01-13',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Fixed a minor issue in the installer.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>インストーラのささいな問題を修正しました。</li>
+</ul>
+EOS
+              },
+            },
             {
               :version => '4.0.0',
               :updated => '2012-08-05',

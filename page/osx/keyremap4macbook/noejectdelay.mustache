@@ -17,12 +17,12 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-large"
-            href="files/NoEjectDelay-4.0.0.dmg">
+            href="files/NoEjectDelay-4.1.0.dmg">
             {{#language_en}}
-              Download NoEjectDelay-4.0.0
+              Download NoEjectDelay-4.1.0
             {{/language_en}}
             {{#language_ja}}
-              NoEjectDelay-4.0.0をダウンロード
+              NoEjectDelay-4.1.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label">
@@ -191,8 +191,19 @@
     </section>
   {{/current_tab_installation}}
 
-  {{#current_tab_howtouse}}
+  {{#current_tab_usage}}
     <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Usage
+          {{/language_en}}
+          {{#language_ja}}
+            使い方
+          {{/language_ja}}
+        </h1>
+      </div>
+
       <p>
         {{#language_en}}
           No configuration required.
@@ -204,10 +215,21 @@
         {{/language_ja}}
       </p>
     </section>
-  {{/current_tab_howtouse}}
+  {{/current_tab_usage}}
 
   {{#current_tab_uninstall}}
     <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Uninstall
+          {{/language_en}}
+          {{#language_ja}}
+            アンインストール方法
+          {{/language_ja}}
+        </h1>
+      </div>
+
       <ol>
         <li>
           {{#language_en}}
@@ -256,6 +278,17 @@
 
   {{#current_tab_faq}}
     <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Q&amp;A
+          {{/language_en}}
+          {{#language_ja}}
+            Q&amp;A
+          {{/language_ja}}
+        </h1>
+      </div>
+
       <h2>
         {{#language_en}}
           NoEjectDelay does not work on developer-only beta of OS X. Why?
@@ -304,6 +337,17 @@
 
   {{#current_tab_history}}
     <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Version History
+          {{/language_en}}
+          {{#language_ja}}
+            更新履歴
+          {{/language_ja}}
+        </h1>
+      </div>
+
       {{#histories}}
         <h2>
           Version {{version}}
