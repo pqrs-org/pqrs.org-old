@@ -20,10 +20,10 @@ class Pckeyboardhack < Keyremap4macbookBase
        }
      },
      {
-       :tab => 'howtouse',
+       :tab => 'usage',
        :href => '/macosx/keyremap4macbook/pckeyboardhack-usage.html',
        :name_l10n => {
-         :en => 'How to use',
+         :en => 'Usage',
          :ja => '使い方',
        }
      },
@@ -31,7 +31,7 @@ class Pckeyboardhack < Keyremap4macbookBase
        :tab => 'uninstall',
        :href => '/macosx/keyremap4macbook/pckeyboardhack-uninstall.html',
        :name_l10n => {
-         :en => 'How to uninstall',
+         :en => 'Uninstall',
          :ja => 'アンインストール方法',
        }
      },
@@ -56,6 +56,24 @@ class Pckeyboardhack < Keyremap4macbookBase
 
   def histories
     data = [
+            {
+              :version => '9.0.0',
+              :updated => '2013-01-13',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>The preferences has been integrated into app.</li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定画面をアプリに統合しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
             {
               :version => '8.0.0',
               :updated => '2012-08-11',

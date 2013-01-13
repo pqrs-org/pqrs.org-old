@@ -17,12 +17,12 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-large"
-            href="files/PCKeyboardHack-8.0.0.dmg">
+            href="files/PCKeyboardHack-9.0.0.dmg">
             {{#language_en}}
-              Download PCKeyboardHack-8.0.0
+              Download PCKeyboardHack-9.0.0
             {{/language_en}}
             {{#language_ja}}
-              PCKeyboardHack-8.0.0をダウンロード
+              PCKeyboardHack-9.0.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label">
@@ -97,6 +97,7 @@
           {{/language_ja}}
         </h1>
       </div>
+
       <div class="row show-grid">
         <div class="span4">
           <h2>Step1</h2>
@@ -177,141 +178,115 @@
     </section>
   {{/current_tab_installation}}
 
-  {{#current_tab_howtouse}}
+  {{#current_tab_usage}}
     <section>
+      <div class="page-header">
+        <h1>
+          {{#language_en}}
+            Usage
+          {{/language_en}}
+          {{#language_ja}}
+            使い方
+          {{/language_ja}}
+        </h1>
+      </div>
+
+      <h2>Step1</h2>
+      <p>
+        {{#language_en}}
+          Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
+        {{/language_en}}
+        {{#language_ja}}
+          Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          Then, click PCKeyboardHack.
+        {{/language_en}}
+        {{#language_ja}}
+          そして、PCKeyboardHackをクリックしてください。
+        {{/language_ja}}
+      </p>
       <div class="row">
-        <div class="span8">
-          <h2>Step1</h2>
-          <p>
-            {{#language_en}}
-              Open System Preferences &gt; PCKeyboardHack.
-            {{/language_en}}
-            {{#language_ja}}
-              システム環境設定のPCKeyboardHackから設定を行ないます。
-            {{/language_ja}}
-          </p>
-        </div>
         <div class="span4">
           {{#lightbox}}
-            img/preferencepane-pckeyboardhack.png System Preferences
+            img/pkh-launchpad-full.png Launchpad
           {{/lightbox}}
         </div>
+        <div class="span4">
+          <img
+          alt="icon"
+          {{#imgsrc}}
+            img/pkh-launchpad.png
+          {{/imgsrc}}
+          />
+        </div>
       </div>
+
       <br />
+
+      <p>
+        <span class="label label-info">Note</span>
+        {{#language_en}}
+          If you're using PCKeyboardHack 8.0.0 or earlier,
+          <a href="img/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
+        {{/language_en}}
+        {{#language_ja}}
+          PCKeyboardHack 8.0.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane-pckeyboardhack.png">設定画面はシステム環境設定にあります。</a>
+        {{/language_ja}}
+      </p>
+
+      <h2>Step2</h2>
+      <p>
+        {{#language_en}}
+          Activate items and change the keycode if needed.
+        {{/language_en}}
+        {{#language_ja}}
+          有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
+        {{/language_ja}}
+      </p>
       <div class="row">
-        <div class="span8">
-          <h2>Step2</h2>
-          <p>
-            {{#language_en}}
-              Activate items and change the keycode if needed.
-            {{/language_en}}
-            {{#language_ja}}
-              有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
-            {{/language_ja}}
-          </p>
-        </div>
         <div class="span4">
           {{#lightbox}}
-            img/prefpane_pckeyboardhack.png PCKeyboardHack
-          {{/lightbox}}
-        </div>
-      </div>
-      <br />
-      <div class="row" id="noaction">
-        <div class="span8">
-          <h2>
-            Step3
-            <span class="label label-important">Important</span>
-          </h2>
-          <p>
-            {{#language_en}}
-              If you are using PCKeyboardHack to change the behavior of caps lock,
-              open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
-              change caps lock configuration to "No Action".
-            {{/language_en}}
-            {{#language_ja}}
-              caps lockキーの動作を変更するためにPCKeyboardHackを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
-            {{/language_ja}}
-          </p>
-          <p>
-            {{#language_en}}
-              You need to do this step to to reduce caps lock delay.
-            {{/language_en}}
-            {{#language_ja}}
-              caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
-            {{/language_ja}}
-          </p>
-        </div>
-        <div class="span4">
-          {{#lightbox}}
-            img/capslock.png No Action
+            img/pkh-preferences.png Preferences
           {{/lightbox}}
         </div>
       </div>
 
-      <div id="newprefs">
+      <div id="noaction">
         <h2>
-          {{#language_en}}
-            Since PCKeyboardHack-8.99.0
-          {{/language_en}}
-          {{#language_ja}}
-            PCKeyboardHack-8.99.0以降
-          {{/language_ja}}
+          Step3
+          <span class="label label-important">Important</span>
         </h2>
         <p>
           {{#language_en}}
-            The preferences has been integrated into app since PCKeyboardHack-8.99.0.
+            If you are using PCKeyboardHack to change the behavior of caps lock,
+            open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
+            change caps lock configuration to "No Action".
           {{/language_en}}
           {{#language_ja}}
-            PCKeyboardHack-8.99.0以降では、設定画面はアプリ内に統合されています。
+            caps lockキーの動作を変更するためにPCKeyboardHackを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
           {{/language_ja}}
         </p>
-        <ol class="steps">
-          <li>
-            {{#language_en}}
-              Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
-            {{/language_en}}
-            {{#language_ja}}
-              Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
-            {{/language_ja}}
-          </li>
-          <li>
-            <p>
-              {{#language_en}}
-                Click PCKeyboardHack.
-              {{/language_en}}
-              {{#language_ja}}
-                PCKeyboardHackをクリックしてください。
-              {{/language_ja}}
-            </p>
-            <p>
-              <img
-              alt="launchpad"
-              {{#imgsrc}}
-                img/pkh-launchpad.png
-              {{/imgsrc}}
-              />
-            </p>
-          </li>
-          <li>
-            {{#language_en}}
-              Activate your favorite settings from prepared settings.
-            {{/language_en}}
-            {{#language_ja}}
-              お好みの設定を有効にしてください。
-            {{/language_ja}}
-            <div class="row">
-              <div class="span4">
-                {{#lightbox}}
-                  img/pkh-preferences.png Preferences
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-        </ol>
+        <p>
+          {{#language_en}}
+            You need to do this step to to reduce caps lock delay.
+          {{/language_en}}
+          {{#language_ja}}
+            caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+          {{/language_ja}}
+        </p>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/capslock.png No Action
+            {{/lightbox}}
+          </div>
+        </div>
       </div>
     </section>
-  {{/current_tab_howtouse}}
+  {{/current_tab_usage}}
 
   {{#current_tab_uninstall}}
     <section>
