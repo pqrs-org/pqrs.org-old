@@ -93,14 +93,21 @@
                 KeyRemap4MacBookをクリックしてください。
               {{/language_ja}}
             </p>
-            <p>
-              <img
-              alt="launchpad"
-              {{#imgsrc}}
-                img/launchpad.png
-              {{/imgsrc}}
-              />
-            </p>
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/launchpad-full.png Launchpad
+                {{/lightbox}}
+              </div>
+              <div class="span4">
+                <img
+                alt="launchpad"
+                {{#imgsrc}}
+                  img/launchpad.png
+                {{/imgsrc}}
+                />
+              </div>
+            </div>
           </li>
           <li>
             {{#language_en}}
