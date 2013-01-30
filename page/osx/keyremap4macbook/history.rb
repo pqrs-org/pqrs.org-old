@@ -8,6 +8,40 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.0.0',
+              :updated => '2013-01-31',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Preferences has been integrated into app.</li>
+  <li>Integrated a status message indicator. (Removed Growl support.)</li>
+  <li>Added a preference of ignored area into "multi-touch extension".</li>
+  <li>Changed KeyRemap4MacBook_cli location.</li>
+  <li>Dynamic KeyCode::VK_CHANGE_INPUTSOURCE definition feature has been added.</li>
+  <li>&lt;inputsource_only&gt; definition feature has been added.</li>
+  <li>Added Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDER.</li>
+  <li>Added DeviceLocation into &lt;device_only&gt;, &lt;device_not&gt; filters.</li>
+  <li>Changed --KeyToKey-- to __KeyToKey__ at &lt;autogen&gt;.</li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定画面をアプリに統合しました。</li>
+  <li>ステータス表示をアプリに統合しました。（Growlのサポートを辞めました。）</li>
+  <li>マルチタッチ拡張において、タッチを無視するエリアを設定できるようにしました。</li>
+  <li>KeyRemap4MacBook_cliの場所を変更しました。</li>
+  <li>KeyCode::VK_CHANGE_INPUTSOURCEを動的に定義できるようになりました。</li>
+  <li>&lt;inputsource_only&gt;を動的に定義できるようになりました。</li>
+  <li>Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDERを追加しました。</li>
+  <li>&lt;device_only&gt;, &lt;device_not&gt;フィルタにおいて、DeviceLocationが指定できるようになりました。</li>
+  <li>&lt;autogen&gt;において、--KeyToKey--を__KeyToKey__に変更しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '7.8.0',
               :updated => '2012-06-26',
               :body_l10n => {
