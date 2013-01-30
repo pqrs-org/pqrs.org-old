@@ -9,7 +9,7 @@ class History < Keyremap4macbookBase
     data = [
             {
               :version => '8.0.0',
-              :updated => '2013-01-31',
+              :updated => '2013-01-30',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
