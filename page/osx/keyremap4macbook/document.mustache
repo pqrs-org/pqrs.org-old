@@ -26,105 +26,68 @@
           {{/language_ja}}
         </h1>
       </div>
+
+      <h2>Step1</h2>
       <p>
         {{#language_en}}
-          KeyRemap4MacBook Prefs has been installed into System Preferences.
+          Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
         {{/language_en}}
         {{#language_ja}}
-          KeyRemap4MacBookの設定画面はシステム環境設定にインストールされます。
+          Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
+        {{/language_ja}}
+      </p>
+      <p>
+        {{#language_en}}
+          Then, click KeyRemap4MacBook.
+        {{/language_en}}
+        {{#language_ja}}
+          そして、KeyRemap4MacBookをクリックしてください。
         {{/language_ja}}
       </p>
       <div class="row">
         <div class="span4">
           {{#lightbox}}
-            img/preferencepane.png System Preferences
+            img/launchpad-full.png Launchpad
           {{/lightbox}}
         </div>
-      </div>
-      <br />
-      <p>
-        {{#language_en}}
-          Open KeyRemap4MacBook Prefs and activate your favorite settings from prepared settings.
-        {{/language_en}}
-        {{#language_ja}}
-          KeyRemap4MacBookの設定画面を開いて、お好みの設定を有効にしてください。
-        {{/language_ja}}
-      </p>
-      <div class="row">
         <div class="span4">
-          {{#lightbox}}
-            img/prefpane.png System Preferences
-          {{/lightbox}}
+          <img
+          alt="launchpad"
+          {{#imgsrc}}
+            img/launchpad.png
+          {{/imgsrc}}
+          />
         </div>
       </div>
 
-      <div id="newprefs">
-        <h2>
-          {{#language_en}}
-            Since KeyRemap4MacBook-7.99.0
-          {{/language_en}}
-          {{#language_ja}}
-            KeyRemap4MacBook-7.99.0以降
-          {{/language_ja}}
-        </h2>
-        <p>
-          {{#language_en}}
-            The preferences has been integrated into app since KeyRemap4MacBook-7.99.0.
-          {{/language_en}}
-          {{#language_ja}}
-            KeyRemap4MacBook-7.99.0以降では、設定画面はアプリ内に統合されています。
-          {{/language_ja}}
-        </p>
-        <ol class="steps">
-          <li>
-            {{#language_en}}
-              Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
-            {{/language_en}}
-            {{#language_ja}}
-              Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
-            {{/language_ja}}
-          </li>
-          <li>
-            <p>
-              {{#language_en}}
-                Click KeyRemap4MacBook.
-              {{/language_en}}
-              {{#language_ja}}
-                KeyRemap4MacBookをクリックしてください。
-              {{/language_ja}}
-            </p>
-            <div class="row">
-              <div class="span4">
-                {{#lightbox}}
-                  img/launchpad-full.png Launchpad
-                {{/lightbox}}
-              </div>
-              <div class="span4">
-                <img
-                alt="launchpad"
-                {{#imgsrc}}
-                  img/launchpad.png
-                {{/imgsrc}}
-                />
-              </div>
-            </div>
-          </li>
-          <li>
-            {{#language_en}}
-              Activate your favorite settings from prepared settings.
-            {{/language_en}}
-            {{#language_ja}}
-              お好みの設定を有効にしてください。
-            {{/language_ja}}
-            <div class="row">
-              <div class="span4">
-                {{#lightbox}}
-                  img/preferences.png Preferences
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-        </ol>
+      <br />
+
+      <p>
+        <span class="label label-info">Note</span>
+        {{#language_en}}
+          If you're using KeyRemap4MacBook 7.8.0 or earlier,
+          <a href="img/preferencepane.png">Preferences is in System Preferences.</a>
+        {{/language_en}}
+        {{#language_ja}}
+          KeyRemap4MacBook 7.8.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane.png">設定画面はシステム環境設定にあります。</a>
+        {{/language_ja}}
+      </p>
+
+      <h2>Step2</h2>
+      <p>
+        {{#language_en}}
+          Activate your favorite settings from prepared settings.
+        {{/language_en}}
+        {{#language_ja}}
+          お好みの設定を有効にしてください。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/preferences.png Preferences
+          {{/lightbox}}
+        </div>
       </div>
     </section>
   {{/current_tab_remapping}}
@@ -242,8 +205,8 @@
           <br />
           メニューからEventViewerを起動してください。
         {{/language_ja}}
-
       </p>
+
       <div class="row">
         <div class="span4">
           {{#lightbox}}
