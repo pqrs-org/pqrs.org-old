@@ -15,8 +15,8 @@ class Document < Keyremap4macbookBase
        :tab => 'remapping',
        :href => '/macosx/keyremap4macbook/document.html',
        :name_l10n => {
-         :en => 'remapping keys',
-         :ja => 'キーリマップ',
+         :en => 'Usage',
+         :ja => '使い方',
        }
      },
      {
@@ -31,8 +31,8 @@ class Document < Keyremap4macbookBase
        :tab => 'uninstall',
        :href => '/macosx/keyremap4macbook/document-uninstall.html',
        :name_l10n => {
-         :en => 'how to uninstall',
-         :ja => 'アンインストール',
+         :en => 'Uninstall',
+         :ja => 'アンインストール方法',
        }
      },
      {
