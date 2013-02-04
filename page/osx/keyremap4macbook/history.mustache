@@ -22,7 +22,14 @@
         {{/updated}}
 
         {{#link}}
-          <a class="btn" href="{{link}}">Download</a>
+          <a class="btn" href="{{link}}">
+            {{#language_en}}
+              Download
+            {{/language_en}}
+            {{#language_ja}}
+              ダウンロード
+            {{/language_ja}}
+          </a>
         {{/link}}
       </h2>
       {{{body_l10n}}}

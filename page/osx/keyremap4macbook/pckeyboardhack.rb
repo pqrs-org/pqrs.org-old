@@ -59,6 +59,7 @@ class Pckeyboardhack < Keyremap4macbookBase
             {
               :version => '9.0.0',
               :updated => '2013-01-13',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-9.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -77,6 +78,7 @@ EOS
             {
               :version => '8.0.0',
               :updated => '2012-08-11',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-8.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -93,6 +95,7 @@ EOS
             {
               :version => '7.4.0',
               :updated => '2012-04-24',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.4.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -109,6 +112,7 @@ EOS
             {
               :version => '7.3.0',
               :updated => '2012-02-21',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.3.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -127,6 +131,7 @@ EOS
             {
               :version => '7.2.0',
               :updated => '2011-10-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.2.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -145,6 +150,7 @@ EOS
             {
               :version => '7.1.0',
               :updated => '2011-08-16',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.1.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -165,6 +171,7 @@ EOS
             {
               :version => '7.0.0',
               :updated => '2011-07-23',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-7.0.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -183,6 +190,7 @@ EOS
             {
               :version => '6.3.0',
               :updated => '2010-05-11',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-6.3.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -199,6 +207,7 @@ EOS
             {
               :version => '6.2.0',
               :updated => '2010-01-20',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-6.2.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -215,6 +224,7 @@ EOS
             {
               :version => '6.1.0',
               :updated => '2010-01-05',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-6.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -231,6 +241,7 @@ EOS
             {
               :version => '6.0.0',
               :updated => '2009-09-13',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-6.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -247,6 +258,7 @@ EOS
             {
               :version => '5.1.0',
               :updated => '2008-05-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-5.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -263,6 +275,7 @@ EOS
             {
               :version => '5.0.0',
               :updated => '2008-05-07',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/PCKeyboardHack-5.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
