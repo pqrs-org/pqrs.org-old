@@ -59,6 +59,7 @@ class Noejectdelay < Keyremap4macbookBase
             {
               :version => '4.1.0',
               :updated => '2013-01-13',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-4.1.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -75,6 +76,7 @@ EOS
             {
               :version => '4.0.0',
               :updated => '2012-08-05',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-4.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -91,6 +93,7 @@ EOS
             {
               :version => '3.6.0',
               :updated => '2012-08-05',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.6.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -107,6 +110,7 @@ EOS
             {
               :version => '3.4.0',
               :updated => '2012-04-24',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.4.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -123,6 +127,7 @@ EOS
             {
               :version => '3.3.0',
               :updated => '2012-02-21',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.3.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -139,6 +144,7 @@ EOS
             {
               :version => '3.2.0',
               :updated => '2011-10-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.2.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -155,6 +161,7 @@ EOS
             {
               :version => '3.1.0',
               :updated => '2011-08-16',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.1.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -171,6 +178,7 @@ EOS
             {
               :version => '3.0.0',
               :updated => '2011-07-23',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-3.0.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -187,6 +195,7 @@ EOS
             {
               :version => '2.1.0',
               :updated => '2010-05-11',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-2.1.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -203,6 +212,7 @@ EOS
             {
               :version => '2.0.0',
               :updated => '2009-09-13',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-2.0.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -219,6 +229,7 @@ EOS
             {
               :version => '1.1.0',
               :updated => '2008-05-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-1.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -235,6 +246,7 @@ EOS
             {
               :version => '1.0.0',
               :updated => '2008-05-07',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/NoEjectDelay-1.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
