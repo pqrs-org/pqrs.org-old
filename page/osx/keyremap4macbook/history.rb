@@ -10,6 +10,7 @@ class History < Keyremap4macbookBase
             {
               :version => '8.0.0',
               :updated => '2013-01-30',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -44,6 +45,7 @@ EOS
             {
               :version => '7.8.0',
               :updated => '2012-06-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.8.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -64,6 +66,7 @@ EOS
             {
               :version => '7.7.0',
               :updated => '2012-05-09',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.7.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -80,6 +83,7 @@ EOS
             {
               :version => '7.6.0',
               :updated => '2012-05-08',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.6.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -125,6 +129,7 @@ EOS
             {
               :version => '7.5.0',
               :updated => '2011-11-02',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.5.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -178,6 +183,7 @@ EOS
             {
               :version => '7.4.0',
               :updated => '2011-08-23',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.4.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -238,6 +244,7 @@ EOS
             {
               :version => '7.3.0',
               :updated => '2011-05-17',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.3.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -278,6 +285,7 @@ EOS
             {
               :version => '7.2.0',
               :updated => '2011-03-08',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.2.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -300,6 +308,7 @@ EOS
             {
               :version => '7.1.0',
               :updated => '2011-02-22',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.1.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -379,6 +388,7 @@ EOS
             {
               :version => '7.0.0',
               :updated => '2010-12-14',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-7.0.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -416,6 +426,7 @@ EOS
             {
               :version => '6.9.0',
               :updated => '2010-09-14',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.9.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -447,6 +458,7 @@ EOS
             {
               :version => '6.8.0',
               :updated => '2010-07-27',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.8.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -477,6 +489,7 @@ EOS
             {
               :version => '6.7.0',
               :updated => '2010-05-15',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.7.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -493,6 +506,7 @@ EOS
             {
               :version => '6.6.0',
               :updated => '2010-05-11',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.6.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -517,6 +531,7 @@ EOS
             {
               :version => '6.5.0',
               :updated => '2010-03-16',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.5.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -545,6 +560,7 @@ EOS
             {
               :version => '6.4.0',
               :updated => '2010-01-21',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.4.0.pkg.zip',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -565,6 +581,7 @@ EOS
             {
               :version => '6.3.0',
               :updated => '2010-01-05',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.3.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -592,6 +609,7 @@ EOS
             {
               :version => '6.2.0',
               :updated => '2009-11-12',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.2.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -608,6 +626,7 @@ EOS
             {
               :version => '6.1.0',
               :updated => '2009-11-11',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -629,6 +648,7 @@ EOS
             {
               :version => '6.0.0',
               :updated => '2009-10-08',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -663,6 +683,7 @@ EOS
             {
               :version => '5.1.0',
               :updated => '2008-05-26',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-5.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -686,6 +707,7 @@ EOS
             {
               :version => '5.0.0',
               :updated => '2008-05-07',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-5.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -711,6 +733,7 @@ EOS
             {
               :version => '4.0.0',
               :updated => '2008-04-02',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-4.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -735,6 +758,7 @@ EOS
             {
               :version => '3.2.0',
               :updated => '2008-02-29',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-3.2.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -762,6 +786,7 @@ EOS
             {
               :version => '3.1.0',
               :updated => '2008-02-18',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-3.1.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -782,6 +807,7 @@ EOS
             {
               :version => '3.0.0',
               :updated => '2008-02-04',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-3.0.0.pkg.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
