@@ -218,64 +218,66 @@
         |</autogen>
       {{/indented_xml}}
 
-      <h2 id="modifierflag-none">ModifierFlag::NONE</h2>
-      <p>
-        If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
-      </p>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
-      </p>
-      <div class="row">
-        <div class="span6">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Physical key</th>
-                <th>Changed key</th>
-                <th>State</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>space</td>
-                <td>space</td>
-                <td>
-                  <span class="label">Not changed</span>
-                </td>
-              </tr>
-              <tr>
-                <td>control+space</td>
-                <td>control+space</td>
-                <td>
-                  <span class="label">Not changed</span>
-                </td>
-              </tr>
-              <tr>
-                <td>fn+space</td>
-                <td>tab</td>
-                <td>
-                  <span class="label label-info">Changed</span>
-                </td>
-              </tr>
-              <tr>
-                <td>fn+control+space</td>
-                <td>fn+control+space</td>
-                <td>
-                  <span class="label">Not changed</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <div id="modifierflag-none">
+        <h2>ModifierFlag::NONE</h2>
+        <p>
+          If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
+        </p>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
+        </p>
+        <div class="row">
+          <div class="span6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Physical key</th>
+                  <th>Changed key</th>
+                  <th>State</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>space</td>
+                  <td>space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>control+space</td>
+                  <td>control+space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>fn+space</td>
+                  <td>tab</td>
+                  <td>
+                    <span class="label label-info">Changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>fn+control+space</td>
+                  <td>fn+control+space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
 
-      {{#indented_xml}}
-        |<autogen>
-        |  __KeyToKey__
-        |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
-        |  KeyCode::TAB
-        |</autogen>
-      {{/indented_xml}}
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
+          |  KeyCode::TAB
+          |</autogen>
+        {{/indented_xml}}
+      </div>
 
       <h2>Change to multiple keys</h2>
       <p>
