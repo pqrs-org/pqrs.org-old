@@ -218,7 +218,7 @@
         |</autogen>
       {{/indented_xml}}
 
-      <h2>ModifierFlag::NONE</h2>
+      <h2 id="modifierflag-none">ModifierFlag::NONE</h2>
       <p>
         If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
       </p>
@@ -578,23 +578,29 @@
       <h2>Examine Vendor ID and Product ID of a target device</h2>
       <ol class="steps">
         <li>
-          Launch System Information.app (System Profiler.app in Snow Leopard).
-          <br />
-          You can launch System Information.app from the menu by clicking Apple mark while pressing Option key.
+          Launch EventViewer from a menu.
           <div class="row">
             <div class="span4">
               {{#lightbox}}
-                img/option-apple.png clicking Apple mark
+                img/eventviewer-menu.png eventviewer menu
               {{/lightbox}}
             </div>
           </div>
         </li>
         <li>
-          Examine Vendor ID and Product ID of the device.
+          <p>
+            See "Devices" tab of EventViewer.
+          </p>
+          <p>
+            Then press "copy to pasteboard" button.
+            <br />
+            You can paste this information to text area.
+          </p>
+
           <div class="row">
             <div class="span4">
               {{#lightbox}}
-                img/system-profiler.png system profiler
+                img/eventviewer-devices.png eventviewer-devices
               {{/lightbox}}
             </div>
           </div>
