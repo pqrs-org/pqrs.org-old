@@ -18,14 +18,14 @@
         |  <item>
         |    <name>Swap Space and Tab</name>
         |    <identifier>private.swap_space_and_tab</identifier>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
         |  </item>
         |
         |  <item>
         |    <name>Change Right Command Key to Escape</name>
         |    <identifier>private.right_command_to_escape</identifier>
-        |    <autogen>--KeyToKey-- KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -139,7 +139,7 @@
             <td>
               Definition of this setting behavior.
               <br />
-              For example, --KeyToKey--, --PointingButtonToKey--.
+              For example, __KeyToKey__, __PointingButtonToKey__.
             </td>
           </tr>
         </tbody>
@@ -168,7 +168,7 @@
 
     <section id="keytokey-syntax">
       <div class="page-header">
-        <h1>--KeyToKey-- syntax</h1>
+        <h1>__KeyToKey__ syntax</h1>
       </div>
 
       <h2>Plain</h2>
@@ -176,7 +176,7 @@
         This <code>&lt;autogen&gt;</code> changes space key to tab key.
       </p>
       {{#indented_xml}}
-        |<autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
       {{/indented_xml}}
 
       <h2>Modifier+Key to Key</h2>
@@ -185,7 +185,7 @@
       </p>
       {{#indented_xml}}
         |<autogen>
-        |  --KeyToKey--
+        |  __KeyToKey__
         |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
         |  KeyCode::TAB
         |</autogen>
@@ -197,7 +197,7 @@
       </p>
       {{#indented_xml}}
         |<autogen>
-        |  --KeyToKey--
+        |  __KeyToKey__
         |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
         |  KeyCode::TAB,   ModifierFlag::CONTROL_L
         |</autogen>
@@ -212,7 +212,7 @@
       </p>
       {{#indented_xml}}
         |<autogen>
-        |  --KeyToKey--
+        |  __KeyToKey__
         |  KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::FN,
         |  KeyCode::TAB
         |</autogen>
@@ -271,7 +271,7 @@
 
       {{#indented_xml}}
         |<autogen>
-        |  --KeyToKey--
+        |  __KeyToKey__
         |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
         |  KeyCode::TAB
         |</autogen>
@@ -283,7 +283,7 @@
       </p>
       {{#indented_xml}}
         |<autogen>
-        |  --KeyToKey--
+        |  __KeyToKey__
         |  KeyCode::SPACE,
         |  KeyCode::TAB, KeyCode::RETURN
         |</autogen>
@@ -303,8 +303,8 @@
         The following autogens change space key to tab key (not return key).
       </p>
       {{#indented_xml}}
-        |<autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-        |<autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::RETURN</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
       {{/indented_xml}}
 
       <h2>More complex case</h2>
@@ -336,10 +336,10 @@
       </div>
       {{#indented_xml}}
         |<!-- shift+space to tab -->
-        |<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
 
         |<!-- space to return -->
-        |<autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::RETURN</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
       {{/indented_xml}}
 
       <p>
@@ -351,10 +351,10 @@
       </p>
       {{#indented_xml}}
         |<!-- KeyRemap4MacBook always changes space key to return key even if you're pressing shift modifier. -->
-        |<autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::RETURN</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
         |
         |<!-- *** This autogen is never applied. *** -->
-        |<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
+        |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
       {{/indented_xml}}
     </section>
 
@@ -428,8 +428,8 @@
         |    <name>Swap Space and Tab</name>
         |    <identifier>private.app_safari_swap_space_and_tab</identifier>
         |    <only>SAFARI</only>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -513,7 +513,7 @@
             |    <name>Space to Tab on App Store.app</name>
             |    <identifier>private.appdef</identifier>
             |    <only>APPSTORE</only>
-            |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
             |  </item>
             |</root>
           {{/indented_xml}}
@@ -570,7 +570,7 @@
         |    <name>Disable ScrollWheel on Magic Mouse</name>
         |    <identifier>private.dropscrollwheel_0x05ac_0x030d</identifier>
         |    <device_only>DeviceVendor::APPLE_COMPUTER,DeviceProduct::MAGIC_MOUSE</device_only>
-        |    <autogen>--DropScrollWheel--</autogen>
+        |    <autogen>__DropScrollWheel__</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -645,7 +645,7 @@
             |    <name>Space to Tab in MY_HP_KEYBOARD</name>
             |    <identifier>private.deviceproductdef</identifier>
             |    <device_only>DeviceVendor::HEWLETT_PACKARD, DeviceProduct::MY_HP_KEYBOARD</device_only>
-            |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
             |  </item>
             |
             |</root>
@@ -771,7 +771,7 @@
         |      DeviceProduct::MY_HP_KEYBOARD,
         |      DeviceLocation::MY_HP_KEYBOARD_PRIMARY,
         |    </device_only>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
         |  </item>
         |
         |</root>
@@ -814,7 +814,7 @@
         |    <name>Change input source to Dvorak by right shift key + D</name>
         |    <identifier>private.change_input_source_to_dvorak</identifier>
         |    <autogen>
-        |      --KeyToKey--
+        |      __KeyToKey__
         |      KeyCode::D, ModifierFlag::SHIFT_R,
         |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
         |    </autogen>
@@ -874,8 +874,8 @@
         |    <name>Swap Space and Tab</name>
         |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
         |    <inputsource_only>MY_DVORAK</inputsource_only>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -919,8 +919,8 @@
             |    <name>Swap Space and Tab</name>
             |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
             |    <inputsource_only>MY_DVORAK</inputsource_only>
-            |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-            |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
             |  </item>
             |</root>
           {{/indented_xml}}
@@ -983,8 +983,8 @@
         |  <item>
         |    <name>Swap Space and Tab</name>
         |    <identifier>private.swap_space_and_tab</identifier>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>--KeyToKey-- KeyCode::TAB, KeyCode::SPACE</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -1062,8 +1062,8 @@
         |  <item>
         |    <name>Swap {{curly}} KEY1 }} and {{curly}} KEY2 }}</name>
         |    <identifier>private.swap_{{curly}} KEY1 }}_{{curly}} KEY2 }}</identifier>
-        |    <autogen>--KeyToKey-- {{curly}} KEY1 }}, {{curly}} KEY2 }}</autogen>
-        |    <autogen>--KeyToKey-- {{curly}} KEY2 }}, {{curly}} KEY1 }}</autogen>
+        |    <autogen>__KeyToKey__ {{curly}} KEY1 }}, {{curly}} KEY2 }}</autogen>
+        |    <autogen>__KeyToKey__ {{curly}} KEY2 }}, {{curly}} KEY1 }}</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -1090,7 +1090,7 @@
         |    <name>Change space to tab except in my ignore apps.</name>
         |    <identifier>private.space_to_tab_except_my_ignore_apps</identifier>
         |    <not>{{curly}} MY_IGNORE_APPS }}</not>
-        |    <autogen>--KeyToKey-- KeyCode::SPACE, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
@@ -1171,7 +1171,7 @@
         |  <item>
         |    <name>Change KeyCode::MY_LANGUAGE_KEY to tab.</name>
         |    <identifier>private.my_language_key_to_tab</identifier>
-        |    <autogen>--KeyToKey-- KeyCode::MY_LANGUAGE_KEY, KeyCode::TAB</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::MY_LANGUAGE_KEY, KeyCode::TAB</autogen>
         |  </item>
         |</root>
       {{/indented_xml}}
