@@ -5,15 +5,21 @@
     </div>
     <div class="row">
       <div class="span8">
-        {{#language_en}}
-          <p>Name: Takayama Fumihiko</p>
-          <p>Email: tekezo@pqrs.org</p>
-        {{/language_en}}
-        {{#language_ja}}
-          <p>名前: 高山 扶美彦</p>
-          <p>メールアドレス: tekezo@pqrs.org</p>
-        {{/language_ja}}
-        <p><a target="_blank" href="https://plus.google.com/109301982467023673245/posts">Google+</a></p>
+        <dl class="dl-horizontal">
+          {{#language_en}}
+            <dt>Name</dt>
+            <dd>
+              Takayama Fumihiko<br />
+              ("高山 扶美彦" in kanji)
+            </dd>
+            <dt>Email</dt><dd>tekezo@pqrs.org</dd>
+          {{/language_en}}
+          {{#language_ja}}
+            <dt>名前</dt><dd>高山 扶美彦</dd>
+            <dt>メールアドレス</dt><dd>tekezo@pqrs.org</dd>
+          {{/language_ja}}
+          <dt>SNS</dt><dd><a target="_blank" href="https://plus.google.com/109301982467023673245/posts">Google+</a></dd>
+        </dl>
       </div>
       <div class="span4">
         <img class="pull-right" src="/img/profile.jpg"
