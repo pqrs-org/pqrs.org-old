@@ -480,4 +480,87 @@
       </p>
     </section>
   {{/current_tab_power}}
+
+  {{#current_tab_unicode_hex_input}}
+    <section>
+      <h2>
+        {{#language_en}}
+          How to input ⌘(U+2318) by "option+a"?
+        {{/language_en}}
+        {{#language_ja}}
+          「option+a」で⌘(U+2318)を入力するにはどうすれば良いですか?
+        {{/language_ja}}
+      </h2>
+      <ol class="steps">
+        <li>
+          {{#language_en}}
+            Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
+          {{/language_en}}
+          {{#language_ja}}
+            システム環境設定の「言語とテキスト」からUnicode Hex Inputを有効にします。
+          {{/language_ja}}
+          <div class="row">
+            <div class="span4">
+              {{#lightbox}}
+                img/unicode-hex-input.png unicode-hex-input
+              {{/lightbox}}
+            </div>
+          </div>
+        </li>
+        <li>
+          {{#language_en}}
+            Use this private.xml.
+          {{/language_en}}
+          {{#language_ja}}
+            以下のprivate.xmlを使用します。
+          {{/language_ja}}
+          (<a href="document-private-xml.html.{{ language }}">
+            {{#language_en}}
+              How to use private.xml.
+            {{/language_en}}
+            {{#language_ja}}
+              private.xmlの使い方
+            {{/language_ja}}
+          </a>)
+
+          {{#indented_xml}}
+            |<?xml version="1.0"?>
+            |<root>
+            |
+            |  <vkchangeinputsourcedef>
+            |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT</name>
+            |    <inputsourceid_equal>com.apple.keylayout.UnicodeHexInput</inputsourceid_equal>
+            |  </vkchangeinputsourcedef>
+            |
+            |  <item>
+            |    <name>My Custom Setting</name>
+            |    <identifier>private.unicode_hex_input</identifier>
+            |    <autogen>
+            |      __KeyToKey__
+            |      KeyCode::A, ModifierFlag::VK_OPTION | ModifierFlag::NONE,
+            |
+            |      <!-- change input source to Unicode Hex Input -->
+            |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+            |      <!-- wait until input source will be changed -->
+            |      KeyCode::VK_WAIT_100MS,
+            |      <!-- 2318 -->
+            |      KeyCode::KEY_2, ModifierFlag::OPTION_L,
+            |      KeyCode::KEY_3, ModifierFlag::OPTION_L,
+            |      KeyCode::KEY_1, ModifierFlag::OPTION_L,
+            |      KeyCode::KEY_8, ModifierFlag::OPTION_L,
+            |
+            |      <!-- restore input source -->
+            |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+            |
+            |      <!-- suppress key repeat -->
+            |      Option::NOREPEAT,
+            |    </autogen>
+            |  </item>
+            |
+            |</root>
+          {{/indented_xml}}
+        </li>
+      </ol>
+    </section>
+  {{/current_tab_unicode_hex_input}}
 </div>

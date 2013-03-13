@@ -59,6 +59,14 @@ class Faq < Keyremap4macbookBase
          :ja => '電源ボタン',
        }
      },
+     {
+       :tab => 'unicode_hex_input',
+       :href => '/macosx/keyremap4macbook/faq-unicode-hex-input.html',
+       :name_l10n => {
+         :en => 'unicode hex input',
+         :ja => 'unicode hex input',
+       }
+     },
     ]
   end
 end
