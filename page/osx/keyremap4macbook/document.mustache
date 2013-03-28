@@ -516,11 +516,11 @@
       </ol>
     </section>
 
-    <section id="multipleconfigurations">
+    <section id="profiles">
       <div class="page-header">
         <h1>
           {{#language_en}}
-            Multiple configurations
+            Multiple profiles
           {{/language_en}}
           {{#language_ja}}
             複数の設定の使い分け
@@ -544,7 +544,7 @@
       </div>
       <h2>
         {{#language_en}}
-          How to use multiple configurations
+          How to use multiple profiles
         {{/language_en}}
         {{#language_ja}}
           複数の設定の使い方
@@ -590,6 +590,61 @@
           {{/language_ja}}
         </li>
       </ol>
+
+      <h2>
+        {{#language_en}}
+          Switch profile by shortcut.
+        {{/language_en}}
+        {{#language_ja}}
+          ショートカットで設定を切り替える。
+        {{/language_ja}}
+      </h2>
+      <p>
+        <span class="label label-info">
+          {{#language_en}}
+            Since version 8.0.43:
+          {{/language_en}}
+          {{#language_ja}}
+            バージョン8.0.43以降の機能
+          {{/language_ja}}
+        </span><br />
+
+        {{#language_en}}
+          You can find a setting which switches profile by fn+1,fn+2,fn+3, and fn+4 by searching "switch profile" on Preference.
+        {{/language_en}}
+        {{#language_ja}}
+          設定で「switch profile」と検索することで、fn+1、fn+2、fn+3、fn+4で設定を切り替える設定が見付かります。
+        {{/language_ja}}
+      </p>
+      <div class="row">
+        <div class="span4">
+          {{#lightbox}}
+            img/switch-profile.png switch profile
+          {{/lightbox}}
+        </div>
+      </div>
+      <br />
+      <p>
+        {{#language_en}}
+          If you want to assign your own shortcut, this is an example private.xml.
+        {{/language_en}}
+        {{#language_ja}}
+          もし独自のショートカットを使いたい場合は、以下がprivate.xmlの例となります。
+        {{/language_ja}}
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <item>
+        |    <name>Switch Profile</name>
+        |    <identifier>private.switch_profile</identifier>
+        |    <autogen>__KeyToKey__ KeyCode::KEY_1, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile0</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::KEY_2, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile1</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::KEY_3, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile2</autogen>
+        |    <autogen>__KeyToKey__ KeyCode::KEY_4, ModifierFlag::FN, KeyCode::VK_OPEN_URL_APP_KeyRemap4MacBook_Profile3</autogen>
+        |  </item>
+        |</root>
+      {{/indented_xml}}
     </section>
 
     <section id="commandlineinterface">

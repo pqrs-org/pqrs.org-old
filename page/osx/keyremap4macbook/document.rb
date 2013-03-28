@@ -9,6 +9,10 @@ class Document < Keyremap4macbookBase
     '/macosx/keyremap4macbook/document.html'
   end
 
+  def enable_prettify
+    true
+  end
+
   def tabs_definition
     [
      {
