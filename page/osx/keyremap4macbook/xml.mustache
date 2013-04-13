@@ -1177,5 +1177,29 @@
         |</root>
       {{/indented_xml}}
     </section>
+
+    <section>
+      <div class="page-header">
+        <h1>Specify raw value</h1>
+      </div>
+      <p>
+        <span class="label label-info">
+          Since version 8.0.44:
+        </span>
+
+        You can specify raw value by using KeyCode::RawValue.
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <item>
+        |    <name>Change right option key to tab key</name>
+        |    <identifier>private.right_option_key_to_tab_key</identifier>
+        |    <!-- change right option key (0x3d) to tab key (0x30) -->
+        |    <autogen>__KeyToKey__ KeyCode::RawValue::0x3d, KeyCode::RawValue::0x30</autogen>
+        |  </item>
+        |</root>
+      {{/indented_xml}}
+    </section>
   {{/current_tab_keycode}}
 </div>
