@@ -1165,6 +1165,32 @@
         <a href="xml-include.html.{{language}}#replacementdef">&lt;include&gt; with &lt;replacementdef&gt;</a> section.
       </p>
     </section>
+
+    <section>
+      <div class="page-header">
+        <h1>Prepared replacement definitions</h1>
+      </div>
+      <p>
+        KeyRemap4MacBook provides
+        <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
+        <br />
+        You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
+      </p>
+      <p>
+        You can also overwrite existent replacement definitions by private.xml.
+        <br />
+        An example of overwriting VI_H:
+      </p>
+      {{#indented_xml}}
+        |<?xml version="1.0"?>
+        |<root>
+        |  <replacementdef>
+        |    <replacementname>VI_H</replacementname>
+        |    <replacementvalue>KeyCode::J</replacementvalue>
+        |  </appdef>
+        |</root>
+      {{/indented_xml}}
+    </section>
   {{/current_tab_replacementdef}}
 
   {{#current_tab_keycode}}
