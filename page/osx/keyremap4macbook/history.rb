@@ -93,8 +93,8 @@ EOS
   <li>
     Updates for people who add new settings by oneself.
     <ul>
-      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this. <a href="xml-replacementdef.html.en">(reference)</a></li>
-      <li>Added &lt;include&gt;. You can load external xml files in private.xml. <a href="xml-include.html.en">(reference)</a></li>
+      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this. <a href="xml.html.en#replacementdef">(reference)</a></li>
+      <li>Added &lt;include&gt;. You can load external xml files in private.xml. <a href="xml.html.en#include">(reference)</a></li>
       <li>Added --ScrollWheelToKey--.</li>
       <li>Added --ScrollWheelToScrollWheel--.</li>
       <li>Added KeyCode::VK_WAIT_*.</li>
@@ -112,11 +112,11 @@ EOS
     <ul>
       <li>
         &lt;replacementdef&gt;を加えました。これでプリセットの設定を調整することが出来ます。
-        <a href="xml-replacementdef.html.ja">（リファレンス）</a>
+        <a href="xml.html.ja#replacementdef">（リファレンス）</a>
       </li>
       <li>
         &lt;include&gt;を加えました。private.xmlで他のXMLを読み込むことが出来ます。
-        <a href="xml-include.html.ja">（リファレンス）</a>
+        <a href="xml.html.ja#include">（リファレンス）</a>
       <li>--ScrollWheelToKey-- を加えました。</li>
       <li>--ScrollWheelToScrollWheel-- を加えました。</li>
       <li>KeyCode::VK_WAIT_* を加えました。</li>
@@ -143,8 +143,8 @@ EOS
       <li>
         Dynamic ApplicationType,DeviceVendor,DeviceProduct definition feature has been added.
         <ul>
-          <li><a href="xml-appdef.html.en">Application Specific Setting</a></li>
-          <li><a href="xml-devicedef.html.en">Device Specific Setting</a></li>
+          <li><a href="xml.html.en#appdef">Application Specific Setting</a></li>
+          <li><a href="xml.html.en#devicedef">Device Specific Setting</a></li>
         </ul>
       </li>
       <li>Added --StripModifierFromScrollWheel--.</li>
@@ -167,8 +167,8 @@ EOS
       <li>
         ApplicationType,DeviceVendor,DeviceProductを動的に定義できるようになりました。
         <ul>
-          <li><a href="xml-appdef.html.ja">ApplicationTypeについて（英語）</a></li>
-          <li><a href="xml-devicedef.html.ja">DeviceVendor,DeviceProductについて（英語）</a></li>
+          <li><a href="xml.html.ja#appdef">ApplicationTypeについて（英語）</a></li>
+          <li><a href="xml.html.ja#devicedef">DeviceVendor,DeviceProductについて（英語）</a></li>
         </ul>
       </li>
       <li>--StripModifierFromScrollWheel--を加えました。</li>
