@@ -29,7 +29,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS feed for pqrs.org" href="/auto/feed/{{language}}.rss" />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#nav-list">
     <div id="navbar" class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -100,7 +100,6 @@
     <script src="/assets/jquery/jquery-1.7.2.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/bootstrap-lightbox/bootstrap-lightbox.js"></script>
-    <script src="/js/pqrs.js"></script>
     {{#enable_prettify}}
       <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
       <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>
