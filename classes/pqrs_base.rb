@@ -122,10 +122,13 @@ class PqrsBase < Mustache
   end
 
   def lightbox(text)
+    @lightbox_id = 0 if @lightbox_id.nil?
+    @lightbox_id += 1
+
     a = render(text).strip.split(/ /, 2)
     src = a[0].strip
     alt = a[1].strip
-    id = "lightbox-" + Digest::SHA1.hexdigest(src)
+    id = "lightbox-" + @lightbox_id.to_s
 
     <<EOS
 <a data-toggle="lightbox" href="##{id}" class="thumbnail">
