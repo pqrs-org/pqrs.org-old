@@ -35,7 +35,7 @@
             </span>
           </a>
           <small>
-            <a href="pckeyboardhack-history.html.{{language}}#history">old versions</a>
+            <a href="#history">old versions</a>
           </small>
         {{/strip_html}}
       </p>
@@ -86,373 +86,368 @@
     </div>
   </header>
 
-  {{> ../../pqrs_tabs }}
-
-  {{#current_tab_installation}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Installation
-          {{/language_en}}
-          {{#language_ja}}
-            インストール方法
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <div class="row show-grid">
-        <div class="span4">
-          <h2>Step1</h2>
-
-          <p>
+  <div class="row">
+    <div class="span3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="span9">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
             {{#language_en}}
-              Open a downloaded dmg file.
+              Installation
             {{/language_en}}
             {{#language_ja}}
-              ダウンロードしたdmgファイルを開きます。
+              インストール方法
             {{/language_ja}}
-          </p>
-          <p>
-            <img
-            alt="dmg"
-            {{#imgsrc}}
-              img/dmg.png
-            {{/imgsrc}}
-            />
-          </p>
+          </h1>
         </div>
-        <div class="span4">
-          <h2>Step2</h2>
 
-          <p>
+        <div class="row-fluid show-grid">
+          <div class="span4">
+            <h2>Step1</h2>
+
+            <p>
+              {{#language_en}}
+                Open a downloaded dmg file.
+              {{/language_en}}
+              {{#language_ja}}
+                ダウンロードしたdmgファイルを開きます。
+              {{/language_ja}}
+            </p>
+            <p>
+              <img
+              alt="dmg"
+              {{#imgsrc}}
+                img/dmg.png
+              {{/imgsrc}}
+              />
+            </p>
+          </div>
+          <div class="span4">
+            <h2>Step2</h2>
+
+            <p>
+              {{#language_en}}
+                Control-click or right click the pkg file,
+                then select "Open" from the top of contextual menu that appears.
+              {{/language_en}}
+              {{#language_ja}}
+                pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
+                メニューの一番上の「開く」を選択します。
+              {{/language_ja}}
+            </p>
+            <p>
+              <span class="label label-important">Important</span>
+              {{#language_en}}
+                You must open the pkg file from contextual menu in order to pass through Gatekeeper
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/pckeyboardhack-pkg.png Open pkg.
+            {{/lightbox}}
+            <br />
+            <p>
+              {{#language_en}}
+                A warning of Gatekeeper will be shown.
+                Click "Open" in the dialog box.
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperの警告が表示されますので、「開く」を選択してください。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/pckeyboardhack-gatekeeper.png Gatekeeper.
+            {{/lightbox}}
+          </div>
+          <div class="span4">
+            <h2>Step3</h2>
+
+            <p>
+              {{#language_en}}
+                Installer is launched. Install PCKeyboardHack.
+              {{/language_en}}
+              {{#language_ja}}
+                インストーラが起動しますので、PCKeyboardHackをインストールします。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/pckeyboardhack-installer.png installer
+            {{/lightbox}}
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
             {{#language_en}}
-              Control-click or right click the pkg file,
-              then select "Open" from the top of contextual menu that appears.
+              Usage
             {{/language_en}}
             {{#language_ja}}
-              pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
-              メニューの一番上の「開く」を選択します。
+              使い方
             {{/language_ja}}
-          </p>
-          <p>
-            <span class="label label-important">Important</span>
-            {{#language_en}}
-              You must open the pkg file from contextual menu in order to pass through Gatekeeper
-            {{/language_en}}
-            {{#language_ja}}
-              Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/pckeyboardhack-pkg.png Open pkg.
-          {{/lightbox}}
-          <br />
-          <p>
-            {{#language_en}}
-              A warning of Gatekeeper will be shown.
-              Click "Open" in the dialog box.
-            {{/language_en}}
-            {{#language_ja}}
-              Gatekeeperの警告が表示されますので、「開く」を選択してください。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/pckeyboardhack-gatekeeper.png Gatekeeper.
-          {{/lightbox}}
+          </h1>
         </div>
-        <div class="span4">
-          <h2>Step3</h2>
 
-          <p>
-            {{#language_en}}
-              Installer is launched. Install PCKeyboardHack.
-            {{/language_en}}
-            {{#language_ja}}
-              インストーラが起動しますので、PCKeyboardHackをインストールします。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/pckeyboardhack-installer.png installer
-          {{/lightbox}}
-          <br />
-        </div>
-      </div>
-    </section>
-  {{/current_tab_installation}}
-
-  {{#current_tab_usage}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Usage
-          {{/language_en}}
-          {{#language_ja}}
-            使い方
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <h2>Step1</h2>
-      <p>
-        {{#language_en}}
-          Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
-        {{/language_en}}
-        {{#language_ja}}
-          Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          Then, click PCKeyboardHack.
-        {{/language_en}}
-        {{#language_ja}}
-          そして、PCKeyboardHackをクリックしてください。
-        {{/language_ja}}
-      </p>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/pkh-launchpad-full.png Launchpad
-          {{/lightbox}}
-        </div>
-        <div class="span4">
-          <img
-          alt="icon"
-          {{#imgsrc}}
-            img/pkh-launchpad.png
-          {{/imgsrc}}
-          />
-        </div>
-      </div>
-
-      <br />
-
-      <p>
-        <span class="label label-info">Note</span>
-        {{#language_en}}
-          If you're using PCKeyboardHack 8.0.0 or earlier,
-          <a href="img/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
-        {{/language_en}}
-        {{#language_ja}}
-          PCKeyboardHack 8.0.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane-pckeyboardhack.png">設定画面はシステム環境設定にあります。</a>
-        {{/language_ja}}
-      </p>
-
-      <h2>Step2</h2>
-      <p>
-        {{#language_en}}
-          Activate items and change the keycode if needed.
-        {{/language_en}}
-        {{#language_ja}}
-          有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
-        {{/language_ja}}
-      </p>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/pkh-preferences.png Preferences
-          {{/lightbox}}
-        </div>
-      </div>
-
-      <div id="noaction">
-        <h2>
-          Step3
-          <span class="label label-important">Important</span>
-        </h2>
+        <h2>Step1</h2>
         <p>
           {{#language_en}}
-            If you are using PCKeyboardHack to change the behavior of caps lock,
-            open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
-            change caps lock configuration to "No Action".
+            Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
           {{/language_en}}
           {{#language_ja}}
-            caps lockキーの動作を変更するためにPCKeyboardHackを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
+            Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
           {{/language_ja}}
         </p>
         <p>
           {{#language_en}}
-            You need to do this step to to reduce caps lock delay.
+            Then, click PCKeyboardHack.
           {{/language_en}}
           {{#language_ja}}
-            caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+            そして、PCKeyboardHackをクリックしてください。
           {{/language_ja}}
         </p>
         <div class="row">
           <div class="span4">
             {{#lightbox}}
-              img/capslock.png No Action
+              img/pkh-launchpad-full.png Launchpad
+            {{/lightbox}}
+          </div>
+          <div class="span4">
+            <img
+            alt="icon"
+            {{#imgsrc}}
+              img/pkh-launchpad.png
+            {{/imgsrc}}
+            />
+          </div>
+        </div>
+
+        <br />
+
+        <p>
+          <span class="label label-info">Note</span>
+          {{#language_en}}
+            If you're using PCKeyboardHack 8.0.0 or earlier,
+            <a href="img/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHack 8.0.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane-pckeyboardhack.png">設定画面はシステム環境設定にあります。</a>
+          {{/language_ja}}
+        </p>
+
+        <h2>Step2</h2>
+        <p>
+          {{#language_en}}
+            Activate items and change the keycode if needed.
+          {{/language_en}}
+          {{#language_ja}}
+            有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
+          {{/language_ja}}
+        </p>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/pkh-preferences.png Preferences
             {{/lightbox}}
           </div>
         </div>
-      </div>
-    </section>
-  {{/current_tab_usage}}
 
-  {{#current_tab_uninstall}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Uninstall
-          {{/language_en}}
-          {{#language_ja}}
-            アンインストール方法
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <ol class="steps">
-        <li>
-          {{#language_en}}
-            Press the "Launch uninstaller" button in PCKeyboardHack Preferences.
-          {{/language_en}}
-          {{#language_ja}}
-            環境設定パネルの「Launch uninstaller」ボタンを押してください。
-          {{/language_ja}}
+        <div id="noaction">
+          <h2>
+            Step3
+            <span class="label label-important">Important</span>
+          </h2>
+          <p>
+            {{#language_en}}
+              If you are using PCKeyboardHack to change the behavior of caps lock,
+              open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
+              change caps lock configuration to "No Action".
+            {{/language_en}}
+            {{#language_ja}}
+              caps lockキーの動作を変更するためにPCKeyboardHackを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
+            {{/language_ja}}
+          </p>
+          <p>
+            {{#language_en}}
+              You need to do this step to to reduce caps lock delay.
+            {{/language_en}}
+            {{#language_ja}}
+              caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+            {{/language_ja}}
+          </p>
           <div class="row">
             <div class="span4">
               {{#lightbox}}
-                img/uninstaller_pkh1.png PCKeyboardHack
+                img/capslock.png No Action
               {{/lightbox}}
             </div>
           </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Proceed uninstallation.
-          {{/language_en}}
-          {{#language_ja}}
-            アンインストールを進めてください。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span3">
-              {{#lightbox}}
-                img/pckeyboardhackuninstaller1.png PCKeyboardHack Uninstaller
-              {{/lightbox}}
+        </div>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Uninstall
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストール方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Press the "Launch uninstaller" button in PCKeyboardHack Preferences.
+            {{/language_en}}
+            {{#language_ja}}
+              環境設定パネルの「Launch uninstaller」ボタンを押してください。
+            {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/uninstaller_pkh1.png PCKeyboardHack
+                {{/lightbox}}
+              </div>
             </div>
-            <div class="span3">
-              {{#lightbox}}
-                img/pckeyboardhackuninstaller2.png PCKeyboardHack Uninstaller
-              {{/lightbox}}
+          </li>
+          <li>
+            {{#language_en}}
+              Proceed uninstallation.
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストールを進めてください。
+            {{/language_ja}}
+            <div class="row">
+              <div class="span3">
+                {{#lightbox}}
+                  img/pckeyboardhackuninstaller1.png PCKeyboardHack Uninstaller
+                {{/lightbox}}
+              </div>
+              <div class="span3">
+                {{#lightbox}}
+                  img/pckeyboardhackuninstaller2.png PCKeyboardHack Uninstaller
+                {{/lightbox}}
+              </div>
+              <div class="span3">
+                {{#lightbox}}
+                  img/pckeyboardhackuninstaller3.png PCKeyboardHack Uninstaller
+                {{/lightbox}}
+              </div>
             </div>
-            <div class="span3">
-              {{#lightbox}}
-                img/pckeyboardhackuninstaller3.png PCKeyboardHack Uninstaller
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Then restart OS X.
-          {{/language_en}}
-          {{#language_ja}}
-            その後にOS Xを再起動してください。
-          {{/language_ja}}
-        </li>
-      </ol>
-    </section>
-  {{/current_tab_uninstall}}
+          </li>
+          <li>
+            {{#language_en}}
+              Then restart OS X.
+            {{/language_en}}
+            {{#language_ja}}
+              その後にOS Xを再起動してください。
+            {{/language_ja}}
+          </li>
+        </ol>
+      </section>
 
-  {{#current_tab_faq}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Q&amp;A
-          {{/language_en}}
-          {{#language_ja}}
-            Q&amp;A
-          {{/language_ja}}
-        </h1>
-      </div>
+      <section id="faq">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Q&amp;A
+            {{/language_en}}
+            {{#language_ja}}
+              Q&amp;A
+            {{/language_ja}}
+          </h1>
+        </div>
 
-      <h2>
-        {{#language_en}}
-          PCKeyboardHack does not work on developer-only beta of OS X. Why?
-        {{/language_en}}
-        {{#language_ja}}
-          PCKeyboardHackが開発者向けのベータ版のOS Xで動作しません。なぜですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          We need to modify secret values of OS X to performs purpose of PCKeyboardHack.
-        {{/language_en}}
-        {{#language_ja}}
-          PCKeyboardHackの機能を実現させるにはOS Xの隠された値を変更する必要があります。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          However, we cannot access those secret values via SDK which Apple provides.
-          We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
-        {{/language_en}}
-        {{#language_ja}}
-          しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          This source code will not be published until new OS X is shipped.
-          Therefore, PCKeyboardHack is intentionally disabled on beta version of OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、PCKeyboardHackは意図的にベータ版のOS Xでは動かないようにしています。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          Please wait until new OS X is shipped from Apple.
-          And please wait new version of PCKeyboardHack for new OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          Appleから新しいOS Xがリリースされ、新しいOS X向けのPCKeyboardHackがリリースされるまでお待ちください。
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_faq}}
-
-  {{#current_tab_history}}
-    <section id="history">
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Version History
-          {{/language_en}}
-          {{#language_ja}}
-            更新履歴
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      {{#histories}}
         <h2>
-          Version {{version}}
-          {{#updated}}
-            <small>
-              {{#format_date}}
-                {{updated}}
-              {{/format_date}}
-            </small>
-          {{/updated}}
-
-          {{#link}}
-            <a class="btn" href="{{link}}">
-              {{#language_en}}
-                Download
-              {{/language_en}}
-              {{#language_ja}}
-                ダウンロード
-              {{/language_ja}}
-            </a>
-          {{/link}}
+          {{#language_en}}
+            PCKeyboardHack does not work on developer-only beta of OS X. Why?
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHackが開発者向けのベータ版のOS Xで動作しません。なぜですか？
+          {{/language_ja}}
         </h2>
-        {{{body_l10n}}}
-      {{/histories}}
-    </section>
-  {{/current_tab_history}}
+        <p>
+          {{#language_en}}
+            We need to modify secret values of OS X to performs purpose of PCKeyboardHack.
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHackの機能を実現させるにはOS Xの隠された値を変更する必要があります。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            However, we cannot access those secret values via SDK which Apple provides.
+            We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
+          {{/language_en}}
+          {{#language_ja}}
+            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            This source code will not be published until new OS X is shipped.
+            Therefore, PCKeyboardHack is intentionally disabled on beta version of OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、PCKeyboardHackは意図的にベータ版のOS Xでは動かないようにしています。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            Please wait until new OS X is shipped from Apple.
+            And please wait new version of PCKeyboardHack for new OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            Appleから新しいOS Xがリリースされ、新しいOS X向けのPCKeyboardHackがリリースされるまでお待ちください。
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Version History
+            {{/language_en}}
+            {{#language_ja}}
+              更新履歴
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        {{#histories}}
+          <h2>
+            Version {{version}}
+            {{#updated}}
+              <small>
+                {{#format_date}}
+                  {{updated}}
+                {{/format_date}}
+              </small>
+            {{/updated}}
+
+            {{#link}}
+              <a class="btn" href="{{link}}">
+                {{#language_en}}
+                  Download
+                {{/language_en}}
+                {{#language_ja}}
+                  ダウンロード
+                {{/language_ja}}
+              </a>
+            {{/link}}
+          </h2>
+          {{{body_l10n}}}
+        {{/histories}}
+      </section>
+    </div>
+  </div>
 </div>
