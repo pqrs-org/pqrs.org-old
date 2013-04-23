@@ -35,7 +35,7 @@
             </span>
           </a>
           <small>
-            <a href="noejectdelay-history.html.{{language}}#history">old versions</a>
+            <a href="#history">old versions</a>
           </small>
         {{/strip_html}}
       </p>
@@ -101,281 +101,276 @@
     </div>
   </header>
 
-  {{> ../../pqrs_tabs }}
-
-  {{#current_tab_installation}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Installation
-          {{/language_en}}
-          {{#language_ja}}
-            インストール方法
-          {{/language_ja}}
-        </h1>
-      </div>
-      <div class="row show-grid">
-        <div class="span4">
-          <h2>Step1</h2>
-
-          <p>
+  <div class="row">
+    <div class="span3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="span9">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
             {{#language_en}}
-              Open a downloaded dmg file.
+              Installation
             {{/language_en}}
             {{#language_ja}}
-              ダウンロードしたdmgファイルを開きます。
+              インストール方法
             {{/language_ja}}
-          </p>
-          <p>
-            <img
-            alt="dmg"
-            {{#imgsrc}}
-              img/dmg.png
-            {{/imgsrc}}
-            />
-          </p>
+          </h1>
         </div>
-        <div class="span4">
-          <h2>Step2</h2>
+        <div class="row-fluid show-grid">
+          <div class="span4">
+            <h2>Step1</h2>
 
-          <p>
-            {{#language_en}}
-              Control-click or right click the pkg file,
-              then select "Open" from the top of contextual menu that appears.
-            {{/language_en}}
-            {{#language_ja}}
-              pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
-              メニューの一番上の「開く」を選択します。
-            {{/language_ja}}
-          </p>
-          <p>
-            <span class="label label-important">Important</span>
-            {{#language_en}}
-              You must open the pkg file from contextual menu in order to pass through Gatekeeper
-            {{/language_en}}
-            {{#language_ja}}
-              Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/noejectdelay-pkg.png Open pkg.
-          {{/lightbox}}
-          <br />
-          <p>
-            {{#language_en}}
-              A warning of Gatekeeper will be shown.
-              Click "Open" in the dialog box.
-            {{/language_en}}
-            {{#language_ja}}
-              Gatekeeperの警告が表示されますので、「開く」を選択してください。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/noejectdelay-gatekeeper.png Gatekeeper.
-          {{/lightbox}}
-        </div>
-        <div class="span4">
-          <h2>Step3</h2>
-
-          <p>
-            {{#language_en}}
-              Installer is launched. Install NoEjectDelay.
-            {{/language_en}}
-            {{#language_ja}}
-              インストーラが起動しますので、NoEjectDelayをインストールします。
-            {{/language_ja}}
-          </p>
-          {{#lightbox}}
-            img/noejectdelay-installer.png installer
-          {{/lightbox}}
-          <br />
-        </div>
-      </div>
-    </section>
-  {{/current_tab_installation}}
-
-  {{#current_tab_usage}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Usage
-          {{/language_en}}
-          {{#language_ja}}
-            使い方
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <p>
-        {{#language_en}}
-          No configuration required.
-          <br />
-          NoEjectDelay becomes effective immediately after installation has completed and OS X has been restarted.
-        {{/language_en}}
-        {{#language_ja}}
-          設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_usage}}
-
-  {{#current_tab_uninstall}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Uninstall
-          {{/language_en}}
-          {{#language_ja}}
-            アンインストール方法
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <ol>
-        <li>
-          {{#language_en}}
-            Download <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelay Uninstaller</a>.
-          {{/language_en}}
-          {{#language_ja}}
-            <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
-          {{/language_ja}}
-        </li>
-        <li>
-          {{#language_en}}
-            Execute uninstaller.
-          {{/language_en}}
-          {{#language_ja}}
-            アンインストーラを実行してください。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span3">
-              {{#lightbox}}
-                img/noejectdelayuninstaller1.png NoEjectDelay Uninstaller
-              {{/lightbox}}
-            </div>
-            <div class="span3">
-              {{#lightbox}}
-                img/noejectdelayuninstaller2.png NoEjectDelay Uninstaller
-              {{/lightbox}}
-            </div>
-            <div class="span3">
-              {{#lightbox}}
-                img/noejectdelayuninstaller3.png NoEjectDelay Uninstaller
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Then restart OS X.
-          {{/language_en}}
-          {{#language_ja}}
-            その後にOS Xを再起動してください。
-          {{/language_ja}}
-        </li>
-      </ol>
-    </section>
-  {{/current_tab_uninstall}}
-
-  {{#current_tab_faq}}
-    <section>
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Q&amp;A
-          {{/language_en}}
-          {{#language_ja}}
-            Q&amp;A
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      <h2>
-        {{#language_en}}
-          NoEjectDelay does not work on developer-only beta of OS X. Why?
-        {{/language_en}}
-        {{#language_ja}}
-          NoEjectDelayが開発者向けのベータ版のOS Xで動作しません。なぜですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          We need to modify secret values of OS X to performs purpose of NoEjectDelay.
-        {{/language_en}}
-        {{#language_ja}}
-          NoEjectDelayの機能を実現させるにはOS Xの隠された値を変更する必要があります。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          However, we cannot access those secret values via SDK which Apple provides.
-          We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
-        {{/language_en}}
-        {{#language_ja}}
-          しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          This source code will not be published until new OS X is shipped.
-          Therefore, NoEjectDelay is intentionally disabled on beta version of OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          Please wait until new OS X is shipped from Apple.
-          And please wait new version of NoEjectDelay for new OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          Appleから新しいOS Xがリリースされ、新しいOS X向けのNoEjectDelayがリリースされるまでお待ちください。
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_faq}}
-
-  {{#current_tab_history}}
-    <section id="history">
-      <div class="page-header">
-        <h1>
-          {{#language_en}}
-            Version History
-          {{/language_en}}
-          {{#language_ja}}
-            更新履歴
-          {{/language_ja}}
-        </h1>
-      </div>
-
-      {{#histories}}
-        <h2>
-          Version {{version}}
-          {{#updated}}
-            <small>
-              {{#format_date}}
-                {{updated}}
-              {{/format_date}}
-            </small>
-          {{/updated}}
-
-          {{#link}}
-            <a class="btn" href="{{link}}">
+            <p>
               {{#language_en}}
-                Download
+                Open a downloaded dmg file.
               {{/language_en}}
               {{#language_ja}}
-                ダウンロード
+                ダウンロードしたdmgファイルを開きます。
               {{/language_ja}}
-            </a>
-          {{/link}}
+            </p>
+            <p>
+              <img
+              alt="dmg"
+              {{#imgsrc}}
+                img/dmg.png
+              {{/imgsrc}}
+              />
+            </p>
+          </div>
+          <div class="span4">
+            <h2>Step2</h2>
+
+            <p>
+              {{#language_en}}
+                Control-click or right click the pkg file,
+                then select "Open" from the top of contextual menu that appears.
+              {{/language_en}}
+              {{#language_ja}}
+                pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
+                メニューの一番上の「開く」を選択します。
+              {{/language_ja}}
+            </p>
+            <p>
+              <span class="label label-important">Important</span>
+              {{#language_en}}
+                You must open the pkg file from contextual menu in order to pass through Gatekeeper
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/noejectdelay-pkg.png Open pkg.
+            {{/lightbox}}
+            <br />
+            <p>
+              {{#language_en}}
+                A warning of Gatekeeper will be shown.
+                Click "Open" in the dialog box.
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperの警告が表示されますので、「開く」を選択してください。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/noejectdelay-gatekeeper.png Gatekeeper.
+            {{/lightbox}}
+          </div>
+          <div class="span4">
+            <h2>Step3</h2>
+
+            <p>
+              {{#language_en}}
+                Installer is launched. Install NoEjectDelay.
+              {{/language_en}}
+              {{#language_ja}}
+                インストーラが起動しますので、NoEjectDelayをインストールします。
+              {{/language_ja}}
+            </p>
+            {{#lightbox}}
+              img/noejectdelay-installer.png installer
+            {{/lightbox}}
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Usage
+            {{/language_en}}
+            {{#language_ja}}
+              使い方
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            No configuration required.
+            <br />
+            NoEjectDelay becomes effective immediately after installation has completed and OS X has been restarted.
+          {{/language_en}}
+          {{#language_ja}}
+            設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Uninstall
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストール方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol>
+          <li>
+            {{#language_en}}
+              Download <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelay Uninstaller</a>.
+            {{/language_en}}
+            {{#language_ja}}
+              <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Execute uninstaller.
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストーラを実行してください。
+            {{/language_ja}}
+            <div class="row-fluid">
+              <div class="span3">
+                {{#lightbox}}
+                  img/noejectdelayuninstaller1.png NoEjectDelay Uninstaller
+                {{/lightbox}}
+              </div>
+              <div class="span3">
+                {{#lightbox}}
+                  img/noejectdelayuninstaller2.png NoEjectDelay Uninstaller
+                {{/lightbox}}
+              </div>
+              <div class="span3">
+                {{#lightbox}}
+                  img/noejectdelayuninstaller3.png NoEjectDelay Uninstaller
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            {{#language_en}}
+              Then restart OS X.
+            {{/language_en}}
+            {{#language_ja}}
+              その後にOS Xを再起動してください。
+            {{/language_ja}}
+          </li>
+        </ol>
+      </section>
+
+      <section id="faq">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Q&amp;A
+            {{/language_en}}
+            {{#language_ja}}
+              Q&amp;A
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <h2>
+          {{#language_en}}
+            NoEjectDelay does not work on developer-only beta of OS X. Why?
+          {{/language_en}}
+          {{#language_ja}}
+            NoEjectDelayが開発者向けのベータ版のOS Xで動作しません。なぜですか？
+          {{/language_ja}}
         </h2>
-        {{{body_l10n}}}
-      {{/histories}}
-    </section>
-  {{/current_tab_history}}
+        <p>
+          {{#language_en}}
+            We need to modify secret values of OS X to performs purpose of NoEjectDelay.
+          {{/language_en}}
+          {{#language_ja}}
+            NoEjectDelayの機能を実現させるにはOS Xの隠された値を変更する必要があります。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            However, we cannot access those secret values via SDK which Apple provides.
+            We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
+          {{/language_en}}
+          {{#language_ja}}
+            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            This source code will not be published until new OS X is shipped.
+            Therefore, NoEjectDelay is intentionally disabled on beta version of OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            Please wait until new OS X is shipped from Apple.
+            And please wait new version of NoEjectDelay for new OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            Appleから新しいOS Xがリリースされ、新しいOS X向けのNoEjectDelayがリリースされるまでお待ちください。
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Version History
+            {{/language_en}}
+            {{#language_ja}}
+              更新履歴
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        {{#histories}}
+          <h2>
+            Version {{version}}
+            {{#updated}}
+              <small>
+                {{#format_date}}
+                  {{updated}}
+                {{/format_date}}
+              </small>
+            {{/updated}}
+
+            {{#link}}
+              <a class="btn" href="{{link}}">
+                {{#language_en}}
+                  Download
+                {{/language_en}}
+                {{#language_ja}}
+                  ダウンロード
+                {{/language_ja}}
+              </a>
+            {{/link}}
+          </h2>
+          {{{body_l10n}}}
+        {{/histories}}
+      </section>
+    </div>
+  </div>
 </div>

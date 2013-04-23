@@ -12,40 +12,35 @@ class Noejectdelay < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'installation',
-       :href => '/macosx/keyremap4macbook/noejectdelay.html',
+       :href => '#installation',
        :name_l10n => {
          :en => 'Installation',
          :ja => 'インストール方法',
        }
      },
      {
-       :tab => 'usage',
-       :href => '/macosx/keyremap4macbook/noejectdelay-usage.html',
+       :href => '#usage',
        :name_l10n => {
          :en => 'Usage',
          :ja => '使い方',
        }
      },
      {
-       :tab => 'uninstall',
-       :href => '/macosx/keyremap4macbook/noejectdelay-uninstall.html',
+       :href => '#uninstall',
        :name_l10n => {
          :en => 'Uninstall',
          :ja => 'アンインストール方法',
        }
      },
      {
-       :tab => 'faq',
-       :href => '/macosx/keyremap4macbook/noejectdelay-faq.html',
+       :href => '#faq',
        :name_l10n => {
          :en => 'Q&A',
          :ja => 'Q&A',
        }
      },
      {
-       :tab => 'history',
-       :href => '/macosx/keyremap4macbook/noejectdelay-history.html',
+       :href => '#history',
        :name_l10n => {
          :en => 'Version History',
          :ja => '更新履歴',
@@ -265,14 +260,4 @@ EOS
   end
 end
 
-Noejectdelay.new.tabs_definition.each do |t|
-  eval <<-EOS
-  class Noejectdelay_#{t[:tab]} < Noejectdelay
-    @template_file = File.dirname(__FILE__) + '/noejectdelay.mustache'
-    def current_tab_#{t[:tab]}
-      true
-    end
-  end
-  EOS
-  eval "PqrsUtil.make_page('#{t[:href]}', Noejectdelay_#{t[:tab]})"
-end
+PqrsUtil.make_page('/macosx/keyremap4macbook/noejectdelay.html', Noejectdelay)
