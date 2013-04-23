@@ -133,7 +133,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Support Growl-1.3 on <a href="document-misc.html.en#growl">notifications.</a></li>
+  <li>Support Growl-1.3 on notifications.</li>
   <li>Some minor improvements.</li>
   <li>Resolved a minor installer issue.</li>
   <li>Increased prepared settings.</li>
@@ -157,7 +157,7 @@ EOS
                 :ja => <<EOS,
 
 <ul>
-  <li><a href="document-misc.html.ja#growl">通知機能</a>でGrowl-1.3に対応しました。</li>
+  <li>通知機能でGrowl-1.3に対応しました。</li>
   <li>いくつかの細かな改善を行ないました。</li>
   <li>インストーラの小さな問題を修正しました。</li>
   <li>約40種類の設定を加えました。</li>
@@ -320,13 +320,12 @@ EOS
     Replaced StatusWindow with Growl.<br />
     StatusWindow was displaying the lock state of modifiers and extra message.<br />
     Now, these messages are shown by Growl.<br />
-    See <a href="document-misc.html.en#growl">About "Growl"</a> for more details.
   </li>
   <li>
     Attached an application named "multi-touch extension".<br />
     This application activates specific setting while fingers touch the multi-touch device.<br />
     <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html" target="_blank">ThumbSense</a> is one of the function which this application supplies.<br />
-    See <a href="document-misc.html.en#multitouchextension">Multi-touch extension</a> for more details.
+    See <a href="document.html.en#multitouchextension">Multi-touch extension</a> for more details.
   </li>
   <li>Fixed some bugs.</li>
   <li>Increased prepared settings.</li>
@@ -346,13 +345,12 @@ EOS
   </li>
   <li>
     通知ウィンドウをGrowlを使うように変更しました。<br />
-    詳しくは <a href="document-misc.html.ja#growl">Growlについて</a> をご覧ください。
   </li>
   <li>
     multi-touch extensionというアプリケーションを添付しました。<br />
     このアプリケーションはマルチタッチデバイスに指が触れている間だけ、指定した設定を有効にします。<br />
     <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html" target="_blank">ThumbSense</a>はこのアプリケーションが提供する機能の一つです。<br />
-    詳しくは <a href="document-misc.html.ja#multitouchextension">マルチタッチ拡張</a>をご覧ください。
+    詳しくは <a href="document.html.ja#multitouchextension">マルチタッチ拡張</a>をご覧ください。
   </li>
   <li>
     設定の追加・調整
@@ -394,7 +392,7 @@ EOS
 <ul>
   <li>
     Now, you can add your original settings very very easily.<br />
-    <a href="document-private-xml.html.en">How to add new settings.</a><br />
+    <a href="document.html.en#privatexml">How to add new settings.</a><br />
     You don't need to build a package from source code anymore.
   </li>
   <li>
@@ -409,7 +407,7 @@ EOS
 <ul>
   <li>
     設定の追加方法が大幅に簡単になりました。<br />
-    <a href="document-private-xml.html.ja">新しい設定の追加方法</a><br />
+    <a href="document.html.ja#privatexml">新しい設定の追加方法</a><br />
     もうパッケージをビルドする必要はありません。
   </li>
   <li>下駄配列、新下駄配列をサポートしました。有効にするには設定から「geta」で検索してください。</li>

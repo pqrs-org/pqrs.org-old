@@ -16,65 +16,77 @@ class Document < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'remapping',
-       :href => '/macosx/keyremap4macbook/document.html',
+       :href => '#usage',
        :name_l10n => {
          :en => 'Usage',
          :ja => '使い方',
        }
      },
      {
-       :tab => 'keyrepeat',
-       :href => '/macosx/keyremap4macbook/document-key-repeat.html',
+       :href => '#keyrepeat',
        :name_l10n => {
-         :en => 'key repeat rate',
-         :ja => 'キーリピート',
+         :en => 'Change key repeat rate',
+         :ja => 'キーリピート速度の変更',
        }
      },
      {
-       :tab => 'uninstall',
-       :href => '/macosx/keyremap4macbook/document-uninstall.html',
+       :href => '#uninstall',
        :name_l10n => {
          :en => 'Uninstall',
          :ja => 'アンインストール方法',
        }
      },
      {
-       :tab => 'eventviewer',
-       :href => '/macosx/keyremap4macbook/document-eventviewer.html',
+       :href => '#eventviewer',
        :name_l10n => {
-         :en => 'eventviewer',
+         :en => 'Eventviewer',
          :ja => 'イベントビューア',
        }
      },
      {
-       :tab => 'privatexml',
-       :href => '/macosx/keyremap4macbook/document-private-xml.html',
+       :href => '#privatexml',
        :name_l10n => {
-         :en => 'how to add your own settings',
+         :en => 'How to add your own settings',
          :ja => '設定の追加',
        }
      },
      {
-       :tab => 'misc',
-       :href => '/macosx/keyremap4macbook/document-misc.html',
+       :href => '#multitouchextension',
        :name_l10n => {
-         :en => 'misc',
-         :ja => 'その他',
+         :en => 'misc > Multi-touch extension',
+         :ja => 'その他 > マルチタッチ拡張',
+       }
+     },
+     {
+       :href => '#profiles',
+       :name_l10n => {
+         :en => 'misc > Multiple profiles',
+         :ja => 'その他 > 複数の設定の使い分け',
+       }
+     },
+     {
+       :href => '#commandlineinterface',
+       :name_l10n => {
+         :en => 'misc > Command line interface',
+         :ja => 'その他 > コマンドラインインターフェース',
+       }
+     },
+     {
+       :href => '#preferences',
+       :name_l10n => {
+         :en => 'misc > The location of the configuration file',
+         :ja => 'その他 > 設定ファイルの場所',
+       }
+     },
+     {
+       :href => '#debugmode',
+       :name_l10n => {
+         :en => 'misc > debug mode',
+         :ja => 'その他 > デバッグモード',
        }
      },
     ]
   end
 end
 
-Document.new.tabs_definition.each do |t|
-  eval <<-EOS
-  class Document_#{t[:tab]} < Document
-    @template_file = File.dirname(__FILE__) + '/document.mustache'
-    def current_tab_#{t[:tab]}
-      true
-    end
-  end
-  EOS
-  eval "PqrsUtil.make_page('#{t[:href]}', Document_#{t[:tab]})"
-end
+PqrsUtil.make_page('/macosx/keyremap4macbook/document.html', Document)
