@@ -5,226 +5,308 @@
     </div>
   </header>
 
-  {{> ../../pqrs_tabs }}
-
-  {{#current_tab_example}}
-    <section>
-      <div class="page-header">
-        <h1>A simple example of private.xml</h1>
-      </div>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Swap Space and Tab</name>
-        |    <identifier>private.swap_space_and_tab</identifier>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
-        |  </item>
-        |
-        |  <item>
-        |    <name>Change Right Command Key to Escape</name>
-        |    <identifier>private.right_command_to_escape</identifier>
-        |    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-
-      <p>
-        2 settings are added by this private.xml.
-      </p>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/xml_basic.png preferences pane
-          {{/lightbox}}
+  <div class="row">
+    <div class="span3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="span9">
+      <section id="examples">
+        <div class="page-header">
+          <h1>Examples</h1>
         </div>
-      </div>
-    </section>
 
-    <section>
-      <div class="page-header">
-        <h1>Examples of &lt;autogen&gt;</h1>
-      </div>
-      <p>
-        There are a lot of examples of <code>&lt;autogen&gt;</code> in "Samples for KeyRemap4MacBook Developer" at
-        the bottom of KeyRemap4MacBook Prefs.
-        <br />
-        You can see the raw XML from <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.
-      </p>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/samples_for_developer.png Samples for KeyRemap4MacBook Developer
-          {{/lightbox}}
-        </div>
-      </div>
-      <p>
-      </p>
-      <p>
-        In addition, prepared settings are described in checkbox.xml.
-        These are also good examples of <code>&lt;autogen&gt;</code>.
-      </p>
-      <ul>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/tree/version_8.0.0/src/core/server/Resources/include/checkbox/">include/checkbox/</a>
-        </li>
-      </ul>
-    </section>
-  {{/current_tab_example}}
+        <h2>A simple example of private.xml</h2>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap Space and Tab</name>
+          |    <identifier>private.swap_space_and_tab</identifier>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |
+          |  <item>
+          |    <name>Change Right Command Key to Escape</name>
+          |    <identifier>private.right_command_to_escape</identifier>
+          |    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
 
-  {{#current_tab_basic}}
-    <section>
-      <div class="page-header">
-        <h1>Basic syntax</h1>
-      </div>
-      <p>
-        You can add a new setting by <code>&lt;item&gt;</code>.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |
-        |  <item>
-        |    <name>Name of Setting</name>
-        |    <appendix>Optional Description of Setting</appendix>
-        |    <identifier>Unique Identifier of Setting</identifier>
-        |    <autogen>Behavior Definition</autogen>
-        |    <autogen>Behavior Definition</autogen>
-        |  </item>
-        |
-        |  <item>...</item>
-        |
-        |  <item>...</item>
-        |
-        |</root>
-      {{/indented_xml}}
-
-      <p>
-        Please write <code>&lt;name&gt;</code>, <code>&lt;identifier&gt;</code>,
-        <code>&lt;autogen&gt;</code> under <code>&lt;item&gt;</code>.
-      </p>
-
-      <table class="table">
-        <tbody>
-          <tr>
-            <th>
-              &lt;name&gt;
-              <br />
-              &lt;appendix&gt;
-            </th>
-            <td>
-              These values are used in Preference Pane.
-            </td>
-          </tr>
-          <tr>
-            <th>
-              &lt;identifier&gt;
-            </th>
-            <td>
-              This value is used to identify setting.
-              <br />
-              You need to specify a unique value.
-              We recommend you to add a "private." prefix to your identifier.
-              It prevents conflicts with identifiers of prepared settings.
-            </td>
-          </tr>
-          <tr>
-            <th>
-              &lt;autogen&gt;
-            </th>
-            <td>
-              Definition of this setting behavior.
-              <br />
-              For example, __KeyToKey__, __PointingButtonToKey__.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section>
-      <div class="page-header">
-        <h1>List of KeyCode, ConsumerKeyCode, PointingButton</h1>
-      </div>
-      <ul>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="keytokey-syntax">
-      <div class="page-header">
-        <h1>__KeyToKey__ syntax</h1>
-      </div>
-
-      <h2>Plain</h2>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes space key to tab key.
-      </p>
-      {{#indented_xml}}
-        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-      {{/indented_xml}}
-
-      <h2>Modifier+Key to Key</h2>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes "left control+space key" to tab key.
-      </p>
-      {{#indented_xml}}
-        |<autogen>
-        |  __KeyToKey__
-        |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
-        |  KeyCode::TAB
-        |</autogen>
-      {{/indented_xml}}
-
-      <h2>Modifier+Key to Modifier+Key</h2>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes "left control+space key" to "left control+tab key".
-      </p>
-      {{#indented_xml}}
-        |<autogen>
-        |  __KeyToKey__
-        |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
-        |  KeyCode::TAB,   ModifierFlag::CONTROL_L
-        |</autogen>
-      {{/indented_xml}}
-
-      <h2>Multiple modifiers</h2>
-      <p>
-        You can use "|" to specify multiple modifiers.
-      </p>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes "left control+fn+space key" to tab key.
-      </p>
-      {{#indented_xml}}
-        |<autogen>
-        |  __KeyToKey__
-        |  KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::FN,
-        |  KeyCode::TAB
-        |</autogen>
-      {{/indented_xml}}
-
-      <div id="modifierflag-none">
-        <h2>ModifierFlag::NONE</h2>
         <p>
-          If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
+          2 settings are added by this private.xml.
+        </p>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/xml_basic.png preferences pane
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <hr class="separator" />
+
+        <h2>Examples of &lt;autogen&gt;</h2>
+        <p>
+          There are a lot of examples of <code>&lt;autogen&gt;</code> in "Samples for KeyRemap4MacBook Developer" at
+          the bottom of KeyRemap4MacBook Prefs.
+          <br />
+          You can see the raw XML from <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.
+        </p>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/samples_for_developer.png Samples for KeyRemap4MacBook Developer
+            {{/lightbox}}
+          </div>
+        </div>
+        <p>
         </p>
         <p>
-          This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
+          In addition, prepared settings are described in checkbox.xml.
+          These are also good examples of <code>&lt;autogen&gt;</code>.
+        </p>
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/tree/version_8.0.0/src/core/server/Resources/include/checkbox/">include/checkbox/</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="basic-syntax">
+        <div class="page-header">
+          <h1>Basic syntax</h1>
+        </div>
+        <p>
+          You can add a new setting by <code>&lt;item&gt;</code>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <item>
+          |    <name>Name of Setting</name>
+          |    <appendix>Optional Description of Setting</appendix>
+          |    <identifier>Unique Identifier of Setting</identifier>
+          |    <autogen>Behavior Definition</autogen>
+          |    <autogen>Behavior Definition</autogen>
+          |  </item>
+          |
+          |  <item>...</item>
+          |
+          |  <item>...</item>
+          |
+          |</root>
+        {{/indented_xml}}
+
+        <p>
+          Please write <code>&lt;name&gt;</code>, <code>&lt;identifier&gt;</code>,
+          <code>&lt;autogen&gt;</code> under <code>&lt;item&gt;</code>.
+        </p>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>
+                &lt;name&gt;
+                <br />
+                &lt;appendix&gt;
+              </th>
+              <td>
+                These values are used in Preference Pane.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;identifier&gt;
+              </th>
+              <td>
+                This value is used to identify setting.
+                <br />
+                You need to specify a unique value.
+                We recommend you to add a "private." prefix to your identifier.
+                It prevents conflicts with identifiers of prepared settings.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;autogen&gt;
+              </th>
+              <td>
+                Definition of this setting behavior.
+                <br />
+                For example, __KeyToKey__, __PointingButtonToKey__.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr class="separator" />
+
+        <h2>List of KeyCode, ConsumerKeyCode, PointingButton</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+          </li>
+        </ul>
+
+        <hr class="separator" />
+
+        <h2 id="keytokey-syntax">__KeyToKey__ syntax</h2>
+
+        <h3>Plain</h3>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes space key to tab key.
+        </p>
+        {{#indented_xml}}
+          |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+        {{/indented_xml}}
+
+        <h3>Modifier+Key to Key</h3>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes "left control+space key" to tab key.
+        </p>
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
+          |  KeyCode::TAB
+          |</autogen>
+        {{/indented_xml}}
+
+        <h3>Modifier+Key to Modifier+Key</h3>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes "left control+space key" to "left control+tab key".
+        </p>
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE, ModifierFlag::CONTROL_L,
+          |  KeyCode::TAB,   ModifierFlag::CONTROL_L
+          |</autogen>
+        {{/indented_xml}}
+
+        <h3>Multiple modifiers</h3>
+        <p>
+          You can use "|" to specify multiple modifiers.
+        </p>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes "left control+fn+space key" to tab key.
+        </p>
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE, ModifierFlag::CONTROL_L | ModifierFlag::FN,
+          |  KeyCode::TAB
+          |</autogen>
+        {{/indented_xml}}
+
+        <div id="modifierflag-none">
+          <h3>ModifierFlag::NONE</h3>
+          <p>
+            If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
+          </p>
+          <p>
+            This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
+          </p>
+          <div class="row">
+            <div class="span6">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Physical key</th>
+                    <th>Changed key</th>
+                    <th>State</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>space</td>
+                    <td>space</td>
+                    <td>
+                      <span class="label">Not changed</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>control+space</td>
+                    <td>control+space</td>
+                    <td>
+                      <span class="label">Not changed</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>fn+space</td>
+                    <td>tab</td>
+                    <td>
+                      <span class="label label-info">Changed</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>fn+control+space</td>
+                    <td>fn+control+space</td>
+                    <td>
+                      <span class="label">Not changed</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {{#indented_xml}}
+            |<autogen>
+            |  __KeyToKey__
+            |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
+            |  KeyCode::TAB
+            |</autogen>
+          {{/indented_xml}}
+        </div>
+
+        <h3>Change to multiple keys</h3>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes space key to tab,return key.
+        </p>
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE,
+          |  KeyCode::TAB, KeyCode::RETURN
+          |</autogen>
+        {{/indented_xml}}
+
+        <hr class="separator" />
+
+        <h2 id="order">Order of &lt;autogen&gt;</h2>
+
+        <h3>Basic case</h3>
+        <p>
+          KeyRemap4MacBook applies only the first matched <code>&lt;autogen&gt;</code>.
+        </p>
+        <p>
+          The following autogens change space key to tab key (not return key).
+        </p>
+        {{#indented_xml}}
+          |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
+        {{/indented_xml}}
+
+        <h3>More complex case</h3>
+        <p>
+          If you want to change "shift+space to tab" and "space to return",
+          you need to order <code>&lt;autogen&gt;</code> as follows.
         </p>
         <div class="row">
           <div class="span6">
@@ -233,1010 +315,968 @@
                 <tr>
                   <th>Physical key</th>
                   <th>Changed key</th>
-                  <th>State</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>space</td>
-                  <td>space</td>
-                  <td>
-                    <span class="label">Not changed</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>control+space</td>
-                  <td>control+space</td>
-                  <td>
-                    <span class="label">Not changed</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>fn+space</td>
+                  <td>shift+space</td>
                   <td>tab</td>
-                  <td>
-                    <span class="label label-info">Changed</span>
-                  </td>
                 </tr>
                 <tr>
-                  <td>fn+control+space</td>
-                  <td>fn+control+space</td>
-                  <td>
-                    <span class="label">Not changed</span>
-                  </td>
+                  <td>space</td>
+                  <td>return</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
+        {{#indented_xml}}
+          |<!-- shift+space to tab -->
+          |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
+
+          |<!-- space to return -->
+          |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
+        {{/indented_xml}}
+
+        <p>
+          <span class="label label-warning">Wrong case</span>
+          If you've put them in reverse order, KeyRemap4MacBook changes "shift+space" to "shift+return".
+        </p>
+
+        <p>
+        </p>
+        {{#indented_xml}}
+          |<!-- KeyRemap4MacBook always changes space key to return key even if you're pressing shift modifier. -->
+          |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
+          |
+          |<!-- *** This autogen is never applied. *** -->
+          |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
+        {{/indented_xml}}
+
+        <hr class="separator" />
+
+        <h2 id="identifier">Type of identifier prefix</h2>
+
+        <p>
+          You can add a special behavior by using some prefix on &lt;identifier&gt;.
+        </p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>
+                Prefix
+              </th>
+              <th>
+                Behavior
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                notsave.
+              </td>
+              <td>
+                "notsave." prefix is designed for creating "mode".
+                <ul>
+                  <li>This setting is not saved even if it was enabled.</li>
+                  <li>This setting priority is higher than normal settings.</li>
+                  <li>User cannot enable this setting by Preference. (Use KeyCode::VK_CONFIG_*.)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                passthrough.
+              </td>
+              <td>
+                "passthrough." prefix is designed for turning "Pass Through Mode" off.
+                <ul>
+                  <li>This setting is effective even if in "Pass Through Mode".</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="appdef">
+        <div class="page-header">
+          <h1>Specify application</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can define settings which are effective on specific applications only.
+          <br />
+          Add <code>&lt;only&gt;</code> or <code>&lt;not&gt;</code> to your <code>&lt;item&gt;</code>.
+        </p>
+        <p>
+          This private.xml exchanges space key and tab key on Safari.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap Space and Tab</name>
+          |    <identifier>private.app_safari_swap_space_and_tab</identifier>
+          |    <only>SAFARI</only>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <hr class="separator" />
+
+        <h2 id="appdef-steps">Steps to define an application specific setting</h2>
+        <h3>
+          Examine a bundle identifier of target application
+        </h3>
+        <ol class="steps">
+          <li>
+            Launch EventViewer from a menu.
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/eventviewer-menu.png eventviewer menu
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              See "App" tab of EventViewer.
+              <br />
+              This list is updated when you changed the current application.
+            </p>
+            <p>
+              Change the current application to target application. Then press "copy to pasteboard" button.
+              <br />
+              You can paste this information to text area.
+            </p>
+
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/eventviewer-app.png eventviewer-app
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <h3>Add an application definition to your private.xml.</h3>
+        <ol class="steps">
+          <li>
+            Add <code>&lt;appdef&gt;</code> to your private.xml.
+            <br />
+            <code>&lt;appname&gt;</code> is a name of application which you use in <code>&lt;only&gt;</code> filter.
+            <br />
+            Write the bundle identifier into <code>&lt;equal&gt;</code>.
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <appdef>
+              |    <appname>APPSTORE</appname>
+              |    <equal>com.apple.appstore</equal>
+              |  </appdef>
+              |</root>
+            {{/indented_xml}}
+          </li>
+          <li>
+            Then, you can use <code>&lt;only&gt;APPSTORE&lt;/only&gt;</code> in private.xml.
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <appdef>
+              |    <appname>APPSTORE</appname>
+              |    <equal>com.apple.appstore</equal>
+              |  </appdef>
+              |
+              |  <item>
+              |    <name>Space to Tab on App Store.app</name>
+              |    <identifier>private.appdef</identifier>
+              |    <only>APPSTORE</only>
+              |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+              |  </item>
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+
+        <hr class="separator" />
+
+        <h2>Prepared application definitions</h2>
+        <p>
+          KeyRemap4MacBook provides
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/appdef.xml">various application definitions</a>.
+          <br />
+          You can use them without <code>&lt;appdef&gt;</code> in private.xml.
+        </p>
+        <p>
+          You can also overwrite existent application definitions by private.xml.
+          <br />
+          If you overwrite TERMINAL definition as follows,
+          <code>&lt;only&gt;TERMINAL&lt;/only&gt;</code> is effective on Apple's Terminal.app only
+          (not iTerm2 and other terminal apps).
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <appdef>
+          |    <appname>TERMINAL</appname>
+          |    <equal>com.apple.Terminal</equal>
+          |  </appdef>
+          |</root>
+        {{/indented_xml}}
+      </section>
+
+      <section id="devicedef">
+        <div class="page-header">
+          <h1>Specify device</h1>
+        </div>
+
+        <p>
+          You can define settings which are effective on specific device only.
+          <br />
+          Add <code>&lt;device_only&gt;</code> or <code>&lt;device_not&gt;</code> to your <code>&lt;item&gt;</code>.
+        </p>
+        <p>
+          This private.xml turns scroll wheel off on Magic Mouse.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Disable ScrollWheel on Magic Mouse</name>
+          |    <identifier>private.dropscrollwheel_0x05ac_0x030d</identifier>
+          |    <device_only>DeviceVendor::APPLE_COMPUTER,DeviceProduct::MAGIC_MOUSE</device_only>
+          |    <autogen>__DropScrollWheel__</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <hr class="separator" />
+
+        <h2 id="devicedef-steps">Steps to define a device specific setting</h2>
+
+        <h3>Examine Vendor ID and Product ID of a target device</h3>
+        <ol class="steps">
+          <li>
+            Launch EventViewer from a menu.
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/eventviewer-menu.png eventviewer menu
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              See "Devices" tab of EventViewer.
+            </p>
+            <p>
+              Then press "copy to pasteboard" button.
+              <br />
+              You can paste this information to text area.
+            </p>
+
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/eventviewer-devices.png eventviewer-devices
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <h3>Add an device definition to your private.xml</h3>
+        <ol class="steps">
+          <li>
+            Add <code>&lt;devicevendordef&gt;</code> and <code>&lt;deviceproductdef&gt;</code> to your private.xml.
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <devicevendordef>
+              |    <vendorname>HEWLETT_PACKARD</vendorname>
+              |    <vendorid>0x03f0</vendorid>
+              |  </devicevendordef>
+              |
+              |  <deviceproductdef>
+              |    <productname>MY_HP_KEYBOARD</productname>
+              |    <productid>0x0224</productid>
+              |  </deviceproductdef>
+              |</root>
+            {{/indented_xml}}
+          </li>
+          <li>
+            Then, you can use <code>&lt;device_only&gt;</code> in private.xml.
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <devicevendordef>
+              |    <vendorname>HEWLETT_PACKARD</vendorname>
+              |    <vendorid>0x03f0</vendorid>
+              |  </devicevendordef>
+              |
+              |  <deviceproductdef>
+              |    <productname>MY_HP_KEYBOARD</productname>
+              |    <productid>0x0224</productid>
+              |  </deviceproductdef>
+              |
+              |  <item>
+              |    <name>Space to Tab in MY_HP_KEYBOARD</name>
+              |    <identifier>private.deviceproductdef</identifier>
+              |    <device_only>DeviceVendor::HEWLETT_PACKARD, DeviceProduct::MY_HP_KEYBOARD</device_only>
+              |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+              |  </item>
+              |
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+
+        <hr class="separator" />
+
+        <h2>Prepared device definitions</h2>
+        <p>
+          KeyRemap4MacBook provides various Vendor ID and Product ID definitions.
+          <br />
+          You can use them without <code>&lt;devicevendordef&gt;</code> and
+          <code>&lt;deviceproductdef&gt;</code> in private.xml.
+        </p>
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/devicevendordef.xml">List of prepared Vendor ID</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/deviceproductdef.xml">List of prepared Product ID</a>
+          </li>
+        </ul>
+        <p>
+          You can also overwrite existent device definitions by private.xml.
+        </p>
+
+        <hr class="separator" />
+
+        <h2 id="locationid">How to distinguish multiple devices which have same Vendor ID and Product ID</h2>
+        <p>
+          You can use "Location ID" in order to distinguish multiple devices which have same Vendor ID and Product ID.
+        </p>
+        <h3>Learn about "Location ID"</h3>
+        <ul>
+          <li>"Location ID" is an unique identifier even if devices have same Vendor ID and Product ID.</li>
+          <li>The behavior of "Location ID" is different for each type of device.</li>
+        </ul>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>
+                Device Type
+              </th>
+              <th>
+                What's Location ID?
+              </th>
+              <th>
+                Is immutable?
+              </th>
+            </tr>
+            <tr>
+              <td>
+                USB Device
+              </td>
+              <td>
+                Location ID is determined by USB port.
+              </td>
+              <td>
+                This value will be changed when you pull out USB device and plug it into other USB port.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Bluetooth Device
+              </td>
+              <td>
+                Location ID is determined by Bluetooth Address.
+              </td>
+              <td>
+                This value is immutable.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Examine Location ID</h3>
+        <p>
+          You can examin Location ID by <a href="document-eventviewer.html.{{language}}">EventViewer</a>.
+        </p>
+
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/eventviewer-locationid.png Location ID
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <h3>Location ID in XML</h3>
+        <p>
+          You can specify Location ID like this.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <devicevendordef>
+          |    <vendorname>HEWLETT_PACKARD</vendorname>
+          |    <vendorid>0x03f0</vendorid>
+          |  </devicevendordef>
+          |
+          |  <deviceproductdef>
+          |    <productname>MY_HP_KEYBOARD</productname>
+          |    <productid>0x0224</productid>
+          |  </deviceproductdef>
+          |
+          |  <devicelocationdef>
+          |    <locationname>MY_HP_KEYBOARD_PRIMARY</locationname>
+          |    <locationid>0xfa120000</locationid>
+          |  </devicelocationdef>
+          |
+          |  <item>
+          |    <name>Space to Tab in MY_HP_KEYBOARD</name>
+          |    <identifier>private.deviceproductdef</identifier>
+          |    <device_only>
+          |      DeviceVendor::HEWLETT_PACKARD,
+          |      DeviceProduct::MY_HP_KEYBOARD,
+          |      DeviceLocation::MY_HP_KEYBOARD_PRIMARY,
+          |    </device_only>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |  </item>
+          |
+          |</root>
+        {{/indented_xml}}
+      </section>
+
+      <section id="inputsourcedef">
+        <div class="page-header">
+          <h1>Input source</h1>
+        </div>
+
+        <h2>Functions</h2>
+        <p>
+          There are two functions related with input source.
+        </p>
+        <ul>
+          <li><a href="#vkchangeinputsourcedef">Change input source by virtual key code.</a></li>
+          <li><a href="#inputsourceonly">You can define settings which are effective on specific input source only.</a></li>
+        </ul>
+
+        <hr class="separator" />
+
+        <h2 id="vkchangeinputsourcedef">Change input source by virtual key code.</h2>
+
+        <h3>An example</h3>
+        <p>
+          This private.xml changes input source to Dvorak by <span class="label">Right Shift Key + D</span>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <vkchangeinputsourcedef>
+          |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK</name>
+          |    <inputsourceid_equal>com.apple.keylayout.Dvorak</inputsourceid_equal>
+          |  </vkchangeinputsourcedef>
+          |
+          |  <item>
+          |    <name>Change input source to Dvorak by right shift key + D</name>
+          |    <identifier>private.change_input_source_to_dvorak</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::D, ModifierFlag::SHIFT_R,
+          |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
+          |    </autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h3>Virtual key code definition</h3>
+        <p>
+          You can define new virtual key code by <code>&lt;vkchangeinputsourcedef&gt;</code>.
+        </p>
+        <ul>
+          <li>
+            <p>
+              <code>&lt;name&gt;</code> is a name of virtual key code.
+              This name must be started with <code>KeyCode::VK_CHANGE_INPUTSOURCE_</code>.
+              <br />
+              For example, <code>&lt;name&gt;KeyCode::VK_CHANGE_INPUTSOURCE_YOUR_LANGUAGE&lt;/name&gt;</code>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <code>&lt;inputsourceid_equal&gt;</code> is a input source id of target input source.
+              <br />
+              <a href="#inputsourceid">How to examine input source id.</a>
+            </p>
+          </li>
+        </ul>
+
+        <h3>Prepared virtual key code definitions</h3>
+        <p>
+          KeyRemap4MacBook provides
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
+          <br />
+          You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
+        </p>
+
+        <hr class="separator" />
+
+        <h2 id="inputsourceonly">Settings which are effective on specific input source only.</h2>
+
+        <h3>An example</h3>
+        <p>
+          This private.xml exchanges space key and tab key on Dvorak.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <inputsourcedef>
+          |    <name>MY_DVORAK</name>
+          |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+          |  </inputsourcedef>
+          |
+          |  <item>
+          |    <name>Swap Space and Tab</name>
+          |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
+          |    <inputsource_only>MY_DVORAK</inputsource_only>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h3>Steps</h3>
+        <ol class="steps">
+          <li>
+            <p>
+              Examine Input Source ID of target input source.
+              <br />
+              <a href="#inputsourceid">How to examine input source id.</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              Add <code>&lt;inputsourcedef&gt;</code> your private.xml.
+            </p>
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <inputsourcedef>
+              |    <name>MY_DVORAK</name>
+              |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+              |  </inputsourcedef>
+              |</root>
+            {{/indented_xml}}
+          </li>
+          <li>
+            <p>
+              Then, you can use <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code> in private.xml.
+            </p>
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <inputsourcedef>
+              |    <name>MY_DVORAK</name>
+              |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
+              |  </inputsourcedef>
+              |
+              |  <item>
+              |    <name>Swap Space and Tab</name>
+              |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
+              |    <inputsource_only>MY_DVORAK</inputsource_only>
+              |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+              |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+              |  </item>
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+
+        <h3>Prepared input source definitions</h3>
+        <p>
+          KeyRemap4MacBook provides <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
+          <br />
+          You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
+        </p>
+
+        <hr class="separator" />
+
+        <h2 id="inputsourceid">How to examine input source id</h2>
+        <p>
+          You can examine input source id by Event Viewer.
+        </p>
+        <ol>
+          <li>Launch <a href="document-eventviewer.html.{{ language }}">Event Viewer</a>.</li>
+          <li>Switch input source into target input source.</li>
+          <li>Switch input source into other input source.</li>
+          <li>Again, switch input source into target input source.</li>
+          <li>See <span class="label">Input Source ID</span> in Event Viewer.</li>
+        </ol>
+        <div class="row">
+          <div class="span4">
+            {{#lightbox}}
+              img/eventviewer-inputsource.png Event Viewer
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+
+      <section id="vkopenurldef">
+        <div class="page-header">
+          <h1>Launch app / Open URL</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          This private.xml opens web site and launches calculator.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_WEB_keyremap4macbook</name>
+          |    <url>http://pqrs.org/macosx/keyremap4macbook/</url>
+          |  </vkopenurldef>
+          |
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_APP_Calculator</name>
+          |    <url>file:///Applications/Calculator.app</url>
+          |  </vkopenurldef>
+          |
+          |  <item>
+          |    <name>Change right-command + w to open http://pqrs.org/macosx/keyremap4macbook/</name>
+          |    <identifier>private.right_command_w</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::W, ModifierFlag::COMMAND_R,
+          |      KeyCode::VK_OPEN_URL_WEB_keyremap4macbook,
+          |    </autogen>
+          |  </item>
+          |
+          |  <item>
+          |    <name>Change right-command + c to launch calculator</name>
+          |    <identifier>private.right_command_c</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::C, ModifierFlag::COMMAND_R,
+          |      KeyCode::VK_OPEN_URL_APP_Calculator,
+          |    </autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2>Virtual key code definition</h2>
+        <p>
+          You can define new virtual key code by <code>&lt;vkopenurldef&gt;</code>.
+        </p>
+        <ul>
+          <li>
+            <p>
+              <code>&lt;name&gt;</code> is a name of virtual key code.
+              This name must be started with <code>KeyCode::VK_OPEN_URL_</code>.
+              <br />
+              For example, <code>&lt;name&gt;KeyCode::VK_OPEN_URL_Yourapp&lt;/name&gt;</code>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <code>&lt;url&gt;</code> is a url of virtual key code.
+              <br />
+              If url contains a space character, you need to change space to %20.
+            </p>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>Correct</th>
+                  <td>&lt;url&gt;file:///Applications/Utilities/Activity%20Monitor.app&lt;/url&gt;</td>
+                </tr>
+                <tr>
+                  <th>Wrong</th>
+                  <td>&lt;url&gt;file:///Applications/Utilities/Activity Monitor.app&lt;/url&gt;</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+        </ul>
+
+        <h2>Prepared virtual key code definitions</h2>
+        <p>
+          KeyRemap4MacBook provides
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/vkopenurldef.xml">various virtual key code definitions</a>.
+          <br />
+          You can use them without <code>&lt;vkopenurldef&gt;</code> in private.xml.
+        </p>
+      </section>
+
+      <section id="include">
+        <div class="page-header">
+          <h1>Include external XML</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can include external xml files by <code>&lt;include&gt;</code>.
+        </p>
+
+        <b>private.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <include path="core.xml" />
+          |</root>
+        {{/indented_xml}}
+
+        <b>core.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap Space and Tab</name>
+          |    <identifier>private.swap_space_and_tab</identifier>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2 id="dropbox">&lt;include&gt; with Dropbox</h2>
+        <p>
+          You can synchronize your private.xml by Dropbox or other file syncing service.
+        </p>
+
+        <b>private.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <include path="../../../Dropbox/private/KeyRemap4MacBook/core.xml" />
+          |</root>
+        {{/indented_xml}}
+
+        <span class="label label-info">
+          Since version 8.0.58:
+        </span>
+        You can use {{curly}} ENV_HOME }} to specify home directory.
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <include path="{{curly}} ENV_HOME }}/Dropbox/private/KeyRemap4MacBook/core.xml" />
+          |</root>
+        {{/indented_xml}}
+
+        <b>Dropbox/private/KeyRemap4MacBook/core.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Dropbox Test!</name>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2 id="include-with-replacementdef">&lt;include&gt; with &lt;replacementdef&gt;</h2>
+        <p>
+          <code>&lt;replacementdef&gt;</code> in <code>&lt;include&gt;</code> has a local scope.
+          These <code>&lt;replacementdef&gt;</code> are effective only in included file.
+        </p>
+
+        <b>private.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <!-- Swap Space and Escape -->
+          |  <include path="core.xml">
+          |    <replacementdef>
+          |      <replacementname>KEY1</replacementname>
+          |      <replacementvalue>KeyCode::SPACE</replacementvalue>
+          |    </replacementdef>
+          |    <replacementdef>
+          |      <replacementname>KEY2</replacementname>
+          |      <replacementvalue>KeyCode::ESCAPE</replacementvalue>
+          |    </replacementdef>
+          |  </include>
+          |
+          |  <!-- Swap Tab and Return -->
+          |  <include path="core.xml">
+          |    <replacementdef>
+          |      <replacementname>KEY1</replacementname>
+          |      <replacementvalue>KeyCode::TAB</replacementvalue>
+          |    </replacementdef>
+          |    <replacementdef>
+          |      <replacementname>KEY2</replacementname>
+          |      <replacementvalue>KeyCode::RETURN</replacementvalue>
+          |    </replacementdef>
+          |  </include>
+          |</root>
+        {{/indented_xml}}
+
+        <b>core.xml</b>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap {{curly}} KEY1 }} and {{curly}} KEY2 }}</name>
+          |    <identifier>private.swap_{{curly}} KEY1 }}_{{curly}} KEY2 }}</identifier>
+          |    <autogen>__KeyToKey__ {{curly}} KEY1 }}, {{curly}} KEY2 }}</autogen>
+          |    <autogen>__KeyToKey__ {{curly}} KEY2 }}, {{curly}} KEY1 }}</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+      </section>
+
+      <section id="replacementdef">
+        <div class="page-header">
+          <h1>String replacement</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can define replacement by <code>&lt;replacementdef&gt;</code>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <replacementdef>
+          |    <replacementname>MY_IGNORE_APPS</replacementname>
+          |    <replacementvalue>SAFARI, FIREFOX, FINDER</replacementvalue>
+          |  </replacementdef>
+          |
+          |  <item>
+          |    <name>Change space to tab except in my ignore apps.</name>
+          |    <identifier>private.space_to_tab_except_my_ignore_apps</identifier>
+          |    <not>{{curly}} MY_IGNORE_APPS }}</not>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+        <p>
+          {{curly}} &lt;replacementname&gt; }} is replaced by <code>&lt;replacementvalue&gt;</code>.
+        </p>
 
         {{#indented_xml}}
-          |<autogen>
-          |  __KeyToKey__
-          |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
-          |  KeyCode::TAB
-          |</autogen>
+          |<not>{{curly}} MY_IGNORE_APPS }}</not>
+          |
+          |<!-- ↑ is replaced to ↓ -->
+          |
+          |<not>SAFARI, FIREFOX, FINDER</not>
         {{/indented_xml}}
-      </div>
 
-      <h2>Change to multiple keys</h2>
-      <p>
-        This <code>&lt;autogen&gt;</code> changes space key to tab,return key.
-      </p>
-      {{#indented_xml}}
-        |<autogen>
-        |  __KeyToKey__
-        |  KeyCode::SPACE,
-        |  KeyCode::TAB, KeyCode::RETURN
-        |</autogen>
-      {{/indented_xml}}
-    </section>
+        <h2>Global scope replacement</h2>
+        <p>
+          <code>&lt;replacementdef&gt;</code> written in private.xml has a global scope.
+          It is effective for the entire XML.
+        </p>
+        <p>
+          When you wrote multiple <code>&lt;replacementdef&gt;</code> for one <code>&lt;replacementname&gt;</code>,
+          only the first one is effective.
+        </p>
 
-    <section id="order">
-      <div class="page-header">
-        <h1>Order of &lt;autogen&gt;</h1>
-      </div>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <replacementdef>
+          |    <replacementname>MY_KEYCODE</replacementname>
+          |    <replacementvalue>KeyCode::SPACE</replacementvalue>
+          |  </replacementdef>
+          |
+          |  <!-- This replacementdef of MY_KEYCODE is ignored -->
+          |  <replacementdef>
+          |    <replacementname>MY_KEYCODE</replacementname>
+          |    <replacementvalue>KeyCode::TAB</replacementvalue>
+          |  </replacementdef>
+          |
+          |  <item>
+          |    <name>{{curly}} MY_KEYCODE }} is KeyCode::SPACE</name>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
 
-      <h2>Basic case</h2>
-      <p>
-        KeyRemap4MacBook applies only the first matched <code>&lt;autogen&gt;</code>.
-      </p>
-      <p>
-        The following autogens change space key to tab key (not return key).
-      </p>
-      {{#indented_xml}}
-        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
-      {{/indented_xml}}
-
-      <h2>More complex case</h2>
-      <p>
-        If you want to change "shift+space to tab" and "space to return",
-        you need to order <code>&lt;autogen&gt;</code> as follows.
-      </p>
-      <div class="row">
-        <div class="span6">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Physical key</th>
-                <th>Changed key</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>shift+space</td>
-                <td>tab</td>
-              </tr>
-              <tr>
-                <td>space</td>
-                <td>return</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      {{#indented_xml}}
-        |<!-- shift+space to tab -->
-        |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
-
-        |<!-- space to return -->
-        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
-      {{/indented_xml}}
-
-      <p>
-        <span class="label label-warning">Wrong case</span>
-        If you've put them in reverse order, KeyRemap4MacBook changes "shift+space" to "shift+return".
-      </p>
-
-      <p>
-      </p>
-      {{#indented_xml}}
-        |<!-- KeyRemap4MacBook always changes space key to return key even if you're pressing shift modifier. -->
-        |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
-        |
-        |<!-- *** This autogen is never applied. *** -->
-        |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
-      {{/indented_xml}}
-    </section>
-
-    <section id="identifier">
-      <div class="page-header">
-        <h1>Type of identifier prefix</h1>
-      </div>
-
-      <p>
-        You can add a special behavior by using some prefix on &lt;identifier&gt;.
-      </p>
-
-      <table class="table">
-        <thead>
-          <tr>
-            <th>
-              Prefix
-            </th>
-            <th>
-              Behavior
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              notsave.
-            </td>
-            <td>
-              "notsave." prefix is designed for creating "mode".
-              <ul>
-                <li>This setting is not saved even if it was enabled.</li>
-                <li>This setting priority is higher than normal settings.</li>
-                <li>User cannot enable this setting by Preference. (Use KeyCode::VK_CONFIG_*.)</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              passthrough.
-            </td>
-            <td>
-              "passthrough." prefix is designed for turning "Pass Through Mode" off.
-              <ul>
-                <li>This setting is effective even if in "Pass Through Mode".</li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  {{/current_tab_basic}}
-
-  {{#current_tab_appdef}}
-    <section>
-      <div class="page-header">
-        <h1>An example</h1>
-      </div>
-      <p>
-        You can define settings which are effective on specific applications only.
-        <br />
-        Add <code>&lt;only&gt;</code> or <code>&lt;not&gt;</code> to your <code>&lt;item&gt;</code>.
-      </p>
-      <p>
-        This private.xml exchanges space key and tab key on Safari.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Swap Space and Tab</name>
-        |    <identifier>private.app_safari_swap_space_and_tab</identifier>
-        |    <only>SAFARI</only>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section id="steps">
-      <div class="page-header">
-        <h1>Steps to define an application specific setting</h1>
-      </div>
-      <h2>
-        Examine a bundle identifier of target application
-      </h2>
-      <ol class="steps">
-        <li>
-          Launch EventViewer from a menu.
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/eventviewer-menu.png eventviewer menu
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          <p>
-            See "App" tab of EventViewer.
-            <br />
-            This list is updated when you changed the current application.
-          </p>
-          <p>
-            Change the current application to target application. Then press "copy to pasteboard" button.
-            <br />
-            You can paste this information to text area.
-          </p>
-
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/eventviewer-app.png eventviewer-app
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-      </ol>
-
-      <h2>Add an application definition to your private.xml.</h2>
-      <ol class="steps">
-        <li>
-          Add <code>&lt;appdef&gt;</code> to your private.xml.
+        <h2>Local scope replacement</h2>
+        <p>
+          You can define a local scope replacement
+          by using <code>&lt;replacementdef&gt;</code> under <code>&lt;include&gt;</code>.
           <br />
-          <code>&lt;appname&gt;</code> is a name of application which you use in <code>&lt;only&gt;</code> filter.
+          See
+          <a href="#include-with-replacementdef">&lt;include&gt; with &lt;replacementdef&gt;</a> section.
+        </p>
+
+        <h2>Prepared replacement definitions</h2>
+        <p>
+          KeyRemap4MacBook provides
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
           <br />
-          Write the bundle identifier into <code>&lt;equal&gt;</code>.
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <appdef>
-            |    <appname>APPSTORE</appname>
-            |    <equal>com.apple.appstore</equal>
-            |  </appdef>
-            |</root>
-          {{/indented_xml}}
-        </li>
-        <li id="appdef">
-          Then, you can use <code>&lt;only&gt;APPSTORE&lt;/only&gt;</code> in private.xml.
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <appdef>
-            |    <appname>APPSTORE</appname>
-            |    <equal>com.apple.appstore</equal>
-            |  </appdef>
-            |
-            |  <item>
-            |    <name>Space to Tab on App Store.app</name>
-            |    <identifier>private.appdef</identifier>
-            |    <only>APPSTORE</only>
-            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-            |  </item>
-            |</root>
-          {{/indented_xml}}
-        </li>
-      </ol>
-    </section>
+          You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
+        </p>
+        <p>
+          You can also overwrite existent replacement definitions by private.xml.
+          <br />
+          An example of overwriting VI_H:
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <replacementdef>
+          |    <replacementname>VI_H</replacementname>
+          |    <replacementvalue>KeyCode::J</replacementvalue>
+          |  </appdef>
+          |</root>
+        {{/indented_xml}}
+      </section>
 
-    <section>
-      <div class="page-header">
-        <h1>Prepared application definitions</h1>
-      </div>
-      <p>
-        KeyRemap4MacBook provides
-        <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/appdef.xml">various application definitions</a>.
-        <br />
-        You can use them without <code>&lt;appdef&gt;</code> in private.xml.
-      </p>
-      <p>
-        You can also overwrite existent application definitions by private.xml.
-        <br />
-        If you overwrite TERMINAL definition as follows,
-        <code>&lt;only&gt;TERMINAL&lt;/only&gt;</code> is effective on Apple's Terminal.app only
-        (not iTerm2 and other terminal apps).
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <appdef>
-        |    <appname>TERMINAL</appname>
-        |    <equal>com.apple.Terminal</equal>
-        |  </appdef>
-        |</root>
-      {{/indented_xml}}
-    </section>
-  {{/current_tab_appdef}}
-
-  {{#current_tab_devicedef}}
-    <section>
-      <div class="page-header">
-        <h1>An example</h1>
-      </div>
-      <p>
-        You can define settings which are effective on specific device only.
-        <br />
-        Add <code>&lt;device_only&gt;</code> or <code>&lt;device_not&gt;</code> to your <code>&lt;item&gt;</code>.
-      </p>
-      <p>
-        This private.xml turns scroll wheel off on Magic Mouse.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Disable ScrollWheel on Magic Mouse</name>
-        |    <identifier>private.dropscrollwheel_0x05ac_0x030d</identifier>
-        |    <device_only>DeviceVendor::APPLE_COMPUTER,DeviceProduct::MAGIC_MOUSE</device_only>
-        |    <autogen>__DropScrollWheel__</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section id="step">
-      <div class="page-header">
-        <h1>Steps to define a device specific setting</h1>
-      </div>
-
-      <h2>Examine Vendor ID and Product ID of a target device</h2>
-      <ol class="steps">
-        <li>
-          Launch EventViewer from a menu.
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/eventviewer-menu.png eventviewer menu
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          <p>
-            See "Devices" tab of EventViewer.
-          </p>
-          <p>
-            Then press "copy to pasteboard" button.
-            <br />
-            You can paste this information to text area.
-          </p>
-
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/eventviewer-devices.png eventviewer-devices
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-      </ol>
-
-      <h2>Add an device definition to your private.xml</h2>
-      <ol class="steps">
-        <li>
-          Add <code>&lt;devicevendordef&gt;</code> and <code>&lt;deviceproductdef&gt;</code> to your private.xml.
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <devicevendordef>
-            |    <vendorname>HEWLETT_PACKARD</vendorname>
-            |    <vendorid>0x03f0</vendorid>
-            |  </devicevendordef>
-            |
-            |  <deviceproductdef>
-            |    <productname>MY_HP_KEYBOARD</productname>
-            |    <productid>0x0224</productid>
-            |  </deviceproductdef>
-            |</root>
-          {{/indented_xml}}
-        </li>
-        <li>
-          Then, you can use <code>&lt;device_only&gt;</code> in private.xml.
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <devicevendordef>
-            |    <vendorname>HEWLETT_PACKARD</vendorname>
-            |    <vendorid>0x03f0</vendorid>
-            |  </devicevendordef>
-            |
-            |  <deviceproductdef>
-            |    <productname>MY_HP_KEYBOARD</productname>
-            |    <productid>0x0224</productid>
-            |  </deviceproductdef>
-            |
-            |  <item>
-            |    <name>Space to Tab in MY_HP_KEYBOARD</name>
-            |    <identifier>private.deviceproductdef</identifier>
-            |    <device_only>DeviceVendor::HEWLETT_PACKARD, DeviceProduct::MY_HP_KEYBOARD</device_only>
-            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-            |  </item>
-            |
-            |</root>
-          {{/indented_xml}}
-        </li>
-      </ol>
-    </section>
-
-    <section>
-      <div class="page-header">
-        <h1>Prepared device definitions</h1>
-      </div>
-      <p>
-        KeyRemap4MacBook provides various Vendor ID and Product ID definitions.
-        <br />
-        You can use them without <code>&lt;devicevendordef&gt;</code> and
-        <code>&lt;deviceproductdef&gt;</code> in private.xml.
-      </p>
-      <ul>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/devicevendordef.xml">List of prepared Vendor ID</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/deviceproductdef.xml">List of prepared Product ID</a>
-        </li>
-      </ul>
-      <p>
-        You can also overwrite existent device definitions by private.xml.
-      </p>
-    </section>
-
-    <section id="locationid">
-      <div class="page-header">
-        <h1>How to distinguish multiple devices which have same Vendor ID and Product ID</h1>
-      </div>
-      <p>
-        You can use "Location ID" in order to distinguish multiple devices which have same Vendor ID and Product ID.
-      </p>
-      <h2>Learn about "Location ID"</h2>
-      <ul>
-        <li>"Location ID" is an unique identifier even if devices have same Vendor ID and Product ID.</li>
-        <li>The behavior of "Location ID" is different for each type of device.</li>
-      </ul>
-      <table class="table">
-        <tbody>
-          <tr>
-            <th>
-              Device Type
-            </th>
-            <th>
-              What's Location ID?
-            </th>
-            <th>
-              Is immutable?
-            </th>
-          </tr>
-          <tr>
-            <td>
-              USB Device
-            </td>
-            <td>
-              Location ID is determined by USB port.
-            </td>
-            <td>
-              This value will be changed when you pull out USB device and plug it into other USB port.
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Bluetooth Device
-            </td>
-            <td>
-              Location ID is determined by Bluetooth Address.
-            </td>
-            <td>
-              This value is immutable.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2>Examine Location ID</h2>
-      <p>
-        You can examin Location ID by <a href="document-eventviewer.html.{{language}}">EventViewer</a>.
-      </p>
-
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/eventviewer-locationid.png Location ID
-          {{/lightbox}}
+      <section id="keycode">
+        <div class="page-header">
+          <h1>New keycode definition</h1>
         </div>
-      </div>
 
-      <h2>Location ID in XML</h2>
-      <p>
-        You can specify Location ID like this.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <devicevendordef>
-        |    <vendorname>HEWLETT_PACKARD</vendorname>
-        |    <vendorid>0x03f0</vendorid>
-        |  </devicevendordef>
-        |
-        |  <deviceproductdef>
-        |    <productname>MY_HP_KEYBOARD</productname>
-        |    <productid>0x0224</productid>
-        |  </deviceproductdef>
-        |
-        |  <devicelocationdef>
-        |    <locationname>MY_HP_KEYBOARD_PRIMARY</locationname>
-        |    <locationid>0xfa120000</locationid>
-        |  </devicelocationdef>
-        |
-        |  <item>
-        |    <name>Space to Tab in MY_HP_KEYBOARD</name>
-        |    <identifier>private.deviceproductdef</identifier>
-        |    <device_only>
-        |      DeviceVendor::HEWLETT_PACKARD,
-        |      DeviceProduct::MY_HP_KEYBOARD,
-        |      DeviceLocation::MY_HP_KEYBOARD_PRIMARY,
-        |    </device_only>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |  </item>
-        |
-        |</root>
-      {{/indented_xml}}
-    </section>
-  {{/current_tab_devicedef}}
+        <h2>An example</h2>
+        <p>
+          You can define new KeyCode by <code>&lt;symbol_map&gt;</code>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <symbol_map type="KeyCode" name="MY_LANGUAGE_KEY" value="0x32" />
+          |
+          |  <item>
+          |    <name>Change KeyCode::MY_LANGUAGE_KEY to tab.</name>
+          |    <identifier>private.my_language_key_to_tab</identifier>
+          |    <autogen>__KeyToKey__ KeyCode::MY_LANGUAGE_KEY, KeyCode::TAB</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
 
-  {{#current_tab_inputsource}}
-    <section>
-      <div class="page-header">
-        <h1>Functions</h1>
-      </div>
-      <p>
-        There are two functions related with input source.
-      </p>
-      <ul>
-        <li><a href="#vkchangeinputsourcedef">Change input source by virtual key code.</a></li>
-        <li><a href="#inputsourceonly">You can define settings which are effective on specific input source only.</a></li>
-      </ul>
-    </section>
+        <h2 id="rawvalue">Specify raw value</h2>
+        <p>
+          <span class="label label-info">
+            Since version 8.0.44:
+          </span>
 
-    <section id="vkchangeinputsourcedef">
-      <div class="page-header">
-        <h1>Change input source by virtual key code.</h1>
-      </div>
-
-      <h2>An example</h2>
-      <p>
-        This private.xml changes input source to Dvorak by <span class="label">Right Shift Key + D</span>.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <vkchangeinputsourcedef>
-        |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK</name>
-        |    <inputsourceid_equal>com.apple.keylayout.Dvorak</inputsourceid_equal>
-        |  </vkchangeinputsourcedef>
-        |
-        |  <item>
-        |    <name>Change input source to Dvorak by right shift key + D</name>
-        |    <identifier>private.change_input_source_to_dvorak</identifier>
-        |    <autogen>
-        |      __KeyToKey__
-        |      KeyCode::D, ModifierFlag::SHIFT_R,
-        |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
-        |    </autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-
-      <h2>Virtual key code definition</h2>
-      <p>
-        You can define new virtual key code by <code>&lt;vkchangeinputsourcedef&gt;</code>.
-      </p>
-      <ul>
-        <li>
-          <p>
-            <code>&lt;name&gt;</code> is a name of virtual key code.
-            This name must be started with <code>KeyCode::VK_CHANGE_INPUTSOURCE_</code>.
-            <br />
-            For example, <code>&lt;name&gt;KeyCode::VK_CHANGE_INPUTSOURCE_YOUR_LANGUAGE&lt;/name&gt;</code>.
-          </p>
-        </li>
-        <li>
-          <p>
-            <code>&lt;inputsourceid_equal&gt;</code> is a input source id of target input source.
-            <br />
-            <a href="#inputsourceid">How to examine input source id.</a>
-          </p>
-        </li>
-      </ul>
-
-      <h2>Prepared virtual key code definitions</h2>
-      <p>
-        KeyRemap4MacBook provides
-        <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
-        <br />
-        You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
-      </p>
-    </section>
-
-    <section id="inputsourceonly">
-      <div class="page-header">
-        <h1>Settings which are effective on specific input source only.</h1>
-      </div>
-
-      <h2>An example</h2>
-      <p>
-        This private.xml exchanges space key and tab key on Dvorak.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <inputsourcedef>
-        |    <name>MY_DVORAK</name>
-        |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
-        |  </inputsourcedef>
-        |
-        |  <item>
-        |    <name>Swap Space and Tab</name>
-        |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
-        |    <inputsource_only>MY_DVORAK</inputsource_only>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-
-      <h2>Steps</h2>
-      <ol class="steps">
-        <li>
-          <p>
-            Examine Input Source ID of target input source.
-            <br />
-            <a href="#inputsourceid">How to examine input source id.</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            Add <code>&lt;inputsourcedef&gt;</code> your private.xml.
-          </p>
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <inputsourcedef>
-            |    <name>MY_DVORAK</name>
-            |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
-            |  </inputsourcedef>
-            |</root>
-          {{/indented_xml}}
-        </li>
-        <li>
-          <p>
-            Then, you can use <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code> in private.xml.
-          </p>
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |  <inputsourcedef>
-            |    <name>MY_DVORAK</name>
-            |    <inputsourceid_prefix>com.apple.keylayout.Dvorak</inputsourceid_prefix>
-            |  </inputsourcedef>
-            |
-            |  <item>
-            |    <name>Swap Space and Tab</name>
-            |    <identifier>private.my_dvorak_swap_space_and_tab</identifier>
-            |    <inputsource_only>MY_DVORAK</inputsource_only>
-            |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-            |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
-            |  </item>
-            |</root>
-          {{/indented_xml}}
-        </li>
-      </ol>
-
-      <h2>Prepared input source definitions</h2>
-      <p>
-        KeyRemap4MacBook provides <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
-        <br />
-        You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
-      </p>
-    </section>
-
-    <section id="inputsourceid">
-      <div class="page-header">
-        <h1>How to examine input source id</h1>
-      </div>
-      <p>
-        You can examine input source id by Event Viewer.
-      </p>
-      <ol>
-        <li>Launch <a href="document-eventviewer.html.{{ language }}">Event Viewer</a>.</li>
-        <li>Switch input source into target input source.</li>
-        <li>Switch input source into other input source.</li>
-        <li>Again, switch input source into target input source.</li>
-        <li>See <span class="label">Input Source ID</span> in Event Viewer.</li>
-      </ol>
-      <div class="row">
-        <div class="span4">
-          {{#lightbox}}
-            img/eventviewer-inputsource.png Event Viewer
-          {{/lightbox}}
-        </div>
-      </div>
-    </section>
-  {{/current_tab_inputsource}}
-
-  {{#current_tab_include}}
-    <section>
-      <div class="page-header">
-        <h1>An example</h1>
-      </div>
-      <p>
-        You can include external xml files by <code>&lt;include&gt;</code>.
-      </p>
-
-      <h2>private.xml</h2>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <include path="core.xml" />
-        |</root>
-      {{/indented_xml}}
-
-      <h2>core.xml</h2>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Swap Space and Tab</name>
-        |    <identifier>private.swap_space_and_tab</identifier>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section id="dropbox">
-      <div class="page-header">
-        <h1>&lt;include&gt; with Dropbox</h1>
-      </div>
-      <p>
-        You can synchronize your private.xml by Dropbox or other file syncing service.
-      </p>
-      <h2>private.xml</h2>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <include path="../../../Dropbox/private/KeyRemap4MacBook/core.xml" />
-        |</root>
-      {{/indented_xml}}
-
-      <span class="label label-info">
-        Since version 8.0.58:
-      </span>
-      You can use {{curly}} ENV_HOME }} to specify home directory.
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <include path="{{curly}} ENV_HOME }}/Dropbox/private/KeyRemap4MacBook/core.xml" />
-        |</root>
-      {{/indented_xml}}
-
-      <h2>Dropbox/private/KeyRemap4MacBook/core.xml</h2>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Dropbox Test!</name>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section id="replacementdef">
-      <div class="page-header">
-        <h1>&lt;include&gt; with &lt;replacementdef&gt;</h1>
-      </div>
-      <p>
-        <code>&lt;replacementdef&gt;</code> in <code>&lt;include&gt;</code> has a local scope.
-        These <code>&lt;replacementdef&gt;</code> are effective only in included file.
-      </p>
-      <h2>private.xml</h2>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <!-- Swap Space and Escape -->
-        |  <include path="core.xml">
-        |    <replacementdef>
-        |      <replacementname>KEY1</replacementname>
-        |      <replacementvalue>KeyCode::SPACE</replacementvalue>
-        |    </replacementdef>
-        |    <replacementdef>
-        |      <replacementname>KEY2</replacementname>
-        |      <replacementvalue>KeyCode::ESCAPE</replacementvalue>
-        |    </replacementdef>
-        |  </include>
-        |
-        |  <!-- Swap Tab and Return -->
-        |  <include path="core.xml">
-        |    <replacementdef>
-        |      <replacementname>KEY1</replacementname>
-        |      <replacementvalue>KeyCode::TAB</replacementvalue>
-        |    </replacementdef>
-        |    <replacementdef>
-        |      <replacementname>KEY2</replacementname>
-        |      <replacementvalue>KeyCode::RETURN</replacementvalue>
-        |    </replacementdef>
-        |  </include>
-        |</root>
-      {{/indented_xml}}
-
-      <h2>core.xml</h2>
-
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Swap {{curly}} KEY1 }} and {{curly}} KEY2 }}</name>
-        |    <identifier>private.swap_{{curly}} KEY1 }}_{{curly}} KEY2 }}</identifier>
-        |    <autogen>__KeyToKey__ {{curly}} KEY1 }}, {{curly}} KEY2 }}</autogen>
-        |    <autogen>__KeyToKey__ {{curly}} KEY2 }}, {{curly}} KEY1 }}</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-  {{/current_tab_include}}
-
-  {{#current_tab_replacementdef}}
-    <section>
-      <div class="page-header">
-        <h1>An example</h1>
-      </div>
-      <p>
-        You can define replacement by <code>&lt;replacementdef&gt;</code>.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <replacementdef>
-        |    <replacementname>MY_IGNORE_APPS</replacementname>
-        |    <replacementvalue>SAFARI, FIREFOX, FINDER</replacementvalue>
-        |  </replacementdef>
-        |
-        |  <item>
-        |    <name>Change space to tab except in my ignore apps.</name>
-        |    <identifier>private.space_to_tab_except_my_ignore_apps</identifier>
-        |    <not>{{curly}} MY_IGNORE_APPS }}</not>
-        |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-      <p>
-        {{curly}} &lt;replacementname&gt; }} is replaced by <code>&lt;replacementvalue&gt;</code>.
-      </p>
-
-      {{#indented_xml}}
-        |<not>{{curly}} MY_IGNORE_APPS }}</not>
-        |
-        |<!-- ↑ is replaced to ↓ -->
-        |
-        |<not>SAFARI, FIREFOX, FINDER</not>
-      {{/indented_xml}}
-    </section>
-
-    <section>
-      <div class="page-header">
-        <h1>Global scope replacement</h1>
-      </div>
-      <p>
-        <code>&lt;replacementdef&gt;</code> written in private.xml has a global scope.
-        It is effective for the entire XML.
-      </p>
-      <p>
-        When you wrote multiple <code>&lt;replacementdef&gt;</code> for one <code>&lt;replacementname&gt;</code>,
-        only the first one is effective.
-      </p>
-
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <replacementdef>
-        |    <replacementname>MY_KEYCODE</replacementname>
-        |    <replacementvalue>KeyCode::SPACE</replacementvalue>
-        |  </replacementdef>
-        |
-        |  <!-- This replacementdef of MY_KEYCODE is ignored -->
-        |  <replacementdef>
-        |    <replacementname>MY_KEYCODE</replacementname>
-        |    <replacementvalue>KeyCode::TAB</replacementvalue>
-        |  </replacementdef>
-        |
-        |  <item>
-        |    <name>{{curly}} MY_KEYCODE }} is KeyCode::SPACE</name>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section>
-      <div class="page-header">
-        <h1>Local scope replacement</h1>
-      </div>
-      <p>
-        You can define a local scope replacement
-        by using <code>&lt;replacementdef&gt;</code> under <code>&lt;include&gt;</code>.
-        <br />
-        See
-        <a href="xml-include.html.{{language}}#replacementdef">&lt;include&gt; with &lt;replacementdef&gt;</a> section.
-      </p>
-    </section>
-
-    <section>
-      <div class="page-header">
-        <h1>Prepared replacement definitions</h1>
-      </div>
-      <p>
-        KeyRemap4MacBook provides
-        <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
-        <br />
-        You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
-      </p>
-      <p>
-        You can also overwrite existent replacement definitions by private.xml.
-        <br />
-        An example of overwriting VI_H:
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <replacementdef>
-        |    <replacementname>VI_H</replacementname>
-        |    <replacementvalue>KeyCode::J</replacementvalue>
-        |  </appdef>
-        |</root>
-      {{/indented_xml}}
-    </section>
-  {{/current_tab_replacementdef}}
-
-  {{#current_tab_keycode}}
-    <section>
-      <div class="page-header">
-        <h1>An example</h1>
-      </div>
-      <p>
-        You can define new KeyCode by <code>&lt;symbol_map&gt;</code>.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <symbol_map type="KeyCode" name="MY_LANGUAGE_KEY" value="0x32" />
-        |
-        |  <item>
-        |    <name>Change KeyCode::MY_LANGUAGE_KEY to tab.</name>
-        |    <identifier>private.my_language_key_to_tab</identifier>
-        |    <autogen>__KeyToKey__ KeyCode::MY_LANGUAGE_KEY, KeyCode::TAB</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-
-    <section id="rawvalue">
-      <div class="page-header">
-        <h1>Specify raw value</h1>
-      </div>
-      <p>
-        <span class="label label-info">
-          Since version 8.0.44:
-        </span>
-
-        You can specify raw value by using KeyCode::RawValue.
-      </p>
-      {{#indented_xml}}
-        |<?xml version="1.0"?>
-        |<root>
-        |  <item>
-        |    <name>Change right option key to tab key</name>
-        |    <identifier>private.right_option_key_to_tab_key</identifier>
-        |    <!-- change right option key (0x3d) to tab key (0x30) -->
-        |    <autogen>__KeyToKey__ KeyCode::RawValue::0x3d, KeyCode::RawValue::0x30</autogen>
-        |  </item>
-        |</root>
-      {{/indented_xml}}
-    </section>
-  {{/current_tab_keycode}}
+          You can specify raw value by using KeyCode::RawValue.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Change right option key to tab key</name>
+          |    <identifier>private.right_option_key_to_tab_key</identifier>
+          |    <!-- change right option key (0x3d) to tab key (0x30) -->
+          |    <autogen>__KeyToKey__ KeyCode::RawValue::0x3d, KeyCode::RawValue::0x30</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+      </section>
+    </div>
+  </div>
 </div>

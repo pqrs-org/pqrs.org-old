@@ -16,81 +16,70 @@ class Xml < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'example',
-       :href => '/macosx/keyremap4macbook/xml.html',
+       :href => '#examples',
        :name_l10n => {
-         :en => 'example',
-         :ja => 'example',
+         :en => 'examples',
+         :ja => 'examples',
        },
      },
      {
-       :tab => 'basic',
-       :href => '/macosx/keyremap4macbook/xml-basic.html',
+       :href => '#basic-syntax',
        :name_l10n => {
-         :en => 'basic',
-         :ja => 'basic',
+         :en => 'basic syntax',
+         :ja => 'basic syntax',
        }
      },
      {
-       :tab => 'appdef',
-       :href => '/macosx/keyremap4macbook/xml-appdef.html',
+       :href => '#appdef',
        :name_l10n => {
          :en => 'specify application',
          :ja => 'specify application',
        }
      },
      {
-       :tab => 'devicedef',
-       :href => '/macosx/keyremap4macbook/xml-devicedef.html',
+       :href => '#devicedef',
        :name_l10n => {
          :en => 'specify device',
          :ja => 'specify device',
        }
      },
      {
-       :tab => 'inputsource',
-       :href => '/macosx/keyremap4macbook/xml-inputsource.html',
+       :href => '#inputsourcedef',
        :name_l10n => {
          :en => 'input source',
          :ja => 'input source',
        }
      },
      {
-       :tab => 'include',
-       :href => '/macosx/keyremap4macbook/xml-include.html',
+       :href => '#vkopenurldef',
+       :name_l10n => {
+         :en => 'launch app / open url',
+         :ja => 'launch app / open url',
+       }
+     },
+     {
+       :href => '#include',
        :name_l10n => {
          :en => 'include external XML',
          :ja => 'include external XML',
        }
      },
      {
-       :tab => 'replacementdef',
-       :href => '/macosx/keyremap4macbook/xml-replacementdef.html',
+       :href => '#replacementdef',
        :name_l10n => {
          :en => 'string replacement',
          :ja => 'string replacement',
        }
      },
      {
-       :tab => 'keycode',
-       :href => '/macosx/keyremap4macbook/xml-keycode.html',
+       :href => '#keycode',
        :name_l10n => {
-         :en => 'define new keycode',
-         :ja => 'define new keycode',
+         :en => 'new keycode definition',
+         :ja => 'new keycode definition',
        }
      },
     ]
   end
 end
 
-Xml.new.tabs_definition.each do |t|
-  eval <<-EOS
-  class Xml_#{t[:tab]} < Xml
-    @template_file = File.dirname(__FILE__) + '/xml.mustache'
-    def current_tab_#{t[:tab]}
-      true
-    end
-  end
-  EOS
-  eval "PqrsUtil.make_page('#{t[:href]}', Xml_#{t[:tab]})"
-end
+PqrsUtil.make_page('/macosx/keyremap4macbook/xml.html', Xml)
