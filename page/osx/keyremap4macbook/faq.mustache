@@ -7,553 +7,571 @@
     </div>
   </header>
 
-  {{> ../../pqrs_tabs }}
+  <div class="row">
+    <div class="span3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="span9">
+      <section id="general">
+        <div class="page-header">
+          <h1>General</h1>
+        </div>
 
-  {{#current_tab_general}}
-    <section>
-      <h2>
-        {{#language_en}}
-          KeyRemap4MacBook does not work completely. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          KeyRemap4MacBookが全く動作しません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          Please try the following procedures.
-        {{/language_en}}
-        {{#language_ja}}
-          KeyRemap4MacBookが全く動作しない場合は、以下の手順を行ってみてください。
-        {{/language_ja}}
-      </p>
-      <ol>
-        <li>
+        <h2>
           {{#language_en}}
-            <a target="_blank" href="http://support.apple.com/kb/HT1452">Repair permissions by Disk Utility.</a>
+            KeyRemap4MacBook does not work completely. What should I do?
           {{/language_en}}
           {{#language_ja}}
-            <a target="_blank" href="http://support.apple.com/kb/HT1452?viewlocale=ja_JP">「ディスクユーティリティ」で「アクセス権の修復」をします。</a>
+            KeyRemap4MacBookが全く動作しません。どうすれば良いですか？
           {{/language_ja}}
-        </li>
-        <li>
+        </h2>
+        <p>
           {{#language_en}}
-            Uninstall third vendor's keyboard drivers such as a keyboard driver of Microsoft if you've installed them.
+            Please try the following procedures.
           {{/language_en}}
           {{#language_ja}}
-            Microsoftのキーボードドライバなど、他社製のドライバをインストールしている場合はアンインストールします。
+            KeyRemap4MacBookが全く動作しない場合は、以下の手順を行ってみてください。
           {{/language_ja}}
-        </li>
-        <li>
-          {{#language_en}}
-            Restart OS X.
-          {{/language_en}}
-          {{#language_ja}}
-            再起動してください。
-          {{/language_ja}}
-        </li>
-        <li>
-          <a href="document.html.{{ language }}">
+        </p>
+        <ol>
+          <li>
             {{#language_en}}
-              Launch KeyRemap4MacBook manually.
+              <a target="_blank" href="http://support.apple.com/kb/HT1452">Repair permissions by Disk Utility.</a>
             {{/language_en}}
             {{#language_ja}}
-              KeyRemap4MacBookを手動で起動してみてください。
+              <a target="_blank" href="http://support.apple.com/kb/HT1452?viewlocale=ja_JP">「ディスクユーティリティ」で「アクセス権の修復」をします。</a>
             {{/language_ja}}
-          </a>
-        </li>
-        <li>
-          {{#language_en}}
-            Please contact <a href="contact.html.en">me</a> if your problem has not resolved by above procedures.
-          {{/language_en}}
-          {{#language_ja}}
-            上記の手順を行っても動かない場合は<a href="contact.html.ja">ご連絡</a>ください。
-          {{/language_ja}}
-        </li>
-      </ol>
+          </li>
+          <li>
+            {{#language_en}}
+              Uninstall third vendor's keyboard drivers such as a keyboard driver of Microsoft if you've installed them.
+            {{/language_en}}
+            {{#language_ja}}
+              Microsoftのキーボードドライバなど、他社製のドライバをインストールしている場合はアンインストールします。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Restart OS X.
+            {{/language_en}}
+            {{#language_ja}}
+              再起動してください。
+            {{/language_ja}}
+          </li>
+          <li>
+            <a href="document.html.{{ language }}">
+              {{#language_en}}
+                Launch KeyRemap4MacBook manually.
+              {{/language_en}}
+              {{#language_ja}}
+                KeyRemap4MacBookを手動で起動してみてください。
+              {{/language_ja}}
+            </a>
+          </li>
+          <li>
+            {{#language_en}}
+              Please contact <a href="contact.html.en">me</a> if your problem has not resolved by above procedures.
+            {{/language_en}}
+            {{#language_ja}}
+              上記の手順を行っても動かない場合は<a href="contact.html.ja">ご連絡</a>ください。
+            {{/language_ja}}
+          </li>
+        </ol>
 
-      <h2>
-        {{#language_en}}
-          KeyRemap4MacBook does not work on keyboards of Logitech, Microsoft. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          LogicoolやMicrosoftのキーボードで動作しません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          If you are using third vendor's keyboard drivers, KeyRemap4MacBook may not work properly.
-          <br />
-          Please uninstall third vendor's keyboard drivers.
-        {{/language_en}}
-        {{#language_ja}}
-          LogicoolやMicrosoftなどの一部のキーボードにおいて、独自のデバイスドライバがインストールされていると動作しないことがあります。
-          <br />
-          その場合は一度、サードパーティ製のデバイスドライバをアンインストールしてください。
-        {{/language_ja}}
-      </p>
-
-      <div id="atlogin">
         <h2>
           {{#language_en}}
-            KeyRemap4MacBook does not work after boot on OS X 10.7. What should I do?
+            KeyRemap4MacBook does not work on keyboards of Logitech, Microsoft. What should I do?
           {{/language_en}}
           {{#language_ja}}
-            Lion (OS X 10.7)で起動直後に動作しません。どうすれば良いですか？
+            LogicoolやMicrosoftのキーボードで動作しません。どうすれば良いですか？
           {{/language_ja}}
         </h2>
         <p>
           {{#language_en}}
-            "Resume" feature introduced by Lion delays launching apps at login.
+            If you are using third vendor's keyboard drivers, KeyRemap4MacBook may not work properly.
+            <br />
+            Please uninstall third vendor's keyboard drivers.
           {{/language_en}}
           {{#language_ja}}
-            Lionで導入された「再開」機能によって多数のアプリケーションが再開される場合、ログイン時に起動するアプリケーションの実行が遅れる場合があります。
+            LogicoolやMicrosoftなどの一部のキーボードにおいて、独自のデバイスドライバがインストールされていると動作しないことがあります。
+            <br />
+            その場合は一度、サードパーティ製のデバイスドライバをアンインストールしてください。
           {{/language_ja}}
         </p>
-        <p>
-          {{#language_en}}
-            Until KeyRemap4MacBook.app is launched at login, the keyboard layout is not changed.
-          {{/language_en}}
-          {{#language_ja}}
-            ログイン時にKeyRemap4MacBookアプリが起動するまではキーが変換されません。
-          {{/language_ja}}
-          <br />
-          {{#language_en}}
-            Please wait a minute until menu of KeyRemap4MacBook is shown.
-          {{/language_en}}
-          {{#language_ja}}
-            起動が完了するとメニューが表示されますので、それまで1分ほどお待ちください。
-          {{/language_ja}}
-        </p>
-        <p>
-          <img alt="menu" {{#imgsrc}}img/menu.png{{/imgsrc}} />
-        </p>
-      </div>
 
-    </section>
-  {{/current_tab_general}}
+        <div id="atlogin">
+          <h2>
+            {{#language_en}}
+              KeyRemap4MacBook does not work after boot on OS X 10.7. What should I do?
+            {{/language_en}}
+            {{#language_ja}}
+              Lion (OS X 10.7)で起動直後に動作しません。どうすれば良いですか？
+            {{/language_ja}}
+          </h2>
+          <p>
+            {{#language_en}}
+              "Resume" feature introduced by Lion delays launching apps at login.
+            {{/language_en}}
+            {{#language_ja}}
+              Lionで導入された「再開」機能によって多数のアプリケーションが再開される場合、ログイン時に起動するアプリケーションの実行が遅れる場合があります。
+            {{/language_ja}}
+          </p>
+          <p>
+            {{#language_en}}
+              Until KeyRemap4MacBook.app is launched at login, the keyboard layout is not changed.
+            {{/language_en}}
+            {{#language_ja}}
+              ログイン時にKeyRemap4MacBookアプリが起動するまではキーが変換されません。
+            {{/language_ja}}
+            <br />
+            {{#language_en}}
+              Please wait a minute until menu of KeyRemap4MacBook is shown.
+            {{/language_en}}
+            {{#language_ja}}
+              起動が完了するとメニューが表示されますので、それまで1分ほどお待ちください。
+            {{/language_ja}}
+          </p>
+          <p>
+            <img alt="menu" {{#imgsrc}}img/menu.png{{/imgsrc}} />
+          </p>
+        </div>
 
-  {{#current_tab_trackpad}}
-    <section>
-      <h2>
-        {{#language_en}}
-          Swipe gesture in Safari does not work properly when I activated "simultaneous key presses remapping".
-          What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          「キーの同時押しのリマッピング」を有効にしているとSafariでのスワイプが動作しません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          Please activate "General > Don't remap Apple's pointing devices".
-        {{/language_en}}
-        {{#language_ja}}
-          「General > Don't remap Apple's pointing devices」の設定を有効にしてください。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          "Simultaneous key presses remapping" brings a delay into keyboard and pointing device events to detect simultaneous presses.
-          And this delay breaks some gestures unfortunately.
-        {{/language_en}}
-        {{#language_ja}}
-          「キーの同時押しのリマッピング」は同時押しを検出するために、キーボードやポインティングデバイスのイベントに対して遅延をもたらします。残念ながら、この遅延はいくつかのジェスチャーを動かなくさせます。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          This setting disables a delay of pointing device events and solves this gesture issue.
-        {{/language_en}}
-        {{#language_ja}}
-          この設定はポインティングデバイスのイベントへの遅延を無効にして、ジェスチャーの問題を解決します。
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_trackpad}}
+      </section>
 
-  {{#current_tab_capslock}}
-    <section>
-      <h2>
-        {{#language_en}}
-          How to exchange caps lock key and delete key?
-        {{/language_en}}
-        {{#language_ja}}
-          caps lockキーとdeleteキーを交換するには？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          You need to use <a href="pckeyboardhack.html.en">PCKeyboardHack</a> to change the behavior of caps lock key.
-        {{/language_en}}
-        {{#language_ja}}
-          caps lockキーの動作を変更するには<a href="pckeyboardhack.html.ja">PCKeyboardHack</a>を使います。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          If you want to exchange caps lock key and other key, you must have a knack. Please follow this steps.
-        {{/language_en}}
-        {{#language_ja}}
-          また、caps lockキーと特定のキーを交換するには以下の手順が必要です。
-        {{/language_ja}}
-      </p>
-      <ol class="steps">
-        <li>
-          {{#language_en}}
-            Install
-            <a href="index.html.ja">KeyRemap4MacBook</a>
-            and
-            <a href="pckeyboardhack.html.ja">PCKeyboardHack</a>.
-          {{/language_en}}
-          {{#language_ja}}
-            <a href="index.html.ja">KeyRemap4MacBook</a>と<a href="pckeyboardhack.html.ja">PCKeyboardHack</a>をインストールします。
-          {{/language_ja}}
-        </li>
-        <li>
-          {{#language_en}}
-            Change keycode of caps lock to 110 on PCKeyboardHack.
-          {{/language_en}}
-          {{#language_ja}}
-            PCKeyboardHackでcaps lockのキーコードを110に変更します。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/swap_caps_and_delete_1.png PCKeyboardHack
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Open "System Preferences > Keyboard > Modifier Keys..." and change caps lock configuration to "No Action".
-          {{/language_en}}
-          {{#language_ja}}
-            システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」に変更します。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/capslock.png caps lock
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Activate "Application Key to Delete" on KeyRemap4MacBook.
-          {{/language_en}}
-          {{#language_ja}}
-            KeyRemap4MacBookで「Application Key to Delete」を有効にします。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/swap_caps_and_delete_2.png Application Key to Delete
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-        <li>
-          {{#language_en}}
-            Activate "Delete to CapsLock" on KeyRemap4MacBook.
-          {{/language_en}}
-          {{#language_ja}}
-            KeyRemap4MacBookで「Delete to CapsLock」を有効にします。
-          {{/language_ja}}
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/swap_caps_and_delete_3.png Delete to CapsLock
-              {{/lightbox}}
-            </div>
-          </div>
-        </li>
-      </ol>
-
-      <div id="escape">
+      <section id="trackpad">
+        <div class="page-header">
+          <h1>Trackpad</h1>
+        </div>
         <h2>
           {{#language_en}}
-            How to exchange caps lock key and escape key?
+            Swipe gesture in Safari does not work properly when I activated "simultaneous key presses remapping".
+            What should I do?
           {{/language_en}}
           {{#language_ja}}
-            caps lockキーとescapeキーを交換するには？
+            「キーの同時押しのリマッピング」を有効にしているとSafariでのスワイプが動作しません。どうすれば良いですか？
           {{/language_ja}}
         </h2>
         <p>
           {{#language_en}}
-            Basically, it is same as the above procedure. Please note the following points.
+            Please activate "General > Don't remap Apple's pointing devices".
           {{/language_en}}
           {{#language_ja}}
-            基本的には上の手順と同じです。以下の点に注意してください。
+            「General > Don't remap Apple's pointing devices」の設定を有効にしてください。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            "Simultaneous key presses remapping" brings a delay into keyboard and pointing device events to detect simultaneous presses.
+            And this delay breaks some gestures unfortunately.
+          {{/language_en}}
+          {{#language_ja}}
+            「キーの同時押しのリマッピング」は同時押しを検出するために、キーボードやポインティングデバイスのイベントに対して遅延をもたらします。残念ながら、この遅延はいくつかのジェスチャーを動かなくさせます。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            This setting disables a delay of pointing device events and solves this gesture issue.
+          {{/language_en}}
+          {{#language_ja}}
+            この設定はポインティングデバイスのイベントへの遅延を無効にして、ジェスチャーの問題を解決します。
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="capslock">
+        <div class="page-header">
+          <h1>caps lock key</h1>
+        </div>
+
+        <h2>
+          {{#language_en}}
+            How to exchange caps lock key and delete key?
+          {{/language_en}}
+          {{#language_ja}}
+            caps lockキーとdeleteキーを交換するには？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            You need to use <a href="pckeyboardhack.html.en">PCKeyboardHack</a> to change the behavior of caps lock key.
+          {{/language_en}}
+          {{#language_ja}}
+            caps lockキーの動作を変更するには<a href="pckeyboardhack.html.ja">PCKeyboardHack</a>を使います。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            If you want to exchange caps lock key and other key, you must have a knack. Please follow this steps.
+          {{/language_en}}
+          {{#language_ja}}
+            また、caps lockキーと特定のキーを交換するには以下の手順が必要です。
           {{/language_ja}}
         </p>
         <ol class="steps">
           <li>
             {{#language_en}}
-              Do not change the key code of caps lock on PCKeyboardHack. Keep 110.
+              Install
+              <a href="index.html.ja">KeyRemap4MacBook</a>
+              and
+              <a href="pckeyboardhack.html.ja">PCKeyboardHack</a>.
             {{/language_en}}
             {{#language_ja}}
-              PCKeyboardHackで指定するcaps lockのキーコードは110のままにしてください。
+              <a href="index.html.ja">KeyRemap4MacBook</a>と<a href="pckeyboardhack.html.ja">PCKeyboardHack</a>をインストールします。
             {{/language_ja}}
           </li>
           <li>
             {{#language_en}}
-              You need "No Action" configuration.
+              Change keycode of caps lock to 110 on PCKeyboardHack.
             {{/language_en}}
             {{#language_ja}}
-              「アクションなし」の設定は行う必要があります。
+              PCKeyboardHackでcaps lockのキーコードを110に変更します。
             {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/swap_caps_and_delete_1.png PCKeyboardHack
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
           <li>
             {{#language_en}}
-              Change "Application Key to Delete" to "Application Key to Escape".
+              Open "System Preferences > Keyboard > Modifier Keys..." and change caps lock configuration to "No Action".
             {{/language_en}}
             {{#language_ja}}
-              「Application Key to Delete」は「Application Key to Escape」に変更してください。
+              システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」に変更します。
             {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/capslock.png caps lock
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
           <li>
             {{#language_en}}
-              Change "Delete to CapsLock" to "Escape to CapsLock".
+              Activate "Application Key to Delete" on KeyRemap4MacBook.
             {{/language_en}}
             {{#language_ja}}
-              「Delete to CapsLock」は「Escape to CapsLock」に変更してください。
+              KeyRemap4MacBookで「Application Key to Delete」を有効にします。
             {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/swap_caps_and_delete_2.png Application Key to Delete
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            {{#language_en}}
+              Activate "Delete to CapsLock" on KeyRemap4MacBook.
+            {{/language_en}}
+            {{#language_ja}}
+              KeyRemap4MacBookで「Delete to CapsLock」を有効にします。
+            {{/language_ja}}
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/swap_caps_and_delete_3.png Delete to CapsLock
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
         </ol>
-      </div>
-    </section>
-  {{/current_tab_capslock}}
 
-  {{#current_tab_fn}}
-    <section>
-      <h2>
-        {{#language_en}}
-          "XXX to Fn" doesn't work. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          "XXX to Fn" が動作しません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          "XXX to Fn" affects the following keys by default.
-        {{/language_en}}
-        {{#language_ja}}
-          "XXX to Fn"は標準では以下のキーに対して有効になります。
-        {{/language_ja}}
-      </p>
-      <ul>
-        <li>fn+cursor (home, end, page up, page down)</li>
-        <li>fn+delete (forward delete)</li>
-        <li>fn+return (enter)</li>
-        <li>fn+jkl... (Keypad)</li>
-      </ul>
-      <div class="row">
-        <div class="span4">
-          <p>
+        <div id="escape">
+          <h2>
             {{#language_en}}
-              If you want to use Fn+F1,...,Fn+F12 as Function keys, activate "Fn+Functional Keys to F1..F12".
+              How to exchange caps lock key and escape key?
             {{/language_en}}
             {{#language_ja}}
-              Fn+F1,...,Fn+F12をファンクションキーとして使いたい場合は、"Fn+Functional Keys to F1..F12"を有効にしてください。
+              caps lockキーとescapeキーを交換するには？
             {{/language_ja}}
-          </p>
-        </div>
-        <div class="span4">
-          {{#lightbox}}
-            img/fnfunc1.png fnfunc
-          {{/lightbox}}
-        </div>
-      </div>
-      <br />
-      <div class="row">
-        <div class="span4">
+          </h2>
           <p>
             {{#language_en}}
-              If you are using F1 - F12 as standard function keys, activate "Fn+F1 to Brightness Down" instead.
+              Basically, it is same as the above procedure. Please note the following points.
             {{/language_en}}
             {{#language_ja}}
-              もし、あなたがF1-F12をファンクションキーとして使っている場合は、上記の代わりに"Fn+F1 to Brightness Down"を有効にしてください。
+              基本的には上の手順と同じです。以下の点に注意してください。
             {{/language_ja}}
           </p>
+          <ol class="steps">
+            <li>
+              {{#language_en}}
+                Do not change the key code of caps lock on PCKeyboardHack. Keep 110.
+              {{/language_en}}
+              {{#language_ja}}
+                PCKeyboardHackで指定するcaps lockのキーコードは110のままにしてください。
+              {{/language_ja}}
+            </li>
+            <li>
+              {{#language_en}}
+                You need "No Action" configuration.
+              {{/language_en}}
+              {{#language_ja}}
+                「アクションなし」の設定は行う必要があります。
+              {{/language_ja}}
+            </li>
+            <li>
+              {{#language_en}}
+                Change "Application Key to Delete" to "Application Key to Escape".
+              {{/language_en}}
+              {{#language_ja}}
+                「Application Key to Delete」は「Application Key to Escape」に変更してください。
+              {{/language_ja}}
+            </li>
+            <li>
+              {{#language_en}}
+                Change "Delete to CapsLock" to "Escape to CapsLock".
+              {{/language_en}}
+              {{#language_ja}}
+                「Delete to CapsLock」は「Escape to CapsLock」に変更してください。
+              {{/language_ja}}
+            </li>
+          </ol>
         </div>
-        <div class="span4">
-          {{#lightbox}}
-            img/fnfunc.png fnfunc
-          {{/lightbox}}
+      </section>
+
+      <section id="fn">
+        <div class="page-header">
+          <h1>fn key</h1>
         </div>
-      </div>
 
-    </section>
-  {{/current_tab_fn}}
-
-  {{#current_tab_eject}}
-    <section>
-      <h2>
-        {{#language_en}}
-          Eject key can not be changed properly. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          ejectキーが変更できません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          You need to use <a href="noejectdelay.html.en">NoEjectDelay</a> together.
-        {{/language_en}}
-        {{#language_ja}}
-          <a href="noejectdelay.html.ja">NoEjectDelay</a>を一緒に使う必要があります。
-        {{/language_ja}}
-      </p>
-
-      <h2>
-        {{#language_en}}
-          I've changed eject key to forward delete key. However, this key does not repeat. What should I do?
-        {{/language_en}}
-        {{#language_ja}}
-          ejectキーをforward deleteキーに変更しましたが、キーリピートしません。どうすれば良いですか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          Unlike the other keys, eject key does not support key repeat.
-          <br />
-          Unfortunately we cannot add the key repeat feature for the eject key by the limit of the kernel of OS X.
-        {{/language_en}}
-        {{#language_ja}}
-          例外的にejectキーだけはキーリピートに対応していません。
-          <br />
-          残念ながら、これはOS Xのカーネルの制限のため、キーリピートに対応することが出来ません。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          All other keys support key repeat.
-          <br />
-          Please use "Shift_R to Forward Delete", "F12 to Forward Delete" or others if needed.
-        {{/language_en}}
-        {{#language_ja}}
-          他の全てのキーはリピートに対応していますので、必要に応じて
-          「Shift_R to Forward Delete」や「F12 to Forward Delete」などをお使いください。
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_eject}}
-
-  {{#current_tab_power}}
-    <section>
-      <h2>
-        {{#language_en}}
-          Can I change power key behavior on MacBook?
-        {{/language_en}}
-        {{#language_ja}}
-          電源ボタンの動作を変更することは出来ますか？
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          Unfortunately, power key is a only immutable key at the moment.
-        {{/language_en}}
-        {{#language_ja}}
-          残念ながら、今のところ電源ボタンの動作を変更することは出来ません。
-        {{/language_ja}}
-      </p>
-      <p>
-        {{#language_en}}
-          (Considering the fact that your machine will shutdown when we hold power key,
-          it seems impossible to change power key...)
-        {{/language_en}}
-        {{#language_ja}}
-          （電源ボタンの長押しでマシンがシャットダウンしてしまうことを考えると、電源ボタンの動作を変更することは不可能に思えます……）
-        {{/language_ja}}
-      </p>
-    </section>
-  {{/current_tab_power}}
-
-  {{#current_tab_unicode_hex_input}}
-    <section>
-      <h2>
-        {{#language_en}}
-          How to input ⌘(U+2318) by "option+a"?
-        {{/language_en}}
-        {{#language_ja}}
-          「option+a」で⌘(U+2318)を入力するにはどうすれば良いですか?
-        {{/language_ja}}
-      </h2>
-      <ol class="steps">
-        <li>
+        <h2>
           {{#language_en}}
-            Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
+            "XXX to Fn" doesn't work. What should I do?
           {{/language_en}}
           {{#language_ja}}
-            システム環境設定の「言語とテキスト」からUnicode Hex Inputを有効にします。
+            "XXX to Fn" が動作しません。どうすれば良いですか？
           {{/language_ja}}
-          <div class="row">
-            <div class="span4">
-              {{#lightbox}}
-                img/unicode-hex-input.png unicode-hex-input
-              {{/lightbox}}
-            </div>
+        </h2>
+        <p>
+          {{#language_en}}
+            "XXX to Fn" affects the following keys by default.
+          {{/language_en}}
+          {{#language_ja}}
+            "XXX to Fn"は標準では以下のキーに対して有効になります。
+          {{/language_ja}}
+        </p>
+        <ul>
+          <li>fn+cursor (home, end, page up, page down)</li>
+          <li>fn+delete (forward delete)</li>
+          <li>fn+return (enter)</li>
+          <li>fn+jkl... (Keypad)</li>
+        </ul>
+        <div class="row">
+          <div class="span4">
+            <p>
+              {{#language_en}}
+                If you want to use Fn+F1,...,Fn+F12 as Function keys, activate "Fn+Functional Keys to F1..F12".
+              {{/language_en}}
+              {{#language_ja}}
+                Fn+F1,...,Fn+F12をファンクションキーとして使いたい場合は、"Fn+Functional Keys to F1..F12"を有効にしてください。
+              {{/language_ja}}
+            </p>
           </div>
-        </li>
-        <li>
+          <div class="span4">
+            {{#lightbox}}
+              img/fnfunc1.png fnfunc
+            {{/lightbox}}
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="span4">
+            <p>
+              {{#language_en}}
+                If you are using F1 - F12 as standard function keys, activate "Fn+F1 to Brightness Down" instead.
+              {{/language_en}}
+              {{#language_ja}}
+                もし、あなたがF1-F12をファンクションキーとして使っている場合は、上記の代わりに"Fn+F1 to Brightness Down"を有効にしてください。
+              {{/language_ja}}
+            </p>
+          </div>
+          <div class="span4">
+            {{#lightbox}}
+              img/fnfunc.png fnfunc
+            {{/lightbox}}
+          </div>
+        </div>
+
+      </section>
+
+      <section id="eject">
+        <div class="page-header">
+          <h1>eject key</h1>
+        </div>
+
+        <h2>
           {{#language_en}}
-            Use this private.xml.
+            Eject key can not be changed properly. What should I do?
           {{/language_en}}
           {{#language_ja}}
-            以下のprivate.xmlを使用します。
+            ejectキーが変更できません。どうすれば良いですか？
           {{/language_ja}}
-          (<a href="document-private-xml.html.{{ language }}">
+        </h2>
+        <p>
+          {{#language_en}}
+            You need to use <a href="noejectdelay.html.en">NoEjectDelay</a> together.
+          {{/language_en}}
+          {{#language_ja}}
+            <a href="noejectdelay.html.ja">NoEjectDelay</a>を一緒に使う必要があります。
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            I've changed eject key to forward delete key. However, this key does not repeat. What should I do?
+          {{/language_en}}
+          {{#language_ja}}
+            ejectキーをforward deleteキーに変更しましたが、キーリピートしません。どうすれば良いですか？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Unlike the other keys, eject key does not support key repeat.
+            <br />
+            Unfortunately we cannot add the key repeat feature for the eject key by the limit of the kernel of OS X.
+          {{/language_en}}
+          {{#language_ja}}
+            例外的にejectキーだけはキーリピートに対応していません。
+            <br />
+            残念ながら、これはOS Xのカーネルの制限のため、キーリピートに対応することが出来ません。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            All other keys support key repeat.
+            <br />
+            Please use "Shift_R to Forward Delete", "F12 to Forward Delete" or others if needed.
+          {{/language_en}}
+          {{#language_ja}}
+            他の全てのキーはリピートに対応していますので、必要に応じて
+            「Shift_R to Forward Delete」や「F12 to Forward Delete」などをお使いください。
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="power">
+        <div class="page-header">
+          <h1>power key</h1>
+        </div>
+
+        <h2>
+          {{#language_en}}
+            Can I change power key behavior on MacBook?
+          {{/language_en}}
+          {{#language_ja}}
+            電源ボタンの動作を変更することは出来ますか？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Unfortunately, power key is a only immutable key at the moment.
+          {{/language_en}}
+          {{#language_ja}}
+            残念ながら、今のところ電源ボタンの動作を変更することは出来ません。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            (Considering the fact that your machine will shutdown when we hold power key,
+            it seems impossible to change power key...)
+          {{/language_en}}
+          {{#language_ja}}
+            （電源ボタンの長押しでマシンがシャットダウンしてしまうことを考えると、電源ボタンの動作を変更することは不可能に思えます……）
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section id="unicode-hex-input">
+        <div class="page-header">
+          <h1>Unicode hex input</h1>
+        </div>
+
+        <h2>
+          {{#language_en}}
+            How to input ⌘(U+2318) by "option+a"?
+          {{/language_en}}
+          {{#language_ja}}
+            「option+a」で⌘(U+2318)を入力するにはどうすれば良いですか?
+          {{/language_ja}}
+        </h2>
+        <ol class="steps">
+          <li>
             {{#language_en}}
-              How to use private.xml.
+              Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
             {{/language_en}}
             {{#language_ja}}
-              private.xmlの使い方
+              システム環境設定の「言語とテキスト」からUnicode Hex Inputを有効にします。
             {{/language_ja}}
-          </a>)
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/unicode-hex-input.png unicode-hex-input
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            {{#language_en}}
+              Use this private.xml.
+            {{/language_en}}
+            {{#language_ja}}
+              以下のprivate.xmlを使用します。
+            {{/language_ja}}
+            (<a href="document-private-xml.html.{{ language }}">
+              {{#language_en}}
+                How to use private.xml.
+              {{/language_en}}
+              {{#language_ja}}
+                private.xmlの使い方
+              {{/language_ja}}
+            </a>)
 
-          {{#indented_xml}}
-            |<?xml version="1.0"?>
-            |<root>
-            |
-            |  <vkchangeinputsourcedef>
-            |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT</name>
-            |    <inputsourceid_equal>com.apple.keylayout.UnicodeHexInput</inputsourceid_equal>
-            |  </vkchangeinputsourcedef>
-            |
-            |  <item>
-            |    <name>My Unicode Hex Input</name>
-            |    <identifier>private.unicode_hex_input</identifier>
-            |    <autogen>
-            |      __KeyToKey__
-            |      KeyCode::A, VK_OPTION | ModifierFlag::NONE,
-            |
-            |      <!-- change input source to Unicode Hex Input -->
-            |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
-            |      <!-- wait until input source will be changed -->
-            |      KeyCode::VK_WAIT_100MS,
-            |      <!-- 2318 -->
-            |      KeyCode::KEY_2, ModifierFlag::OPTION_L,
-            |      KeyCode::KEY_3, ModifierFlag::OPTION_L,
-            |      KeyCode::KEY_1, ModifierFlag::OPTION_L,
-            |      KeyCode::KEY_8, ModifierFlag::OPTION_L,
-            |
-            |      <!-- restore input source -->
-            |      <!-- *** please change keycode to a suitable input source on your environment *** -->
-            |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
-            |
-            |      <!-- suppress key repeat -->
-            |      Option::NOREPEAT,
-            |    </autogen>
-            |  </item>
-            |
-            |</root>
-          {{/indented_xml}}
-        </li>
-      </ol>
-    </section>
-  {{/current_tab_unicode_hex_input}}
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |
+              |  <vkchangeinputsourcedef>
+              |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT</name>
+              |    <inputsourceid_equal>com.apple.keylayout.UnicodeHexInput</inputsourceid_equal>
+              |  </vkchangeinputsourcedef>
+              |
+              |  <item>
+              |    <name>My Unicode Hex Input</name>
+              |    <identifier>private.unicode_hex_input</identifier>
+              |    <autogen>
+              |      __KeyToKey__
+              |      KeyCode::A, VK_OPTION | ModifierFlag::NONE,
+              |
+              |      <!-- change input source to Unicode Hex Input -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+              |      <!-- wait until input source will be changed -->
+              |      KeyCode::VK_WAIT_100MS,
+              |      <!-- 2318 -->
+              |      KeyCode::KEY_2, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_3, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_1, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |
+              |      <!-- restore input source -->
+              |      <!-- *** please change keycode to a suitable input source on your environment *** -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+              |
+              |      <!-- suppress key repeat -->
+              |      Option::NOREPEAT,
+              |    </autogen>
+              |  </item>
+              |
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+      </section>
+    </div>
+  </div>
 </div>

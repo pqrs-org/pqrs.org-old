@@ -12,56 +12,49 @@ class Faq < Keyremap4macbookBase
   def tabs_definition
     [
      {
-       :tab => 'general',
-       :href => '/macosx/keyremap4macbook/faq.html',
+       :href => '#general',
        :name_l10n => {
          :en => 'general',
          :ja => '全般',
        }
      },
      {
-       :tab => 'trackpad',
-       :href => '/macosx/keyremap4macbook/faq-trackpad.html',
+       :href => '#trackpad',
        :name_l10n => {
          :en => 'trackpad',
          :ja => 'trackpad',
        }
      },
      {
-       :tab => 'capslock',
-       :href => '/macosx/keyremap4macbook/faq-capslock.html',
+       :href => '#capslock',
        :name_l10n => {
          :en => 'caps lock key',
          :ja => 'caps lockキー',
        }
      },
      {
-       :tab => 'fn',
-       :href => '/macosx/keyremap4macbook/faq-fn.html',
+       :href => '#fn',
        :name_l10n => {
          :en => 'fn key',
          :ja => 'fnキー',
        }
      },
      {
-       :tab => 'eject',
-       :href => '/macosx/keyremap4macbook/faq-eject.html',
+       :href => '#eject',
        :name_l10n => {
          :en => 'eject key',
          :ja => 'ejectキー',
        }
      },
      {
-       :tab => 'power',
-       :href => '/macosx/keyremap4macbook/faq-power.html',
+       :href => '#power',
        :name_l10n => {
          :en => 'power key',
          :ja => '電源ボタン',
        }
      },
      {
-       :tab => 'unicode_hex_input',
-       :href => '/macosx/keyremap4macbook/faq-unicode-hex-input.html',
+       :href => '#unicode-hex-input',
        :name_l10n => {
          :en => 'unicode hex input',
          :ja => 'unicode hex input',
@@ -71,14 +64,4 @@ class Faq < Keyremap4macbookBase
   end
 end
 
-Faq.new.tabs_definition.each do |t|
-  eval <<-EOS
-  class Faq_#{t[:tab]} < Faq
-    @template_file = File.dirname(__FILE__) + '/faq.mustache'
-    def current_tab_#{t[:tab]}
-      true
-    end
-  end
-  EOS
-  eval "PqrsUtil.make_page('#{t[:href]}', Faq_#{t[:tab]})"
-end
+PqrsUtil.make_page('/macosx/keyremap4macbook/faq.html', Faq)
