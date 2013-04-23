@@ -1,12 +1,17 @@
 <div id="nav-list">
   <ul class="nav nav-list affix">
     {{#tabs}}
-      <li>
-        <a href="{{href}}">
-          <i class="icon-chevron-right"></i>
-          {{name_l10n}}
-        </a>
-      </li>
+      {{#href}}
+        <li>
+          <a href="{{href}}">
+            <i class="icon-chevron-right"></i>
+            {{name_l10n}}
+          </a>
+        </li>
+      {{/href}}
+      {{^href}}
+        <li class="nav-header">{{name_l10n}}</li>
+      {{/href}}
     {{/tabs}}
   </ul>
 </div>

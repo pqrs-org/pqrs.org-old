@@ -51,38 +51,44 @@ class Document < Keyremap4macbookBase
        }
      },
      {
+       :name_l10n => {
+         :en => 'Misc.',
+         :ja => 'その他',
+       }
+     },
+     {
        :href => '#multitouchextension',
        :name_l10n => {
-         :en => 'misc > Multi-touch extension',
-         :ja => 'その他 > マルチタッチ拡張',
+         :en => 'Multi-touch extension',
+         :ja => 'マルチタッチ拡張',
        }
      },
      {
        :href => '#profiles',
        :name_l10n => {
-         :en => 'misc > Multiple profiles',
-         :ja => 'その他 > 複数の設定の使い分け',
+         :en => 'Multiple profiles',
+         :ja => '複数の設定の使い分け',
        }
      },
      {
        :href => '#commandlineinterface',
        :name_l10n => {
-         :en => 'misc > Command line interface',
-         :ja => 'その他 > コマンドラインインターフェース',
+         :en => 'Command line interface',
+         :ja => 'コマンドラインインターフェース',
        }
      },
      {
        :href => '#preferences',
        :name_l10n => {
-         :en => 'misc > The location of the configuration file',
-         :ja => 'その他 > 設定ファイルの場所',
+         :en => 'The location of the configuration file',
+         :ja => '設定ファイルの場所',
        }
      },
      {
        :href => '#debugmode',
        :name_l10n => {
-         :en => 'misc > debug mode',
-         :ja => 'その他 > デバッグモード',
+         :en => 'debug mode',
+         :ja => 'デバッグモード',
        }
      },
     ]
