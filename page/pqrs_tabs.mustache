@@ -1,9 +1,12 @@
-<ul class="nav nav-tabs">
-  {{#tabs}}
-    <li {{#tab_class}}class="{{tab_class}}"{{/tab_class}}>
-      <a href="{{href}}.{{language}}">
-        {{name_l10n}}
-      </a>
-    </li>
-  {{/tabs}}
-</ul>
+<div id="nav-list">
+  <ul class="nav nav-list affix">
+    {{#tabs}}
+      <li>
+        <a href="{{href}}">
+          <i class="icon-chevron-right"></i>
+          {{name_l10n}}
+        </a>
+      </li>
+    {{/tabs}}
+  </ul>
+</div>
