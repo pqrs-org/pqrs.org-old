@@ -143,9 +143,7 @@
           </tbody>
         </table>
 
-        <hr class="separator" />
-
-        <h2>List of KeyCode, ConsumerKeyCode, PointingButton</h2>
+        <h2 id="keycode-list">List of KeyCode, ConsumerKeyCode, PointingButton</h2>
         <ul>
           <li>
             <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
@@ -160,8 +158,6 @@
             <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.0.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
           </li>
         </ul>
-
-        <hr class="separator" />
 
         <h2 id="keytokey-syntax">__KeyToKey__ syntax</h2>
 
@@ -212,66 +208,64 @@
           |</autogen>
         {{/indented_xml}}
 
-        <div id="modifierflag-none">
-          <h3>ModifierFlag::NONE</h3>
-          <p>
-            If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
-          </p>
-          <p>
-            This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
-          </p>
-          <div class="row">
-            <div class="span6">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Physical key</th>
-                    <th>Changed key</th>
-                    <th>State</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>space</td>
-                    <td>space</td>
-                    <td>
-                      <span class="label">Not changed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>control+space</td>
-                    <td>control+space</td>
-                    <td>
-                      <span class="label">Not changed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>fn+space</td>
-                    <td>tab</td>
-                    <td>
-                      <span class="label label-info">Changed</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>fn+control+space</td>
-                    <td>fn+control+space</td>
-                    <td>
-                      <span class="label">Not changed</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+        <h3>ModifierFlag::NONE</h3>
+        <p>
+          If you want to change key behavior only when specific modifiers are pressed, use ModifierFlag::NONE.
+        </p>
+        <p>
+          This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
+        </p>
+        <div class="row">
+          <div class="span6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Physical key</th>
+                  <th>Changed key</th>
+                  <th>State</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>space</td>
+                  <td>space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>control+space</td>
+                  <td>control+space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>fn+space</td>
+                  <td>tab</td>
+                  <td>
+                    <span class="label label-info">Changed</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>fn+control+space</td>
+                  <td>fn+control+space</td>
+                  <td>
+                    <span class="label">Not changed</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-
-          {{#indented_xml}}
-            |<autogen>
-            |  __KeyToKey__
-            |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
-            |  KeyCode::TAB
-            |</autogen>
-          {{/indented_xml}}
         </div>
+
+        {{#indented_xml}}
+          |<autogen>
+          |  __KeyToKey__
+          |  KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::NONE,
+          |  KeyCode::TAB
+          |</autogen>
+        {{/indented_xml}}
 
         <h3>Change to multiple keys</h3>
         <p>
@@ -284,8 +278,6 @@
           |  KeyCode::TAB, KeyCode::RETURN
           |</autogen>
         {{/indented_xml}}
-
-        <hr class="separator" />
 
         <h2 id="order">Order of &lt;autogen&gt;</h2>
 
@@ -350,8 +342,6 @@
           |<!-- *** This autogen is never applied. *** -->
           |<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::SHIFT_L, KeyCode::TAB</autogen>
         {{/indented_xml}}
-
-        <hr class="separator" />
 
         <h2 id="identifier">Type of identifier prefix</h2>
 
@@ -425,8 +415,6 @@
           |  </item>
           |</root>
         {{/indented_xml}}
-
-        <hr class="separator" />
 
         <h2 id="appdef-steps">Steps to define an application specific setting</h2>
         <h3>
@@ -556,8 +544,6 @@
           |</root>
         {{/indented_xml}}
 
-        <hr class="separator" />
-
         <h2 id="devicedef-steps">Steps to define a device specific setting</h2>
 
         <h3>Examine Vendor ID and Product ID of a target device</h3>
@@ -658,8 +644,6 @@
         <p>
           You can also overwrite existent device definitions by private.xml.
         </p>
-
-        <hr class="separator" />
 
         <h2 id="locationid">How to distinguish multiple devices which have same Vendor ID and Product ID</h2>
         <p>
@@ -772,8 +756,6 @@
           <li><a href="#inputsourceonly">You can define settings which are effective on specific input source only.</a></li>
         </ul>
 
-        <hr class="separator" />
-
         <h2 id="vkchangeinputsourcedef">Change input source by virtual key code.</h2>
 
         <h3>An example</h3>
@@ -829,8 +811,6 @@
           <br />
           You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
         </p>
-
-        <hr class="separator" />
 
         <h2 id="inputsourceonly">Settings which are effective on specific input source only.</h2>
 
@@ -909,8 +889,6 @@
           <br />
           You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
         </p>
-
-        <hr class="separator" />
 
         <h2 id="inputsourceid">How to examine input source id</h2>
         <p>
