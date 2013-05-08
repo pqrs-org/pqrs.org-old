@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'keyremap4macbook_base.rb'
+require './keyremap4macbook_base.rb'
 
 class Extra < Keyremap4macbookBase
 end
