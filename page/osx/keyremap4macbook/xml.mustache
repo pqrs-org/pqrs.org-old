@@ -985,12 +985,21 @@
                 </tr>
               </tbody>
             </table>
-            <p>
-              <input type="text" id="encodeURI" />
-              <input type="button" onclick="$('encodeURI').value(encodeURI($('encodeURI'))" value="encode" />
-            </p>
           </li>
         </ul>
+
+        <h2>&lt;url&gt; encode form</h2>
+        <div class="input-prepend input-append">
+          <button class="btn" type="button" onclick="$('#encodeURI-input').val('')">clear</button>
+          <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="span5" value="file:///Applications/Utilities/Activity Monitor.app" />
+          <button class="btn" type="button" onclick="$('#encodeURI-output').val(encodeURI($('#encodeURI-input').val()))">
+            encode
+          </button>
+        </div>
+        <div class="input-prepend">
+          <span class="add-on">Output</span>
+          <input type="text" id="encodeURI-output" placeholder="Output" class="span5" />
+        </div>
 
         <h2>Prepared virtual key code definitions</h2>
         <p>

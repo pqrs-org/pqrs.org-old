@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'nesterdc_base.rb'
+require './nesterdc_base.rb'
 
 class History < NesterdcBase
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'vulkanon_base.rb'
+require './vulkanon_base.rb'
 
 class History < VulkanonBase
   def histories

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'dcgnuboy_base.rb'
+require './dcgnuboy_base.rb'
 
 class Index < DcgnuboyBase
 end

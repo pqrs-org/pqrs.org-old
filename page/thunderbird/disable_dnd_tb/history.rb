@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'disable_dnd_tb_base.rb'
+require './disable_dnd_tb_base.rb'
 
 class History < DisableDndTbBase
   def histories

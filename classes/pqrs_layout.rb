@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: undecided -*-
 
 class PqrsLayout < Mustache
   attr_accessor :body_class

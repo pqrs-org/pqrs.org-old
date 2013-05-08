@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require 'bulletgba_base.rb'
+require './bulletgba_base.rb'
 
 class History < BulletgbaBase
   def histories
