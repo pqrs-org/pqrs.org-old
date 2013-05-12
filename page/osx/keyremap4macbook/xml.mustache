@@ -911,10 +911,6 @@
           <h1>Launch app / Open URL</h1>
         </div>
 
-        <span class="label label-info">
-          [beta] This feature is available since version 8.0.6.
-        </span>
-
         <h2>An example</h2>
         <p>
           This private.xml opens web site and launches calculator.
@@ -1047,17 +1043,6 @@
         </p>
 
         <b>private.xml</b>
-        {{#indented_xml}}
-          |<?xml version="1.0"?>
-          |<root>
-          |  <include path="../../../Dropbox/private/KeyRemap4MacBook/core.xml" />
-          |</root>
-        {{/indented_xml}}
-
-        <span class="label label-info">
-          Since version 8.0.58:
-        </span>
-        You can use {{curly}} ENV_HOME }} to specify home directory.
         {{#indented_xml}}
           |<?xml version="1.0"?>
           |<root>
@@ -1248,10 +1233,6 @@
 
         <h2 id="rawvalue">Specify raw value</h2>
         <p>
-          <span class="label label-info">
-            Since version 8.0.44:
-          </span>
-
           You can specify raw value by using KeyCode::RawValue.
         </p>
         {{#indented_xml}}
