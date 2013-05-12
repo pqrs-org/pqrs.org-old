@@ -8,6 +8,71 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.1.0',
+              :updated => '2013-05-12',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Power button remapping has been supported.</li>
+  <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
+  <li>Added some styles into status message indicator.</li>
+  <li>Improved compatibility with <a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Supported more than three keys at __SimultaneousKeyPresses__.</li>
+      <li>Added KeyCode::VK_OPEN_URL_*.</li>
+      <li>Added KeyCode::VK_PARTIAL_KEYDOWN and KeyCode::VK_PARTIAL_KEYUP.</li>
+      <li>Added Option::POINTINGRELATIVETOSCROLL_TOKEYS.</li>
+      <li>Added __FlipPointingRelative__.</li>
+      <li>Added __FlipScrollWheel__.</li>
+      <li>
+        Added filters:
+        <ul>
+          <li>&lt;lastpressedphysicalkey_not&gt;</li>
+          <li>&lt;lastpressedphysicalkey_only&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_greaterthan&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_lessthan&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>パワーボタンのリマッピングに対応しました。</li>
+  <li>「Quit KeyRemap4MacBook」をメニューバーに追加しました。</li>
+  <li>ステータス表示の見た目の種類を増やしました。</li>
+  <li><a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>がインストールされている場合の挙動を改善しました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>__SimultaneousKeyPresses__において、3キー以上の同時押しに対応しました。</li>
+      <li>KeyCode::VK_OPEN_URL_*を追加しました。</li>
+      <li>KeyCode::VK_PARTIAL_KEYDOWN、KeyCode::VK_PARTIAL_KEYUPを追加しました。</li>
+      <li>Option::POINTINGRELATIVETOSCROLL_TOKEYSを追加しました。</li>
+      <li>__FlipPointingRelative__を追加しました。</li>
+      <li>__FlipScrollWheel__を追加しました。</li>
+      <li>
+        以下のフィルタを追加しました。
+        <ul>
+          <li>&lt;lastpressedphysicalkey_not&gt;</li>
+          <li>&lt;lastpressedphysicalkey_only&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_greaterthan&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_lessthan&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '8.0.0',
               :updated => '2013-01-30',
               :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.0.0.dmg',
