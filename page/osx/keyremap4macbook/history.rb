@@ -14,7 +14,7 @@ class History < Keyremap4macbookBase
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Power button remapping has been supported.</li>
+  <li>Power button remapping has been supported. (Thanks to Peter Kamb who is author of PowerKey.)</li>
   <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
   <li>Added some styles into status message indicator.</li>
   <li>Improved compatibility with <a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>.</li>
@@ -43,7 +43,7 @@ class History < Keyremap4macbookBase
 EOS
                 :ja => <<EOS,
 <ul>
-  <li>パワーボタンのリマッピングに対応しました。</li>
+  <li>パワーボタンのリマッピングに対応しました。（PowerKeyの作者であるPeter Kambさんに感謝します。）</li>
   <li>「Quit KeyRemap4MacBook」をメニューバーに追加しました。</li>
   <li>ステータス表示の見た目の種類を増やしました。</li>
   <li><a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>がインストールされている場合の挙動を改善しました。</li>
