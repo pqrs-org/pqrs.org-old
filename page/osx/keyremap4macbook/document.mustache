@@ -669,10 +669,18 @@
           </li>
           <li>
             {{#language_en}}
-              You can choose the configuration from multiple configurations.
+              You can choose a profile from multiple profiles.
             {{/language_en}}
             {{#language_ja}}
               複数の設定の切り替えをできます。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              You can export configuration.
+            {{/language_en}}
+            {{#language_ja}}
+              設定のエクスポートが出来ます。
             {{/language_ja}}
           </li>
         </ul>
@@ -728,7 +736,7 @@
         </h2>
         <p>
           {{#language_en}}
-            You can choose the configuration from multiple configurations.
+            You can choose a profile from multiple profiles.
           {{/language_en}}
           {{#language_ja}}
             複数の設定の切り替えをできます。
@@ -737,7 +745,7 @@
         <ol>
           <li>
             {{#language_en}}
-              Get a list by "list" option.
+              Get a list of profiles by "list" option.
             {{/language_en}}
             {{#language_ja}}
               listオプションで複数の設定の一覧を取得します。
@@ -752,9 +760,9 @@
           </li>
           <li>
             {{#language_en}}
-              Choose a configuration by "select" option.
+              Choose a profile by "select" option.
               <br />
-              The numeral argument is a configuration index. It starts from 0.
+              The numeral argument is a profile index. It starts from 0.
             {{/language_en}}
             {{#language_ja}}
               selectオプションで切り替えを行ないます。
@@ -763,6 +771,44 @@
             {{/language_ja}}
             <pre>{{#strip_indented_lines}}
               |$ /Applications/KeyRemap4MacBook.app/Contents/Applications/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli select 1
+            {{/strip_indented_lines}}</pre>
+          </li>
+        </ol>
+
+        <h2 id="export">
+          {{#language_en}}
+            About "export" option
+          {{/language_en}}
+          {{#language_ja}}
+            exportオプションについて
+          {{/language_ja}}
+        </h2>
+        <ol>
+          <li>
+            {{#language_en}}
+              Export configuration by "export" option.
+              <br />
+              The output is a shell script.
+            {{/language_en}}
+            {{#language_ja}}
+              exportオプションで設定のエクスポートを行います。
+              <br />
+              出力は、シェルスクリプトです。
+            {{/language_ja}}
+            <pre>{{#strip_indented_lines}}
+              |$ /Applications/KeyRemap4MacBook.app/Contents/Applications/KeyRemap4MacBook_cli.app/Contents/MacOS/KeyRemap4MacBook_cli export > ~/Desktop/kr4mb-import.sh
+            {{/strip_indented_lines}}</pre>
+          </li>
+          <li>
+            {{#language_en}}
+              You can import it from Terminal.
+            {{/language_en}}
+            {{#language_ja}}
+              ターミナルからインポートを行うことができます。
+            {{/language_ja}}
+            <pre>{{#strip_indented_lines}}
+              |$ sh ~/Desktop/kr4mb-import.sh
+              |...........................................
             {{/strip_indented_lines}}</pre>
           </li>
         </ol>
