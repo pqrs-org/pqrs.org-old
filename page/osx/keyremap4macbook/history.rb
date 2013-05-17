@@ -8,6 +8,27 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.2.0',
+              :updated => '2013-05-17',
+              :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Fixed a bug that object selection is disabled on Adobe Fireworks.</li>
+  <li>Fixed a bug that "General &gt; Don't remap XXX" does not take effect immediately.</li>
+  <li>Fixed a bug that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>Adobe Fireworksでオブジェクトが選択できなくなるバグを修正しました。</li>
+  <li>「General &gt; Don't remap XXX」が即座に反映されないバグを修正しました。</li>
+  <li>control-ejectがOS X 10.7、10.6にて正常に動作しないバグを修正しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '8.1.0',
               :updated => '2013-05-12',
               :link => 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-8.1.0.dmg',
