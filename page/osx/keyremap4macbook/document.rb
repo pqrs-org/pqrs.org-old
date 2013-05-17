@@ -37,6 +37,13 @@ class Document < Keyremap4macbookBase
        }
      },
      {
+       :href => '#check-for-updates',
+       :name_l10n => {
+         :en => 'Check for updates',
+         :ja => '最新版への更新',
+       }
+     },
+     {
        :href => '#eventviewer',
        :name_l10n => {
          :en => 'Eventviewer',
