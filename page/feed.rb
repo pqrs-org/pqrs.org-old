@@ -20,7 +20,7 @@ class Feed < PqrsBase
                 :en => 'PCKeyboardHack-9.0.0 has been released',
                 :ja => 'PCKeyboardHack-9.0.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.' + @language.to_s,
               :updated => '2013-01-13',
               :body_l10n => {
                 :en => <<EOS,
@@ -42,7 +42,7 @@ EOS
                 :en => 'NoEjectDelay-4.1.0 has been released',
                 :ja => 'NoEjectDelay-4.1.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
               :updated => '2013-01-13',
               :body_l10n => {
                 :en => <<EOS,
@@ -62,7 +62,7 @@ EOS
                 :en => 'PCKeyboardHack-8.0.0 has been released',
                 :ja => 'PCKeyboardHack-8.0.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.' + @language.to_s,
               :updated => '2012-08-11',
               :body_l10n => {
                 :en => <<EOS,
@@ -82,7 +82,7 @@ EOS
                 :en => 'NoEjectDelay-4.0.0 has been released',
                 :ja => 'NoEjectDelay-4.0.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/noejectdelay.html.' + @language.to_s,
               :updated => '2012-08-06',
               :body_l10n => {
                 :en => <<EOS,
@@ -102,7 +102,7 @@ EOS
                 :en => 'KeyRemap4MacBook-7.8.0 has been released',
                 :ja => 'KeyRemap4MacBook-7.8.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
               :updated => '2012-06-26',
               :body_l10n => {
                 :en => <<EOS,
@@ -126,7 +126,7 @@ EOS
                 :en => 'KeyRemap4MacBook-7.7.0 has been released',
                 :ja => 'KeyRemap4MacBook-7.7.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
               :updated => '2012-05-09',
               :body_l10n => {
                 :en => <<EOS,
@@ -146,7 +146,7 @@ EOS
                 :en => 'KeyRemap4MacBook-7.6.0 has been released',
                 :ja => 'KeyRemap4MacBook-7.6.0リリース',
               },
-              :link => 'http://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
+              :link => 'https://pqrs.org/macosx/keyremap4macbook/index.html.' + @language.to_s,
               :updated => '2012-05-08',
               :body_l10n => {
                 :en => <<EOS,
