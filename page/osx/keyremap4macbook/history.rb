@@ -8,6 +8,25 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.3.0',
+              :updated => '2013-05-19',
+              :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Fixed a bug that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS Xの「調べる」機能（トラックパッドを3本指でタップ）が正常に動作しないバグを修正しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '8.2.0',
               :updated => '2013-05-17',
               :link => 'files/KeyRemap4MacBook-8.2.0.dmg',
