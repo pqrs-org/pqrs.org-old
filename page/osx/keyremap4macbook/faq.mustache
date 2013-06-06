@@ -70,11 +70,54 @@
           </li>
           <li>
             {{#language_en}}
-              Please contact <a href="contact.html.en">me</a> if your problem has not resolved by above procedures.
+              Please contact <a href="contact.html.en">me</a> with log messages (see below steps) if your problem has not resolved by above procedures.
             {{/language_en}}
             {{#language_ja}}
-              上記の手順を行っても動かない場合は<a href="contact.html.ja">ご連絡</a>ください。
+              上記の手順を行っても動かない場合は下記のログメッセージを添えて<a href="contact.html.ja">ご連絡</a>ください。
             {{/language_ja}}
+          </li>
+        </ol>
+
+        <h3 id="console">
+          {{#language_en}}
+            How to check the log message
+          {{/language_en}}
+          {{#language_ja}}
+            ログメッセージの確認方法
+          {{/language_ja}}
+        </h3>
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Launch Console app from Launchpad.
+            {{/language_en}}
+            {{#language_ja}}
+              コンソールアプリをLaunchpadから起動してください。
+            {{/language_ja}}
+
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/launchpad-console.png Launchpad
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            {{#language_en}}
+              Filter messages by "KeyRemap4MacBook".
+            {{/language_en}}
+            {{#language_ja}}
+              メッセージを「KeyRemap4MacBook」で絞り込んでください。
+            {{/language_ja}}
+
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/console.png Launchpad
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
         </ol>
 
