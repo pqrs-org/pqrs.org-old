@@ -17,7 +17,6 @@ class Toppage < PqrsBase
               :items => [
                          {
                            :name => 'KeyRemap4MacBook',
-                           :updated => '2012-05-09',
                            :link => '/macosx/keyremap4macbook/index.html.' + @language.to_s,
                            :icon => '/img/icon/osx/keyremap4macbook-32.png',
                            :body_l10n => {
@@ -31,10 +30,9 @@ EOS
                          },
 
                          {
-                           :name => 'DrasticInputSourceStatus',
-                           :updated => '2012-03-06',
-                           :link => '/macosx/DrasticInputSourceStatus/index.html.' + @language.to_s,
-                           :icon => '/img/icon/osx/drasticinputsourcestatus-32.png',
+                           :name => 'ShowyEdge',
+                           :link => '/macosx/ShowyEdge/index.html.' + @language.to_s,
+                           :icon => '/img/icon/osx/ShowyEdge-32.png',
                            :body_l10n => {
                              :en => <<EOS,
 <p>An Indicator of the current input source which has a very high visibility for OS X.</p>
@@ -53,7 +51,6 @@ EOS
               :items => [
                          {
                            :name => 'Disable DragAndDrop',
-                           :updated => '2011-06-29',
                            :link => '/thunderbird/extensions/disable_dnd_tb/index.html.' + @language.to_s,
                            :icon => '/img/icon/thunderbird/default-32.png',
                            :body_l10n => {
@@ -80,7 +77,6 @@ EOS
               :items => [
                          {
                            :name => 'ImageLnk',
-                           :updated => '2011-05-30',
                            :link => 'http://imagelnk.pqrs.org/',
                            :icon => '/img/icon/web/imagelnk-32.png',
                            :body_l10n => {
@@ -101,7 +97,6 @@ EOS
               :items => [
                          {
                            :name => 'Vulkanon',
-                           :updated => '2007-06-30',
                            :link => '/gba/vulkanon/index.html.' + @language.to_s,
                            :icon => '/img/icon/gba/vulkanon-32.png',
                            :body_l10n => {
@@ -115,7 +110,6 @@ EOS
                          },
                          {
                            :name => 'BulletGBA',
-                           :updated => '2007-05-20',
                            :link => '/gba/bulletgba/index.html.' + @language.to_s,
                            :icon => '/img/icon/gba/bulletgba-32.png',
                            :body_l10n => {
@@ -136,7 +130,6 @@ EOS
               :items => [
                          {
                            :name => 'NesterDC',
-                           :updated => '2002-12-01',
                            :link => '/dreamcast/software/nesterdc/index.html.' + @language.to_s,
                            :body_l10n => {
                              :en => <<EOS,
@@ -149,7 +142,6 @@ EOS
                          },
                          {
                            :name => 'dcgnuboy',
-                           :updated => '2002-08-03',
                            :link => '/dreamcast/software/dcgnuboy/index.html.' + @language.to_s,
                            :body_l10n => {
                              :en => <<EOS,
