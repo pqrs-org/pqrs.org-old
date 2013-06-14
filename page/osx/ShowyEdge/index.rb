@@ -13,6 +13,18 @@ class Index < PqrsBase
     end
   end
 
+  def navs_left_data
+    [
+     {
+       :href => '/macosx/ShowyEdge/index.html',
+       :name_l10n => {
+         :en => 'ShowyEdge',
+         :ja => 'ShowyEdge',
+       },
+     },
+    ]
+  end
+
   def tabs_definition
     [
      {
