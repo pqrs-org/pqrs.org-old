@@ -63,6 +63,7 @@ class Index < PqrsBase
             {
               :version => '1.1.0',
               :updated => '2013-06-15',
+              :link => 'files/ShowyEdge-1.1.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
