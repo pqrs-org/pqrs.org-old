@@ -1,0 +1,172 @@
+<div class="container">
+  <header>
+    <div class="hero-unit">
+      <h1>ShowyEdge</h1>
+
+      <p>
+        <img src="img/menubar.png" alt="menu bar" style="border: 1px solid black; margin: 20px" />
+      </p>
+
+      <p>
+        {{#language_en}}
+          ShowyEdge changes a color of the menu bar depending on the current input source.<br />
+          You can recognize the current input source very easily.
+        {{/language_en}}
+        {{#language_ja}}
+          ShowyEdgeは現在の入力ソースに応じてメニューバーの色を変化させることで、入力ソースを視認しやすくします。
+        {{/language_ja}}
+      </p>
+
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-primary btn-large"
+            href="files/ShowyEdge-1.1.0.dmg">
+            {{#language_en}}
+              Download ShowyEdge-1.1.0
+            {{/language_en}}
+            {{#language_ja}}
+              ShowyEdge-1.1.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label">
+              {{#language_en}}
+                For OS X 10.6+.
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.6以降で動作します。
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="span3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="span9">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Installation
+            {{/language_en}}
+            {{#language_ja}}
+              インストール方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+              {{#language_en}}
+                Open a downloaded dmg file.
+              {{/language_en}}
+              {{#language_ja}}
+                ダウンロードしたdmgファイルを開きます。
+              {{/language_ja}}
+            </p>
+            <p>
+              <img
+              alt="dmg"
+              {{#imgsrc}}
+                img/dmg.png
+              {{/imgsrc}}
+              />
+            </p>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Move ShowyEdge icon into Applications icon.<br />
+                Then, ShowyEdge will be installed into Applications.
+              {{/language_en}}
+              {{#language_ja}}
+                ShowyEdgeのアイコンをApplicationsに移動してください。<br />
+                すると、ShowyEdgeがApplicationsにインストールされます。
+              {{/language_ja}}
+            </p>
+            <div class="row-fluid">
+              <div class="span8">
+                {{#lightbox}}
+                  img/install.png Install ShowyEdge
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Open Applications.<br />
+                Then, Control-click or right click ShowyEdge,
+                select "Open" from the top of contextual menu that appears.
+              {{/language_en}}
+              {{#language_ja}}
+                Applicationsを開いてください。<br />
+                そうしたら、ShowyEdgeを「Controlを押しながらクリック」もしくは「右クリック」して、
+                メニューの一番上の「開く」を選択します。
+              {{/language_ja}}
+            </p>
+            <p>
+              <span class="label label-important">Important</span>
+              {{#language_en}}
+                You must open the pkg file from contextual menu in order to pass through Gatekeeper
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
+              {{/language_ja}}
+            </p>
+            <div class="row-fluid">
+              <div class="span8">
+                {{#lightbox}}
+                  img/open.png Open ShowyEdge
+                {{/lightbox}}
+              </div>
+            </div>
+
+            <p>
+              {{#language_en}}
+                A warning of Gatekeeper will be shown.
+                Click "Open" in the dialog box.
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperの警告が表示されますので、「開く」を選択してください。
+              {{/language_ja}}
+            </p>
+            <div class="row-fluid">
+              <div class="span4">
+                {{#lightbox}}
+                  img/gatekeeper.png Gatekeeper.
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Preferences will be opened.<br />
+                Check "Start ShowyEdge on system startup".
+              {{/language_en}}
+              {{#language_ja}}
+                設定画面が開きますので、「Start ShowyEdge on system startup」をチェックしてください。
+              {{/language_ja}}
+            </p>
+            <div class="row-fluid">
+              <div class="span6">
+                {{#lightbox}}
+                  img/preferences.png Preferences
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </div>
+</div>
