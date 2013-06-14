@@ -68,9 +68,9 @@ class Index < PqrsBase
   def histories
     data = [
             {
-              :version => '1.2.0',
+              :version => '1.3.0',
               :updated => '2013-06-14',
-              :link => 'files/ShowyEdge-1.2.0.dmg',
+              :link => 'files/ShowyEdge-1.3.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
