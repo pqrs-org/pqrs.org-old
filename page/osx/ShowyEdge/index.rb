@@ -49,6 +49,13 @@ class Index < PqrsBase
        }
      },
      {
+       :href => '#development',
+       :name_l10n => {
+         :en => 'Development',
+         :ja => '開発',
+       }
+     },
+     {
        :href => '#history',
        :name_l10n => {
          :en => 'Version History',
