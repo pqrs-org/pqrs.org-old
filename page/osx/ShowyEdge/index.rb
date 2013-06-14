@@ -74,7 +74,7 @@ class Index < PqrsBase
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Initial release.</li>
+  <li>First release.</li>
 </ul>
 EOS
                 :ja => <<EOS,
