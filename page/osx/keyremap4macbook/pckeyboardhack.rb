@@ -9,6 +9,15 @@ class Pckeyboardhack < Keyremap4macbookBase
     '/macosx/keyremap4macbook/pckeyboardhack.html'
   end
 
+  def title
+    case @language
+    when :en
+      'PCKeyboardHack - Software for OS X'
+    when :ja
+      'PCKeyboardHack - OS X用のソフトウェア'
+    end
+  end
+
   def tabs_definition
     [
      {

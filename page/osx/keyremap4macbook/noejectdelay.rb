@@ -9,6 +9,15 @@ class Noejectdelay < Keyremap4macbookBase
     '/macosx/keyremap4macbook/noejectdelay.html'
   end
 
+  def title
+    case @language
+    when :en
+      'NoEjectDelay - Software for OS X'
+    when :ja
+      'NoEjectDelay - OS X用のソフトウェア'
+    end
+  end
+
   def tabs_definition
     [
      {
