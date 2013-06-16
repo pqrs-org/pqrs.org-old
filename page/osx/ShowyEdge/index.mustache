@@ -232,15 +232,15 @@
         <ol class="steps">
           <li>
             {{#language_en}}
-              Open Applications in Finder. Then, open ShowyEdge.
+              Open ShowyEdge from Launchpad.
             {{/language_en}}
             {{#language_ja}}
-              FinderでApplicationsを開いてください。そして、ShowyEdgeを開いてください。
+              LaunchpadからShowyEdgeを開いてください。
             {{/language_ja}}
             <div class="row">
               <div class="span4">
                 {{#lightbox}}
-                  img/finder.png Finder
+                  img/launchpad.png Launchpad
                 {{/lightbox}}
               </div>
             </div>
@@ -278,6 +278,54 @@
         </ol>
       </section>
 
+      <section id="quit">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              How to quit
+            {{/language_en}}
+            {{#language_ja}}
+              終了する方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+              {{#language_en}}
+                Open Activity Monitor from Launchpad.
+              {{/language_en}}
+              {{#language_ja}}
+                LaunchpadからActivity Monitorを起動してください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/launchpad-activitymonitor.png Launchpad
+                {{/lightbox}}
+              </div>
+            </div>
+            <p>
+              {{#language_en}}
+                Quit ShowyEdge processes.
+              {{/language_en}}
+              {{#language_ja}}
+                ShowyEdgeプロセスを終了させてください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/activitymonitor.png Activity Monitor
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
       <section id="uninstall">
         <div class="page-header">
           <h1>
@@ -291,6 +339,14 @@
         </div>
 
         <ol class="steps">
+          <li>
+            {{#language_en}}
+              First, please <a href="#quit">quit ShowyEdge.</a>
+            {{/language_en}}
+            {{#language_ja}}
+              まず、<a href="#quit">ShowyEdgeを終了させてください。</a>
+            {{/language_ja}}
+          </li>
           <li>
             {{#language_en}}
               Open Applications in Finder. Then, delete ShowyEdge.
