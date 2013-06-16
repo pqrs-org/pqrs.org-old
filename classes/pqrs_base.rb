@@ -134,7 +134,7 @@ class PqrsBase < Mustache
 <a data-toggle="lightbox" href="##{id}" class="thumbnail">
   <img src="#{src}" alt="#{alt}" />
 </a>
-<div id="#{id}" class="lightbox hide fade">
+<div id="#{id}" class="lightbox hide fade" tabindex="#{@lightbox_id + 30000}">
   <div class="lightbox-content">
     <img src="#{src}" alt="#{alt}" />
   </div>
