@@ -75,6 +75,23 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.4.0',
+              :updated => '2013-06-16',
+              :link => 'files/ShowyEdge-1.4.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Revised file permissions.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>ファイルのパーミッションを修正。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.3.0',
               :updated => '2013-06-14',
               :link => 'files/ShowyEdge-1.3.0.dmg',
