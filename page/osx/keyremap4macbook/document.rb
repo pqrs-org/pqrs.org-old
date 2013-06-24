@@ -30,6 +30,13 @@ class Document < Keyremap4macbookBase
        }
      },
      {
+       :href => '#quit',
+       :name_l10n => {
+         :en => 'How to quit',
+         :ja => '終了する方法',
+       }
+     },
+     {
        :href => '#uninstall',
        :name_l10n => {
          :en => 'Uninstall',
