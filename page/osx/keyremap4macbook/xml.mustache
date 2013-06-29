@@ -1247,6 +1247,51 @@
           |</root>
         {{/indented_xml}}
       </section>
+
+      <section id="prepared">
+        <div class="page-header">
+          <h1>How to modify prepared settings</h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            Get source code from <a href="https://github.com/tekezo/KeyRemap4MacBook" target="_blank">repository</a>.
+          </li>
+
+          <li>
+            Prepared settings are defined in these files:
+            <ul>
+              <li>
+                <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/checkbox.xml">src/core/server/Resources/checkbox.xml</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/tree/master/src/core/server/Resources/include/checkbox/">src/core/server/Resources/include/checkbox/</a>
+              </li>
+            </ul>
+            Modify them.
+          </li>
+
+          <li>
+            Install XML files. Execute these commands in Terminal.
+            <pre>{{#strip_indented_lines}}
+              $ cd src/core/server/Resources
+              $ make install
+            {{/strip_indented_lines}}</pre>
+            (This commands ask your password in order to modify XML files in /Applications/KeyRemap4MacBook.app.)
+          </li>
+
+          <li>
+            Then, reload XML files by "ReloadXML" button on Preference.
+            <div class="row">
+              <div class="span4">
+                {{#lightbox}}
+                  img/reload_xml.png ReloadXML
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
     </div>
   </div>
 </div>

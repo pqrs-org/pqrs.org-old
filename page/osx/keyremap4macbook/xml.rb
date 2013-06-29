@@ -78,6 +78,13 @@ class Xml < Keyremap4macbookBase
          :ja => 'new keycode definition',
        }
      },
+     {
+       :href => '#prepared',
+       :name_l10n => {
+         :en => 'modify prepared settings',
+         :ja => 'modify prepared settings',
+       }
+     },
     ]
   end
 end
