@@ -6,10 +6,10 @@
   </header>
 
   <div class="row">
-    <div class="span3">
+    <div class="col-lg-3">
       {{> ../../pqrs_tabs }}
     </div>
-    <div class="span9">
+    <div class="col-lg-9">
       <section id="examples">
         <div class="page-header">
           <h1>Examples</h1>
@@ -38,7 +38,7 @@
           2 settings are added by this private.xml.
         </p>
         <div class="row">
-          <div class="span4">
+          <div class="col-lg-4">
             {{#lightbox}}
               img/xml_basic.png preferences pane
             {{/lightbox}}
@@ -53,7 +53,7 @@
           You can see the raw XML from <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_8.3.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.
         </p>
         <div class="row">
-          <div class="span4">
+          <div class="col-lg-4">
             {{#lightbox}}
               img/samples_for_developer.png Samples for KeyRemap4MacBook Developer
             {{/lightbox}}
@@ -216,7 +216,7 @@
           This <code>&lt;autogen&gt;</code> changes "fn+space key" to tab key and retain other modifier combinations+space key behavior.
         </p>
         <div class="row">
-          <div class="span6">
+          <div class="col-lg-6">
             <table class="table">
               <thead>
                 <tr>
@@ -299,7 +299,7 @@
           you need to order <code>&lt;autogen&gt;</code> as follows.
         </p>
         <div class="row">
-          <div class="span6">
+          <div class="col-lg-6">
             <table class="table">
               <thead>
                 <tr>
@@ -424,7 +424,7 @@
           <li>
             Launch EventViewer from a menu.
             <div class="row">
-              <div class="span4">
+              <div class="col-lg-4">
                 {{#lightbox}}
                   img/eventviewer-menu.png eventviewer menu
                 {{/lightbox}}
@@ -444,7 +444,7 @@
             </p>
 
             <div class="row">
-              <div class="span4">
+              <div class="col-lg-4">
                 {{#lightbox}}
                   img/eventviewer-app.png eventviewer-app
                 {{/lightbox}}
@@ -549,7 +549,7 @@
           <li>
             Launch EventViewer from a menu.
             <div class="row">
-              <div class="span4">
+              <div class="col-lg-4">
                 {{#lightbox}}
                   img/eventviewer-menu.png eventviewer menu
                 {{/lightbox}}
@@ -567,7 +567,7 @@
             </p>
 
             <div class="row">
-              <div class="span4">
+              <div class="col-lg-4">
                 {{#lightbox}}
                   img/eventviewer-devices.png eventviewer-devices
                 {{/lightbox}}
@@ -694,7 +694,7 @@
         </p>
 
         <div class="row">
-          <div class="span4">
+          <div class="col-lg-4">
             {{#lightbox}}
               img/eventviewer-locationid.png Location ID
             {{/lightbox}}
@@ -898,7 +898,7 @@
           <li>See <span class="label">Input Source ID</span> in Event Viewer.</li>
         </ol>
         <div class="row">
-          <div class="span4">
+          <div class="col-lg-4">
             {{#lightbox}}
               img/eventviewer-inputsource.png Event Viewer
             {{/lightbox}}
@@ -987,14 +987,14 @@
         <h2>&lt;url&gt; encode form</h2>
         <div class="input-prepend input-append">
           <button class="btn" type="button" onclick="$('#encodeURI-input').val('')">clear</button>
-          <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="span5" value="file:///Applications/Utilities/Activity Monitor.app" />
+          <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="col-lg-5" value="file:///Applications/Utilities/Activity Monitor.app" />
           <button class="btn" type="button" onclick="$('#encodeURI-output').val(encodeURI($('#encodeURI-input').val()))">
             encode
           </button>
         </div>
         <div class="input-prepend">
           <span class="add-on">Output</span>
-          <input type="text" id="encodeURI-output" placeholder="Output" class="span5" />
+          <input type="text" id="encodeURI-output" placeholder="Output" class="col-lg-5" />
         </div>
 
         <h2>Prepared virtual key code definitions</h2>
@@ -1283,7 +1283,7 @@
           <li>
             Then, reload XML files by "ReloadXML" button on Preference.
             <div class="row">
-              <div class="span4">
+              <div class="col-lg-4">
                 {{#lightbox}}
                   img/reload_xml.png ReloadXML
                 {{/lightbox}}
