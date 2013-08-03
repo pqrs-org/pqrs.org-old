@@ -130,15 +130,21 @@ class PqrsBase < Mustache
     alt = a[1].strip
     id = "lightbox-" + @lightbox_id.to_s
 
+    path = File.join(File.dirname(File.join($destination_directory, @path)), src)
+    img = Magick::Image::read(path).first
+    margin = 60
+
     <<EOS
-<a data-toggle="lightbox" href="##{id}" class="thumbnail">
+<a data-toggle="modal" href="##{id}" class="thumbnail">
   <img src="#{src}" alt="#{alt}" />
 </a>
-<div id="#{id}" class="lightbox hide fade" tabindex="#{@lightbox_id + 30000}">
-  <div class="lightbox-content">
-    <a data-toggle="lightbox" href="##{id}">
-      <img src="#{src}" alt="#{alt}" />
-    </a>
+<div id="#{id}" class="modal fade" tabindex="#{@lightbox_id + 30000}">
+  <div class="modal-dialog clickable" data-dismiss="modal" style="width: #{img.columns + margin}px; margin-left: -#{(img.columns + margin) / 2}px">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="#{src}" alt="#{alt}" />
+      </div>
+    </div>
   </div>
 </div>
 EOS
