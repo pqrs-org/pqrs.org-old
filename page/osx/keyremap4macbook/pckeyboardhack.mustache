@@ -38,7 +38,7 @@
       </p>
       <p>
         {{#strip_html}}
-          <a class="btn"
+          <a class="btn btn-default"
             href="files/PCKeyboardHack-7.4.0.dmg">
             {{#language_en}}
               Download PCKeyboardHack-7.4.0
@@ -60,7 +60,7 @@
       </p>
       <p>
         {{#strip_html}}
-          <a class="btn"
+          <a class="btn btn-default"
             href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">
             {{#language_en}}
               Download PCKeyboardHack-5.1.0
@@ -112,81 +112,87 @@
           </h1>
         </div>
 
-        <div class="row-fluid show-grid">
+        <div class="row">
           <div class="col-lg-4">
-            <h2>Step1</h2>
+            <div class="col-show-grid">
+              <h2>Step1</h2>
 
-            <p>
-              {{#language_en}}
-                Open a downloaded dmg file.
-              {{/language_en}}
-              {{#language_ja}}
-                ダウンロードしたdmgファイルを開きます。
-              {{/language_ja}}
-            </p>
-            <p>
-              <img
-              alt="dmg"
-              {{#imgsrc}}
-                img/dmg.png
-              {{/imgsrc}}
-              />
-            </p>
+              <p>
+                {{#language_en}}
+                  Open a downloaded dmg file.
+                {{/language_en}}
+                {{#language_ja}}
+                  ダウンロードしたdmgファイルを開きます。
+                {{/language_ja}}
+              </p>
+              <p>
+                <img
+                alt="dmg"
+                {{#imgsrc}}
+                  img/dmg.png
+                {{/imgsrc}}
+                />
+              </p>
+            </div>
           </div>
           <div class="col-lg-4">
-            <h2>Step2</h2>
+            <div class="col-show-grid">
+              <h2>Step2</h2>
 
-            <p>
-              {{#language_en}}
-                Control-click or right click the pkg file,
-                then select "Open" from the top of contextual menu that appears.
-              {{/language_en}}
-              {{#language_ja}}
-                pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
-                メニューの一番上の「開く」を選択します。
-              {{/language_ja}}
-            </p>
-            <p>
-              <span class="label label-important">Important</span>
-              {{#language_en}}
-                You must open the pkg file from contextual menu in order to pass through Gatekeeper
-              {{/language_en}}
-              {{#language_ja}}
-                Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
-              {{/language_ja}}
-            </p>
-            {{#lightbox}}
-              img/pckeyboardhack-pkg.png Open pkg.
-            {{/lightbox}}
-            <br />
-            <p>
-              {{#language_en}}
-                A warning of Gatekeeper will be shown.
-                Click "Open" in the dialog box.
-              {{/language_en}}
-              {{#language_ja}}
-                Gatekeeperの警告が表示されますので、「開く」を選択してください。
-              {{/language_ja}}
-            </p>
-            {{#lightbox}}
-              img/pckeyboardhack-gatekeeper.png Gatekeeper.
-            {{/lightbox}}
+              <p>
+                {{#language_en}}
+                  Control-click or right click the pkg file,
+                  then select "Open" from the top of contextual menu that appears.
+                {{/language_en}}
+                {{#language_ja}}
+                  pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
+                  メニューの一番上の「開く」を選択します。
+                {{/language_ja}}
+              </p>
+              <p>
+                <span class="label label-important">Important</span>
+                {{#language_en}}
+                  You must open the pkg file from contextual menu in order to pass through Gatekeeper
+                {{/language_en}}
+                {{#language_ja}}
+                  Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
+                {{/language_ja}}
+              </p>
+              {{#lightbox}}
+                img/pckeyboardhack-pkg.png Open pkg.
+              {{/lightbox}}
+              <br />
+              <p>
+                {{#language_en}}
+                  A warning of Gatekeeper will be shown.
+                  Click "Open" in the dialog box.
+                {{/language_en}}
+                {{#language_ja}}
+                  Gatekeeperの警告が表示されますので、「開く」を選択してください。
+                {{/language_ja}}
+              </p>
+              {{#lightbox}}
+                img/pckeyboardhack-gatekeeper.png Gatekeeper.
+              {{/lightbox}}
+            </div>
           </div>
           <div class="col-lg-4">
-            <h2>Step3</h2>
+            <div class="col-show-grid">
+              <h2>Step3</h2>
 
-            <p>
-              {{#language_en}}
-                Installer is launched. Install PCKeyboardHack.
-              {{/language_en}}
-              {{#language_ja}}
-                インストーラが起動しますので、PCKeyboardHackをインストールします。
-              {{/language_ja}}
-            </p>
-            {{#lightbox}}
-              img/pckeyboardhack-installer.png installer
-            {{/lightbox}}
-            <br />
+              <p>
+                {{#language_en}}
+                  Installer is launched. Install PCKeyboardHack.
+                {{/language_en}}
+                {{#language_ja}}
+                  インストーラが起動しますので、PCKeyboardHackをインストールします。
+                {{/language_ja}}
+              </p>
+              {{#lightbox}}
+                img/pckeyboardhack-installer.png installer
+              {{/lightbox}}
+              <br />
+            </div>
           </div>
         </div>
       </section>
@@ -206,10 +212,10 @@
         <h2>Step1</h2>
         <p>
           {{#language_en}}
-            Open Launchpad (or open <i class="icon-pencil"></i>Applications folder from Finder).
+            Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
           {{/language_en}}
           {{#language_ja}}
-            Launchpadを開いてください。（もしくは、「<i class="icon-pencil"></i>アプリケーション」フォルダをFinderで開いてください。）
+            Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
           {{/language_ja}}
         </p>
         <p>
@@ -334,7 +340,7 @@
             {{#language_ja}}
               アンインストールを進めてください。
             {{/language_ja}}
-            <div class="row-fluid">
+            <div class="row">
               <div class="col-lg-3">
                 {{#lightbox}}
                   img/pckeyboardhackuninstaller1.png PCKeyboardHack Uninstaller
@@ -444,7 +450,7 @@
             {{/updated}}
 
             {{#link}}
-              <a class="btn" href="{{link}}">
+              <a class="btn btn-default" href="{{link}}">
                 {{#language_en}}
                   Download
                 {{/language_en}}

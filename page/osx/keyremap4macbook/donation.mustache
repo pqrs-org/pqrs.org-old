@@ -25,6 +25,7 @@
     <h2>PayPal</h2>
 
     <div class="clearfix">
+
       <img class="pull-left" src="/img/PayPal_mark_180x113.gif" width="180" height="113" alt="PayPal" style="margin-right: 20px" />
 
       <div>
@@ -38,7 +39,7 @@
         <input type="hidden" name="currency_code" value="USD"/>
         <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
 
-        <select name="amount">
+        <select name="amount" style="padding: 3px; font-size: 30px; height: 40px">
           <option value="5.00">$5</option>
           <option value="10.00" selected="selected">$10</option>
           <option value="20.00">$20</option>
@@ -48,7 +49,8 @@
           <option value="">Other</option>
         </select>
         <br />
-        <button type="submit" class="btn">
+        <br />
+        <button type="submit" class="btn btn-primary">
           {{#language_en}}
             Open PayPal Payments Form
           {{/language_en}}
