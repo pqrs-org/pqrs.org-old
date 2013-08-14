@@ -138,8 +138,8 @@ class PqrsBase < Mustache
 <a data-toggle="modal" href="##{id}" class="thumbnail">
   <img src="#{src}" alt="#{alt}" />
 </a>
-<div id="#{id}" class="modal fade" tabindex="#{@lightbox_id + 30000}">
-  <div class="modal-dialog clickable" data-dismiss="modal" style="width: #{img.columns + margin}px; margin-left: -#{(img.columns + margin) / 2}px">
+<div class="modal fade" id="#{id}" tabindex="#{@lightbox_id + 30000}">
+  <div class="modal-dialog clickable" data-dismiss="modal" style="width: #{img.columns + margin}px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="#{src}" alt="#{alt}" />
