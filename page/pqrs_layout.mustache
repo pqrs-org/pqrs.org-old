@@ -34,15 +34,19 @@
   <body>
 
     <!-- Docs master nav -->
-    <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
       <div class="container">
-        <a class="navbar-brand" href="/index.html.{{language}}">pqrs.org</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="nav-collapse collapse bs-navbar-collapse">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.{{language}}" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
             {{#navs_left}}
               {{#dropdown}}
@@ -84,9 +88,9 @@
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </div>
+    </header>
 
     {{{body}}}
 
