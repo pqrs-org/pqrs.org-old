@@ -985,16 +985,25 @@
         </ul>
 
         <h2>&lt;url&gt; encode form</h2>
-        <div class="input-prepend input-append">
-          <button class="btn btn-default btn-small" type="button" onclick="$('#encodeURI-input').val('')">clear</button>
-          <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="col-lg-5" value="file:///Applications/Utilities/Activity Monitor.app" />
-          <button class="btn btn-default btn-small" type="button" onclick="$('#encodeURI-output').val(encodeURI($('#encodeURI-input').val()))">
-            encode
-          </button>
+        <div class="row">
+          <div class="col-lg-8">
+            <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="form-control col-lg-8" value="file:///Applications/Utilities/Activity Monitor.app" />
+          </div>
+          <div class="col-lg-4">
+            <button class="btn btn-primary btn-small" type="button" onclick="$('#encodeURI-output').val(encodeURI($('#encodeURI-input').val()))">
+              encode
+            </button>
+            <button class="btn btn-default btn-small" type="button" onclick="$('#encodeURI-input').val('')">clear</button>
+          </div>
         </div>
-        <div class="input-prepend">
-          <span class="add-on">Output</span>
-          <input type="text" id="encodeURI-output" placeholder="Output" class="col-lg-5" />
+        <br />
+        <div class="row">
+          <div class="col-lg-8">
+            <input type="text" id="encodeURI-output" placeholder="Output" class="form-control col-lg-8" />
+          </div>
+          <div class="col-lg-4">
+            <p class="form-control-static">Output</p>
+          </div>
         </div>
 
         <h2>Prepared virtual key code definitions</h2>
