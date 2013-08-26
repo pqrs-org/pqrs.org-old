@@ -563,6 +563,57 @@
         </p>
       </section>
 
+      <section id="shift">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              shift key
+            {{/language_en}}
+            {{#language_ja}}
+              シフトキー
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <h2>
+          {{#language_en}}
+            I dropped something on my keyboard that caused the shift key to be held down permanently due to physical damage.
+            What should I do?
+          {{/language_en}}
+          {{#language_ja}}
+            キーボードに何かをこぼして、シフトキーが押しっぱなしになってしまいました。どうすれば良いですか？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            In this case, OS X will be <a href="http://support.apple.com/kb/ht1455" target="_blank">Safe Mode</a> at boot.<br />
+            You need to boot OS X as normal mode because KeyRemap4MacBook does not work in Safe Mode.<br />
+          {{/language_en}}
+          {{#language_ja}}
+            この場合、OS Xは<a href="http://support.apple.com/kb/ht1455" target="_blank">セーフモード</a>で起動します。<br />
+            KeyRemap4MacBookはセーフモードでは動作しないので、通常モードで起動させる必要があります。
+          {{/language_ja}}
+        </p>
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Hold control key at boot to avoid Safe Mode.
+            {{/language_en}}
+            {{#language_ja}}
+              セーフモードを避けるため、起動時にコントロールキーを押しっぱなしにします。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Then, enable "Disable Shift_L" or "Disable Shift_R" on KeyRemap4MacBook Preferences.
+            {{/language_en}}
+            {{#language_ja}}
+              そうしたら、KeyRemap4MacBookの設定画面から「Disable Shift_L」や「Disable Shift_R」を有効にします。
+            {{/language_ja}}
+          </li>
+        </ol>
+      </section>
+
       <section id="unicode-hex-input">
         <div class="page-header">
           <h1>Unicode hex input</h1>

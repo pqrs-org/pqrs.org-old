@@ -54,6 +54,13 @@ class Faq < Keyremap4macbookBase
        }
      },
      {
+       :href => '#shift',
+       :name_l10n => {
+         :en => 'shift key',
+         :ja => 'シフトキー',
+       }
+     },
+     {
        :href => '#unicode-hex-input',
        :name_l10n => {
          :en => 'unicode hex input',
