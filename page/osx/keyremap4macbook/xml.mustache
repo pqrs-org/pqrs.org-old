@@ -908,24 +908,38 @@
 
       <section id="vkopenurldef">
         <div class="page-header">
-          <h1>Launch app / Open URL</h1>
+          <h1>Launch app / Open URL / Execute shell commands</h1>
+        </div>
+
+        <div class="alert alert-info">
+          Notice: A "type" attribute is available since KeyRemap4MacBook-8.3.29. (beta version)
         </div>
 
         <h2>An example</h2>
         <p>
-          This private.xml opens web site and launches calculator.
+          This private.xml opens web site, launches calculator and executes a shell command "/bin/date | /usr/bin/pbcopy".
         </p>
         {{#indented_xml}}
           |<?xml version="1.0"?>
           |<root>
+          |  <!-- generic URL -->
           |  <vkopenurldef>
           |    <name>KeyCode::VK_OPEN_URL_WEB_keyremap4macbook</name>
           |    <url>https://pqrs.org/macosx/keyremap4macbook/</url>
           |  </vkopenurldef>
           |
+          |  <!-- file path -->
           |  <vkopenurldef>
           |    <name>KeyCode::VK_OPEN_URL_APP_Calculator</name>
-          |    <url>file:///Applications/Calculator.app</url>
+          |    <url type="file">/Applications/Calculator.app</url>
+          |  </vkopenurldef>
+          |
+          |  <!-- shell commands -->
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_SHELL_date_pbcopy</name>
+          |    <url type="shell">
+          |      <![CDATA[    /bin/date | /usr/bin/pbcopy    ]]>
+          |    </url>
           |  </vkopenurldef>
           |
           |  <item>
@@ -945,6 +959,16 @@
           |      __KeyToKey__
           |      KeyCode::C, ModifierFlag::COMMAND_R,
           |      KeyCode::VK_OPEN_URL_APP_Calculator,
+          |    </autogen>
+          |  </item>
+          |
+          |  <item>
+          |    <name>Change right-command + d to execute /bin/date | /usr/bin/pbcopy</name>
+          |    <identifier>private.right_command_d</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::D, ModifierFlag::COMMAND_R,
+          |      KeyCode::VK_OPEN_URL_SHELL_date_pbcopy,
           |    </autogen>
           |  </item>
           |</root>
@@ -967,44 +991,33 @@
             <p>
               <code>&lt;url&gt;</code> is a url of virtual key code.
               <br />
-              If url contains a space character, you need to change space to %20.
+              &lt;url&gt; has a "type" attribute which determines how treat the value.
             </p>
             <table class="table">
               <tbody>
                 <tr>
-                  <th>Correct</th>
-                  <td>&lt;url&gt;file:///Applications/Utilities/Activity%20Monitor.app&lt;/url&gt;</td>
+                  <th>Type attribute</th>
+                  <th>Description</th>
                 </tr>
                 <tr>
-                  <th>Wrong</th>
-                  <td>&lt;url&gt;file:///Applications/Utilities/Activity Monitor.app&lt;/url&gt;</td>
+                  <td>(empty)</td>
+                  <td>If you does not specify a type attribute, it will be treated as a generic URL.</td>
+                </tr>
+                <tr>
+                  <td>type="file"</td>
+                  <td>The value will be treated as file path.</td>
+                </tr>
+                <tr>
+                  <td>type="shell"</td>
+                  <td>The value will be treated as shell commands.</td>
                 </tr>
               </tbody>
             </table>
+            <div class="alert alert-info">
+              Notice: A "type" attribute is available since KeyRemap4MacBook-8.3.29. (beta version)
+            </div>
           </li>
         </ul>
-
-        <h2>&lt;url&gt; encode form</h2>
-        <div class="row">
-          <div class="col-lg-8">
-            <input type="text" id="encodeURI-input" placeholder="file:///Applications/Utilities/Activity Monitor.app" class="form-control col-lg-8" value="file:///Applications/Utilities/Activity Monitor.app" />
-          </div>
-          <div class="col-lg-4">
-            <button class="btn btn-primary btn-small" type="button" onclick="$('#encodeURI-output').val(encodeURI($('#encodeURI-input').val()))">
-              encode
-            </button>
-            <button class="btn btn-default btn-small" type="button" onclick="$('#encodeURI-input').val('')">clear</button>
-          </div>
-        </div>
-        <br />
-        <div class="row">
-          <div class="col-lg-8">
-            <input type="text" id="encodeURI-output" placeholder="Output" class="form-control col-lg-8" />
-          </div>
-          <div class="col-lg-4">
-            <p class="form-control-static">Output</p>
-          </div>
-        </div>
 
         <h2>Prepared virtual key code definitions</h2>
         <p>

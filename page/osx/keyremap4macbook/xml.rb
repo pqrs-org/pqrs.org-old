@@ -53,8 +53,8 @@ class Xml < Keyremap4macbookBase
      {
        :href => '#vkopenurldef',
        :name_l10n => {
-         :en => 'launch app / open url',
-         :ja => 'launch app / open url',
+         :en => 'launch app / open url / execute shell commands',
+         :ja => 'launch app / open url / execute shell commands',
        }
      },
      {
