@@ -1,0 +1,58 @@
+<div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>
+        AXAlert
+        <img src="/img/icon/osx/AXAlert-256.png" alt="AXAlert" width="128" height="128" style="margin-left: 20px" />
+      </h1>
+
+      {{#language_en}}
+        <p>
+          AXAlert shows an alert message when "access for assistive devices" is enabled.
+        </p>
+        <p>
+          "access for assistive devices" provides very useful API and many excellent utilities use it.<br />
+          But that API is too powerful. It allows all apps to steal your keyboard events via such API.
+        </p>
+        <p>
+          AXAlert prevents you from enabling on "access for assistive devices" accidentally.
+        </p>
+      {{/language_en}}
+      {{#language_ja}}
+        <p style="font-size: 14px">
+          AXAlertは「補助装置にアクセスできるようにする」が有効になっているときに警告を表示します。
+        </p>
+        <p style="font-size: 14px">
+          「補助装置にアクセスできるようにする」を有効にすると、便利なAPIが使えるようになり、また多くの優れたユーティリティがそのAPIを使っています。<br />
+          しかし、そのAPIは強力すぎるために、API経由であらゆるアプリがあなたのキー入力を盗むことが出来るようになってしまいます。
+        </p>
+        <p style="font-size: 14px">
+          AXAlertは誤って「補助装置にアクセスできるようにする」を有効にすることからあなたを守ります。
+        </p>
+      {{/language_ja}}
+
+      <p style="margin: 40px 0">
+        {{#strip_html}}
+          <a class="btn btn-primary btn-lg"
+            href="files/AXAlert-1.1.0.dmg">
+            {{#language_en}}
+              Download AXAlert-1.1.0
+            {{/language_en}}
+            {{#language_ja}}
+              AXAlert-1.1.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label label-default">
+              {{#language_en}}
+                For OS X 10.7+
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.7以降で動作します。
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+    </div>
+  </header>
+</div>
