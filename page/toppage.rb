@@ -14,7 +14,7 @@ class Toppage < PqrsBase
             {
               :id => 'os-x',
               :name => 'OS X',
-              :items => [
+              :rows => [
                          {
                            :name => 'KeyRemap4MacBook',
                            :link => '/macosx/keyremap4macbook/index.html.' + @language.to_s,
@@ -42,13 +42,27 @@ EOS
 EOS
                            },
                          },
+
+                         {
+                           :name => 'AXAlert',
+                           :link => '/macosx/AXAlert/index.html.' + @language.to_s,
+                           :icon => '/img/icon/osx/AXAlert-32.png',
+                           :body_l10n => {
+                             :en => <<EOS,
+<p>AXAlert prevents you from accidental key logger possibility.</p>
+EOS
+                             :ja => <<EOS,
+<p>AXAlertは不測なキーロガーの可能性からシステムを守ります。</p>
+EOS
+                           },
+                         },
                         ]
             },
             # ============================================================
             {
               :id => 'thunderbird',
               :name => 'Thunderbird',
-              :items => [
+              :rows => [
                          {
                            :name => 'Disable DragAndDrop',
                            :link => '/thunderbird/extensions/disable_dnd_tb/index.html.' + @language.to_s,
@@ -74,7 +88,7 @@ EOS
             {
               :id => 'web-api',
               :name => 'Web API',
-              :items => [
+              :rows => [
                          {
                            :name => 'ImageLnk',
                            :link => 'http://imagelnk.pqrs.org/',
@@ -94,7 +108,7 @@ EOS
             {
               :id => 'game-boy-advance',
               :name => 'Game Boy Advance',
-              :items => [
+              :rows => [
                          {
                            :name => 'Vulkanon',
                            :link => '/gba/vulkanon/index.html.' + @language.to_s,
@@ -127,7 +141,7 @@ EOS
             {
               :id => 'dreamcast',
               :name => 'Dreamcast',
-              :items => [
+              :rows => [
                          {
                            :name => 'NesterDC',
                            :link => '/dreamcast/software/nesterdc/index.html.' + @language.to_s,
@@ -155,6 +169,10 @@ EOS
                         ]
             },
            ]
+    data.each do |d|
+      d[:rows] = d[:rows].each_slice(2).collect do |items| { :items => items } end
+    end
+
     set_l10n_text(data)
   end
 end

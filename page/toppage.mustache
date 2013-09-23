@@ -4,25 +4,27 @@
       <div class="page-header">
         <h1>{{name}}</h1>
       </div>
-      <div class="row">
-        {{#items}}
-          <div class="col-lg-6">
-            <div class="col-show-grid">
-              <h2 style="white-space: nowrap">
-                {{#strip_html}}
-                  <a href="{{link}}">
-                    {{#icon}}
-                      <img src="{{icon}}" alt="{{name}}" width="40" style="padding-right: 8px;" />
-                    {{/icon}}
-                    {{name}}
-                  </a>
-                {{/strip_html}}
-              </h2>
-              {{{body_l10n}}}
+      {{#rows}}
+        <div class="row">
+          {{#items}}
+            <div class="col-lg-6">
+              <div class="col-show-grid">
+                <h2 style="white-space: nowrap">
+                  {{#strip_html}}
+                    <a href="{{link}}">
+                      {{#icon}}
+                        <img src="{{icon}}" alt="{{name}}" width="40" style="padding-right: 8px;" />
+                      {{/icon}}
+                      {{name}}
+                    </a>
+                  {{/strip_html}}
+                </h2>
+                {{{body_l10n}}}
+              </div>
             </div>
-          </div>
-        {{/items}}
-      </div>
+          {{/items}}
+        </div>
+      {{/rows}}
     </section>
   {{/sections}}
 </div>
