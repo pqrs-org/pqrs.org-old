@@ -153,13 +153,15 @@
             メニューバーから終了してください。
           {{/language_ja}}
         </p>
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/quit.png quit
-            {{/lightbox}}
-          </div>
-        </div>
+
+        <p>
+          <img
+          alt="quit"
+          {{#imgsrc}}
+            img/quit.png
+          {{/imgsrc}}
+          />
+        </p>
       </section>
 
       <section id="uninstall">
