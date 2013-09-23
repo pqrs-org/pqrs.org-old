@@ -20,7 +20,7 @@ class History < Keyremap4macbookBase
     <ul>
       <li>
         @begin and @end have been introduced in private.xml.<br />
-        You can use more than one key at __KeyOverlaidModifier__, __DoublePressModifier__.
+        You can use more than one key to remapped keys with __KeyOverlaidModifier__, __DoublePressModifier__.
       </li>
       <li>Shell commands execution has been supported with KeyCode::VK_OPEN_URL_*.</li>
     </ul>
