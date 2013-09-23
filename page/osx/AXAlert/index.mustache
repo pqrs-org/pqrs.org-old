@@ -34,12 +34,12 @@
       <p style="margin: 40px 0">
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
-            href="files/AXAlert-1.1.0.dmg">
+            href="files/AXAlert-1.2.0.dmg">
             {{#language_en}}
-              Download AXAlert-1.1.0
+              Download AXAlert-1.2.0
             {{/language_en}}
             {{#language_ja}}
-              AXAlert-1.1.0をダウンロード
+              AXAlert-1.2.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label label-default">
@@ -53,6 +53,330 @@
           </a>
         {{/strip_html}}
       </p>
+      <div class="row">
+        <div class="col-lg-4">
+          {{#lightbox}}
+            img/alert.png Alert
+          {{/lightbox}}
+        </div>
+      </div>
     </div>
   </header>
+
+  <div class="row">
+    <div class="col-lg-3">
+      {{> ../../pqrs_tabs }}
+    </div>
+    <div class="col-lg-9">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Installation
+            {{/language_en}}
+            {{#language_ja}}
+              インストール方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+              {{#language_en}}
+                Open a downloaded dmg file.
+              {{/language_en}}
+              {{#language_ja}}
+                ダウンロードしたdmgファイルを開きます。
+              {{/language_ja}}
+            </p>
+            <p>
+              <img
+              alt="dmg"
+              {{#imgsrc}}
+                img/dmg.png
+              {{/imgsrc}}
+              />
+            </p>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Move AXAlert icon into Applications icon.<br />
+                Then, AXAlert will be installed into Applications.
+              {{/language_en}}
+              {{#language_ja}}
+                AXAlertのアイコンをApplicationsに移動してください。<br />
+                すると、AXAlertがApplicationsにインストールされます。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/install.png Install AXAlert
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Open Applications.<br />
+                Then, Control-click or right click AXAlert,
+                select "Open" from the top of contextual menu that appears.
+              {{/language_en}}
+              {{#language_ja}}
+                Applicationsを開いてください。<br />
+                そうしたら、AXAlertを「Controlを押しながらクリック」もしくは「右クリック」して、
+                メニューの一番上の「開く」を選択します。
+              {{/language_ja}}
+            </p>
+            <p>
+              <span class="label label-info">Important</span>
+              {{#language_en}}
+                You must open the pkg file from contextual menu in order to pass through Gatekeeper
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/open.png Open AXAlert
+                {{/lightbox}}
+              </div>
+            </div>
+
+            <p>
+              {{#language_en}}
+                A warning of Gatekeeper will be shown.
+                Click "Open" in the dialog box.
+              {{/language_en}}
+              {{#language_ja}}
+                Gatekeeperの警告が表示されますので、「開く」を選択してください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/gatekeeper.png Gatekeeper.
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Preferences will be opened.<br />
+                Check "Start AXAlert on system startup".
+              {{/language_en}}
+              {{#language_ja}}
+                設定画面が開きますので、「Start AXAlert on system startup」をチェックしてください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/preferences.png Preferences
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+              {{#language_en}}
+                Close Preferences.
+              {{/language_en}}
+              {{#language_ja}}
+                設定画面を閉じてください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/close.png Preferences
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Usage
+            {{/language_en}}
+            {{#language_ja}}
+              使い方
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            AXAlert shows an alert message when "access for assistive devices" is enabled.
+          {{/language_en}}
+          {{#language_ja}}
+            AXAlertは「補助装置にアクセスできるようにする」が有効になっているときに警告を表示します。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/alert.png Alert
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+
+      <section id="quit">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              How to quit
+            {{/language_en}}
+            {{#language_ja}}
+              終了する方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+              {{#language_en}}
+                Open Activity Monitor from Launchpad.
+              {{/language_en}}
+              {{#language_ja}}
+                LaunchpadからActivity Monitorを起動してください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/launchpad-activitymonitor.png Launchpad
+                {{/lightbox}}
+              </div>
+            </div>
+            <p>
+              {{#language_en}}
+                Quit AXAlert processes.
+              {{/language_en}}
+              {{#language_ja}}
+                AXAlertプロセスを終了させてください。
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/activitymonitor.png Activity Monitor
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Uninstall
+            {{/language_en}}
+            {{#language_ja}}
+              アンインストール方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              First, <a href="#quit">quit AXAlert.</a>
+            {{/language_en}}
+            {{#language_ja}}
+              まず、<a href="#quit">AXAlertを終了させてください。</a>
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Open Applications in Finder. Then, delete AXAlert.
+            {{/language_en}}
+            {{#language_ja}}
+              FinderでApplicationsを開いてください。そしてAXAlertを削除してください。
+            {{/language_ja}}
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/finder.png Finder
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="development">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Development
+            {{/language_en}}
+            {{#language_ja}}
+              開発
+            {{/language_ja}}
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/AXAlert" target="_blank">https://github.com/tekezo/AXAlert</a>
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Version History
+            {{/language_en}}
+            {{#language_ja}}
+              更新履歴
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        {{#histories}}
+          <h2>
+            Version {{version}}
+            {{#updated}}
+              <small>
+                {{#format_date}}
+                  {{updated}}
+                {{/format_date}}
+              </small>
+            {{/updated}}
+
+            {{#link}}
+              <a class="btn btn-default btn-small" href="{{link}}">
+                {{#language_en}}
+                  Download
+                {{/language_en}}
+                {{#language_ja}}
+                  ダウンロード
+                {{/language_ja}}
+              </a>
+            {{/link}}
+          </h2>
+          {{{body_l10n}}}
+        {{/histories}}
+      </section>
+    </div>
+  </div>
 </div>
