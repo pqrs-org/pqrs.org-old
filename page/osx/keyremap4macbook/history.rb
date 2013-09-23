@@ -8,6 +8,43 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '8.4.0',
+              :updated => '2013-09-23',
+              :link => 'files/KeyRemap4MacBook-8.4.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>
+        @begin and @end have been introduced in private.xml.<br />
+        You can use more than one key at __KeyOverlaidModifier__, __DoublePressModifier__.
+      </li>
+      <li>Shell commands execution has been supported with KeyCode::VK_OPEN_URL_*.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>アイコンを改善しました。（Kouji TAMURAさんによる）</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>
+        @begin、@end記法が導入されました。<br />
+        __KeyOverlaidModifier__や__DoublePressModifier__で複数のキーに変換することが出来ます。
+      </li>
+      <li>KeyCode::VK_OPEN_URL_*でシェルのコマンドを実行することが出来るようになりました。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '8.3.0',
               :updated => '2013-05-19',
               :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
