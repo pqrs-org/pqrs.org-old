@@ -75,9 +75,9 @@ class Index < PqrsBase
   def histories
     data = [
             {
-              :version => '1.2.0',
-              :updated => '2013-09-19',
-              :link => 'files/AXAlert-1.2.0.dmg',
+              :version => '1.3.0',
+              :updated => '2013-09-24',
+              :link => 'files/AXAlert-1.3.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
