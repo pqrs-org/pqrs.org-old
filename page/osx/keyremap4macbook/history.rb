@@ -16,7 +16,7 @@ class History < Keyremap4macbookBase
 <ul>
   <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
   <li>
-    Updates for people who add new settings by oneself.
+    Updates for people who add new settings by oneself:
     <ul>
       <li>
         @begin and @end have been introduced in private.xml.<br />
@@ -31,7 +31,7 @@ EOS
 <ul>
   <li>アイコンを改善しました。（Kouji TAMURAさんによる）</li>
   <li>
-    自分で設定を追加する人向けの更新点
+    自分で設定を追加する人向けの更新点:
     <ul>
       <li>
         @begin、@end記法が導入されました。<br />
