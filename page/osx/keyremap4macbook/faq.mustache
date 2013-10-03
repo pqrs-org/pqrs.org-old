@@ -703,6 +703,139 @@
             {{/indented_xml}}
           </li>
         </ol>
+
+        <h2 id="unicode-hex-input-modifier">
+          {{#language_en}}
+            Making a key as modifier.
+          {{/language_en}}
+          {{#language_ja}}
+            キーをモディファイアとして使う。
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            If you input many Unicode characters, making a key as modifier might be useful.
+          {{/language_en}}
+          {{#language_ja}}
+            もし、多くの記号を入力するのであれば、キーをモディファイアとして使うのが便利かもしれません。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            In the next step, you will be able to enter unicode characters.
+          {{/language_en}}
+          {{#language_ja}}
+            次の手順で、以下のような入力が出来るようになります。
+          {{/language_ja}}
+        </p>
+        <ul>
+          <li>
+            {{#language_en}}
+              right shift + a = 
+            {{/language_en}}
+            {{#language_ja}}
+              右シフト + a = 
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              right shift + c = ⌘
+            {{/language_en}}
+            {{#language_ja}}
+              右シフト + c = ⌘
+            {{/language_ja}}
+          </li>
+        </ul>
+
+        <p>
+          Steps:
+        </p>
+
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
+            {{/language_en}}
+            {{#language_ja}}
+              システム環境設定の「言語とテキスト」からUnicode Hex Inputを有効にします。
+            {{/language_ja}}
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/unicode-hex-input.png unicode-hex-input
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            {{#language_en}}
+              Use this private.xml.
+            {{/language_en}}
+            {{#language_ja}}
+              以下のprivate.xmlを使用します。
+            {{/language_ja}}
+            (<a href="document.html.{{ language }}#privatexml">
+              {{#language_en}}
+                How to use private.xml.
+              {{/language_en}}
+              {{#language_ja}}
+                private.xmlの使い方
+              {{/language_ja}}
+            </a>)
+
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |
+              |  <item>
+              |    <name>Use right shift as unicode hex input modifier</name>
+              |    <appendix>- right shift + a =  (U+F8FF)</appendix>
+              |    <appendix>- right shift + c = ⌘ (U+2318)</appendix>
+              |    <identifier>private.unicode_hex_input_modifier</identifier>
+              |    <autogen>
+              |      __KeyToKey__
+              |      KeyCode::SHIFT_R,
+              |      KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_private_unicode_hex_input_modifier_flag,
+              |
+              |      Option::KEYTOKEY_BEFORE_KEYDOWN,
+              |      <!-- change input source to Unicode Hex Input -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+              |      <!-- wait until input source will be changed -->
+              |      KeyCode::VK_WAIT_100MS,
+              |
+              |      Option::KEYTOKEY_AFTER_KEYUP,
+              |      <!-- change input source to U.S. -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+              |    </autogen>
+              |
+              |    <block>
+              |      <config_only>notsave.private_unicode_hex_input_modifier_flag</config_only>
+              |      <autogen>
+              |        <!-- right shift + a =  (U+F8FF) -->
+              |        __KeyToKey__
+              |        KeyCode::A,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |      </autogen>
+              |
+              |      <autogen>
+              |        <!-- right shift + c = ⌘ (U+2318) -->
+              |        __KeyToKey__
+              |        KeyCode::C,
+              |        KeyCode::KEY_2, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_3, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_1, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |      </autogen>
+              |    </block>
+              |  </item>
+              |
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
       </section>
     </div>
   </div>
