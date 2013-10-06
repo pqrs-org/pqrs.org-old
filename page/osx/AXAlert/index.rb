@@ -75,6 +75,23 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.4.0',
+              :updated => '2013-10-06',
+              :link => 'files/AXAlert-1.4.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Build with Xcode 5.0.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>Xcode 5.0によるビルド。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.3.0',
               :updated => '2013-09-24',
               :link => 'files/AXAlert-1.3.0.dmg',
