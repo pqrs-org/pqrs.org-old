@@ -75,6 +75,27 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.5.0',
+              :updated => '2013-10-13',
+              :link => 'files/ShowyEdge-1.5.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Added "Use custom frame" configuration.</li>
+  <li>Added "Show icon in Dock" configuration.</li>
+  <li>Fixed minor issues.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定に「Use custom frame」を追加しました。</li>
+  <li>設定に「Show icon in Dock」を追加しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.4.0',
               :updated => '2013-06-16',
               :link => 'files/ShowyEdge-1.4.0.dmg',
