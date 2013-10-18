@@ -75,6 +75,25 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.7.0',
+              :updated => '2013-10-18',
+              :link => 'files/ShowyEdge-1.7.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Added "Indicator opacity" configuration.</li>
+  <li>Signed with Developer ID..</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定に「Indicator opacity」を追加しました。</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.6.0',
               :updated => '2013-10-13',
               :link => 'files/ShowyEdge-1.6.0.dmg',
