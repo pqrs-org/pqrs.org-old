@@ -75,6 +75,23 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.5.0',
+              :updated => '2013-10-18',
+              :link => 'files/AXAlert-1.5.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Signed with Developer ID.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>Developer IDで署名しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.4.0',
               :updated => '2013-10-06',
               :link => 'files/AXAlert-1.4.0.dmg',
