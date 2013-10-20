@@ -61,6 +61,27 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.0.0',
+              :updated => '2013-10-20',
+              :link => 'files/PCKeyboardHack-10.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Supported OS X 10.9.</li>
+  <li>Icons have been updated. (Thanks to Kouji TAMURA.)</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.9に対応しました。</li>
+  <li>アイコンを更新しました。（Kouji TAMURAさんによる）</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '9.0.0',
               :updated => '2013-01-13',
               :link => 'files/PCKeyboardHack-9.0.0.dmg',

@@ -17,6 +17,28 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
+            href="files/PCKeyboardHack-10.0.0.dmg">
+            {{#language_en}}
+              Download PCKeyboardHack-10.0.0
+            {{/language_en}}
+            {{#language_ja}}
+              PCKeyboardHack-10.0.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label label-default">
+              {{#language_en}}
+                For OS X 10.9, 10.8
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.9、10.8用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-default btn-small"
             href="files/PCKeyboardHack-9.0.0.dmg">
             {{#language_en}}
               Download PCKeyboardHack-9.0.0
@@ -27,10 +49,10 @@
             &nbsp;
             <span class="label label-default">
               {{#language_en}}
-                For OS X 10.8, 10.7
+                For OS X 10.7
               {{/language_en}}
               {{#language_ja}}
-                OS X 10.8、10.7用
+                OS X 10.7用
               {{/language_ja}}
             </span>
           </a>
@@ -141,39 +163,20 @@
 
               <p>
                 {{#language_en}}
-                  Control-click or right click the pkg file,
-                  then select "Open" from the top of contextual menu that appears.
+                  Open a pkg file in dmg.
                 {{/language_en}}
                 {{#language_ja}}
-                  pkgファイルを「Controlを押しながらクリック」もしくは「右クリック」して、
-                  メニューの一番上の「開く」を選択します。
+                  dmgの中のpkgファイルを開きます。
                 {{/language_ja}}
               </p>
               <p>
-                <span class="label label-info">Important</span>
-                {{#language_en}}
-                  You must open the pkg file from contextual menu in order to pass through Gatekeeper
-                {{/language_en}}
-                {{#language_ja}}
-                  Gatekeeperを通過するために、メニューからpkgファイルを開く必要があります。
-                {{/language_ja}}
+                <img
+                alt="pkg"
+                {{#imgsrc}}
+                  img/pkg.png
+                {{/imgsrc}}
+                />
               </p>
-              {{#lightbox}}
-                img/pckeyboardhack-pkg.png Open pkg.
-              {{/lightbox}}
-              <br />
-              <p>
-                {{#language_en}}
-                  A warning of Gatekeeper will be shown.
-                  Click "Open" in the dialog box.
-                {{/language_en}}
-                {{#language_ja}}
-                  Gatekeeperの警告が表示されますので、「開く」を選択してください。
-                {{/language_ja}}
-              </p>
-              {{#lightbox}}
-                img/pckeyboardhack-gatekeeper.png Gatekeeper.
-              {{/lightbox}}
             </div>
           </div>
           <div class="col-lg-4">
