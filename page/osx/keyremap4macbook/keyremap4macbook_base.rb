@@ -51,8 +51,8 @@ class Keyremap4macbookBase < PqrsBase
                     {
                       :href => '/macosx/keyremap4macbook/source.html',
                       :name_l10n => {
-                        :en => 'Development',
-                        :ja => '開発',
+                        :en => 'License and Source Code',
+                        :ja => 'ライセンス・ソースコード',
                       },
                     },
                     {
