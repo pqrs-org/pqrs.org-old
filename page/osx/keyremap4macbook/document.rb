@@ -65,6 +65,13 @@ class Document < Keyremap4macbookBase
        }
      },
      {
+       :href => '#implicit',
+       :name_l10n => {
+         :en => 'Implicit behavior',
+         :ja => '暗黙の挙動',
+       }
+     },
+     {
        :name_l10n => {
          :en => 'Misc.',
          :ja => 'その他',

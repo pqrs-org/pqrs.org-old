@@ -456,6 +456,158 @@
         </ol>
       </section>
 
+      <section id="implicit">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Implicit behavior
+            {{/language_en}}
+            {{#language_ja}}
+              暗黙の挙動
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            KeyRemap4MacBook modifies following behavior of keyboard automatically without any configurations:
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBookは全く設定をしない場合でも、以下の変更を行います。
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            Overwrite keyboard repeat rate:
+          {{/language_en}}
+          {{#language_ja}}
+            キーリピート速度を上書きします
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            KeyRemap4MacBook overwrites keyboard repeat rate.<br />
+            <a href="#keyrepeat">Please adjust from Preferences.</a>
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBookはキーリピート速度を上書きします。<br />
+            <a href="#keyrepeat">設定から速度を調整してください。</a>
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            Share state of modifier keys with all connected keyboards:
+          {{/language_en}}
+          {{#language_ja}}
+            接続されている全てのキーボードで修飾キーの状態を共有します
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            When you are using multiple keyboards, modifier keys are shared with all keyboards.<br />
+            For example, pressing "shift key on keyboard1" and "space key on keyboard2" sends shift-space.
+          {{/language_en}}
+          {{#language_ja}}
+            もし複数のキーボードを使っている場合、修飾キーの状態を全てのキーボードで共有します。<br />
+            例えば、キーボード1でシフトキーを押して、キーボード2でスペースキーを押した場合、シフト+スペースが送信されます。
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            Additional fn-key combinations:
+          {{/language_en}}
+          {{#language_ja}}
+            fnキーとの組み合わせを追加します
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            KeyRemap4MacBook adds additional fn-key shortcuts:
+          {{/language_en}}
+          {{#language_ja}}
+            KeyRemap4MacBookはfnキーとの組み合わせのショートカットを追加します。
+          {{/language_ja}}
+        </p>
+
+        <h3>Fn-Arrow keys:</h3>
+        <table class="table table-striped">
+          <colgroup>
+            <col class="col-lg-4">
+            <col class="col-lg-8">
+          </colgroup>
+          <thead>
+            <tr><th>Key combination</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fn-Up Arrow</td><td>PageUp</td></tr>
+            <tr><td>Fn-Down Arrow</td><td>PageDown</td></tr>
+            <tr><td>Fn-Left Arrow</td><td>Home</td></tr>
+            <tr><td>Fn-Right Arrow</td><td>End</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Fn-Return, Fn-Delete:</h3>
+        <table class="table table-striped">
+          <colgroup>
+            <col class="col-lg-4">
+            <col class="col-lg-8">
+          </colgroup>
+          <thead>
+            <tr><th>Key combination</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fn-Return</td><td>Enter</td></tr>
+            <tr><td>Fn-Delete</td><td>Forward Delete</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Keypad numbers:</h3>
+        <table class="table table-striped">
+          <colgroup>
+            <col class="col-lg-4">
+            <col class="col-lg-8">
+          </colgroup>
+          <thead>
+            <tr><th>Key combination</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fn-M</td><td>Keypad 0</td></tr>
+            <tr><td>Fn-J</td><td>Keypad 1</td></tr>
+            <tr><td>Fn-K</td><td>Keypad 2</td></tr>
+            <tr><td>Fn-L</td><td>Keypad 3</td></tr>
+            <tr><td>Fn-U</td><td>Keypad 4</td></tr>
+            <tr><td>Fn-I</td><td>Keypad 5</td></tr>
+            <tr><td>Fn-O</td><td>Keypad 6</td></tr>
+            <tr><td>Fn-7</td><td>Keypad 7</td></tr>
+            <tr><td>Fn-8</td><td>Keypad 8</td></tr>
+            <tr><td>Fn-9</td><td>Keypad 9</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Keypad symbols:</h3>
+        <table class="table table-striped">
+          <colgroup>
+            <col class="col-lg-4">
+            <col class="col-lg-8">
+          </colgroup>
+          <thead>
+            <tr><th>Key combination</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fn-6</td><td>Keypad Clear</td></tr>
+            <tr><td>Fn-/</td><td>Keypad +</td></tr>
+            <tr><td>Fn-;</td><td>Keypad -</td></tr>
+            <tr><td>Fn-P</td><td>Keypad *</td></tr>
+            <tr><td>Fn-0</td><td>Keypad /</td></tr>
+            <tr><td>Fn-Minus</td><td>Keypad =</td></tr>
+            <tr><td>Fn-.</td><td>Keypad .</td></tr>
+          </tbody>
+        </table>
+      </section>
+
       <section id="multitouchextension">
         <div class="page-header">
           <h1>
