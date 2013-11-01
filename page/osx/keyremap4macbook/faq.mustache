@@ -483,6 +483,41 @@
           </div>
         </div>
 
+        <h2 id="fn-logitech">
+          {{#language_en}}
+            "Fn to XXX" doesn't work on Logitech keyboard. What should I do?
+          {{/language_en}}
+          {{#language_ja}}
+            "Fn to XXX"がLogicoolのキーボードで動作しません。どうすれば良いですか？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            It's known that fn key on some Logitech keyboards does not generate key events.<br />
+            (fn key is completely sealed into hardware.)
+          {{/language_en}}
+          {{#language_ja}}
+            いくつかのLogicoolのキーボードのfnキーはキーイベントを発生しません。<br />
+            （fnキーの処理はハードウェア内部で完結しています）
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            Please confirm whether <a href="document.html.{{ language }}#eventviewer">event viewer</a> reacts with pressing fn key.
+          {{/language_en}}
+          {{#language_ja}}
+            <a href="document.html.{{ language }}#eventviewer">イベントビューア</a>でfnキーが反応するかどうか確認してください。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            If fn key events are shown, we can change fn key.<br />
+            But if not, unfortunately, KeyRemap4MacBook cannot change fn key on your Logitech keyboard.
+          {{/language_en}}
+          {{#language_ja}}
+            もしfnキーのイベントが表示された場合fnキーを変更することが出来ますが、そうでない場合は残念ながらKeyRemap4MacBookではあなたのLogicoolキーボードのfnキーを変更することが出来ません。
+          {{/language_ja}}
+        </p>
       </section>
 
       <section id="eject">
