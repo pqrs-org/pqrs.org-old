@@ -61,6 +61,25 @@ class Noejectdelay < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '5.2.0',
+              :updated => '2013-11-10',
+              :link => 'files/NoEjectDelay-5.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Signed kext with Developer ID.</li>
+  <li>Updated installer.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>kextをDeveloper IDで署名しました。</li>
+  <li>インストーラを更新しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '5.0.0',
               :updated => '2013-10-20',
               :link => 'files/NoEjectDelay-5.0.0.dmg',
