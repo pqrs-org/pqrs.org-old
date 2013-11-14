@@ -8,6 +8,53 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '9.0.0',
+              :updated => '2013-11-15',
+              :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Optimized for OS X 10.9. <br />
+    KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
+  <li>Added delay configurations into multi-touch extension.</li>
+  <li>Drop power button support due to limitations of OS X 10.9. <br />
+    You can no longer change the power button on MacBook.</li>
+  <li>Fixed issues:
+    <ul><li>ENV_HOME does not work properly in included xml.</li>
+      <li>New plugged devices will not be recognized on OS X 10.9.</li>
+      <li>KeyRemap4MacBook disables the shut down dialog.</li>
+      <li>Fn key on Leopold FC660M cancels mouse dragging.</li></ul></li>
+  <li>Updated prepared settings:
+    <ul><li>"VIM Emulation" has been updated.</li>
+      <li>Fixed "MarkSet" in Emacs Mode.</li></ul></li>
+  <li>Updated installer.</li>
+  <li>Some minor improvements.</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.9向けに最適化しました。<br />
+    KeyRemap4MacBook 9.0.0はOS X 10.9以降でのみ動作します。</li>
+  <li>multi-touch extensionで設定を切り替えるまでの遅延を設定できるようにしました。</li>
+  <li>OS X 10.9の制限により、電源ボタンの変更機能を削除しました。<br />
+    もうMacBookの電源ボタンを変更することは出来ません。</li>
+  <li>下記のバグを修正しました:
+    <ul><li>private.xmlにおいて、ENV_HOMEが正常に動作しないことがある。</li>
+      <li>OS X 10.9で、新しく接続されたデバイスに設定が反映されない。</li>
+      <li>シャットダウンダイアログが無効になってしまう。</li>
+      <li>Leopold FC660MキーボードのFnキーでマウスドラッグが中断されてしまう。</li></ul></li>
+  <li>既存の設定を更新しました:
+    <ul><li>「VIM Emulation」を更新しました。</li>
+      <li>Emacs Modeの「MarkSet」を修正しました。</li></ul></li>
+  <li>インストーラを更新しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '8.4.0',
               :updated => '2013-09-23',
               :link => 'files/KeyRemap4MacBook-8.4.0.dmg',
