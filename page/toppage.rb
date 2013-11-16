@@ -28,6 +28,20 @@ EOS
 EOS
                            },
                          },
+
+                         {
+                           :name => 'ShowyEdge',
+                           :link => '/macosx/ShowyEdge/index.html.' + @language.to_s,
+                           :icon => '/img/icon/osx/ShowyEdge-32.png',
+                           :body_l10n => {
+                             :en => <<EOS,
+<p>An Indicator of the current input source which has a very high visibility for OS X.</p>
+EOS
+                             :ja => <<EOS,
+<p>非常に高い視認性を持つ、OS X用の現在の入力ソースのインジケータ。</p>
+EOS
+                           },
+                        },
                        ]
             },
             # ============================================================
