@@ -149,10 +149,10 @@
 
           <p>
             {{#language_en}}
-              Open a downloaded dmg file.
+              Open a downloaded dmg file, and then open a pkg file in dmg.
             {{/language_en}}
             {{#language_ja}}
-              ダウンロードしたdmgファイルを開きます。
+              ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
             {{/language_ja}}
           </p>
           <p>
@@ -162,22 +162,6 @@
               img/dmg.png
             {{/imgsrc}}
             />
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="col-show-grid">
-          <h2>Step2</h2>
-
-          <p>
-            {{#language_en}}
-              Open a pkg file in dmg.
-            {{/language_en}}
-            {{#language_ja}}
-              dmgの中のpkgファイルを開きます。
-            {{/language_ja}}
-          </p>
-          <p>
             <img
             alt="pkg"
             {{#imgsrc}}
@@ -189,7 +173,7 @@
       </div>
       <div class="col-lg-4">
         <div class="col-show-grid">
-          <h2>Step3</h2>
+          <h2>Step2</h2>
 
           <p>
             {{#language_en}}
@@ -203,16 +187,34 @@
             img/installer.png installer
           {{/lightbox}}
           <br />
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="col-show-grid">
+          <h2>Step3</h2>
 
           <p>
             {{#language_en}}
-              After restarting OS X, you can enable key remappings from KeyRemap4MacBook Prefs.
+              Launch KeyRemap4MacBook from Launchpad.
               <a href="document.html.en">Learn more.</a>
             {{/language_en}}
             {{#language_ja}}
-              OS Xを再起動したら、KeyRemap4MacBookの設定画面からリマッピングを有効にします。
+              LaunchpadからKeyRemap4MacBookを起動します。
               <a href="document.html.ja">詳しくはこちら。</a>
             {{/language_ja}}
+          </p>
+
+          {{#lightbox}}
+            img/launchpad-full.png Launchpad
+          {{/lightbox}}
+
+          <p>
+            <img
+            alt="launchpad"
+            {{#imgsrc}}
+              img/launchpad.png
+            {{/imgsrc}}
+            />
           </p>
         </div>
       </div>
