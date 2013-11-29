@@ -8,6 +8,43 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '9.2.0',
+              :updated => '2013-11-29',
+              :link => 'files/KeyRemap4MacBook-9.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, KeyRemap4MacBook will show an alert which urges you to restart.
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>System might crash when you disconnected a keyboard.</li>
+    </ul>
+  </li>
+  <li>Updated some prepared settings.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    KeyRemap4MacBookのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
+    もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
+  </li>
+  <li>
+    下記のバグを修正しました:
+    <ul>
+      <li>キーボードを抜いた際にシステムがクラッシュすることがある。</li>
+    </ul>
+  </li>
+  <li>いくつかの既存の設定を更新しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '9.0.0',
               :updated => '2013-11-15',
               :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
