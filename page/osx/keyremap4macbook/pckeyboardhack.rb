@@ -61,6 +61,31 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.3.0',
+              :updated => '2013-12-01',
+              :link => 'files/PCKeyboardHack-10.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    PCKeyboardHack no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, PCKeyboardHack will show an alert which urges you to restart.
+  </li>
+  <li>Added a remappable key: Application Key (Menu Key) on PC keyboard.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    PCKeyboardHackのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
+    もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
+  </li>
+  <li>PCキーボードのApplicationキー（Menuキー）を変更可能なキーに追加しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.2.0',
               :updated => '2013-11-10',
               :link => 'files/PCKeyboardHack-10.2.0.dmg',

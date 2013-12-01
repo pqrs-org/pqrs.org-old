@@ -17,12 +17,12 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
-            href="files/PCKeyboardHack-10.2.0.dmg">
+            href="files/PCKeyboardHack-10.3.0.dmg">
             {{#language_en}}
-              Download PCKeyboardHack-10.2.0
+              Download PCKeyboardHack-10.3.0
             {{/language_en}}
             {{#language_ja}}
-              PCKeyboardHack-10.2.0をダウンロード
+              PCKeyboardHack-10.3.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label label-default">
@@ -141,11 +141,11 @@
 
               <p>
                 {{#language_en}}
-                  Open a downloaded dmg file.
+                  Open a downloaded dmg file, and then open a pkg file in dmg.
                 {{/language_en}}
                 {{#language_ja}}
-                  ダウンロードしたdmgファイルを開きます。
-                {{/language_ja}}
+                  ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
+                 {{/language_ja}}
               </p>
               <p>
                 <img
@@ -163,28 +163,6 @@
 
               <p>
                 {{#language_en}}
-                  Open a pkg file in dmg.
-                {{/language_en}}
-                {{#language_ja}}
-                  dmgの中のpkgファイルを開きます。
-                {{/language_ja}}
-              </p>
-              <p>
-                <img
-                alt="pkg"
-                {{#imgsrc}}
-                  img/pkg.png
-                {{/imgsrc}}
-                />
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="col-show-grid">
-              <h2>Step3</h2>
-
-              <p>
-                {{#language_en}}
                   Installer is launched. Install PCKeyboardHack.
                 {{/language_en}}
                 {{#language_ja}}
@@ -195,6 +173,33 @@
                 img/pckeyboardhack-installer.png installer
               {{/lightbox}}
               <br />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step3</h2>
+
+              <p>
+                {{#language_en}}
+                  Launch PCKeyboardHack from Launchpad.
+                {{/language_en}}
+                {{#language_ja}}
+                  LaunchpadからPCKeyboardHackを起動します。
+                {{/language_ja}}
+              </p>
+
+              {{#lightbox}}
+                img/pkh-launchpad-full.png Launchpad
+              {{/lightbox}}
+
+              <p>
+                <img
+                alt="icon"
+                {{#imgsrc}}
+                  img/pkh-launchpad.png
+                {{/imgsrc}}
+                />
+              </p>
             </div>
           </div>
         </div>
