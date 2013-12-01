@@ -61,6 +61,23 @@ class Noejectdelay < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '5.3.0',
+              :updated => '2013-12-01',
+              :link => 'files/NoEjectDelay-5.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>NoEjectDelay no longer requires system restart at installing or upgrading.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>NoEjectDelayのインストールやアップグレード時にシステムの再起動が不要になりました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '5.2.0',
               :updated => '2013-11-10',
               :link => 'files/NoEjectDelay-5.2.0.dmg',
