@@ -61,9 +61,9 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
-              :version => '10.3.0',
+              :version => '10.4.0',
               :updated => '2013-12-01',
-              :link => 'files/PCKeyboardHack-10.3.0.dmg',
+              :link => 'files/PCKeyboardHack-10.4.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
