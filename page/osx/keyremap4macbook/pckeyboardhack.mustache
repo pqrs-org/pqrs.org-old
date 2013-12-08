@@ -397,10 +397,10 @@
 
         <h2 id="specify-device">
           {{#language_en}}
-            How to change the caps lock key only on external keyboards (retain an internal keyboard)?
+            How to change the caps lock key only on specified keyboards (retain an internal keyboard)?
           {{/language_en}}
           {{#language_ja}}
-            caps lockを外付けキーボードでのみ変更するには？
+            caps lockを特定のキーボードでのみ変更するには？
           {{/language_ja}}
         </h2>
 
@@ -488,7 +488,7 @@
           |  </devicevendordef>
           |
           |  <deviceproductdef>
-          |    <productname>My_External_Keyboard_ProductID</productname>
+          |    <productname>My_Target_Keyboard_ProductID</productname>
           |    <!-- *** Replace this value with yours. *** -->
           |    <productid>0x0245</productid>
           |  </deviceproductdef>
@@ -501,7 +501,7 @@
           |      <!-- change f19 key to delete key -->
           |      <device_only>
           |        DeviceVendor::My_Keyboard_VendorID,
-          |        DeviceProduct::My_External_Keyboard_ProductID
+          |        DeviceProduct::My_Target_Keyboard_ProductID
           |      </device_only>
           |      <autogen>__KeyToKey__ KeyCode::F19, KeyCode::DELETE</autogen>
           |    </block>
