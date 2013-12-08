@@ -145,7 +145,7 @@
                 {{/language_en}}
                 {{#language_ja}}
                   ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
-                 {{/language_ja}}
+                {{/language_ja}}
               </p>
               <p>
                 <img
@@ -395,7 +395,127 @@
           </h1>
         </div>
 
-        <h2>
+        <h2 id="specify-device">
+          {{#language_en}}
+            How to change the caps lock key only on external keyboards (retain an internal keyboard)?
+          {{/language_en}}
+          {{#language_ja}}
+            caps lockを外付けキーボードでのみ有効にするには？
+          {{/language_ja}}
+        </h2>
+
+        <p>
+          {{#language_en}}
+            PCKeyboardHack changes key behavior on all keyboards. <br />
+            So, you cannot specify enabled devices on PCKeyboardHack.
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHackは全てのキーボードの挙動を変更します。<br />
+            そのため、PCKeyboardHackではデバイスを指定することは出来ません。
+          {{/language_ja}}
+        </p>
+        <p>
+          {{#language_en}}
+            But you can change keys only on specified devices by using KeyRemap4MacBook and PCKeyboardHack together. <br />
+            First, change the caps lock key to f19 key on PCKeyboardHack, and then change f19 key on KeyRemap4MacBook.
+          {{/language_en}}
+          {{#language_ja}}
+            しかし、KeyRemap4MacBookとPCKeyboardHackを使うことによって特定のデバイスでのみキーを変更することが可能です。<br />
+            まず、PCKeyboardHackでcaps lockをf19キーに変更して、f19キーをKeyRemap4MacBookで変更します。
+          {{/language_ja}}
+        </p>
+
+        <p>
+          {{#language_en}}
+            Steps:
+          {{/language_en}}
+          {{#language_ja}}
+            手順:
+          {{/language_ja}}
+        </p>
+
+        <ol class="steps">
+          <li>
+            <p>
+              {{#language_en}}
+                Change key code of the caps lock key to "80" on PCKeyboardHack. <br />
+                (Do not forget <a href="#usage">"No Action" configuration.</a>)
+              {{/language_en}}
+              {{#language_ja}}
+                PCKeyboardHackでcaps lockキーのキーコードを「80」に変更します。<br />
+                （<a href="#usage">システム環境設定から「アクションなし」に変更する</a>ことを忘れないでください。）
+              {{/language_ja}}
+            </p>
+            <p>
+              {{#language_en}}
+                Then the caps lock key works as f19 key.
+              {{/language_en}}
+              {{#language_ja}}
+                そうするとcaps lockキーはf19キーとして動作します。
+              {{/language_ja}}
+            </p>
+          </li>
+          <li>
+            <p>
+              {{#language_en}}
+                Change f19 key on KeyRemap4MacBook with <a href="xml.html.{{ language }}#devicedef">&lt;device_only&gt; tag.</a>
+              {{/language_en}}
+              {{#language_ja}}
+                f19キーを<a href="xml.html.{{ language }}#devicedef">&lt;device_only&gt;タグ</a>を使ってKeyRemap4MacBookで変更します。<br />
+              {{/language_ja}}
+            </p>
+            <p>
+              {{#language_en}}
+                Please use the following private.xml with replacing &lt;vendorid&gt; and &lt;productid&gt;.<br />
+                (<a href="document.html.{{language}}#privatexml">How to use private.xml.</a>)
+              {{/language_en}}
+              {{#language_ja}}
+                以下のprivate.xmlの&lt;vendorid&gt;と&lt;productid&gt;を変更して使ってください。<br />
+                （<a href="document.html.{{language}}#privatexml">private.xmlの使い方</a>）
+              {{/language_ja}}
+            </p>
+          </li>
+        </ol>
+
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <devicevendordef>
+          |    <vendorname>My_Keyboard_VendorID</vendorname>
+          |    <!-- *** Replace this value with yours. *** -->
+          |    <vendorid>0x05ac</vendorid>
+          |  </devicevendordef>
+          |
+          |  <deviceproductdef>
+          |    <productname>My_External_Keyboard_ProductID</productname>
+          |    <!-- *** Replace this value with yours. *** -->
+          |    <productid>0x0245</productid>
+          |  </deviceproductdef>
+          |
+          |  <item>
+          |    <name>Change f19 key to delete key</name>
+          |    <appendix>(Change f19 key to caps lock key on internal keyboard.)</appendix>
+          |    <identifier>private.f19_hack</identifier>
+          |    <block>
+          |      <!-- change f19 key to delete key -->
+          |      <device_only>
+          |        DeviceVendor::My_Keyboard_VendorID,
+          |        DeviceProduct::My_External_Keyboard_ProductID
+          |      </device_only>
+          |      <autogen>__KeyToKey__ KeyCode::F19, KeyCode::DELETE</autogen>
+          |    </block>
+          |    <block>
+          |      <!-- change f19 key to caps lock key on other devices -->
+          |      <autogen>__KeyToKey__ KeyCode::F19, KeyCode::CAPSLOCK</autogen>
+          |    </block>
+          |  </item>
+          |
+          |</root>
+        {{/indented_xml}}
+
+
+        <h2 id="beta-os-x">
           {{#language_en}}
             PCKeyboardHack does not work on developer-only beta of OS X. Why?
           {{/language_en}}

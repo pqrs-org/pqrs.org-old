@@ -9,6 +9,10 @@ class Pckeyboardhack < Keyremap4macbookBase
     '/macosx/keyremap4macbook/pckeyboardhack.html'
   end
 
+  def enable_prettify
+    true
+  end
+
   def title
     case @language
     when :en
