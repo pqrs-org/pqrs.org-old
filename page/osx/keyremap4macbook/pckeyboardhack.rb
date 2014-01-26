@@ -65,6 +65,33 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.5.0',
+              :updated => '2014-01-26',
+              :link => 'files/PCKeyboardHack-10.5.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記のバグを修正しました:
+    <ul>
+      <li>自動ログインを有効にしていると、特定のマシンで「Kernel extension is not loaded」というアラートが出る場合があります。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.4.0',
               :updated => '2013-12-01',
               :link => 'files/PCKeyboardHack-10.4.0.dmg',
