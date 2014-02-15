@@ -254,7 +254,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
+  <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
@@ -273,9 +273,9 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug that object selection is disabled on Adobe Fireworks.</li>
-  <li>Fixed a bug that "General &gt; Don't remap XXX" does not take effect immediately.</li>
-  <li>Fixed a bug that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
+  <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
+  <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
+  <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
 </ul>
 EOS
                 :ja => <<EOS,
@@ -394,8 +394,8 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
-  <li>Fixed a bug that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
+  <li>Fixed an issue that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
+  <li>Fixed an issue that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
@@ -415,7 +415,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
+  <li>Fixed an issue introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
 </ul>
 EOS
                 :ja => <<EOS,
@@ -634,8 +634,8 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug that Growl notification did not work in specific environment.</li>
-  <li>Fixed a bug that the default setting of checkForUpdate was "Nothing".</li>
+  <li>Fixed an issue that Growl notification did not work in specific environment.</li>
+  <li>Fixed an issue that the default setting of checkForUpdate was "Nothing".</li>
   <li>Improved multi-touch extension around sleep/wakeup.</li>
   <li>Increased prepared settings.</li>
 </ul>
@@ -672,7 +672,7 @@ EOS
     <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html" target="_blank">ThumbSense</a> is one of the function which this application supplies.<br />
     See <a href="document.html.en#multitouchextension">Multi-touch extension</a> for more details.
   </li>
-  <li>Fixed some bugs.</li>
+  <li>Fixed some issues.</li>
   <li>Increased prepared settings.</li>
   <li>Updates for people adding new setting by oneself
     <ul>
@@ -811,7 +811,7 @@ EOS
   </li>
   <li>Added "Pass Through Mode". You can cancel all settings temporarily.</li>
   <li>Added "Sticky Modifiers".</li>
-  <li>Fixed minor bugs.</li>
+  <li>Fixed minor issues.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
@@ -884,7 +884,7 @@ EOS
   <li>Added "Complete Vi Mode" that you can move the cursor only in "hjkl" without pushing the command key or any modifier keys.</li>
   <li>Added KeyCode::VK_CHANGE_INPUTMODE_FRENCH, and keys for the other languages. It is a virtual key to change the Input Source directly.</li>
   <li>Increased prepared settings.</li>
-  <li>Fixed some bugs.</li>
+  <li>Fixed some issues.</li>
 </ul>
 EOS
                 :ja => <<EOS,
@@ -933,7 +933,7 @@ EOS
   <li>Improved the movement of the re-mapping.</li>
   <li>Improved the judgement method of the internal/external keyboard.</li>
   <li>Increased prepared settings.</li>
-  <li>Fixed some bugs.</li>
+  <li>Fixed some issues.</li>
 </ul>
 EOS
                 :ja => <<EOS,
@@ -956,7 +956,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed the bug that the server process crashes in English environment.</li>
+  <li>Fixed the issue that the server process crashes in English environment.</li>
 </ul>
 EOS
                 :ja => <<EOS,
@@ -997,7 +997,7 @@ EOS
 <ul>
   <li>Stable release for Snow Leopard.</li>
   <li>Fixed the third vendor's keyboard/mouse handling.</li>
-  <li>Fixed the bug that the fn key doesn't work when "Don't Remap the Internal/External Keyboard" is activated.</li>
+  <li>Fixed the issue that the fn key doesn't work when "Don't Remap the Internal/External Keyboard" is activated.</li>
   <li>Improved behavior of key-repeating (continuing even if mouse button is clicked.)</li>
   <li>Improved the compatibility with Spaces.</li>
   <li>Fixed the uninstaller.</li>
@@ -1032,7 +1032,7 @@ EOS
 <ul>
   <li>Fixed the kernel panic after returning from hibernation.</li>
   <li>Fixed the kernel panic when all keyboard are detached on iMac.</li>
-  <li>Fixed the bug which "SettingList" didn't work on some environment.</li>
+  <li>Fixed the issue which "SettingList" didn't work on some environment.</li>
   <li>Added uninstaller.</li>
   <li>Increased prepared settings.</li>
 </ul>
@@ -1080,7 +1080,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed a bug which disable any remappings when you logged out.</li>
+  <li>Fixed an issue which disable any remappings when you logged out.</li>
   <li>Added the feature to enable remapping for only inside keyboard or an outside keyboard.</li>
   <li>Supported PointingDevice remappings (Key to Mouseclick, Fn+CursorMove to ScrollWheel).</li>
   <li>Changed a place to install. (/Library/org.pqrs/KeyRemap4MacBook)</li>
@@ -1107,8 +1107,8 @@ EOS
 <ul>
   <li>Added an existence check of DoubleCommand to installer. If DoubleCommand has already installed, the installation will be aborted.</li>
   <li>Support PowerBook G4 &amp; iBook.</li>
-  <li>Fixed the key repeat bug on VMware + emacsmode.</li>
-  <li>Fixed a minor PreferencePane bug.</li>
+  <li>Fixed the key repeat issue on VMware + emacsmode.</li>
+  <li>Fixed a minor PreferencePane issue.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
@@ -1134,7 +1134,7 @@ EOS
                 :en => <<EOS,
 <ul>
   <li>Correct the key repeat behavior.</li>
-  <li>Fixed a minor PreferencePane bug.</li>
+  <li>Fixed a minor PreferencePane issue.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
@@ -1178,7 +1178,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed the bug around arrow keys and delete key when remap.fn2* is enable.</li>
+  <li>Fixed the issue around arrow keys and delete key when remap.fn2* is enable.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
@@ -1196,7 +1196,7 @@ EOS
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Fixed the bug around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
+  <li>Fixed the issue around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
   <li>Support PowerBook enter key.</li>
   <li>Increased prepared settings.</li>
 </ul>
