@@ -8,6 +8,125 @@ class History < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '9.3.0',
+              :updated => '2014-02-15',
+              :link => 'files/KeyRemap4MacBook-9.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        These manipulators have been integrated into __KeyToKey__. <br />
+        You can change KeyCode, ConsumerKeyCode and PointingButton by __KeyToKey__.
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        You can use KeyCode, ConsumerKeyCode and PointingButton in these manipulators:
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>Improved KeyCode::VK_CONFIG_* behavior in the edge case.</li>
+      <li>
+        You can change the delay and speed of keyboard repeat per autogen. <br />
+        For example, this autogen changes control-p to up arrow with:
+        <ul>
+          <li>delay until repeat: 100ms</li>
+          <li>key repeat: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記のバグを修正しました:
+    <ul>
+      <li>自動ログインを有効にしていると、特定のマシンで「Kernel extension is not loaded」というアラートが出る場合があります。</li>
+    </ul>
+  </li>
+  <li>いくつかの既存の設定を更新しました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点
+    <ul>
+      <li>
+        以下の命令は__KeyToKey__に統合されました。<br />
+        __KeyToKey__にてKeyCodeやConsumerKeyCode、PointingButtonを変更できます。
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        以下の命令でKeyCodeやConsumerKeyCode、PointingButtonを使えるようになりました。
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>特殊なケースでのKeyCode::VK_CONFIG_*の挙動を改善しました。</li>
+      <li>
+        autogenごとにキーリピートの速度の設定が出来るようになりました。<br />
+        例えば、以下のautogenではキーリピートの速度を変更しつつ、control-pをカーソルキー（上）に変更します。<br />
+        <ul>
+          <li>キーリピートまでの時間: 100ms</li>
+          <li>キーリピートの速度: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '9.2.0',
               :updated => '2013-11-29',
               :link => 'files/KeyRemap4MacBook-9.2.0.dmg',
