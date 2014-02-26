@@ -14,6 +14,39 @@
         {{/language_ja}}
       </ul>
 
+      <div class="alert alert-danger">
+        NEWS:
+        <small>
+          {{#format_date}}
+            2014-02-26
+          {{/format_date}}
+        </small>
+        <br />
+        {{#language_en}}
+          NoEjectDelay-5.3.0 causes kernel panic since OS X 10.9.2.<br />
+          I'm trying to fix this problem. <br />
+          Please uninstall NoEjectDelay until the problem is solved.<br />
+        {{/language_en}}
+        {{#language_ja}}
+          NoEjectDelay-5.3.0はOS X 10.9.2にてカーネルパニックを引き起こします。<br />
+          この問題について対応中です。<br />
+          問題が解決するまでNoEjectDelayをアンインストールしてください。<br />
+        {{/language_ja}}
+        <br />
+
+        {{#strip_html}}
+          <a class="btn btn-default btn-small"
+            href="files/NoEjectDelayUninstaller.dmg">
+            {{#language_en}}
+              Download NoEjectDelay Uninstaller
+            {{/language_en}}
+            {{#language_ja}}
+              NoEjectDelayアンインストーラをダウンロード
+            {{/language_ja}}
+          </a>
+        {{/strip_html}}
+      </div>
+
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
