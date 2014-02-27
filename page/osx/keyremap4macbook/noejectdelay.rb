@@ -61,6 +61,33 @@ class Noejectdelay < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '5.4.0',
+              :updated => '2014-02-27',
+              :link => 'files/NoEjectDelay-5.4.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>NoEjectDelay causes kernel panic on OS X 10.9.2.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>OS X 10.9.2でカーネルパニックを引き起こします。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '5.3.0',
               :updated => '2013-12-01',
               :link => 'files/NoEjectDelay-5.3.0.dmg',
