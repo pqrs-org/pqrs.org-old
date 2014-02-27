@@ -243,6 +243,128 @@
         </p>
       </section>
 
+      <section id="show-version">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              How to know the installed version
+            {{/language_en}}
+            {{#language_ja}}
+              インストール済みのバージョンを知る方法
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            There are two ways.
+          {{/language_en}}
+          {{#language_ja}}
+            以下の2通りの方法があります。
+          {{/language_ja}}
+        </p>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              {{#language_en}}
+                Using Terminal
+              {{/language_en}}
+              {{#language_ja}}
+                ターミナルを使う
+              {{/language_ja}}
+            </h3>
+          </div>
+          <div class="panel-body">
+            <p>
+              {{#language_en}}
+                Run the following command in Terminal.
+              {{/language_en}}
+              {{#language_ja}}
+                以下のコマンドをターミナルで実行してください。
+              {{/language_ja}}
+            </p>
+
+            <pre>{{#strip_indented_lines}}
+              |$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
+              |org.pqrs.driver.NoEjectDelay (5.4.0)
+              |org.pqrs.driver.PCKeyboardHack (10.5.0)
+              |org.pqrs.driver.KeyRemap4MacBook (9.3.7)
+            {{/strip_indented_lines}}</pre>
+
+            <p>
+              {{#language_en}}
+                The number (5.4.0) is the installed version.
+              {{/language_en}}
+              {{#language_ja}}
+                数字（5.4.0）がインストール済みのバージョンです。
+              {{/language_ja}}
+            </p>
+          </div>
+        </div>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              {{#language_en}}
+                Using app
+              {{/language_en}}
+              {{#language_ja}}
+                アプリケーションを使う
+              {{/language_ja}}
+            </h3>
+          </div>
+          <div class="panel-body">
+            <p>
+              {{#language_en}}
+                Download ShowInstalledAppsVersion.app and run it.
+              {{/language_en}}
+              {{#language_ja}}
+                ShowInstalledAppsVersion.appをダウンロードして実行してください。
+              {{/language_ja}}
+            </p>
+
+            <p>
+              {{#strip_html}}
+                <a class="btn btn-primary btn-small"
+                  href="files/ShowInstalledAppsVersion.dmg">
+                  {{#language_en}}
+                    Download ShowInstalledAppsVersion.app
+                  {{/language_en}}
+                  {{#language_ja}}
+                    ShowInstalledAppsVersion.appをダウンロード
+                  {{/language_ja}}
+                </a>
+              {{/strip_html}}
+            </p>
+
+            <p>
+              {{#language_en}}
+                TextEdit will be opened with the following text.
+              {{/language_en}}
+              {{#language_ja}}
+                以下のテキストでテキストエディットが開きます。
+              {{/language_ja}}
+            </p>
+
+            <pre>{{#strip_indented_lines}}
+              |org.pqrs.driver.NoEjectDelay (5.4.0)
+              |org.pqrs.driver.PCKeyboardHack (10.5.0)
+              |org.pqrs.driver.KeyRemap4MacBook (9.3.7)
+            {{/strip_indented_lines}}</pre>
+
+            <p>
+              {{#language_en}}
+                The number (5.4.0) is the installed version.
+              {{/language_en}}
+              {{#language_ja}}
+                数字（5.4.0）がインストール済みのバージョンです。
+              {{/language_ja}}
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="uninstall">
         <div class="page-header">
           <h1>

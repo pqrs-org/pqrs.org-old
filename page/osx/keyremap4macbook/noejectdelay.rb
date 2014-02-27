@@ -35,6 +35,13 @@ class Noejectdelay < Keyremap4macbookBase
        }
      },
      {
+       :href => '#show-version',
+       :name_l10n => {
+         :en => 'How to know the installed version',
+         :ja => 'インストール済みのバージョンを知る方法',
+       }
+     },
+     {
        :href => '#uninstall',
        :name_l10n => {
          :en => 'Uninstall',
