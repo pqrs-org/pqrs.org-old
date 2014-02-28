@@ -557,6 +557,112 @@
         </p>
       </section>
 
+      <section id="commandlineinterface">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Command line interface
+            {{/language_en}}
+            {{#language_ja}}
+              コマンドラインインターフェース
+            {{/language_ja}}
+          </h1>
+        </div>
+        <p>
+          {{#language_en}}
+            PCKeyboardHack provides a command line interface. (PCKeyboardHack_cli command)
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHackはコマンドラインインターフェースを提供しています。(PCKeyboardHack_cliコマンド)
+          {{/language_ja}}
+        </p>
+        <ul>
+          <li>
+            {{#language_en}}
+              You can change settings.
+            {{/language_en}}
+            {{#language_ja}}
+              設定を変更できます。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              You can export configuration.
+            {{/language_en}}
+            {{#language_ja}}
+              設定のエクスポートが出来ます。
+            {{/language_ja}}
+          </li>
+        </ul>
+
+        <h2>
+          {{#language_en}}
+            How to show help
+          {{/language_en}}
+          {{#language_ja}}
+            使い方の表示方法
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Execute PCKeyboardHack_cli with no argument.
+          {{/language_en}}
+          {{#language_ja}}
+            PCKeyboardHack_cliを引数なしで実行します。
+          {{/language_ja}}
+        </p>
+        <pre>{{#strip_indented_lines}}
+          |$ /Applications/PCKeyboardHack.app/Contents/Library/bin/PCKeyboardHack_cli
+          |Usage:
+          |  PCKeyboardHack_cli export
+          |  PCKeyboardHack_cli relaunch
+          |  PCKeyboardHack_cli set IDENTIFIER VALUE
+          |
+          |Example:
+          |  PCKeyboardHack_cli export
+          |  PCKeyboardHack_cli relaunch
+          |  PCKeyboardHack_cli set keycode_capslock 80
+        {{/strip_indented_lines}}</pre>
+
+        <h2 id="export">
+          {{#language_en}}
+            About "export" option
+          {{/language_en}}
+          {{#language_ja}}
+            exportオプションについて
+          {{/language_ja}}
+        </h2>
+        <ol>
+          <li>
+            {{#language_en}}
+              Export configuration by "export" option.
+              <br />
+              The output is a shell script.
+            {{/language_en}}
+            {{#language_ja}}
+              exportオプションで設定のエクスポートを行います。
+              <br />
+              出力は、シェルスクリプトです。
+            {{/language_ja}}
+            <pre>{{#strip_indented_lines}}
+              |$ /Applications/PCKeyboardHack.app/Contents/Library/bin/PCKeyboardHack_cli export > ~/Desktop/pckeyboardhack-import.sh
+            {{/strip_indented_lines}}</pre>
+          </li>
+          <li>
+            {{#language_en}}
+              You can import it from Terminal.
+            {{/language_en}}
+            {{#language_ja}}
+              ターミナルからインポートを行うことができます。
+            {{/language_ja}}
+            <pre>{{#strip_indented_lines}}
+              |$ sh ~/Desktop/pckeyboardhack-import.sh
+              |...........................................
+            {{/strip_indented_lines}}</pre>
+          </li>
+        </ol>
+      </section>
+
       <section id="history">
         <div class="page-header">
           <h1>

@@ -53,6 +53,13 @@ class Pckeyboardhack < Keyremap4macbookBase
        }
      },
      {
+       :href => '#commandlineinterface',
+       :name_l10n => {
+         :en => 'Command line interface',
+         :ja => 'コマンドラインインターフェース',
+       }
+     },
+     {
        :href => '#history',
        :name_l10n => {
          :en => 'Version History',
