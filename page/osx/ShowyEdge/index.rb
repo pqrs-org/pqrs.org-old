@@ -81,7 +81,7 @@ class Index < PqrsBase
               :body_l10n => {
                 :en => <<EOS,
 <ul>
-  <li>Multi displays has been supported.</li>
+  <li>Multiple displays have been supported.</li>
 </ul>
 EOS
                 :ja => <<EOS,
