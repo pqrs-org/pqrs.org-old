@@ -75,6 +75,23 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '1.8.0',
+              :updated => '2014-03-13',
+              :link => 'files/ShowyEdge-1.8.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Multi displays has been supported.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>マルチディスプレイをサポートしました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.7.0',
               :updated => '2013-10-18',
               :link => 'files/ShowyEdge-1.7.0.dmg',
