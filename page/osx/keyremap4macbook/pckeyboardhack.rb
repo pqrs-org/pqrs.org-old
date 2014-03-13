@@ -72,6 +72,23 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.6.0',
+              :updated => '2014-03-14',
+              :link => 'files/PCKeyboardHack-10.6.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>A command line interface (PCKeyboardHack_cli) has been added.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>コマンドラインインターフェイス（PCKeyboardHack_cli）を追加しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.5.0',
               :updated => '2014-01-26',
               :link => 'files/PCKeyboardHack-10.5.0.dmg',
