@@ -1149,8 +1149,8 @@
             {{/language_ja}}
 
             <pre>{{#strip_indented_lines}}
-              |Aug 18 03:09:45 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80000000, key   55, kbdType  43, repeat = 0
-              |Aug 18 03:09:45 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [sending]: eventType 11, flags 0x00040001, key   40, kbdType  43, repeat = 0
+              |Mar 21 22:19:52 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
+              |Mar 21 22:19:52 rapeseed kernel[0]: KeyRemap4MacBook --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
             {{/strip_indented_lines}}</pre>
           </li>
 
@@ -1178,6 +1178,37 @@
           </li>
         </ol>
       </section>
+
+      <h2>
+        {{#language_en}}
+          Usage of the debug mode results
+        {{/language_en}}
+        {{#language_ja}}
+          デバッグモードの結果を利用する
+        {{/language_ja}}
+      </h2>
+      <p>
+        {{#language_en}}
+          You can convert a raw key code (for example, "key 0x0037") to "KeyCode::COMMAND_L" by using KeyCode.data.
+        {{/language_en}}
+        {{#language_ja}}
+          KeyCode.dataを使って、「key 0x0037」などの生のキーコードを「KeyCode::COMMAND_L」の形式に変更できます。
+        {{/language_ja}}
+      </p>
+      <ul>
+        <li>
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.3.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.3.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.3.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.3.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+        </li>
+      </ul>
     </div>
     <div class="col-md-3">
       {{> ../../pqrs_tabs }}
