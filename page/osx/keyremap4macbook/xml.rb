@@ -81,8 +81,8 @@ class Xml < Keyremap4macbookBase
      {
        :href => '#modifier',
        :name_l10n => {
-         :en => 'new modifier definition',
-         :ja => 'new modifier definition',
+         :en => 'new virtual modifier definition',
+         :ja => 'new virtual modifier definition',
        }
      },
      {
