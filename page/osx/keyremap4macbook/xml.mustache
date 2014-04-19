@@ -1264,6 +1264,118 @@
         {{/indented_xml}}
       </section>
 
+      <section id="modifier">
+        <div class="page-header">
+          <h1>New modifier definition</h1>
+        </div>
+
+        <div class="alert alert-warning">
+          Note: &lt;modifierdef&gt; is available since v9.3.60 (beta version).<br />
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can define new modifier by <code>&lt;modifierdef&gt;</code>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <modifierdef>MY_HYPER</modifierdef>
+          |  <modifierdef>MY_SUPER</modifierdef>
+          |
+          |  <item>
+          |    <name>My hyper and super key</name>
+          |    <appendix>* Change the right shift key to my hyper key.</appendix>
+          |    <appendix>* Change the right option key to my super key.</appendix>
+          |    <appendix></appendix>
+          |    <appendix>* Change hyper+a,s to 1,2.</appendix>
+          |    <appendix>* Change super+a,s to brightness controls.</appendix>
+          |    <identifier>private.hyper_super</identifier>
+          |
+          |    <!-- Change the right shift key to my hyper key. -->
+          |    <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::VK_MODIFIER_MY_HYPER</autogen>
+          |    <!-- Change the right option key to my super key. -->
+          |    <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::VK_MODIFIER_MY_SUPER</autogen>
+          |
+          |    <!-- hyper key settings -->
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::A, ModifierFlag::MY_HYPER,
+          |      KeyCode::KEY_1,
+          |    </autogen>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::S, ModifierFlag::MY_HYPER,
+          |      KeyCode::KEY_2,
+          |    </autogen>
+          |
+          |    <!-- super key settings -->
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::A, ModifierFlag::MY_SUPER,
+          |      ConsumerKeyCode::BRIGHTNESS_DOWN,
+          |    </autogen>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::S, ModifierFlag::MY_SUPER,
+          |      ConsumerKeyCode::BRIGHTNESS_UP,
+          |    </autogen>
+          |
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2>Added KeyCode and ModifierFlag by &lt;modifierdef&gt;</h2>
+        <p>
+          &lt;modifierdef&gt; adds some KeyCode and ModifierFlag.<br />
+          For generic usage, ModifierFlag::MY_HYPER and KeyCode::VK_MODIFIER_MY_SUPER are important.<br />
+          (Replace MY_HYPER with your own modifier's name.)
+        </p>
+        <p>
+          These are full KeyCode and ModifierFlag that added by &lt;modifierdef&gt;MY_HYPER&lt;/modifierdef&gt;:
+        </p>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>KeyCode or ModifierFlag</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>ModifierFlag::MY_HYPER</td>
+              <td>ModifierFlag for new modifier.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_MODIFIER_MY_HYPER</td>
+              <td>KeyCode for new modifier.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_LOCK_MY_HYPER</td>
+              <td>KeyCode to toggle new modifier lock.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_LOCK_MY_HYPER_FORCE_ON</td>
+              <td>KeyCode to turn new modifier lock on.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_LOCK_MY_HYPER_FORCE_OFF</td>
+              <td>KeyCode to turn new modifier lock off.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_STICKY_MY_HYPER</td>
+              <td>KeyCode to toggle new modifier sticky state.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_STICKY_MY_HYPER_FORCE_ON</td>
+              <td>KeyCode to turn new modifier sticky state on.</td>
+            </tr>
+            <tr>
+              <td>KeyCode::VK_STICKY_MY_HYPER_FORCE_OFF</td>
+              <td>KeyCode to turn new modifier sticky state off.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
       <section id="prepared">
         <div class="page-header">
           <h1>How to modify prepared settings</h1>

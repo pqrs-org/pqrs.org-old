@@ -79,6 +79,13 @@ class Xml < Keyremap4macbookBase
        }
      },
      {
+       :href => '#modifier',
+       :name_l10n => {
+         :en => 'new modifier definition',
+         :ja => 'new modifier definition',
+       }
+     },
+     {
        :href => '#prepared',
        :name_l10n => {
          :en => 'modify prepared settings',
