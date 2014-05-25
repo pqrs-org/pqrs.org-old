@@ -518,6 +518,124 @@
         {{/indented_xml}}
       </section>
 
+      <section id="windownamedef">
+        <div class="page-header">
+          <h1>Specify window name (window title)</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can define settings which are effective on specific window name only.
+          <br />
+          Add <code>&lt;windowname_only&gt;</code> or <code>&lt;windowname_not&gt;</code> to your <code>&lt;item&gt;</code>.
+        </p>
+        <p>
+          This private.xml exchanges space key and tab key on Gmail on Google Chrome.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap Space and Tab</name>
+          |    <identifier>private.windowname_google_chrome_gmail_swap_space_and_tab</identifier>
+          |    <only>GOOGLE_CHROME</only>
+          |    <windowname_only>Gmail</windowname_only>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2 id="windownamedef-steps">Steps to define an window name specific setting</h2>
+        <h3>
+          Examine window name
+        </h3>
+        <ol class="steps">
+          <li>
+            Launch EventViewer from a menu.
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/eventviewer-menu.png eventviewer menu
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              See "App" tab of EventViewer.
+              <br />
+              This list is updated when a window name is changed.
+            </p>
+            <p>
+              Focus target window. Then press "copy to pasteboard" button.
+              <br />
+              You can paste this information to text area.
+            </p>
+
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/eventviewer-app.png eventviewer-app
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <h3>Add an window name definition to your private.xml.</h3>
+        <ol class="steps">
+          <li>
+            Add <code>&lt;windownamedef&gt;</code> to your private.xml.
+            <br />
+            <code>&lt;name&gt;</code> is a name of definition which you use in <code>&lt;windowname_only&gt;</code> filter.
+            <br />
+            Write regular expressions pattern into <code>&lt;regex&gt;</code>.
+            <a href="http://www.cplusplus.com/reference/regex/ECMAScript/" target="_blank">(regex patterns folow the ECMAScript syntax.)</a>
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <windownamedef>
+              |    <name>Google_Search</name>
+              |    <regex> - Google Search$</regex>
+              |  </windownamedef>
+              |</root>
+            {{/indented_xml}}
+          </li>
+          <li>
+            Then, you can use <code>&lt;windowname_only&gt;Google_Search&lt;/windowname_only&gt;</code> in private.xml.
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |  <windownamedef>
+              |    <name>Google_Search</name>
+              |    <regex> - Google Search$</regex>
+              |  </windownamedef>
+              |
+              |  <item>
+              |    <name>Change Space to Tab on Google Search</name>
+              |    <identifier>private.windownamedef</identifier>
+              |    <windowname_only>Google_Search</windowname_only>
+              |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+              |  </item>
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+
+        <h2 id="prepared-windownamedef">Prepared window name definitions</h2>
+        <p>
+          KeyRemap4MacBook provides
+          {{! replace master to 9.4.0. keywords for grep:9.3.0 since }}
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/windownamedef.xml">various window name definitions</a>.
+          <br />
+          You can use them without <code>&lt;windownamedef&gt;</code> in private.xml.
+        </p>
+        <p>
+          You can also overwrite existent window name definitions by private.xml.
+        </p>
+      </section>
+
       <section id="devicedef">
         <div class="page-header">
           <h1>Specify device</h1>

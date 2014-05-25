@@ -37,6 +37,13 @@ class Xml < Keyremap4macbookBase
        }
      },
      {
+       :href => '#windownamedef',
+       :name_l10n => {
+         :en => 'specify window name (window title)',
+         :ja => 'specify window name (window title)',
+       }
+     },
+     {
        :href => '#devicedef',
        :name_l10n => {
          :en => 'specify device',
