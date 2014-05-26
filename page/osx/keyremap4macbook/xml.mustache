@@ -623,13 +623,13 @@
               |  </windownamedef>
               |
               |  <item>
-              |    <name>Change the left click to the middle click on Google Search on Google Chrome.</name>
+              |    <name>Disable command-w on Google Search on Google Chrome.</name>
               |    <identifier>private.windownamedef</identifier>
               |    <windowname_only>Google_Search</windowname_only>
               |    <autogen>
               |      __KeyToKey__
-              |      PointingButton::LEFT,
-              |      PointingButton::MIDDLE,
+              |      KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND | ModifierFlag::NONE,
+              |      KeyCode::VK_NONE,
               |    </autogen>
               |  </item>
               |</root>
