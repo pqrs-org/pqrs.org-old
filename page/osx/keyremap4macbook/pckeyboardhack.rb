@@ -72,6 +72,25 @@ class Pckeyboardhack < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.7.0',
+              :updated => '2014-06-03',
+              :link => 'files/PCKeyboardHack-10.7.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Supported OS X 10.10.</li>
+  <li>Changed a way to launch at login. (LaunchAgents -&gt; Login Items)</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.10に対応しました。</li>
+  <li>ログイン時の起動方法を変更しました。 (LaunchAgents -&gt; Login Items)</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.6.0',
               :updated => '2014-03-14',
               :link => 'files/PCKeyboardHack-10.6.0.dmg',
