@@ -51,6 +51,13 @@ class Document < Keyremap4macbookBase
        }
      },
      {
+       :href => '#axnotifier',
+       :name_l10n => {
+         :en => 'AXNotifier',
+         :ja => 'AXNotifier',
+       }
+     },
+     {
        :href => '#eventviewer',
        :name_l10n => {
          :en => 'Eventviewer',

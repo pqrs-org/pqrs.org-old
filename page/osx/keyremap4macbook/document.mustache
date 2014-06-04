@@ -293,6 +293,133 @@
         </div>
       </section>
 
+      <section id="axnotifier">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              AXNotifier
+            {{/language_en}}
+            {{#language_ja}}
+              AXNotifier
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            AXNotifier observes these events and notifies KeyRemap4MacBook:
+          {{/language_en}}
+          {{#language_ja}}
+            AXNotifierは以下のイベントを観察し、KeyRemap4MacBookに通知します。
+          {{/language_ja}}
+        </p>
+
+        <ul>
+          <li>
+            {{#language_en}}
+              An active application has been changed.
+            {{/language_en}}
+            {{#language_ja}}
+              アクティブなアプリケーションの変更。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              A focused window's title (window name) has been changed.
+            {{/language_en}}
+            {{#language_ja}}
+              フォーカスされたウィンドウのタイトル（window name）の変更。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              A focused ui element role (AXTextArea, AXButton, etc) has been changed.
+            {{/language_en}}
+            {{#language_ja}}
+              フォーカスされたUIエレメントのロール（AXTextArea、AXButtonなど）の変更。
+            {{/language_ja}}
+          </li>
+        </ul>
+
+        <p>
+          {{#language_en}}
+            That allows you to make following settings:
+          {{/language_en}}
+          {{#language_ja}}
+            これにより、次の設定を行うことができます。
+          {{/language_ja}}
+        </p>
+
+        <ul>
+          <li>
+            {{#language_en}}
+              Settings are effective in specific apps. (eg. "Change the command key only in Terminal".)
+            {{/language_en}}
+            {{#language_ja}}
+              特定のアプリで有効な設定。（例: ターミナルでコマンドキーを変更する。）
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Settings are effective in specific window name. (eg. "Disable command-w in Gmail on Google Chrome".)
+            {{/language_en}}
+            {{#language_ja}}
+              特定のウィンドウタイトルで有効な設定。（例: Google ChromeのGmailでcommand-wを無効にする。）
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Settings are effective in specific ui element role. (eg. "Change hjkl keys to arrow keys when you are not editing text.)
+            {{/language_en}}
+            {{#language_ja}}
+              特定のUIエレメントのロールで有効な設定。（例: テキスト編集中でない場合はhjklキーをカーソルキーにする。）
+            {{/language_ja}}
+          </li>
+        </ul>
+
+        <h2>
+          {{#language_en}}
+            Using accessibility features
+          {{/language_en}}
+          {{#language_ja}}
+            アクセシビリティ機能の使用
+          {{/language_ja}}
+        </h2>
+
+        <p>
+          {{#language_en}}
+            AXNotifier requires using accessibility features in order to observe window title (window name) and ui element role.
+          {{/language_en}}
+          {{#language_ja}}
+            AXNotifierは、ウィンドウタイトルとUIエレメントのロールの監視を行うために、アクセシビリティ機能へのアクセスを要求します。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/axnotifier.png AXNotifier
+            {{/lightbox}}
+          </div>
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/ax-dialog.png AX dialog
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          {{#language_en}}
+            If you do not need to observe these items, you can deny the request. <br />
+            Please turn on "Do not show this message again".
+          {{/language_en}}
+          {{#language_ja}}
+            もし、これらを監視する必要がなければ、アクセシビリティ機能へのアクセスを拒否してもかまいません。<br />
+            「Do not show this message again」にチェックを入れてください。
+          {{/language_ja}}
+        </p>
+      </section>
+
       <section id="eventviewer">
         <div class="page-header">
           <h1>
