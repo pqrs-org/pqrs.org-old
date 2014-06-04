@@ -397,12 +397,12 @@
 
         <h2>An example</h2>
         <p>
-          You can define settings which are effective on specific applications only.
+          You can define settings which are effective in specific applications only.
           <br />
           Add <code>&lt;only&gt;</code> or <code>&lt;not&gt;</code> to your <code>&lt;item&gt;</code>.
         </p>
         <p>
-          This private.xml exchanges space key and tab key on Safari.
+          This private.xml exchanges space key and tab key in Safari.
         </p>
         {{#indented_xml}}
           |<?xml version="1.0"?>
@@ -483,7 +483,7 @@
               |  </appdef>
               |
               |  <item>
-              |    <name>Space to Tab on App Store.app</name>
+              |    <name>Space to Tab in App Store.app</name>
               |    <identifier>private.appdef</identifier>
               |    <only>APPSTORE</only>
               |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
@@ -504,7 +504,7 @@
           You can also overwrite existent application definitions by private.xml.
           <br />
           If you overwrite TERMINAL definition as follows,
-          <code>&lt;only&gt;TERMINAL&lt;/only&gt;</code> is effective on Apple's Terminal.app only
+          <code>&lt;only&gt;TERMINAL&lt;/only&gt;</code> is effective in Apple's Terminal.app only
           (not iTerm2 and other terminal apps).
         </p>
         {{#indented_xml}}
@@ -529,18 +529,18 @@
 
         <h2>An example</h2>
         <p>
-          You can define settings which are effective on specific window name only.
+          You can define settings which are effective in specific window name only.
           <br />
           Add <code>&lt;windowname_only&gt;</code> or <code>&lt;windowname_not&gt;</code> to your <code>&lt;item&gt;</code>.
         </p>
         <p>
-          This private.xml disables command-w on Gmail on Google Chrome.
+          This private.xml disables command-w in Gmail on Google Chrome.
         </p>
         {{#indented_xml}}
           |<?xml version="1.0"?>
           |<root>
           |  <item>
-          |    <name>Disable command-w on Gmail on Google Chrome.</name>
+          |    <name>Disable command-w in Gmail on Google Chrome.</name>
           |    <identifier>private.windowname_google_chrome_gmail_disable_close</identifier>
           |    <only>GOOGLE_CHROME</only>
           |    <windowname_only>Gmail</windowname_only>
@@ -575,7 +575,7 @@
               This list is updated when a window name is changed.
             </p>
             <div class="alert alert-warning">
-              Note: The window name detection does not work properly on some apps. (eg. Safari.)
+              Note: The window name detection does not work properly in some apps. (eg. Safari.)
             </div>
             <p>
               Focus target window. Then press "copy to pasteboard" button.
@@ -623,7 +623,7 @@
               |  </windownamedef>
               |
               |  <item>
-              |    <name>Disable command-w on Google Search on Google Chrome.</name>
+              |    <name>Disable command-w in Google Search on Google Chrome.</name>
               |    <identifier>private.windownamedef</identifier>
               |    <windowname_only>Google_Search</windowname_only>
               |    <autogen>
@@ -647,6 +647,71 @@
         </p>
         <p>
           You can also overwrite existent window name definitions by private.xml.
+        </p>
+      </section>
+
+      <section id="uielementroledef">
+        <div class="alert alert-warning">
+          Note: &lt;uielementroledef&gt; is available since v9.99.11 (beta version).<br />
+        </div>
+
+        <div class="page-header">
+          <h1>Specify ui element role</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          You can define settings which are effective in specific ui element role only.
+          <br />
+          Add <code>&lt;uielementrole_only&gt;</code> or <code>&lt;uielementrole_not&gt;</code> to your <code>&lt;item&gt;</code>.
+        </p>
+        <p>
+          This private.xml changes hjkl keys to arrow keys in Finder. <br />
+          And if you are editing the file name, hjkl keys are not modified.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Change hjkl keys to arrow keys in Finder</name>
+          |    <identifier>private.hjkl_keys_to_arrow_keys_in_finder</identifier>
+          |
+          |    <uielementrole_not>AXTextArea, AXTextField</uielementrole_not>
+          |
+          |    <only>FINDER</only>
+          |    <modifier_only>
+          |      ModifierFlag::NONE,
+          |      ModifierFlag::SHIFT_L | ModifierFlag::NONE,
+          |      ModifierFlag::SHIFT_R | ModifierFlag::NONE,
+          |    </modifier_only>
+          |    <autogen>__KeyToKey__ KeyCode::H, KeyCode::CURSOR_LEFT</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_DOWN</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_UP</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2 id="confirm-uielementrole">Confirm ui element role</h2>
+        <p>
+          You can confirm a focused ui element's role by EventViewer.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/eventviewer-app.png eventviewer-app
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <h2 id="prepared-uielementroledef">Prepared ui element role definitions</h2>
+        <p>
+          KeyRemap4MacBook provides
+          {{! replace master to 9.4.0. keywords for grep:9.3.0 since }}
+          <a target="_blank" href="https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/uielementroledef.xml">various ui element role definitions</a>.
+        </p>
+        <p>
+          You can also add your own ui element role by &lt;uielementroledef&gt; tag.
         </p>
       </section>
 

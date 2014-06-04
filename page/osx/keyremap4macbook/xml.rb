@@ -44,6 +44,13 @@ class Xml < Keyremap4macbookBase
        }
      },
      {
+       :href => '#uielementroledef',
+       :name_l10n => {
+         :en => 'specify ui element role',
+         :ja => 'specify ui element role',
+       }
+     },
+     {
        :href => '#devicedef',
        :name_l10n => {
          :en => 'specify device',
