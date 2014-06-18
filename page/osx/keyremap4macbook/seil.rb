@@ -72,6 +72,23 @@ class Seil < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.8.0',
+              :updated => '2014-06-18',
+              :link => 'files/Seil-10.8.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>PCKeyboardHack has been renamed to "Seil" since version 10.8.0.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>PCKeyboardHackはSeilという名前になりました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.7.0',
               :updated => '2014-06-03',
               :link => 'files/PCKeyboardHack-10.7.0.dmg',
