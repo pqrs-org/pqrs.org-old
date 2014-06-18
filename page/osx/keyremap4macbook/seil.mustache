@@ -3,28 +3,39 @@
     <div class="jumbotron">
       <h1>Seil</h1>
 
-      <ul>
+      <p>
         {{#language_en}}
-          <li>Seil can change caps lock key behavior. For example, changing caps lock key to delete Key.</li>
-          <li>Seil can activate International Keys on Non-Apple keyboard.</li>
+          A utility for the caps lock key and some international keys in PC keyboards.
         {{/language_en}}
         {{#language_ja}}
-          <li>Seilはcaps lockキーの動作を変更します。（例: caps lockキーをdeleteキーにする）</li>
-          <li>SeilはPC用のキーボードにある「無変換」「変換」「ひらがな」などのキーをOS Xで使用可能にします。</li>
+          caps lockキーと、PCキーボードの「無変換」「変換」「ひらがな」キーのためのユーティリティ。
+        {{/language_ja}}
+      </p>
+
+      <ul>
+        {{#language_en}}
+          <li>You can change the caps lock key to another key. (eg. escape key)</li>
+          <li>You can activate some international keys in PC keyboard.</li>
+        {{/language_en}}
+        {{#language_ja}}
+          <li>caps lockキーの動作を変更します。（例: caps lockキーをdeleteキーにする）</li>
+          <li>PC用のキーボードにある「無変換」「変換」「ひらがな」などのキーをOS Xで使用可能にします。</li>
         {{/language_ja}}
       </ul>
 
-      (Seil has been called PCKeyboardHack till version 10.7.0.)
+      <div class="alert alert-warning">
+        PCKeyboardHack has been renamed to "Seil" since version 10.8.0.
+      </div>
 
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
-            href="files/PCKeyboardHack-10.7.0.dmg">
+            href="files/Seil-10.8.0.dmg">
             {{#language_en}}
-              Download PCKeyboardHack-10.7.0
+              Download Seil-10.8.0
             {{/language_en}}
             {{#language_ja}}
-              PCKeyboardHack-10.7.0をダウンロード
+              Seil-10.8.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label label-default">
@@ -38,6 +49,7 @@
           </a>
         {{/strip_html}}
       </p>
+
       <p>
         {{#strip_html}}
           <a class="btn btn-default btn-small"
