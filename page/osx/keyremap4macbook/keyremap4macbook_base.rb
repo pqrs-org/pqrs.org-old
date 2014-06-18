@@ -80,10 +80,10 @@ class Keyremap4macbookBase < PqrsBase
        :dropdown => {
          :items => [
                     {
-                      :href => '/macosx/keyremap4macbook/pckeyboardhack.html',
+                      :href => '/macosx/keyremap4macbook/seil.html',
                       :name_l10n => {
-                        :en => 'PCKeyboardHack',
-                        :ja => 'PCKeyboardHack',
+                        :en => 'Seil',
+                        :ja => 'Seil',
                       },
                     },
                     {

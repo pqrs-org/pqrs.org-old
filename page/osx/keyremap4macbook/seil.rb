@@ -4,9 +4,9 @@
 require '../../../classes/bootstrap.rb'
 require './keyremap4macbook_base.rb'
 
-class Pckeyboardhack < Keyremap4macbookBase
+class Seil < Keyremap4macbookBase
   def current_nav_path
-    '/macosx/keyremap4macbook/pckeyboardhack.html'
+    '/macosx/keyremap4macbook/seil.html'
   end
 
   def enable_prettify
@@ -16,9 +16,9 @@ class Pckeyboardhack < Keyremap4macbookBase
   def title
     case @language
     when :en
-      'PCKeyboardHack - Software for OS X'
+      'Seil - Software for OS X'
     when :ja
-      'PCKeyboardHack - OS X用のソフトウェア'
+      'Seil - OS X用のソフトウェア'
     end
   end
 
@@ -453,4 +453,4 @@ EOS
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/pckeyboardhack.html', Pckeyboardhack)
+PqrsUtil.make_page('/macosx/keyremap4macbook/seil.html', Seil)
