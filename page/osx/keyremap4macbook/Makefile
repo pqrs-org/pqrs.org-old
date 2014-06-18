@@ -4,7 +4,7 @@ all:
 	./xml.rb
 	./faq.rb
 	./extra.rb
-	./pckeyboardhack.rb
+	./seil.rb
 	./noejectdelay.rb
 	./source.rb
 	./history.rb
