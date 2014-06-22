@@ -72,6 +72,35 @@ class Seil < Keyremap4macbookBase
   def histories
     data = [
             {
+              :version => '10.9.0',
+              :updated => '2014-06-22',
+              :link => 'files/Seil-10.9.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>A message "Kernel extension is not loaded" might be shown in some environment.</li>
+      <li>Preferences might not show properly after migration until you change the configuration or relaunch Seil.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Kernel extension is not loaded」というメッセージが表示されることがあります。</li>
+      <li>設定を移行した後、設定を変更するかSeilを再起動するまで、設定画面が正しく表示されないことがあります。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.8.0',
               :updated => '2014-06-18',
               :link => 'files/Seil-10.8.0.dmg',
