@@ -6,7 +6,7 @@ require './keyremap4macbook_base.rb'
 
 class Document < Keyremap4macbookBase
   def current_nav_path
-    '/macosx/keyremap4macbook/document.html'
+    '/osx/karabiner/document.html'
   end
 
   def enable_prettify
@@ -123,4 +123,4 @@ class Document < Keyremap4macbookBase
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/document.html', Document)
+PqrsUtil.make_page('/osx/karabiner/document.html', Document)

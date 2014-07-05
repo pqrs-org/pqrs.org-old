@@ -7,4 +7,4 @@ require './keyremap4macbook_base.rb'
 class Contact < Keyremap4macbookBase
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/contact.html', Contact)
+PqrsUtil.make_page('/osx/karabiner/contact.html', Contact)

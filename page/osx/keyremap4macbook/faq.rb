@@ -6,7 +6,7 @@ require './keyremap4macbook_base.rb'
 
 class Faq < Keyremap4macbookBase
   def current_nav_path
-    '/macosx/keyremap4macbook/faq.html'
+    '/osx/karabiner/faq.html'
   end
 
   def tabs_definition
@@ -71,4 +71,4 @@ class Faq < Keyremap4macbookBase
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/faq.html', Faq)
+PqrsUtil.make_page('/osx/karabiner/faq.html', Faq)

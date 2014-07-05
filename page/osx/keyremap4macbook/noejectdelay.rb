@@ -6,7 +6,7 @@ require './keyremap4macbook_base.rb'
 
 class Noejectdelay < Keyremap4macbookBase
   def current_nav_path
-    '/macosx/keyremap4macbook/noejectdelay.html'
+    '/osx/karabiner/noejectdelay.html'
   end
 
   def title
@@ -358,4 +358,4 @@ EOS
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/noejectdelay.html', Noejectdelay)
+PqrsUtil.make_page('/osx/karabiner/noejectdelay.html', Noejectdelay)

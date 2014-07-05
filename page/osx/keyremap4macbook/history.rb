@@ -1349,4 +1349,4 @@ EOS
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/history.html', History)
+PqrsUtil.make_page('/osx/karabiner/history.html', History)

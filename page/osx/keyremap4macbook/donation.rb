@@ -7,4 +7,4 @@ require './keyremap4macbook_base.rb'
 class Donation < Keyremap4macbookBase
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/donation.html', Donation)
+PqrsUtil.make_page('/osx/karabiner/donation.html', Donation)

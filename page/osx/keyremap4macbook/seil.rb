@@ -6,7 +6,7 @@ require './keyremap4macbook_base.rb'
 
 class Seil < Keyremap4macbookBase
   def current_nav_path
-    '/macosx/keyremap4macbook/seil.html'
+    '/osx/karabiner/seil.html'
   end
 
   def enable_prettify
@@ -499,4 +499,4 @@ EOS
   end
 end
 
-PqrsUtil.make_page('/macosx/keyremap4macbook/seil.html', Seil)
+PqrsUtil.make_page('/osx/karabiner/seil.html', Seil)

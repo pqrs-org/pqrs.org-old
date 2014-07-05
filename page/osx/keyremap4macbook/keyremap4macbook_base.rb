@@ -14,7 +14,7 @@ class Keyremap4macbookBase < PqrsBase
   def navs_left_data
     [
      {
-       :href => '/macosx/keyremap4macbook/index.html',
+       :href => '/osx/karabiner/index.html',
        :name_l10n => {
          :en => 'KeyRemap4MacBook',
          :ja => 'KeyRemap4MacBook',
@@ -28,42 +28,42 @@ class Keyremap4macbookBase < PqrsBase
        :dropdown => {
          :items => [
                     {
-                      :href => '/macosx/keyremap4macbook/document.html',
+                      :href => '/osx/karabiner/document.html',
                       :name_l10n => {
                         :en => 'Manual',
                         :ja => 'マニュアル',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/xml.html',
+                      :href => '/osx/karabiner/xml.html',
                       :name_l10n => {
                         :en => 'private.xml',
                         :ja => 'private.xml（英語）',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/faq.html',
+                      :href => '/osx/karabiner/faq.html',
                       :name_l10n => {
                         :en => 'Q&A',
                         :ja => 'Q&A',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/source.html',
+                      :href => '/osx/karabiner/source.html',
                       :name_l10n => {
                         :en => 'License and Source Code',
                         :ja => 'ライセンス・ソースコード',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/history.html',
+                      :href => '/osx/karabiner/history.html',
                       :name_l10n => {
                         :en => 'Version History',
                         :ja => '更新履歴',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/list.html',
+                      :href => '/osx/karabiner/list.html',
                       :name_l10n => {
                         :en => 'List of prepared settings',
                         :ja => 'あらかじめ用意されている設定項目一覧',
@@ -80,14 +80,14 @@ class Keyremap4macbookBase < PqrsBase
        :dropdown => {
          :items => [
                     {
-                      :href => '/macosx/keyremap4macbook/seil.html',
+                      :href => '/osx/karabiner/seil.html',
                       :name_l10n => {
                         :en => 'Seil',
                         :ja => 'Seil',
                       },
                     },
                     {
-                      :href => '/macosx/keyremap4macbook/noejectdelay.html',
+                      :href => '/osx/karabiner/noejectdelay.html',
                       :name_l10n => {
                         :en => 'NoEjectDelay',
                         :ja => 'NoEjectDelay',
@@ -97,14 +97,14 @@ class Keyremap4macbookBase < PqrsBase
        }
      },
      {
-       :href => '/macosx/keyremap4macbook/donation.html',
+       :href => '/osx/karabiner/donation.html',
        :name_l10n => {
          :en => 'Donations',
          :ja => '寄付',
        },
      },
      {
-       :href => '/macosx/keyremap4macbook/contact.html',
+       :href => '/osx/karabiner/contact.html',
        :name_l10n => {
          :en => 'Contact',
          :ja => '連絡先',
