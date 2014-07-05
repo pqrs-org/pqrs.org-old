@@ -5,9 +5,9 @@ class KarabinerBase < PqrsBase
   def title
     case @language
     when :en
-      'KeyRemap4MacBook - Software for OS X'
+      'Karabiner - Software for OS X'
     when :ja
-      'KeyRemap4MacBook - OS X用のソフトウェア'
+      'Karabiner - OS X用のソフトウェア'
     end
   end
 
@@ -16,8 +16,8 @@ class KarabinerBase < PqrsBase
      {
        :href => '/osx/karabiner/index.html',
        :name_l10n => {
-         :en => 'KeyRemap4MacBook',
-         :ja => 'KeyRemap4MacBook',
+         :en => 'Karabiner',
+         :ja => 'Karabiner',
        },
      },
      {
