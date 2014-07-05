@@ -16,9 +16,9 @@ class Toppage < PqrsBase
               :name => 'OS X',
               :rows => [
                          {
-                           :name => 'KeyRemap4MacBook',
+                           :name => 'Karabiner',
                            :link => '/osx/karabiner/index.html.' + @language.to_s,
-                           :icon => '/img/icon/osx/keyremap4macbook-32.png',
+                           :icon => '/img/icon/osx/karabiner-32.png',
                            :body_l10n => {
                              :en => <<EOS,
 <p>A powerful and stable keyboard customizer for OS X.</p>
