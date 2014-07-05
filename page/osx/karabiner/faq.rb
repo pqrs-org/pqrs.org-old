@@ -4,7 +4,7 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class Faq < Keyremap4macbookBase
+class Faq < KarabinerBase
   def current_nav_path
     '/osx/karabiner/faq.html'
   end

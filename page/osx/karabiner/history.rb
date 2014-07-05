@@ -4,7 +4,7 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class History < Keyremap4macbookBase
+class History < KarabinerBase
   def histories
     data = [
             {

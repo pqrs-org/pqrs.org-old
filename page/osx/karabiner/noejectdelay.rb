@@ -4,7 +4,7 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class Noejectdelay < Keyremap4macbookBase
+class Noejectdelay < KarabinerBase
   def current_nav_path
     '/osx/karabiner/noejectdelay.html'
   end

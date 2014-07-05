@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # -*- coding: utf-8 -*-
 
-class Keyremap4macbookBase < PqrsBase
+class KarabinerBase < PqrsBase
   def title
     case @language
     when :en

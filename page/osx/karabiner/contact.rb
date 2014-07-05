@@ -4,7 +4,7 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class Contact < Keyremap4macbookBase
+class Contact < KarabinerBase
 end
 
 PqrsUtil.make_page('/osx/karabiner/contact.html', Contact)

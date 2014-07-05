@@ -4,7 +4,7 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class Xml < Keyremap4macbookBase
+class Xml < KarabinerBase
   def current_nav_path
     '/osx/karabiner/xml.html'
   end
