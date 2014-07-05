@@ -17,7 +17,7 @@ class Toppage < PqrsBase
               :rows => [
                          {
                            :name => 'KeyRemap4MacBook',
-                           :link => '/macosx/keyremap4macbook/index.html.' + @language.to_s,
+                           :link => '/osx/karabiner/index.html.' + @language.to_s,
                            :icon => '/img/icon/osx/keyremap4macbook-32.png',
                            :body_l10n => {
                              :en => <<EOS,
@@ -31,7 +31,7 @@ EOS
 
                          {
                            :name => 'ShowyEdge',
-                           :link => '/macosx/ShowyEdge/index.html.' + @language.to_s,
+                           :link => '/osx/ShowyEdge/index.html.' + @language.to_s,
                            :icon => '/img/icon/osx/ShowyEdge-32.png',
                            :body_l10n => {
                              :en => <<EOS,
