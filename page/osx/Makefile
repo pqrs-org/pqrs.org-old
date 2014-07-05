@@ -1,3 +1,3 @@
 all:
-	make -C keyremap4macbook
+	make -C karabiner
 	make -C ShowyEdge

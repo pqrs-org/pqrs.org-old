@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require './keyremap4macbook_base.rb'
+require './karabiner_base.rb'
 
 class History < Keyremap4macbookBase
   def histories

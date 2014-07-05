@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
-require './keyremap4macbook_base.rb'
+require './karabiner_base.rb'
 
 class Document < Keyremap4macbookBase
   def current_nav_path
