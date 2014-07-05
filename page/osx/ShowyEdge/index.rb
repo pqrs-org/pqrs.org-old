@@ -16,7 +16,7 @@ class Index < PqrsBase
   def navs_left_data
     [
      {
-       :href => '/macosx/ShowyEdge/index.html',
+       :href => '/osx/ShowyEdge/index.html',
        :name_l10n => {
          :en => 'ShowyEdge',
          :ja => 'ShowyEdge',
@@ -170,4 +170,4 @@ EOS
   end
 end
 
-PqrsUtil.make_page('/macosx/ShowyEdge/index.html', Index)
+PqrsUtil.make_page('/osx/ShowyEdge/index.html', Index)
