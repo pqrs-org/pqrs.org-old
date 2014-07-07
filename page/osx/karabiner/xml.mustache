@@ -280,7 +280,7 @@
 
         <h3>Basic case</h3>
         <p>
-          KeyRemap4MacBook applies only the first matched <code>&lt;autogen&gt;</code>.
+          Karabiner applies only the first matched <code>&lt;autogen&gt;</code>.
         </p>
         <p>
           The following autogens change space key to tab key (not return key).
@@ -327,13 +327,13 @@
 
         <p>
           <span class="label label-warning">Wrong case</span>
-          If you've put them in reverse order, KeyRemap4MacBook changes "shift+space" to "shift+return".
+          If you've put them in reverse order, Karabiner changes "shift+space" to "shift+return".
         </p>
 
         <p>
         </p>
         {{#indented_xml}}
-          |<!-- KeyRemap4MacBook always changes space key to return key even if you're pressing shift modifier. -->
+          |<!-- Karabiner always changes space key to return key even if you're pressing shift modifier. -->
           |<autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::RETURN</autogen>
           |
           |<!-- *** This autogen is never applied. *** -->
@@ -495,7 +495,7 @@
 
         <h2 id="prepared-appdef">Prepared application definitions</h2>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/appdef.xml">various application definitions</a>.
           <br />
           You can use them without <code>&lt;appdef&gt;</code> in private.xml.
@@ -639,7 +639,7 @@
 
         <h2 id="prepared-windownamedef">Prepared window name definitions</h2>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           {{! replace master to 9.4.0. keywords for grep:9.3.0 since }}
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/master/src/core/server/Resources/windownamedef.xml">various window name definitions</a>.
           <br />
@@ -709,7 +709,7 @@
 
         <h2 id="prepared-uielementroledef">Prepared ui element role definitions</h2>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           {{! replace master to 9.4.0. keywords for grep:9.3.0 since }}
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/master/src/core/server/Resources/uielementroledef.xml">various ui element role definitions</a>.
         </p>
@@ -825,7 +825,7 @@
 
         <h2 id="prepared-devicedef">Prepared device definitions</h2>
         <p>
-          KeyRemap4MacBook provides various Vendor ID and Product ID definitions.
+          Karabiner provides various Vendor ID and Product ID definitions.
           <br />
           You can use them without <code>&lt;devicevendordef&gt;</code> and
           <code>&lt;deviceproductdef&gt;</code> in private.xml.
@@ -1003,7 +1003,7 @@
 
         <h3>Prepared virtual key code definitions</h3>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
           <br />
           You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
@@ -1082,7 +1082,7 @@
 
         <h3>Prepared input source definitions</h3>
         <p>
-          KeyRemap4MacBook provides <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
+          Karabiner provides <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
           <br />
           You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
         </p>
@@ -1215,7 +1215,7 @@
 
         <h2>Prepared virtual key code definitions</h2>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/vkopenurldef.xml">various virtual key code definitions</a>.
           <br />
           You can use them without <code>&lt;vkopenurldef&gt;</code> in private.xml.
@@ -1262,11 +1262,11 @@
         {{#indented_xml}}
           |<?xml version="1.0"?>
           |<root>
-          |  <include path="{{curly}} ENV_HOME }}/Dropbox/private/KeyRemap4MacBook/core.xml" />
+          |  <include path="{{curly}} ENV_HOME }}/Dropbox/private/Karabiner/core.xml" />
           |</root>
         {{/indented_xml}}
 
-        <b>Dropbox/private/KeyRemap4MacBook/core.xml</b>
+        <b>Dropbox/private/Karabiner/core.xml</b>
         {{#indented_xml}}
           |<?xml version="1.0"?>
           |<root>
@@ -1404,7 +1404,7 @@
 
         <h2>Prepared replacement definitions</h2>
         <p>
-          KeyRemap4MacBook provides
+          Karabiner provides
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_9.3.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
           <br />
           You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
@@ -1592,7 +1592,7 @@
 
         <h2 id="prepared-modifierdef">Prepared virtual modifier definitions</h2>
         <p>
-          KeyRemap4MacBook provides some prepared virtual modifier.
+          Karabiner provides some prepared virtual modifier.
           <br />
           You can use them without <code>&lt;modifierdef&gt;</code> in private.xml.
         </p>
@@ -1633,7 +1633,7 @@
               | $ cd src/core/server/Resources
               | $ make install
             {{/strip_indented_lines}}</pre>
-            (This commands ask your password in order to modify XML files in /Applications/KeyRemap4MacBook.app.)
+            (This commands ask your password in order to modify XML files in /Applications/Karabiner.app.)
           </li>
 
           <li>
