@@ -16,8 +16,8 @@ class Toppage < PqrsBase
               :name => 'OS X',
               :rows => [
                          {
-                           :name => 'KeyRemap4MacBook',
-                           :link => '/macosx/keyremap4macbook/index.html.' + @language.to_s,
+                           :name => 'Karabiner',
+                           :link => '/osx/karabiner/index.html.' + @language.to_s,
                            :icon => '/img/icon/osx/karabiner-32.png',
                            :body_l10n => {
                              :en => <<EOS,

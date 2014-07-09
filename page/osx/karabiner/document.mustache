@@ -452,10 +452,13 @@
         </p>
 
         <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/eventviewer-menu.png menu
-            {{/lightbox}}
+          <div class="col-lg-6">
+            <img
+            alt="menu"
+            {{#imgsrc}}
+              img/eventviewer-menu.png
+            {{/imgsrc}}
+            />
           </div>
           <div class="col-lg-4">
             {{#lightbox}}
@@ -910,13 +913,14 @@
             メニューバーから複数の設定を使い分けることができます。
           {{/language_ja}}
         </p>
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/statusbar.png multi-touch extension
-            {{/lightbox}}
-          </div>
-        </div>
+        <p>
+          <img
+          alt="profiles"
+          {{#imgsrc}}
+            img/statusbar.png
+          {{/imgsrc}}
+          />
+        </p>
         <h2>
           {{#language_en}}
             How to use multiple profiles
@@ -948,13 +952,14 @@
             {{#language_ja}}
               メニューバーから設定を切り替えます。
             {{/language_ja}}
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/switch_current_setting.png menu bar
-                {{/lightbox}}
-              </div>
-            </div>
+            <p>
+              <img
+              alt="profiles"
+              {{#imgsrc}}
+                img/switch_current_setting.png
+              {{/imgsrc}}
+              />
+            </p>
           </li>
           <li>
             {{#language_en}}
