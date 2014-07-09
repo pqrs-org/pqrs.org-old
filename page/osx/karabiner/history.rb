@@ -18,7 +18,7 @@ class History < KarabinerBase
   <li>
     AXNotifier has been added. <br />
     AXNotifier allows you to observe the window name (window title) and the focused ui element role (eg. whether textarea or not). <br />
-    For example, you can use hjkl keys as arrow keys in Finder when you are not editing text such as filename.
+    For example, a setting that allows you to use hjkl keys as arrow keys in Finder when you are not editing text such as filename has been added.
   </li>
   <li>
     A command line utility "warp-mouse-cursor-position" has been added.<br />
@@ -90,7 +90,7 @@ class History < KarabinerBase
   &lt;/autogen&gt;
 </pre>
       </li>
-      <li>Added __BlockUntilKeyUp__. (__KeyUpEventToKey__ is removed.)</li>
+      <li>Added __BlockUntilKeyUp__.</li>
       <li>Added Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYS.</li>
       <li>Added Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLL.</li>
       <li>Added KeyCode::VK_NEGATIVE_LOCK_*. (eg. KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L.)</li>
@@ -116,6 +116,107 @@ class History < KarabinerBase
 </ul>
 EOS
                 :ja => <<EOS,
+<ul>
+  <li>KeyRemap4MacBookはKarabinerという名前になりました。</li>
+  <li>
+    AXNotifierを追加しました。<br />
+    AXNotifierはウィンドウの名前（ウィンドウタイトル）やフォーカスされたUIエレメントのロール（例えば、テキストエリアか否か）を観測します。<br />
+    例えば、Finderでテキストの変更（ファイル名など）をしていないときに、hjklキーを矢印キーとして使うことができる設定が追加されました。
+  </li>
+  <li>
+    warp-mouse-cursor-positionというコマンドラインユーティリティを追加しました。<br />
+    また、それを使う設定も追加しました。<br />
+    例えば、以下の設定を使うと、fnキーを単独で押したときにマウスカーソルをウィンドウの中央に移動します。
+    <ul>
+      <li>
+        Custom Shortcuts
+        <ul>
+          <li>
+            Move mouse cursor to the center of the frontmost app's window:
+            <ul>
+              <li>By pressing fn key alone.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Kernel extension is not loaded」というメッセージが表示されることがあります。</li>
+      <li>複数のディスプレイを使っているときに、ステータスメッセージが正しく表示されません。</li>
+    </ul>
+  </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>
+        &lt;modifierdef&gt;でモディファイアを追加できるようになりました。
+        <a href="https://pqrs.org/osx/karabiner/xml.html.ja#modifier">Usage of &lt;modifierdef&gt;.</a>
+      </li>
+      <li>&lt;windowname_only&gt;と&lt;windowname_not&gt;フィルタを加えました。</li>
+      <li>&lt;uielementrole_only&gt;と&lt;uielementrole_not&gt;フィルタを加えました。</li>
+      <li>__PointingRelativeToKey__を加えました。</li>
+      <li>
+        __PassThrough__を加えました。指定した条件のときに全ての設定を無効にすることができます。<br />
+        例えば、以下の設定は、仮想マシン上で全ての設定を無効にします。<br />
+        （この設定は既存の設定に含まれています。）
+<pre>  &lt;item&gt;
+    &lt;name&gt;Disable all settings while you are using virtual machine.&lt;/name&gt;
+    &lt;identifier&gt;private.ignore_virtual_machine&lt;/identifier&gt;
+    &lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
+    &lt;autogen&gt;__PassThrough__&lt;/autogen&gt;
+  &lt;/item&gt;
+</pre>
+      </li>
+      <li>__PointingRelativeToScroll__でKeyCodeとConsumerKeyCodeが使えるようになりました。.</li>
+      <li>
+        __HoldingKeyToKey__でThresholdMillisecondが使えるようになりました。<br />
+        長押しの閾値を指定できます:
+<pre>  &lt;autogen&gt;
+    __HoldingKeyToKey__
+    KeyCode::ESCAPE,
+
+    @begin
+    KeyCode::ESCAPE
+    @end
+
+    @begin
+    KeyCode::LAUNCHPAD,
+    @end
+
+    &lt;!-- open Launchpad by press and hold the escape key for 2 seconds. --&gt;
+    ThresholdMillisecond::RawValue::2000,
+  &lt;/autogen&gt;
+</pre>
+      </li>
+      <li>__BlockUntilKeyUp__を追加しました。</li>
+      <li>Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYSを追加しました。</li>
+      <li>Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLLを追加しました。</li>
+      <li>KeyCode::VK_NEGATIVE_LOCK_*を追加しました。（例: KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L）</li>
+      <li>
+        KeyCode::VK_STICKY_ACTIVE_MODIFIERS_*を追加しました:
+        <ul>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_TOGGLE</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_ON</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_OFF</li>
+        </ul>
+      </li>
+      <li>
+        仮想キーの削除:
+        <ul>
+          <li>
+            KeyCode::VK_JIS_TEMPORARY_*を削除しました。<br />
+            &lt;inputsource_filter&gt;、Option::KEYTOKEY_BEFORE_KEYDOWN、Option::KEYTOKEY_AFTER_KEYUP、KeyCode::JIS_EISUU、KeyCode::JIS_KANAをかわりに使ってください。
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 EOS
               },
             },
