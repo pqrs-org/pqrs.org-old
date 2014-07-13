@@ -427,6 +427,65 @@
             「Do not show this message again」にチェックを入れてください。
           {{/language_ja}}
         </p>
+
+        <h2>
+          {{#language_en}}
+            Useful settings using AXNotifier
+          {{/language_en}}
+          {{#language_ja}}
+            AXNotifierを使っている便利な設定
+          {{/language_ja}}
+        </h2>
+
+        <ul>
+          <li>
+            Change command key to control key in RDC.
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/axnotifier-example-app.png AXNotifier examples
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            Disable Close Tab shortcut (command-w) on Gmail.
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/axnotifier-example-windowname.png AXNotifier examples
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+
+          <li>
+            Use "hjkl" keys as arrow keys if you are not editing text.
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/axnotifier-example-role.png AXNotifier examples
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <h2>
+          {{#language_en}}
+            How to use AXNotifier in your own settings
+          {{/language_en}}
+          {{#language_ja}}
+            AXNotifierを使った設定の作り方
+          {{/language_ja}}
+        </h2>
+
+        <ul>
+          <li><a href="xml.html.{{ language }}#appdef">Specify application in private.xml.</a></li>
+          <li><a href="xml.html.{{ language }}#windownamedef">Specify window name (window title) in private.xml.</a></li>
+          <li><a href="xml.html.{{ language }}#uielementroledef">Specify ui element role in private.xml.</a></li>
+        </ul>
       </section>
 
       <section id="eventviewer">
