@@ -10,6 +10,8 @@ class History < BulletgbaBase
             {
               :version => '5.0',
               :updated => '2007-05-21',
+              :link => 'files/bulletgba-5.0.rom.gba.zip',
+              :source => 'files/bulletgba-5.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -34,6 +36,8 @@ EOS
             {
               :version => '4.0',
               :updated => '2006-05-29',
+              :link => 'files/bulletgba-4.0.rom.gba.zip',
+              :source => 'files/bulletgba-4.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -56,6 +60,8 @@ EOS
             {
               :version => '3.0',
               :updated => '2006-05-02',
+              :link => 'files/bulletgba-3.0.rom.gba.zip',
+              :source => 'files/bulletgba-3.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -76,6 +82,8 @@ EOS
             {
               :version => '2.0',
               :updated => '2006-04-08',
+              :link => 'files/bulletgba-2.0.rom.gba.zip',
+              :source => 'files/bulletgba-2.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -98,6 +106,8 @@ EOS
             {
               :version => '1.1',
               :updated => '2006-03-09',
+              :link => 'files/bulletgba-1.1.gba.zip',
+              :source => 'files/bulletgba-1.1.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -118,6 +128,8 @@ EOS
             {
               :version => '1.0',
               :updated => '2006-02-27',
+              :link => 'files/bulletgba-1.0.gba.zip',
+              :source => 'files/bulletgba-1.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
