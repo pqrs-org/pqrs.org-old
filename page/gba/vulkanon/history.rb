@@ -10,6 +10,8 @@ class History < VulkanonBase
             {
               :version => '2.1',
               :updated => '2007-07-01',
+              :link => 'files/vulkanon-2.1.rom.gba.zip',
+              :source => 'files/vulkanon-2.1.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -28,6 +30,8 @@ EOS
             {
               :version => '2.0',
               :updated => '2006-08-31',
+              :link => 'files/vulkanon-2.0.rom.gba.zip',
+              :source => 'files/vulkanon-2.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
@@ -46,6 +50,8 @@ EOS
             {
               :version => '1.0',
               :updated => '2006-07-26',
+              :link => 'files/vulkanon-1.0.rom.gba.zip',
+              :source => 'files/vulkanon-1.0.tar.gz',
               :body_l10n => {
                 :en => <<EOS,
 <ul>
