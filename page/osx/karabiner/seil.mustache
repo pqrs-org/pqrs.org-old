@@ -194,7 +194,24 @@
               {{#lightbox}}
                 img/seil-installer.png installer
               {{/lightbox}}
-              <br />
+              <div class="alert alert-warning">
+                {{#language_en}}
+                  Seil will be installed into /Applications folder. <br />
+                  <br />
+                  <b>Note:</b><br />
+                  Do not change the location of Seil.app from /Applications. <br />
+                  <br />
+                  For example, Seil will not work properly if you moved Seil.app into /Applications/Utilities.
+                {{/language_en}}
+                {{#language_ja}}
+                  Seilはアプリケーションフォルダにインストールされます。<br />
+                  <br />
+                  <b>注意:</b><br />
+                  アプリケーションフォルダからSeil.appを移動しないでください。<br />
+                  <br />
+                  例えば、/Applications/UtilitiesにSeil.appを移動すると、正常に動作しなくなります。
+                {{/language_ja}}
+              </div>
             </div>
           </div>
           <div class="col-lg-4">
