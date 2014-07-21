@@ -1,8 +1,14 @@
-pqrs.org
-========
+# pqrs.org
 
-Requirements
-------------
+## Requirements
+
 * ruby
  * mustache
  * RMagick
+
+
+## Generate HTML
+
+ cd source
+ make
+
