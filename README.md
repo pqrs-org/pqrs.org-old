@@ -9,6 +9,5 @@
 
 ## Generate HTML
 
- cd source
- make
-
+    cd source
+    make
