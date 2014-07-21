@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vulkanon - ゲームボーイアドバンス用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/gba/vulkanon/index.html.ja">Vulkanon</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/manual.html.ja">マニュアル</a>
+                </li>
+                <li class=active>
+                  <a href="/gba/vulkanon/history.html.ja">更新履歴</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/source.html.ja">開発</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/gba/vulkanon/history.html.en">English</a></li>
+                <li><a href="/gba/vulkanon/history.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          更新履歴
+      </h1>
+    </div>
+      <h2>
+        Version 2.1
+          <small>
+2007年7月1日          </small>
+
+          <a class="btn btn-default" href="files/vulkanon-2.1.rom.gba.zip">
+              ダウンロード
+          </a>
+
+          <a class="btn btn-default btn-sm" href="files/vulkanon-2.1.tar.gz">
+              ソースコード
+          </a>
+      </h2>
+      <ul>
+<li>G6 Flashカートリッジで起動したときに画面が正しく描写されないバグを修正しました。</li>
+<li>いくつかの効果音を変更しました。</li>
+</ul>
+
+      <h2>
+        Version 2.0
+          <small>
+2006年8月31日          </small>
+
+          <a class="btn btn-default" href="files/vulkanon-2.0.rom.gba.zip">
+              ダウンロード
+          </a>
+
+          <a class="btn btn-default btn-sm" href="files/vulkanon-2.0.tar.gz">
+              ソースコード
+          </a>
+      </h2>
+      <ul>
+<li><a href="http://www.nullsleep.com/" target="_blank">Nullsleep</a>氏によるサウンドを追加しました。
+<li>弾幕のステージ構成を調整しました。</li>
+</ul>
+
+      <h2>
+        Version 1.0
+          <small>
+2006年7月26日          </small>
+
+          <a class="btn btn-default" href="files/vulkanon-1.0.rom.gba.zip">
+              ダウンロード
+          </a>
+
+          <a class="btn btn-default btn-sm" href="files/vulkanon-1.0.tar.gz">
+              ソースコード
+          </a>
+      </h2>
+      <ul>
+<li>最初のリリース。</li>
+</ul>
+
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

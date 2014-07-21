@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>dcgnuboy - Dreamcast用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class=active>
+                  <a href="/dreamcast/software/dcgnuboy/index.html.ja">dcgnuboy</a>
+                </li>
+                <li >
+                  <a href="/dreamcast/software/dcgnuboy/history.html.ja">更新履歴</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/dreamcast/software/dcgnuboy/index.html.en">English</a></li>
+                <li><a href="/dreamcast/software/dcgnuboy/index.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+
+      <h1>dcgnuboy</h1>
+
+      <p>
+          Dreamcast用のゲームボーイ＆ゲームボーイカラーエミュレータ
+          <br />
+          <small>
+            gnuboyのドリームキャスト移植
+          </small>
+      </p>
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="package/gnuboy-1.0.3-0.6.zip">ダウンロード&nbsp;<small>(1ST_READ.BIN、IP.BINなど)</small></a>
+<a class="btn btn-default btn-small"
+            href="source/dcgnuboy-1.0.3-0.6.tar.gz">ソースコード</a>      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          状況
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            実装済み
+        </h2>
+        <ul>
+            <li>ゲームボーイ＆ゲームボーイカラーエミュレータのエミュレーション</li>
+            <li>サウンドのエミュレーション</li>
+            <li>セーブ・ロード</li>
+            <li>クイックステートセーブ・ロード</li>
+            <li>VMUへのステートセーブ・ロード</li>
+            <li>フレームスキップ</li>
+            <li>画面の調整</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h2>
+            未実装
+        </h2>
+        <ul>
+            <li>いくつかのゲームボーイカラーのゲームにおける適切な速度のエミュレーション</li>
+            <li>ソースコードのリファクタリング</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          使い方
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <h2>
+            メインメニュー
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>Aボタン</dt><dd>ROMメニュー</dd>
+            <dt>Bボタン</dt><dd>VMUメニュー</dd>
+            <dt>Yボタン</dt><dd>クレジット</dd>
+            <dt>START + Y + L + R</dt><dd>リセット</dd>
+        </dl>
+      </div>
+      <div class="col-lg-4">
+        <h2>
+            ROMメニュー
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>Aボタン</dt><dd>ディレクトリに移動</dd>
+            <dt>Yボタン</dt><dd>親ディレクトリに移動</dd>
+            <dt>X + 十字キー</dt><dd>高速なカーソル移動</dd>
+            <dt>アナログスティック</dt><dd>カーソル速度を調整</dd>
+        </dl>
+      </div>
+      <div class="col-lg-4">
+        <h2>
+            ゲーム中
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>X Button</dt><dd>GameboyのBボタン</dd>
+            <dt>A Button</dt><dd>GameboyのAボタン</dd>
+            <dt>Y Button</dt><dd>Gameboyのセレクトボタン</dd>
+            <dt>START</dt><dd>Gameboyのスタートボタン</dd>
+            <dt>十字キー</dt><dd>Gameboyの十字キー</dd>
+            <dt>L + R + START</dt><dd>ゲームを終了</dd>
+            <dt>R + B</dt><dd>クイックステートセーブメニュー</dd>
+            <dt>R + Y</dt><dd>VMUステートセーブメニュー</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

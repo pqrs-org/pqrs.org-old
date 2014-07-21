@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vulkanon - ゲームボーイアドバンス用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/gba/vulkanon/index.html.ja">Vulkanon</a>
+                </li>
+                <li class=active>
+                  <a href="/gba/vulkanon/manual.html.ja">マニュアル</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/history.html.ja">更新履歴</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/source.html.ja">開発</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/gba/vulkanon/manual.html.en">English</a></li>
+                <li><a href="/gba/vulkanon/manual.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          操作方法
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            メインメニュー
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>Aボタン</dt>
+            <dd>選択</dd>
+
+            <dt>Bボタン</dt>
+            <dd>キャンセル</dd>
+
+            <dt>十字キー</dt>
+            <dd>カーソル移動</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Title"
+src="img/title.png" width="240" height="160"        />
+      </div>
+    </div>
+
+    <hr width="50%" />
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            ゲーム中
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>A、Bボタン</dt>
+            <dd>ショット</dd>
+
+            <dt>L、Rボタン</dt>
+            <dd>レーザー</dd>
+
+            <dt>セレクトボタン</dt>
+            <dd>メインメニューに戻る</dd>
+
+            <dt>十字キー</dt>
+            <dd>移動</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Game"
+src="img/ss-main.png" width="240" height="160"        />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          マニュアル
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            ルール
+        </h2>
+          3分以内にボスを倒してください。
+      </div>
+      <div class="col-lg-6">
+        <img alt="Boss"
+src="img/bosscore.png" width="240" height="160"        />
+      </div>
+    </div>
+
+    <hr width="50%" />
+
+    <h2>
+        敵弾の種類
+    </h2>
+
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+            <th>
+              破壊可能弾
+            </th>
+            <th>
+              打ち返し弾
+            </th>
+            <th>
+              自機狙い打ち返し弾
+            </th>
+        </tr>
+        <tr>
+          <td>
+            <img alt="Destroyable Bullet"
+src="img/spr_bullet.png" width="32" height="32"            />
+          </td>
+          <td>
+            <img alt="Suicide Bullet"
+src="img/spr_suicide_bullet_original_direction.png" width="32" height="32"            />
+          </td>
+          <td>
+            <img alt="Aimed Suicide Bullet"
+src="img/spr_suicide_bullet_target_self.png" width="32" height="32"            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+        打ち返し弾と自機狙い打ち返し弾は破壊可能弾を打つと発生します。
+    </p>
+
+    <hr width="50%" />
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            レーザー
+        </h2>
+        <p>
+            レーザーは全ての敵弾を破壊します。
+        </p>
+        <p>
+            パワーが100%のときにレーザーを使えます。
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Boss"
+src="img/laser.png" width="240" height="160"        />
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

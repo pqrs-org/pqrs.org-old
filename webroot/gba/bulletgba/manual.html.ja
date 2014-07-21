@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>BulletGBA - ゲームボーイアドバンス用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/gba/bulletgba/index.html.ja">BulletGBA</a>
+                </li>
+                <li class=active>
+                  <a href="/gba/bulletgba/manual.html.ja">マニュアル</a>
+                </li>
+                <li >
+                  <a href="/gba/bulletgba/history.html.ja">更新履歴</a>
+                </li>
+                <li >
+                  <a href="/gba/bulletgba/source.html.ja">開発</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/gba/bulletgba/manual.html.en">English</a></li>
+                <li><a href="/gba/bulletgba/manual.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          操作方法
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            メインメニュー
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>Aボタン</dt>
+            <dd>選択</dd>
+
+            <dt>Bボタン</dt>
+            <dd>キャンセル</dd>
+
+            <dt>十字キー</dt>
+            <dd>カーソル移動</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Title" src="img/title.png" width="160" height="240" />
+      </div>
+    </div>
+    <hr width="50%" />
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+            ゲーム中
+        </h2>
+        <dl class="dl-horizontal">
+            <dt>Bボタン</dt>
+            <dd>メインメニューに戻る</dd>
+
+            <dt>Rボタン</dt>
+            <dd>次の弾幕へスキップ（シューティングモードではスキップできません）</dd>
+
+            <dt>スタート、セレクト</dt>
+            <dd>スローモードの切り替え</dd>
+
+            <dt>十字キー</dt>
+            <dd>移動</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Game" src="img/normal.png" width="160" height="240" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          モード
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <dl class="dl-horizontal">
+          <dt>Select Barrage</dt>
+          <dd>
+              弾幕リストから選択
+          </dd>
+
+          <dt>
+            Shooting Level 1-4
+          </dt>
+          <dd>
+              ボスを破壊
+          </dd>
+
+          <dt>BulletsMorph</dt>
+          <dd>
+              自動的に弾幕を生成
+          </dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Title" src="img/title.png" width="160" height="240" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          スローモード
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+            スタートボタンやセレクトボタンでスローモードを切り替えることができます。
+        </p>
+        <ul>
+            <li>弾速が1/4になります</li>
+            <li>弾の色が紫色になります</li>
+        </ul>
+        <p>
+            スローモードにするにはJewelが必要です。Jewelがゼロになったときや被弾したときはスローモードが解除されます。
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Normal"
+src="img/shooting.png" width="160" height="240"        />
+        <img alt="Slow"
+src="img/slowmode.png" width="160" height="240"        />
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

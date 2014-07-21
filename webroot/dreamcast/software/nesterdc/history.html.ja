@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>NesterDC - Dreamcast用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/dreamcast/software/nesterdc/index.html.ja">NesterDC</a>
+                </li>
+                <li class=active>
+                  <a href="/dreamcast/software/nesterdc/history.html.ja">更新履歴</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/dreamcast/software/nesterdc/history.html.en">English</a></li>
+                <li><a href="/dreamcast/software/nesterdc/history.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          更新履歴
+      </h1>
+    </div>
+      <h2>
+        Version 7.1
+          <small>
+2002年12月2日          </small>
+      </h2>
+      <ul>
+  <li>エミュレーション速度を最適化</li>
+  <li>NNNesterJ形式のチートコードに対応</li>
+  <li>数多くのNNNesterJ形式のチートコードをzipパッケージに同梱</li>
+  <li>DreamcastのUIまわりのソースコードを改善</li>
+  <li>開発環境を更新（gcc-3.2、binutils-2.13.1）</li>
+  <li>
+    ファミコンの外部機器に対応
+    <ul>
+      <li>アルカノイドパドル（Dreamcastのマウスで操作）</li>
+      <li>マージャンコントローラ（Dreamcastのキーボードで操作）</li>
+    </ul>
+  </li>
+  <li>その他、いくつかの改良</li>
+</ul>
+
+      <h2>
+        Version 7.0
+      </h2>
+      <ul>
+  <li>新しいフォントレンダラー</li>
+  <li>Dreamcastまわりのソースコードをリライト</li>
+  <li>バグフィックス</li>
+  <li>1番目のコントローラ以外でもシステムメニューを操作できるようになりました</li>
+  <li>Dreamcastのコントローラとファミコンのコントローラのマッピング設定</li>
+  <li>キーバインドを固定しました</li>
+  <li>KOSを1.1.8に更新しました</li>
+  <li>
+    NESの外部デバイス
+    <ul>
+      <li>キーボード</li>
+      <li>光線銃</li>
+      <li>ハイパーショット</li>
+    </ul>
+  </li>
+  <li>
+    Dreamcastのデバイス
+    <ul>
+      <li>アーケードスティック</li>
+      <li>Dreamcastのキーボード（jp106のみ）</li>
+      <li>Dreamcastのマウス</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 6.0
+      </h2>
+      <ul>
+  <li>バイリニアフィルタを追加しました</li>
+  <li>Game Genieに対応しました</li>
+  <li>KOSの更新によって、Dreamcastのコントローラの処理を改善しました</li>
+  <li>PPUのエミュレーション、およびN106のエミュレーションの速度を改善しました</li>
+</ul>
+
+      <h2>
+        Version 5.0
+      </h2>
+      <ul>
+  <li>フルスクリーン機能を追加しました</li>
+  <li>エミュレーション速度を最適化しました</li>
+  <li>4人プレイに対応しました</li>
+  <li>VGA出力に対応しました</li>
+  <li>その他細かい機能追加</li>
+</ul>
+
+      <h2>
+        Version 4.0
+      </h2>
+      <ul>
+  <li>CPU/PPU/APU/マッパーのエミュレーションをunofficial nesterから移植しました</li>
+  <li>VMUへのステートセーブに対応しました</li>
+  <li>クイックステートセーブに対応しました</li>
+  <li>その他細かい機能追加</li>
+</ul>
+
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

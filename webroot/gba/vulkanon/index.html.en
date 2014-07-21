@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vulkanon - Software for Gameboy Advance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class=active>
+                  <a href="/gba/vulkanon/index.html.en">Vulkanon</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/manual.html.en">Manual</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/history.html.en">Version History</a>
+                </li>
+                <li >
+                  <a href="/gba/vulkanon/source.html.en">Development</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/gba/vulkanon/index.html.en">English</a></li>
+                <li><a href="/gba/vulkanon/index.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>Vulkanon</h1>
+      <p>
+          A homebrew bullet hell shooter for Gameboy Advance.
+      </p>
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="files/vulkanon-2.1.rom.gba.zip">Download GBA ROM</a>      </p>
+      <p>
+        <small>
+            (16 Mbit Cartridge + 256 Kbit SRAM)
+        </small>
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          Movie &amp; Screenshots
+      </h1>
+    </div>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/C_I5ibjTuh0" frameborder="0"></iframe>
+    <hr />
+    <div class="row">
+      <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/vulkanon.jpg" alt="photol" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 518px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/vulkanon.jpg" alt="photol" />
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/title.png" alt="title" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 300px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/title.png" alt="title" />
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/ss-main.png" alt="main" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 300px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/ss-main.png" alt="main" />
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>
