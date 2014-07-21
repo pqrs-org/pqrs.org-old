@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Karabiner Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/appcast-devel.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 10.0.9</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+<!-- RENAME_INFORMATION -->
+
+<h2>About v10.0.9 Update</h2>
+<ul>
+  <li>v10.0.9: Updated prepared settings.</li>
+  <li>v10.0.8: Minor improvements.</li>
+  <li>v10.0.7: Fixed an issue: A message "Karabiner cannot connect with kernel extension" might be shown in some environment.</li>
+  <li>v10.0.6: Show an error alert when Karabiner is not placed in /Applications.</li>
+  <li>v10.0.5: Some improvements.</li>
+  <li>v10.0.5: Suppress AXNotifier logs.</li>
+  <li>v10.0.4: Updated prepared settings.</li>
+  <li>v10.0.3: Fixed an issue: The continuous key sequence will be improper order in environments which VMWare Fusion is installed.</li>
+  <li>v10.0.2: Added KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK.</li>
+  <li>v10.0.1: Updated prepared settings.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Mon, 21 Jul 2014 15:48:22 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.0.9.dmg"
+                 sparkle:version="10.0.9" length="3502908" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAfCqCkV5FQcyvx22bw0VPiVtJ29AhQaWczBir2OGY21dl4fhZ3vWIkl+Q=="
+                 />
+    </item>
+
+  </channel>
+</rss>
