@@ -5,7 +5,10 @@
     </div>
 
     <div class="col-lg-2">
-      <img src="/img/profile.jpg"
+      <img
+      {{#imgsrc}}
+        img/profile.jpg
+      {{/imgsrc}}
       {{#language_en}}
         alt="Profile Photo"
       {{/language_en}}
