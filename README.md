@@ -1,11 +1,11 @@
 # pqrs.org
 
-## Requirements
+## System Requirements
 
 * ruby
  * mustache
  * RMagick
-
+* tidy
 
 ## Generate HTML
 
