@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Karabiner - Software for OS X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Documents
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                      </li>
+                      <li class="active">
+                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Additional Apps
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.en">Donations</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/history.html.en">English</a></li>
+                <li><a href="/osx/karabiner/history.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          Version History
+      </h1>
+    </div>
+      <h2>
+        Version 10.0.0
+          <small>
+Jul 9, 2014          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.0.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>KeyRemap4MacBook has been renamed to "Karabiner".</li>
+  <li>
+    AXNotifier has been added. <br />
+    AXNotifier allows you to observe the window name (window title) and the focused ui element role (eg. whether textarea or not). <br />
+    For example, a setting that allows you to use hjkl keys as arrow keys in Finder when you are not editing text such as filename has been added.
+  </li>
+  <li>
+    A command line utility "warp-mouse-cursor-position" has been added.<br />
+    Settings which use this utility have been added, too.<br />
+    For example, this setting allows you to move mouse cursor by tapping fn key:
+    <ul>
+      <li>
+        Custom Shortcuts
+        <ul>
+          <li>
+            Move mouse cursor to the center of the frontmost app's window:
+            <ul>
+              <li>By pressing fn key alone.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>A message "Kernel extension is not loaded" might be shown in some environment.</li>
+      <li>Status Message will not be shown properly when you are using multiple displays.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        You can add your own modifiers by &lt;modifierdef&gt;.
+        <a href="https://pqrs.org/osx/karabiner/xml.html.en#modifier">Usage of &lt;modifierdef&gt;.</a>
+      </li>
+      <li>Added &lt;windowname_only&gt; and &lt;windowname_not&gt; filters.</li>
+      <li>Added &lt;uielementrole_only&gt; and &lt;uielementrole_not&gt; filters.</li>
+      <li>Added __PointingRelativeToKey__.</li>
+      <li>
+        Added __PassThrough__. You can disable all settings in specific situations.<br />
+        For example, this item allow you to disable all settings while you are using virtual machine.<br />
+        (This setting is already included in prepared settings.)
+<pre>  &lt;item&gt;
+    &lt;name&gt;Disable all settings while you are using virtual machine.&lt;/name&gt;
+    &lt;identifier&gt;private.ignore_virtual_machine&lt;/identifier&gt;
+    &lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
+    &lt;autogen&gt;__PassThrough__&lt;/autogen&gt;
+  &lt;/item&gt;
+</pre>
+      </li>
+      <li>You can use KeyCode and ConsumerKeyCode in __PointingRelativeToScroll__.</li>
+      <li>
+        Added ThresholdMillisecond into __HoldingKeyToKey__.<br />
+        You can control a holding threshold:
+<pre>  &lt;autogen&gt;
+    __HoldingKeyToKey__
+    KeyCode::ESCAPE,
+
+    @begin
+    KeyCode::ESCAPE
+    @end
+
+    @begin
+    KeyCode::LAUNCHPAD,
+    @end
+
+    &lt;!-- open Launchpad by press and hold the escape key for 2 seconds. --&gt;
+    ThresholdMillisecond::RawValue::2000,
+  &lt;/autogen&gt;
+</pre>
+      </li>
+      <li>Added __BlockUntilKeyUp__.</li>
+      <li>Added Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYS.</li>
+      <li>Added Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLL.</li>
+      <li>Added KeyCode::VK_NEGATIVE_LOCK_*. (eg. KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L.)</li>
+      <li>
+        Added KeyCode::VK_STICKY_ACTIVE_MODIFIERS_*:
+        <ul>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_TOGGLE</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_ON</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_OFF</li>
+        </ul>
+      </li>
+      <li>
+        An incompatible change:
+        <ul>
+          <li>
+            KeyCode::VK_JIS_TEMPORARY_* are removed.<br />
+            Please use &lt;inputsource_filter&gt;, Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP, KeyCode::JIS_EISUU and KeyCode::JIS_KANA instead.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 9.3.0
+          <small>
+Feb 15, 2014          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.3.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        These manipulators have been integrated into __KeyToKey__. <br />
+        You can change KeyCode, ConsumerKeyCode and PointingButton by __KeyToKey__.
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        You can use KeyCode, ConsumerKeyCode and PointingButton in these manipulators:
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>Improved KeyCode::VK_CONFIG_* behavior in the edge case.</li>
+      <li>
+        You can change the delay and speed of keyboard repeat per autogen. <br />
+        For example, this autogen changes control-p to up arrow with:
+        <ul>
+          <li>delay until repeat: 100ms</li>
+          <li>key repeat: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 9.2.0
+          <small>
+Nov 29, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.2.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, KeyRemap4MacBook will show an alert which urges you to restart.
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>System might crash when you disconnected a keyboard.</li>
+    </ul>
+  </li>
+  <li>Updated some prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 9.0.0
+          <small>
+Nov 15, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.0.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Optimized for OS X 10.9. <br />
+    KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
+  <li>Added delay configurations into multi-touch extension.</li>
+  <li>Drop power button support due to limitations of OS X 10.9. <br />
+    You can no longer change the power button on MacBook.</li>
+  <li>Fixed issues:
+    <ul><li>ENV_HOME does not work properly in included xml.</li>
+      <li>New plugged devices will not be recognized on OS X 10.9.</li>
+      <li>KeyRemap4MacBook disables the shut down dialog.</li>
+      <li>Fn key on Leopold FC660M cancels mouse dragging.</li></ul></li>
+  <li>Updated prepared settings:
+    <ul><li>"VIM Emulation" has been updated.</li>
+      <li>Fixed "MarkSet" in Emacs Mode.</li></ul></li>
+  <li>Updated installer.</li>
+  <li>Some minor improvements.</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+
+      <h2>
+        Version 8.4.0
+          <small>
+Sep 23, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.4.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        @begin and @end have been introduced in private.xml.<br />
+        You can use more than one key to remapped keys with __KeyOverlaidModifier__, __DoublePressModifier__.
+      </li>
+      <li>Shell commands execution has been supported with KeyCode::VK_OPEN_URL_*.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 8.3.0
+          <small>
+May 19, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.3.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
+  <li>Some minor improvements.</li>
+</ul>
+
+      <h2>
+        Version 8.2.0
+          <small>
+May 17, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.2.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
+  <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
+  <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
+</ul>
+
+      <h2>
+        Version 8.1.0
+          <small>
+May 12, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.1.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Power button remapping has been supported. (Thanks to Peter Kamb who is the author of PowerKey.)</li>
+  <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
+  <li>Added some styles into status message indicator.</li>
+  <li>Improved compatibility with <a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Supported more than three keys at __SimultaneousKeyPresses__.</li>
+      <li>Added KeyCode::VK_OPEN_URL_*.</li>
+      <li>Added KeyCode::VK_PARTIAL_KEYDOWN and KeyCode::VK_PARTIAL_KEYUP.</li>
+      <li>Added Option::POINTINGRELATIVETOSCROLL_TOKEYS.</li>
+      <li>Added __FlipPointingRelative__.</li>
+      <li>Added __FlipScrollWheel__.</li>
+      <li>
+        Added filters:
+        <ul>
+          <li>&lt;lastpressedphysicalkey_not&gt;</li>
+          <li>&lt;lastpressedphysicalkey_only&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_greaterthan&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_lessthan&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Some minor improvements.</li>
+</ul>
+
+      <h2>
+        Version 8.0.0
+          <small>
+Jan 30, 2013          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.0.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Preferences has been integrated into app.</li>
+  <li>Integrated a status message indicator. (Removed Growl support.)</li>
+  <li>Added a preference of ignored area into "multi-touch extension".</li>
+  <li>Changed KeyRemap4MacBook_cli location.</li>
+  <li>Dynamic KeyCode::VK_CHANGE_INPUTSOURCE definition feature has been added.</li>
+  <li>&lt;inputsource_only&gt; definition feature has been added.</li>
+  <li>Added Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDER.</li>
+  <li>Added DeviceLocation into &lt;device_only&gt;, &lt;device_not&gt; filters.</li>
+  <li>Changed --KeyToKey-- to __KeyToKey__ at &lt;autogen&gt;.</li>
+  <li>Some minor improvements.</li>
+</ul>
+
+      <h2>
+        Version 7.8.0
+          <small>
+Jun 26, 2012          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.8.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
+  <li>Fixed an issue that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
+  <li>Some minor improvements.</li>
+</ul>
+
+      <h2>
+        Version 7.7.0
+          <small>
+May 9, 2012          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.7.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
+</ul>
+
+      <h2>
+        Version 7.6.0
+          <small>
+May 8, 2012          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.6.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Improved XML processing engine. (XML reloading is 2x faster.)</li>
+  <li>Some minor improvements.</li>
+  <li>Increased prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this. <a href="xml.html.en#replacementdef">(reference)</a></li>
+      <li>Added &lt;include&gt;. You can load external xml files in private.xml. <a href="xml.html.en#include">(reference)</a></li>
+      <li>Added --ScrollWheelToKey--.</li>
+      <li>Added --ScrollWheelToScrollWheel--.</li>
+      <li>Added KeyCode::VK_WAIT_*.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.5.0
+          <small>
+Nov 2, 2011          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.5.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Support Growl-1.3 on notifications.</li>
+  <li>Some minor improvements.</li>
+  <li>Resolved a minor installer issue.</li>
+  <li>Increased prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>
+        Dynamic ApplicationType,DeviceVendor,DeviceProduct definition feature has been added.
+        <ul>
+          <li><a href="xml.html.en#appdef">Application Specific Setting</a></li>
+          <li><a href="xml.html.en#devicedef">Device Specific Setting</a></li>
+        </ul>
+      </li>
+      <li>Added --StripModifierFromScrollWheel--.</li>
+      <li>Added Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>Added KeyCode::VK_CONSUMERKEY_*.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.4.0
+          <small>
+Aug 23, 2011          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.4.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Some improvements on Mac OS X 10.7 (Lion).</li>
+  <li>
+    Removed "General &gt; Enable CapsLock LED Hack" from preferences.<br />
+    If you're using this setting for PCKeyboardHack, use <a href="seil.html.en#noaction">"No Action" configuration</a> instead.
+  </li>
+  <li>
+    Cleaned up "Simultaneous Vi Mode".<br />
+    (Some options have been moved into "Home Row Arrow and Modifier Mode".)
+  </li>
+  <li>
+    Added "[Key Overlaid Modifier] Initial Modifier Wait" preference into "Key Repeat" tab.<br />
+    KeyOverlaidModifier changes key to modifier after this wait.<br />
+    This preference is useful if your typing speed is too fast.
+  </li>
+  <li>Some minor improvements.</li>
+  <li>Increased prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Added KeyCode::VK_STICKY_*_FORCE_ON, KeyCode::VK_STICKY_*_FORCE_OFF.</li>
+      <li>Added --DropScrollWheel--.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.3.0
+          <small>
+May 17, 2011          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.3.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Improved stability when using Sticky Keys in Universal Access.</li>
+  <li>Improved stability when using multi-touch extension together.</li>
+  <li>Improved "Lazy-Modifier (KeyCode::VK_LAZY_*)" behavior.</li>
+  <li>Some minor improvements.</li>
+  <li>Increased prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Added KeyCode::VK_MOUSEKEY_BUTTON_*.</li>
+      <li>Added Option::NOREPEAT.</li>
+      <li>Added DeviceProduct::ANY.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.2.0
+          <small>
+Mar 8, 2011          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.2.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue that Growl notification did not work in specific environment.</li>
+  <li>Fixed an issue that the default setting of checkForUpdate was "Nothing".</li>
+  <li>Improved multi-touch extension around sleep/wakeup.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 7.1.0
+          <small>
+Feb 22, 2011          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.1.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac OS X.<br />
+    Activate "Change KeyPad Key &gt; Logitech Number Pad Hack".
+  </li>
+  <li>
+    Replaced StatusWindow with Growl.<br />
+    StatusWindow was displaying the lock state of modifiers and extra message.<br />
+    Now, these messages are shown by Growl.<br />
+  </li>
+  <li>
+    Attached an application named "multi-touch extension".<br />
+    This application activates specific setting while fingers touch the multi-touch device.<br />
+    <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html" target="_blank">ThumbSense</a> is one of the function which this application supplies.<br />
+    See <a href="document.html.en#multitouchextension">Multi-touch extension</a> for more details.
+  </li>
+  <li>Fixed some issues.</li>
+  <li>Increased prepared settings.</li>
+  <li>Updates for people adding new setting by oneself
+    <ul>
+      <li>Added &lt;modifier_only&gt;, &lt;modifier_not&gt; filters.</li>
+      <li>Added --ForceNumLockOn-- to &lt;autogen&gt;.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.0.0
+          <small>
+Dec 14, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.0.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Now, you can add your original settings very very easily.<br />
+    <a href="document.html.en#privatexml">How to add new settings.</a><br />
+    You don't need to build a package from source code anymore.
+  </li>
+  <li>
+    Added momentum scroll feature to "CursorMove to ScrollWheel" on Pointing Devices.<br />
+    If you don't like momentum scroll, turn on "Disable Momentum Scroll" by System Preferences.
+  </li>
+  <li>Added "Mouse Keys Mode". You can move mouse pointer by hjkl keys.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 6.9.0
+          <small>
+Sep 14, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.9.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Improved "Simultaneous Vi Mode" behavior. You can use Vi style navigation (hjkl) on all applications.</li>
+  <li>Fixed a problem that a broken package may be generated depending on environment when we build a package from a source code.</li>
+  <li>Fixed a problem which slight setting did not work properly.</li>
+  <li>Fixed a minor problem around C-x prefix of "Emacs Mode".</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 6.8.0
+          <small>
+Jul 27, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.8.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Changed the default value of key repeat wait.<br />
+    Please set "[Key Repeat] wait" to "30ms" from "Key Repeat" tab if you prefer the previous default value.
+  </li>
+  <li>Added "Pass Through Mode". You can cancel all settings temporarily.</li>
+  <li>Added "Sticky Modifiers".</li>
+  <li>Fixed minor issues.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 6.7.0
+          <small>
+May 15, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.7.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed the problem that a key and a mouse were not changed when we used KeyRemap4MacBook-6.6.0 with USB Overdrive.</li>
+</ul>
+
+      <h2>
+        Version 6.6.0
+          <small>
+May 11, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.6.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Added a function to define effective setting only with a specific keyboard. For example, "Change Control_L to Command_L" only in Happy Hacking Keyboard.</li>
+  <li>Added a function of "Simultaneous Key Presses" re-mapping.</li>
+  <li>Added virtual modifiers (ModifierFlag::EXTRA1 - ModifierFlag::EXTRA5).</li>
+  <li>Added a function to set the repeat speed of the functional keys (volume adjustment, etc).</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 6.5.0
+          <small>
+Mar 16, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.5.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Added the key repeat feature to re-mapped functional keys (volume adjustment, etc),</li>
+  <li>Added an Event Viewer application that could confirm a key event, a mouse event.</li>
+  <li>Merged the configuration GUI of menu bar to the system preference pane.</li>
+  <li>Added "Complete Vi Mode" that you can move the cursor only in "hjkl" without pushing the command key or any modifier keys.</li>
+  <li>Added KeyCode::VK_CHANGE_INPUTMODE_FRENCH, and keys for the other languages. It is a virtual key to change the Input Source directly.</li>
+  <li>Increased prepared settings.</li>
+  <li>Fixed some issues.</li>
+</ul>
+
+      <h2>
+        Version 6.4.0
+          <small>
+Jan 21, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.4.0.pkg.zip">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Improved stability when using with the driver of the 3rd vender such as "Logitech Control Center".</li>
+  <li>Fixed a mouse drag movement when convert a key into a mouse click.</li>
+  <li>Improved Paralles Desktop support at the recognition of the application.</li>
+</ul>
+
+      <h2>
+        Version 6.3.0
+          <small>
+Jan 5, 2010          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.3.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Supported Fast User Switching.</li>
+  <li>Added software update feature.</li>
+  <li>Improved the movement of the re-mapping.</li>
+  <li>Improved the judgement method of the internal/external keyboard.</li>
+  <li>Increased prepared settings.</li>
+  <li>Fixed some issues.</li>
+</ul>
+
+      <h2>
+        Version 6.2.0
+          <small>
+Nov 12, 2009          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.2.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed the issue that the server process crashes in English environment.</li>
+</ul>
+
+      <h2>
+        Version 6.1.0
+          <small>
+Nov 11, 2009          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.1.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Changed to enable the remapping of the third vendor's devices by default.</li>
+  <li>Fixed the memory leak of the server process.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 6.0.0
+          <small>
+Oct 8, 2009          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.0.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Stable release for Snow Leopard.</li>
+  <li>Fixed the third vendor's keyboard/mouse handling.</li>
+  <li>Fixed the issue that the fn key doesn't work when "Don't Remap the Internal/External Keyboard" is activated.</li>
+  <li>Improved behavior of key-repeating (continuing even if mouse button is clicked.)</li>
+  <li>Improved the compatibility with Spaces.</li>
+  <li>Fixed the uninstaller.</li>
+  <li>Fixed the CapsLock handling.</li>
+  <li>Improved the stability in the 64bit environment.</li>
+  <li>Fixed to run PreferencePane in 64bit.</li>
+  <li>Misc changes.</li>
+</ul>
+
+      <h2>
+        Version 5.1.0
+          <small>
+May 26, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-5.1.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed the kernel panic after returning from hibernation.</li>
+  <li>Fixed the kernel panic when all keyboard are detached on iMac.</li>
+  <li>Fixed the issue which "SettingList" didn't work on some environment.</li>
+  <li>Added uninstaller.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 5.0.0
+          <small>
+May 7, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-5.0.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Added the multi-user support.</li>
+  <li>Added the multiple settings per user.</li>
+  <li>Added remappings which are effective at only specific applications. (ex. Return -&gt; CMD+O only in Finder).</li>
+  <li>"Emacs Mode" will be disabled in Terminal.app and Emacs.app automatically.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 4.0.0
+          <small>
+Apr 2, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-4.0.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Fixed an issue which disable any remappings when you logged out.</li>
+  <li>Added the feature to enable remapping for only inside keyboard or an outside keyboard.</li>
+  <li>Supported PointingDevice remappings (Key to Mouseclick, Fn+CursorMove to ScrollWheel).</li>
+  <li>Changed a place to install. (/Library/org.pqrs/KeyRemap4MacBook)</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 3.2.0
+          <small>
+Feb 29, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.2.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Added an existence check of DoubleCommand to installer. If DoubleCommand has already installed, the installation will be aborted.</li>
+  <li>Support PowerBook G4 &amp; iBook.</li>
+  <li>Fixed the key repeat issue on VMware + emacsmode.</li>
+  <li>Fixed a minor PreferencePane issue.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 3.1.0
+          <small>
+Feb 18, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.1.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Correct the key repeat behavior.</li>
+  <li>Fixed a minor PreferencePane issue.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 3.0.0
+          <small>
+Feb 4, 2008          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.0.0.pkg.tar.gz">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>Added PreferencePane. Now, you can configure by System Preferences.</li>
+  <li>Added Key Repeat feature.</li>
+  <li>Improved handling of CapsLock.</li>
+  <li>Renamed many sysctl entries. Please set up by PreferencePane if you upgrade from older version.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 2.3.0
+          <small>
+Dec 15, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Fixed the issue around arrow keys and delete key when remap.fn2* is enable.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 2.2.0
+          <small>
+Nov 29, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Fixed the issue around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
+  <li>Support PowerBook enter key.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 2.1.0
+          <small>
+Nov 15, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 2.0.0
+          <small>
+Nov 1, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Added support for Leopard.</li>
+  <li>Added support for PowerBook restrictively.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 1.5.0
+          <small>
+Oct 10, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 1.4.0
+          <small>
+Sep 9, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 1.3.0
+          <small>
+Aug 15, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Updated StartupScript.</li>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 1.2.0
+          <small>
+Jun 10, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Increased prepared settings.</li>
+</ul>
+
+      <h2>
+        Version 1.0.2
+          <small>
+Feb 5, 2007          </small>
+
+      </h2>
+      <ul>
+  <li>Universal Binary.</li>
+</ul>
+
+      <h2>
+        Version 1.0.1
+          <small>
+Oct 9, 2006          </small>
+
+      </h2>
+      <ul>
+  <li>Initial release.</li>
+</ul>
+
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

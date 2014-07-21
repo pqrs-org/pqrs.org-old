@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Karabiner - Software for OS X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class=active>
+                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Documents
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Additional Apps
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.en">Donations</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/index.html.en">English</a></li>
+                <li><a href="/osx/karabiner/index.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>Karabiner</h1>
+      <p>
+          A powerful and stable keyboard customizer for OS X.
+      </p>
+
+      <ul style="margin-bottom: 20px">
+        <li>
+            <a href="document.html.en">You can easily customize</a> from prepared settings.
+        </li>
+        <li>
+            You can also <a href="document.html.en#privatexml">add your own settings by XML</a>.
+        </li>
+      </ul>
+
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="files/Karabiner-10.0.0.dmg">Download Karabiner-10.0.0
+            &nbsp;<span class="label label-default">For OS X 10.10, 10.9</span></a>      </p>
+
+      <div class="alert alert-info">
+        <ul>
+            <li>Prior to version 9.3.0, Karabiner was called <b>KeyRemap4MacBook</b>.</li>
+            <li>Karabiner and KeyRemap4MacBook work with all Mac products, including the MacBook series, iMac, Mac mini, and Mac Pro.</li>
+        </ul>
+      </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/KeyRemap4MacBook-8.4.0.dmg">Download KeyRemap4MacBook-8.4.0
+            &nbsp;<span class="label label-default">For OS X 10.8, 10.7, 10.6</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/KeyRemap4MacBook-5.1.0.pkg.tar.gz">Download KeyRemap4MacBook-5.1.0
+            &nbsp;<span class="label label-default">For OS X 10.5, 10.4</span></a>      </p>
+      <p>
+        <small>
+          <a href="history.html.en#history">
+              old versions and version history
+          </a>
+        </small>
+      </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          Installation
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="col-show-grid">
+          <h2>Step1</h2>
+
+          <p>
+              Open a downloaded dmg file, and then open a pkg file in dmg.
+          </p>
+          <p>
+            <img
+            alt="dmg"
+src="img/dmg.png" width="128" height="128"            />
+            <img
+            alt="pkg"
+src="img/pkg.png" width="128" height="128"            />
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="col-show-grid">
+          <h2>Step2</h2>
+
+          <p>
+              Installer is launched. Install Karabiner.
+          </p>
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/installer.png" alt="installer" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 680px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/installer.png" alt="installer" />
+      </div>
+    </div>
+  </div>
+</div>
+          <div class="alert alert-warning">
+              Karabiner will be installed into /Applications folder. <br />
+              <br />
+              <b>Note:</b><br />
+              Do not change the location of Karabiner.app from /Applications. <br />
+              <br />
+              For example, Karabiner will not work properly if you moved Karabiner.app into /Applications/Utilities.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="col-show-grid">
+          <h2>Step3</h2>
+
+          <p>
+              Launch Karabiner from Launchpad.
+              <a href="document.html.en">Learn more.</a>
+          </p>
+
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/launchpad-full.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad-full.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+
+          <p>
+            <img
+            alt="launchpad"
+src="img/launchpad.png" width="150" height="157"            />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

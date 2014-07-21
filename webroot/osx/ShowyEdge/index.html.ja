@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>ShowyEdge - OS X用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class=active>
+                  <a href="/osx/ShowyEdge/index.html.ja">ShowyEdge</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/ShowyEdge/index.html.en">English</a></li>
+                <li><a href="/osx/ShowyEdge/index.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>
+        ShowyEdge
+        <img src="/img/icon/osx/ShowyEdge.png" alt="ShowyEdge" width="128" height="128" style="margin-left: 20px" />
+      </h1>
+
+      <p>
+        <img src="img/menubar.png" alt="menu bar" style="border: 1px solid black; margin: 20px" />
+      </p>
+
+      <p>
+          ShowyEdgeは現在の入力ソースに応じて画面の上端にカラーバーを表示して、入力ソースを視認しやすくします。
+      </p>
+
+      <p style="margin: 40px 0">
+<a class="btn btn-primary btn-lg"
+            href="files/ShowyEdge-1.8.0.dmg">ShowyEdge-1.8.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.6以降で動作します。</span></a>      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+              インストール方法
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+                ダウンロードしたdmgファイルを開きます。
+            </p>
+            <p>
+              <img
+              alt="dmg"
+src="img/dmg.png" width="128" height="128"              />
+            </p>
+          </li>
+
+          <li>
+            <p>
+                ShowyEdgeのアイコンをApplicationsに移動してください。<br />
+                すると、ShowyEdgeがApplicationsにインストールされます。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/install.png" alt="Install ShowyEdge" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 830px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/install.png" alt="Install ShowyEdge" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+              LaunchpadからShowyEdgeを開いてください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                設定画面が開きますので、「Start ShowyEdge on system startup」をチェックしてください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/preferences.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/preferences.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                設定画面を閉じてください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/close.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/close.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+              使い方
+          </h1>
+        </div>
+
+        <p>
+            ShowyEdgeは多くの入力ソースに対して、あらかじめ色の設定が行われていますので、
+            設定を行わなくても使用することができます。
+        </p>
+
+        <p>
+            例えば、入力ソースをフランス語にするとカラーバーの色が「青、白、赤」になります。
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/french.png" alt="French" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 559px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/french.png" alt="French" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <h2>
+            色の設定
+        </h2>
+
+        <p>
+            あなたの入力ソースが設定されていなかったり、入力ソースの色を変更したい場合は、以下の手順で行います。
+        </p>
+
+        <ol class="steps">
+          <li>
+              LaunchpadからShowyEdgeを開いてください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              設定画面が開きますので、「＋」ボタンを押してください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/color1.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/color1.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              入力ソースの設定が追加されますので、色を変更してください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/color2.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/color2.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                設定画面を閉じてください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/close.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-9" tabindex="30009">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/close.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="quit">
+        <div class="page-header">
+          <h1>
+              終了する方法
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+                LaunchpadからActivity Monitorを起動してください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+  <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-10" tabindex="30010">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+            <p>
+                ShowyEdgeプロセスを終了させてください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+  <img src="img/activitymonitor.png" alt="Activity Monitor" />
+</a>
+<div class="modal fade" id="lightbox-11" tabindex="30011">
+  <div class="modal-dialog clickable" style="width: 974px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/activitymonitor.png" alt="Activity Monitor" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+              アンインストール方法
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+              まず、<a href="#quit">ShowyEdgeを終了させてください。</a>
+          </li>
+          <li>
+              FinderでApplicationsを開いてください。そしてShowyEdgeを削除してください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+  <img src="img/finder.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-12" tabindex="30012">
+  <div class="modal-dialog clickable" style="width: 830px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/finder.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="development">
+        <div class="page-header">
+          <h1>
+              開発
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/ShowyEdge" target="_blank">https://github.com/tekezo/ShowyEdge</a>
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+              更新履歴
+          </h1>
+        </div>
+
+          <h2>
+            Version 1.8.0
+              <small>
+2014年3月13日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.8.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>マルチディスプレイをサポートしました。</li>
+</ul>
+
+          <h2>
+            Version 1.7.0
+              <small>
+2013年10月18日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.7.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>設定に「Indicator opacity」を追加しました。</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+
+          <h2>
+            Version 1.6.0
+              <small>
+2013年10月13日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.6.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>設定に「Use custom frame」を追加しました。</li>
+  <li>設定に「Show icon in Dock」を追加しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+          <h2>
+            Version 1.4.0
+              <small>
+2013年6月16日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.4.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>ファイルのパーミッションを修正。</li>
+</ul>
+
+          <h2>
+            Version 1.3.0
+              <small>
+2013年6月14日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.3.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>最初のリリース。</li>
+</ul>
+
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-sidebar" id="bs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#installation">
+                  インストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#usage">
+                  使い方
+                </a>
+              </li>
+              <li>
+                <a href="#quit">
+                  終了する方法
+                </a>
+              </li>
+              <li>
+                <a href="#uninstall">
+                  アンインストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#development">
+                  開発
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  更新履歴
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

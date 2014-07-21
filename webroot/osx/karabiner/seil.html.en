@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Seil - Software for OS X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+      <link href="/assets/bootstrap-prettify/prettify.css" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Documents
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Additional Apps
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li class="active">
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.en">Donations</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/seil.html.en">English</a></li>
+                <li><a href="/osx/karabiner/seil.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>Seil</h1>
+
+      <p>
+          Utility for the caps lock key and some international keys in PC keyboards.
+      </p>
+
+      <ul>
+          <li>You can change the caps lock key to another key. (eg. escape key)</li>
+          <li>You can activate some international keys in PC keyboard.</li>
+      </ul>
+
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="files/Seil-10.9.0.dmg">Download Seil-10.9.0
+            &nbsp;<span class="label label-default">For OS X 10.10, 10.9, 10.8</span></a>      </p>
+
+      <div class="alert alert-info">
+          Prior to version 10.7.0, Seil was called <b>PCKeyboardHack</b>.
+      </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-9.0.0.dmg">Download PCKeyboardHack-9.0.0
+            &nbsp;<span class="label label-default">For OS X 10.7</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-7.4.0.dmg">Download PCKeyboardHack-7.4.0
+            &nbsp;<span class="label label-default">For OS X 10.6</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">Download PCKeyboardHack-5.1.0
+            &nbsp;<span class="label label-default">For OS X 10.5, 10.4</span></a>      </p>
+      <p>
+        <small>
+          <a href="#history">
+              old versions and version history
+          </a>
+        </small>
+      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+              Installation
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step1</h2>
+
+              <p>
+                  Open a downloaded dmg file, and then open a pkg file in dmg.
+              </p>
+              <p>
+                <img
+                alt="dmg"
+src="img/dmg.png" width="128" height="128"                />
+                <img
+                alt="pkg"
+src="img/pkg.png" width="128" height="128"                />
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step2</h2>
+
+              <p>
+                  Installer is launched. Install Seil.
+              </p>
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/seil-installer.png" alt="installer" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 680px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-installer.png" alt="installer" />
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="alert alert-warning">
+                  Seil will be installed into /Applications folder. <br />
+                  <br />
+                  <b>Note:</b><br />
+                  Do not change the location of Seil.app from /Applications. <br />
+                  <br />
+                  For example, Seil will not work properly if you moved Seil.app into /Applications/Utilities.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step3</h2>
+
+              <p>
+                  Launch Seil from Launchpad.
+              </p>
+
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/seil-launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+
+              <p>
+                <img
+                alt="icon"
+src="img/seil-icon.png" width="130" height="153"                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+              Usage
+          </h1>
+        </div>
+
+        <h2>Step1</h2>
+        <p>
+            Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
+        </p>
+        <p>
+            Then, click Seil.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/seil-launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="col-lg-4">
+            <img
+            alt="icon"
+src="img/seil-icon.png" width="130" height="153"            />
+          </div>
+        </div>
+
+        <br />
+
+        <p>
+          <span class="label label-info">Note</span>
+            If you're using PCKeyboardHack 8.0.0 or earlier,
+            <a href="img/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
+        </p>
+
+        <h2>Step2</h2>
+        <p>
+            Activate items and change the keycode if needed.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/seil-preferences.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-preferences.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div id="noaction">
+          <h2>
+            Step3
+            <span class="label label-info">Important</span>
+          </h2>
+          <p>
+              If you are using Seil to change the behavior of caps lock,
+              open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and
+              change caps lock configuration to "No Action".
+          </p>
+          <p>
+              You need to do this step to to reduce caps lock delay.
+          </p>
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/capslock.png" alt="No Action" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/capslock.png" alt="No Action" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+              Uninstall
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+              Press the "Launch uninstaller" button in Seil Preferences.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/seil-preferences-misc.png" alt="Seil" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-preferences-misc.png" alt="Seil" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              Proceed uninstallation.
+            <div class="row">
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 480px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 499px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-9" tabindex="30009">
+  <div class="modal-dialog clickable" style="width: 480px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              Then restart OS X.
+          </li>
+        </ol>
+      </section>
+
+      <section id="faq">
+        <div class="page-header">
+          <h1>
+              Q&amp;A
+          </h1>
+        </div>
+
+        <h2 id="specify-device">
+            How to change the caps lock key only in specified keyboards (retain an internal keyboard)?
+        </h2>
+
+        <p>
+            Seil changes key behavior in all keyboards. <br />
+            So, you cannot specify enabled devices in Seil.
+        </p>
+        <p>
+            But you can change keys only in specified devices by using Karabiner and Seil together. <br />
+            First, change the caps lock key to f19 key in Seil, and then change f19 key in Karabiner.
+        </p>
+
+        <p>
+            Steps:
+        </p>
+
+        <ol class="steps">
+          <li>
+            <p>
+                Change key code of the caps lock key to "80" in Seil. <br />
+                (Do not forget <a href="#usage">"No Action" configuration.</a>)
+            </p>
+            <p>
+                Then the caps lock key works as f19 key.
+            </p>
+          </li>
+          <li>
+            <p>
+                Change f19 key in Karabiner with <a href="xml.html.en#devicedef">&lt;device_only&gt; tag.</a>
+            </p>
+            <p>
+                Please use the following private.xml with replacing &lt;vendorid&gt; and &lt;productid&gt;.<br />
+                (<a href="document.html.en#privatexml">How to use private.xml.</a>)
+            </p>
+          </li>
+        </ol>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;devicevendordef&gt;
+    &lt;vendorname&gt;My_Keyboard_VendorID&lt;/vendorname&gt;
+    &lt;!-- *** Replace this value with yours. *** --&gt;
+    &lt;vendorid&gt;0x05ac&lt;/vendorid&gt;
+  &lt;/devicevendordef&gt;
+
+  &lt;deviceproductdef&gt;
+    &lt;productname&gt;My_Target_Keyboard_ProductID&lt;/productname&gt;
+    &lt;!-- *** Replace this value with yours. *** --&gt;
+    &lt;productid&gt;0x0245&lt;/productid&gt;
+  &lt;/deviceproductdef&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;Change f19 key to delete key&lt;/name&gt;
+    &lt;appendix&gt;(Change f19 key to caps lock key in internal keyboard.)&lt;/appendix&gt;
+    &lt;identifier&gt;private.f19_hack&lt;/identifier&gt;
+    &lt;block&gt;
+      &lt;!-- change f19 key to delete key --&gt;
+      &lt;device_only&gt;
+        DeviceVendor::My_Keyboard_VendorID,
+        DeviceProduct::My_Target_Keyboard_ProductID
+      &lt;/device_only&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::F19, KeyCode::DELETE&lt;/autogen&gt;
+    &lt;/block&gt;
+    &lt;block&gt;
+      &lt;!-- change f19 key to caps lock key in other devices --&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::F19, KeyCode::CAPSLOCK&lt;/autogen&gt;
+    &lt;/block&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>
+
+        <h2 id="beta-os-x">
+            Seil does not work on developer-only beta of OS X. Why?
+        </h2>
+        <p>
+            We need to modify secret values of OS X to performs purpose of Seil.
+        </p>
+        <p>
+            However, we cannot access those secret values via SDK which Apple provides.
+            We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
+        </p>
+        <p>
+            This source code will not be published until new OS X is shipped.
+            Therefore, Seil is intentionally disabled on beta version of OS X.
+        </p>
+        <p>
+            Please wait until new OS X is shipped from Apple.
+            And please wait new version of Seil for new OS X.
+        </p>
+      </section>
+
+      <section id="commandlineinterface">
+        <div class="page-header">
+          <h1>
+              Command line interface
+          </h1>
+        </div>
+
+        <p>
+            Seil provides a command line interface. (seil command)
+        </p>
+        <ul>
+          <li>
+              You can change settings.
+          </li>
+          <li>
+              You can export configuration.
+          </li>
+        </ul>
+
+        <h2>
+            How to show help
+        </h2>
+        <p>
+            Execute seil with no argument.
+        </p>
+        <pre>
+$ /Applications/Seil.app/Contents/Library/bin/seil
+Usage:
+  seil export
+  seil relaunch
+  seil set IDENTIFIER VALUE
+
+Example:
+  seil export
+  seil relaunch
+  seil set keycode_capslock 80
+</pre>
+
+        <h2 id="export">
+            About "export" option
+        </h2>
+        <ol>
+          <li>
+              Export configuration by "export" option.
+              <br />
+              The output is a shell script.
+            <pre>
+$ /Applications/Seil.app/Contents/Library/bin/seil export > ~/Desktop/seil-import.sh
+</pre>
+          </li>
+          <li>
+              You can import it from Terminal.
+            <pre>
+$ sh ~/Desktop/seil-import.sh
+...........................................
+</pre>
+          </li>
+        </ol>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+              Version History
+          </h1>
+        </div>
+
+          <h2>
+            Version 10.9.0
+              <small>
+Jun 22, 2014              </small>
+
+              <a class="btn btn-default" href="files/Seil-10.9.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>A message "Kernel extension is not loaded" might be shown in some environment.</li>
+      <li>Preferences might not show properly after migration until you change the configuration or relaunch Seil.</li>
+    </ul>
+  </li>
+</ul>
+
+          <h2>
+            Version 10.8.0
+              <small>
+Jun 18, 2014              </small>
+
+              <a class="btn btn-default" href="files/Seil-10.8.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>PCKeyboardHack has been renamed to "Seil" since version 10.8.0.</li>
+</ul>
+
+          <h2>
+            Version 10.7.0
+              <small>
+Jun 3, 2014              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.7.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Supported OS X 10.10.</li>
+  <li>Changed a way to launch at login. (LaunchAgents -&gt; Login Items)</li>
+</ul>
+
+          <h2>
+            Version 10.6.0
+              <small>
+Mar 14, 2014              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.6.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>A command line interface (PCKeyboardHack_cli) has been added.</li>
+</ul>
+
+          <h2>
+            Version 10.5.0
+              <small>
+Jan 26, 2014              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.5.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+</ul>
+
+          <h2>
+            Version 10.4.0
+              <small>
+Dec 1, 2013              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.4.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>
+    PCKeyboardHack no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, PCKeyboardHack will show an alert which urges you to restart.
+  </li>
+  <li>Added a remappable key: Application Key (Menu Key) on PC keyboard.</li>
+</ul>
+
+          <h2>
+            Version 10.2.0
+              <small>
+Nov 10, 2013              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.2.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Signed kext with Developer ID.</li>
+  <li>Updated installer.</li>
+</ul>
+
+          <h2>
+            Version 10.0.0
+              <small>
+Oct 20, 2013              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Supported OS X 10.9.</li>
+  <li>Icons have been updated. (Thanks to Kouji TAMURA.)</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+
+          <h2>
+            Version 9.0.0
+              <small>
+Jan 13, 2013              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-9.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>The preferences has been integrated into app.</li>
+  <li>Some minor improvements.</li>
+</ul>
+
+          <h2>
+            Version 8.0.0
+              <small>
+Aug 11, 2012              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-8.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Update for OS X 10.8 Mountain Lion.</li>
+</ul>
+
+          <h2>
+            Version 7.4.0
+              <small>
+Apr 24, 2012              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.4.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Changed package archive format to dmg from zip.</li>
+</ul>
+
+          <h2>
+            Version 7.3.0
+              <small>
+Feb 21, 2012              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.3.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Added a remappable key: International Keys, Lang Keys and keys on Sun Type6 Keyboard.</li>
+  <li>Updated source code for Xcode 4.3.</li>
+</ul>
+
+          <h2>
+            Version 7.2.0
+              <small>
+Oct 26, 2011              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.2.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Added a remappable key: ADB Keyboard Power Key.</li>
+  <li>Resolved a minor installer issue.</li>
+</ul>
+
+          <h2>
+            Version 7.1.0
+              <small>
+Aug 16, 2011              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.1.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Added remappable keys: Command, Control, Option, Shift, Escape, Delete, Return, Keypad Enter.</li>
+  <li>Added software update feature.</li>
+  <li>Fixed a minor issue on Mac OS X 10.7.</li>
+</ul>
+
+          <h2>
+            Version 7.0.0
+              <small>
+Jul 23, 2011              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.0.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Update for Mac OS X 10.7 Lion.</li>
+  <li>Removed "Change Control Key" feature. Use KeyRemap4MacBook to do it.</li>
+</ul>
+
+          <h2>
+            Version 6.3.0
+              <small>
+May 11, 2010              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.3.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Improved a log message.</li>
+</ul>
+
+          <h2>
+            Version 6.2.0
+              <small>
+Jan 20, 2010              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.2.0.pkg.zip">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Improved the Preference Pane.</li>
+</ul>
+
+          <h2>
+            Version 6.1.0
+              <small>
+Jan 5, 2010              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.1.0.pkg.tar.gz">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Supported Fast User Switching.</li>
+</ul>
+
+          <h2>
+            Version 6.0.0
+              <small>
+Sep 13, 2009              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.0.0.pkg.tar.gz">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Stable release for Snow Leopard..</li>
+</ul>
+
+          <h2>
+            Version 5.1.0
+              <small>
+May 26, 2008              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Minor Improvements.</li>
+</ul>
+
+          <h2>
+            Version 5.0.0
+              <small>
+May 7, 2008              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-5.0.0.pkg.tar.gz">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Minor Improvements.</li>
+</ul>
+
+          <h2>
+            Version 2.3.0
+              <small>
+Dec 15, 2007              </small>
+
+          </h2>
+          <ul>
+  <li>Initial release.</li>
+</ul>
+
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-sidebar" id="bs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#installation">
+                  Installation
+                </a>
+              </li>
+              <li>
+                <a href="#usage">
+                  Usage
+                </a>
+              </li>
+              <li>
+                <a href="#uninstall">
+                  Uninstall
+                </a>
+              </li>
+              <li>
+                <a href="#faq">
+                  Q&amp;A
+                </a>
+              </li>
+              <li>
+                <a href="#commandlineinterface">
+                  Command line interface
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  Version History
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
+      <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

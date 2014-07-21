@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ShowyEdge - Software for OS X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li class=active>
+                  <a href="/osx/ShowyEdge/index.html.en">ShowyEdge</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/ShowyEdge/index.html.en">English</a></li>
+                <li><a href="/osx/ShowyEdge/index.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>
+        ShowyEdge
+        <img src="/img/icon/osx/ShowyEdge.png" alt="ShowyEdge" width="128" height="128" style="margin-left: 20px" />
+      </h1>
+
+      <p>
+        <img src="img/menubar.png" alt="menu bar" style="border: 1px solid black; margin: 20px" />
+      </p>
+
+      <p>
+          ShowyEdge displays a color bar at the top edge of the screen depending on the current input source.<br />
+          You can recognize the current input source very easily even if you are using fullscreen apps.
+      </p>
+
+      <p style="margin: 40px 0">
+<a class="btn btn-primary btn-lg"
+            href="files/ShowyEdge-1.8.0.dmg">Download ShowyEdge-1.8.0
+            &nbsp;<span class="label label-default">For OS X 10.6+</span></a>      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+              Installation
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+                Open a downloaded dmg file.
+            </p>
+            <p>
+              <img
+              alt="dmg"
+src="img/dmg.png" width="128" height="128"              />
+            </p>
+          </li>
+
+          <li>
+            <p>
+                Move ShowyEdge icon into Applications icon.<br />
+                Then, ShowyEdge will be installed into Applications.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/install.png" alt="Install ShowyEdge" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 830px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/install.png" alt="Install ShowyEdge" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+              Open ShowyEdge from Launchpad.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                Preferences will be opened.<br />
+                Check "Start ShowyEdge on system startup".
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/preferences.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/preferences.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                Close Preferences.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/close.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/close.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+              Usage
+          </h1>
+        </div>
+
+        <p>
+            ShowyEdge provides preset colors for many input sources.<br />
+            Therefore you can use ShowyEdge without any configuration.
+        </p>
+
+        <p>
+            For example, a color bar becomes blue-white-red when you change input source to French.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/french.png" alt="French" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 559px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/french.png" alt="French" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <h2>
+            Color configuration
+        </h2>
+
+        <p>
+            You can configure colors by following procedures if there is no preset colors for your input source or you want to change the color.
+        </p>
+
+        <ol class="steps">
+          <li>
+              Open ShowyEdge from Launchpad.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              Preferences will be opened. Then, press "+" button on Preferences.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/color1.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/color1.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              Change colors of input source.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/color2.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/color2.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                Close Preferences.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/close.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-9" tabindex="30009">
+  <div class="modal-dialog clickable" style="width: 692px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/close.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="quit">
+        <div class="page-header">
+          <h1>
+              How to quit
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <p>
+                Open Activity Monitor from Launchpad.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+  <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-10" tabindex="30010">
+  <div class="modal-dialog clickable" style="width: 700px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+            <p>
+                Quit ShowyEdge processes.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+  <img src="img/activitymonitor.png" alt="Activity Monitor" />
+</a>
+<div class="modal fade" id="lightbox-11" tabindex="30011">
+  <div class="modal-dialog clickable" style="width: 974px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/activitymonitor.png" alt="Activity Monitor" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+              Uninstall
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+              First, <a href="#quit">quit ShowyEdge.</a>
+          </li>
+          <li>
+              Open Applications in Finder. Then, delete ShowyEdge.
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+  <img src="img/finder.png" alt="Finder" />
+</a>
+<div class="modal fade" id="lightbox-12" tabindex="30012">
+  <div class="modal-dialog clickable" style="width: 830px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/finder.png" alt="Finder" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="development">
+        <div class="page-header">
+          <h1>
+              Development
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/ShowyEdge" target="_blank">https://github.com/tekezo/ShowyEdge</a>
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+              Version History
+          </h1>
+        </div>
+
+          <h2>
+            Version 1.8.0
+              <small>
+Mar 13, 2014              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.8.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Multiple displays have been supported.</li>
+</ul>
+
+          <h2>
+            Version 1.7.0
+              <small>
+Oct 18, 2013              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.7.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Added "Indicator opacity" configuration.</li>
+  <li>Signed with Developer ID..</li>
+</ul>
+
+          <h2>
+            Version 1.6.0
+              <small>
+Oct 13, 2013              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.6.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Added "Use custom frame" configuration.</li>
+  <li>Added "Show icon in Dock" configuration.</li>
+  <li>Fixed minor issues.</li>
+</ul>
+
+          <h2>
+            Version 1.4.0
+              <small>
+Jun 16, 2013              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.4.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Revised file permissions.</li>
+</ul>
+
+          <h2>
+            Version 1.3.0
+              <small>
+Jun 14, 2013              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-1.3.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>First release.</li>
+</ul>
+
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-sidebar" id="bs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#installation">
+                  Installation
+                </a>
+              </li>
+              <li>
+                <a href="#usage">
+                  Usage
+                </a>
+              </li>
+              <li>
+                <a href="#quit">
+                  How to quit
+                </a>
+              </li>
+              <li>
+                <a href="#uninstall">
+                  Uninstall
+                </a>
+              </li>
+              <li>
+                <a href="#development">
+                  Development
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  Version History
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

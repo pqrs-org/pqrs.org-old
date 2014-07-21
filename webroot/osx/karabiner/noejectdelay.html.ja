@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>NoEjectDelay - OS X用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    ドキュメント
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    追加アプリ
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li class="active">
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.ja">寄付</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/noejectdelay.html.en">English</a></li>
+                <li><a href="/osx/karabiner/noejectdelay.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>NoEjectDelay</h1>
+
+      <ul>
+          <li>NoEjectDelayはEjectキーの遅延を無効化します。</li>
+          <li>NoEjectDelayはF12Eject機能を無効化します。</li>
+      </ul>
+
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-5.4.0.dmg">NoEjectDelay-5.4.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.9、10.8用</span></a>      </p>
+      <div class="alert alert-warning">
+          注意: <br />
+          NoEjectDelayはOS X 10.10 (Yosemite)では動作しません。<br />
+          OS X 10.10がリリースされた後に、OS X 10.10向けのNoEjectDelayをリリースします。<br />
+      </div>
+      <p>
+<a class="btn btn-default"
+            href="files/NoEjectDelay-4.1.0.dmg">NoEjectDelay-4.1.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.7用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/NoEjectDelay-3.6.0.dmg">NoEjectDelay-3.6.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.6用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/NoEjectDelay-1.1.0.pkg.tar.gz">NoEjectDelay-1.1.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.5、10.4用</span></a>      </p>
+      <p>
+        <small>
+          <a href="#history">
+              古いバージョンのダウンロード・更新履歴
+          </a>
+        </small>
+      </p>
+
+      <hr />
+      <p>
+<a class="btn btn-default"
+            href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラをダウンロード</a>      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+              インストール方法
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step1</h2>
+
+              <p>
+                  ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
+              </p>
+              <p>
+                <img
+                alt="dmg"
+src="img/dmg.png" width="128" height="128"                />
+                <img
+                alt="pkg"
+src="img/pkg.png" width="128" height="128"                />
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step2</h2>
+
+              <p>
+                  インストーラが起動しますので、NoEjectDelayをインストールします。
+              </p>
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/noejectdelay-installer.png" alt="installer" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 680px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelay-installer.png" alt="installer" />
+      </div>
+    </div>
+  </div>
+</div>
+              <br />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+              使い方
+          </h1>
+        </div>
+
+        <p>
+            設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
+        </p>
+      </section>
+
+      <section id="show-version">
+        <div class="page-header">
+          <h1>
+              インストール済みのバージョンを知る方法
+          </h1>
+        </div>
+
+        <p>
+            以下の2通りの方法があります。
+        </p>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+                ターミナルを使う
+            </h3>
+          </div>
+          <div class="panel-body">
+            <p>
+                以下のコマンドをターミナルで実行してください。
+            </p>
+
+            <pre>
+$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
+org.pqrs.driver.NoEjectDelay (5.4.0)
+org.pqrs.driver.Seil (10.9.0)
+org.pqrs.driver.Karabiner (10.0.0)
+</pre>
+
+            <p>
+                数字（5.4.0）がインストール済みのバージョンです。
+            </p>
+          </div>
+        </div>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+                アプリケーションを使う
+            </h3>
+          </div>
+          <div class="panel-body">
+            <p>
+                ShowInstalledAppsVersion.appをダウンロードして実行してください。
+            </p>
+
+            <p>
+<a class="btn btn-primary"
+                  href="files/ShowInstalledAppsVersion.dmg">ShowInstalledAppsVersion.appをダウンロード</a>            </p>
+
+            <p>
+                以下のテキストでテキストエディットが開きます。
+            </p>
+
+            <pre>
+org.pqrs.driver.NoEjectDelay (5.4.0)
+org.pqrs.driver.Seil (10.9.0)
+org.pqrs.driver.Karabiner (10.0.0)
+</pre>
+
+            <p>
+                数字（5.4.0）がインストール済みのバージョンです。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+              アンインストール方法
+          </h1>
+        </div>
+
+        <ol>
+          <li>
+              <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
+          </li>
+          <li>
+              アンインストーラを実行してください。
+            <div class="row">
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 420px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 526px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 534px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              その後にOS Xを再起動してください。
+          </li>
+        </ol>
+      </section>
+
+      <section id="faq">
+        <div class="page-header">
+          <h1>
+              Q&amp;A
+          </h1>
+        </div>
+
+        <h2>
+            NoEjectDelayが開発者向けのベータ版のOS Xで動作しません。なぜですか？
+        </h2>
+        <p>
+            NoEjectDelayの機能を実現させるにはOS Xの隠された値を変更する必要があります。
+        </p>
+        <p>
+            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
+        </p>
+        <p>
+            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
+        </p>
+        <p>
+            Appleから新しいOS Xがリリースされ、新しいOS X向けのNoEjectDelayがリリースされるまでお待ちください。
+        </p>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+              更新履歴
+          </h1>
+        </div>
+
+          <h2>
+            Version 5.4.0
+              <small>
+2014年2月27日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-5.4.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>OS X 10.9.2でカーネルパニックを引き起こします。</li>
+    </ul>
+  </li>
+</ul>
+
+          <h2>
+            Version 5.3.0
+              <small>
+2013年12月1日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-5.3.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>NoEjectDelayのインストールやアップグレード時にシステムの再起動が不要になりました。</li>
+</ul>
+
+          <h2>
+            Version 5.2.0
+              <small>
+2013年11月10日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-5.2.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>kextをDeveloper IDで署名しました。</li>
+  <li>インストーラを更新しました。</li>
+</ul>
+
+          <h2>
+            Version 5.0.0
+              <small>
+2013年10月20日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-5.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.9に対応しました。</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+
+          <h2>
+            Version 4.1.0
+              <small>
+2013年1月13日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-4.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>インストーラのささいな問題を修正しました。</li>
+</ul>
+
+          <h2>
+            Version 4.0.0
+              <small>
+2012年8月5日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-4.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.8 Mountain Lionに対応しました。</li>
+</ul>
+
+          <h2>
+            Version 3.6.0
+              <small>
+2012年8月5日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.6.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>F12Ejectを無効にする機能を追加しました。</li>
+</ul>
+
+          <h2>
+            Version 3.4.0
+              <small>
+2012年4月24日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.4.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>パッケージの形式をzipからdmgに変更しました。</li>
+</ul>
+
+          <h2>
+            Version 3.3.0
+              <small>
+2012年2月21日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.3.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>ソースコードについてXcode 4.3対応をしました。</li>
+</ul>
+
+          <h2>
+            Version 3.2.0
+              <small>
+2011年10月26日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.2.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>インストーラの小さな問題を修正しました。</li>
+</ul>
+
+          <h2>
+            Version 3.1.0
+              <small>
+2011年8月16日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.1.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Mac OS X 10.7での小さな問題を修正しました。</li>
+</ul>
+
+          <h2>
+            Version 3.0.0
+              <small>
+2011年7月23日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-3.0.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Mac OS X 10.7 Lionに対応しました。</li>
+</ul>
+
+          <h2>
+            Version 2.1.0
+              <small>
+2010年5月11日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-2.1.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>細かいバグ修正を行ないました。</li>
+</ul>
+
+          <h2>
+            Version 2.0.0
+              <small>
+2009年9月13日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-2.0.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Snow Leopard用の安定版です。</li>
+</ul>
+
+          <h2>
+            Version 1.1.0
+              <small>
+2008年5月26日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-1.1.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>細かい改善。</li>
+</ul>
+
+          <h2>
+            Version 1.0.0
+              <small>
+2008年5月7日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-1.0.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>最初のリリース。</li>
+</ul>
+
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-sidebar" id="bs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#installation">
+                  インストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#usage">
+                  使い方
+                </a>
+              </li>
+              <li>
+                <a href="#show-version">
+                  インストール済みのバージョンを知る方法
+                </a>
+              </li>
+              <li>
+                <a href="#uninstall">
+                  アンインストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#faq">
+                  Q&amp;A
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  更新履歴
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Karabiner - OS X用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    ドキュメント
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
+                      </li>
+                      <li class="active">
+                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    追加アプリ
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.ja">寄付</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/history.html.en">English</a></li>
+                <li><a href="/osx/karabiner/history.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+          更新履歴
+      </h1>
+    </div>
+      <h2>
+        Version 10.0.0
+          <small>
+2014年7月9日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.0.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>KeyRemap4MacBookはKarabinerという名前になりました。</li>
+  <li>
+    AXNotifierを追加しました。<br />
+    AXNotifierはウィンドウの名前（ウィンドウタイトル）やフォーカスされたUIエレメントのロール（例えば、テキストエリアか否か）を観測します。<br />
+    例えば、Finderでテキストの変更（ファイル名など）をしていないときに、hjklキーを矢印キーとして使うことができる設定が追加されました。
+  </li>
+  <li>
+    warp-mouse-cursor-positionというコマンドラインユーティリティを追加しました。<br />
+    また、それを使う設定も追加しました。<br />
+    例えば、以下の設定を使うと、fnキーを単独で押したときにマウスカーソルをウィンドウの中央に移動します。
+    <ul>
+      <li>
+        Custom Shortcuts
+        <ul>
+          <li>
+            Move mouse cursor to the center of the frontmost app's window:
+            <ul>
+              <li>By pressing fn key alone.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Kernel extension is not loaded」というメッセージが表示されることがあります。</li>
+      <li>複数のディスプレイを使っているときに、ステータスメッセージが正しく表示されません。</li>
+    </ul>
+  </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>
+        &lt;modifierdef&gt;でモディファイアを追加できるようになりました。
+        <a href="https://pqrs.org/osx/karabiner/xml.html.ja#modifier">Usage of &lt;modifierdef&gt;.</a>
+      </li>
+      <li>&lt;windowname_only&gt;と&lt;windowname_not&gt;フィルタを加えました。</li>
+      <li>&lt;uielementrole_only&gt;と&lt;uielementrole_not&gt;フィルタを加えました。</li>
+      <li>__PointingRelativeToKey__を加えました。</li>
+      <li>
+        __PassThrough__を加えました。指定した条件のときに全ての設定を無効にすることができます。<br />
+        例えば、以下の設定は、仮想マシン上で全ての設定を無効にします。<br />
+        （この設定は既存の設定に含まれています。）
+<pre>  &lt;item&gt;
+    &lt;name&gt;Disable all settings while you are using virtual machine.&lt;/name&gt;
+    &lt;identifier&gt;private.ignore_virtual_machine&lt;/identifier&gt;
+    &lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
+    &lt;autogen&gt;__PassThrough__&lt;/autogen&gt;
+  &lt;/item&gt;
+</pre>
+      </li>
+      <li>__PointingRelativeToScroll__でKeyCodeとConsumerKeyCodeが使えるようになりました。.</li>
+      <li>
+        __HoldingKeyToKey__でThresholdMillisecondが使えるようになりました。<br />
+        長押しの閾値を指定できます:
+<pre>  &lt;autogen&gt;
+    __HoldingKeyToKey__
+    KeyCode::ESCAPE,
+
+    @begin
+    KeyCode::ESCAPE
+    @end
+
+    @begin
+    KeyCode::LAUNCHPAD,
+    @end
+
+    &lt;!-- open Launchpad by press and hold the escape key for 2 seconds. --&gt;
+    ThresholdMillisecond::RawValue::2000,
+  &lt;/autogen&gt;
+</pre>
+      </li>
+      <li>__BlockUntilKeyUp__を追加しました。</li>
+      <li>Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYSを追加しました。</li>
+      <li>Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLLを追加しました。</li>
+      <li>KeyCode::VK_NEGATIVE_LOCK_*を追加しました。（例: KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L）</li>
+      <li>
+        KeyCode::VK_STICKY_ACTIVE_MODIFIERS_*を追加しました:
+        <ul>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_TOGGLE</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_ON</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_OFF</li>
+        </ul>
+      </li>
+      <li>
+        仮想キーの削除:
+        <ul>
+          <li>
+            KeyCode::VK_JIS_TEMPORARY_*を削除しました。<br />
+            &lt;inputsource_filter&gt;、Option::KEYTOKEY_BEFORE_KEYDOWN、Option::KEYTOKEY_AFTER_KEYUP、KeyCode::JIS_EISUU、KeyCode::JIS_KANAをかわりに使ってください。
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 9.3.0
+          <small>
+2014年2月15日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.3.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>自動ログインを有効にしていると、特定のマシンで「Kernel extension is not loaded」というアラートが出る場合があります。</li>
+    </ul>
+  </li>
+  <li>いくつかの既存の設定を更新しました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点
+    <ul>
+      <li>
+        以下の命令は__KeyToKey__に統合されました。<br />
+        __KeyToKey__にてKeyCodeやConsumerKeyCode、PointingButtonを変更できます。
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        以下の命令でKeyCodeやConsumerKeyCode、PointingButtonを使えるようになりました。
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>特殊なケースでのKeyCode::VK_CONFIG_*の挙動を改善しました。</li>
+      <li>
+        autogenごとにキーリピートの速度の設定が出来るようになりました。<br />
+        例えば、以下のautogenではキーリピートの速度を変更しつつ、control-pをカーソルキー（上）に変更します。<br />
+        <ul>
+          <li>キーリピートまでの時間: 100ms</li>
+          <li>キーリピートの速度: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 9.2.0
+          <small>
+2013年11月29日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.2.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    KeyRemap4MacBookのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
+    もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>キーボードを抜いた際にシステムがクラッシュすることがある。</li>
+    </ul>
+  </li>
+  <li>いくつかの既存の設定を更新しました。</li>
+</ul>
+
+      <h2>
+        Version 9.0.0
+          <small>
+2013年11月15日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-9.0.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>OS X 10.9向けに最適化しました。<br />
+    KeyRemap4MacBook 9.0.0はOS X 10.9以降でのみ動作します。</li>
+  <li>multi-touch extensionで設定を切り替えるまでの遅延を設定できるようにしました。</li>
+  <li>OS X 10.9の制限により、電源ボタンの変更機能を削除しました。<br />
+    もうMacBookの電源ボタンを変更することは出来ません。</li>
+  <li>下記の問題を修正しました:
+    <ul><li>private.xmlにおいて、ENV_HOMEが正常に動作しないことがある。</li>
+      <li>OS X 10.9で、新しく接続されたデバイスに設定が反映されない。</li>
+      <li>シャットダウンダイアログが無効になってしまう。</li>
+      <li>Leopold FC660MキーボードのFnキーでマウスドラッグが中断されてしまう。</li></ul></li>
+  <li>既存の設定を更新しました:
+    <ul><li>「VIM Emulation」を更新しました。</li>
+      <li>Emacs Modeの「MarkSet」を修正しました。</li></ul></li>
+  <li>インストーラを更新しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+
+      <h2>
+        Version 8.4.0
+          <small>
+2013年9月23日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.4.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>アイコンを改善しました。（Kouji TAMURAさんによる）</li>
+  <li>
+    自分で設定を追加する人向けの更新点:
+    <ul>
+      <li>
+        @begin、@end記法が導入されました。<br />
+        __KeyOverlaidModifier__や__DoublePressModifier__で複数のキーに変換することが出来ます。
+      </li>
+      <li>KeyCode::VK_OPEN_URL_*でシェルのコマンドを実行することが出来るようになりました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 8.3.0
+          <small>
+2013年5月19日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.3.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>OS Xの「調べる」機能（トラックパッドを3本指でタップ）が正常に動作しない問題を修正しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+      <h2>
+        Version 8.2.0
+          <small>
+2013年5月17日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.2.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Adobe Fireworksでオブジェクトが選択できなくなる問題を修正しました。</li>
+  <li>「General &gt; Don't remap XXX」が即座に反映されない問題を修正しました。</li>
+  <li>control-ejectがOS X 10.7、10.6にて正常に動作しない問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 8.1.0
+          <small>
+2013年5月12日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.1.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>パワーボタンのリマッピングに対応しました。（PowerKeyの作者であるPeter Kambさんに感謝します。）</li>
+  <li>「Quit KeyRemap4MacBook」をメニューバーに追加しました。</li>
+  <li>ステータス表示の見た目の種類を増やしました。</li>
+  <li><a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>がインストールされている場合の挙動を改善しました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>__SimultaneousKeyPresses__において、3キー以上の同時押しに対応しました。</li>
+      <li>KeyCode::VK_OPEN_URL_*を追加しました。</li>
+      <li>KeyCode::VK_PARTIAL_KEYDOWN、KeyCode::VK_PARTIAL_KEYUPを追加しました。</li>
+      <li>Option::POINTINGRELATIVETOSCROLL_TOKEYSを追加しました。</li>
+      <li>__FlipPointingRelative__を追加しました。</li>
+      <li>__FlipScrollWheel__を追加しました。</li>
+      <li>
+        以下のフィルタを追加しました。
+        <ul>
+          <li>&lt;lastpressedphysicalkey_not&gt;</li>
+          <li>&lt;lastpressedphysicalkey_only&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_greaterthan&gt;</li>
+          <li>&lt;elapsedtimesincelastpressed_lessthan&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+      <h2>
+        Version 8.0.0
+          <small>
+2013年1月30日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-8.0.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>設定画面をアプリに統合しました。</li>
+  <li>ステータス表示をアプリに統合しました。（Growlのサポートを辞めました。）</li>
+  <li>マルチタッチ拡張において、タッチを無視するエリアを設定できるようにしました。</li>
+  <li>KeyRemap4MacBook_cliの場所を変更しました。</li>
+  <li>KeyCode::VK_CHANGE_INPUTSOURCEを動的に定義できるようになりました。</li>
+  <li>&lt;inputsource_only&gt;を動的に定義できるようになりました。</li>
+  <li>Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDERを追加しました。</li>
+  <li>&lt;device_only&gt;, &lt;device_not&gt;フィルタにおいて、DeviceLocationが指定できるようになりました。</li>
+  <li>&lt;autogen&gt;において、--KeyToKey--を__KeyToKey__に変更しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+      <h2>
+        Version 7.8.0
+          <small>
+2012年6月26日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.8.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>「General &gt; Don't restore modifiers in the mouse event」が正しく動作しない問題を修正しました。</li>
+  <li>private.xmlにおいて&lt;identifier&gt;に空白が含まれる場合に設定が有効にならない問題を修正しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+      <h2>
+        Version 7.7.0
+          <small>
+2012年5月9日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.7.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+<li>KeyRemap4MacBook-7.6.0における、日本語やいくつかの言語で入力ソースの検出がうまく出来ない問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 7.6.0
+          <small>
+2012年5月8日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.6.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>XMLの処理エンジンを改善しました。（XMLの再読み込みが2倍速くなりました。）</li>
+  <li>いくつかの細かな改善を行ないました。</li>
+  <li>約110種類の設定を加えました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>
+        &lt;replacementdef&gt;を加えました。これでプリセットの設定を調整することが出来ます。
+        <a href="xml.html.ja#replacementdef">（リファレンス）</a>
+      </li>
+      <li>
+        &lt;include&gt;を加えました。private.xmlで他のXMLを読み込むことが出来ます。
+        <a href="xml.html.ja#include">（リファレンス）</a>
+      <li>--ScrollWheelToKey-- を加えました。</li>
+      <li>--ScrollWheelToScrollWheel-- を加えました。</li>
+      <li>KeyCode::VK_WAIT_* を加えました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.5.0
+          <small>
+2011年11月2日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.5.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      
+<ul>
+  <li>通知機能でGrowl-1.3に対応しました。</li>
+  <li>いくつかの細かな改善を行ないました。</li>
+  <li>インストーラの小さな問題を修正しました。</li>
+  <li>約40種類の設定を加えました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>
+        ApplicationType,DeviceVendor,DeviceProductを動的に定義できるようになりました。
+        <ul>
+          <li><a href="xml.html.ja#appdef">ApplicationTypeについて（英語）</a></li>
+          <li><a href="xml.html.ja#devicedef">DeviceVendor,DeviceProductについて（英語）</a></li>
+        </ul>
+      </li>
+      <li>--StripModifierFromScrollWheel--を加えました。</li>
+      <li>Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUPを加えました。</li>
+      <li>KeyCode::VK_CONSUMERKEY_*を加えました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.4.0
+          <small>
+2011年8月23日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.4.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Mac OS X 10.7での動作を改善しました。</li>
+  <li>
+    「General &gt; Enable CapsLock LED Hack」の設定を削除しました。<br />
+    PCKeyboardHackのためにこの設定を使っている場合は、<a href="seil.html.ja#noaction">「アクションなし」の方法</a>に変更してください。
+  </li>
+  <li>
+    「Simultaneous Vi Mode」を整理しました。<br />
+    いくつかの設定は「Home Row Arrow and Modifier Mode」に移動しました。
+  </li>
+  <li>
+    「Key Repeat」タブの設定に「[Key Overlaid Modifier] Initial Modifier Wait」を加えました。<br />
+    ここで設定した時間だけ、KeyOverlaidModifierがキーを修飾キーに変更するのを待ちます。<br />
+    キーボード入力がとても速い人にとって有効なオプションです。
+  </li>
+  <li>いくつかの細かな改善を行ないました。</li>
+  <li>いくつかの設定を加えました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>KeyCode::VK_STICKY_*_FORCE_ON, KeyCode::VK_STICKY_*_FORCE_OFFを加えました。</li>
+      <li>--DropScrollWheel--を加えました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.3.0
+          <small>
+2011年5月17日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.3.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>ユニバーサルアクセスの複合キーを使用している場合の安定性を改善しました。</li>
+  <li>multi-touch extensionを使用している場合の安定性を改善しました。</li>
+  <li>遅延モディファイア(KeyCode::VK_LAZY_*)の動作を改善しました。</li>
+  <li>いくつかの細かな改善を行ないました。</li>
+  <li>約80種類の設定を加えました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>KeyCode::VK_MOUSEKEY_BUTTON_*を加えました。</li>
+      <li>Option::NOREPEAT を加えました。</li>
+      <li>DeviceProduct::ANYを加えました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.2.0
+          <small>
+2011年3月8日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.2.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Growl通知が一部の環境で動作しない問題を修正しました。</li>
+  <li>ソフトウェアアップデートの初期設定値が「確認しない」になっていた問題を修正しました。</li>
+  <li>multi-touch extensionの動作を改善しました。</li>
+  <li>約20種類の設定を加えました。</li>
+</ul>
+
+      <h2>
+        Version 7.1.0
+          <small>
+2011年2月22日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.1.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Mac OS Xで使うことが出来なかったLogitech Number Padを使えるようにするための設定を追加しました。<br />
+    "Change KeyPad Key &gt; Logitech Number Pad Hack"を有効にしてください。
+  </li>
+  <li>
+    通知ウィンドウをGrowlを使うように変更しました。<br />
+  </li>
+  <li>
+    multi-touch extensionというアプリケーションを添付しました。<br />
+    このアプリケーションはマルチタッチデバイスに指が触れている間だけ、指定した設定を有効にします。<br />
+    <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html" target="_blank">ThumbSense</a>はこのアプリケーションが提供する機能の一つです。<br />
+    詳しくは <a href="document.html.ja#multitouchextension">マルチタッチ拡張</a>をご覧ください。
+  </li>
+  <li>
+    設定の追加・調整
+    <ul>
+      <li>
+        左右のコマンドキーを「英数／かな」キーとしても使う設定について、「英数／かな」キーを優先する設定を追加しました。
+      </li>
+      <li>新親指シフト配列「飛鳥」に対応しました。有効にするには設定から「asuka」で検索してください。</li>
+      <li>親指シフト、下駄配列の「ローマ字モード」について、高速打鍵時の挙動を改善しました。</li>
+      <li>
+        <a href="http://pi200k.blog35.fc2.com/?no=70" target="_blank">天地逆Dvorak配列</a>を加えました。外付けキーボードを逆さにして使う配列です。有効にするには設定から「pi200k」で検索してください。
+        <ul>
+          <li><a href="img/jis_updown_dvorak/normal.png">通常時の画像</a></li>
+          <li><a href="img/jis_updown_dvorak/extra1.png">Ex1モディファイア押下時の画像</a></li>
+          <li><a href="img/jis_updown_dvorak/extra2.png">Ex2モディファイア押下時の画像</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>いくつかの問題を修正しました。</li>
+  <li>約140種類の設定を加えました。</li>
+  <li>
+    自分で設定を追加する人向けの更新点
+    <ul>
+      <li>&lt;modifier_only&gt;, &lt;modifier_not&gt;フィルタを追加しました。</li>
+      <li>&lt;autogen&gt; に --ForceNumLockOn--を追加しました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
+        Version 7.0.0
+          <small>
+2010年12月14日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-7.0.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    設定の追加方法が大幅に簡単になりました。<br />
+    <a href="document.html.ja#privatexml">新しい設定の追加方法</a><br />
+    もうパッケージをビルドする必要はありません。
+  </li>
+  <li>下駄配列、新下駄配列をサポートしました。有効にするには設定から「geta」で検索してください。</li>
+  <li>
+    マウスデバイス向けの"CursorMove to ScrollWheel"で慣性スクロールするようにしました。<br />
+    慣性スクロールを無効にするには設定から"Disable Momentum Scroll"を有効にしてください。
+  </li>
+  <li>Mouse Keys Modeを追加しました。hjklキーでマウスカーソルを動かせます。</li>
+  <li>約260種類の設定を加えました。</li>
+</ul>
+
+      <h2>
+        Version 6.9.0
+          <small>
+2010年9月14日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.9.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    親指シフト NICOLAをサポートしました。<br />
+    有効にするには設定から「oyayubi」で検索してください。
+  </li>
+  <li>
+    あらゆるアプリケーションでVi形式のカーソル（HJKL）を使うことが出来るSimultaneous Vi Modeの動作を改良しました。<br />
+    設定を有効にした状態でSキーとDキーを同時に押すとViモードになります。<br />
+  </li>
+  <li>ソースコードからパッケージを作る際に、環境によっては不正なパッケージが作成されてしまう問題を修正しました。</li>
+  <li>極一部の設定が動作しなくなっていたのを修正しました。</li>
+  <li>Emacs ModeのC-xプレフィックスについて細かい不具合を修正しました。</li>
+  <li>約130種類の設定を加えました。</li>
+</ul>
+
+      <h2>
+        Version 6.8.0
+          <small>
+2010年7月27日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.8.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    キーボードリピートのデフォルト値をMac OS Xのデフォルト値にあわせました。<br />
+    以前のバージョンの速度が好みの場合は"[Key Repeat] wait"を30msに設定してください。
+  </li>
+  <li>Pass Through Modeを加えました。一時的に全ての設定を無効にできます。</li>
+  <li>Sticky Modifiers を加えました。</li>
+  <li>いくつかの細かい問題を修正しました。</li>
+  <li>約160種類の設定を加えました。</li>
+</ul>
+
+      <h2>
+        Version 6.7.0
+          <small>
+2010年5月15日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.7.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>KeyRemap4MacBook-6.6.0とUSB Overdriveを同時に使ったときにキーやマウスが変更されない問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 6.6.0
+          <small>
+2010年5月11日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.6.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>特定のキーボードのみ有効な設定を定義することが出来るようになりました。例えばHappy Hacking KeyboardでのみControl_LをCommand_Lにするなど。</li>
+  <li>同時押し（Simultaneous Key Presses）をサポートしました。例えばFとJを同時に押すとカーソルキー（下）に変換する設定を追加しました。</li>
+  <li>仮想モディファイア（ModifierFlag::EXTRA1 - ModifierFlag::EXTRA5）を追加しました。</li>
+  <li>機能キーのリピート速度を調整可能にしました。</li>
+  <li>約100種類の設定を加えました。</li>
+</ul>
+
+      <h2>
+        Version 6.5.0
+          <small>
+2010年3月16日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.5.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>リマップされた機能キー（音量調節など）でキーリピートするようにしました。</li>
+  <li>キーイベント、マウスイベントを確認できるイベントビューアアプリを追加しました。</li>
+  <li>メニューバーの設定をシステム環境設定に統合しました。</li>
+  <li>コマンドキーなどを押さずにhjklだけでカーソル移動が出来るComplete Vi Modeを追加しました。</li>
+  <li>KeyCode::VK_CHANGE_INPUTMODE_FRENCHやその他の言語向けのキーを加えました。仏語入力モードなどに直接切り替える仮想キーです。</li>
+  <li>70種類以上のリマッピングを加えました。</li>
+  <li>その他、細かい問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 6.4.0
+          <small>
+2010年1月21日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.4.0.pkg.zip">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Logitech Control Centerなどのサードベンダのドライバと共に使用するときの安定性を向上しました。</li>
+  <li>キーをマウスクリックに変換している場合にマウスドラッグがうまく動作しない不具合を修正しました。</li>
+  <li>アプリケーションの認識においてParallelsデスクトップのサポートを強化しました。</li>
+</ul>
+
+      <h2>
+        Version 6.3.0
+          <small>
+2010年1月5日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.3.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Fast User Switching（ログオフ無しでのユーザー切り替え）をサポートしました。</li>
+  <li>ソフトウェアアップデート機能を追加しました。</li>
+  <li>リマッピングの動作を向上しました。</li>
+  <li>内部キーボード/外部キーボードの判定方法を改善しました。</li>
+  <li>Commandキーなどにかな/英数キーを付加する機能の互換性を向上しました。</li>
+  <li>70種類以上のリマッピングを追加しました。</li>
+  <li>その他、細かい問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 6.2.0
+          <small>
+2009年11月12日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.2.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>サーバプロセスが英語環境でクラッシュする問題を修正しました。</li>
+</ul>
+
+      <h2>
+        Version 6.1.0
+          <small>
+2009年11月11日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.1.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>標準でサードベンダーのデバイスのリマッピングを有効にしました。</li>
+  <li>サーバプロセスのメモリーリークを修正しました。</li>
+  <li>入力モードの取得方法を改善したため、「かな/英数」のトグルや、日本語入力時のみ有効なリマップなどの動作がより自然になりました。</li>
+  <li>60種類以上のリマッピングを追加しました。</li>
+</ul>
+
+      <h2>
+        Version 6.0.0
+          <small>
+2009年10月8日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-6.0.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>Snow Leopard用の安定版です。</li>
+  <li>サードベンダーの独自ドライバを使用するキーボード・マウスの扱いを改善しました。</li>
+  <li>Don't Remap the Internal/External Keyboardが有効になっているときにfnキーが動作しない問題を修正しました。</li>
+  <li>マウスクリック時にキーリピートが中断しないようにしました。</li>
+  <li>Spacesとの親和性を向上しました。</li>
+  <li>アンインストーラを修正しました。</li>
+  <li>CapsLockの扱いについて修正しました。</li>
+  <li>64bit環境での安定性を向上しました。</li>
+  <li>システム環境設定が64bitで動作するよう修正しました。</li>
+  <li>その他、リマッピングの追加など。</li>
+</ul>
+
+      <h2>
+        Version 5.1.0
+          <small>
+2008年5月26日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-5.1.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>ハイバネーションからの復帰の際のカーネルパニックを修正しました。</li>
+  <li>iMacで全てのキーボードが取り外された際のカーネルパニックを修正しました。</li>
+  <li>SettingListがいくつかの環境で動かなかった問題を修正しました。</li>
+  <li>アンインストーラを加えました。</li>
+</ul>
+
+      <h2>
+        Version 5.0.0
+          <small>
+2008年5月7日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-5.0.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>マルチユーザーに対応しました。</li>
+  <li>複数の設定を使いわけることが出来るようになりました。</li>
+  <li>特定のアプリケーションのみ有効なリマップをサポートしました。（FinderのみReturnをCMD+Oに変更など）</li>
+  <li>Emacs ModeがTerminal.appやEmacs.appで自動的に無効になるようになりました。</li>
+  <li>新たに80近くのリマッピングを加えました。</li>
+</ul>
+
+
+      <h2>
+        Version 4.0.0
+          <small>
+2008年4月2日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-4.0.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>ログアウトをするとリマップが効かなくなる問題を修正しました。</li>
+  <li>内蔵キーボード、もしくは外付けキーボードのみリマップを有効にする機能を加えました。</li>
+  <li>マウスをサポートしました。（キーとクリックのリマップやFnスクロール機能など）</li>
+  <li>インストールする場所を変更しました。(/Library/org.pqrs/KeyRemap4MacBook)</li>
+  <li>新たに50近くのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 3.2.0
+          <small>
+2008年2月29日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.2.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    DoubleCommandが既にインストールされているかどうかインストーラでチェックするようにしました。
+    DoubleCommandがインストール済みの場合、インストールは中断されます。
+  </li>
+  <li>PowerBook G4とiBookをサポートしました。</li>
+  <li>VMware上でのEmacs Modeの動作を改善しました。</li>
+  <li>システム環境設定の細かい問題を修正しました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 3.1.0
+          <small>
+2008年2月18日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.1.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>キーリピートの挙動を修正しました。</li>
+  <li>システム環境設定の細かい問題を修正しました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 3.0.0
+          <small>
+2008年2月4日          </small>
+
+          <a class="btn btn-default" href="files/KeyRemap4MacBook-3.0.0.pkg.tar.gz">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>システム環境設定から設定が出来るようになりました。</li>
+  <li>キーリピート処理を自前で行うようにしました。</li>
+  <li>CapsLockの扱いを改善しました。</li>
+  <li>sysctlのエントリ名を大きく変更しました。以前のバージョンからアップデートする場合はシステム環境設定から設定をし直してください。</li>
+  <li>新しくいくつかのリマッピングを加えました。また廃れたリマッピングは削除しました。</li>
+</ul>
+
+      <h2>
+        Version 2.3.0
+          <small>
+2007年12月15日          </small>
+
+      </h2>
+      <ul>
+  <li>fnキーを動作を変更したときのカーソルキーやDeleteキーの動作を適切な形に修正しました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 2.2.0
+          <small>
+2007年11月29日          </small>
+
+      </h2>
+      <ul>
+  <li>キーをモディファイアに変換する部分の問題を修正しました。</li>
+  <li>PowerBookのenterキーをサポートしました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 2.1.0
+          <small>
+2007年11月15日          </small>
+
+      </h2>
+      <ul>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 2.0.0
+          <small>
+2007年11月1日          </small>
+
+      </h2>
+      <ul>
+  <li>Leopardをサポートしました。</li>
+  <li>限定的ですがPowerBookに対応しました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 1.5.0
+          <small>
+2007年10月10日          </small>
+
+      </h2>
+      <ul>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 1.4.0
+          <small>
+2007年9月9日          </small>
+
+      </h2>
+      <ul>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 1.3.0
+          <small>
+2007年8月15日          </small>
+
+      </h2>
+      <ul>
+  <li>スタートアップスクリプトを更新しました。</li>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 1.2.0
+          <small>
+2007年6月10日          </small>
+
+      </h2>
+      <ul>
+  <li>いくつかのリマッピングを加えました。</li>
+</ul>
+
+      <h2>
+        Version 1.0.2
+          <small>
+2007年2月5日          </small>
+
+      </h2>
+      <ul>
+  <li>Universal Binary化しました。</li>
+</ul>
+
+      <h2>
+        Version 1.0.1
+          <small>
+2006年10月9日          </small>
+
+      </h2>
+      <ul>
+  <li>最初のリリース。</li>
+</ul>
+
+  </section>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>

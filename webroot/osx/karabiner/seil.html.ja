@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Seil - OS X用のソフトウェア</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+      <link href="/assets/bootstrap-prettify/prettify.css" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    ドキュメント
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    追加アプリ
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li class="active">
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.ja">寄付</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.ja">プロフィール</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/seil.html.en">English</a></li>
+                <li><a href="/osx/karabiner/seil.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>Seil</h1>
+
+      <p>
+          caps lockキーと、PCキーボードの「無変換」「変換」「ひらがな」キーのためのユーティリティ。
+      </p>
+
+      <ul>
+          <li>caps lockキーの動作を変更します。（例: caps lockキーをdeleteキーにする）</li>
+          <li>PC用のキーボードにある「無変換」「変換」「ひらがな」などのキーをOS Xで使用可能にします。</li>
+      </ul>
+
+      <p>
+<a class="btn btn-primary btn-lg"
+            href="files/Seil-10.9.0.dmg">Seil-10.9.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.10、10.9、10.8用</span></a>      </p>
+
+      <div class="alert alert-info">
+          Seilはバージョン10.7.0まで<b>PCKeyboardHack</b>という名前でした。
+      </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-9.0.0.dmg">PCKeyboardHack-9.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.7用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-7.4.0.dmg">PCKeyboardHack-7.4.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.6用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
+            href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">PCKeyboardHack-5.1.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.5、10.4用</span></a>      </p>
+      <p>
+        <small>
+          <a href="#history">
+              古いバージョンのダウンロード・更新履歴
+          </a>
+        </small>
+      </p>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="installation">
+        <div class="page-header">
+          <h1>
+              インストール方法
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step1</h2>
+
+              <p>
+                  ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
+              </p>
+              <p>
+                <img
+                alt="dmg"
+src="img/dmg.png" width="128" height="128"                />
+                <img
+                alt="pkg"
+src="img/pkg.png" width="128" height="128"                />
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step2</h2>
+
+              <p>
+                  インストーラが起動しますので、Seilをインストールします。
+              </p>
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/seil-installer.png" alt="installer" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 680px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-installer.png" alt="installer" />
+      </div>
+    </div>
+  </div>
+</div>
+              <div class="alert alert-warning">
+                  Seilはアプリケーションフォルダにインストールされます。<br />
+                  <br />
+                  <b>注意:</b><br />
+                  アプリケーションフォルダからSeil.appを移動しないでください。<br />
+                  <br />
+                  例えば、/Applications/UtilitiesにSeil.appを移動すると、正常に動作しなくなります。
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="col-show-grid">
+              <h2>Step3</h2>
+
+              <p>
+                  LaunchpadからSeilを起動します。
+              </p>
+
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/seil-launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+
+              <p>
+                <img
+                alt="icon"
+src="img/seil-icon.png" width="130" height="153"                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="usage">
+        <div class="page-header">
+          <h1>
+              使い方
+          </h1>
+        </div>
+
+        <h2>Step1</h2>
+        <p>
+            Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
+        </p>
+        <p>
+            そして、Seilをクリックしてください。
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/seil-launchpad.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-launchpad.png" alt="Launchpad" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="col-lg-4">
+            <img
+            alt="icon"
+src="img/seil-icon.png" width="130" height="153"            />
+          </div>
+        </div>
+
+        <br />
+
+        <p>
+          <span class="label label-info">Note</span>
+            PCKeyboardHack 8.0.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane-pckeyboardhack.png">設定画面はシステム環境設定にあります。</a>
+        </p>
+
+        <h2>Step2</h2>
+        <p>
+            有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/seil-preferences.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-preferences.png" alt="Preferences" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div id="noaction">
+          <h2>
+            Step3
+            <span class="label label-info">Important</span>
+          </h2>
+          <p>
+              caps lockキーの動作を変更するためにSeilを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
+          </p>
+          <p>
+              caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+          </p>
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/capslock.png" alt="No Action" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/capslock.png" alt="No Action" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="uninstall">
+        <div class="page-header">
+          <h1>
+              アンインストール方法
+          </h1>
+        </div>
+
+        <ol class="steps">
+          <li>
+              設定画面の「Misc &amp; Uninstall」タブにある「Launch uninstaller」ボタンを押してください。
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/seil-preferences-misc.png" alt="Seil" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-preferences-misc.png" alt="Seil" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              アンインストールを進めてください。
+            <div class="row">
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 480px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 499px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-3">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
+</a>
+<div class="modal fade" id="lightbox-9" tabindex="30009">
+  <div class="modal-dialog clickable" style="width: 480px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+              その後にOS Xを再起動してください。
+          </li>
+        </ol>
+      </section>
+
+      <section id="faq">
+        <div class="page-header">
+          <h1>
+              Q&amp;A
+          </h1>
+        </div>
+
+        <h2 id="specify-device">
+            caps lockを特定のキーボードでのみ変更するには？
+        </h2>
+
+        <p>
+            Seilは全てのキーボードの挙動を変更します。<br />
+            そのため、Seilではデバイスを指定することは出来ません。
+        </p>
+        <p>
+            しかし、KarabinerとSeilを使うことによって特定のデバイスでのみキーを変更することが可能です。<br />
+            まず、Seilでcaps lockをf19キーに変更して、f19キーをKarabinerで変更します。
+        </p>
+
+        <p>
+            手順:
+        </p>
+
+        <ol class="steps">
+          <li>
+            <p>
+                Seilでcaps lockキーのキーコードを「80」に変更します。<br />
+                （<a href="#usage">システム環境設定から「アクションなし」に変更する</a>ことを忘れないでください。）
+            </p>
+            <p>
+                そうするとcaps lockキーはf19キーとして動作します。
+            </p>
+          </li>
+          <li>
+            <p>
+                f19キーを<a href="xml.html.ja#devicedef">&lt;device_only&gt;タグ</a>を使ってKarabinerで変更します。<br />
+            </p>
+            <p>
+                以下のprivate.xmlの&lt;vendorid&gt;と&lt;productid&gt;を変更して使ってください。<br />
+                （<a href="document.html.ja#privatexml">private.xmlの使い方</a>）
+            </p>
+          </li>
+        </ol>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;devicevendordef&gt;
+    &lt;vendorname&gt;My_Keyboard_VendorID&lt;/vendorname&gt;
+    &lt;!-- *** Replace this value with yours. *** --&gt;
+    &lt;vendorid&gt;0x05ac&lt;/vendorid&gt;
+  &lt;/devicevendordef&gt;
+
+  &lt;deviceproductdef&gt;
+    &lt;productname&gt;My_Target_Keyboard_ProductID&lt;/productname&gt;
+    &lt;!-- *** Replace this value with yours. *** --&gt;
+    &lt;productid&gt;0x0245&lt;/productid&gt;
+  &lt;/deviceproductdef&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;Change f19 key to delete key&lt;/name&gt;
+    &lt;appendix&gt;(Change f19 key to caps lock key in internal keyboard.)&lt;/appendix&gt;
+    &lt;identifier&gt;private.f19_hack&lt;/identifier&gt;
+    &lt;block&gt;
+      &lt;!-- change f19 key to delete key --&gt;
+      &lt;device_only&gt;
+        DeviceVendor::My_Keyboard_VendorID,
+        DeviceProduct::My_Target_Keyboard_ProductID
+      &lt;/device_only&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::F19, KeyCode::DELETE&lt;/autogen&gt;
+    &lt;/block&gt;
+    &lt;block&gt;
+      &lt;!-- change f19 key to caps lock key in other devices --&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::F19, KeyCode::CAPSLOCK&lt;/autogen&gt;
+    &lt;/block&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>
+
+        <h2 id="beta-os-x">
+            Seilが開発者向けのベータ版のOS Xで動作しません。なぜですか？
+        </h2>
+        <p>
+            Seilの機能を実現させるにはOS Xの隠された値を変更する必要があります。
+        </p>
+        <p>
+            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
+        </p>
+        <p>
+            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、Seilは意図的にベータ版のOS Xでは動かないようにしています。
+        </p>
+        <p>
+            Appleから新しいOS Xがリリースされ、新しいOS X向けのSeilがリリースされるまでお待ちください。
+        </p>
+      </section>
+
+      <section id="commandlineinterface">
+        <div class="page-header">
+          <h1>
+              コマンドラインインターフェース
+          </h1>
+        </div>
+
+        <p>
+            Seilはコマンドラインインターフェースを提供しています。(seilコマンド)
+        </p>
+        <ul>
+          <li>
+              設定を変更できます。
+          </li>
+          <li>
+              設定のエクスポートが出来ます。
+          </li>
+        </ul>
+
+        <h2>
+            使い方の表示方法
+        </h2>
+        <p>
+            seilを引数なしで実行します。
+        </p>
+        <pre>
+$ /Applications/Seil.app/Contents/Library/bin/seil
+Usage:
+  seil export
+  seil relaunch
+  seil set IDENTIFIER VALUE
+
+Example:
+  seil export
+  seil relaunch
+  seil set keycode_capslock 80
+</pre>
+
+        <h2 id="export">
+            exportオプションについて
+        </h2>
+        <ol>
+          <li>
+              exportオプションで設定のエクスポートを行います。
+              <br />
+              出力は、シェルスクリプトです。
+            <pre>
+$ /Applications/Seil.app/Contents/Library/bin/seil export > ~/Desktop/seil-import.sh
+</pre>
+          </li>
+          <li>
+              ターミナルからインポートを行うことができます。
+            <pre>
+$ sh ~/Desktop/seil-import.sh
+...........................................
+</pre>
+          </li>
+        </ol>
+      </section>
+
+      <section id="history">
+        <div class="page-header">
+          <h1>
+              更新履歴
+          </h1>
+        </div>
+
+          <h2>
+            Version 10.9.0
+              <small>
+2014年6月22日              </small>
+
+              <a class="btn btn-default" href="files/Seil-10.9.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Kernel extension is not loaded」というメッセージが表示されることがあります。</li>
+      <li>設定を移行した後、設定を変更するかSeilを再起動するまで、設定画面が正しく表示されないことがあります。</li>
+    </ul>
+  </li>
+</ul>
+
+          <h2>
+            Version 10.8.0
+              <small>
+2014年6月18日              </small>
+
+              <a class="btn btn-default" href="files/Seil-10.8.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>PCKeyboardHackはSeilという名前になりました。</li>
+</ul>
+
+          <h2>
+            Version 10.7.0
+              <small>
+2014年6月3日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.7.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.10に対応しました。</li>
+  <li>ログイン時の起動方法を変更しました。 (LaunchAgents -&gt; Login Items)</li>
+</ul>
+
+          <h2>
+            Version 10.6.0
+              <small>
+2014年3月14日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.6.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>コマンドラインインターフェイス（PCKeyboardHack_cli）を追加しました。</li>
+</ul>
+
+          <h2>
+            Version 10.5.0
+              <small>
+2014年1月26日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.5.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>
+    下記のバグを修正しました:
+    <ul>
+      <li>自動ログインを有効にしていると、特定のマシンで「Kernel extension is not loaded」というアラートが出る場合があります。</li>
+    </ul>
+  </li>
+</ul>
+
+          <h2>
+            Version 10.4.0
+              <small>
+2013年12月1日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.4.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>
+    PCKeyboardHackのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
+    もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
+  </li>
+  <li>PCキーボードのApplicationキー（Menuキー）を変更可能なキーに追加しました。</li>
+</ul>
+
+          <h2>
+            Version 10.2.0
+              <small>
+2013年11月10日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.2.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>kextをDeveloper IDで署名しました。</li>
+  <li>インストーラを更新しました。</li>
+</ul>
+
+          <h2>
+            Version 10.0.0
+              <small>
+2013年10月20日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-10.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.9に対応しました。</li>
+  <li>アイコンを更新しました。（Kouji TAMURAさんによる）</li>
+  <li>Developer IDで署名しました。</li>
+</ul>
+
+          <h2>
+            Version 9.0.0
+              <small>
+2013年1月13日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-9.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>設定画面をアプリに統合しました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+          <h2>
+            Version 8.0.0
+              <small>
+2012年8月11日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-8.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.8 Mountain Lionに対応しました。</li>
+</ul>
+
+          <h2>
+            Version 7.4.0
+              <small>
+2012年4月24日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.4.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>パッケージの形式をzipからdmgに変更しました。</li>
+</ul>
+
+          <h2>
+            Version 7.3.0
+              <small>
+2012年2月21日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.3.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>変更可能なキーを追加しました。（Internationalキー、Langキー, Sun Type6 Keyboardのキー）</li>
+  <li>ソースコードについてXcode 4.3対応をしました。</li>
+</ul>
+
+          <h2>
+            Version 7.2.0
+              <small>
+2011年10月26日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.2.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>変更可能なキーを追加しました。（ADBキーボードのパワーキー）</li>
+  <li>インストーラの小さな問題を修正しました。</li>
+</ul>
+
+          <h2>
+            Version 7.1.0
+              <small>
+2011年8月16日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.1.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>変更可能なキーを追加しました。(Command、Control、Option、Shift、Escape、Delete、Return、Keypad Enter)</li>
+  <li>ソフトウェアアップデート機能を追加しました。</li>
+  <li>Mac OS X 10.7での小さな問題を修正しました。</li>
+</ul>
+
+          <h2>
+            Version 7.0.0
+              <small>
+2011年7月23日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-7.0.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Mac OS X 10.7 Lionに対応しました。</li>
+  <li>Controlキーの変更機能について削除しました。Controlキーの変更についてはKeyRemap4MacBookを使ってください。</li>
+</ul>
+
+          <h2>
+            Version 6.3.0
+              <small>
+2010年5月11日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.3.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>ログメッセージを改善。</li>
+</ul>
+
+          <h2>
+            Version 6.2.0
+              <small>
+2010年1月20日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.2.0.pkg.zip">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>設定画面を改善。</li>
+</ul>
+
+          <h2>
+            Version 6.1.0
+              <small>
+2010年1月5日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.1.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Fast User Switchingに対応しました。</li>
+</ul>
+
+          <h2>
+            Version 6.0.0
+              <small>
+2009年9月13日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-6.0.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>Snow Leopard用の安定版です。</li>
+</ul>
+
+          <h2>
+            Version 5.1.0
+              <small>
+2008年5月26日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>細かい改善。</li>
+</ul>
+
+          <h2>
+            Version 5.0.0
+              <small>
+2008年5月7日              </small>
+
+              <a class="btn btn-default" href="files/PCKeyboardHack-5.0.0.pkg.tar.gz">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>細かい改善。</li>
+</ul>
+
+          <h2>
+            Version 2.3.0
+              <small>
+2007年12月15日              </small>
+
+          </h2>
+          <ul>
+  <li>最初のリリース。</li>
+</ul>
+
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-sidebar" id="bs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#installation">
+                  インストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#usage">
+                  使い方
+                </a>
+              </li>
+              <li>
+                <a href="#uninstall">
+                  アンインストール方法
+                </a>
+              </li>
+              <li>
+                <a href="#faq">
+                  Q&amp;A
+                </a>
+              </li>
+              <li>
+                <a href="#commandlineinterface">
+                  コマンドラインインターフェース
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  更新履歴
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-footer">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+      <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
+      <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+  </body>
+</html>
