@@ -128,7 +128,10 @@
 
     <div class="row">
       <div class="col-lg-2">
-        <img class="pull-left" src="/img/PayPal_mark_180x113.gif" alt="PayPal" style="margin-right: 20px" />
+        <img
+        class="pull-left"
+        alt="PayPal" style="margin-right: 20px"
+src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
       </div>
       <div class="col-lg-4">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">

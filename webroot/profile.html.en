@@ -68,8 +68,8 @@
     </div>
 
     <div class="col-lg-2">
-      <img src="/img/profile.jpg"
-        alt="Profile Photo"
+      <img
+src="img/profile.jpg" width="396" height="395"        alt="Profile Photo"
       class="img-responsive" />
     </div>
     <div class="col-lg-10">
