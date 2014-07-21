@@ -245,7 +245,7 @@ src="img/pkg.png" width="128" height="128"                />
 $ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
 org.pqrs.driver.NoEjectDelay (5.4.0)
 org.pqrs.driver.Seil (10.9.0)
-org.pqrs.driver.Karabiner (10.0.0)
+org.pqrs.driver.Karabiner (10.1.0)
 </pre>
 
             <p>
@@ -276,7 +276,7 @@ org.pqrs.driver.Karabiner (10.0.0)
             <pre>
 org.pqrs.driver.NoEjectDelay (5.4.0)
 org.pqrs.driver.Seil (10.9.0)
-org.pqrs.driver.Karabiner (10.0.0)
+org.pqrs.driver.Karabiner (10.1.0)
 </pre>
 
             <p>

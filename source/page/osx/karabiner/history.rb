@@ -8,6 +8,53 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.1.0',
+              :updated => '2014-07-21',
+              :link => 'files/Karabiner-10.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The continuous key sequence will be improper order in environments which VMWare Fusion is installed.</li>
+      <li>A message "Karabiner cannot connect with kernel extension" might be shown in some environment.</li>
+    </ul>
+  </li>
+  <li>Show an error alert when Karabiner is not placed in /Applications.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>Added KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>VMware Fusionがインストールされた環境で、連続したキー入力の順序が不適切になります。</li>
+      <li>いくつかの環境で「Karabiner cannot connect with kernel extension」というメッセージが表示されることがあります。</li>
+    </ul>
+  </li>
+  <li>Karabinerが/Applications以外の場所にある場合にエラーメッセージを表示するようにしました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK を加えました。</li>
+    </ul>
+  </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.0.0',
               :updated => '2014-07-09',
               :link => 'files/Karabiner-10.0.0.dmg',
@@ -675,6 +722,7 @@ EOS
       <li>
         &lt;include&gt;を加えました。private.xmlで他のXMLを読み込むことが出来ます。
         <a href="xml.html.ja#include">（リファレンス）</a>
+      </li>
       <li>--ScrollWheelToKey-- を加えました。</li>
       <li>--ScrollWheelToScrollWheel-- を加えました。</li>
       <li>KeyCode::VK_WAIT_* を加えました。</li>

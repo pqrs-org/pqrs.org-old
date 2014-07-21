@@ -118,6 +118,34 @@
       </h1>
     </div>
       <h2>
+        Version 10.1.0
+          <small>
+2014年7月21日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.1.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>VMware Fusionがインストールされた環境で、連続したキー入力の順序が不適切になります。</li>
+      <li>いくつかの環境で「Karabiner cannot connect with kernel extension」というメッセージが表示されることがあります。</li>
+    </ul>
+  </li>
+  <li>Karabinerが/Applications以外の場所にある場合にエラーメッセージを表示するようにしました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK を加えました。</li>
+    </ul>
+  </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+</ul>
+
+      <h2>
         Version 10.0.0
           <small>
 2014年7月9日          </small>
@@ -505,6 +533,7 @@
       <li>
         &lt;include&gt;を加えました。private.xmlで他のXMLを読み込むことが出来ます。
         <a href="xml.html.ja#include">（リファレンス）</a>
+      </li>
       <li>--ScrollWheelToKey-- を加えました。</li>
       <li>--ScrollWheelToScrollWheel-- を加えました。</li>
       <li>KeyCode::VK_WAIT_* を加えました。</li>
