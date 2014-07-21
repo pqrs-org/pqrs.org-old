@@ -1,0 +1,510 @@
+diff -ruN nesterdc-5.0-pre3/README nesterdc-5.0-pre3f-fix/README
+--- nesterdc-5.0-pre3/README	Mon Jan  7 00:34:02 2002
++++ nesterdc-5.0-pre3f-fix/README	Tue Jan  8 03:55:00 2002
+@@ -7,7 +7,7 @@
+  * VGA support
+  * SDL porting
+  * change base coding language to EC++
+- * 4 player support
++ * 4 players support
+    NOTE: 3(4) player support need 3(4) DC controller. 
+          If you set DC pad on "port 0, 2", it's recognized as "NES pad 0, 1", 
+          not "NES pad 0, 2". 
+diff -ruN nesterdc-5.0-pre3/bzip2-1.0.1/Makefile nesterdc-5.0-pre3f-fix/bzip2-1.0.1/Makefile
+--- nesterdc-5.0-pre3/bzip2-1.0.1/Makefile	Wed Oct  3 19:09:36 2001
++++ nesterdc-5.0-pre3f-fix/bzip2-1.0.1/Makefile	Tue Jan  8 03:55:00 2002
+@@ -1,8 +1,8 @@
+ 
+ SHELL=/bin/sh
+-CC=$(KOS_CC)
++CC=$(BZ_CC)
+ BIGFILES=-D_FILE_OFFSET_BITS=64
+-CFLAGS=-Wall -Winline -O2 -fomit-frame-pointer -fno-strength-reduce $(BIGFILES)
++CFLAGS=$(BZ_CFLAGS)
+ 
+ OBJS= blocksort.o  \
+       huffman.o    \
+@@ -22,8 +22,8 @@
+ 
+ libbz2.a: $(OBJS)
+ 	rm -f libbz2.a
+-	$(KOS_AR) cq libbz2.a $(OBJS)
+-	$(KOS_RANLIB) libbz2.a
++	$(BZ_AR) cq libbz2.a $(OBJS)
++	$(BZ_RANLIB) libbz2.a
+ 
+ test: bzip2
+ 	@cat words1
+diff -ruN nesterdc-5.0-pre3/dcmake nesterdc-5.0-pre3f-fix/dcmake
+--- nesterdc-5.0-pre3/dcmake	Mon Jan  7 00:51:46 2002
++++ nesterdc-5.0-pre3f-fix/dcmake	Tue Jan  8 05:18:02 2002
+@@ -2,12 +2,12 @@
+ 
+ #============================================================
+ # Edit for your environment
+-export NDC_BASE=/home/tekezo/work/tmp/nesterdc-5.0-pre3
++export NDC_BASE=/home/tekezo/work/tmp/nesterdc-5.0-pre3f-fix
+ export CROSS_BASE=/home/const/cross/dreamcast
+ 
+ # NOTE: Now, __WITH_TA__ is broken. Don't use. 
+ #
+-#NESTER_OPTIONS="${NESTER_OPTIONS} -D__WITH_TA__" # don't support
++NESTER_OPTIONS="${NESTER_OPTIONS} -D__WITH_TA__" # don't support
+ #NESTER_OPTIONS="${NESTER_OPTIONS} -D__PRECISION__EMULATE__"
+ #NESTER_OPTIONS="${NESTER_OPTIONS} -D__DRAW_FPS__" # have to off when -D__WITH_TA__
+ 
+@@ -81,6 +81,9 @@
+ 
+ #------------------------------------------------------------
+ # for bzip2
++export BZ_CC="${KOS_CC}"
++export BZ_AR="${KOS_AR}"
++export BZ_RANLIB="${KOS_RANLIB}"
+ export BZ_BASE="${NDC_BASE}/bzip2-1.0.1"
+ export BZ_CFLAGS="${SH_CFLAGS} -I${KOS_INCS}"
+ 
+@@ -101,7 +104,7 @@
+ NESTER_INCS="${NESTER_INCS} -I${NESTER_BASE}/nes/ppu"
+ NESTER_INCS="${NESTER_INCS} -I${BZ_BASE}"
+ NESTER_INCS="${NESTER_INCS} -I${NESTER_BASE}/dreamcast"
+-export NESTER_CFLAGS="${SH_CFLAGS} -O3 ${NESTER_INCS} ${NESTER_OPTIONS}"
++export NESTER_CFLAGS="${SH_CFLAGS} ${NESTER_INCS} ${NESTER_OPTIONS}"
+ export NESTER_CCPLUS="${KOS_CCPLUS}"
+ export NESTER_CXXFLAGS="${NESTER_CFLAGS} ${SH_CXXFLAGS}"
+ 
+diff -ruN nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/hardware/ta/ta.c nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/hardware/ta/ta.c
+--- nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/hardware/ta/ta.c	Fri Nov 16 03:40:30 2001
++++ nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/hardware/ta/ta.c	Tue Jan  8 04:09:14 2002
+@@ -5,7 +5,7 @@
+    
+ */
+ 
+-static char id[] = "KOS ta.c,v 1.1.1.1 2001/11/15 18:40:30 tekezo Exp";
++static char id[] = "KOS ta.c,v 1.3 2002/01/07 19:09:14 tekezo Exp";
+ 
+ #include <stdio.h>
+ #include <arch/types.h>
+@@ -702,6 +702,8 @@
+    a completed display list to the TA. It sets everything up and
+    waits for the next vertical blank period to switch buffers. */
+ void ta_finish_frame() {
++  /* now finish in int_handler */ 
++#if 0
+ 	int	ticks;
+ 
+ 	if (!to_texture) {
+@@ -753,6 +755,7 @@
+ 		/* Reset everything back to the way it was (reuse same buffers) */
+ 		ta_set_reg_target(ta_curpage^1);
+ 	}
++#endif
+ }
+ 
+ /* Build a polygon header from the given parameters; this is pretty
+@@ -847,6 +850,8 @@
+ 	        case G2EVT_TA_SCANINT1:
+ 		        ta_state.frame_counter++;
+ 			break;
++                default:
++                        return;
+ 	}
+ 
+ 
+@@ -872,6 +877,15 @@
+ 		
+ 		/* Clear list completion */
+ 		list_complete = 0;
++
++#if 1
++		/* Switch registration buffers */
++		ta_set_reg_target(ta_curpage);
++		flip_complete = 0;
++                
++		/* Swap out pages */
++		ta_curpage ^= 1;
++#endif
+ 
+ 		/* Schedule any waiting thread next */
+ 		if (thd_enabled &&waiting_thd != NULL) {
+diff -ruN nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/hardware/video.c nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/hardware/video.c
+--- nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/hardware/video.c	Sun Jan  6 16:31:28 2002
++++ nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/hardware/video.c	Tue Jan  8 05:11:33 2002
+@@ -8,7 +8,7 @@
+  */
+  
+ //-----------------------------------------------------------------------------
+-static char id[] = "KOS video.c,v 1.4 2002/01/06 07:31:28 tekezo Exp";
++static char id[] = "KOS video.c,v 1.5 2002/01/07 20:11:33 tekezo Exp";
+ //-----------------------------------------------------------------------------
+ 
+ #include <dc/video.h>
+@@ -217,13 +217,16 @@
+ 	if (ct == CT_VGA) {
+ 		data |= (1 << 20) | ((mode->height - 1) << 10);
+ 	} else {
+-#ifdef __WITH_TA__
+-		data |= (((mode->width * bpp[mode->pm] >> 2) + 1) << 20)
+-			| (((mode->height / 2) - 1) << 10);
+-#else
++          if (mode->height == 240)
++          {
+                 data = (1 << 20) | (((480 / 2) - 1) << 10) | 
+                   (((320/4) << 1) - 1);
+-#endif
++          }
++          else
++          {
++		data |= (((mode->width * bpp[mode->pm] >> 2) + 1) << 20)
++			| (((mode->height / 2) - 1) << 10);
++          }
+ 	}
+ 	regs[0x17] = data;
+ 
+diff -ruN nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/kernel/banner.c nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/kernel/banner.c
+--- nesterdc-5.0-pre3/kos-1.1.5/kernel/arch/dreamcast/kernel/banner.c	Mon Jan  7 00:52:33 2002
++++ nesterdc-5.0-pre3f-fix/kos-1.1.5/kernel/arch/dreamcast/kernel/banner.c	Tue Jan  8 05:12:55 2002
+@@ -1,4 +1,4 @@
+ char banner[] = 
+-"KallistiOS 1.1.5: Mon Jan 7 00:52:33 JST 2002\n"
+-"  tekezo@:/home/tekezo/work/tmp/nesterdc-5.0-pre3/kos-1.1.5\n"
++"KallistiOS 1.1.5: Tue Jan 8 05:12:55 JST 2002\n"
++"  tekezo@:/home/tekezo/work/tmp/nesterdc-5.0-pre3fullscreen/kos-1.1.5\n"
+ ;
+diff -ruN nesterdc-5.0-pre3/nester/Makefile.prefab nesterdc-5.0-pre3f-fix/nester/Makefile.prefab
+--- nesterdc-5.0-pre3/nester/Makefile.prefab	Sun Jan  6 16:31:28 2002
++++ nesterdc-5.0-pre3f-fix/nester/Makefile.prefab	Tue Jan  8 03:55:00 2002
+@@ -10,12 +10,6 @@
+ %.o: %.cpp
+ 	$(NESTER_CCPLUS) $(NESTER_CXXFLAGS) -c $< -o $@
+ 
+-%.o: %.c
+-	$(NESTER_CC) $(NESTER_CFLAGS) -c $< -o $@
+-
+-%.o: %.cpp
+-	$(NESTER_CCPLUS) $(NESTER_CXXFLAGS) -c $< -o $@
+-
+ subdirs: $(patsubst %, _dir_%, $(SUBDIRS))
+ 
+ $(patsubst %, _dir_%, $(SUBDIRS)):
+diff -ruN nesterdc-5.0-pre3/nester/dreamcast/dc_main.cpp nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_main.cpp
+--- nesterdc-5.0-pre3/nester/dreamcast/dc_main.cpp	Mon Jan  7 00:50:31 2002
++++ nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_main.cpp	Tue Jan  8 05:11:33 2002
+@@ -619,7 +619,8 @@
+ 	  dc_vid_flip ();
+           poll_input (emu);
+ 	  --rest_frames;
+-	  
++
++#if 1
+ 	  if (rest_frames <= 0)
+ 	  {
+ 	    if (!before_skip)
+@@ -630,6 +631,7 @@
+ 	    before_skip = 0;
+ 	  }
+ 	  else
++#endif
+ 	  {
+ 	    while (rest_frames > 0)
+ 	    {
+@@ -749,7 +751,7 @@
+   vmu_icon_draw_string (vmu_screen, 3, 7, str);
+   
+   vmu_icon_draw_string (vmu_screen, 1, 20, "NESTERDC");
+-  vmu_icon_draw_string (vmu_screen, 3, 26, "5.0-PRE3");
++  vmu_icon_draw_string (vmu_screen, 3, 26, "5.0-PRE3fs");
+   
+   timer_spin_sleep (50); /* need wait */
+   vmu_icon_flip (vmu_screen, mldc);
+@@ -814,8 +816,12 @@
+ extern "C" int
+ main() 
+ {
++#ifndef __WITH_TA__
+   kos_init_all(IRQ_ENABLE, NULL);
+   vid_set_mode(DM_320x240, PM_RGB565);
++#else
++  kos_init_all(IRQ_ENABLE | TA_ENABLE, NULL);
++#endif
+   
+   fs_md_init (NES::snss_buflen);
+   maple_controller_init ();
+@@ -836,7 +842,7 @@
+   load_bmp (options_image, "/cd/pics/options.bmp");
+   
+   display_rawimage (startup_image);
+-  draw_string(10, 210, _white, _black, "NesterDC 5.0-pre3");
++  draw_string(10, 210, _white, _black, "NesterDC 5.0-pre3fs");
+   dc_vid_flip ();
+   
+   init_menus ();
+@@ -858,9 +864,12 @@
+   sprintf(nes_settings->module_dirname, "/cd/games");
+   
+ #if 0
+-  run_game ("/cd/games/rockman2.nes");
++  run_game ("/cd/games/gradius_2.nes");
+ #endif
+   load_main_menu();
++  
++  dc_print ("shutdown");
++  timer_spin_sleep (100);
+   
+   if (mldc)
+   {
+diff -ruN nesterdc-5.0-pre3/nester/dreamcast/dc_menu.c nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_menu.c
+--- nesterdc-5.0-pre3/nester/dreamcast/dc_menu.c	Mon Dec 24 00:15:59 2001
++++ nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_menu.c	Tue Jan  8 03:55:00 2002
+@@ -82,6 +82,7 @@
+   
+   memset(rom_files, 0, sizeof(rom_files));
+   
++  iso_ioctl (0, NULL, 0);
+   d = fs_open(path, O_RDONLY | O_DIR);
+   while (!d) 
+   {
+@@ -98,6 +99,7 @@
+       if (cont.rtrig && cont.ltrig)
+         return 0;
+     }
++    iso_ioctl (0, NULL, 0);
+     d = fs_open (path, O_RDONLY | O_DIR);
+   }
+   
+diff -ruN nesterdc-5.0-pre3/nester/dreamcast/dc_utils.c nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_utils.c
+--- nesterdc-5.0-pre3/nester/dreamcast/dc_utils.c	Mon Jan  7 00:33:18 2002
++++ nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_utils.c	Tue Jan  8 04:09:14 2002
+@@ -13,7 +13,6 @@
+ 
+ 
+ #include <dc/sq.h>
+-
+ /* n must be multiple of 64 */
+ void
+ dc_sq_cpy(void *dest, void *src, int n)
+@@ -50,7 +49,12 @@
+     asm("pref @%0" : : "r" (pref_addr));
+     d += 8;
+   }
+-  
++}
++
++
++void
++dc_wait_sq_cpy_done ()
++{
+   /* wait for both store queues to complete */
+   *((uint32 *)(0xe0000000)) = 0;
+   *((uint32 *)(0xe0000000 | 0x20)) = 0;
+@@ -61,15 +65,15 @@
+ #define FB_SCREEN_SIZE (320 * 240 * 2)
+ 
+ static uint16 *dc_vram_s = (uint16 *)VRAM_BASE_ADDR;
+-
+-#if 1
+ static uint16 dc_screen[320 * 240] __attribute__ ((aligned (32)));
+-#endif
+ 
+ static uint32 dc_vid_queue[8];
+ static int dc_vid_queue_head = 0;
+ static int dc_vid_queue_tail = 0;
+ 
++#ifdef __WITH_TA__
++static uint32 dc_ta_screen[4];
++#endif
+ 
+ uint32
+ dc_vid_enqueue (uint32 vram)
+@@ -122,6 +126,13 @@
+ {
+   dc_vram_s = (uint16 *)VRAM_BASE_ADDR;
+   dc_vid_clear_queue ();
++#ifdef __WITH_TA__
++  {
++    int i;
++    for (i = 0; i < 4; ++i)
++      dc_ta_screen[i] = ta_txr_allocate (256 * 256 * 2);
++  }
++#endif
+ }
+ 
+ 
+@@ -135,54 +146,122 @@
+ uint16*
+ dc_get_vram_s ()
+ {
+-#if 0
+-  return dc_vram_s;
+-#else
+   return dc_screen;
+-#endif
+ }
+ 
+ 
+ void
+ dc_vid_clear ()
+ {
+-#if 0
+-  uint16 *p = dc_get_vram_s ();
+-  
+-  if ((uint32)p & 31)
+-    panic("dc_vid_clear align error");
+-  
+-  sq_clr(p, FB_SCREEN_SIZE);
+-#else
+   memset(dc_screen, 0, sizeof(dc_screen));
+-#endif
+ }
+ 
+ 
+ void
+ dc_vid_empty ()
+ {
+-#if 0
+-  vid_empty ();
+-#else
+   memset(dc_screen, 0, sizeof(dc_screen));
+-#endif
+ }
+ 
+ 
++#ifdef __WITH_TA__
++/* 256x240 texture */ 
++static void
++draw_nes_screen(uint32 textureaddr)
++{
++  poly_hdr_t poly;
++  vertex_ot_t   vert;
++  const float u1 = 0;
++  const float v1 = 0;
++  const float u2 = 1;
++  const float v2 = 224.0/256;
++  uint32 x, y;
++  
++  /* Begin opaque polygons */
++  ta_begin_render();
++  
++  ta_poly_hdr_txr(&poly, TA_OPAQUE, TA_RGB565, 256, 256, textureaddr, TA_NO_FILTER);
++  ta_commit_poly_hdr(&poly);
++  
++  vert.flags = TA_VERTEX_NORMAL;
++  vert.x = 0;
++  vert.y = 480;
++  vert.z = 512.0f;
++  vert.u = u1;
++  vert.v = v2;
++  vert.a = 1;
++  vert.r = 1;
++  vert.g = 1;
++  vert.b = 1;
++  vert.oa = vert.or = vert.og = vert.ob = 0.0f;
++  ta_commit_vertex(&vert, sizeof(vert));
++  
++  vert.x = 0;
++  vert.y = 0;
++  vert.u = u1;
++  vert.v = v1;
++  ta_commit_vertex(&vert, sizeof(vert));
++  
++  vert.x = 640;
++  vert.y = 480;
++  vert.u = u2;
++  vert.v = v2;
++  ta_commit_vertex(&vert, sizeof(vert));
++  
++  vert.flags = TA_VERTEX_EOL;
++  vert.x = 640;
++  vert.y = 0;
++  vert.u = u2;
++  vert.v = v1;
++  ta_commit_vertex(&vert, sizeof(vert));
++  
++  /* Begin translucent polygons */
++  ta_commit_eol();
++  
++  ta_poly_hdr_col(&poly, TA_TRANSLUCENT);
++  ta_commit_poly_hdr(&poly);
++  
++  /* Finish up */
++  ta_commit_eol();
++  ta_finish_frame();
++}
++#endif
++
++
+ void
+ dc_vid_flip ()
+ {
+   static int screen_buffer_num = 0;
+   
+-#if 1
++#ifndef __WITH_TA__
+   dc_sq_cpy(dc_vram_s, dc_screen, sizeof(dc_screen));
+-#endif
++  dc_wait_sq_cpy_done ();
++  
+   if (!dc_vid_enqueue ((uint32)dc_vram_s))
+     return;
+   
+   screen_buffer_num = (screen_buffer_num + 1) & 0x0f;
+   dc_vram_s = (uint16 *)(VRAM_BASE_ADDR + FB_SCREEN_SIZE * screen_buffer_num);
++  
++#else
++  int i;
++  
++  uint16 *d = ta_txr_map(dc_ta_screen[screen_buffer_num]);
++  uint16 *s = dc_screen;
++  s += 32;
++  for (i = 0; i < 224; ++i)
++  {
++    dc_sq_cpy (d, s, 256 * 2);
++    d += 256;
++    s += 320;
++  }
++  dc_wait_sq_cpy_done ();
++#if 1
++  draw_nes_screen (dc_ta_screen[screen_buffer_num]);
++#endif
++  screen_buffer_num = (screen_buffer_num + 1) & 0x03;
++  
++#endif
+ }
+ 
+ 
+@@ -191,10 +270,12 @@
+ static void
+ vsync_handler (uint32 code)
+ {
++#ifndef __WITH_TA__
+   uint32 vram = dc_vid_dequeue ();
++  
+   if (vram)
+     vid_set_start (vram);
+-  
++#endif
+   ++cont_get_cond_available;
+ }
+ 
+diff -ruN nesterdc-5.0-pre3/nester/dreamcast/dc_utils.h nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_utils.h
+--- nesterdc-5.0-pre3/nester/dreamcast/dc_utils.h	Mon Jan  7 00:33:18 2002
++++ nesterdc-5.0-pre3f-fix/nester/dreamcast/dc_utils.h	Tue Jan  8 03:55:00 2002
+@@ -13,6 +13,7 @@
+ 
+ void timer_sleep(int msec);
+ void dc_sq_cpy(void *dest, void *src, int n);
++void dc_wait_sq_cpy_done ();
+ 
+ extern uint8 dc_controller_addr[4];
+ 
+@@ -57,11 +58,6 @@
+ void draw_string(int x1, int y1, uint16 fg_color, uint16 bg_color, const char *str);
+ void dc_print(const char *string);
+ void dc_put_error(const char *string);
+-
+-#ifdef __WITH_TA__
+-void draw_nes_screen(uint32 textureaddr);
+-void draw_bmp(uint32 textureaddr);
+-#endif
+ 
+ #ifdef __cplusplus
+ }

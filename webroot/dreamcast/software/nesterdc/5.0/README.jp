@@ -1,0 +1,292 @@
+========================================
+3.0からの変更点
+
+# 5.0 
+ * フルスクリーンサポート.
+ * VMU フォントドライバ.
+ * キューを用いる TA ドライバ.
+ * VGA サポート.
+ * SDL への移植.
+ * 開発言語を EC++ に
+ * 4 プレイヤーサポート 
+ * スピードアップ (だいたい 60fps で動きます). 
+ * 連射機能. 
+ * スクリーンの位置とサイズを調整可能. 
+ * ロムメニューでディレクトリサポート. 
+
+
+# 4.0
+ * cpu/ppu/apu エンジンを unofficial nester から移植.
+ * マッパーサポートを unofficial nester から移植.
+ * ステイトセーブ/ロード (高速モード, VMU 保存モード).
+ * セーブデータの圧縮. 
+ * オートフレームスキップ.
+ * VMU メニュー (NesterDC 上で VMU ファイルを確認, 削除できます).
+ * ファイル名の長さの制限が無くなりました.
+
+----------------------------------------
+** 注意事項 **
+ VMU ブロック使用量
+
+  大部分のケース: 
+   - ノーマルセーブ(nes): 3-9
+   - ノーマルセーブ(fds): 3
+   - ステイトセーブ(nes): 6-20
+   - ステイトセーブ(fds): 66
+
+  最悪のケース: (圧縮が出来なかった場合の推測値)
+   - ノーマルセーブ(nes): 18 (MMC5 の場合 40) 
+   - ノーマルセーブ(fds): 520 
+   - ステイトセーブ(nes): 96 (MMC5 の場合 240)
+   - ステイトセーブ(fds): 700 
+
+----------------------------------------
+** 注意事項 **
+ VMU に表示される情報
+
+ * メインメニューでの表示
+
+ +--------------+ 
+ | VMU FREE:    |  <- VMU の残量
+ |  81 BLOCKS   |
+ |              |
+ | NESTERDC     |  <- NesterDCのバージョン
+ |  5.0 RELEASE |
+ +--------------+
+ 
+ 
+ * ゲーム中の表示
+
+ +--------------+
+ | FRAME RATE:  |  <- フレームスキップの状態
+ |  AUTO: x1.0  |
+ | AUTOFIRE: N  |  <- 連射モードのオン/オフ
+ |              |
+ | METROID.FDS  |  <- ロムのファイル名
+ +--------------+
+
+----------------------------------------
+** 注意事項 **
+ 3(4) プレイヤーで遊ぶためには 3(4) 個の DC コントローラが必要です. 
+
+
+========================================
+NesterDC の CD の焼く時のフォルダ構造↓
+
+--------------------
+    1 トラック目 (音楽トラック)
+     audio.raw (もしくは好きな wav ファイル)
+
+    2 トラック目 (データトラック)
+     /1ST_READ.BIN
+     /pics/credits.bmp
+     /pics/menu.bmp
+     /pics/...
+     /games/game.nes
+     /games/disksys.rom
+     /games/super_mario.nes
+     /games/favorite/castlevania1.nes
+     /games/favorite/castlevania2.nes
+     /games/favorite/castlevania3.nes
+     /games/fds/metroid.fds
+     /games/fds/zelda.fds
+     /games/...
+
+
+--------------------
+** 注意事項 ** 
+  - ディスクシステムをする時には disksys.rom を games のフォルダの中に入れます. 
+  - Rock Ridge フォーマット使用時には, ファイル名に制限はありません. 
+  - ROM ファイルの数は, ディレクトリ毎に 1024 以下でなければなりません. 
+
+
+========================================
+コンパイル方法
+
+1. nesterdc-5.0/dcmake を編集する. 
+2. トップディレクトリにて dcmake を実行して下さい. 
+
+
+--------------------
+** 注意事項 **
+
+開発環境
+
+ * NesterDC の開発
+  - binutils-2.11.2
+  - gcc-3.0.3
+  - FreeBSD 4-stable
+
+ * CD-R を焼く環境
+  - NetBSD current
+  - mkisofs + cdrecord
+
+--------------------
+** 注意 **
+
+わたしは Windows マシンを持っていません. 
+また, Windows 専用のソフト (DiskJuggler, Nero, ...) を用いて
+CD-R を焼く方法を知りません. 
+
+
+========================================
+連絡先: 高山 扶美彦 (Takayama Fumihiko) <tekezo@tkym.org>
+         http://nemesis.kaz.ac/~fumihit/nesterdc/
+(hotmail.com 宛にメールを出せないので,
+返事が必要な場合 hotmail は使わないで下さい) 
+
+
+
+========================================
+日本語訳について
+
+訳: 超雑魚キャラ
+校正: 高山 扶美彦 (Takayama Fumihiko) <tekezo@tkym.org>
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+========================================
+Changes from 3.0 
+
+# 5.0 
+ * fullscreen support 
+ * speedup. (works almost 60fps). 
+ * 4 players support
+ * VGA support
+ * SDL porting
+ * change base coding language to EC++
+ * VMU font driver
+ * queue base TA driver
+ * autofire
+ * adjustable screen position and size. 
+ * directory support in rom menu.
+
+
+# 4.0
+ * cpu/ppu/apu engine was ported from 
+    unofficial nester (http://www.emulation9.com/takeda/). 
+ * mappers were ported from 
+    unofficial nester (http://www.emulation9.com/takeda/). 
+     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 
+     20, 21, 22, 23, 24, 25, 26, 32, 33, 34, 40, 41, 42, 43, 44, 
+     45, 46, 47, 48, 49, 50, 51, 52, 57, 58, 60*, 64, 65, 66, 67, 
+     68, 69, 70, 71, 72, 73, 75, 76, 77, 78, 79, 80, 82, 83, 85, 86, 
+     87, 88, 89, 90, 91*, 92, 93, 94, 95, 96, 97, 99, 100, 101, 105, 
+     112, 113, 117, 118, 119, 122, 151, 160, 180, 181, 182, 184, 185, 
+     188, 189, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234*, 
+     235, 236, 240, 242, 243, 245*, 246, 248, 255 
+     (*: partial)
+ * state save/load (quick & VMU).
+ * compress data saving. 
+ * auto frameskip.
+ * VMU menu (you can remove VMU files on NesterDC).
+ * VMU saving works on long filename.
+
+
+----------------------------------------
+** NOTE **
+ VMU blocks use 
+
+  most case: 
+   - normal saving(nes): 3-9 blocks 
+   - normal saving(fds): 3 blocks 
+   - state saving(nes):  6-20 blocks 
+   - state saving(fds):  66 blocks 
+
+  worst case: (calculated by assuming compression had no effect)
+   - normal saving(nes): 18 blocks (40 blocks if MMC5)
+   - normal saving(fds): 520 blocks
+   - state saving(nes):  96 blocks (240 blocks if MMC5)
+   - state saving(fds):  700 blocks
+
+----------------------------------------
+** NOTE **
+ VMU LCD info
+
+ * in main menu
+
+ +--------------+ 
+ | VMU FREE:    |  <- free blocks in VMU. 
+ |  81 BLOCKS   |
+ |              |
+ | NESTERDC     |  <- NesterDC version. 
+ |  5.0 RELEASE |
+ +--------------+
+
+
+ * during game
+
+ +--------------+
+ | FRAME RATE:  |  <- frame skip rate. 
+ |  AUTO: x1.0  |
+ | AUTOFIRE: N  |  <- autofire-mode status. 
+ |              |
+ | METROID.FDS  |  <- ROM file name. 
+ +--------------+
+
+----------------------------------------
+** NOTE **
+ 3(4) player support need 3(4) DC controller. 
+
+========================================
+NesterDC filesystem hierarchy is
+
+--------------------
+    1st track (audio)
+     audio.raw (or your favorite caution.wav)
+
+    2nd track (data)
+     /1ST_READ.BIN
+     /pics/credits.bmp
+     /pics/menu.bmp
+     /pics/...
+     /games/game.nes
+     /games/disksys.rom
+     /games/super_mario.nes
+     /games/favorite/castlevania1.nes
+     /games/favorite/castlevania2.nes
+     /games/favorite/castlevania3.nes
+     /games/fds/metroid.fds
+     /games/fds/zelda.fds
+     /games/...
+
+
+--------------------
+** NOTE ** 
+  - If you play FDS games, need /games/disksys.rom.
+  - If you use Rock Ridge format, there is no limit for filename. 
+  - Max ROM files is 1024 per one directory. 
+
+
+========================================
+How to compile
+
+1. edit nesterdc-5.0/dcmake
+2. dcmake in top dir
+
+
+--------------------
+** NOTE **
+
+My develop environment
+
+ * NesterDC developing 
+  - binutils-2.11.2
+  - gcc-3.0.3
+  - FreeBSD 4-stable
+
+ * buring CD
+  - NetBSD current
+  - mkisofs + cdrecord
+
+--------------------
+** CAUTION **
+
+I have no Windows PC, and I don't know HOWTO write CDs 
+using Windows specific tools (DiskJuggler, Nero, ...). 
+
+
+========================================
+contact: Takayama Fumihiko <tekezo@tkym.org>
+         http://nemesis.kaz.ac/~fumihit/nesterdc/
+(if you want mail reply, don't use hotmail.com. I can't mail for hotmail.)
