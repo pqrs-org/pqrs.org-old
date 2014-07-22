@@ -127,7 +127,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-10.9.0.dmg">Seil-10.9.0をダウンロード
+            href="files/Seil-10.10.0.dmg">Seil-10.10.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.10、10.9、10.8用</span></a>      </p>
 
       <div class="alert alert-info">
@@ -580,6 +580,26 @@ $ sh ~/Desktop/seil-import.sh
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 10.10.0
+              <small>
+2014年7月22日              </small>
+
+              <a class="btn btn-default" href="files/Seil-10.10.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Seil cannot connect with kernel extension」というメッセージが表示されることがあります。</li>
+    </ul>
+  </li>
+  <li>Seilが/Applications以外の場所にある場合にエラーメッセージを表示するようにしました。</li>
+  <li>SteelSeries Apex Gaming Keyboardをサポートしました。</li>
+</ul>
 
           <h2>
             Version 10.9.0

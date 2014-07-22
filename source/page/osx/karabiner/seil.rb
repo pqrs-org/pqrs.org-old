@@ -72,6 +72,37 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.10.0',
+              :updated => '2014-07-22',
+              :link => 'files/Seil-10.10.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>A message "Seil cannot connect with kernel extension" might be shown in some environment.</li>
+    </ul>
+  </li>
+  <li>Show an error alert when Seil is not placed in /Applications.</li>
+  <li>SteelSeries Apex Gaming Keyboard has been supported.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>いくつかの環境で「Seil cannot connect with kernel extension」というメッセージが表示されることがあります。</li>
+    </ul>
+  </li>
+  <li>Seilが/Applications以外の場所にある場合にエラーメッセージを表示するようにしました。</li>
+  <li>SteelSeries Apex Gaming Keyboardをサポートしました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.9.0',
               :updated => '2014-06-22',
               :link => 'files/Seil-10.9.0.dmg',
