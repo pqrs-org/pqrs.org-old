@@ -7,24 +7,25 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.2</title>
+      <title>Version 10.1.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.2 Update</h2>
+<h2>About v10.1.3 Update</h2>
 <ul>
+  <li>v10.1.3: Improved command line interface.</li>
   <li>v10.1.2: Added an option to disable AXNotifier. ("AXNotifier" tab in Preferences.)</li>
   <li>v10.1.1: Improved compatibility with JavaAppLauncher.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 23 Jul 2014 16:43:11 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.2.dmg"
-                 sparkle:version="10.1.2" length="3504805" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFD566tO12SQa0loxXjmiVvrU0ctcAhRnlXJlnVHFXsEY04iNxk/uDiFZQg=="
+      <pubDate>Tue, 29 Jul 2014 14:33:15 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.3.dmg"
+                 sparkle:version="10.1.3" length="3506603" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEGVlV9QLineTOlyvPbIB4QZ1BfBAhRsCRaK8rw684l7/y0YVC4u1iyBrQ=="
                  />
     </item>
 
