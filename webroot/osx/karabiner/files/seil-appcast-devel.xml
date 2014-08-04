@@ -7,30 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.10.0</title>
+      <title>Version 10.10.1</title>
       <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.10.0 Update</h2>
+<h2>About v10.10.1 Update</h2>
 <ul>
-  <li>
-    Fixed an issue:
-    <ul>
-      <li>A message "Seil cannot connect with kernel extension" might be shown in some environment.</li>
-    </ul>
-  </li>
-  <li>Show an error alert when Seil is not placed in /Applications.</li>
-  <li>SteelSeries Apex Gaming Keyboard has been supported.</li>
+  <li>v10.10.1: Minor improvement.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
 ]]>
       </description>
-      <pubDate>Tue, 22 Jul 2014 00:02:03 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.10.0.dmg"
-                 sparkle:version="10.10.0" length="1379177" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFFrIkadgTUbxtge/v+UU/f2A7fpWAhUArY7VcpZ9xSGhIXzPz+jAGbYzFpo="
+      <pubDate>Mon, 04 Aug 2014 15:52:07 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.10.1.dmg"
+                 sparkle:version="10.10.1" length="1379454" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFH7GOSPkBnXbS52xbdAktOOTahlAAhUAlrnU4oUa9FrybjqkFtraWg0Hn88="
                  />
     </item>
 
