@@ -7,23 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.10.1</title>
+      <title>Version 10.10.2</title>
       <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.10.1 Update</h2>
+<h2>About v10.10.2 Update</h2>
 <ul>
+  <li>v10.10.2: Minor improvement.</li>
   <li>v10.10.1: Minor improvement.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
 ]]>
       </description>
-      <pubDate>Mon, 04 Aug 2014 15:52:07 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.10.1.dmg"
-                 sparkle:version="10.10.1" length="1379454" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFH7GOSPkBnXbS52xbdAktOOTahlAAhUAlrnU4oUa9FrybjqkFtraWg0Hn88="
+      <pubDate>Tue, 05 Aug 2014 06:25:32 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.10.2.dmg"
+                 sparkle:version="10.10.2" length="1378781" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFoD+OuWHt/ABQK52SX4ZHvIH/q5AhUAqdpqziJGX2h2Mms77PyZBP426bA="
                  />
     </item>
 
