@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.10</title>
+      <title>Version 10.1.11</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.10 Update</h2>
+<h2>About v10.1.11 Update</h2>
 <ul>
+  <li>v10.1.11: Minor improvement.</li>
   <li>v10.1.10: __HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
   <li>v10.1.9: Fixed a minor issue.</li>
   <li>v10.1.8: Fixed a minor issue.</li>
@@ -29,10 +30,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 06 Aug 2014 15:51:31 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.10.dmg"
-                 sparkle:version="10.1.10" length="3507592" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCD1OvqEN/ezfa06NKJsWmtwmvrtwIULUrKNQUQy2jaJgX4tL0EAAWjhfs="
+      <pubDate>Wed, 06 Aug 2014 16:40:03 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.11.dmg"
+                 sparkle:version="10.1.11" length="3507398" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFH3atoN69fJP0u6NVxI9haAQQU5sAhRIhwMnhsbzg/+zQL/gNFna9ITk+w=="
                  />
     </item>
 
