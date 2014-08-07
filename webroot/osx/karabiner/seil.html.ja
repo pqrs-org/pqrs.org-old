@@ -168,7 +168,7 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="col-show-grid">
-              <h2>Step1</h2>
+              <h2>Step 1</h2>
 
               <p>
                   ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
@@ -185,7 +185,7 @@ src="img/pkg.png" width="128" height="128"                />
           </div>
           <div class="col-lg-4">
             <div class="col-show-grid">
-              <h2>Step2</h2>
+              <h2>Step 2</h2>
 
               <p>
                   インストーラが起動しますので、Seilをインストールします。
@@ -214,7 +214,7 @@ src="img/pkg.png" width="128" height="128"                />
           </div>
           <div class="col-lg-4">
             <div class="col-show-grid">
-              <h2>Step3</h2>
+              <h2>Step 3</h2>
 
               <p>
                   LaunchpadからSeilを起動します。
@@ -250,7 +250,7 @@ src="img/seil-icon.png" width="130" height="153"                />
           </h1>
         </div>
 
-        <h2>Step1</h2>
+        <h2>Step 1</h2>
         <p>
             Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
         </p>
@@ -286,7 +286,7 @@ src="img/seil-icon.png" width="130" height="153"            />
             PCKeyboardHack 8.0.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane-pckeyboardhack.png">設定画面はシステム環境設定にあります。</a>
         </p>
 
-        <h2>Step2</h2>
+        <h2>Step 2</h2>
         <p>
             有効にしたい設定にチェックを入れて、必要に応じてキーコードの変更をします。
         </p>
@@ -309,7 +309,7 @@ src="img/seil-icon.png" width="130" height="153"            />
 
         <div id="noaction">
           <h2>
-            Step3
+            Step 3
             <span class="label label-info">Important</span>
           </h2>
           <p>

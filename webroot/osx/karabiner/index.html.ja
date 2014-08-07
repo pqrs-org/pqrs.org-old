@@ -166,7 +166,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="col-show-grid">
-          <h2>Step1</h2>
+          <h2>Step 1</h2>
 
           <p>
               ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
@@ -183,7 +183,7 @@ src="img/pkg.png" width="128" height="128"            />
       </div>
       <div class="col-lg-4">
         <div class="col-show-grid">
-          <h2>Step2</h2>
+          <h2>Step 2</h2>
 
           <p>
               インストーラが起動しますので、Karabinerをインストールします。
@@ -212,7 +212,7 @@ src="img/pkg.png" width="128" height="128"            />
       </div>
       <div class="col-lg-4">
         <div class="col-show-grid">
-          <h2>Step3</h2>
+          <h2>Step 3</h2>
 
           <p>
               LaunchpadからKarabinerを起動します。

@@ -129,7 +129,7 @@
           </h1>
         </div>
 
-        <h2>Step1</h2>
+        <h2>Step 1</h2>
         <p>
             Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
         </p>
@@ -165,7 +165,7 @@ src="img/launchpad.png" width="150" height="157"            />
             KeyRemap4MacBook 7.8.0、またはそれ以前のバージョンを使用している場合、<a href="img/preferencepane.png">設定画面はシステム環境設定にあります。</a>
         </p>
 
-        <h2>Step2</h2>
+        <h2>Step 2</h2>
 
         <p>
             アクセシビリティ機能へのアクセスの確認ダイアログが表示されるので、「"システム環境設定"を開く」をクリックしてください。
@@ -207,7 +207,7 @@ src="img/launchpad.png" width="150" height="157"            />
           </div>
         </div>
 
-        <h2>Step3</h2>
+        <h2>Step 3</h2>
         <p>
             お好みの設定を有効にしてください。
         </p>

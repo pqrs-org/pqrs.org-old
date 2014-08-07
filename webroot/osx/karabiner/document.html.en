@@ -129,7 +129,7 @@
           </h1>
         </div>
 
-        <h2>Step1</h2>
+        <h2>Step 1</h2>
         <p>
             Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
         </p>
@@ -166,7 +166,7 @@ src="img/launchpad.png" width="150" height="157"            />
             <a href="img/preferencepane.png">Preferences is in System Preferences.</a>
         </p>
 
-        <h2>Step2</h2>
+        <h2>Step 2</h2>
 
         <p>
             An alert about accessibility features will be shown. Click "Open System Preferences".
@@ -208,7 +208,7 @@ src="img/launchpad.png" width="150" height="157"            />
           </div>
         </div>
 
-        <h2>Step3</h2>
+        <h2>Step 3</h2>
         <p>
             Activate your favorite settings from prepared settings.
         </p>
