@@ -16,7 +16,7 @@
 <h2>About v10.1.12 Update</h2>
 <ul>
   <li>v10.1.12: Improved compatibility with JavaAppLauncher.</li>
-  <li>v10.1.12: You can also use __{ }__ as same as @begin, @end.</li>
+  <li>v10.1.12: You can also use __{ }__ as well as @begin, @end.</li>
   <li>v10.1.11: Minor improvement.</li>
   <li>v10.1.10: __HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
   <li>v10.1.9: Fixed a minor issue.</li>
