@@ -338,6 +338,29 @@ src="img/seil-icon.png" width="130" height="153"            />
             </div>
           </div>
         </div>
+
+        <div id="noaction-multiple-devices" class="alert alert-info">
+          <h3>Note:</h3>
+          <p>
+              If you are using multiple devices, you should choose devices at "No Action" configuration.
+          </p>
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/seil-noaction-multiple-devices.png" alt="No Action" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 739px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/seil-noaction-multiple-devices.png" alt="No Action" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="uninstall">
@@ -352,10 +375,10 @@ src="img/seil-icon.png" width="130" height="153"            />
               Press the "Launch uninstaller" button in Seil Preferences.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/seil-preferences-misc.png" alt="Seil" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -371,10 +394,10 @@ src="img/seil-icon.png" width="130" height="153"            />
               Proceed uninstallation.
             <div class="row">
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -385,10 +408,10 @@ src="img/seil-icon.png" width="130" height="153"            />
 </div>
               </div>
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 499px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -399,10 +422,10 @@ src="img/seil-icon.png" width="130" height="153"            />
 </div>
               </div>
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
