@@ -7,14 +7,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.12</title>
+      <title>Version 10.1.14</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.12 Update</h2>
+<h2>About v10.1.14 Update</h2>
 <ul>
+  <li>v10.1.14: Updated prepared settings.</li>
+  <li>v10.1.13: Updated prepared settings.</li>
   <li>v10.1.12: Improved compatibility with JavaAppLauncher.</li>
   <li>v10.1.12: You can also use __{ }__ as well as @begin, @end.</li>
   <li>v10.1.11: Minor improvement.</li>
@@ -32,10 +34,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Thu, 07 Aug 2014 01:23:59 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.12.dmg"
-                 sparkle:version="10.1.12" length="3507599" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFgA1qACLMzXrmG26JFxqS1tIoyuAhQ+ldDNwgEZngt2Q/dfZE9TXCTqFQ=="
+      <pubDate>Sun, 17 Aug 2014 00:45:55 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.14.dmg"
+                 sparkle:version="10.1.14" length="3508101" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDt7HhkJURmASNkcgQJIHyUx4Kq3AhQ5GzMHpBdVgOc4P13XLw840IFf0w=="
                  />
     </item>
 
