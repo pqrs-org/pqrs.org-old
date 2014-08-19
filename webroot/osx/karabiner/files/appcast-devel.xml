@@ -7,14 +7,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.16</title>
+      <title>Version 10.1.18</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.16 Update</h2>
+<h2>About v10.1.18 Update</h2>
 <ul>
+  <li>v10.1.18: Updated prepared settings.</li>
+  <li>v10.1.17: Improved compatibility with Matlab.</li>
   <li>v10.1.16: Fixed Microsoft Remote Desktop issue.</li>
   <li>v10.1.15: Updated prepared settings.</li>
   <li>v10.1.14: Updated prepared settings.</li>
@@ -36,10 +38,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 17 Aug 2014 04:49:04 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.16.dmg"
-                 sparkle:version="10.1.16" length="3508145" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFE8lyRays3t5PiMCmHwYZjPZfh6yAhQJeZcQIWNtDHXGLbZM/dszgb6Jyw=="
+      <pubDate>Tue, 19 Aug 2014 09:40:44 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.18.dmg"
+                 sparkle:version="10.1.18" length="3508206" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAv/Qq+2IYGs+KKxA9MRZacgk1sHAhQpYM37smR1gCOeBst0bpYcRxoFVA=="
                  />
     </item>
 
