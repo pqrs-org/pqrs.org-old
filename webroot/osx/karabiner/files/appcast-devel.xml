@@ -7,14 +7,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.18</title>
+      <title>Version 10.1.19</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.18 Update</h2>
+<h2>About v10.1.19 Update</h2>
 <ul>
+  <li>v10.1.19: Improved Preferences line height.</li>
+  <li>v10.1.19: Updated prepared settings.</li>
   <li>v10.1.18: Updated prepared settings.</li>
   <li>v10.1.17: Improved compatibility with Matlab.</li>
   <li>v10.1.16: Fixed Microsoft Remote Desktop issue.</li>
@@ -38,10 +40,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 19 Aug 2014 09:40:44 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.18.dmg"
-                 sparkle:version="10.1.18" length="3508206" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAv/Qq+2IYGs+KKxA9MRZacgk1sHAhQpYM37smR1gCOeBst0bpYcRxoFVA=="
+      <pubDate>Wed, 20 Aug 2014 02:53:58 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.19.dmg"
+                 sparkle:version="10.1.19" length="3508285" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFDhAgiGx0zVhKgV25YBmTmCAxctCAhUAgr1fmqdy75UrRvq/MycoeQ2Gz/s="
                  />
     </item>
 
