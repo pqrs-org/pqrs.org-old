@@ -1092,28 +1092,40 @@ src="img/switch_current_setting.png" width="405" height="220"              />
         <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner
 Usage:
-  karabiner list
-  karabiner selected
-  karabiner changed
-  karabiner reloadxml
-  karabiner export
-  karabiner relaunch
-  karabiner select INDEX
-  karabiner set IDENTIFIER VALUE
-  karabiner enable IDENTIFIER (alias of set IDENTIFIER 1)
-  karabiner disable IDENTIFIER (alias of set IDENTIFIER 0)
+  Profile operations:
+    $ karabiner list
+    $ karabiner select INDEX (INDEX starts at 0)
+    $ karabiner select_by_name NAME
+    $ karabiner selected
+    $ karabiner append NAME
+    $ karabiner rename INDEX NEWNAME (INDEX starts at 0)
+    $ karabiner delete INDEX (INDEX starts at 0)
+  Settings:
+    $ karabiner set IDENTIFIER VALUE
+    $ karabiner enable IDENTIFIER (alias of set IDENTIFIER 1)
+    $ karabiner disable IDENTIFIER (alias of set IDENTIFIER 0)
+    $ karabiner changed
+  Others:
+    $ karabiner export
+    $ karabiner reloadxml
+    $ karabiner relaunch
 
-Example:
-  karabiner list
-  karabiner selected
-  karabiner changed
-  karabiner reloadxml
-  karabiner export
-  karabiner relaunch
-  karabiner select 1
-  karabiner set repeat.wait 30
-  karabiner enable remap.shiftL2commandL
-  karabiner disable remap.shiftL2commandL
+Examples:
+  $ karabiner list
+  $ karabiner select 1
+  $ karabiner selected
+  $ karabiner append "For external keyboard"
+  $ karabiner rename 1 "Empty Setting"
+  $ karabiner delete 1
+
+  $ karabiner set repeat.wait 30
+  $ karabiner enable remap.shiftL2commandL
+  $ karabiner disable remap.shiftL2commandL
+  $ karabiner changed
+
+  $ karabiner export
+  $ karabiner reloadxml
+  $ karabiner relaunch
 </pre>
 
         <h2>
@@ -1127,10 +1139,10 @@ Example:
               Get a list of profiles by "list" option.
             <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner list
-Default
-Don't Remap
-Empty
-Test
+0: Default
+1: Don't Remap
+2: Empty
+3: Test
 </pre>
           </li>
           <li>
