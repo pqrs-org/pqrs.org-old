@@ -118,6 +118,36 @@
       </h1>
     </div>
       <h2>
+        Version 10.2.0
+          <small>
+2014年8月20日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.2.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>Microsoft Remote Desktopでショートカット（Ctrl-C, Ctrl-Vなど）がうまく動かないことがあります。</li>
+      <li>いくつかのJavaアプリがクラッシュします。</li>
+    </ul>
+  </li>
+  <li>AXNotifierを無効化する設定を追加しました。（設定画面のAXNotifierタブ） </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>プロファイルの管理を行う機能をコマンドラインインターフェースに追加しました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>__HoldingKeyToKey__と__KeyOverlaidModifier__で、Option::KEYTOKEY_BEFORE_KEYDOWNとOption::KEYTOKEY_AFTER_KEYUPをサポートしました。</li>
+      <li>@begin、@endの別名として__{、}__を使えるようになりました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.1.0
           <small>
 2014年7月21日          </small>

@@ -7,45 +7,40 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.1.20</title>
+      <title>Version 10.2.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.1.20 Update</h2>
+<h2>About v10.2.0 Update</h2>
 <ul>
-  <li>v10.1.20: Improved Preferences UI.</li>
-  <li>v10.1.20: Updated prepared settings.</li>
-  <li>v10.1.19: Improved Preferences line height.</li>
-  <li>v10.1.19: Updated prepared settings.</li>
-  <li>v10.1.18: Updated prepared settings.</li>
-  <li>v10.1.17: Improved compatibility with Matlab.</li>
-  <li>v10.1.16: Fixed Microsoft Remote Desktop issue.</li>
-  <li>v10.1.15: Updated prepared settings.</li>
-  <li>v10.1.14: Updated prepared settings.</li>
-  <li>v10.1.13: Updated prepared settings.</li>
-  <li>v10.1.12: Improved compatibility with JavaAppLauncher.</li>
-  <li>v10.1.12: You can also use __{ }__ as well as @begin, @end.</li>
-  <li>v10.1.11: Minor improvement.</li>
-  <li>v10.1.10: __HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
-  <li>v10.1.9: Fixed a minor issue.</li>
-  <li>v10.1.8: Fixed a minor issue.</li>
-  <li>v10.1.7: Fixed a minor issue.</li>
-  <li>v10.1.6: Updated prepared settings.</li>
-  <li>v10.1.5: Updated prepared settings.</li>
-  <li>v10.1.4: Minor improvement.</li>
-  <li>v10.1.3: Improved command line interface.</li>
-  <li>v10.1.2: Added an option to disable AXNotifier. ("AXNotifier" tab in Preferences.)</li>
-  <li>v10.1.1: Improved compatibility with JavaAppLauncher.</li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Shortcuts (eg. Ctrl-C, Ctrl-V) might not work properly in Microsoft Remote Desktop.</li>
+      <li>Some Java apps will be crash.</li>
+    </ul>
+  </li>
+  <li>Added an option to disable AXNotifier. ("AXNotifier" tab in Preferences.)</li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+  <li>Profile management functions have been added into command line interface.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>__HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>You can also use __{ }__ as well as @begin, @end.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 20 Aug 2014 11:30:23 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.20.dmg"
-                 sparkle:version="10.1.20" length="3508476" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCBaCKpNW7sV+KstJQlHXEyHVXbXAhRvGGO/tZUs6EtNKt9JTJO3AG3uow=="
+      <pubDate>Wed, 20 Aug 2014 12:29:23 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.0.dmg"
+                 sparkle:version="10.2.0" length="3508965" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDAc2Oe1VhjQEViCCbWxCbNpoarSAhQdxGyN+r3eL2EyX4k6bsO6CdBVHw=="
                  />
     </item>
 

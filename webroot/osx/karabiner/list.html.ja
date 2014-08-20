@@ -119,7 +119,7 @@
     </div>
 
     <h2>
-      Karabiner-10.0.0 (Total: 2073 items)
+      Karabiner-10.2.0 (Total: 2080 items)
     </h2>
 
 <ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
@@ -654,7 +654,7 @@
   You need at least one pointing device that has been remapped in order to use Mouse Keys feature.
   Do not enable "General &gt; Don't remap any pointing devices" if you want to use Mouse Keys.</li><li>Mouse Keys scroll direction: natural
   (Enable this setting if your scroll direction of trackpad/mouse is natural.)</li><li>Mouse Keys Mode v2
-  You can move mouse pointer by d+hjkl keys, and scroll by d+f+hjkl keys.
+  You can move mouse pointer by d+hjkl keys, and scroll by d+s+hjkl keys.
 
   Usage:
 
@@ -864,7 +864,10 @@
 
   Any key (without a modifier) not defined here is a dead key.
 
-  Ubiquitous Vim Normal Mode is inactive in terminal applications, Firefox, emacs, vi and vim, and when the password dialog box is active.</li></ul></li><li>Insert Mode Commands<ul><li>Enable Insert Mode Commands
+  Ubiquitous Vim Normal Mode is inactive in terminal applications, Firefox, emacs, vi and vim,
+  and when the password dialog box is active.
+
+  Ubiquitous Vim Normal Mode is designed for QWERTY layout.</li></ul></li><li>Insert Mode Commands<ul><li>Enable Insert Mode Commands
   Ctrl-w delete preceding word (Shift+Option+Left, Delete)
   Ctrl-u delete preceding line (Shift+Command+Left, Delete)
   Ctrl-d remove an indent (Command+BracketLeft)
@@ -1135,7 +1138,7 @@
   - Escape: cancel.
   - Tab: Switch application__cycle forward.
   - Shift: Switch application__cycle backward.
-  - Arrow keys: move a selection.</li><li>Simultaneous Key Presses [Tab+Q] to toggle Cmd+Tab</li><li>[Option] Control+M to Return</li><li>[Option] Control+[ to Escape</li><li>[Option] HJKL to Arrow Keys</li><li>[Option] JKIL to Arrow Keys</li></ul></li><li>For Spaces<ul><li>Holding "S" Key to Spaces (F8)</li><li>Holding Shift+"S" Key to Spaces (F8)</li><li>Holding "1234 QWER ASDF ZXCV" to switch a space (4x4)
+  - Arrow keys: move a selection.</li><li>Simultaneous Key Presses [Tab+Q] to toggle Cmd+Tab</li><li>Cmd+Space to toggle Cmd+Tab</li><li>[Option] Control+M to Return</li><li>[Option] Control+[ to Escape</li><li>[Option] HJKL to Arrow Keys</li><li>[Option] JKIL to Arrow Keys</li></ul></li><li>For Spaces<ul><li>Holding "S" Key to Spaces (F8)</li><li>Holding Shift+"S" Key to Spaces (F8)</li><li>Holding "1234 QWER ASDF ZXCV" to switch a space (4x4)
   To switch a space, Hold "1234"
   To switch a space, Hold "QWER"
   To switch a space, Hold "ASDF"
@@ -1359,14 +1362,14 @@
   IJ-WF=though and WF-IJ=through generate larger common words and some programming
   constructs. For complete details, see the spreadsheet
 
-  https://pqrs.org/osx/karabiner/contrib/eps_keymap3.ods</li><li>Virtual NumLock</li><li>EPS keymap, edit submap</li><li>EPS keymap, ss submap</li><li>EPS keymap, XT submap</li><li>EPS keymap, CF3 submap</li><li>EPS keymap, CR3 submap</li><li>EPS keymap, CV3 submap</li><li>EPS keymap, CW3 submap</li><li>EPS keymap, EF3 submap</li><li>EPS keymap, ER3 submap</li><li>EPS keymap, EV3 submap</li><li>EPS keymap, EW3 submap</li><li>EPS keymap, FV3 submap</li><li>EPS keymap, FW3 submap</li><li>EPS keymap, GV3 submap</li><li>EPS keymap, IJ3 submap</li><li>EPS keymap, IM3 submap</li><li>EPS keymap, IO3 submap</li><li>EPS keymap, JO3 submap</li><li>EPS keymap, OM3 submap</li><li>EPS keymap, TV3 submap</li><li>EPS keymap, VW3 submap</li></ul></li><li>Set a keyboard type to ANSI on JIS and ISO keyboard</li></ul></li><li>For PC Users<ul><li>Change PC Application Key<ul><li>Application Key to CapsLock</li><li>Application Key to Command_L</li><li>Application Key to Command_L
+  https://pqrs.org/osx/karabiner/contrib/eps_keymap3.ods</li><li>Virtual NumLock</li><li>EPS keymap, edit submap</li><li>EPS keymap, ss submap</li><li>EPS keymap, XT submap</li><li>EPS keymap, CF3 submap</li><li>EPS keymap, CR3 submap</li><li>EPS keymap, CV3 submap</li><li>EPS keymap, CW3 submap</li><li>EPS keymap, EF3 submap</li><li>EPS keymap, ER3 submap</li><li>EPS keymap, EV3 submap</li><li>EPS keymap, EW3 submap</li><li>EPS keymap, FV3 submap</li><li>EPS keymap, FW3 submap</li><li>EPS keymap, GV3 submap</li><li>EPS keymap, IJ3 submap</li><li>EPS keymap, IM3 submap</li><li>EPS keymap, IO3 submap</li><li>EPS keymap, JO3 submap</li><li>EPS keymap, OM3 submap</li><li>EPS keymap, TV3 submap</li><li>EPS keymap, VW3 submap</li></ul></li><li>Set a keyboard type to ANSI on JIS and ISO keyboard</li></ul></li><li>For PC Users<ul><li>Change PC Application Key (Menu Key)<ul><li>Application Key to CapsLock</li><li>Application Key to Command_L</li><li>Application Key to Command_L
   (+ Application Key to Control_L in Terminal, Screen Sharing, MacVim,
   RDC, Emacs, X11, VNC)</li><li>Application Key to Command_R
   (+ When you type Application only, send Command_L+Space)</li><li>Application Key to Control_L</li><li>Application Key to Control_L
   (+ When you type Application Key only, send CapsLock)</li><li>Application Key to Command+Option</li><li>Application Key to Control+Option</li><li>Application Key to Fn</li><li>Application Key to Fn
   (+ When you type Application only, send Fn_Lock)</li><li>Application Key to Option_L</li><li>Application Key to Option_R (right option key)</li><li>Application Key to Shift_L</li><li>Application Key to Command_L+Backquote</li><li>Application Key to Delete</li><li>Application Key to Delete
   (+ Command+Application Key to CapsLock)</li><li>Application Key to Escape</li><li>Application Key to Escape
-  (+ Shift+Application Key to CapsLock)</li><li>Application Key to Eject</li><li>Application Key to Expose All</li><li>Application Key to F9</li><li>Application Key to F11</li><li>Application Key to Command_L+Space</li><li>Application Key to Option_L+Space</li><li>Application Key to Underscore(Shift_L+Minus)</li><li>Application Key to LeftClick</li><li>Application Key to RightClick</li></ul></li><li>Change PC Insert Key<ul><li>Insert Key to Control_R</li><li>Insert Key to Option_L+Insert</li><li>Insert Key to PageDown</li><li>Insert Key to Tab</li></ul></li><li>Change PC NumLock Key<ul><li>NumLock Key to F11</li><li>Disable NumLock Key</li><li>Disable NumLock Key (except in TeamViewer.app)</li></ul></li><li>Change PC PrintScreen Key, ScrollLock Key, Pause/Break Key<ul><li>Right-hand function key block to system volume controls
+  (+ Shift+Application Key to CapsLock)</li><li>Application Key to Eject</li><li>Application Key to Expose All</li><li>Application Key to F9</li><li>Application Key to F11</li><li>Application Key to Minimize (Send command-m)</li><li>Application Key to Command_L+Space</li><li>Application Key to Option_L+Space</li><li>Application Key to Underscore(Shift_L+Minus)</li><li>Application Key to LeftClick</li><li>Application Key to RightClick</li></ul></li><li>Change PC Insert Key<ul><li>Insert Key to Control_R</li><li>Insert Key to Option_L+Insert</li><li>Insert Key to PageDown</li><li>Insert Key to Tab</li></ul></li><li>Change PC NumLock Key<ul><li>NumLock Key to F11</li><li>Disable NumLock Key</li><li>Disable NumLock Key (except in TeamViewer.app)</li></ul></li><li>Change PC PrintScreen Key, ScrollLock Key, Pause/Break Key<ul><li>Right-hand function key block to system volume controls
   * PrintScreen to Volume Down
   * ScrollLock to Volume Up
   * Pause/Break to Volume Mute</li><li>PrintScreen Key to Eject</li><li>PrintScreen Key to F12</li><li>ScrollLock Key to F13</li><li>Pause/Break Key to Eject</li><li>Pause/Break Key to Power</li></ul></li><li>Use KeyPad as Arrow (PC Style NumLock)<ul><li>Enable KeyPad as Arrow
@@ -1440,6 +1443,9 @@
   (Control+G to Command_L+G)
   (F3 to Command_L+G)
   (Control+F3 to Shift+Command_L+G)
+
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Open
+  (Open file by control-o)
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Close
   (Close window by control-w)
@@ -1641,7 +1647,10 @@
   Change OptionLeft+U to Ü
   Change OptionLeft+A to Ä
   Change OptionLeft+O to Ö</li><li>Command+Y sends Command+Shift+Z (Windows-style Undo)
-  (except for Microsoft applications which already have this built-in)</li><li>Command+Tab sends Command+Shift+Backquote</li></ul></li><li>For Hebrew<ul><li>Swap command-brackets([]) shortcut direction in Hebrew on Google Chrome</li></ul></li><li>For Italian<ul><li>Exchange Backslash(\) and Less-Than(&lt;)</li><li>Option+AEIUO to àèìùò on "Italian Input Source"</li><li>Option+AEIUO to àèìùò on "U.S. Input Source"</li><li>KeyPad Comma(,) to Dot(.) on "Italian Pro Input Source"</li></ul></li><li>For Japanese<ul><li>左右のコマンドキー（⌘）を「英数／かな」としても使う
+  (except for Microsoft applications which already have this built-in)</li><li>Command+Tab sends Command+Shift+Backquote</li></ul></li><li>For Hebrew<ul><li>Swap command-brackets([]) shortcut direction in Hebrew on Google Chrome</li><li>Option+Shift to switch between English and Hebrew
+  The side of the shift chooses the layout: Shift_L switches to English, Shift_R switches to Hebrew</li><li>Toggle English and Hebrew by f19 key.
+  (This setting allows you to toggle input source by caps lock key by using Seil together.
+  Set caps lock key code to 80 in Seil.)</li></ul></li><li>For Italian<ul><li>Exchange Backslash(\) and Less-Than(&lt;)</li><li>Option+AEIUO to àèìùò on "Italian Input Source"</li><li>Option+AEIUO to àèìùò on "U.S. Input Source"</li><li>KeyPad Comma(,) to Dot(.) on "Italian Pro Input Source"</li></ul></li><li>For Japanese<ul><li>左右のコマンドキー（⌘）を「英数／かな」としても使う
   （左コマンドキーを英数キーにする）
   （右コマンドキーをかなキーにする）<ul><li>コマンドキーの動作を優先モード v2
   （コマンドキーの空打ちで「英数／かな」）
@@ -1743,13 +1752,13 @@
   "Double Press Modifier &gt; Recognition Threshold" in "Key Repeat" tab.)</li><li>[Option] モードから抜けるときに入力ソースを元に戻す</li></ul></li></ul></li><li>Change Keyboard Layout<ul><li>Use Dvorak Keyboard Layout on Japanese Keyboard<ul><li>Use Dvorak Keyboard Layout on Japanese Keyboard</li><li>Use Dvorak Keyboard Layout on Japanese Keyboard
   (英数入力のときだけDvorak配列にする)</li><li>Use Dvorak Keyboard Layout on Japanese Keyboard
   (英数入力のときだけDvorak配列にする)
-  (Command,Control,Optionを押したときはQwerty配列のまま)</li></ul></li><li>Use Japanese Keyboard as US Keyboard</li><li>Use US Keyboard as Japanese Keyboard<ul><li>Use US Keyboard as Japanese Keyboard</li><li>Options<ul><li>Backquote(`) to JIS Yen(¥)</li><li>Backquote(`) to Backslash</li><li>Shift+Delete to Pipe(|)</li><li>Shift_R to Shift_R
-  (+ When you type Shift_R only, send Underscore)</li><li>(Shift_L+Shift_R to Underscore)</li></ul></li></ul></li><li>Use Japanese Keyboard as Semi-US Keyboard
+  (Command,Control,Optionを押したときはQwerty配列のまま)</li></ul></li><li>──────────────────────────────</li><li>Use Japanese Keyboard as US Keyboard</li><li>──────────────────────────────</li><li>Use US Keyboard as Japanese Keyboard<ul><li>Use US Keyboard as Japanese Keyboard</li><li>Options<ul><li>Backquote(`) to JIS Yen(¥)</li><li>Backquote(`) to Backslash</li><li>Shift+Delete to Pipe(|)</li><li>Shift_R to Shift_R
+  (+ When you type Shift_R only, send Underscore)</li><li>(Shift_L+Shift_R to Underscore)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Use Japanese Keyboard as Semi-US Keyboard
   Change Shift+semicolon(;) to colon(:)
   Change colon(:) to apostrophe(')
   Change Shift+colon(:) to double quote(")
   Change Shift+2 to plus(+)
-  Change Shift+7 to asterisk(*)</li><li>Use JIS X 6004</li><li>Use JIS X 6004 for US Keyboard</li><li>Oyayubi Shift Input
+  Change Shift+7 to asterisk(*)</li><li>──────────────────────────────</li><li>Use JIS X 6004</li><li>Use JIS X 6004 for US Keyboard</li><li>──────────────────────────────</li><li>Oyayubi Shift Input
   親指シフト (NICOLA)
 
   親指シフトの同時打鍵は、左右のシフトキーと目的のキーを「同時」に押してください。
@@ -1837,7 +1846,10 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Option_R (AltGr) + E = €
   Option_R (AltGr) + F = [ ... Option_R (AltGr) + G = ]
   Option_R (AltGr) + V = @
-  Option_R (AltGr) + B = { ... Option_R (AltGr) + N = }</li></ul></li><li>For Spanish<ul><li>Change right option key+4 to ~ on Spanish input source</li><li>Change right option key+4 to ~ on U.S. input source</li><li>Swap ordinal-indicator(º) and less-than(&lt;)</li><li>Change right option key+less-than(≤) to backslash(\) key for Spanish
+  Option_R (AltGr) + B = { ... Option_R (AltGr) + N = }
+  Option_R (AltGr) + , = &lt;
+  Option_R (AltGr) + . = &gt;
+  Option_R (AltGr) + 3 = ^</li></ul></li><li>For Spanish<ul><li>Change right option key+4 to ~ on Spanish input source</li><li>Change right option key+4 to ~ on U.S. input source</li><li>Swap ordinal-indicator(º) and less-than(&lt;)</li><li>Change right option key+less-than(≤) to backslash(\) key for Spanish
   Gives you the missing key combo with Alt-Gr without the ordinals</li><li>Add ordinals with command key+less_than for Spanish
   Gives you the missing Spanish ordinals using any of the command keys</li><li>Change keypad comma(,) to dot(.) on "Spanish" and "Spanish - ISO" Input Source</li><li>Change Command_R+n to ñ
   For Spanish in international US keyboard</li><li>Change option-comma(,) and option-dot(.) to less-than(&lt;) and greater-than(&gt;).
@@ -2108,7 +2120,10 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   (Send "command-a" if you press only the right shift key.)
 
   Change "s" key "abc". (+ repeat tokeys: "123" + norepeat.)
-  (Send "def" if you press only "a" key.)</li><li>With DelayUntilRepeat,KeyRepeat
+  (Send "def" if you press only "a" key.)</li><li>With Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP
+  Change right shift key to option key.
+  (Send space key event if right shift key is pressed alone.)
+  (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)</li><li>With DelayUntilRepeat,KeyRepeat
   Change "a" key "abc". (+ repeat tokeys: "1".)
   (Send "def" if you press only "a" key.)
   (with DelayUntilRepeat::RawValue::1, KeyRepeat::RawValue::1)</li></ul></li><li>HoldingKeyToKey<ul><li>Standard
@@ -2127,7 +2142,9 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Escape to Tab (+ Holding Escape to Space)
   Tab to VK_NONE (+ Holding Tab to Escape)</li><li>DelayUntilRepeat, KeyRepeat
   Escape to Tab (+ Holding Escape to Space)
-  (with DelayUntilRepeat::RawValue::1, KeyRepeat::RawValue::1)</li><li>with ThresholdMillisecond
+  (with DelayUntilRepeat::RawValue::1, KeyRepeat::RawValue::1)</li><li>With Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP
+  Right shift key to Tab (+ Holding right shift key to Space)
+  (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)</li><li>with ThresholdMillisecond
   Escape to Tab (+ Holding Escape to Space for 3 seconds.)</li></ul></li><li>DoublePressModifier<ul><li>Standard
   Shift_L x2 to RETURN
   (A to Control_L) + (A x2 to Shift_L+RETURN)
