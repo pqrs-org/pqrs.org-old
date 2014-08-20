@@ -8,6 +8,57 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.2.0',
+              :updated => '2014-08-20',
+              :link => 'files/Karabiner-10.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Shortcuts (eg. Ctrl-C, Ctrl-V) might not work properly in Microsoft Remote Desktop.</li>
+      <li>Some Java apps will be crash.</li>
+    </ul>
+  </li>
+  <li>Added an option to disable AXNotifier. ("AXNotifier" tab in Preferences.)</li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+  <li>Profile management functions have been added into command line interface.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>__HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>You can also use __{ }__ as well as @begin, @end.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>Microsoft Remote Desktopでショートカット（Ctrl-C, Ctrl-Vなど）がうまく動かないことがあります。</li>
+      <li>いくつかのJavaアプリがクラッシュします。</li>
+    </ul>
+  </li>
+  <li>AXNotifierを無効化する設定を追加しました。（設定画面のAXNotifierタブ） </li>
+  <li>設定の追加・更新をしました。</li>
+  <li>いくつかの細かい改善を行いました。</li>
+  <li>プロファイルの管理を行う機能をコマンドラインインターフェースに追加しました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>__HoldingKeyToKey__と__KeyOverlaidModifier__で、Option::KEYTOKEY_BEFORE_KEYDOWNとOption::KEYTOKEY_AFTER_KEYUPをサポートしました。</li>
+      <li>@begin、@endの別名として__{、}__を使えるようになりました。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.1.0',
               :updated => '2014-07-21',
               :link => 'files/Karabiner-10.1.0.dmg',
