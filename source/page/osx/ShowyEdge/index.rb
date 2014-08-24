@@ -75,6 +75,25 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '2.0.0',
+              :updated => '2014-08-24',
+              :link => 'files/ShowyEdge-2.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+  <li>サポートOSを「OS X 10.7以降」に変更しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '1.8.0',
               :updated => '2014-03-13',
               :link => 'files/ShowyEdge-1.8.0.dmg',

@@ -78,13 +78,19 @@
 
       <p>
           ShowyEdge displays a color bar at the top edge of the screen depending on the current input source.<br />
-          You can recognize the current input source very easily even if you are using fullscreen apps.
+          You can recognize the current input source very easily even if you are using fullscreen apps.<br />
+        <br />
       </p>
 
-      <p style="margin: 40px 0">
+      <p>
 <a class="btn btn-primary btn-lg"
+            href="files/ShowyEdge-2.0.0.dmg">Download ShowyEdge-2.0.0
+            &nbsp;<span class="label label-default">For OS X 10.7+</span></a>      </p>
+
+      <p>
+<a class="btn btn-default"
             href="files/ShowyEdge-1.8.0.dmg">Download ShowyEdge-1.8.0
-            &nbsp;<span class="label label-default">For OS X 10.6+</span></a>      </p>
+            &nbsp;<span class="label label-default">For OS X 10.6</span></a>      </p>
     </div>
   </header>
 
@@ -424,6 +430,20 @@ src="img/dmg.png" width="128" height="128"              />
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 2.0.0
+              <small>
+Aug 24, 2014              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
+</ul>
 
           <h2>
             Version 1.8.0

@@ -77,13 +77,19 @@
       </p>
 
       <p>
-          ShowyEdgeは現在の入力ソースに応じて画面の上端にカラーバーを表示して、入力ソースを視認しやすくします。
+          ShowyEdgeは現在の入力ソースに応じて画面の上端にカラーバーを表示して、入力ソースを視認しやすくします。<br />
+        <br />
       </p>
 
-      <p style="margin: 40px 0">
+      <p>
 <a class="btn btn-primary btn-lg"
+            href="files/ShowyEdge-2.0.0.dmg">ShowyEdge-2.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.7以降で動作します。</span></a>      </p>
+
+      <p>
+<a class="btn btn-default"
             href="files/ShowyEdge-1.8.0.dmg">ShowyEdge-1.8.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.6以降で動作します。</span></a>      </p>
+            &nbsp;<span class="label label-default">OS X 10.6用</span></a>      </p>
     </div>
   </header>
 
@@ -422,6 +428,20 @@ src="img/dmg.png" width="128" height="128"              />
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 2.0.0
+              <small>
+2014年8月24日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+  <li>サポートOSを「OS X 10.7以降」に変更しました。</li>
+</ul>
 
           <h2>
             Version 1.8.0
