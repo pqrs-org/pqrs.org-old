@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ShowyEdge Changelog</title>
+    <link>https://pqrs.org/osx/ShowyEdge/files/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.8.1</title>
+      <description><![CDATA[
+<h2>About v1.8.1 Update</h2>
+<ul>
+  <li>v1.8.1: Sparkle has been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Sun, 24 Aug 2014 03:03:12 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-1.8.1.dmg"
+                 sparkle:version="1.8.1" length="1742980" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAMg6HGePiiMIYh7kvwsKu0SdcBuAhQe0ILtqseolJ0sEq5m6nxf8Ho3Dg=="
+      />
+    </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ShowyEdge Changelog</title>
+    <link>https://pqrs.org/macosx/ShowyEdge/files/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.8.0</title>
+      <description><![CDATA[
+<h2>About v1.8.0 Update</h2>
+<ul>
+  <li>Multiple displays have been supported.</li>
+</ul>
+<a href="https://pqrs.org/macosx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Thu, 13 Mar 2014 14:25:09 +0000</pubDate>
+      <enclosure url="https://pqrs.org/macosx/ShowyEdge/files/ShowyEdge-1.8.0.dmg"
+                 sparkle:version="1.8.0" length="1537694" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEcT/kLCD+Ez1J7nbsXt+aXiwNdoAhQ5R/cKHRuiSyXTvymCPjibHEZpYQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 1.7.0</title>
+      <description><![CDATA[
+<h2>About v1.7.0 Update</h2>
+<ul>
+  <li>Added "Indicator opacity" configuration.</li>
+  <li>Signed with Developer ID..</li>
+</ul>
+<a href="https://pqrs.org/macosx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Fri, 18 Oct 2013 17:23:32 +0000</pubDate>
+      <enclosure url="https://pqrs.org/macosx/ShowyEdge/files/ShowyEdge-1.7.0.dmg"
+                 sparkle:version="1.7.0" length="1508855" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFExdMv2K/QEKpLN0ClLFvW4A56MlAhQG+tkCl6jYYhV800eZbUShgFeIHg=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 1.6.0</title>
+      <description><![CDATA[
+<h2>About v1.6.0 Update</h2>
+<ul>
+  <li>Added "Use custom frame" configuration.</li>
+  <li>Added "Show icon in Dock" configuration.</li>
+  <li>Fixed minor issues.</li>
+</ul>
+<a href="https://pqrs.org/macosx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Sun, 13 Oct 2013 11:54:39 +0000</pubDate>
+      <enclosure url="https://pqrs.org/macosx/ShowyEdge/files/ShowyEdge-1.6.0.dmg"
+                 sparkle:version="1.6.0" length="1475877" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEXmZjOZJYXRMe/9UgCcb5alnEuGAhQ3TBSObWK51bYGpwP7+lB9GUEvbQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 1.4.0</title>
+      <description><![CDATA[
+<h2>About v1.4.0 Update</h2>
+<ul>
+  <li>Revised file permissions.</li>
+</ul>
+<a href="https://pqrs.org/macosx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Sun, 16 Jun 2013 07:36:01 +0000</pubDate>
+      <enclosure url="https://pqrs.org/macosx/ShowyEdge/files/ShowyEdge-1.4.0.dmg"
+                 sparkle:version="1.4.0" length="1474112" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFADYiQffas7Dk6NUI1XOm9WgaWNfAhUAitmcGGX1So/zXJycQd6nqNe/Ipc="
+                 />
+    </item>
+
+    <item>
+      <title>Version 1.3.0</title>
+      <description><![CDATA[
+<h2>About v1.3.0 Update</h2>
+<ul>
+  <li>First release.</li>
+</ul>
+<a href="https://pqrs.org/macosx/ShowyEdge/">ShowyEdge WebSite</a>
+]]>
+      </description>
+      <pubDate>Fri, 14 Jun 2013 23:07:22 +0000</pubDate>
+      <enclosure url="https://pqrs.org/macosx/ShowyEdge/files/ShowyEdge-1.3.0.dmg"
+                 sparkle:version="1.3.0" length="1733506" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHyPbeCHQGsDKZ3qiPSa9s4v/NxOAhR9MJVbAd/xxEIGgqkjgwwAueqeMA=="
+                 />
+    </item>
+
+  </channel>
+</rss>
