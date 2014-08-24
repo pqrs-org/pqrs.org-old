@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.2.3</title>
+      <title>Version 10.2.4</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.2.3 Update</h2>
+<h2>About v10.2.4 Update</h2>
 <ul>
+  <li>v10.2.4: Prepared settings have been updated.</li>
   <li>v10.2.3: Fix dmg package.</li>
   <li>v10.2.2: Sparkle has been updated.</li>
   <li>v10.2.1: Prepared settings have been updated.</li>
@@ -22,10 +23,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 24 Aug 2014 01:33:39 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.3.dmg"
-                 sparkle:version="10.2.3" length="3714525" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHtAI1qcc+4mpwave1wRbgdf0ZFRAhRj4L8NXabVNlacdHoMXZHVKHFefg=="
+      <pubDate>Sun, 24 Aug 2014 14:40:44 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.4.dmg"
+                 sparkle:version="10.2.4" length="3715106" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDCyoI66ZGsfmSPjq/FIQQKguk3XAhQEyTrrk/4Uzcp42M3Jbt3O7/mESQ=="
                  />
     </item>
 
