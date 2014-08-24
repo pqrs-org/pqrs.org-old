@@ -7,19 +7,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 1.8.1</title>
+      <title>Version 2.0.0</title>
       <description><![CDATA[
-<h2>About v1.8.1 Update</h2>
+<h2>About v2.0.0 Update</h2>
 <ul>
-  <li>v1.8.1: Sparkle has been updated.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Sun, 24 Aug 2014 03:03:12 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-1.8.1.dmg"
-                 sparkle:version="1.8.1" length="1742980" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAMg6HGePiiMIYh7kvwsKu0SdcBuAhQe0ILtqseolJ0sEq5m6nxf8Ho3Dg=="
+      <pubDate>Sun, 24 Aug 2014 03:40:29 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.0.0.dmg"
+                 sparkle:version="2.0.0" length="2002209" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCEBFseGYJZy4VLdjA07VdXctCPNAhRvak75uDBdmpCfk5EHEKg8t+Twvw=="
       />
     </item>
 
