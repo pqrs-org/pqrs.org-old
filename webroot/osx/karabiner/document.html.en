@@ -1113,6 +1113,7 @@ Usage:
 Examples:
   $ karabiner list
   $ karabiner select 1
+  $ karabiner select_by_name NewItem
   $ karabiner selected
   $ karabiner append "For external keyboard"
   $ karabiner rename 1 "Empty Setting"
