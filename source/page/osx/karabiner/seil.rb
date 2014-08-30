@@ -72,6 +72,25 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.11.0',
+              :updated => '2014-08-30',
+              :link => 'files/Seil-10.11.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Preferences UI has been updated.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定UIを更新しました。</li>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.10.0',
               :updated => '2014-07-22',
               :link => 'files/Seil-10.10.0.dmg',
