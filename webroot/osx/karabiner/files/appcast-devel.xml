@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.2.18</title>
+      <title>Version 10.2.19</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.2.18 Update</h2>
+<h2>About v10.2.19 Update</h2>
 <ul>
+  <li>v10.2.19: "Restart AXNotifier" button has been added into Preferences.</li>
   <li>v10.2.18: Prepared settings have been updated.</li>
   <li>v10.2.17: Minor update.</li>
   <li>v10.2.16: Prepared settings have been updated.</li>
@@ -45,10 +46,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Thu, 11 Sep 2014 04:42:24 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.18.dmg"
-                 sparkle:version="10.2.18" length="3719619" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEvKY+91vNHRWurNXDXsCIq7WnIPAhQ0+gXkPVtO4oqGcllZQ/KOo7GLBw=="
+      <pubDate>Thu, 11 Sep 2014 08:04:00 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.19.dmg"
+                 sparkle:version="10.2.19" length="3719716" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBI1KZHLwlK4oZe4knVneHMFN6HRAhRbKOvl+si4mtk3j9/e+J0FdSQtfw=="
                  />
     </item>
 
