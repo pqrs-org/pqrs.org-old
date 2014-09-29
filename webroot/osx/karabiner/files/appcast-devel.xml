@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.2.29</title>
+      <title>Version 10.2.30</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.2.29 Update</h2>
+<h2>About v10.2.30 Update</h2>
 <ul>
+  <li>v10.2.30: Minor update.</li>
   <li>v10.2.29: Minor update.</li>
   <li>v10.2.28: Fixed a status message issue in Yosemite.</li>
   <li>v10.2.27: Prepared settings have been updated.</li>
@@ -56,10 +57,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 29 Sep 2014 02:55:55 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.29.dmg"
-                 sparkle:version="10.2.29" length="3732091" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCANYuSe3x40nrNnZEUMlklQM24uwIVAIDkbdu1sKvSO9DAbFBMdU3qYjwS"
+      <pubDate>Mon, 29 Sep 2014 16:02:16 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.30.dmg"
+                 sparkle:version="10.2.30" length="3731174" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDWPQ8eSoqEifRF8SWMfQnIICO+5AhQZI2rzDsmrgxD8FyPS8Up+aCh8sQ=="
                  />
     </item>
 
