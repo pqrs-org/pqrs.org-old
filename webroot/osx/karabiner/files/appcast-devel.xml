@@ -7,47 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.3.0</title>
+      <title>Version 10.3.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.3.0 Update</h2>
+<h2>About v10.3.1 Update</h2>
 <ul>
-  <li>Stability at reloading XML has been improved.</li>
-  <li>OS X 10.10 support has been improved.</li>
-  <li>Prepared settings have been updated.</li>
-  <li>"Check for updates" (Sparkle) has been updated.</li>
-  <li>"Restart AXNotifier" button has been added into Preferences.</li>
-  <li>
-    Fixed issue:
-    <ul>
-      <li>EventViewer does not show control-tab and control-shift-tab event when Full Keyboard Access is enabled.</li>
-    </ul>
-  </li>
-  <li>
-    Updates for people who add new settings by oneself:
-    <ul>
-      <li>
-        The following filters have been added.
-        <ul>
-          <li>&lt;modifierlocked_only&gt;</li>
-          <li>&lt;modifierlocked_not&gt;</li>
-          <li>&lt;modifierstuck_only&gt;</li>
-          <li>&lt;modifierstuck_not&gt;</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li>v10.3.1: Build with boost 1.56.0.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 07 Oct 2014 16:52:45 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.3.0.dmg"
-                 sparkle:version="10.3.0" length="3731294" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAIxpPDAmGSjiDlLuIgaDpnJeHy2AhQ9NF7oXJakc748zw/Fx8D3VDZ1LQ=="
+      <pubDate>Tue, 07 Oct 2014 21:06:30 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.3.1.dmg"
+                 sparkle:version="10.3.1" length="3729939" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDJnP3pzgEZyuWHtC6LeEs5L/h4DAhQReTI06sHcwZZoZjywtfEAG7VySw=="
                  />
     </item>
 
