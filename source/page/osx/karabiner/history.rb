@@ -8,6 +8,70 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.3.0',
+              :updated => '2014-10-07',
+              :link => 'files/Karabiner-10.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Stability at reloading XML has been improved.</li>
+  <li>OS X 10.10 support has been improved.</li>
+  <li>Prepared settings have been updated.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>"Restart AXNotifier" button has been added into Preferences.</li>
+  <li>
+    Fixed issue:
+    <ul>
+      <li>EventViewer does not show control-tab and control-shift-tab event when Full Keyboard Access is enabled.</li>
+    </ul>
+  </li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        The following filters have been added.
+        <ul>
+          <li>&lt;modifierlocked_only&gt;</li>
+          <li>&lt;modifierlocked_not&gt;</li>
+          <li>&lt;modifierstuck_only&gt;</li>
+          <li>&lt;modifierstuck_not&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>XMLを再読込みする時の安定性を向上しました。</li>
+  <li>OS X 10.10のサポートを改善しました。</li>
+  <li>設定の追加・更新をしました。</li>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+  <li>「Restart AXNotifier」ボタンを設定に追加しました。</li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>フルキーボードアクセスが有効の場合、EventViewerでcontrol-tabとcontrol-shift-tabが表示されない。</li>
+    </ul>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>
+        以下のフィルタが追加されました。
+        <ul>
+          <li>&lt;modifierlocked_only&gt;</li>
+          <li>&lt;modifierlocked_not&gt;</li>
+          <li>&lt;modifierstuck_only&gt;</li>
+          <li>&lt;modifierstuck_not&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.2.0',
               :updated => '2014-08-20',
               :link => 'files/Karabiner-10.2.0.dmg',
