@@ -7,23 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.3.1</title>
+      <title>Version 10.3.2</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.3.1 Update</h2>
+<h2>About v10.3.2 Update</h2>
 <ul>
+  <li>v10.3.2: A broken prepared setting has been fixed.</li>
   <li>v10.3.1: Build with boost 1.56.0.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 07 Oct 2014 21:06:30 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.3.1.dmg"
-                 sparkle:version="10.3.1" length="3729939" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDJnP3pzgEZyuWHtC6LeEs5L/h4DAhQReTI06sHcwZZoZjywtfEAG7VySw=="
+      <pubDate>Tue, 07 Oct 2014 21:38:29 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.3.2.dmg"
+                 sparkle:version="10.3.2" length="3728925" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFjP39O0oTuITMOTQa3/l0++vA6UAhR6+smN+qHboDCFqqH6hOvSWlwCQA=="
                  />
     </item>
 
