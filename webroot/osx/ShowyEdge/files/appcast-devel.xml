@@ -7,21 +7,19 @@
     <language>en</language>
 
     <item>
-      <title>Version 2.0.0</title>
-      <sparkle:minimumSystemVersion>10.7.0</sparkle:minimumSystemVersion>
+      <title>Version 2.0.1</title>
       <description><![CDATA[
-<h2>About v2.0.0 Update</h2>
+<h2>About v2.0.1 Update</h2>
 <ul>
-  <li>"Check for updates" (Sparkle) has been updated.</li>
-  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
+  <li>Multiple displays support has been improved. The indicator is shown in the all screen.</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Sun, 24 Aug 2014 03:40:29 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.0.0.dmg"
-                 sparkle:version="2.0.0" length="2002209" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCEBFseGYJZy4VLdjA07VdXctCPNAhRvak75uDBdmpCfk5EHEKg8t+Twvw=="
+      <pubDate>Wed, 08 Oct 2014 19:23:39 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.0.1.dmg"
+                 sparkle:version="2.0.1" length="1729854" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCqZi+RS6RA0oq3BYYGC8dtgTAZAAhRuMtRR3rngdzBFbnJS7SZlWHL5Bg=="
       />
     </item>
 
