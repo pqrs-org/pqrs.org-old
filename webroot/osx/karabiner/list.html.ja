@@ -119,14 +119,18 @@
     </div>
 
     <h2>
-      Karabiner-10.2.0 (Total: 2080 items)
+      Karabiner-10.3.0 (Total: 2102 items)
     </h2>
 
 <ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
   (For example: Generic USB keyboard)</li><li>Don't remap non-Apple's pointing devices
   (For example: Generic USB mouse)</li><li>Don't remap keyboards which has third vendor's driver
   (Logitech, Microsoft, Kensington, ...)</li><li>Don't remap pointing devices which has third vendor's driver
-  (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Don't leave any modes automatically when the machine wakes from sleep.
+  (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Disable an internal keyboard while external keyboards are connected.
+
+  Note for Logitech Unifying Receiver users:
+  The receiver is detected as a composite device of keyboard and mouse.
+  So, the receiver always disables an internal keyboard even if you are using only mouse.</li><li>──────────────────────────────</li><li>Don't leave any modes automatically when the machine wakes from sleep.
   (Pass Through Mode, Browsing Mode, etc.)
 
   Karabiner turns off these modes automatically because
@@ -198,7 +202,7 @@
   Then, change PC Application Key in Karabiner.
   For example, activate the following setting to change CapsLock to Command+Space
   "For PC Users &gt; Change PC Application Key &gt; Application Key to Command_L+Space"</li></ul></li><li>Change Command_L Key (Left Command)<ul><li>Command_L to Control_L</li><li>Command_L to Control_L (only in virtual machine, RDC)</li><li>Command_L to Control_L (only in RDC)</li><li>Command_L to Control_L (only in Terminal)</li><li>Command_L to Control_L (only in Cathode)</li><li>Command_L to Control_L (only in X11)</li><li>Command_L to Control_L (only in Emacs)</li><li>Command_L to Control_L (except Emacs)</li><li>Command_L to Control_L (except Terminal, Chrome, RDC)</li><li>Command_L to Control_L (except Terminal, Virtual Machine, RDC)</li><li>Command_L to Control_L (except Virtual Machine, RDC)</li><li>Command_L to Fn</li><li>Command_L to Option_L</li><li>Command_L to Option_L (only in virtual machine, RDC)</li><li>Command_L to Option_L (only in Emacs)</li><li>Command_L to Option_L
-  (Pass-Through Command+Tab)</li><li>Command_L to Shift_L</li><li>Command_L to Sticky Command_L</li><li>Command_L to ModifierFlag::Extra2</li><li>Command_L to Backquote(`)</li><li>Command_L to Escape</li><li>Command_L to Escape (only in Emacs)</li><li>Command_R+Command_L to Escape
+  (Pass-Through Command+Tab)</li><li>Command_L to Shift_L</li><li>Use the left command key as sticky modifier. (without lock)</li><li>Use the left command key as sticky modifier. (with lock)</li><li>Command_L to ModifierFlag::Extra2</li><li>Command_L to Backquote(`)</li><li>Command_L to Escape</li><li>Command_L to Escape (only in Emacs)</li><li>Command_R+Command_L to Escape
   (Note: Escape is sent when you release Command_L)</li><li>Control_L+Command_L to Escape
   (Note: Escape is sent when you release Command_L)</li><li>Shift_L+Command_L to Escape
   (Note: Escape is sent when you release Command_L)</li><li>Command_L to Command_L
@@ -209,7 +213,7 @@
   (+ When you type Command_R only, send Enter) + [KeyRepeat]</li><li>Command_R to Command_R
   (+ When you type Command_R only, toggle IM)<ul><li>When you type Command_R only, send Command+Space
   (except virtual machine, RDC)</li><li>When you type Command_R only, send Option+Backquote
-  (only in virtual machine, RDC)</li></ul></li><li>Command_R to Control_L</li><li>Option_R+Command_R to Control_L</li><li>Command_R to Control_R (only in virtual machine, RDC)</li><li>Command_R to Control_L (only in X11)</li><li>Command_R to Control_L (only in Emacs)</li><li>Command_R to Fn</li><li>Command_R to Fn (only in virtual machine)</li><li>Option_R+Command_R to Fn</li><li>Command_R to Option_L</li><li>Command_R to Option_R</li><li>Command_R to Option_R (only in Emacs, Terminal, X11)</li><li>Command_R to Shift_L</li><li>Command_R to Sticky Command_R</li><li>CommandR to ModifierFlag::Extra1</li><li>Command_R to Enter</li><li>Command_R to Escape</li><li>Command_R to Delete</li><li>Command_R to Forward Delete</li><li>Command_R to Hashtag(#)
+  (only in virtual machine, RDC)</li></ul></li><li>Command_R to Control_L</li><li>Option_R+Command_R to Control_L</li><li>Command_R to Control_R (only in virtual machine, RDC)</li><li>Command_R to Control_L (only in X11)</li><li>Command_R to Control_L (only in Emacs)</li><li>Command_R to Fn</li><li>Command_R to Fn (only in virtual machine)</li><li>Option_R+Command_R to Fn</li><li>Command_R to Option_L</li><li>Command_R to Option_R</li><li>Command_R to Option_R (only in Emacs, Terminal, X11)</li><li>Command_R to Shift_L</li><li>Use the right command key as sticky modifier. (without lock)</li><li>Use the right command key as sticky modifier. (with lock)</li><li>CommandR to ModifierFlag::Extra1</li><li>Command_R to Enter</li><li>Command_R to Escape</li><li>Command_R to Delete</li><li>Command_R to Forward Delete</li><li>Command_R to Hashtag(#)
   (Change Command_R to Shift+3)</li><li>Command_R to Home</li><li>Command_R to Home (only in virtual machine, RDC)</li><li>Command_R to Home (only in virtual machine, RDC)
   (+ Shift+Command_R to Shift+Home,Control_L+C)</li><li>Command_R to Home (only in virtual machine, RDC)
   (+ Shift+Command_R to Shift+Home,Command_L+C)</li><li>Command_R to Command_L+Left-Arrow (beginning-of-line)
@@ -228,9 +232,9 @@
   (+ When you type Control_L only, send Delete)</li><li>Control_L to Control_L
   (+ When you type Control_L only, send Delete) + [KeyRepeat]</li><li>Control_L to Control_L
   (+ When you type Control_L only without other modifiers, send Delete) + [KeyRepeat]</li><li>Control_L to Control_L
-  (+ When you type Control_L only, send Escape)</li><li>Fn+Control_L to Control_R</li><li>Control_L to Fn</li><li>Control_L to Fn (only in virtual machine, RDC)</li><li>Option_L+Control_L to Fn</li><li>Control_L to Option_L</li><li>Control_L to Option_L (only in virtual machine, RDC)</li><li>Control_L to Shift_L</li><li>Control_L to Sticky Control_L</li><li>Control_L to Backquote(`)</li><li>Control_L to Delete</li><li>Control_L to Escape</li><li>Command_R+Control_L to Escape
+  (+ When you type Control_L only, send Escape)</li><li>Fn+Control_L to Control_R</li><li>Control_L to Fn</li><li>Control_L to Fn (only in virtual machine, RDC)</li><li>Option_L+Control_L to Fn</li><li>Control_L to Option_L</li><li>Control_L to Option_L (only in virtual machine, RDC)</li><li>Control_L to Shift_L</li><li>Use the left control key as sticky modifier. (without lock)</li><li>Use the left control key as sticky modifier. (with lock)</li><li>Control_L to Backquote(`)</li><li>Control_L to Delete</li><li>Control_L to Escape</li><li>Command_R+Control_L to Escape
   (Note: Escape is sent when you release Control_L)</li><li>Shift_L+Control_L to Escape
-  (Note: Escape is sent when you release Control_L)</li><li>Control_L to Forward Delete</li><li>Control_L to Return</li><li>Disable Control_L</li><li>Control_L x2 to Control_L+Space</li><li>Control_L to LeftClick</li><li>Control_L to RightClick</li></ul></li><li>Change Control_R Key (Right Control)<ul><li>Control_R to Command_R</li><li>Control_R to Command_R (only in virtual machine, RDC)</li><li>Control_R to Fn</li><li>Control_R to Option_R</li><li>Control_R to Option_R (only in virtual machine, RDC)</li><li>Control_R to Shift_R</li><li>Control_R to Sticky Control_R</li><li>Control_R to Delete</li><li>Control_R to Enter</li><li>Control_R x2 to Enter</li><li>Control_R to Escape</li><li>Control_R to Forward Delete</li><li>Control_R to RightClick</li></ul></li><li>Change Delete Key<ul><li>Delete to Backquote(`)</li><li>Delete to Backslash(\)</li><li>Delete to CapsLock</li><li>Command+Delete to Option_L+Delete</li><li>Control+Delete to Command_L+Delete</li><li>Option+Delete to Command_L+Delete</li><li>Delete to Forward Delete</li><li>Delete to Forward Delete
+  (Note: Escape is sent when you release Control_L)</li><li>Control_L to Forward Delete</li><li>Control_L to Return</li><li>Disable Control_L</li><li>Control_L x2 to Control_L+Space</li><li>Control_L to LeftClick</li><li>Control_L to RightClick</li></ul></li><li>Change Control_R Key (Right Control)<ul><li>Control_R to Command_R</li><li>Control_R to Command_R (only in virtual machine, RDC)</li><li>Control_R to Fn</li><li>Control_R to Option_R</li><li>Control_R to Option_R (only in virtual machine, RDC)</li><li>Control_R to Shift_R</li><li>Use the right control key as sticky modifier. (without lock)</li><li>Use the right control key as sticky modifier. (with lock)</li><li>Control_R to Delete</li><li>Control_R to Enter</li><li>Control_R x2 to Enter</li><li>Control_R to Escape</li><li>Control_R to Forward Delete</li><li>Control_R to RightClick</li></ul></li><li>Change Delete Key<ul><li>Delete to Backquote(`)</li><li>Delete to Backslash(\)</li><li>Delete to CapsLock</li><li>Command+Delete to Option_L+Delete</li><li>Control+Delete to Command_L+Delete</li><li>Option+Delete to Command_L+Delete</li><li>Delete to Forward Delete</li><li>Delete to Forward Delete
   (Fn+Delete to Delete)</li><li>Command_R+Delete to Forward Delete
   (Right Command+Delete to Forward Delete)</li><li>Control+Delete to Forward Delete</li><li>Option+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete (if no other modifiers pressed)</li><li>Shift+Delete to Help</li><li>Shift+Delete to Pipe(|)</li><li>Delete to Quote(')</li><li>Delete to Return</li><li>Delete to Tab</li><li>Shift+Delete to Tilde(~)</li><li>Disable Delete</li></ul></li><li>Change Eject Key<ul><li>Important:
   Eject key has a delay.
@@ -366,7 +370,10 @@
   F10 to mute
   F11,F12 to volume control by 1/4-notch intervals.
   Holding F10 key to open sound preferences.
-  Holding F11,F12 key to volume control by normal intervals.</li><li>──────────────────────────────</li><li>F13 to Volume Mute</li><li>F14 to Volume Down</li><li>F15 to Volume Up</li><li>──────────────────────────────</li><li>F13 to Volume Mute (except virtual machine, RDC)</li><li>F14 to Volume Down (except virtual machine, RDC)</li><li>F15 to Volume Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F14 to Music Prev</li><li>F15 to Music Play/Pause</li><li>F16 to Music Next</li><li>──────────────────────────────</li><li>F16 to Music Prev</li><li>F17 to Music Play/Pause</li><li>F18 to Music Next</li><li>──────────────────────────────</li><li>MacBook Air (2010, Late) Style<ul><li>F6 to Music Prev</li><li>F7 to Music Play/Pause</li><li>F8 to Music Next</li><li>F9 to Volume Mute</li><li>F10 to Volume Down</li><li>F11 to Volume Up</li><li>F12 to Eject</li></ul></li><li>──────────────────────────────</li><li>Fn+F11 to F11</li><li>Fn+F12 to F12</li><li>F11 to display mirroring</li><li>F12 to Forward Delete</li><li>F12 to Expose</li><li>F12 to Move focus to active or next window (Control+F4)</li><li>F12 to Move focus to active or next window (Control+F4)
+  Holding F11,F12 key to volume control by normal intervals.</li><li>──────────────────────────────</li><li>Put MediaKeys to F10,F11,F12
+  Change F10 to music prev
+  Change F11 to music play
+  Change F12 to music next</li><li>──────────────────────────────</li><li>F13 to Volume Mute</li><li>F14 to Volume Down</li><li>F15 to Volume Up</li><li>──────────────────────────────</li><li>F13 to Volume Mute (except virtual machine, RDC)</li><li>F14 to Volume Down (except virtual machine, RDC)</li><li>F15 to Volume Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F14 to Music Prev</li><li>F15 to Music Play/Pause</li><li>F16 to Music Next</li><li>──────────────────────────────</li><li>F16 to Music Prev</li><li>F17 to Music Play/Pause</li><li>F18 to Music Next</li><li>──────────────────────────────</li><li>MacBook Air (2010, Late) Style<ul><li>F6 to Music Prev</li><li>F7 to Music Play/Pause</li><li>F8 to Music Next</li><li>F9 to Volume Mute</li><li>F10 to Volume Down</li><li>F11 to Volume Up</li><li>F12 to Eject</li></ul></li><li>──────────────────────────────</li><li>Fn+F11 to F11</li><li>Fn+F12 to F12</li><li>F11 to display mirroring</li><li>F12 to Forward Delete</li><li>F12 to Expose</li><li>F12 to Move focus to active or next window (Control+F4)</li><li>F12 to Move focus to active or next window (Control+F4)
   (+ F12 to Control_L if you held down F12 key)</li><li>──────────────────────────────</li><li>Fn+F1 to Brightness Down</li><li>Fn+F2 to Brightness Up</li><li>──────────────────────────────</li><li>Fn+F7 to Music Prev</li><li>Fn+F8 to Music Play/Pause</li><li>Fn+F9 to Music Next</li><li>──────────────────────────────</li><li>Fn+F10 to Volume Mute</li><li>Fn+F11 to Volume Down</li><li>Fn+F12 to Volume Up</li><li>──────────────────────────────</li><li>Fn+F5 to PageDown</li><li>Fn+F12 to PageUp</li><li>──────────────────────────────</li><li>Change Command+F1...F12 to Functional Keys
   (ex. F10 to Volume Mute, F11 to Volume Down)</li><li>Change F1...F12 to Functional Keys (except Terminal)
   (ex. F10 to Volume Mute, F11 to Volume Down)</li><li>Force change F1..F12 in VMware, Parallels, RDC<ul><li>F1 to Brightness Down</li><li>F2 to Brightness Up</li><li>F3 to Volume Mute</li><li>F4 to Volume Down</li><li>F5 to Volume Up</li></ul></li><li>F1 to Escape</li><li>Control+F1 to F16</li><li>F11 to F4</li><li>F16 to Tab</li><li>F19 to Quote(')</li><li>Macbook series: Keyboard Preferences Configured to Standard Function Keys
@@ -465,7 +472,21 @@
   Fn+F12 to F12
 
   You need to use all F1, F2, etc. keys as standard function keys.
-  Open System Preferences &gt; Keyboard, and enable it.</li></ul></li></ul></li></ul></li><li>Change Help Key<ul><li>Change Help to Command_L</li><li>Change Help to Control_L</li><li>Change Help to Fn</li><li>Change Help to Option_L</li><li>Change Help to Shift_L</li><li>Change Help to F13</li></ul></li><li>Change KeyPad Key<ul><li>Change Clear Key<ul><li>Clear to Delete</li><li>Clear to Forward Delete</li><li>Clear to Command+Delete (Move to Trash)</li><li>Clear to Equal</li><li>Clear to Return</li><li>Clear to Tab</li></ul></li><li>Change KeyPad-Comma(,) Key<ul><li>KeyPad-Comma(,) to Shift+Comma</li><li>KeyPad-Comma(,) to Equal</li></ul></li><li>Change KeyPad-Dot(.) Key<ul><li>Swap Dot and Shift+Dot</li><li>KeyPad-Dot(.) to Comma(,)
+  Open System Preferences &gt; Keyboard, and enable it.</li></ul></li></ul></li><li>For PC keyboards<ul><li>Change f1...f12 to brightness control, volume control, etc.
+  (You can use standard function keys by fn-f1...fn-f12.)
+
+  * f1-f2: Brightness control.
+  * f3: Mission Control.
+  * f4: Launchpad.
+  * f7-f9: Music control.
+  * f10-f12: Volume control.</li><li>Change fn-f1...f12 to brightness control, volume control, etc.
+  (Please use "Change XXX to fn" setting together.)
+
+  * fn-f1...f2: Brightness control.
+  * fn-f3: Mission Control.
+  * fn-f4: Launchpad.
+  * fn-f7...f9: Music control.
+  * fn-f10...f12: Volume control.</li></ul></li></ul></li><li>Change Help Key<ul><li>Change Help to Command_L</li><li>Change Help to Control_L</li><li>Change Help to Fn</li><li>Change Help to Option_L</li><li>Change Help to Shift_L</li><li>Change Help to F13</li></ul></li><li>Change KeyPad Key<ul><li>Change Clear Key<ul><li>Clear to Delete</li><li>Clear to Forward Delete</li><li>Clear to Command+Delete (Move to Trash)</li><li>Clear to Equal</li><li>Clear to Return</li><li>Clear to Tab</li></ul></li><li>Change KeyPad-Comma(,) Key<ul><li>KeyPad-Comma(,) to Shift+Comma</li><li>KeyPad-Comma(,) to Equal</li></ul></li><li>Change KeyPad-Dot(.) Key<ul><li>Swap Dot and Shift+Dot</li><li>KeyPad-Dot(.) to Comma(,)
   (+ Holding KeyPad-Dot to KeyPad-Dot)</li><li>KeyPad-Dot(.) to Keypad-Comma(,)</li><li>Fn+KeyPad-Dot(.) to Fn+Shift+Dot
   (Useful for some keyboard layouts such as French, Italian, etc.)</li><li>Shift+KeyPad-Dot(.) to Comma</li><li>Control+KeyPad-Dot(.) to Command+X (Cut)</li></ul></li><li>Change Enter Key<ul><li>Note:
   Enter key is a key in old MacBook and Keypads.
@@ -502,15 +523,17 @@
   Holding Command+9 to F9
   Holding Command+10 to F10
   Holding Command+- to F11
-  Holding Command+= to F12</li><li>Holding Shift+1 to F1</li><li>Holding Shift+2 to F2</li><li>Holding Shift+3 to F3</li><li>Holding Shift+4 to F4</li><li>Holding Shift+5 to F5</li><li>Holding Shift+6 to F6</li><li>Holding Shift+7 to F7</li><li>Holding Shift+8 to F8</li><li>Holding Shift+9 to F9</li><li>Holding Shift+0 to F10</li></ul></li><li>1234567890 to !@#$%^&amp;*() / Shift+1234567890 to 1234567890</li><li>CapsLock+1234567890 to !@#$%^&amp;*() / CapsLock+Shift+1234567890 to 1234567890</li></ul></li><li>Change Option_L Key (Left Option)<ul><li>Option_L to CapsLock</li><li>Option_L to Command_L</li><li>Option_L to Command_L (only in virtual machine, RDC)</li><li>Option_L to Control_L</li><li>Option_L to Control_L (only in virtual machine, RDC)</li><li>Option_L to Fn</li><li>Control_L+Option_L to Fn</li><li>Option_L to Option_L
+  Holding Command+= to F12</li><li>Holding Shift+1 to F1</li><li>Holding Shift+2 to F2</li><li>Holding Shift+3 to F3</li><li>Holding Shift+4 to F4</li><li>Holding Shift+5 to F5</li><li>Holding Shift+6 to F6</li><li>Holding Shift+7 to F7</li><li>Holding Shift+8 to F8</li><li>Holding Shift+9 to F9</li><li>Holding Shift+0 to F10</li></ul></li><li>Swap numbers and symbols.
+  1234567890 to !@#$%^&amp;*()
+  shift-1234567890 to 1234567890</li><li>CapsLock+1234567890 to !@#$%^&amp;*() / CapsLock+Shift+1234567890 to 1234567890</li></ul></li><li>Change Option_L Key (Left Option)<ul><li>Option_L to CapsLock</li><li>Option_L to Command_L</li><li>Option_L to Command_L (only in virtual machine, RDC)</li><li>Option_L to Control_L</li><li>Option_L to Control_L (only in virtual machine, RDC)</li><li>Option_L to Fn</li><li>Control_L+Option_L to Fn</li><li>Option_L to Option_L
   (+ When you type Option_L only, send Command+Space)</li><li>Option_L to Option_L
   (+ When you type Option_L only, send End)</li><li>Option_L to Option_L
-  (+ When you type Option_L only, send Control+F2 (Move focus to the menu bar))</li><li>Option_L to Option_R</li><li>Option_L to Shift_L</li><li>Option_L to Sticky Option_L</li><li>Option_L to Escape</li><li>Send a escape key event when left option key is pressed alone.</li><li>Send a forward delete key event when left option key is pressed alone.</li><li>Option_L to Command+Control+Option+Shift+F1</li><li>Option_L to Space</li><li>Disable Option_L</li></ul></li><li>Change Option_R Key (Right Option)<ul><li>Option_R to CapsLock</li><li>Option_R to Command_L</li><li>Option_R to Command_R</li><li>Option_R to Control_L</li><li>Option_R to Control_L (only in virtual machine)</li><li>Option_R to Control_L+Option_R</li><li>Option_R to Control_R</li><li>Option_R to Control_R (only in Emacs, Terminal, X11)</li><li>Option_R to Control_R (only in virtual machine, RDC)</li><li>Option_R to Fn</li><li>Command_R+Option_R to Fn</li><li>Option_R to Option_R
+  (+ When you type Option_L only, send Control+F2 (Move focus to the menu bar))</li><li>Option_L to Option_R</li><li>Option_L to Shift_L</li><li>Use the left option key as sticky modifier. (without lock)</li><li>Use the left option key as sticky modifier. (with lock)</li><li>Option_L to Escape</li><li>Send a escape key event when left option key is pressed alone.</li><li>Send a forward delete key event when left option key is pressed alone.</li><li>Option_L to Command+Control+Option+Shift+F1</li><li>Option_L to Space</li><li>Disable Option_L</li></ul></li><li>Change Option_R Key (Right Option)<ul><li>Option_R to CapsLock</li><li>Option_R to Command_L</li><li>Option_R to Command_R</li><li>Option_R to Control_L</li><li>Option_R to Control_L (only in virtual machine)</li><li>Option_R to Control_L+Option_R</li><li>Option_R to Control_R</li><li>Option_R to Control_R (only in Emacs, Terminal, X11)</li><li>Option_R to Control_R (only in virtual machine, RDC)</li><li>Option_R to Fn</li><li>Command_R+Option_R to Fn</li><li>Option_R to Option_R
   (+ When you type Option_R only, send Control+F2 (Move focus to the menu bar))</li><li>Option_R to Option_R
   (+ When you type Option_R only, send Control+F8 (Move focus to the status bar))</li><li>Option_R to Option_R
   (+ When you type Option_R only, toggle IM)<ul><li>When you type Option_R only, send Command+Space
   (except virtual machine, RDC)</li><li>When you type Option_R only, send Option+Backquote
-  (only in virtual machine, RDC)</li></ul></li><li>Option_R to Option_R+Shift_L</li><li>Option_R to Sticky Option_R</li><li>Option_R to Delete</li><li>Option_R to End</li><li>Option_R to End (only in virtual machine, RDC)</li><li>Option_R to End (only in virtual machine, RDC)
+  (only in virtual machine, RDC)</li></ul></li><li>Option_R to Option_R+Shift_L</li><li>Use the right option key as sticky modifier. (without lock)</li><li>Use the right option key as sticky modifier. (with lock)</li><li>Option_R to Delete</li><li>Option_R to End</li><li>Option_R to End (only in virtual machine, RDC)</li><li>Option_R to End (only in virtual machine, RDC)
   (+ Shift+Option_R to Shift+End,Control_L+C)</li><li>Option_R to End (only in virtual machine, RDC)
   (+ Shift+Option_R to Shift+End,Command_L+C)</li><li>Option_R to Enter</li><li>Option_R to Escape</li><li>Option_R to Forward Delete</li><li>Send a escape key event when right option key is pressed alone.</li><li>Send a forward delete key event when right option key is pressed alone.</li><li>Option_R to Left-Arrow</li><li>Option_R to PageDown</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)</li><li>Option_R to Command_L+Right-Arrow (end-of-line)
   (+ Control+Option_R to Command_L+Down-Arrow) (end-of-buffer)</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)
@@ -537,7 +560,7 @@
   (+ When you type shift_L only without other modifiers, send Escape)</li><li>Shift_L to Shift_L
   (+ When you type shiftL only, send Space)</li><li>Shift_L to Shift_L
   (+ When you type shiftL only, send CapsLock)</li><li>Shift_L to Shift_L
-  (+ When you type shiftL only, send Space) + [KeyRepeat]</li><li>Shift_L to Lazy_Shift_L</li><li>Shift_L to Option_L</li><li>Shift_L to Sticky Shift_L</li><li>Shift_L to Escape</li><li>Shift_L x2 to F18</li><li>Shift_L to Space</li><li>Shift_R+Shift_L to Space
+  (+ When you type shiftL only, send Space) + [KeyRepeat]</li><li>Shift_L to Lazy_Shift_L</li><li>Shift_L to Option_L</li><li>Use the left shift key as sticky modifier. (without lock)</li><li>Use the left shift key as sticky modifier. (with lock)</li><li>Shift_L to Escape</li><li>Shift_L x2 to F18</li><li>Shift_L to Space</li><li>Shift_R+Shift_L to Space
   (Shift_R+Shift_L to Space, Shift_L+Shift_R to Shift+Space)</li><li>Shift_L to Tab</li><li>Disable Shift_L</li><li>Disable Shift_L
   (+ When you type Shift_L only, send Fn_Lock)</li><li>Shift_L to Shift_L
   (+ When you type Shift_L only, Sticky Shift_L)
@@ -550,7 +573,7 @@
   (+ When you type Shift_R only, send Enter)</li><li>Shift_R to Shift_R
   (+ When you type Shift_R only, send Escape)</li><li>Shift_R to Shift_R
   (+ When you type shiftR only, send Space)</li><li>Shift_R to Shift_R
-  (+ When you type shiftR only, send Space) + [KeyRepeat]</li><li>Shift_R to Lazy_Shift_R</li><li>Shift_R to Sticky Shift_R</li><li>Shift_R to ^ (Shift+6)
+  (+ When you type shiftR only, send Space) + [KeyRepeat]</li><li>Shift_R to Lazy_Shift_R</li><li>Use the right shift key as sticky modifier. (without lock)</li><li>Use the right shift key as sticky modifier. (with lock)</li><li>Shift_R to ^ (Shift+6)
   Shift_L+Shift_R to &amp; (Shift+7)</li><li>Shift_R to Enter</li><li>Shift_R to Escape</li><li>Shift_R to Forward Delete</li><li>Shift_R to Return</li><li>Shift_R to Right-Arrow</li><li>Shift_R to Space</li><li>Shift_L+Shift_R to Space
   (Shift_L+Shift_R to Space, Shift_R+Shift_L to Shift+Space)</li><li>Shift_R to Tab</li><li>Shift_R to Up-Arrow</li><li>Disable Shift_R</li><li>Back/Forward in Finder, Safari, etc. Left/Right Shift in mi.<ul><li>Shift_R to Shift_R
   (+ When you type shift_R only without other modifiers, send Command+[ )</li><li>Option_R+Shift_R to Command+]
@@ -607,6 +630,7 @@
   (Change right option key + bracket keys to command-{})</li><li>──────────────────────────────</li><li>Toggle Bluetooth by fn-b</li><li>Toggle Wi-Fi by fn-w</li><li>──────────────────────────────</li><li>Move mouse cursor to the center of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li><li>By button4 on mouse.</li><li>By button5 on mouse.</li></ul></li><li>Move mouse cursor to top-left side of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li></ul></li><li>──────────────────────────────</li><li>Switch current setting profile by fn+1,fn+2,fn+3, and fn+4.
   (You can make multiple profiles by MenuBar tab on Preferences.
   This setting changes current profile by shortcut.)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
+  You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li><li>Enable Sticky Modifier Keys (with lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li></ul></li><li>Diamond Cursor<ul><li>Control_L+WSAD to Up/Down/Left/Right</li><li>Control_R+WSAD to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>ModifierFlag::EXTRA1+WXSD to Up/Down/Left/Right
   (+ ModifierFlag::EXTRA1+A to Command_L+Left)
   (+ ModifierFlag::EXTRA1+F to Command_L+Right)</li><li>──────────────────────────────</li><li>Control_L+EXSD to Up/Down/Left/Right</li><li>Control_R+EXSD to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>Control_L+RVDF to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>Control_L+ESDF to Up/Down/Left/Right</li><li>Control_R+ESDF to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>Control_L+ESDF to Shift+Up/Down/Left/Right
@@ -1115,7 +1139,7 @@
   1 to LeftClick
   2 to MiddleClick
   3 to RightClick</li></ul></li><li>For Mission Control, Dashboard<ul><li>Option_R+Left,Right to Control+Left,Right
-  (You can switch Desktop by right option+arrows.)</li><li>Disable Slow-Expose (Disable Shift+Expose, Shift+Dashboard, Shift+F8,...,Shift+F12)</li><li>Holding "E" Key to Mission Control (Expose)</li><li>Holding "D" Key to Dashboard</li><li>Holding Shift+"E" Key to Mission Control (Expose)</li><li>Holding Shift+"D" Key to Dashboard</li><li>Control+Scroll (Left/Right) to Move a space
+  (You can switch Desktop by right option+arrows.)</li><li>Disable Slow-Expose (Disable Shift+Expose, Shift+Dashboard, Shift+F8,...,Shift+F12)</li><li>Show desktop by command-D.</li><li>Holding "E" Key to Mission Control (Expose)</li><li>Holding "D" Key to Dashboard</li><li>Holding Shift+"E" Key to Mission Control (Expose)</li><li>Holding Shift+"D" Key to Dashboard</li><li>Control+Scroll (Left/Right) to Move a space
   (Change Control+Left Scroll to Control+Left Arrow)
   (Change Control+Right Scroll to Control+Right Arrow)</li><li>Expose Mode v2
   Mission Control: K down -&gt; E down -&gt; E up
@@ -1138,7 +1162,9 @@
   - Escape: cancel.
   - Tab: Switch application__cycle forward.
   - Shift: Switch application__cycle backward.
-  - Arrow keys: move a selection.</li><li>Simultaneous Key Presses [Tab+Q] to toggle Cmd+Tab</li><li>Cmd+Space to toggle Cmd+Tab</li><li>[Option] Control+M to Return</li><li>[Option] Control+[ to Escape</li><li>[Option] HJKL to Arrow Keys</li><li>[Option] JKIL to Arrow Keys</li></ul></li><li>For Spaces<ul><li>Holding "S" Key to Spaces (F8)</li><li>Holding Shift+"S" Key to Spaces (F8)</li><li>Holding "1234 QWER ASDF ZXCV" to switch a space (4x4)
+  - Arrow keys: move a selection.</li><li>Simultaneous Key Presses [Tab+Q] to toggle Cmd+Tab</li><li>Cmd+Space to enter Cmd+Tab Mode</li><li>Cmd+Space to enter Cmd+Tab Mode
+  (+ Change the space key to the left control key.)
+  (+ Send a space key event when you pressed the space key alone.)</li><li>[Option] Control+M to Return</li><li>[Option] Control+[ to Escape</li><li>[Option] HJKL to Arrow Keys</li><li>[Option] JKIL to Arrow Keys</li></ul></li><li>For Spaces<ul><li>Holding "S" Key to Spaces (F8)</li><li>Holding Shift+"S" Key to Spaces (F8)</li><li>Holding "1234 QWER ASDF ZXCV" to switch a space (4x4)
   To switch a space, Hold "1234"
   To switch a space, Hold "QWER"
   To switch a space, Hold "ASDF"
@@ -1194,6 +1220,7 @@
   * Launchpad: O+Space key
   * Mail: O+M key
   * Mission Control: O+Tab key
+  * Open Desktop by Finder: O+F key
   * Safari: O+S key
   * Show Desktop: O+Escape key
   * Stickies: O+shift+S key
@@ -1289,10 +1316,13 @@
   (Change Option_L+Arrow to Control+Arrow)
 
   This setting is useful when you exchange Control+Tab and Command+Tab.</li></ul></li></ul></li><li>Enable at only Adobe Softwares<ul><li>Change Command+Tab to Control_L+Tab</li></ul></li><li>Enable at only Safari<ul><li>Firefox-like hotkey (Control+PgUp/PgDown) to switch tabs in Safari</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Firefox<ul><li>Control+K to Command+K</li><li>Control+L to Command+L</li><li>Control+T to Command+T</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Thunderbird<ul><li>Next Tab and Previous Tab by command-shift-[ and command-shift-]</li></ul></li><li>Enable at only Firefox/Thunderbird<ul><li>Fix Home/End
-  (Home/End move to beg/end of line, Ctl/Cmd+Home/End move to beg/end of page)</li><li>Change Control+R to Command+R</li><li>Change Control+T to Command+T</li><li>Change Control+W to Command+W</li></ul></li><li>Enable at only Google Chrome<ul><li>Tilt Wheel to Back/Forward. (Command+[, Command+])</li><li>Disable Close Window shortcut. (command-shift-w)</li><li>Disable Close Tab shortcut (command-w) on Gmail.</li><li>Disable Close Tab shortcut (command-w) on Google Translate.</li></ul></li><li>Enable at only Excel<ul><li>Emacs bindings for Excel</li><li>Windows-like operation<ul><li>F2 key to Edit a cell (Control+U)<ul><li>Change Brightness Up to Ctrl+U</li><li>Change F2 to Ctrl+U</li></ul></li><li>F4 key to Repeat (Command+Y)<ul><li>Change Launchpad to Command+Y
+  (Home/End move to beg/end of line, Ctl/Cmd+Home/End move to beg/end of page)</li><li>Change Control+R to Command+R</li><li>Change Control+T to Command+T</li><li>Change Control+W to Command+W</li></ul></li><li>Enable at only Google Chrome<ul><li>Tilt Wheel to Back/Forward. (Command+[, Command+])</li><li>Disable Close Window shortcut. (command-shift-w)</li><li>Disable Close Tab shortcut (command-w) on Gmail.</li><li>Disable Close Tab shortcut (command-w) on Google Translate.</li><li>Control+L to Command+L</li></ul></li><li>Enable at only Excel<ul><li>Emacs bindings for Excel</li><li>Windows-like operation<ul><li>F2 key to Edit a cell (Control+U)<ul><li>Change Brightness Up to Ctrl+U</li><li>Change F2 to Ctrl+U</li></ul></li><li>F4 key to Repeat (Command+Y)<ul><li>Change Launchpad to Command+Y
   (+ Change Dashboard to Command+Y)</li><li>Change F4 to Command+Y</li></ul></li><li>F4 key to Repeat (Command+T)<ul><li>Change Launchpad to Command+T
   (+ Change Dashboard to Command+T)</li><li>Change F4 to Command+T</li></ul></li><li>Others<ul><li>Control+Shift+Plus (Insert Row)
-  (Change Control+Shift+Plus to Control+i)</li></ul></li></ul></li></ul></li><li>Enable at only Entourage<ul><li>Change PageUp/PageDown to Option+Up/Down</li></ul></li><li>Enable at only MacSOUP<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Vienna<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Gruml<ul><li>Change Option_R to Return</li></ul></li><li>Enable at only Launchbar<ul><li>Change Semicolon(;) to Return</li><li>Change Right to Cmd+Right</li><li>Change Cmd+D to Cmd+Shift+D</li><li>Change Cmd+R to Cmd+Shift+R</li><li>Change Cmd+N to Cmd+Shift+N</li></ul></li><li>Enable at only League of Legends<ul><li>Swap Command and Option for Alt Bindings
+  (Change Control+Shift+Plus to Control+i)</li></ul></li></ul></li></ul></li><li>Enable at only Entourage<ul><li>Change PageUp/PageDown to Option+Up/Down</li></ul></li><li>Enable at only MacSOUP<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Vienna<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Gruml<ul><li>Change Option_R to Return</li></ul></li><li>Enable at only Launchbar<ul><li>Open LaunchBar by command-space.
+  *** Please use this setting together if you use the following settings. ***</li><li>Change semi-colon(;) to return key</li><li>Change control-L to command-right arrow
+  Assumed Control Key Navigation in LB Preferences is hkli</li><li>Change Dot(.) to Tab Key</li><li>Change right arrow to command-right arrow
+  also, change control-L to command-right arrow.</li><li>Change Cmd+D to Cmd+Shift+D</li><li>Change Cmd+R to Cmd+Shift+R</li><li>Change Cmd+N to Cmd+Shift+N</li></ul></li><li>Enable at only League of Legends<ul><li>Swap Command and Option for Alt Bindings
   Command_L to Option_L
   Option_L to Command_L</li></ul></li><li>Enable at only Remote Desktop Connection Client<ul><li>Change command key to control key in RDC.
   + Change command-tab to alt-tab.
@@ -1387,12 +1417,13 @@
   (Change * to -)
   (Change - to +)
   (Change + to =)</li><li>Use PC Style Home/End
-  (Change Home to Control+A)
-  (Change End to Control+E)
+  (Use Home and End key to beginning-of-line/end-of-line.)
+  (Actually, change Home/End key to Control+A/E.)
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Home/End #2
-  (Change Home to Command+Left)
-  (Change End to Command+Right)
+  (Use Home and End key to beginning-of-line/end-of-line.)
+  (Actually, change Home/End key to Command+Left/Right.)
+
   (+ Change Home to Control+A in Emacs,Terminal,X11,Eclipse)
   (+ Change End to Control+E in Emacs,Terminal,X11,Eclipse)
 
@@ -1438,7 +1469,7 @@
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style New Tab #2 (Browser only)
   (Control+T to Command_L+T)
 
-  (Only in Firefox, Google Chrome, Opera, Safari)</li><li>Use PC Style Find
+  (Only in Firefox, Google Chrome, Opera, Safari)</li><li>Use PC Style Open In New Tab (Browser only) Control+LeftClick to Command+LeftClick</li><li>Use PC Style Find
   (Control+F to Command_L+F)
   (Control+G to Command_L+G)
   (F3 to Command_L+G)
@@ -1521,7 +1552,8 @@
   (+ Command,Control,Option+Keys to Qwerty)
   (Except in password dialogue boxes)</li><li>Use Dvorak Keyboard Layout
   (QWERTY to Dvorak)
-  (+ Swap U and I)</li></ul></li><li>For Blind Users<ul><li>Use Caps Lock as Voice Over key.
+  (+ Swap U and I)</li><li>Use Programmer Dvorak Keyboard Layout
+  (Change QWERTY to Programmer Dvorak)</li></ul></li><li>For Blind Users<ul><li>Use Caps Lock as Voice Over key.
   Important: Please change the key code of Caps Lock to 110 on Seil Prefs,
   when you use this setting.
 
@@ -2401,7 +2433,14 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   C to F if Shift_L is pressed. (And no other modifiers are pressed.)
   // C to C
   // Shift_L+C to Shift_L+F
-  // Command_L+Shift_L+C to Command_L+Shift_L+C</li></ul></li><li>Last Pressed Physical Key<ul><li>Standard
+  // Command_L+Shift_L+C to Command_L+Shift_L+C</li><li>Lock and Sticky
+  Use the left shift key as the sticky modifier with lock.
+
+  + Change A to f1 if the left shift key is stuck.
+  + Change A to f2 if the left shift key is locked.
+  + Change A to f3 if the left shift key is not stuck and locked.
+  + Change S to f1 if the left shift key is not stuck.
+  + Change D to f1 if the left shift key is not locked.</li></ul></li><li>Last Pressed Physical Key<ul><li>Standard
   Change A to 1 if last pressed physical key is return key.
   Change Q to 1 unless last pressed physical key is return key.
   Change S to 2 if last pressed physical key is mute.
@@ -2585,7 +2624,7 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Change 1 to A,B,C,VK_LAZY_SHIFT_L
   Change 2 to Control_L+VK_LAZY_SHIFT_L
   Change 3 to A,Control_L+VK_LAZY_SHIFT_L</li><li>KeyToKey (2)
-  * Change the right command key to the lazy ocmmand key.
+  * Change the right command key to the lazy command key.
   * Change "right command-space" to "option-shift".
   * Change "right command-c" to "left click".
   * Change "right command-left click" to "right click".
