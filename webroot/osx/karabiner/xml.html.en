@@ -1655,6 +1655,13 @@
           </tbody>
         </table>
 
+        <h2 id="modifierdef-attributes">Attributes</h2>
+        <p>
+          Add notify="false" attribute to modifierdef
+          if you want to hide an indicator of modifier locks and sticky for new modifier.
+        </p>
+
+<pre class="prettyprint lang-xml">  &lt;modifierdef notify="false"&gt;MY_HYPER2&lt;/modifierdef&gt;</pre>
         <h2 id="prepared-modifierdef">Prepared virtual modifier definitions</h2>
         <p>
           Karabiner provides some prepared virtual modifier.
