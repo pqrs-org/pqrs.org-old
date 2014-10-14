@@ -118,6 +118,19 @@
       </h1>
     </div>
       <h2>
+        Version 10.4.0
+          <small>
+2014年10月14日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.4.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>正常に動作していない設定を修正しました。</li>
+</ul>
+
+      <h2>
         Version 10.3.0
           <small>
 2014年10月7日          </small>

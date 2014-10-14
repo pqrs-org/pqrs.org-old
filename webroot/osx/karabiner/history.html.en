@@ -118,6 +118,19 @@
       </h1>
     </div>
       <h2>
+        Version 10.4.0
+          <small>
+Oct 14, 2014          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.4.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>A broken prepared setting has been fixed.</li>
+</ul>
+
+      <h2>
         Version 10.3.0
           <small>
 Oct 7, 2014          </small>

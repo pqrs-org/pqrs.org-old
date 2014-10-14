@@ -8,6 +8,23 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.4.0',
+              :updated => '2014-10-14',
+              :link => 'files/Karabiner-10.4.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>A broken prepared setting has been fixed.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>正常に動作していない設定を修正しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.3.0',
               :updated => '2014-10-07',
               :link => 'files/Karabiner-10.3.0.dmg',
