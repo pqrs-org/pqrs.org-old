@@ -7,19 +7,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 2.0.2</title>
+      <title>Version 2.0.3</title>
       <description><![CDATA[
-<h2>About v2.0.2 Update</h2>
+<h2>About v2.0.3 Update</h2>
 <ul>
+  <li>v2.0.3: The quit button is added.</li>
   <li>v2.0.2: Multiple displays support has been improved. The indicator is shown in the all screen.</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Wed, 08 Oct 2014 19:39:45 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.0.2.dmg"
-                 sparkle:version="2.0.2" length="1749628" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCS++S0nyR2D2uaO/H7FEkh2iUI1wIUfn64CuwRYj/62wTEHQCFqrsBDXo="
+      <pubDate>Sun, 19 Oct 2014 13:15:17 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.0.3.dmg"
+                 sparkle:version="2.0.3" length="1467621" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFDoEufWNaAG6WPTOkHNbL12+M8T0AhUAgLvwR7zzLyRBlZXZjKppOhBen+Y="
       />
     </item>
 
