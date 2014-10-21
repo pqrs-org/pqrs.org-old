@@ -7,26 +7,25 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.4</title>
+      <title>Version 10.4.7</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.4 Update</h2>
+<h2>About v10.4.7 Update</h2>
 <ul>
-  <li>v10.4.4: Minor update.</li>
-  <li>v10.4.3: Minor update.</li>
+  <li>v10.4.7: Prepared settings have been updated.</li>
   <li>v10.4.2: Fixed issues: Some Java apps (IntelliJ IDEA) will be crash.</li>
   <li>v10.4.1: Minor UI update.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 19 Oct 2014 18:52:22 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.4.dmg"
-                 sparkle:version="10.4.4" length="3729817" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAWIBUmNZhRmM4e6vfQJOAo/MIZAAhQuu2i+55hrVeGR8E6GYshBbA6y/g=="
+      <pubDate>Tue, 21 Oct 2014 13:31:33 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.7.dmg"
+                 sparkle:version="10.4.7" length="3731698" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDAmTgtmIbu+8fCE09spjhQOyulpAhQpKulGzNbmak8u3+fAnQQxiLRBsA=="
                  />
     </item>
 
