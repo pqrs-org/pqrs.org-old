@@ -127,7 +127,8 @@
       <div class="alert alert-warning">
           注意: <br />
           NoEjectDelayはOS X 10.10 (Yosemite)では動作しません。<br />
-          OS X 10.10がリリースされた後に、OS X 10.10向けのNoEjectDelayをリリースします。<br />
+          OS X 10.10のソースコードが以下のページで公開された後に、OS X 10.10向けのNoEjectDelayをリリースします。<br />
+          <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com/</a>
       </div>
       <p>
 <a class="btn btn-default"
