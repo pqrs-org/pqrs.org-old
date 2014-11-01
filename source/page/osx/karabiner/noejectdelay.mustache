@@ -17,6 +17,28 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-6.0.0.dmg">
+            {{#language_en}}
+              Download NoEjectDelay-6.0.0
+            {{/language_en}}
+            {{#language_ja}}
+              NoEjectDelay-6.0.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label label-default">
+              {{#language_en}}
+                For OS X 10.10, 10.9
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.10、10.9用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">
             {{#language_en}}
               Download NoEjectDelay-5.4.0
@@ -27,29 +49,15 @@
             &nbsp;
             <span class="label label-default">
               {{#language_en}}
-                For OS X 10.9, 10.8
+                For OS X 10.8
               {{/language_en}}
               {{#language_ja}}
-                OS X 10.9、10.8用
+                OS X 10.8用
               {{/language_ja}}
             </span>
           </a>
         {{/strip_html}}
       </p>
-      <div class="alert alert-warning">
-        {{#language_en}}
-          Note: <br />
-          NoEjectDelay does not work on OS X 10.10 (Yosemite). <br />
-          I'll release new NoEjectDelay for OS X 10.10 after the source code of OS X 10.10 has been released here:<br />
-          <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com/</a>
-        {{/language_en}}
-        {{#language_ja}}
-          注意: <br />
-          NoEjectDelayはOS X 10.10 (Yosemite)では動作しません。<br />
-          OS X 10.10のソースコードが以下のページで公開された後に、OS X 10.10向けのNoEjectDelayをリリースします。<br />
-          <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com/</a>
-        {{/language_ja}}
-      </div>
       <p>
         {{#strip_html}}
           <a class="btn btn-default"
@@ -277,17 +285,17 @@
 
             <pre>{{#strip_indented_lines}}
               |$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-              |org.pqrs.driver.NoEjectDelay (5.4.0)
+              |org.pqrs.driver.NoEjectDelay (6.0.0)
               |org.pqrs.driver.Seil (10.11.0)
               |org.pqrs.driver.Karabiner (10.4.0)
             {{/strip_indented_lines}}</pre>
 
             <p>
               {{#language_en}}
-                The number (5.4.0) is the installed version.
+                The number (6.0.0) is the installed version.
               {{/language_en}}
               {{#language_ja}}
-                数字（5.4.0）がインストール済みのバージョンです。
+                数字（6.0.0）がインストール済みのバージョンです。
               {{/language_ja}}
             </p>
           </div>
@@ -338,17 +346,17 @@
             </p>
 
             <pre>{{#strip_indented_lines}}
-              |org.pqrs.driver.NoEjectDelay (5.4.0)
+              |org.pqrs.driver.NoEjectDelay (6.0.0)
               |org.pqrs.driver.Seil (10.11.0)
               |org.pqrs.driver.Karabiner (10.4.0)
             {{/strip_indented_lines}}</pre>
 
             <p>
               {{#language_en}}
-                The number (5.4.0) is the installed version.
+                The number (6.0.0) is the installed version.
               {{/language_en}}
               {{#language_ja}}
-                数字（5.4.0）がインストール済みのバージョンです。
+                数字（6.0.0）がインストール済みのバージョンです。
               {{/language_ja}}
             </p>
           </div>
@@ -442,20 +450,12 @@
         </p>
         <p>
           {{#language_en}}
-            However, we cannot access those secret values via SDK which Apple provides.
-            We need <a href="http://opensource.apple.com/">source code of OS X</a> to modify these values.
-          {{/language_en}}
-          {{#language_ja}}
-            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
-          {{/language_ja}}
-        </p>
-        <p>
-          {{#language_en}}
-            This source code will not be published until new OS X is shipped.
+            It requires SDK for new OS X.
+            However, SDK will not be published until new OS X is shipped.<br />
             Therefore, NoEjectDelay is intentionally disabled on beta version of OS X.
           {{/language_en}}
           {{#language_ja}}
-            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
+            これには新しいOS X向けのSDKが必要です。ですが、SDKは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
           {{/language_ja}}
         </p>
         <p>

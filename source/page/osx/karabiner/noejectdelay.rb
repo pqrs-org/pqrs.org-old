@@ -68,6 +68,25 @@ class Noejectdelay < KarabinerBase
   def histories
     data = [
             {
+              :version => '6.0.0',
+              :updated => '2014-11-01',
+              :link => 'files/NoEjectDelay-6.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>OS X 10.10 has been supported.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.10をサポートしました。</li>
+  <li>OS X 10.8をサポート対象から外しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '5.4.0',
               :updated => '2014-02-27',
               :link => 'files/NoEjectDelay-5.4.0.dmg',

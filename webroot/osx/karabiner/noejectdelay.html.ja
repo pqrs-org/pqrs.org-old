@@ -122,14 +122,12 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-6.0.0.dmg">NoEjectDelay-6.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">NoEjectDelay-5.4.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.9、10.8用</span></a>      </p>
-      <div class="alert alert-warning">
-          注意: <br />
-          NoEjectDelayはOS X 10.10 (Yosemite)では動作しません。<br />
-          OS X 10.10のソースコードが以下のページで公開された後に、OS X 10.10向けのNoEjectDelayをリリースします。<br />
-          <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com/</a>
-      </div>
+            &nbsp;<span class="label label-default">OS X 10.8用</span></a>      </p>
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-4.1.0.dmg">NoEjectDelay-4.1.0をダウンロード
@@ -244,13 +242,13 @@ src="img/pkg.png" width="128" height="128"                />
 
             <pre>
 $ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-org.pqrs.driver.NoEjectDelay (5.4.0)
+org.pqrs.driver.NoEjectDelay (6.0.0)
 org.pqrs.driver.Seil (10.11.0)
 org.pqrs.driver.Karabiner (10.4.0)
 </pre>
 
             <p>
-                数字（5.4.0）がインストール済みのバージョンです。
+                数字（6.0.0）がインストール済みのバージョンです。
             </p>
           </div>
         </div>
@@ -275,13 +273,13 @@ org.pqrs.driver.Karabiner (10.4.0)
             </p>
 
             <pre>
-org.pqrs.driver.NoEjectDelay (5.4.0)
+org.pqrs.driver.NoEjectDelay (6.0.0)
 org.pqrs.driver.Seil (10.11.0)
 org.pqrs.driver.Karabiner (10.4.0)
 </pre>
 
             <p>
-                数字（5.4.0）がインストール済みのバージョンです。
+                数字（6.0.0）がインストール済みのバージョンです。
             </p>
           </div>
         </div>
@@ -365,10 +363,7 @@ org.pqrs.driver.Karabiner (10.4.0)
             NoEjectDelayの機能を実現させるにはOS Xの隠された値を変更する必要があります。
         </p>
         <p>
-            しかし、Appleが提供するSDKからは隠された値にアクセスすることはできません。これらの値を変更するには、<a href="http://opensource.apple.com/">OS Xのソースコード</a>が必要です。
-        </p>
-        <p>
-            このソースコードは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
+            これには新しいOS X向けのSDKが必要です。ですが、SDKは新しいOS Xがリリースされるまでは公開されません。そのため、NoEjectDelayは意図的にベータ版のOS Xでは動かないようにしています。
         </p>
         <p>
             Appleから新しいOS Xがリリースされ、新しいOS X向けのNoEjectDelayがリリースされるまでお待ちください。
@@ -381,6 +376,20 @@ org.pqrs.driver.Karabiner (10.4.0)
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 6.0.0
+              <small>
+2014年11月1日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-6.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.10をサポートしました。</li>
+  <li>OS X 10.8をサポート対象から外しました。</li>
+</ul>
 
           <h2>
             Version 5.4.0
