@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.12</title>
+      <title>Version 10.4.13</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.12 Update</h2>
+<h2>About v10.4.13 Update</h2>
 <ul>
+  <li>v10.4.13: sysctl `karabiner.debug_show_delay` has been added.</li>
   <li>v10.4.12: A minor issue has been fixed.</li>
   <li>v10.4.12: Prepared settings have been updated.</li>
   <li>v10.4.11: "Ignore bouncing/chattering events" setting has been added.</li>
@@ -27,10 +28,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Thu, 30 Oct 2014 11:05:42 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.12.dmg"
-                 sparkle:version="10.4.12" length="3731816" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCxuOv6LeBe8BH4ucL+T+K/pDIPiAhQqQrn2FHyksDbr+CwFQ+gQjGvlig=="
+      <pubDate>Mon, 03 Nov 2014 12:52:48 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.13.dmg"
+                 sparkle:version="10.4.13" length="3732581" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAhhH1hjfU7eQhTAyMO2Ssg8I7+EAhRZ0oCYsJwXqydNNI/og73jguLm9Q=="
                  />
     </item>
 
