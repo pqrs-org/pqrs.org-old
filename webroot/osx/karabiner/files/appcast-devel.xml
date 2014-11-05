@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.14</title>
+      <title>Version 10.4.15</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.14 Update</h2>
+<h2>About v10.4.15 Update</h2>
 <ul>
+  <li>v10.4.15: "Ignore bouncing/chattering events" has been improved.</li>
   <li>v10.4.14: Simultaneous presses detection with rapid key typing has been improved.</li>
   <li>v10.4.14: "Ignore bouncing/chattering events" has been improved.</li>
   <li>v10.4.13: sysctl `karabiner.debug_show_delay` has been added.</li>
@@ -30,10 +31,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 05 Nov 2014 03:09:16 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.14.dmg"
-                 sparkle:version="10.4.14" length="3732867" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGsI7fDqGVZNVaY3ss3tlza+yuMqAhR6umF8W/QGhzQlGROQr605rE+8uw=="
+      <pubDate>Wed, 05 Nov 2014 04:26:52 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.15.dmg"
+                 sparkle:version="10.4.15" length="3733112" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHZ+AtHwksewiv0EUe/J/L9BA1NFAhQ5Lm8nCe6F8hRUqL3fS0eVUSiIOg=="
                  />
     </item>
 
