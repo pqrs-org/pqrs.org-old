@@ -609,7 +609,7 @@ org.pqrs.driver.Karabiner (10.4.0)
       </section>
     </div>
     <div class="col-md-3">
-      <div class="bs-sidebar" id="bs-sidebar">
+      <div class="bs-docs-sidebar" id="bs-docs-sidebar">
         <ul class="nav bs-sidenav">
               <li>
                 <a href="#installation">
