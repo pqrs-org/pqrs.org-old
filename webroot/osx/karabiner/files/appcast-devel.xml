@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.18</title>
+      <title>Version 10.4.19</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.18 Update</h2>
+<h2>About v10.4.19 Update</h2>
 <ul>
+  <li>v10.4.19: Prepared settings have been updated.</li>
   <li>v10.4.18: ModifierFlag manipulation when key up has been improved.</li>
   <li>v10.4.17: Spotlight has been supported in AXNotifier.</li>
   <li>v10.4.16: "Ignore bouncing/chattering events" has been improved.</li>
@@ -34,10 +35,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 09 Nov 2014 04:18:38 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.18.dmg"
-                 sparkle:version="10.4.18" length="3733443" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGOt5cZMDG4pX5psR807y8cfGmgZAhQHfxSsp2UKtnmuJw4O63uddfwD9Q=="
+      <pubDate>Mon, 10 Nov 2014 21:45:00 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.19.dmg"
+                 sparkle:version="10.4.19" length="3733157" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGfSS9vEf/wzZSKNeeHfZYTcnDZVAhQVm/nnLTUh/m6hinTvy2CgqkDJgw=="
                  />
     </item>
 
