@@ -173,9 +173,9 @@ src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
 </div>
 
 
-    <footer class="bs-footer">
+    <footer class="bs-docs-footer">
       <div class="container">
-        <ul class="footer-links">
+        <ul class="bs-docs-footer-links muted">
           <li><a href="#">Back to top</a></li>
         </ul>
       </div>

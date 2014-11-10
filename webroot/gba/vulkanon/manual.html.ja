@@ -212,9 +212,9 @@ src="img/laser.png" width="240" height="160"        />
 </div>
 
 
-    <footer class="bs-footer">
+    <footer class="bs-docs-footer">
       <div class="container">
-        <ul class="footer-links">
+        <ul class="bs-docs-footer-links muted">
           <li><a href="#">Back to top</a></li>
         </ul>
       </div>
