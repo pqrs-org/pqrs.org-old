@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/bootstrap/bootstrap-3.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/bootstrap/bootstrap-3.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Documentation extras -->
-    <link href="/assets/bootstrap/bootstrap-3.1.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/assets/bootstrap/bootstrap-3.3.0/docs/assets/css/docs.min.css" rel="stylesheet" />
     <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -182,7 +182,7 @@ src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
     </footer>
 
     <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
-    <script src="/assets/bootstrap/bootstrap-3.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
     <script src="/js/pqrs.js?1376532151"></script>
