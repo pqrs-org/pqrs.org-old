@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.26</title>
+      <title>Version 10.4.27</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.26 Update</h2>
+<h2>About v10.4.27 Update</h2>
 <ul>
+  <li>v10.4.27: Prepared settings have been updated.</li>
   <li>v10.4.26: Prepared settings have been updated.</li>
   <li>v10.4.25: Prepared settings have been updated.</li>
   <li>v10.4.24: "Workaround for keyboards with stuck keys" has been improved.</li>
@@ -43,10 +44,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 23 Nov 2014 19:09:38 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.26.dmg"
-                 sparkle:version="10.4.26" length="3735351" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAsVINBpWlJHXypbI6u3/yFJ08RLAhQo96+ry8UKzuHYBohlMEFFQ5W04Q=="
+      <pubDate>Wed, 26 Nov 2014 23:18:53 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.27.dmg"
+                 sparkle:version="10.4.27" length="3736203" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFu4aIBdUv7fPtpH3xxlSxOs1Wl8AhQC4FL+Us0j0CKf+si7WRqtBMty8Q=="
                  />
     </item>
 
