@@ -15,8 +15,7 @@
 
 <h2>About v10.4.28 Update</h2>
 <ul>
-  <li>v10.4.28: XXX</li>
-
+  <li>v10.4.28: &lt;device_only&gt;,&lt;device_not&gt; filter issue has been fixed.</li>
   <li>v10.4.27: Prepared settings have been updated.</li>
   <li>v10.4.26: Prepared settings have been updated.</li>
   <li>v10.4.25: Prepared settings have been updated.</li>
