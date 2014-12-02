@@ -83,7 +83,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-2.0.0.dmg">ShowyEdge-2.0.0をダウンロード
+            href="files/ShowyEdge-2.1.0.dmg">ShowyEdge-2.1.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.7以降で動作します。</span></a>      </p>
 
       <p>
@@ -336,38 +336,36 @@ src="img/dmg.png" width="128" height="128"              />
 
         <ol class="steps">
           <li>
-            <p>
-                LaunchpadからActivity Monitorを起動してください。
-            </p>
+              LaunchpadからShowyEdgeを開いてください。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+  <img src="img/launchpad.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+        <img src="img/launchpad.png" alt="Launchpad" />
       </div>
     </div>
   </div>
 </div>
               </div>
             </div>
-            <p>
-                ShowyEdgeプロセスを終了させてください。
-            </p>
+          </li>
+          <li>
+              「Quit ShowyEdge」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/activitymonitor.png" alt="Activity Monitor" />
+  <img src="img/quit.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
-  <div class="modal-dialog clickable" style="width: 974px;">
+  <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/activitymonitor.png" alt="Activity Monitor" />
+        <img src="img/quit.png" alt="Launchpad" />
       </div>
     </div>
   </div>
@@ -428,6 +426,20 @@ src="img/dmg.png" width="128" height="128"              />
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 2.1.0
+              <small>
+2014年12月2日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>複数のディスプレイの扱いを改善しました。各ディスプレイにカラーバーが表示されます。</li>
+  <li>Quitボタンを追加しました。</li>
+</ul>
 
           <h2>
             Version 2.0.0

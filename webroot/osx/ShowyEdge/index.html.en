@@ -84,7 +84,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-2.0.0.dmg">Download ShowyEdge-2.0.0
+            href="files/ShowyEdge-2.1.0.dmg">Download ShowyEdge-2.1.0
             &nbsp;<span class="label label-default">For OS X 10.7+</span></a>      </p>
 
       <p>
@@ -338,38 +338,36 @@ src="img/dmg.png" width="128" height="128"              />
 
         <ol class="steps">
           <li>
-            <p>
-                Open Activity Monitor from Launchpad.
-            </p>
+              Open ShowyEdge from Launchpad.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+  <img src="img/launchpad.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-activitymonitor.png" alt="Launchpad" />
+        <img src="img/launchpad.png" alt="Launchpad" />
       </div>
     </div>
   </div>
 </div>
               </div>
             </div>
-            <p>
-                Quit ShowyEdge processes.
-            </p>
+          </li>
+          <li>
+              Press "Quit ShowyEdge" button.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/activitymonitor.png" alt="Activity Monitor" />
+  <img src="img/quit.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
-  <div class="modal-dialog clickable" style="width: 974px;">
+  <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/activitymonitor.png" alt="Activity Monitor" />
+        <img src="img/quit.png" alt="Launchpad" />
       </div>
     </div>
   </div>
@@ -430,6 +428,20 @@ src="img/dmg.png" width="128" height="128"              />
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 2.1.0
+              <small>
+Dec 2, 2014              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.1.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Multiple displays support has been improved. The indicator is shown in the all screen.</li>
+  <li>Quit button has been added.</li>
+</ul>
 
           <h2>
             Version 2.0.0

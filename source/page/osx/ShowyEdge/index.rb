@@ -75,6 +75,25 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '2.1.0',
+              :updated => '2014-12-02',
+              :link => 'files/ShowyEdge-2.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Multiple displays support has been improved. The indicator is shown in the all screen.</li>
+  <li>Quit button has been added.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>複数のディスプレイの扱いを改善しました。各ディスプレイにカラーバーが表示されます。</li>
+  <li>Quitボタンを追加しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '2.0.0',
               :updated => '2014-08-24',
               :link => 'files/ShowyEdge-2.0.0.dmg',
