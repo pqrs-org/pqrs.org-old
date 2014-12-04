@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.30</title>
+      <title>Version 10.4.31</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.30 Update</h2>
+<h2>About v10.4.31 Update</h2>
 <ul>
+  <li>v10.4.31: Add quit button into Preferences.</li>
   <li>v10.4.30: Prepared settings have been updated.</li>
   <li>v10.4.29: Prepared settings have been updated.</li>
   <li>v10.4.28: &lt;device_only&gt;,&lt;device_not&gt; filter issue has been fixed.</li>
@@ -47,10 +48,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 02 Dec 2014 20:23:49 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.30.dmg"
-                 sparkle:version="10.4.30" length="3736251" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDGwPWSobBGkaxfq6KZhrhnIhMY2AhQjpjEP/H3G/Lw+e7ZqCUTckKYvKw=="
+      <pubDate>Thu, 04 Dec 2014 12:00:13 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.31.dmg"
+                 sparkle:version="10.4.31" length="3736372" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDGc91E6mw8bsJPlQ3gCjje3l0kBAhROhADa+1/zr4o6wdfKOsxAVdWvKg=="
                  />
     </item>
 
