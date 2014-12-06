@@ -7,6 +7,29 @@
     <language>en</language>
 
     <item>
+      <title>Version 11.0.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+<!-- RENAME_INFORMATION -->
+
+<h2>About v11.0.0 Update</h2>
+<ul>
+  <li>OS X 10.10 support has been improved.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+  <li>List of known key code has been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Thu, 05 Dec 2014 22:20:40 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.0.0.dmg"
+                 sparkle:version="11.0.0" length="1583428" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCDk5gDj8GE5fmVUvzpr2GxHM9NAQIVAIZFnpF6bP6xaBq8yodhcVt8EIY8"
+                 />
+    </item>
+
+    <item>
       <title>Version 10.11.0</title>
       <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
       <description><![CDATA[

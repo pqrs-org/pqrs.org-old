@@ -127,12 +127,17 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-10.11.0.dmg">Seil-10.11.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.10、10.9、10.8用</span></a>      </p>
+            href="files/Seil-11.0.0.dmg">Seil-11.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
 
       <div class="alert alert-info">
           Seilはバージョン10.7.0まで<b>PCKeyboardHack</b>という名前でした。
       </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/Seil-10.11.0.dmg">Seil-10.11.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.8用</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
@@ -603,6 +608,21 @@ $ sh ~/Desktop/seil-import.sh
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 11.0.0
+              <small>
+2014年12月5日              </small>
+
+              <a class="btn btn-default" href="files/Seil-11.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.10のサポートを改善しました。</li>
+  <li>OS X 10.8をサポート外としました。</li>
+  <li>既知のキーコードの一覧を更新しました。li>
+</ul>
 
           <h2>
             Version 10.11.0
