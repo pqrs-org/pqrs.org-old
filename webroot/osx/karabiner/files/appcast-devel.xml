@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.32</title>
+      <title>Version 10.4.33</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.32 Update</h2>
+<h2>About v10.4.33 Update</h2>
 <ul>
+  <li>v10.4.33: Fixed issues: Java app (Android Studio) will be crash.</li>
   <li>v10.4.32: Prepared settings have been updated.</li>
   <li>v10.4.31: Add quit button into Preferences.</li>
   <li>v10.4.30: Prepared settings have been updated.</li>
@@ -49,10 +50,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 08 Dec 2014 15:13:56 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.32.dmg"
-                 sparkle:version="10.4.32" length="3737264" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCJBO72MI6H0f7kcYQAvnMeINeNhAhRTCZu8Wh9/A+76w6Nq47Y1A8uF/Q=="
+      <pubDate>Mon, 08 Dec 2014 18:17:22 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.33.dmg"
+                 sparkle:version="10.4.33" length="3737356" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCd9QUKKL8Ye5hv6A8BIsVtLycduAhRIt2Ke9w8WCznjTVoe1b4axDgmDw=="
                  />
     </item>
 
