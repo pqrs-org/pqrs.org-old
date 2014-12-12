@@ -7,56 +7,48 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.4.36</title>
+      <title>Version 10.5.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.4.36 Update</h2>
+<h2>About v10.5.0 Update</h2>
 <ul>
-  <li>v10.4.36: Allow missing files in XML.</li>
-  <li>v10.4.35: A minor issue has been fixed.</li>
-  <li>v10.4.34: A minor issue has been fixed.</li>
-  <li>v10.4.33: Fixed issues: Java app (Android Studio) will be crash.</li>
-  <li>v10.4.32: Prepared settings have been updated.</li>
-  <li>v10.4.31: Add quit button into Preferences.</li>
-  <li>v10.4.30: Prepared settings have been updated.</li>
-  <li>v10.4.29: Prepared settings have been updated.</li>
-  <li>v10.4.28: &lt;device_only&gt;,&lt;device_not&gt; filter issue has been fixed.</li>
-  <li>v10.4.27: Prepared settings have been updated.</li>
-  <li>v10.4.26: Prepared settings have been updated.</li>
-  <li>v10.4.25: Prepared settings have been updated.</li>
-  <li>v10.4.24: "Workaround for keyboards with stuck keys" has been improved.</li>
-  <li>v10.4.23: "Workaround for keyboards with stuck keys" has been added.</li>
-  <li>v10.4.22: __BlockUntilKeyUp__ behavior has been improved.</li>
-  <li>v10.4.21: __KeyDownUpToKey__ has been added.</li>
-  <li>v10.4.20: Fixed issues: Some Java apps (PhpStorm, RubyMine) will be crash.</li>
-  <li>v10.4.20: Prepared settings have been updated.</li>
-  <li>v10.4.19: Prepared settings have been updated.</li>
-  <li>v10.4.18: ModifierFlag manipulation when key up has been improved.</li>
-  <li>v10.4.17: Spotlight has been supported in AXNotifier.</li>
-  <li>v10.4.16: "Ignore bouncing/chattering events" has been improved.</li>
-  <li>v10.4.15: "Ignore bouncing/chattering events" has been improved.</li>
-  <li>v10.4.14: Simultaneous presses detection with rapid key typing has been improved.</li>
-  <li>v10.4.14: "Ignore bouncing/chattering events" has been improved.</li>
-  <li>v10.4.13: sysctl `karabiner.debug_show_delay` has been added.</li>
-  <li>v10.4.12: A minor issue has been fixed.</li>
-  <li>v10.4.12: Prepared settings have been updated.</li>
-  <li>v10.4.11: "Ignore bouncing/chattering events" setting has been added.</li>
-  <li>v10.4.9: Prepared settings have been updated.</li>
-  <li>v10.4.8: __SimultaneousKeyPresses__ has been improved in some corner cases.</li>
-  <li>v10.4.7: Prepared settings have been updated.</li>
-  <li>v10.4.2: Fixed issues: Some Java apps (IntelliJ IDEA) will be crash.</li>
-  <li>v10.4.1: Minor UI update.</li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (IntelliJ IDEA, PhpStorm, RubyMine, Android Studio)</li>
+      <li>&lt;device_only&gt; and &lt;device_not&gt; filters are ignored when multiple keyboards are connected and same keys are pressed at the same time.</li>
+    </ul>
+  </li>
+  <li>
+    Improvements:
+    <ul>
+      <li>"Ignore bouncing (chattering) events" setting has been added.</li>
+      <li>Spotlight has been supported in &lt;only&gt; and &lt;not&gt; filters.</li>
+      <li>Quit button has been added into Preferences.</li>
+      <li>Simultaneous presses detection with rapid key typing has been improved.</li>
+      <li>ModifierFlag manipulation when key up has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>Option::FORCENUMLOCKON_FORCE_OFF has been added.</li>
+      <li>__KeyDownUpToKey__ has been added.</li>
+      <li>&lt;include&gt; ignores missing files. (Karabiner does not show an alert dialog when &lt;include&gt; refers missing files.)</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Fri, 12 Dec 2014 13:00:25 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.36.dmg"
-                 sparkle:version="10.4.36" length="3736725" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEoDIDaUhU9YMPoCQmFso0mudPxaAhRZStqa6qt9HM3+0REg/9cUT7tplw=="
+      <pubDate>Fri, 12 Dec 2014 16:22:07 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.0.dmg"
+                 sparkle:version="10.5.0" length="3737029" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGEN/6Bb61pXILNMkM2zLtOa1CiEAhQDi0s2QFJ7zTdIrHRgOq++H/yvnw=="
                  />
     </item>
 
