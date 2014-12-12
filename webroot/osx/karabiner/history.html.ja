@@ -118,6 +118,44 @@
       </h1>
     </div>
       <h2>
+        Version 10.5.0
+          <small>
+2014年12月12日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.5.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（IntelliJ IDEA, PhpStorm, RubyMine, Android Studio）</li>
+      <li>複数のキーボードが接続され、同じキーが同時に押された時に&lt;device_only&gt;と&lt;device_not&gt;フィルタが無視されます。</li>
+    </ul>
+  </li>
+  <li>
+    改善点:
+    <ul>
+      <li>「Ignore bouncing (chattering) events」というチャタリングを無視する設定が追加されました。</li>
+      <li>Spotlightが&lt;only&gt;と&lt;not&gt;フィルタでサポートされました。</li>
+      <li>Quitボタンが設定画面に追加されました。</li>
+      <li>キータイプが速いときの、キーの同時押しの判定が改良されました。</li>
+      <li>キーを離したときのモディファイアの扱いが改善されました。</li>
+      <li>設定の追加・更新をしました。</li>
+    </ul>
+  </li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>Option::FORCENUMLOCKON_FORCE_OFFが追加されました。</li>
+      <li>__KeyDownUpToKey__が追加されました。</li>
+      <li>&lt;include&gt;は存在しないファイルを無視します。（ファイルが見つからない場合でもアラートダイアログを表示しません。)</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.4.0
           <small>
 2014年10月14日          </small>

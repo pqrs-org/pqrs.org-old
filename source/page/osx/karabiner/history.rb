@@ -8,6 +8,73 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.5.0',
+              :updated => '2014-12-12',
+              :link => 'files/Karabiner-10.5.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (IntelliJ IDEA, PhpStorm, RubyMine, Android Studio)</li>
+      <li>&lt;device_only&gt; and &lt;device_not&gt; filters are ignored when multiple keyboards are connected and same keys are pressed at the same time.</li>
+    </ul>
+  </li>
+  <li>
+    Improvements:
+    <ul>
+      <li>"Ignore bouncing (chattering) events" setting has been added.</li>
+      <li>Spotlight has been supported in &lt;only&gt; and &lt;not&gt; filters.</li>
+      <li>Quit button has been added into Preferences.</li>
+      <li>Simultaneous presses detection with rapid key typing has been improved.</li>
+      <li>ModifierFlag manipulation when key up has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>Option::FORCENUMLOCKON_FORCE_OFF has been added.</li>
+      <li>__KeyDownUpToKey__ has been added.</li>
+      <li>&lt;include&gt; ignores missing files. (Karabiner does not show an alert dialog when &lt;include&gt; refers missing files.)</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（IntelliJ IDEA, PhpStorm, RubyMine, Android Studio）</li>
+      <li>複数のキーボードが接続され、同じキーが同時に押された時に&lt;device_only&gt;と&lt;device_not&gt;フィルタが無視されます。</li>
+    </ul>
+  </li>
+  <li>
+    改善点:
+    <ul>
+      <li>「Ignore bouncing (chattering) events」というチャタリングを無視する設定が追加されました。</li>
+      <li>Spotlightが&lt;only&gt;と&lt;not&gt;フィルタでサポートされました。</li>
+      <li>Quitボタンが設定画面に追加されました。</li>
+      <li>キータイプが速いときの、キーの同時押しの判定が改良されました。</li>
+      <li>キーを離したときのモディファイアの扱いが改善されました。</li>
+      <li>設定の追加・更新をしました。</li>
+    </ul>
+  </li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li>Option::FORCENUMLOCKON_FORCE_OFFが追加されました。</li>
+      <li>__KeyDownUpToKey__が追加されました。</li>
+      <li>&lt;include&gt;は存在しないファイルを無視します。（ファイルが見つからない場合でもアラートダイアログを表示しません。)</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.4.0',
               :updated => '2014-10-14',
               :link => 'files/Karabiner-10.4.0.dmg',

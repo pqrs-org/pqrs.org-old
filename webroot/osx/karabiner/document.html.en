@@ -672,7 +672,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
             </div>
           </li>
           <li>
-              Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.4.0/files/sample/private.xml">private.xml</a>.
+              Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.5.0/files/sample/private.xml">private.xml</a>.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-21" class="thumbnail">
@@ -936,7 +936,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
               Then the preference window is opened. Change checkboxes and text if needed.
               <br />
               The value of "Target setting" such as notsave.thumbsense is &lt;identifier&gt; in
-              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.4.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
+              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.5.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-27" class="thumbnail">
@@ -1289,16 +1289,16 @@ Password: &lt;enter your password&gt;
       </p>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.4.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.5.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.4.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.5.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.4.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.5.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.4.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.5.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
         </li>
       </ul>
 
