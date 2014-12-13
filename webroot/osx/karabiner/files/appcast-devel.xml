@@ -7,48 +7,26 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.5.0</title>
+      <title>Version 10.5.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.5.0 Update</h2>
+<h2>About v10.5.1 Update</h2>
 <ul>
   <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (IntelliJ IDEA, PhpStorm, RubyMine, Android Studio)</li>
-      <li>&lt;device_only&gt; and &lt;device_not&gt; filters are ignored when multiple keyboards are connected and same keys are pressed at the same time.</li>
-    </ul>
-  </li>
-  <li>
-    Improvements:
-    <ul>
-      <li>"Ignore bouncing (chattering) events" setting has been added.</li>
-      <li>Spotlight has been supported in &lt;only&gt; and &lt;not&gt; filters.</li>
-      <li>Quit button has been added into Preferences.</li>
-      <li>Simultaneous presses detection with rapid key typing has been improved.</li>
-      <li>ModifierFlag manipulation when key up has been improved.</li>
-      <li>Prepared settings have been updated.</li>
-    </ul>
-  </li>
-  <li>
-    Updates for people who add new settings by oneself:
-    <ul>
-      <li>Option::FORCENUMLOCKON_FORCE_OFF has been added.</li>
-      <li>__KeyDownUpToKey__ has been added.</li>
-      <li>&lt;include&gt; ignores missing files. (Karabiner does not show an alert dialog when &lt;include&gt; refers missing files.)</li>
-    </ul>
+    v10.5.1: A broken prepared setting has been fixed:<br />
+    "Disable an internal keyboard while external keyboards are connected."
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Fri, 12 Dec 2014 16:22:07 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.0.dmg"
-                 sparkle:version="10.5.0" length="3737029" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGEN/6Bb61pXILNMkM2zLtOa1CiEAhQDi0s2QFJ7zTdIrHRgOq++H/yvnw=="
+      <pubDate>Sat, 13 Dec 2014 12:40:16 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.1.dmg"
+                 sparkle:version="10.5.1" length="3737592" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCSWFhb8I/tp6lKC3ZoZl6+u1iN1AhQpUCBz+XUcJXKB6PUM7GF0tmTDFQ=="
                  />
     </item>
 
