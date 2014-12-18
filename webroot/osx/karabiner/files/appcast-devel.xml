@@ -7,14 +7,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.5.1</title>
+      <title>Version 10.5.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.5.1 Update</h2>
+<h2>About v10.5.3 Update</h2>
 <ul>
+  <li>v10.5.3: Minor update.</li>
+  <li>v10.5.2: Prepared settings have been updated.</li>
   <li>
     v10.5.1: A broken prepared setting has been fixed:<br />
     "Disable an internal keyboard while external keyboards are connected."
@@ -23,10 +25,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sat, 13 Dec 2014 12:40:16 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.1.dmg"
-                 sparkle:version="10.5.1" length="3737592" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCSWFhb8I/tp6lKC3ZoZl6+u1iN1AhQpUCBz+XUcJXKB6PUM7GF0tmTDFQ=="
+      <pubDate>Thu, 18 Dec 2014 09:14:45 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.3.dmg"
+                 sparkle:version="10.5.3" length="3737300" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHyQaYoh4TVfaUsATsTik08M9ZwxAhRaHADt5X9RmjoqnETIJucxiBeGbw=="
                  />
     </item>
 
