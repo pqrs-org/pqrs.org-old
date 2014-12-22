@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Karabiner - Software for OS X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/bootstrap-3.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Documentation extras -->
+    <link href="/assets/bootstrap/bootstrap-3.3.0/docs/assets/css/docs.min.css" rel="stylesheet" />
+    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+
+    <!-- Bootstrap extra -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+                <li >
+                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Documents
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Additional Apps
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
+                  </ul>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/donation.html.en">Donations</a>
+                </li>
+                <li >
+                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li >
+                <a href="/profile.html.en">Profile</a>
+              </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Language
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/osx/karabiner/gallery.html.en">English</a></li>
+                <li><a href="/osx/karabiner/gallery.html.ja">Japanese</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+  <header>
+    <div class="page-header">
+      <h1>
+          Part of useful existing settings
+      </h1>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="mouse_keys_mode_v2">
+        <div class="page-header">
+          <h1>Mouse Keys Mode v2</h1>
+        </div>
+
+        <p>
+            You can control pointer cursor and scroll wheel from keyboard.
+        </p>
+
+        <p>
+            We recommend to use "Mouse Keys scroll direction: natural" together.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="ignore_bouncing">
+        <div class="page-header">
+          <h1>Ignore bouncing (chattering) events</h1>
+        </div>
+
+        <p>
+            This setting suppresses duplicated events if your keyboard or mice send same events multiple times when you press key once.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <p>
+            You can adjust threshold in "Key Repeat" tab.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-docs-sidebar" id="bs-docs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#examples">
+                  examples
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="bs-docs-footer">
+      <div class="container">
+        <ul class="bs-docs-footer-links muted">
+          <li><a href="#">Back to top</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
+      <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
+    <script src="/js/pqrs.js?1376532151"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56715024-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

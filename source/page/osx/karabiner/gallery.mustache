@@ -1,0 +1,92 @@
+<div class="container">
+  <header>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Part of useful existing settings
+        {{/language_en}}
+        {{#language_ja}}
+          便利な既存の設定の一例
+        {{/language_ja}}
+      </h1>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section id="mouse_keys_mode_v2">
+        <div class="page-header">
+          <h1>Mouse Keys Mode v2</h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            You can control pointer cursor and scroll wheel from keyboard.
+          {{/language_en}}
+          {{#language_ja}}
+            キーボードからマウスを操作できます。
+          {{/language_ja}}
+        </p>
+
+        <p>
+          {{#language_en}}
+            We recommend to use "Mouse Keys scroll direction: natural" together.
+          {{/language_en}}
+          {{#language_ja}}
+            同時に「Mouse Keys scroll direction: natural」も使用することをオススメします。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/gallery/mouse_keys_mode_v2.png Mouse Keys Mode v2
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+
+      <section id="ignore_bouncing">
+        <div class="page-header">
+          <h1>Ignore bouncing (chattering) events</h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            This setting suppresses duplicated events if your keyboard or mice send same events multiple times when you press key once.
+          {{/language_en}}
+          {{#language_ja}}
+            もしあなたのキーボードやマウスが、キーを一度押したときに複数の同じイベントを発生させている場合、この設定は重複したイベントを削除します。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/gallery/ignore_bouncing1.png Ignore bouncing
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          {{#language_en}}
+            You can adjust threshold in "Key Repeat" tab.
+          {{/language_en}}
+          {{#language_ja}}
+            「Key Repeat」タブから閾値を調整できます。
+          {{/language_ja}}
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/gallery/ignore_bouncing2.png Ignore bouncing
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="col-md-3">
+      {{> ../../pqrs_tabs }}
+    </div>
+  </div>
+</div>

@@ -1,6 +1,7 @@
 all:
 	./index.rb
 	./document.rb
+	./gallery.rb
 	./xml.rb
 	./faq.rb
 	./extra.rb
