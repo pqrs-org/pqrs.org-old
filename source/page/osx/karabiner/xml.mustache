@@ -483,6 +483,12 @@
           </li>
         </ol>
 
+        <h2 id="plural-appdef">Plural apps</h2>
+        <p>
+          You can specify plural apps by a comma separated list. <br />
+          For example, <code>&lt;only&gt;GOOGLE_CHROME, FIREFOX, SAFARI&lt;/only&gt;</code> means "Google Chrome or Firefox or Safari".
+        </p>
+
         <h2 id="prepared-appdef">Prepared application definitions</h2>
         <p>
           Karabiner provides
@@ -802,6 +808,18 @@
             {{/indented_xml}}
           </li>
         </ol>
+
+        <h2 id="plural-devicedef">Plural devices</h2>
+        <p>
+          You can specify plural devices by a comma separated list. <br />
+          For example, the following &lt;device_only&gt; means "Magic Mouse or Logitech Unifying".
+        </p>
+        {{#indented_xml}}
+          |  <device_only>
+          |    DeviceVendor::APPLE_COMPUTER, DeviceProduct::MAGIC_MOUSE,
+          |    DeviceVendor::LOGITECH, DeviceProduct::LOGITECH_UNIFYING_0xc52b,
+          |  </device_only>
+        {{/indented_xml}}
 
         <h2 id="prepared-devicedef">Prepared device definitions</h2>
         <p>
