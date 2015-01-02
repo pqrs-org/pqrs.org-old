@@ -35,6 +35,13 @@ class KarabinerBase < PqrsBase
                       },
                     },
                     {
+                      :href => '/osx/karabiner/gallery.html',
+                      :name_l10n => {
+                        :en => 'Gallery',
+                        :ja => '設定の一例',
+                      },
+                    },
+                    {
                       :href => '/osx/karabiner/xml.html',
                       :name_l10n => {
                         :en => 'private.xml',

@@ -44,7 +44,7 @@
                 <li >
                   <a href="/osx/karabiner/index.html.en">Karabiner</a>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Documents
                     <b class="caret"></b>
@@ -52,6 +52,9 @@
                   <ul class="dropdown-menu">
                       <li >
                         <a href="/osx/karabiner/document.html.en">Manual</a>
+                      </li>
+                      <li class="active">
+                        <a href="/osx/karabiner/gallery.html.en">Gallery</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/xml.html.en">private.xml</a>
