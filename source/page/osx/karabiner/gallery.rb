@@ -22,6 +22,13 @@ class Gallery < KarabinerBase
         },
       },
       {
+        :href => '#simple-vi-mode-v2',
+        :name_l10n => {
+          :en => 'Simple Vi Mode v2',
+          :ja => 'Simple Vi Mode v2',
+        },
+      },
+      {
         :href => '#mouse-keys-mode-v2',
         :name_l10n => {
           :en => 'Mouse Keys Mode v2',
