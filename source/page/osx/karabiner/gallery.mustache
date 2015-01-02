@@ -14,7 +14,51 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="mouse_keys_mode_v2">
+      <section id="change-either-the-left-or-right-modifier-key">
+        <div class="page-header">
+          <h1>
+            {{#language_en}}
+              Change either the left or right modifier key
+            {{/language_en}}
+            {{#language_ja}}
+              左右のいずれかのモディファイアを変更する
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            Standard system Preferences allows you to change modifier keys to other modifier keys such as "command keys to control keys".
+          {{/language_en}}
+          {{#language_ja}}
+            標準のシステム環境設定では、モディファイアの変更をすることが出来ます。<br />
+            例えば「コマンドキーをコントロールキーに変更する」など。
+          {{/language_ja}}
+        </p>
+
+        <p>
+          {{#language_en}}
+            Karabiner has more flexible settings. <br />
+            For example, the following setting changes the left command key to the control key. <br />
+            You can use both command and control modifiers by thumb.
+          {{/language_en}}
+          {{#language_ja}}
+            Karabinerではより柔軟な設定を行うことができます。<br />
+            例えば、次の設定では左コマンドキーをコントールキーに変更します。<br />
+            親指でコマンドキーとコントロールキーを使うことができるようになります。<br />
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/gallery/left_command_to_control.png Change the left command key to the control key
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+
+      <section id="mouse-keys-mode-v2">
         <div class="page-header">
           <h1>Mouse Keys Mode v2</h1>
         </div>
@@ -46,9 +90,16 @@
         </div>
       </section>
 
-      <section id="ignore_bouncing">
+      <section id="ignore-bouncing">
         <div class="page-header">
-          <h1>Ignore bouncing (chattering) events</h1>
+          <h1>
+            {{#language_en}}
+              Ignore bouncing (chattering) events
+            {{/language_en}}
+            {{#language_ja}}
+              チャタリングの抑制
+            {{/language_ja}}
+          </h1>
         </div>
 
         <p>

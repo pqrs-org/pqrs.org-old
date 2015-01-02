@@ -121,7 +121,43 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="mouse_keys_mode_v2">
+      <section id="change-either-the-left-or-right-modifier-key">
+        <div class="page-header">
+          <h1>
+              左右のいずれかのモディファイアを変更する
+          </h1>
+        </div>
+
+        <p>
+            標準のシステム環境設定では、モディファイアの変更をすることが出来ます。<br />
+            例えば「コマンドキーをコントロールキーに変更する」など。
+        </p>
+
+        <p>
+            Karabinerではより柔軟な設定を行うことができます。<br />
+            例えば、次の設定では左コマンドキーをコントールキーに変更します。<br />
+            親指でコマンドキーとコントロールキーを使うことができるようになります。<br />
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/gallery/left_command_to_control.png" alt="Change the left command key to the control key" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/left_command_to_control.png" alt="Change the left command key to the control key" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mouse-keys-mode-v2">
         <div class="page-header">
           <h1>Mouse Keys Mode v2</h1>
         </div>
@@ -136,10 +172,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
   <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
 </a>
-<div class="modal fade" id="lightbox-1" tabindex="30001">
+<div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -152,9 +188,11 @@
         </div>
       </section>
 
-      <section id="ignore_bouncing">
+      <section id="ignore-bouncing">
         <div class="page-header">
-          <h1>Ignore bouncing (chattering) events</h1>
+          <h1>
+              チャタリングの抑制
+          </h1>
         </div>
 
         <p>
@@ -163,10 +201,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
+<div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -183,10 +221,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -203,8 +241,18 @@
       <div class="bs-docs-sidebar" id="bs-docs-sidebar">
         <ul class="nav bs-sidenav">
               <li>
-                <a href="#examples">
-                  examples
+                <a href="#change-either-the-left-or-right-modifier-key">
+                  左右のいずれかのモディファイアを変更する
+                </a>
+              </li>
+              <li>
+                <a href="#mouse-keys-mode-v2">
+                  Mouse Keys Mode v2
+                </a>
+              </li>
+              <li>
+                <a href="#ignore-bouncing">
+                  チャタリングの抑制
                 </a>
               </li>
         </ul>
