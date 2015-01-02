@@ -15,6 +15,13 @@ class Gallery < KarabinerBase
         },
       },
       {
+        :href => '#use-emacs-key-bindings-everywhere',
+        :name_l10n => {
+          :en => 'Use Emacs key bindings everywhere',
+          :ja => 'Emacsのキーバインドをどこでも使えるようにする',
+        },
+      },
+      {
         :href => '#mouse-keys-mode-v2',
         :name_l10n => {
           :en => 'Mouse Keys Mode v2',

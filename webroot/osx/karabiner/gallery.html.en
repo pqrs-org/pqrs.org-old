@@ -156,6 +156,42 @@
         </div>
       </section>
 
+      <section id="use-emacs-key-bindings-everywhere">
+        <div class="page-header">
+          <h1>
+              Use Emacs key bindings everywhere
+          </h1>
+        </div>
+
+        <p>
+            OS X provides Emacs key bindings (control-p, control-n, etc.) in text editing. <br />
+            Karabiner enhances these Emacs key bindings and allows you to use them everywhere. (eg: operations in Finder)
+        </p>
+
+        <p>
+            Note: <br />
+            These settings will be disabled in Emacs, Terminal or other apps that has native Emacs key bindings support. <br />
+            You can use native functions in these apps even if you enabled these Emacs Mode settings.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
       <section id="mouse-keys-mode-v2">
         <div class="page-header">
           <h1>Mouse Keys Mode v2</h1>
@@ -171,10 +207,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
 </a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
+<div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -200,10 +236,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -220,10 +256,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -242,6 +278,11 @@
               <li>
                 <a href="#change-either-the-left-or-right-modifier-key">
                   Change either the left or right modifier key
+                </a>
+              </li>
+              <li>
+                <a href="#use-emacs-key-bindings-everywhere">
+                  Use Emacs key bindings everywhere
                 </a>
               </li>
               <li>
