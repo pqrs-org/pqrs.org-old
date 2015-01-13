@@ -121,6 +121,26 @@
       </h1>
     </div>
       <h2>
+        Version 10.6.0
+          <small>
+2015年1月13日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.6.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    以下の設定を修正しました。
+    <ul>
+      <li>General &gt; Disable an internal keyboard while external keyboards are connected.</li>
+    </ul>
+  </li>
+  <li>「Sort by name」「Sort by created」ボタンを設定のMenuBarタブに追加しました。</li>
+  <li>設定の追加・更新をしました。</li>
+</ul>
+
+      <h2>
         Version 10.5.0
           <small>
 2014年12月12日          </small>

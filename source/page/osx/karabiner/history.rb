@@ -8,6 +8,37 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.6.0',
+              :updated => '2015-01-13',
+              :link => 'files/Karabiner-10.6.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    A following prepared setting has been fixed.
+    <ul>
+      <li>General &gt; Disable an internal keyboard while external keyboards are connected.</li>
+    </ul>
+  </li>
+  <li>"Sort by name" and "Sort by created" button have been added in Preferences &gt; MenuBar.</li>
+  <li>Prepared settings have been updated.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    以下の設定を修正しました。
+    <ul>
+      <li>General &gt; Disable an internal keyboard while external keyboards are connected.</li>
+    </ul>
+  </li>
+  <li>「Sort by name」「Sort by created」ボタンを設定のMenuBarタブに追加しました。</li>
+  <li>設定の追加・更新をしました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.5.0',
               :updated => '2014-12-12',
               :link => 'files/Karabiner-10.5.0.dmg',

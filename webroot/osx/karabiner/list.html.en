@@ -122,18 +122,20 @@
     </div>
 
     <h2>
-      Karabiner-10.5.0 (Total: 2124 items)
+      Karabiner-10.6.0 (Total: 2133 items)
     </h2>
 
 <ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
   (For example: Generic USB keyboard)</li><li>Don't remap non-Apple's pointing devices
   (For example: Generic USB mouse)</li><li>Don't remap keyboards which has third vendor's driver
   (Logitech, Microsoft, Kensington, ...)</li><li>Don't remap pointing devices which has third vendor's driver
-  (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Disable an internal keyboard while external keyboards are connected.
+  (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Disable an internal keyboard while external keyboards are connected.<ul><li>Disable an internal keyboard while external keyboards are connected.
 
   Note for Logitech Unifying Receiver users:
   The receiver is detected as a composite device of keyboard and mouse.
-  So, the receiver always disables an internal keyboard even if you are using only mouse.</li><li>──────────────────────────────</li><li>Don't leave any modes automatically when the machine wakes from sleep.
+  So, the receiver always disables an internal keyboard even if you are using only mouse.
+  If you are not using Unifying keyboard devices, please enable a following option.</li><li>Options<ul><li>Treat Logitech Unifying Receiver as pointing device.</li><li>Ignore devices that do not have valid Vendor ID and Product ID.
+  (Vendor ID == 0x0000 and Product ID == 0x0000)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Don't leave any modes automatically when the machine wakes from sleep.
   (Pass Through Mode, Browsing Mode, etc.)
 
   Karabiner turns off these modes automatically because
@@ -159,16 +161,17 @@
   (Karabiner limits most rapid "Delay Until Repeat" to 200ms for safe.
   This setting allows you unlimited "Delay Until Repeat".)</li><li>──────────────────────────────</li><li>Ignore bouncing (chattering) events.
   (Please adjust threshold in "Key Repeat" tab.)</li><li>──────────────────────────────</li><li>Workaround for keyboards with stuck keys.
-  Enable this seting if you are using external keyboards
+  Enable this setting if you are using external keyboards
   which sometimes keep pressing modifiers. (eg. shift)</li><li>──────────────────────────────</li><li>Allow devices which Vendor ID and Product ID are zero.
   (Be careful enabling this option.
-  These devices might cause system crash with Karabiner.)</li></ul></li><li>Ignore apps &amp; devices<ul><li>──────────────────────────────</li><li>Ignore apps</li><li>Disable all settings while you are using virtual machine.</li><li>Disable all settings while you are using Remote Desktop or VNC.</li><li>──────────────────────────────</li><li>Ignore devices</li><li>Disable all settings on Logitech Cordless Presenter.</li><li>Disable all settings on Magic Mouse.</li><li>──────────────────────────────</li></ul></li><li>Pass Through Mode (Disable all settings temporarily)<ul><li>What is Pass Through Mode?
+  These devices might cause system crash with Karabiner.)</li></ul></li><li>Ignore apps &amp; devices<ul><li>──────────────────────────────</li><li>Ignore apps</li><li>Disable all settings while you are using virtual machine.</li><li>Disable all settings while you are using Remote Desktop or VNC.</li><li>──────────────────────────────</li><li>Ignore devices</li><li>Disable all settings on Logitech Cordless Presenter.</li><li>Disable all settings on Logitech G502 Mouse.</li><li>Disable all settings on Magic Mouse.</li><li>──────────────────────────────</li></ul></li><li>Pass Through Mode (Disable all settings temporarily)<ul><li>What is Pass Through Mode?
   You can disable all settings temporarily.
   Turn on a setting below, and toggle "Pass Through Mode".</li><li>Change Fn+Escape to toggle "Pass Through Mode"</li><li>Simultaneous Key Presses [Escape+Tab] to toggle "Pass Through Mode"</li><li>Holding Escape to toggle "Pass Through Mode"</li></ul></li><li>Pointing Device<ul><li>Reverse scrolling direction<ul><li>Important:
   Items are exclusive. Choose one item.</li><li>Reverse Vertical &amp; Horizontal Scrolling</li><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li></ul></li><li>CursorMove to ScrollWheel<ul><li>We can scroll pages by moving the mouse pointer.
   (Also, you can generate a click event if you click without moving)</li><li>RightClick+CursorMove to ScrollWheel</li><li>MiddleClick+CursorMove to ScrollWheel</li><li>MouseButton4+CursorMove to ScrollWheel</li><li>MouseButton5+CursorMove to ScrollWheel</li><li>Control+RightClick+CursorMove to ScrollWheel</li><li>Shift+RightClick+CursorMove to ScrollWheel</li><li>Command+Control+CursorMove to ScrollWheel</li><li>Command+CursorMove to ScrollWheel</li><li>Fn+CursorMove to ScrollWheel</li><li>Option+CursorMove to ScrollWheel</li><li>(Simultaneous) LeftClick+RightClick+CursorMove to ScrollWheel</li><li>Space+CursorMove to ScrollWheel</li><li>CursorMove to ScrollWheel Option<ul><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li><li>Enable dynamic scrollwheel direction fixation (Horizontal/Vertical)</li><li>Disable Horizontal Scroll</li><li>Disable Vertical Scroll</li><li>Disable Momentum Scroll</li></ul></li></ul></li><li>Button to Button<ul><li>Command+LeftClick to Mouse Button 4</li><li>Control+LeftClick to LeftClick</li><li>Control+LeftClick to MiddleClick</li><li>Fn+LeftClick to MiddleClick</li><li>Fn+LeftClick to Option_L+LeftClick</li><li>Option+LeftClick to MiddleClick</li><li>RightClick to LeftClick</li><li>Control+RightClick to Double-LeftClick</li><li>Fn+RightClick to Mouse Button 5</li><li>MiddleClick to Command+LeftClick</li><li>MouseButton4 to MiddleClick
   (+ MouseButton4+CursorMove to ScrollWheel)</li><li>MouseButton4 to Back (command-[)
-  (+ MouseButton4+CursorMove to ScrollWheel)</li><li>(Simultaneous) LeftClick+RightClick to MiddleClick</li><li>(Simultaneous) LeftClick+RightClick to Button4</li><li>(Simultaneous) LeftClick+RightClick to Button5</li></ul></li><li>Button to Key<ul><li>MiddleClick to Dashboard</li><li>MiddleClick to Expose</li><li>MiddleClick to F8</li><li>MiddleClick to Control+F4 (= Move focus to active or next window)</li><li>Use Button4 and Button5 as Back/Forward<ul><li>Set 1: Button4 to Command+[ (Back)</li><li>Set 1: Button5 to Command+] (Forward)</li><li>Set 2: Button4 to Command+] (Forward)</li><li>Set 2: Button5 to Command+[ (Back)</li></ul></li><li>Open Mission Control when you press and hold the right button for 500 milliseconds.</li><li>(Simultaneous) LeftClick+RightClick to Dashboard</li><li>(Simultaneous) LeftClick+RightClick to Expose</li><li>(Simultaneous) LeftClick+RightClick to F8</li></ul></li><li>Change ScrollWheel<ul><li>Fn+ScrollWheel to Brightness Control
+  (+ MouseButton4+CursorMove to ScrollWheel)</li><li>Middle to Back (command-[)
+  (+ Middle+CursorMove to ScrollWheel)</li><li>(Simultaneous) LeftClick+RightClick to MiddleClick</li><li>(Simultaneous) LeftClick+RightClick to Button4</li><li>(Simultaneous) LeftClick+RightClick to Button5</li></ul></li><li>Button to Key<ul><li>MiddleClick to Dashboard</li><li>MiddleClick to Expose</li><li>MiddleClick to F8</li><li>MiddleClick to Control+F4 (= Move focus to active or next window)</li><li>Use Button4 and Button5 as Back/Forward<ul><li>Set 1: Button4 to Command+[ (Back)</li><li>Set 1: Button5 to Command+] (Forward)</li><li>Set 2: Button4 to Command+] (Forward)</li><li>Set 2: Button5 to Command+[ (Back)</li></ul></li><li>Open Mission Control when you press and hold the right button for 500 milliseconds.</li><li>(Simultaneous) LeftClick+RightClick to Dashboard</li><li>(Simultaneous) LeftClick+RightClick to Expose</li><li>(Simultaneous) LeftClick+RightClick to F8</li></ul></li><li>Change ScrollWheel<ul><li>Fn+ScrollWheel to Brightness Control
   (Fn+ScrollWheel Up to Brightness Up
   (Fn+ScrollWheel Down to Brightness Down</li></ul></li><li>Change Modifiers on ScrollWheel<ul><li>Change Control+ScrollWheel to Command+ScrollWheel</li><li>Change Command+ScrollWheel to Control+ScrollWheel</li><li>Strip Modifiers<ul><li>Command+ScrollWheel to ScrollWheel (strip Command)</li><li>Control+ScrollWheel to ScrollWheel (strip Control)</li><li>Option+ScrollWheel to ScrollWheel (strip Option)</li><li>Shift+ScrollWheel to ScrollWheel (strip Shift)</li><li>Strip any modifiers from ScrollWheel</li></ul></li></ul></li><li>Change CursorMove to Key<ul><li>Change fn+CursorMove to PageUp/PageDown/Home/End</li><li>Change fn+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Change Arrow(Up/Down/Left/Right) Key<ul><li>Arrow(Down/Left/Right) to Command_L
   Disable Up-Arrow</li><li>Arrow(Down/Left/Right) to Fn
@@ -647,7 +650,9 @@
   (You need to enable command-backquote (⌘`) shortcut from System Preferences.)</li><li>Change "right option key + bracket keys" to "move focus to previous/next tab in application".
   (Change right option key + bracket keys to command-{})</li><li>──────────────────────────────</li><li>Toggle Bluetooth by fn-b</li><li>Toggle Wi-Fi by fn-w</li><li>──────────────────────────────</li><li>Move mouse cursor to the center of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li><li>By button4 on mouse.</li><li>By button5 on mouse.</li></ul></li><li>Move mouse cursor to top-left side of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li></ul></li><li>──────────────────────────────</li><li>Switch current setting profile by fn+1,fn+2,fn+3, and fn+4.
   (You can make multiple profiles by MenuBar tab on Preferences.
-  This setting changes current profile by shortcut.)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
+  This setting changes current profile by shortcut.)</li><li>Open Karabiner by fn+K.
+  (+ Reload XML by fn+R.)
+  (+ Open EventViewer by fn+E.)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li><li>Enable Sticky Modifier Keys (with lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li></ul></li><li>Diamond Cursor<ul><li>Control_L+WSAD to Up/Down/Left/Right</li><li>Control_R+WSAD to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>ModifierFlag::EXTRA1+WXSD to Up/Down/Left/Right
   (+ ModifierFlag::EXTRA1+A to Command_L+Left)
@@ -1317,7 +1322,9 @@
   (Fn+Eject to Eject)
   *** We recommend you to use "NoEjectDelay" together when you change eject key.
   *** → https://pqrs.org/osx/karabiner/noejectdelay.html</li><li>Change Enter to Control_L</li><li>Change Fn+Return to Insert</li><li>Change Option_R to Control_R</li><li>Change Ctrl+Q to Alt+F4</li><li>Change Command+Space to Option+Backquote(`)</li><li>Change Command+Space to Option_L+Shift_L</li><li>Disable a tapping feature of the Windows key.
-  (Change command keys to lazy modifiers.)</li><li>Change Command_L Keys
+  (Change command keys to lazy modifiers.)</li><li>Change command keys to lazy command keys.
+  (Prevent unintended windows menu popup if you changed command-letters to
+  control-letters.)</li><li>Change Command_L Keys
   (To support Emacs on Fusion. This allows controlling individual key translations)<ul><li>Change Command_L to Option_L
   (Option_L is translated to Alt_L by Fusion)</li><li>Change Command_L+A to Control+A</li><li>Change Command_L+C to Control+C</li><li>Change Command_L+F to Control+F</li><li>Change Command_L+P to Control+P</li><li>Change Command_L+V to Control+V</li><li>Change Command_L+X to Control+X
   (Leave it unchecked for using left Meta+X in Emacs on Fusion)</li><li>Change Command_L+Z to Control+Z</li></ul></li><li>Change Command_R Keys
@@ -1332,7 +1339,7 @@
   (+ Use Fn+Return as Rename)
   (Change Return to Command+O)
   (Change Fn+Return to Return)</li><li>Use Enter (Fn+Return) as Open
-  (Change Enter to Command+O)</li><li>Use Quote (') to go UP a directory (' to Ctrl+Up)</li><li>Use Semicolon to go Back in history (; to Ctrl+[)</li><li>Use { to select next file (i.e. up arrow key) ({ to Up-Arrow)</li><li>Use } to select previous file (i.e. down arrow key) (} to Down-Arrow)</li><li>Use [ to collapse folder (i.e. left key) ([ to Left-Arrow)</li><li>Use ] to expand folder (i.e. left key) (] to Left-Arrow)</li><li>Cmd+N to new folder | Cmd+Shift+N to new window</li><li>Cmd+R to Rename | Return to Open</li></ul></li><li>Disable Command+D (Duplicate)</li><li>Disable Command+L (Make Alias)</li><li>Disable Command+T (Add To Sidebar)</li></ul></li><li>Enable at only Terminal<ul><li>Swap Command_L with Control_L</li><li>Change Command_L to Option_L</li><li>Change Command_L to Option_L
+  (Change Enter to Command+O)</li><li>Use Quote (') to go UP a directory (' to Ctrl+Up)</li><li>Use Semicolon to go Back in history (; to Ctrl+[)</li><li>Use { to select next file (i.e. up arrow key) ({ to Up-Arrow)</li><li>Use } to select previous file (i.e. down arrow key) (} to Down-Arrow)</li><li>Use [ to collapse folder (i.e. left key) ([ to Left-Arrow)</li><li>Use ] to expand folder (i.e. left key) (] to Left-Arrow)</li><li>Cmd+N to new folder | Cmd+Shift+N to new window</li><li>Cmd+R to Rename | Return to Open</li></ul></li><li>Disable "Duplicate" shortcut. (Command+D)</li><li>Disable "Make Alias" shortcut. (Command+L)</li><li>Disable "Add To Sidebar" shortcut. (Command+Control+T)</li></ul></li><li>Enable at only Terminal<ul><li>Swap Command_L with Control_L</li><li>Change Command_L to Option_L</li><li>Change Command_L to Option_L
   (Pass-Through Tab and Backquote)</li><li>Change Command_L to Option_L
   (Pass-Through Tab, Backquote and Space)</li><li>Change Delete Key<ul><li>Delete to Control_L+H</li><li>Control+Delete to Control_L+H</li><li>Option+Delete to Control_L+H</li><li>Shift+Delete to Control_L+H</li><li>Control+Delete to Delete</li><li>Option+Delete to Delete</li><li>Shift+Delete to Delete</li></ul></li><li>Change Option_L to Command_L</li><li>Change Option_R to Control_R</li><li>Change Slash(/) Key<ul><li>Control+Shift+Slash(/) to Delete</li><li>Control+Slash(/) to Control+Underscore(_)</li></ul></li><li>Command Arrows to line ends in Terminal</li><li>Change Functional Keys to F1...F12
   (For keyboards of F10 == Volume Mute and F4 == DASHBOARD)</li><li>Change Functional Keys to F1...F12 (MacBook late 2013 with Launchpad on F4 key)
@@ -1493,6 +1500,9 @@
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Undo
   (Control+Z to Command_L+Z)
 
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Redo
+  (Control+Y to Command_L+Shift_L+Z)
+
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Select All
   (Control+A to Command_L+A)
 
@@ -1544,7 +1554,7 @@
   (Change Command+Fn to Command+C)
   (Change Shift+Fn to Command+V)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Command+Y sends Command+Shift+Z (Windows-style Redo)
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Command+Y sends Command+Shift+Z (Windows-style Redo command modifier ver.)
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>KeyPad copy and paste for PC Users who swapped Control and Command
   (Command+KeyPad_0 to Command+C)
@@ -1650,7 +1660,9 @@
   If the key is supposed to be typed with the right hand and requires a modifier use
   left shift or left option, vice versa for the left hand.
   With this in mind, option left or option right are used as AltGr.
-  This layout assumes you are using the 'Spanish ISO' input source from OS X.</li></ul></li><li>For Belgian<ul><li>Change KeyPad Comma(,) to Dot(.)</li></ul></li><li>For Bulgarian<ul><li>Change underscore(_) on Japanese keyboard to ч
+  This layout assumes you are using the 'Spanish ISO' input source from OS X.</li></ul></li><li>For Belgian<ul><li>Change KeyPad Comma(,) to Dot(.)</li></ul></li><li>For Bulgarian<ul><li>Bulgarian Phonetic map 'ч' to ±
+  Bulgarian Phonetic map 'ч' from '`' to ±.
+  This is valid when you get used with US layout and then switch to UK</li><li>Change underscore(_) on Japanese keyboard to ч
   (For Bulgarian-Phonetic)</li></ul></li><li>For Canadian<ul><li>Space to Option_L (when Input Source == Canadian)</li><li>Space to Option_L (when Input Source == Canadian)
   (+ When you type Space only, send Space)</li><li>Synchronize the sign of the keyboard and an input letter
   using "U.S. International - PC" as Input Source on Canadian French keyboard.
@@ -2251,7 +2263,24 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Output: Shift, Space, T
   </li><li>Multiple __BlockUntilKeyUp__
   Input:   A down -&gt; S down -&gt; A up -&gt; D down -&gt; S up -&gt; D up:
-  Output: A, S, D</li></ul></li><li>DropKeyAfterRemap<ul><li>Standard
+  Output: A, S, D</li></ul></li><li>KeyDownUpToKey<ul><li>Standard
+  The A key will be changed the space key
+  when you pressed and released the A key without other keys press.
+
+  Input:   A down -&gt; A up:
+  Output:
+  - Space
+
+  Input:   A down -&gt; S down -&gt; A up:
+  Output:
+  - A
+  - S
+
+  Input:   S down -&gt; A down -&gt; S up -&gt; A up:
+  Output:
+  - S
+  - A
+  </li></ul></li><li>DropKeyAfterRemap<ul><li>Standard
   Drop Tab
   Drop Shift+Return
   Change A to Tab (== dropped)
