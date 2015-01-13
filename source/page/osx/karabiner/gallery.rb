@@ -22,6 +22,13 @@ class Gallery < KarabinerBase
         },
       },
       {
+        :href => '#avoid-unintended-command-q',
+        :name_l10n => {
+          :en => 'Avoid unintended Command-Q',
+          :ja => '意図しないCommand-Qを防ぐ',
+        },
+      },
+      {
         :href => '#simple-vi-mode-v2',
         :name_l10n => {
           :en => 'Simple Vi Mode v2',
@@ -33,6 +40,13 @@ class Gallery < KarabinerBase
         :name_l10n => {
           :en => 'Mouse Keys Mode v2',
           :ja => 'Mouse Keys Mode v2',
+        },
+      },
+      {
+        :href => '#operate-finder-by-hjkl-keys',
+        :name_l10n => {
+          :en => 'Operate Finder by hjkl keys',
+          :ja => 'hjklキーでFinderを操作する',
         },
       },
       {

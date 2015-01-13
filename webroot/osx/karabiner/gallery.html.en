@@ -195,6 +195,36 @@
         </div>
       </section>
 
+      <section id="avoid-unintended-command-q">
+        <div class="page-header">
+          <h1>
+              Avoid unintended Command-Q
+          </h1>
+        </div>
+
+        <p>
+            Unintended Command-Q sometimes happens when you want to type Command-W because Command-W and Command-Q keys are too close. <br />
+            This setting requires typing Command-Q twice in order to avoid unintended Command-Q.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
       <section id="simple-vi-mode-v2">
         <div class="page-header">
           <h1>Simple Vi Mode v2</h1>
@@ -211,10 +241,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/gallery/simple_vi_mode_v2.png" alt="Mouse Keys Mode v2" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -242,14 +272,44 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="operate-finder-by-hjkl-keys">
+        <div class="page-header">
+          <h1>
+              Operate Finder by hjkl keys
+          </h1>
+        </div>
+
+        <p>
+            This setting allows you to operate Finder by hjkl keys. <br />
+            Unlike other Vi Mode, you don't need to press modifier keys.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/gallery/operate_finder_by_hjkl_keys.png" alt="Use hjkl keys as arrow keys if you are not editing text." />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/operate_finder_by_hjkl_keys.png" alt="Use hjkl keys as arrow keys if you are not editing text." />
       </div>
     </div>
   </div>
@@ -271,10 +331,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -291,10 +351,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -321,6 +381,11 @@
                 </a>
               </li>
               <li>
+                <a href="#avoid-unintended-command-q">
+                  Avoid unintended Command-Q
+                </a>
+              </li>
+              <li>
                 <a href="#simple-vi-mode-v2">
                   Simple Vi Mode v2
                 </a>
@@ -328,6 +393,11 @@
               <li>
                 <a href="#mouse-keys-mode-v2">
                   Mouse Keys Mode v2
+                </a>
+              </li>
+              <li>
+                <a href="#operate-finder-by-hjkl-keys">
+                  Operate Finder by hjkl keys
                 </a>
               </li>
               <li>
