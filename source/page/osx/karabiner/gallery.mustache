@@ -233,6 +233,111 @@
         </div>
       </section>
 
+      <section id="launcher-mode-v2">
+        <div class="page-header">
+          <h1>Launcher Mode v2</h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            You can switch apps directly by Launcher Mode v2. <br />
+            It's more efficient than command-tab. You don't have to choose apps from list.
+          {{/language_en}}
+          {{#language_ja}}
+            Launcher Mode v2ではアプリを直接切り替えることができます。<br />
+            これはcommand-tabによりも効率的です。一覧からアプリを選択する必要がありません。
+          {{/language_ja}}
+        </p>
+
+        <p>
+          {{#language_en}}
+            For example: <br/>
+            If you want to open Mail, type M key while pressing O key. <br />
+            If you want to open Safari, type S key while pressing O key. <br />
+            Thus, you can open apps by type key while pressing O key.
+          {{/language_en}}
+          {{#language_ja}}
+            例えば、メールを開く場合はOキーを押しながらMキーを押します。<br />
+            Safariを開く場合はOキーを押しながらSキーを押します。<br />
+            このように、Oキーを押しながらキーを押すことでアプリを開くことができます。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/gallery/launcher_mode_v2.png Launcher Mode v2
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          {{#language_en}}
+            And you can modify Launcher Mode v2 by private.xml. <br />
+            For example, this private.xml adds following shortcuts.
+          {{/language_en}}
+          {{#language_ja}}
+            そしてprivate.xmlでLauncher Mode v2を拡張することができます。 <br />
+            例えば、以下のprivate.xmlで以下のショートカットが追加されます。
+          {{/language_ja}}
+        </p>
+        <ul>
+          <li>
+            {{#language_en}}
+              Open Maps by C key while pressing O key.
+            {{/language_en}}
+            {{#language_ja}}
+              Oキーを押しながらCキーを押すとマップを開く。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Open FaceTime by V key while pressing O key.
+            {{/language_en}}
+            {{#language_ja}}
+              Oキーを押しながらVキーを押すとFaceTimeを開く。
+            {{/language_ja}}
+          </li>
+        </ul>
+
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_APP_Maps</name>
+          |    <url type="file">/Applications/Maps.app</url>
+          |  </vkopenurldef>
+          |
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_APP_FaceTime</name>
+          |    <url type="file">/Applications/FaceTime.app</url>
+          |  </vkopenurldef>
+          |
+          |  <replacementdef>
+          |    <replacementname>LAUNCHER_MODE_V2_EXTRA</replacementname>
+          |    <replacementvalue>
+          |      <![CDATA[
+          |        <autogen>
+          |          __KeyDownUpToKey__
+          |          KeyCode::C, ModifierFlag::NONE,
+          |          KeyCode::VK_OPEN_URL_APP_Maps,
+          |        </autogen>
+          |
+          |        <autogen>
+          |          __KeyDownUpToKey__
+          |          KeyCode::V, ModifierFlag::NONE,
+          |          KeyCode::VK_OPEN_URL_APP_FaceTime,
+          |        </autogen>
+          |      ]]>
+          |    </replacementvalue>
+          |  </replacementdef>
+          |
+          |</root>
+        {{/indented_xml}}
+
+      </section>
+
       <section id="ignore-bouncing">
         <div class="page-header">
           <h1>

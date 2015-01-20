@@ -50,6 +50,13 @@ class Gallery < KarabinerBase
         },
       },
       {
+        :href => '#launcher-mode-v2',
+        :name_l10n => {
+          :en => 'Launcher Mode v2',
+          :ja => 'Launcher Mode v2',
+        },
+      },
+      {
         :href => '#ignore-bouncing',
         :name_l10n => {
           :en => 'Ignore bouncing (chattering) events',

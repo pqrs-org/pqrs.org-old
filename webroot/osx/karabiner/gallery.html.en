@@ -318,6 +318,88 @@
         </div>
       </section>
 
+      <section id="launcher-mode-v2">
+        <div class="page-header">
+          <h1>Launcher Mode v2</h1>
+        </div>
+
+        <p>
+            You can switch apps directly by Launcher Mode v2. <br />
+            It's more efficient than command-tab. You don't have to choose apps from list.
+        </p>
+
+        <p>
+            For example: <br/>
+            If you want to open Mail, type M key while pressing O key. <br />
+            If you want to open Safari, type S key while pressing O key. <br />
+            Thus, you can open apps by type key while pressing O key.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <p>
+            And you can modify Launcher Mode v2 by private.xml. <br />
+            For example, this private.xml adds following shortcuts.
+        </p>
+        <ul>
+          <li>
+              Open Maps by C key while pressing O key.
+          </li>
+          <li>
+              Open FaceTime by V key while pressing O key.
+          </li>
+        </ul>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;vkopenurldef&gt;
+    &lt;name&gt;KeyCode::VK_OPEN_URL_APP_Maps&lt;/name&gt;
+    &lt;url type="file"&gt;/Applications/Maps.app&lt;/url&gt;
+  &lt;/vkopenurldef&gt;
+
+  &lt;vkopenurldef&gt;
+    &lt;name&gt;KeyCode::VK_OPEN_URL_APP_FaceTime&lt;/name&gt;
+    &lt;url type="file"&gt;/Applications/FaceTime.app&lt;/url&gt;
+  &lt;/vkopenurldef&gt;
+
+  &lt;replacementdef&gt;
+    &lt;replacementname&gt;LAUNCHER_MODE_V2_EXTRA&lt;/replacementname&gt;
+    &lt;replacementvalue&gt;
+      &lt;![CDATA[
+        &lt;autogen&gt;
+          __KeyDownUpToKey__
+          KeyCode::C, ModifierFlag::NONE,
+          KeyCode::VK_OPEN_URL_APP_Maps,
+        &lt;/autogen&gt;
+
+        &lt;autogen&gt;
+          __KeyDownUpToKey__
+          KeyCode::V, ModifierFlag::NONE,
+          KeyCode::VK_OPEN_URL_APP_FaceTime,
+        &lt;/autogen&gt;
+      ]]&gt;
+    &lt;/replacementvalue&gt;
+  &lt;/replacementdef&gt;
+
+&lt;/root&gt;</pre>
+      </section>
+
       <section id="ignore-bouncing">
         <div class="page-header">
           <h1>
@@ -331,10 +413,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -351,10 +433,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -398,6 +480,11 @@
               <li>
                 <a href="#operate-finder-by-hjkl-keys">
                   Operate Finder by hjkl keys
+                </a>
+              </li>
+              <li>
+                <a href="#launcher-mode-v2">
+                  Launcher Mode v2
                 </a>
               </li>
               <li>
