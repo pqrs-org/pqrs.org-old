@@ -7,24 +7,25 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.2</title>
+      <title>Version 10.6.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.2 Update</h2>
+<h2>About v10.6.3 Update</h2>
 <ul>
+  <li>v10.6.3: __HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
   <li>v10.6.2: Prepared settings have been updated.</li>
   <li>v10.6.1: Prepared settings have been updated.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 21 Jan 2015 06:26:36 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.2.dmg"
-                 sparkle:version="10.6.2" length="3740501" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFF+5MH3WW07+VBfE5F9n31l6qWG4AhR8qgrsDIzaRKUmbVusOoWQOTNMLA=="
+      <pubDate>Sun, 25 Jan 2015 14:36:29 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.3.dmg"
+                 sparkle:version="10.6.3" length="3739868" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFpCt8j20ezDZ+q87em+BLX5OsPqAhRDCU2h9/TqQRsiqi+xU8xBwPDn4A=="
                  />
     </item>
 
