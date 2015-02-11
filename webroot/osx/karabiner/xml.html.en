@@ -521,7 +521,7 @@
 
         <p>
           Put filters into <code>&lt;item&gt;</code>.
-          If plural filters are specified, &lt;autogen&gt; will be effective if all conditions are true.
+          If plural filters are specified, <code>&lt;autogen&gt;</code> will be effective if all conditions are true.
         </p>
 
 <pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
@@ -542,7 +542,38 @@
     &lt;autogen&gt;__KeyToKey__ KeyCode::TAB, KeyCode::SPACE&lt;/autogen&gt;
   &lt;/item&gt;
 &lt;/root&gt;</pre>
-      </section>
+        <h2>Narrow filters</h2>
+
+        <p>
+          Filters are applied to all <code>&lt;autogen&gt;</code> that are same level nodes or children nodes. <br />
+          If you want to narrow filters, please use <code>&lt;block&gt;</code>.
+        </p>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;item&gt;
+    &lt;name&gt;Change numeric keys to keypad.&lt;/name&gt;
+    &lt;appendix&gt;+ Change space key to left click in Safari.&lt;/appendix&gt;
+    &lt;identifier&gt;private.filter_block_example&lt;/identifier&gt;
+
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_0, KeyCode::KEYPAD_0&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_1, KeyCode::KEYPAD_1&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_2, KeyCode::KEYPAD_2&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_3, KeyCode::KEYPAD_3&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_4, KeyCode::KEYPAD_4&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_5, KeyCode::KEYPAD_5&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_6, KeyCode::KEYPAD_6&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_7, KeyCode::KEYPAD_7&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_8, KeyCode::KEYPAD_8&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::KEY_9, KeyCode::KEYPAD_9&lt;/autogen&gt;
+
+    &lt;block&gt;
+      &lt;!-- This filter will not be applied to parent autogens. --&gt;
+      &lt;only&gt;SAFARI&lt;/only&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::SPACE, PointingButton::LEFT&lt;/autogen&gt;
+    &lt;/block&gt;
+  &lt;/item&gt;
+&lt;/root&gt;</pre>      </section>
 
       <section id="appdef">
         <div class="page-header">
