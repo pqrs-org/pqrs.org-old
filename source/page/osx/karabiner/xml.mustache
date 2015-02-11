@@ -380,9 +380,66 @@
         </table>
       </section>
 
+      <section id="filter-overview">
+        <div class="page-header">
+          <h1>Filter: Overview</h1>
+        </div>
+        <p>
+          You can define settings which are effective in specific conditions. <br />
+          For example:
+        </p>
+        <ul>
+          <li>Change keys in some apps.</li>
+          <li>Change keys in some devices.</li>
+          <li>Change keys in some input sources.</li>
+          <li>Change keys if specified configuration is enabled.</li>
+        </ul>
+
+        <p>
+          You can see examples of filter in <a href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
+          (You can try them by searching "developer filters" in Preferences.)
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/filter-examples.png filter-examples
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <h2>Basic usage</h2>
+
+        <p>
+          Put filters into <code>&lt;item&gt;</code>.
+          If plural filters are specified, &lt;autogen&gt; will be effective if all conditions are true.
+        </p>
+
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <item>
+          |    <name>Swap space key and tab key</name>
+          |    <identifier>private.filters_example</identifier>
+          |
+          |    <!--
+          |      Swap keys in Safari, Firefox or Google Chrome if you are using Apple keyboards.
+          |    -->
+          |
+          |    <only>SAFARI, FIREFOX, GOOGLE_CHROME</only>
+          |
+          |    <device_only>DeviceVendor::APPLE_COMPUTER, DeviceProduct::ANY</device_only>
+          |
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+      </section>
+
       <section id="appdef">
         <div class="page-header">
-          <h1>Specify application</h1>
+          <h1>Filter: Specify application</h1>
         </div>
 
         <h2>An example</h2>
@@ -516,7 +573,7 @@
 
       <section id="windownamedef">
         <div class="page-header">
-          <h1>Specify window name (window title)</h1>
+          <h1>Filter: Specify window name (window title)</h1>
         </div>
 
         <h2>An example</h2>
@@ -643,7 +700,7 @@
 
       <section id="uielementroledef">
         <div class="page-header">
-          <h1>Specify ui element role</h1>
+          <h1>Filter: Specify ui element role</h1>
         </div>
 
         <h2>An example</h2>
@@ -706,7 +763,7 @@
 
       <section id="devicedef">
         <div class="page-header">
-          <h1>Specify device</h1>
+          <h1>Filter: Specify device</h1>
         </div>
 
         <p>

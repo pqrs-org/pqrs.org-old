@@ -16,6 +16,12 @@ class Xml < KarabinerBase
   def tabs_definition
     [
      {
+       :name_l10n => {
+         :en => 'examples',
+         :ja => 'examples',
+       }
+     },
+     {
        :href => '#examples',
        :name_l10n => {
          :en => 'examples',
@@ -23,10 +29,36 @@ class Xml < KarabinerBase
        },
      },
      {
+       :href => '#autogen-examples',
+       :name_l10n => {
+         :en => 'existing settings',
+         :ja => 'existing settings',
+       },
+     },
+     {
+       :name_l10n => {
+         :en => 'basic',
+         :ja => 'basic',
+       }
+     },
+     {
        :href => '#basic-syntax',
        :name_l10n => {
          :en => 'basic syntax',
          :ja => 'basic syntax',
+       }
+     },
+     {
+       :name_l10n => {
+         :en => 'filters',
+         :ja => 'filters',
+       }
+     },
+     {
+       :href => '#filter-overview',
+       :name_l10n => {
+         :en => 'overview',
+         :ja => 'overview',
        }
      },
      {
@@ -58,6 +90,12 @@ class Xml < KarabinerBase
        }
      },
      {
+       :name_l10n => {
+         :en => 'special key code',
+         :ja => 'special key code',
+       }
+     },
+     {
        :href => '#inputsourcedef',
        :name_l10n => {
          :en => 'input source',
@@ -69,6 +107,12 @@ class Xml < KarabinerBase
        :name_l10n => {
          :en => 'launch app / open url / execute shell commands',
          :ja => 'launch app / open url / execute shell commands',
+       }
+     },
+     {
+       :name_l10n => {
+         :en => 'advanced features',
+         :ja => 'advanced features',
        }
      },
      {

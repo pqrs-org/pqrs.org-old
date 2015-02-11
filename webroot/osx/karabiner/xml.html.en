@@ -481,9 +481,72 @@
         </table>
       </section>
 
+      <section id="filter-overview">
+        <div class="page-header">
+          <h1>Filter: Overview</h1>
+        </div>
+        <p>
+          You can define settings which are effective in specific conditions. <br />
+          For example:
+        </p>
+        <ul>
+          <li>Change keys in some apps.</li>
+          <li>Change keys in some devices.</li>
+          <li>Change keys in some input sources.</li>
+          <li>Change keys if specified configuration is enabled.</li>
+        </ul>
+
+        <p>
+          You can see examples of filter in <a href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
+          (You can try them by searching "developer filters" in Preferences.)
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/filter-examples.png" alt="filter-examples" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/filter-examples.png" alt="filter-examples" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <h2>Basic usage</h2>
+
+        <p>
+          Put filters into <code>&lt;item&gt;</code>.
+          If plural filters are specified, &lt;autogen&gt; will be effective if all conditions are true.
+        </p>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;item&gt;
+    &lt;name&gt;Swap space key and tab key&lt;/name&gt;
+    &lt;identifier&gt;private.filters_example&lt;/identifier&gt;
+
+    &lt;!--
+      Swap keys in Safari, Firefox or Google Chrome if you are using Apple keyboards.
+    --&gt;
+
+    &lt;only&gt;SAFARI, FIREFOX, GOOGLE_CHROME&lt;/only&gt;
+
+    &lt;device_only&gt;DeviceVendor::APPLE_COMPUTER, DeviceProduct::ANY&lt;/device_only&gt;
+
+    &lt;autogen&gt;__KeyToKey__ KeyCode::SPACE, KeyCode::TAB&lt;/autogen&gt;
+    &lt;autogen&gt;__KeyToKey__ KeyCode::TAB, KeyCode::SPACE&lt;/autogen&gt;
+  &lt;/item&gt;
+&lt;/root&gt;</pre>
+      </section>
+
       <section id="appdef">
         <div class="page-header">
-          <h1>Specify application</h1>
+          <h1>Filter: Specify application</h1>
         </div>
 
         <h2>An example</h2>
@@ -514,10 +577,10 @@
             Launch EventViewer from a menu.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 407px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -543,10 +606,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -623,7 +686,7 @@
 
       <section id="windownamedef">
         <div class="page-header">
-          <h1>Specify window name (window title)</h1>
+          <h1>Filter: Specify window name (window title)</h1>
         </div>
 
         <h2>An example</h2>
@@ -658,10 +721,10 @@
             Launch EventViewer from a menu.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 407px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -690,10 +753,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -759,7 +822,7 @@
 
       <section id="uielementroledef">
         <div class="page-header">
-          <h1>Specify ui element role</h1>
+          <h1>Filter: Specify ui element role</h1>
         </div>
 
         <h2>An example</h2>
@@ -801,10 +864,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -828,7 +891,7 @@
 
       <section id="devicedef">
         <div class="page-header">
-          <h1>Specify device</h1>
+          <h1>Filter: Specify device</h1>
         </div>
 
         <p>
@@ -856,10 +919,10 @@
             Launch EventViewer from a menu.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 407px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -883,10 +946,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/eventviewer-devices.png" alt="eventviewer-devices" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1022,10 +1085,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
   <img src="img/eventviewer-locationid.png" alt="Location ID" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1220,10 +1283,10 @@
         </ol>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
   <img src="img/eventviewer-inputsource.png" alt="Event Viewer" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
+<div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1737,10 +1800,10 @@ src="img/lock-indicator.png" width="301" height="80"          />
             Then, reload XML files by "ReloadXML" button on Preference.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
   <img src="img/reload_xml.png" alt="ReloadXML" />
 </a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
+<div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1760,14 +1823,27 @@ src="img/lock-indicator.png" width="301" height="80"          />
     <div class="col-md-3">
       <div class="bs-docs-sidebar" id="bs-docs-sidebar">
         <ul class="nav bs-sidenav">
+              <li class="nav-header">examples</li>
               <li>
                 <a href="#examples">
                   examples
                 </a>
               </li>
               <li>
+                <a href="#autogen-examples">
+                  existing settings
+                </a>
+              </li>
+              <li class="nav-header">basic</li>
+              <li>
                 <a href="#basic-syntax">
                   basic syntax
+                </a>
+              </li>
+              <li class="nav-header">filters</li>
+              <li>
+                <a href="#filter-overview">
+                  overview
                 </a>
               </li>
               <li>
@@ -1790,6 +1866,7 @@ src="img/lock-indicator.png" width="301" height="80"          />
                   specify device
                 </a>
               </li>
+              <li class="nav-header">special key code</li>
               <li>
                 <a href="#inputsourcedef">
                   input source
@@ -1800,6 +1877,7 @@ src="img/lock-indicator.png" width="301" height="80"          />
                   launch app / open url / execute shell commands
                 </a>
               </li>
+              <li class="nav-header">advanced features</li>
               <li>
                 <a href="#include">
                   include external XML
