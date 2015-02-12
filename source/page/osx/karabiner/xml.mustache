@@ -483,7 +483,7 @@
           Add <code>&lt;only&gt;</code> or <code>&lt;not&gt;</code> to your <code>&lt;item&gt;</code>.
         </p>
         <p>
-          This private.xml exchanges space key and tab key in Safari.
+          This private.xml exchanges space key and tab key in Safari and Google Chrome.
         </p>
         {{#indented_xml}}
           |<?xml version="1.0"?>
@@ -491,7 +491,9 @@
           |  <item>
           |    <name>Swap Space and Tab</name>
           |    <identifier>private.app_safari_swap_space_and_tab</identifier>
-          |    <only>SAFARI</only>
+          |
+          |    <only>SAFARI, GOOGLE_CHROME</only>
+          |
           |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
           |    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
           |  </item>
@@ -626,7 +628,9 @@
           |    <name>Disable command-w in Gmail on Google Chrome.</name>
           |    <identifier>private.windowname_google_chrome_gmail_disable_close</identifier>
           |    <only>GOOGLE_CHROME</only>
+          |
           |    <windowname_only>Gmail</windowname_only>
+          |
           |    <autogen>
           |      __KeyToKey__
           |      KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND | ModifierFlag::NONE,
@@ -814,7 +818,9 @@
           |  <item>
           |    <name>Disable ScrollWheel on Magic Mouse</name>
           |    <identifier>private.dropscrollwheel_0x05ac_0x030d</identifier>
+          |
           |    <device_only>DeviceVendor::APPLE_COMPUTER,DeviceProduct::MAGIC_MOUSE</device_only>
+          |
           |    <autogen>__DropScrollWheel__</autogen>
           |  </item>
           |</root>
@@ -1030,77 +1036,15 @@
 
       <section id="inputsourcedef">
         <div class="page-header">
-          <h1>Input source</h1>
+          <h1>Filter: Specify input source</h1>
         </div>
 
-        <h2>Functions</h2>
+        <h2>An example</h2>
         <p>
-          There are two functions related with input source.
-        </p>
-        <ul>
-          <li><a href="#vkchangeinputsourcedef">Change input source by virtual key code.</a></li>
-          <li><a href="#inputsourceonly">You can define settings which are effective on specific input source only.</a></li>
-        </ul>
-
-        <h2 id="vkchangeinputsourcedef">Change input source by virtual key code.</h2>
-
-        <h3>An example</h3>
-        <p>
-          This private.xml changes input source to Dvorak by <span class="label label-default">Right Shift Key + D</span>.
-        </p>
-        {{#indented_xml}}
-          |<?xml version="1.0"?>
-          |<root>
-          |  <vkchangeinputsourcedef>
-          |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK</name>
-          |    <inputsourceid_equal>com.apple.keylayout.Dvorak</inputsourceid_equal>
-          |  </vkchangeinputsourcedef>
-          |
-          |  <item>
-          |    <name>Change input source to Dvorak by right shift key + D</name>
-          |    <identifier>private.change_input_source_to_dvorak</identifier>
-          |    <autogen>
-          |      __KeyToKey__
-          |      KeyCode::D, ModifierFlag::SHIFT_R,
-          |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
-          |    </autogen>
-          |  </item>
-          |</root>
-        {{/indented_xml}}
-
-        <h3>Virtual key code definition</h3>
-        <p>
-          You can define new virtual key code by <code>&lt;vkchangeinputsourcedef&gt;</code>.
-        </p>
-        <ul>
-          <li>
-            <p>
-              <code>&lt;name&gt;</code> is a name of virtual key code.
-              This name must be started with <code>KeyCode::VK_CHANGE_INPUTSOURCE_</code>.
-              <br />
-              For example, <code>&lt;name&gt;KeyCode::VK_CHANGE_INPUTSOURCE_YOUR_LANGUAGE&lt;/name&gt;</code>.
-            </p>
-          </li>
-          <li>
-            <p>
-              <code>&lt;inputsourceid_equal&gt;</code> is a input source id of target input source.
-              <br />
-              <a href="#inputsourceid">How to examine input source id.</a>
-            </p>
-          </li>
-        </ul>
-
-        <h3>Prepared virtual key code definitions</h3>
-        <p>
-          Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
+          You can define settings which are effective in specific input source only.
           <br />
-          You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
+          Add <code>&lt;inputsource_only&gt;</code> or <code>&lt;inputsource_not&gt;</code> to your <code>&lt;item&gt;</code>.
         </p>
-
-        <h2 id="inputsourceonly">Settings which are effective on specific input source only.</h2>
-
-        <h3>An example</h3>
         <p>
           This private.xml exchanges space key and tab key on Dvorak.
         </p>
@@ -1122,7 +1066,7 @@
           |</root>
         {{/indented_xml}}
 
-        <h3>Steps</h3>
+        <h2>Steps</h2>
         <ol class="steps">
           <li>
             <p>
@@ -1169,7 +1113,7 @@
           </li>
         </ol>
 
-        <h3>Prepared input source definitions</h3>
+        <h2>Prepared input source definitions</h2>
         <p>
           Karabiner provides <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
           <br />
@@ -1308,6 +1252,66 @@
           <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/vkopenurldef.xml">various virtual key code definitions</a>.
           <br />
           You can use them without <code>&lt;vkopenurldef&gt;</code> in private.xml.
+        </p>
+      </section>
+
+      <section id="vkchangeinputsourcedef">
+        <div class="page-header">
+          <h1>Change input source by virtual key code.</h1>
+        </div>
+
+        <h2>An example</h2>
+        <p>
+          This private.xml changes input source to Dvorak by <span class="label label-default">Right Shift Key + D</span>.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <vkchangeinputsourcedef>
+          |    <name>KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK</name>
+          |    <inputsourceid_equal>com.apple.keylayout.Dvorak</inputsourceid_equal>
+          |  </vkchangeinputsourcedef>
+          |
+          |  <item>
+          |    <name>Change input source to Dvorak by right shift key + D</name>
+          |    <identifier>private.change_input_source_to_dvorak</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::D, ModifierFlag::SHIFT_R,
+          |      KeyCode::VK_CHANGE_INPUTSOURCE_MY_DVORAK
+          |    </autogen>
+          |  </item>
+          |</root>
+        {{/indented_xml}}
+
+        <h2>Virtual key code definition</h2>
+        <p>
+          You can define new virtual key code by <code>&lt;vkchangeinputsourcedef&gt;</code>.
+        </p>
+        <ul>
+          <li>
+            <p>
+              <code>&lt;name&gt;</code> is a name of virtual key code.
+              This name must be started with <code>KeyCode::VK_CHANGE_INPUTSOURCE_</code>.
+              <br />
+              For example, <code>&lt;name&gt;KeyCode::VK_CHANGE_INPUTSOURCE_YOUR_LANGUAGE&lt;/name&gt;</code>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <code>&lt;inputsourceid_equal&gt;</code> is a input source id of target input source.
+              <br />
+              <a href="#inputsourceid">How to examine input source id.</a>
+            </p>
+          </li>
+        </ul>
+
+        <h3>Prepared virtual key code definitions</h3>
+        <p>
+          Karabiner provides
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
+          <br />
+          You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
         </p>
       </section>
 

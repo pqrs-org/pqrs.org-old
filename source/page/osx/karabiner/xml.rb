@@ -90,16 +90,16 @@ class Xml < KarabinerBase
        }
      },
      {
+       :href => '#inputsourcedef',
        :name_l10n => {
-         :en => 'special key code',
-         :ja => 'special key code',
+         :en => 'specify input source',
+         :ja => 'specify input source',
        }
      },
      {
-       :href => '#inputsourcedef',
        :name_l10n => {
-         :en => 'input source',
-         :ja => 'input source',
+         :en => 'special key code',
+         :ja => 'special key code',
        }
      },
      {
@@ -107,6 +107,13 @@ class Xml < KarabinerBase
        :name_l10n => {
          :en => 'launch app / open url / execute shell commands',
          :ja => 'launch app / open url / execute shell commands',
+       }
+     },
+     {
+       :href => '#vkchangeinputsourcedef',
+       :name_l10n => {
+         :en => 'change input source',
+         :ja => 'change input source',
        }
      },
      {
