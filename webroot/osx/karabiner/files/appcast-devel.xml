@@ -7,14 +7,21 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.4</title>
+      <title>Version 10.6.6</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.4 Update</h2>
+<h2>About v10.6.6 Update</h2>
 <ul>
+  <li>v10.6.6: Prepared settings have been updated.</li>
+  <li>
+    v10.6.5: Fixed issue:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Screencast-O-Matic)</li>
+    </ul>
+  </li>
   <li>v10.6.4: Prepared settings have been updated.</li>
   <li>v10.6.3: __HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
   <li>v10.6.2: Prepared settings have been updated.</li>
@@ -23,10 +30,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Thu, 05 Feb 2015 03:03:25 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.4.dmg"
-                 sparkle:version="10.6.4" length="3739986" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCAQm2xOdCVFygNmTx0Weu09C+6+QIUIeao3is6fT/nmndQnBE9ShZZC7U="
+      <pubDate>Thu, 12 Feb 2015 02:48:12 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.6.dmg"
+                 sparkle:version="10.6.6" length="3740535" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCCq0iW1r8ODRNK7S4b1dpJ8p03EwIUNn07DbHvWOUYZwlM1RcCoI5dMR0="
                  />
     </item>
 
