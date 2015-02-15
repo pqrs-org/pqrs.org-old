@@ -497,7 +497,7 @@
         </ul>
 
         <p>
-          You can see examples of filter in <a href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
+          You can see all filters and examples in <a href="https://github.com/tekezo/Karabiner/blob/version_10.6.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
           (You can try them by searching "developer filters" in Preferences.)
         </p>
         <div class="row">
