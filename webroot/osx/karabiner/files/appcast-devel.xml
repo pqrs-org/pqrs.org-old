@@ -7,14 +7,21 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.8</title>
+      <title>Version 10.6.9</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.8 Update</h2>
+<h2>About v10.6.9 Update</h2>
 <ul>
+  <li>
+    v10.6.9: The following filters have been added.
+    <ul>
+      <li>&lt;pressingphysicalkeys_greaterthan&gt;</li>
+      <li>&lt;pressingphysicalkeys_lessthan&gt;</li>
+    </ul>
+  </li>
   <li>v10.6.8: A command line tool has been added: post-hid-event.</li>
   <li>v10.6.7: Prepared settings have been updated.</li>
   <li>v10.6.6: Prepared settings have been updated.</li>
@@ -32,10 +39,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sat, 14 Feb 2015 07:53:36 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.8.dmg"
-                 sparkle:version="10.6.8" length="3744175" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEonv0aMpqOJZ3oDTMX36iPa8ZXNAhQrY62DuiNj280N+PX1nrvNYJgUhg=="
+      <pubDate>Sun, 15 Feb 2015 14:19:22 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.9.dmg"
+                 sparkle:version="10.6.9" length="3740538" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHJ/z9xMjXznPmIOgHYJfNdPLzhFAhRN2JKWWXf7htk/Hiy3E4cbPKuAbg=="
                  />
     </item>
 
