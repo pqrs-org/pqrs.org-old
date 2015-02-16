@@ -694,17 +694,17 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
             </div>
           </li>
           <li>
-              Press "ReloadXML" button on "Change Key" tab.
+              Press "Reload XML" button on "Change Key" tab.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-22" class="thumbnail">
-  <img src="img/reload_xml.png" alt="ReloadXML" />
+  <img src="img/reload_xml.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="ReloadXML" />
+        <img src="img/reload_xml.png" alt="Reload XML" />
       </div>
     </div>
   </div>
@@ -732,7 +732,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
             </div>
           </li>
           <li>
-              Edit private.xml as you like, and press ReloadXML button.<br />
+              Edit private.xml as you like, and press Reload XML button.<br />
               Then, activate added settings.
 
             <ul>

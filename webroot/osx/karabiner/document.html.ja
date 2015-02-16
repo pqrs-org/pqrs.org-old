@@ -693,17 +693,17 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
             </div>
           </li>
           <li>
-              「Change key」タブの「ReloadXML」ボタンを押してください。
+              「Change key」タブの「Reload XML」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-22" class="thumbnail">
-  <img src="img/reload_xml.png" alt="ReloadXML" />
+  <img src="img/reload_xml.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="ReloadXML" />
+        <img src="img/reload_xml.png" alt="Reload XML" />
       </div>
     </div>
   </div>
@@ -731,7 +731,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
             </div>
           </li>
           <li>
-              private.xmlの中身を好きなように変更して、ReloadXMLボタンを押してください。<br />
+              private.xmlの中身を好きなように変更して、Reload XMLボタンを押してください。<br />
               そして、追加された設定を有効にしてください。
 
             <ul>

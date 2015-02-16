@@ -1834,17 +1834,17 @@ src="img/lock-indicator.png" width="301" height="80"          />
           </li>
 
           <li>
-            Then, reload XML files by "ReloadXML" button on Preference.
+            Then, reload XML files by "Reload XML" button on Preference.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-13" class="thumbnail">
-  <img src="img/reload_xml.png" alt="ReloadXML" />
+  <img src="img/reload_xml.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="ReloadXML" />
+        <img src="img/reload_xml.png" alt="Reload XML" />
       </div>
     </div>
   </div>
