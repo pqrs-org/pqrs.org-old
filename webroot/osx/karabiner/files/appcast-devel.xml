@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.10</title>
+      <title>Version 10.6.11</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.10 Update</h2>
+<h2>About v10.6.11 Update</h2>
 <ul>
+  <li>v10.6.11: Prepared settings have been updated.</li>
   <li>
     v10.6.10: Fixed issue:
     <ul>
@@ -45,10 +46,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 16 Feb 2015 00:36:13 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.10.dmg"
-                 sparkle:version="10.6.10" length="3741007" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDjBcbAUAxcT65zHQ4fAZ+iZHu0sAhQUv8V8UfW9jQ4ZiLxPA/VGr7WFTA=="
+      <pubDate>Mon, 16 Feb 2015 08:32:03 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.11.dmg"
+                 sparkle:version="10.6.11" length="3741755" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCZjdcMY8Z3LHZkfYzd00nLVcLJ8AhRG5xyvXDP8q7+LlQ//fjvwBZWOsw=="
                  />
     </item>
 
