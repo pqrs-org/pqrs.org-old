@@ -7,14 +7,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.9</title>
+      <title>Version 10.6.10</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.9 Update</h2>
+<h2>About v10.6.10 Update</h2>
 <ul>
+  <li>
+    v10.6.10: Fixed issue:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse)</li>
+    </ul>
+  </li>
   <li>
     v10.6.9: The following filters have been added.
     <ul>
@@ -39,10 +45,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 15 Feb 2015 14:19:22 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.9.dmg"
-                 sparkle:version="10.6.9" length="3740538" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHJ/z9xMjXznPmIOgHYJfNdPLzhFAhRN2JKWWXf7htk/Hiy3E4cbPKuAbg=="
+      <pubDate>Mon, 16 Feb 2015 00:36:13 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.10.dmg"
+                 sparkle:version="10.6.10" length="3741007" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDjBcbAUAxcT65zHQ4fAZ+iZHu0sAhQUv8V8UfW9jQ4ZiLxPA/VGr7WFTA=="
                  />
     </item>
 
