@@ -5,7 +5,7 @@
 * ruby
  * mustache
  * RMagick
-* tidy
+* tidy-html5 https://github.com/htacg/tidy-html5/tree/master
 
 ## Generate HTML
 
