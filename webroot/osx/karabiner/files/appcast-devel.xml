@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.13</title>
+      <title>Version 10.6.14</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.13 Update</h2>
+<h2>About v10.6.14 Update</h2>
 <ul>
+  <li>v10.6.14: Option::KEYTOKEY_TIMEOUT has been added.</li>
   <li>v10.6.13: New option has been added into command line interface: `toggle`</li>
   <li>v10.6.12: Fixed issue: post-hid-event command was not included in the package.</li>
   <li>v10.6.11: Prepared settings have been updated.</li>
@@ -48,10 +49,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 17 Feb 2015 10:07:10 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.13.dmg"
-                 sparkle:version="10.6.13" length="3744816" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGYsOQmc6J13FZyarzOwAbcAz6ThAhRUMWLklqdkmL6RaqLDsZTy/z5uAw=="
+      <pubDate>Wed, 18 Feb 2015 17:03:43 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.14.dmg"
+                 sparkle:version="10.6.14" length="3745393" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFG8+yOTQDfVgFXFJUMdiZeN+suB5AhQfp4gW1bJjNd7w1oBIGRPgZWDbxg=="
                  />
     </item>
 
