@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.17</title>
+      <title>Version 10.6.18</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.17 Update</h2>
+<h2>About v10.6.18 Update</h2>
 <ul>
+  <li>v10.6.18: Option::KEYTOKEY_TIMEOUT has been improved.</li>
   <li>v10.6.17: Prepared settings have been updated.</li>
   <li>v10.6.16: Prepared settings have been updated.</li>
   <li>v10.6.15: Prepared settings have been updated.</li>
@@ -52,10 +53,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Thu, 19 Feb 2015 14:48:45 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.17.dmg"
-                 sparkle:version="10.6.17" length="3743669" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGA+3TxVKByhnIM131ktKpF2dlzpAhQHUy5OWxECQwXJsHe6ps+WiEBjTQ=="
+      <pubDate>Tue, 24 Feb 2015 03:40:29 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.18.dmg"
+                 sparkle:version="10.6.18" length="3746400" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGHZ0OPFQFRxAiRu/Ff+ycMr85+2AhRV1958YAmjErr3zt1LIMMU0KcYWw=="
                  />
     </item>
 
