@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.19</title>
+      <title>Version 10.6.20</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.19 Update</h2>
+<h2>About v10.6.20 Update</h2>
 <ul>
+  <li>v10.6.20: Option::KEYTOKEY_TIMEOUT has been renamed to Option::KEYTOKEY_DELAYED_ACTION.</li>
   <li>v10.6.19: Option::KEYTOKEY_TIMEOUT has been improved.</li>
   <li>v10.6.18: Option::KEYTOKEY_TIMEOUT has been improved.</li>
   <li>v10.6.17: Prepared settings have been updated.</li>
@@ -54,10 +55,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 24 Feb 2015 12:40:16 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.19.dmg"
-                 sparkle:version="10.6.19" length="3746729" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAyPedm6LE9Luj5P17yKh/+9lBS1AhQ0MXBYmgRP3LJ4njtficr17STB0g=="
+      <pubDate>Wed, 25 Feb 2015 03:01:26 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.20.dmg"
+                 sparkle:version="10.6.20" length="3745880" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHpreUmTCDyoifbYFvufPVrQRtfoAhR+csGViddQJMvl0A8XaVkl84KlRw=="
                  />
     </item>
 
