@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Karabiner Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 10.6.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.6.0 Update</h2>
+<ul>
+  <li>
+    A following prepared setting has been fixed.
+    <ul>
+      <li>General &gt; Disable an internal keyboard while external keyboards are connected.</li>
+    </ul>
+  </li>
+  <li>"Sort by name" and "Sort by created" button have been added in Preferences &gt; MenuBar.</li>
+  <li>Prepared settings have been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 13 Jan 2015 15:14:41 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.0.dmg"
+                 sparkle:version="10.6.0" length="3740254" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCDPIxQhv+NkMr1oiDmcQIfNHHvSAhQuaUvX5ZgFHak35JMMfjiwvF0KIw=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.5.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.5.0 Update</h2>
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (IntelliJ IDEA, PhpStorm, RubyMine, Android Studio)</li>
+      <li>&lt;device_only&gt; and &lt;device_not&gt; filters are ignored when multiple keyboards are connected and same keys are pressed at the same time.</li>
+    </ul>
+  </li>
+  <li>
+    Improvements:
+    <ul>
+      <li>"Ignore bouncing (chattering) events" setting has been added.</li>
+      <li>Spotlight has been supported in &lt;only&gt; and &lt;not&gt; filters.</li>
+      <li>Quit button has been added into Preferences.</li>
+      <li>Simultaneous presses detection with rapid key typing has been improved.</li>
+      <li>ModifierFlag manipulation when key up has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>Option::FORCENUMLOCKON_FORCE_OFF has been added.</li>
+      <li>__KeyDownUpToKey__ has been added.</li>
+      <li>&lt;include&gt; ignores missing files. (Karabiner does not show an alert dialog when &lt;include&gt; refers missing files.)</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Fri, 12 Dec 2014 16:22:07 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.5.0.dmg"
+                 sparkle:version="10.5.0" length="3737029" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGEN/6Bb61pXILNMkM2zLtOa1CiEAhQDi0s2QFJ7zTdIrHRgOq++H/yvnw=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.4.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.4.0 Update</h2>
+<ul>
+  <li>A broken prepared setting has been fixed.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 14 Oct 2014 14:46:32 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.4.0.dmg"
+                 sparkle:version="10.4.0" length="3729600" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFse+N/QVy7lLuRnuM8Pl/mbQkJtAhR1R4ef+PRi3yes7BnglPYKuOcH7g=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.3.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.3.0 Update</h2>
+<ul>
+  <li>Stability at reloading XML has been improved.</li>
+  <li>OS X 10.10 support has been improved.</li>
+  <li>Prepared settings have been updated.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>"Restart AXNotifier" button has been added into Preferences.</li>
+  <li>
+    Fixed issue:
+    <ul>
+      <li>EventViewer does not show control-tab and control-shift-tab event when Full Keyboard Access is enabled.</li>
+    </ul>
+  </li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        The following filters have been added.
+        <ul>
+          <li>&lt;modifierlocked_only&gt;</li>
+          <li>&lt;modifierlocked_not&gt;</li>
+          <li>&lt;modifierstuck_only&gt;</li>
+          <li>&lt;modifierstuck_not&gt;</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 07 Oct 2014 16:52:45 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.3.0.dmg"
+                 sparkle:version="10.3.0" length="3731294" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAIxpPDAmGSjiDlLuIgaDpnJeHy2AhQ9NF7oXJakc748zw/Fx8D3VDZ1LQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.2.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.2.0 Update</h2>
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Shortcuts (eg. Ctrl-C, Ctrl-V) might not work properly in Microsoft Remote Desktop.</li>
+      <li>Some Java apps will be crash.</li>
+    </ul>
+  </li>
+  <li>Added an option to disable AXNotifier. ("AXNotifier" tab in Preferences.)</li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+  <li>Profile management functions have been added into command line interface.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>__HoldingKeyToKey__ and __KeyOverlaidModifier__ support Option::KEYTOKEY_BEFORE_KEYDOWN and Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>You can also use __{ }__ as well as @begin, @end.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Wed, 20 Aug 2014 12:29:23 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.2.0.dmg"
+                 sparkle:version="10.2.0" length="3508965" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDAc2Oe1VhjQEViCCbWxCbNpoarSAhQdxGyN+r3eL2EyX4k6bsO6CdBVHw=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.1.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.1.0 Update</h2>
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The continuous key sequence will be improper order in environments which VMWare Fusion is installed.</li>
+      <li>A message "Karabiner cannot connect with kernel extension" might be shown in some environment.</li>
+    </ul>
+  </li>
+  <li>Show an error alert when Karabiner is not placed in /Applications.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>Added KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Mon, 21 Jul 2014 23:16:03 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.1.0.dmg"
+                 sparkle:version="10.1.0" length="3502878" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFESQhXooNeA+auUUq0r3WAZ5+YhJAhQG7Q7F0FEkRHmh4PvUV8BSIQBPMQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.0.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.0.0 Update</h2>
+<ul>
+  <li>KeyRemap4MacBook has been renamed to "Karabiner".</li>
+  <li>
+    AXNotifier has been added. <br />
+    AXNotifier allows you to observe the window name (window title) and the focused ui element role (eg. whether textarea or not). <br />
+    For example, a setting that allows you to use hjkl keys as arrow keys in Finder when you are not editing text such as filename has been added.
+  </li>
+  <li>
+    A command line utility "warp-mouse-cursor-position" has been added.<br />
+    Settings which use this utility have been added, too.<br />
+    For example, this setting allows you to move mouse cursor by tapping fn key:
+    <ul>
+      <li>
+        Custom Shortcuts
+        <ul>
+          <li>
+            Move mouse cursor to the center of the frontmost app's window:
+            <ul>
+              <li>By pressing fn key alone.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>A message "Kernel extension is not loaded" might be shown in some environment.</li>
+      <li>Status Message will not be shown properly when you are using multiple displays.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>Some minor improvements.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        You can add your own modifiers by &lt;modifierdef&gt;.
+        <a href="https://pqrs.org/osx/karabiner/xml.html.en#modifier">Usage of &lt;modifierdef&gt;.</a>
+      </li>
+      <li>Added &lt;windowname_only&gt; and &lt;windowname_not&gt; filters.</li>
+      <li>Added &lt;uielementrole_only&gt; and &lt;uielementrole_not&gt; filters.</li>
+      <li>Added __PointingRelativeToKey__.</li>
+      <li>
+        Added __PassThrough__. You can disable all settings in specific situations.<br />
+        For example, this item allow you to disable all settings while you are using virtual machine.<br />
+        (This setting is already included in prepared settings.)
+<pre>  &lt;item&gt;
+    &lt;name&gt;Disable all settings while you are using virtual machine.&lt;/name&gt;
+    &lt;identifier&gt;private.ignore_virtual_machine&lt;/identifier&gt;
+    &lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
+    &lt;autogen&gt;__PassThrough__&lt;/autogen&gt;
+  &lt;/item&gt;
+</pre>
+      </li>
+      <li>You can use KeyCode and ConsumerKeyCode in __PointingRelativeToScroll__.</li>
+      <li>
+        Added ThresholdMillisecond into __HoldingKeyToKey__.<br />
+        You can control a holding threshold:
+<pre>  &lt;autogen&gt;
+    __HoldingKeyToKey__
+    KeyCode::ESCAPE,
+
+    @begin
+    KeyCode::ESCAPE
+    @end
+
+    @begin
+    KeyCode::LAUNCHPAD,
+    @end
+
+    &lt;!-- open Launchpad by press and hold the escape key for 2 seconds. --&gt;
+    ThresholdMillisecond::RawValue::2000,
+  &lt;/autogen&gt;
+</pre>
+      </li>
+      <li>Added __BlockUntilKeyUp__.</li>
+      <li>Added Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYS.</li>
+      <li>Added Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLL.</li>
+      <li>Added KeyCode::VK_NEGATIVE_LOCK_*. (eg. KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L.)</li>
+      <li>
+        Added KeyCode::VK_STICKY_ACTIVE_MODIFIERS_*:
+        <ul>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_TOGGLE</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_ON</li>
+          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_OFF</li>
+        </ul>
+      </li>
+      <li>
+        An incompatible change:
+        <ul>
+          <li>
+            KeyCode::VK_JIS_TEMPORARY_* are removed.<br />
+            Please use &lt;inputsource_filter&gt;, Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP, KeyCode::JIS_EISUU and KeyCode::JIS_KANA instead.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 08 Jul 2014 09:13:25 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.0.0.dmg"
+                 sparkle:version="10.0.0" length="3500894" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHrt5SfoWhX6+Mr/L9iK9NRF0/0zAhR2Blm/coyEiRVU1S8KonXy5SmiWg=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 9.3.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v9.3.0 Update</h2>
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        These manipulators have been integrated into __KeyToKey__. <br />
+        You can change KeyCode, ConsumerKeyCode and PointingButton by __KeyToKey__.
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        You can use KeyCode, ConsumerKeyCode and PointingButton in these manipulators:
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>Improved KeyCode::VK_CONFIG_* behavior in the edge case.</li>
+      <li>
+        You can change the delay and speed of keyboard repeat per autogen. <br />
+        For example, this autogen changes control-p to up arrow with:
+        <ul>
+          <li>delay until repeat: 100ms</li>
+          <li>key repeat: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;
+        </pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Sat, 15 Feb 2014 10:00:59 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-9.3.0.dmg"
+                 sparkle:version="9.3.0" length="3362102" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCXObAX4osQkw768UgHF8WS/SS6bAhR6nDqI3MWogVsLH/PL+9REkBjnCA=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 9.2.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v9.2.0 Update</h2>
+<ul>
+  <li>
+    KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, KeyRemap4MacBook will show an alert which urges you to restart.
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>System might crash when you disconnected a keyboard.</li>
+    </ul>
+  </li>
+  <li>Updated some prepared settings.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Fri, 29 Nov 2013 16:51:21 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-9.2.0.dmg"
+                 sparkle:version="9.2.0" length="3343845" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB9mqv9plL3cobuGWic6sTYC4qFbAhRq13ghgq/66PwSkl4jUUJlrDF5zw=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 9.0.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v9.0.0 Update</h2>
+<ul>
+  <li>Optimized for OS X 10.9. <br />
+    KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
+  <li>Added delay configurations into multi-touch extension.</li>
+  <li>Drop power button support due to limitations of OS X 10.9. <br />
+    You can no longer change the power button on MacBook.</li>
+  <li>Fixed issues:
+    <ul><li>ENV_HOME does not work properly in included xml.</li>
+      <li>New plugged devices will not be recognized on OS X 10.9.</li>
+      <li>KeyRemap4MacBook disables the shut down dialog.</li>
+      <li>Fn key on Leopold FC660M cancels mouse dragging.</li></ul></li>
+  <li>Updated prepared settings:
+    <ul><li>"VIM Emulation" has been updated.</li>
+      <li>Fixed "MarkSet" in Emacs Mode.</li></ul></li>
+  <li>Updated installer.</li>
+  <li>Some minor improvements.</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Thu, 14 Nov 2013 18:10:23 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-9.0.0.dmg"
+                 sparkle:version="9.0.0" length="3341630" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFG9vVCpEmfeFOCyWjmflp+zu2f6pAhQ9oNGFWU19ugfuESyufkh0zt1OLQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.4.0</title>
+      <description><![CDATA[
+<h2>About v8.4.0 Update</h2>
+<ul>
+  <li>Icons have been refined. (Thanks to Kouji TAMURA.)</li>
+  <li>
+    @begin and @end have been introduced in private.xml.<br />
+    You can use more than one key to remapped keys with __KeyOverlaidModifier__, __DoublePressModifier__.
+  </li>
+  <li>Shell commands execution has been supported with KeyCode::VK_OPEN_URL_*.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Mon, 23 Sep 2013 04:34:51 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-8.4.0.dmg"
+                 sparkle:version="8.4.0" length="3705227" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFEgP4HtYmE6YO7wKeJic9Fh90iNAhQ29rYZlrBxPwtpBU0RYww0jDa/yw=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.3.0</title>
+      <description><![CDATA[
+<h2>About v8.3.0 Update</h2>
+<ul>
+  <li>Fixed a bug that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 19 May 2013 13:49:35 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-8.3.0.dmg"
+                 sparkle:version="8.3.0" length="2013518" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHretm7QmOHMIICzEe4hTxQXK8cGAhQZXq9sdv+yZDylBUmaUAm4ID1h9Q=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.2.0</title>
+      <description><![CDATA[
+<h2>About v8.2.0 Update</h2>
+<ul>
+  <li>Fixed a bug that object selection is disabled on Adobe Fireworks.</li>
+  <li>Fixed a bug that "General &gt; Don't remap XXX" does not take effect immediately.</li>
+  <li>Fixed a bug that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Fri, 17 May 2013 03:43:18 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-8.2.0.dmg"
+                 sparkle:version="8.2.0" length="2013334" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFMaWNR8+xT0fVdgZZpFjBUYZ6e9AhR1SMcgs/7JhqqsZkhMAVuFFp3aNg=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.1.0</title>
+      <description><![CDATA[
+<h2>About v8.1.0 Update</h2>
+<ul>
+  <li>Power button remapping has been supported. (Thanks to Peter Kamb who is the author of PowerKey.)</li>
+  <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
+  <li>Added some styles into status message indicator.</li>
+  <li>"Launch app/Open URL" feature has been added.</li>
+  <li>Improved compatibility with <a href="http://smoothmouse.com/">SmoothMouse</a>.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 12 May 2013 06:16:49 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-8.1.0.dmg"
+                 sparkle:version="8.1.0" length="2011569" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFGCZkL05ggXixwHtaQAuPEamAKngAhUAgIsVUK6sBe/j/txij1c7fSN+G+A="
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.0.0</title>
+      <description><![CDATA[
+<h2>About v8.0.0 Update</h2>
+<ul>
+  <li>Preferences has been integrated into app.</li>
+  <li>Integrated a status message indicator. (Removed Growl support.)</li>
+  <li>Added a preference of ignored area into "multi-touch extension".</li>
+  <li>Changed KeyRemap4MacBook_cli location.</li>
+  <li>Dynamic VK_CHANGE_INPUTSOURCE definition feature has been added.</li>
+  <li>&lt;inputsource_only&gt; definition feature has been added.</li>
+  <li>Added Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDER.</li>
+  <li>Added DeviceLocation into &lt;device_only&gt;, &lt;device_not&gt; filters.</li>
+  <li>Changed --KeyToKey-- to __KeyToKey__ at &lt;autogen&gt;.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Wed, 30 Jan 2013 15:08:36 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-8.0.0.dmg"
+                 sparkle:version="8.0.0" length="1725984" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFH2R9j2UCIeCLBQpVPY/BCK6N4d0AhR7LSvq+NG73zoC8tY5eT6ooJKfNA=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.8.0</title>
+      <description><![CDATA[
+<h2>About v7.8.0 Update</h2>
+<ul>
+  <li>Fixed a bug that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
+  <li>Fixed a bug that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 26 Jun 2012 16:51:11 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-7.8.0.dmg"
+                 sparkle:version="7.8.0" length="1890365" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAqs3kGDIOQH+mAIPJvPnjLzzrjUAhRalYxV05U/6I+qUwe8S+OxrG9ceA=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.7.0</title>
+      <description><![CDATA[
+<h2>About v7.7.0 Update</h2>
+<ul>
+  <li>Fixed a bug introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Wed, 09 May 2012 21:22:35 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-7.7.0.dmg"
+                 sparkle:version="7.7.0" length="1893213" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEhis8716u+N2km30YSXOyYSKFwUAhRhwzLzyCIdO0gtxSLmCnHgwa4Ltg=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.6.0</title>
+      <description><![CDATA[
+<h2>About v7.6.0 Update</h2>
+<ul>
+  <li>Improved XML processing engine. (XML reloading is 2x faster.)</li>
+  <li>Improved KeyCode::VK_CHANGE_INPUTMODE_* behavior.</li>
+  <li>Some minor improvements.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this.</li>
+      <li>Added &lt;include&gt;. You can load external xml files in private.xml.</li>
+      <li>Added --ScrollWheelToKey--.</li>
+      <li>Added --ScrollWheelToScrollWheel--.</li>
+      <li>Added KeyCode::VK_WAIT_*.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 08 May 2012 22:34:19 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-7.6.0.dmg"
+                 sparkle:version="7.6.0" length="1892779" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCCBVpT7MHLw/Q/y+fOIA3r15cphQIUKQroSHGpns5zN813xYHZuxAHWlU="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.5.0</title>
+      <description><![CDATA[
+<h2>About v7.5.0 Update</h2>
+<ul>
+  <li>Support Growl-1.3 on <a href="https://pqrs.org/osx/karabiner/document.html#t4">notifications</a>.</li>
+  <li>Some minor improvements.</li>
+  <li>Resolved a minor installer issue.</li>
+  <li>Added about 40 kinds settings to preset.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Dynamic ApplicationType,DeviceVendor,DeviceProduct definition feature has been added.</li>
+      <li>Added --StripModifierFromScrollWheel--.</li>
+      <li>Added Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>Added KeyCode::VK_CONSUMERKEY_*.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Wed, 02 Nov 2011 15:01:07 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-7.5.0.pkg.zip"
+                 sparkle:version="7.5.0" length="1130858" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGK30Vu1od8cnewlJZlhpHtNzmLpAhR2J5mesP2l1jF0i4BL8Dxle7Ba4A=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.4.0</title>
+      <description><![CDATA[
+<h2>About v7.4.0 Update</h2>
+<ul>
+  <li>Some improvements on Mac OS X 10.7 (Lion).</li>
+  <li>
+    Removed "General &gt; Enable CapsLock LED Hack".<br />
+    If you're using this setting for PCKeyboardHack,<br />
+    use "No Action" configuration instead.<br />
+    https://pqrs.org/osx/karabiner/extra.html#t1p1<br />
+  </li>
+  <li>
+    Cleaned up "Simultaneous Vi Mode".<br/>
+    (Some options have been moved into "Home Row Arrow and Modifier Mode".)<br/>
+  </li>
+  <li>
+    Added "[Key Overlaid Modifier] Initial Modifier Wait" preference into "Key Repeat" tab.<br/>
+    KeyOverlaidModifier changes key to modifier after this wait.<br/>
+    This preference is useful if your typing speed is too fast.<br/>
+  </li>
+  <li>Some minor improvements.</li>
+  <li>Added some settings to preset.</li>
+  <li>
+    Updates for people who add new settings by oneself.
+    <ul>
+      <li>Added KeyCode::VK_STICKY_*_FORCE_ON, KeyCode::VK_STICKY_*_FORCE_OFF.</li>
+      <li>Added --DropScrollWheel--.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 23 Aug 2011 23:38:49 +0900</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/KeyRemap4MacBook-7.4.0.pkg.zip"
+                 sparkle:version="7.4.0" length="1125988" type="application/octet-stream"
+                 sparkle:dsaSignature="MCsCEzhYiAFiZVjGgTC5U9HhmVzRCuwCFGYkX6P0iWE1PBJbC6W3YVh8EyI+"
+                 />
+    </item>
+  </channel>
+</rss>

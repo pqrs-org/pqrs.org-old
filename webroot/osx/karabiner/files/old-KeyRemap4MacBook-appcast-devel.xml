@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Karabiner Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/appcast-devel.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 10.6.21</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  KeyRemap4MacBook has been renamed to "Karabiner". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Karabiner" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration and private.xml will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.6.21 Update</h2>
+<ul>
+  <li>v10.6.21: Prepared settings have been updated.</li>
+  <li>v10.6.20: Option::KEYTOKEY_TIMEOUT has been renamed to Option::KEYTOKEY_DELAYED_ACTION.</li>
+  <li>v10.6.19: Option::KEYTOKEY_TIMEOUT has been improved.</li>
+  <li>v10.6.18: Option::KEYTOKEY_TIMEOUT has been improved.</li>
+  <li>v10.6.17: Prepared settings have been updated.</li>
+  <li>v10.6.16: Prepared settings have been updated.</li>
+  <li>v10.6.15: Prepared settings have been updated.</li>
+  <li>v10.6.14: Option::KEYTOKEY_TIMEOUT has been added.</li>
+  <li>v10.6.13: New option has been added into command line interface: `toggle`</li>
+  <li>v10.6.12: Fixed issue: post-hid-event command was not included in the package.</li>
+  <li>v10.6.11: Prepared settings have been updated.</li>
+  <li>
+    v10.6.10: Fixed issue:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse)</li>
+    </ul>
+  </li>
+  <li>
+    v10.6.9: The following filters have been added.
+    <ul>
+      <li>&lt;pressingphysicalkeys_greaterthan&gt;</li>
+      <li>&lt;pressingphysicalkeys_lessthan&gt;</li>
+    </ul>
+  </li>
+  <li>v10.6.8: A command line tool has been added: post-hid-event.</li>
+  <li>v10.6.7: Prepared settings have been updated.</li>
+  <li>v10.6.6: Prepared settings have been updated.</li>
+  <li>
+    v10.6.5: Fixed issue:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Screencast-O-Matic)</li>
+    </ul>
+  </li>
+  <li>v10.6.4: Prepared settings have been updated.</li>
+  <li>v10.6.3: __HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
+  <li>v10.6.2: Prepared settings have been updated.</li>
+  <li>v10.6.1: Prepared settings have been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+]]>
+      </description>
+      <pubDate>Thu, 26 Feb 2015 05:19:37 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.21.dmg"
+                 sparkle:version="10.6.21" length="3747759" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCCX4hWB7vXhtV6E4qaWppTVLVo2wIUS61vsj23E2ml2pDq/9M9BEbzUTo="
+                 />
+    </item>
+
+  </channel>
+</rss>

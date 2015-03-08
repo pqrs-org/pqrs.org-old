@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Seil Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/seil-appcast-devel.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 11.0.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  PCKeyboardHack has been renamed to "Seil". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Seil" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v11.0.0 Update</h2>
+<ul>
+  <li>OS X 10.10 support has been improved.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+  <li>List of known key code has been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Thu, 05 Dec 2014 22:20:40 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.0.0.dmg"
+                 sparkle:version="11.0.0" length="1583428" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCDk5gDj8GE5fmVUvzpr2GxHM9NAQIVAIZFnpF6bP6xaBq8yodhcVt8EIY8"
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.11.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  PCKeyboardHack has been renamed to "Seil". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Seil" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.11.0 Update</h2>
+<ul>
+  <li>Preferences UI has been updated.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Sat, 30 Aug 2014 19:09:06 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.11.0.dmg"
+                 sparkle:version="10.11.0" length="1585145" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDGXZAB0h3FpycrJF5d5nVJSGj6gwIVAIGmw0Ujhf5Gcd5pVJUJdTxlw5DX"
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.10.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  PCKeyboardHack has been renamed to "Seil". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Seil" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.10.0 Update</h2>
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>A message "Seil cannot connect with kernel extension" might be shown in some environment.</li>
+    </ul>
+  </li>
+  <li>Show an error alert when Seil is not placed in /Applications.</li>
+  <li>SteelSeries Apex Gaming Keyboard has been supported.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Tue, 22 Jul 2014 00:02:03 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.10.0.dmg"
+                 sparkle:version="10.10.0" length="1379177" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFrIkadgTUbxtge/v+UU/f2A7fpWAhUArY7VcpZ9xSGhIXzPz+jAGbYzFpo="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.9.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  PCKeyboardHack has been renamed to "Seil". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Seil" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.9.0 Update</h2>
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>A message "Kernel extension is not loaded" might be shown in some environment.</li>
+      <li>Preferences might not show properly after migration until you change the configuration or relaunch Seil.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Sun, 22 Jun 2014 15:55:33 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.9.0.dmg"
+                 sparkle:version="10.9.0" length="1376246" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDTnQo417SCtdKey8Iv3NJLXWoXJwIUOjLR9JS5RmlSazOAtCbY/uUWOQk="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.8.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+ 
+<div style="font-size: 150%"> 
+  PCKeyboardHack has been renamed to "Seil". <br /> 
+  <span style="color: red; font-weight: bold">Please open "Seil" once from Launchpad after upgrade.</span><br /> 
+</div> 
+(Your configuration will be migrated automatically.) <br /> 
+<br /> 
+
+
+<h2>About v10.8.0 Update</h2>
+<ul>
+  <li>PCKeyboardHack has been renamed to "Seil".</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+]]>
+      </description>
+      <pubDate>Wed, 18 Jun 2014 17:51:09 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-10.8.0.dmg"
+                 sparkle:version="10.8.0" length="1375448" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCjFgHMHOUz5krZykTAfKPHVN+d3wIUY28dxn3Nb0IUrfTfuP4GFCdH9DQ="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.7.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.7.0 Update</h2>
+<ul>
+  <li>Supported OS X 10.10.</li>
+  <li>Changed a way to launch at login. (LaunchAgents -&gt; Login Items)</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 03 Jun 2014 15:17:18 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.7.0.dmg"
+                 sparkle:version="10.7.0" length="1372600" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDWZJ5VrSkX728JuUGhCsA43MScSwIVAKL5jqLhmXuMyAKSA1NMF/IRPc0Z"
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.6.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.6.0 Update</h2>
+<ul>
+  <li>A command line interface (PCKeyboardHack_cli) has been added.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Thu, 13 Mar 2014 16:31:55 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.6.0.dmg"
+                 sparkle:version="10.6.0" length="1371791" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDH4cr1F+/6jr9wwm7CuuidT/o/cgIUE/fwv8INHsLMTbrqjuIEDntRNK0="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.5.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.5.0 Update</h2>
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 26 Jan 2014 06:17:04 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.5.0.dmg"
+                 sparkle:version="10.5.0" length="1360448" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAed1FxiwW9SRckZ6EqYY0T9J8mtAhRf5508X1n33bUIa6hAxmAQpCXfGA=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.4.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.4.0 Update</h2>
+<ul>
+  <li>
+    PCKeyboardHack no longer requires system restart at installing or upgrading. <br />
+    If you need to restart system for some reason, PCKeyboardHack will show an alert which urges you to restart.
+  </li>
+  <li>Added a remappable key: Application Key (Menu Key) on PC keyboard.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 01 Dec 2013 13:54:28 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.4.0.dmg"
+                 sparkle:version="10.4.0" length="1345866" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDVAfChdIjJvMdj2KDUbNG+EBMtTwIUdeAhzibV85F0VcQgdRcECBttSS0="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.2.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.2.0 Update</h2>
+<ul>
+  <li>Signed kext with Developer ID.</li>
+  <li>Updated installer.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 10 Nov 2013 13:23:14 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.2.0.dmg"
+                 sparkle:version="10.2.0" length="1344845" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCEM6rY9T+blDUseQ3LcE2cCpUm+AhRSS91em7xaDaOsOvEiiyG8AdYUaA=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 10.0.0</title>
+      <sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v10.0.0 Update</h2>
+<ul>
+  <li>Supported OS X 10.9.</li>
+  <li>Icons have been updated. (Thanks to Kouji TAMURA.)</li>
+  <li>Signed with Developer ID.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 20 Oct 2013 01:21:31 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-10.0.0.dmg"
+                 sparkle:version="10.0.0" length="1420589" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAGrtffA5XFXsUEbDU8O9jCzSQzqAhQ7WI6e73eTLht989+vsJDOWuu5vQ=="
+                 />
+    </item>
+
+    <item>
+      <title>Version 9.0.0</title>
+      <sparkle:minimumSystemVersion>10.7.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v9.0.0 Update</h2>
+<ul>
+  <li>The preferences has been integrated into app.</li>
+  <li>Some minor improvements.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/pckeyboardhack.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sun, 13 Jan 2013 16:47:13 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-9.0.0.dmg"
+                 sparkle:version="9.0.0" length="855453" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCML6FFIG9+4YrIpeIn1zVHy71t5wIVAJ6YDoKwhA2nLZHKh2+oSkYO4oob"
+                 />
+    </item>
+
+    <item>
+      <title>Version 8.0.0</title>
+      <sparkle:minimumSystemVersion>10.7.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>About v8.0.0 Update</h2>
+<ul>
+  <li>Update for OS X 10.8.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/extra.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Sat, 11 Aug 2012 04:37:57 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-8.0.0.dmg"
+                 sparkle:version="8.0.0" length="921171" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCavtEFbJx8CdaWyfyKUTS61S3brQIUZ4FZc4K2E7fqPW6HxUu8NzVEbMU="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.4.0</title>
+      <description><![CDATA[
+<h2>About v7.4.0 Update</h2>
+<ul>
+  <li>Changed package archive format to dmg from zip.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/extra.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 24 Apr 2012 15:00:45 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-7.4.0.dmg"
+                 sparkle:version="7.4.0" length="563112" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQC4/6JqspdrWZox6LSSNQcWDfpRWwIVAKsgRdiLwyPDzGVbSQwHPnntoFsD"
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.3.0</title>
+      <description><![CDATA[
+<h2>About v7.3.0 Update</h2>
+<ul>
+  <li>Added a remappable key: International Keys, Lang Keys and keys on Sun Type6 Keyboard.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/extra.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Tue, 21 Feb 2012 13:19:40 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-7.3.0.pkg.zip"
+                 sparkle:version="7.3.0" length="542100" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFG0Bs3mkdfHmT44hA6u1NrTHdY/OAhUAyVkmuSJy6vwDzDoCiiqyzUaVIU0="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.2.0</title>
+      <description><![CDATA[
+<h2>About v7.2.0 Update</h2>
+<ul>
+  <li>Added a remappable key: ADB Keyboard Power Key.</li>
+  <li>Resolved a minor installer issue.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/extra.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Wed, 26 Oct 2011 15:41:49 +0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-7.2.0.pkg.zip"
+                 sparkle:version="7.2.0" length="536650" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCNOEBQ7Sc6wYsvroKdkR3Js11W4gIULyS2afRp2egypHeIuxVyyvM6s3Q="
+                 />
+    </item>
+
+    <item>
+      <title>Version 7.1.0</title>
+      <description><![CDATA[
+<h2>About v7.1.0 Update</h2>
+<ul>
+  <li>Added remappable keys: Command,Control,Option,Shift,Escape,Delete,Return,Keypad Enter.</li>
+  <li>Added "Check for updates" feature.</li>
+  <li>Fixed a minor packaging issue.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/extra.html">PCKeyboardHack Web Site</a>
+]]>
+      </description>
+      <pubDate>Mon, 15 Aug 2011 00:12:47 +0900</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/PCKeyboardHack-7.1.0.pkg.zip"
+                 sparkle:version="7.1.0" length="536037" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB0NW9Itvn43dbC4JUGV4HfmMbbwAhRDlACkKBVYt21E0CMWbkFx/E4gZw=="
+                 />
+    </item>
+  </channel>
+</rss>
