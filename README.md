@@ -9,5 +9,11 @@
 
 ## Generate HTML
 
-    cd source
-    make
+```
+cd vagrant
+vagrant up
+vagrant ssh
+
+cd pqrs.org/source
+make
+```
