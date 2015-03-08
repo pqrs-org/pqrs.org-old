@@ -1,0 +1,28 @@
+server {
+        root /home/vagrant/pqrs.org/webroot;
+        error_page 404 /404.html;
+
+        # accept-language: en,en-US;q=0.8,ja;q=0.6
+        set $first_language $http_accept_language;
+        if ($http_accept_language ~* '^(.+?),') {
+                set $first_language $1;
+        }
+
+        set $language_suffix 'en';
+        if ($first_language ~* 'ja') {
+                set $language_suffix 'ja';
+        }
+
+        index index.html.$language_suffix index.html.en index.html.ja index.html /index.html.$language_suffix;
+
+        location ~ html\.(en|ja)$ {
+                types { }
+                default_type  text/html;
+        }
+        location ~ \.html$ {
+                try_files $uri $uri.$language_suffix;
+
+                types { }
+                default_type  text/html;
+        }
+}

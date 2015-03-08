@@ -1,0 +1,28 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+overrides = "#{__FILE__}.local"
+if File.exist?(overrides)
+  eval File.read(overrides)
+end
+
+Vagrant.configure(2) do |config|
+  config.vm.box = 'chef/debian-7.8'
+  config.vm.hostname = 'pqrs.org'
+  config.vm.network 'forwarded_port', guest: 80, host: 2080
+  config.vm.synced_folder "../", "/home/vagrant/pqrs.org"
+
+  config.vm.provider 'virtualbox' do |vb|
+    vb.name = "pqrs.org"
+    vb.memory = '512'
+  end
+
+  config.vm.provision "chef_solo" do |chef|
+    chef.cookbooks_path = "cookbooks"
+    chef.run_list = [
+      "recipe[packages]",
+    ]
+  end
+
+  config.omnibus.chef_version = :latest
+end
