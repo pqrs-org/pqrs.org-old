@@ -1,2 +1,3 @@
 /vagrant/.vagrant
 /vagrant/Vagrantfile.local
+/appcast-updater/secret/
