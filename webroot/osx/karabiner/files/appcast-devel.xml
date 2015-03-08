@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.22</title>
+      <title>Version 10.6.23</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.22 Update</h2>
+<h2>About v10.6.23 Update</h2>
 <ul>
+  <li>v10.6.23: Fixed a Sparkle issue that has been introduced at v10.6.22.</li>
   <li>v10.6.22: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
   <li>v10.6.22: Prepared settings have been updated.</li>
   <li>v10.6.21: Prepared settings have been updated.</li>
@@ -58,10 +59,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 08 Mar 2015 16:08:05 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.22.dmg"
-                 sparkle:version="10.6.22" length="3762698" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFH8HsY/GYGXpBqaKaz6NdWYmykcdAhQVip3uvJq5JGL/bfvYZLay2aEC8g=="
+      <pubDate>Sun, 08 Mar 2015 16:25:17 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.23.dmg"
+                 sparkle:version="10.6.23" length="3748590" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFE+L6Ph23o9+cIwg5XLb/ONmAC7iAhQS0QtWwjsHmlnpDtuOxLXX6N/ZRQ=="
                  />
     </item>
 
