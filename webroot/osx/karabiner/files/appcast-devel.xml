@@ -62,10 +62,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 17 Mar 2015 03:16:53 -0000</pubDate>
+      <pubDate>Tue, 17 Mar 2015 03:33:22 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.26.dmg"
                  sparkle:version="10.6.26" length="3754315" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAJX3Nd6mWRfJh8Ur0x8z7tIkXmnAhQObgAX654BcvJD+EmiCVOPmxJHEA=="
+                 sparkle:dsaSignature="MCwCFG124rNMnOZzYc8y1OeQ9l79MZAaAhQQfKMENyE59lmyAevA2i66osvx+Q=="
                  />
     </item>
 
