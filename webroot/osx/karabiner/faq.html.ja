@@ -576,7 +576,7 @@
     &lt;identifier&gt;private.unicode_hex_input&lt;/identifier&gt;
     &lt;autogen&gt;
       __KeyToKey__
-      KeyCode::A, VK_OPTION | ModifierFlag::NONE,
+      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
 
       &lt;!-- change input source to Unicode Hex Input --&gt;
       KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
