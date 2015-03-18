@@ -22,7 +22,8 @@ class PqrsUtil
         end
       end
       FileUtils.mkdir_p(File.dirname(targetfilepath))
-      File.rename(tmpfilepath, targetfilepath)
+      # Do not use File.rename. It will fail with across partitions.
+      FileUtils.mv(tmpfilepath, targetfilepath)
       File.chmod(0644, targetfilepath)
     else
       File.unlink(tmpfilepath)
