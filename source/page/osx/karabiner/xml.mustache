@@ -411,7 +411,7 @@
 
         <p>
           Put filters into <code>&lt;item&gt;</code>.
-          If plural filters are specified, <code>&lt;autogen&gt;</code> will be effective if all conditions are true.
+          If multiple filters are specified, <code>&lt;autogen&gt;</code> will be effective if all conditions are true.
         </p>
 
         {{#indented_xml}}
@@ -576,11 +576,62 @@
           </li>
         </ol>
 
-        <h2 id="plural-appdef">Plural apps</h2>
+        <h2 id="multiple-appdef">Multiple apps</h2>
         <p>
-          You can specify plural apps by a comma separated list. <br />
+          You can specify multiple apps by a comma separated list. <br />
           For example, <code>&lt;only&gt;GOOGLE_CHROME, FIREFOX, SAFARI&lt;/only&gt;</code> means "Google Chrome or Firefox or Safari".
         </p>
+
+        <h2 id="appdef-syntax">appdef syntax</h2>
+        <p>
+          You have to put one <code>&lt;appname&gt;</code> into <code>&lt;appdef&gt;</code>.<br />
+          And you can put multiple <code>&lt;equal&gt;</code>, <code>&lt;prefix&gt;</code> and <code>&lt;suffix&gt;</code>.
+        </p>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>
+                &lt;appname&gt;
+              </th>
+              <td>
+                This value is used in <code>&lt;only&gt;</code> and <code>&lt;not&gt;</code> filters.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;equal&gt;
+              </th>
+              <td>
+                Specify an entire bundle identifier.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;prefix&gt;<br />
+                &lt;suffix&gt;
+              </th>
+              <td>
+                Specify a prefix/suffix of bundle identifier. <br />
+                For example, <code>&lt;prefix&gt;org.pqrs.&lt;/prefix&gt;</code> matches any bundle identifiers that start with "org.pqrs.". (eg. org.pqrs.Karabiner, org.pqrs.Seil)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Multiple &lt;equal&gt;, &lt;prefix&gt; and &lt;suffix&gt; are joined by 'OR'. <br />
+          For example, the following appdef will be matched "org.pqrs.aaa" or "org.pqrs.bbb" or "org.pqrs.ccc.*" or "*.local".
+        </p>
+
+        {{#indented_xml}}
+          |<appdef>
+          |  <appname>PQRS</appname>
+          |  <equal>org.pqrs.aaa</equal>
+          |  <equal>org.pqrs.bbb</equal>
+          |  <prefix>org.pqrs.ccc.</prefix>
+          |  <suffix>.local</suffix>
+          |</appdef>
+        {{/indented_xml}}
 
         <h2 id="prepared-appdef">Prepared application definitions</h2>
         <p>
@@ -688,7 +739,7 @@
             <code>&lt;name&gt;</code> is a name of definition which you use in <code>&lt;windowname_only&gt;</code> filter.
             <br />
             Write regular expressions pattern into <code>&lt;regex&gt;</code>.
-            <a href="http://www.cplusplus.com/reference/regex/ECMAScript/" target="_blank">(regex patterns folow the ECMAScript syntax.)</a>
+            <a href="http://www.cplusplus.com/reference/regex/ECMAScript/" target="_blank">(regex patterns follow the ECMAScript syntax.)</a>
             {{#indented_xml}}
               |<?xml version="1.0"?>
               |<root>
@@ -906,9 +957,9 @@
           </li>
         </ol>
 
-        <h2 id="plural-devicedef">Plural devices</h2>
+        <h2 id="multiple-devicedef">Multiple devices</h2>
         <p>
-          You can specify plural devices by a comma separated list. <br />
+          You can specify multiple devices by a comma separated list. <br />
           For example, the following &lt;device_only&gt; means "Magic Mouse or Logitech Unifying".
         </p>
         {{#indented_xml}}
@@ -1515,7 +1566,7 @@
           |  <replacementdef>
           |    <replacementname>VI_H</replacementname>
           |    <replacementvalue>KeyCode::J</replacementvalue>
-          |  </appdef>
+          |  </replacementdef>
           |</root>
         {{/indented_xml}}
       </section>
