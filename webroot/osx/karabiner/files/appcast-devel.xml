@@ -7,14 +7,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.29</title>
+      <title>Version 10.6.30</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.29 Update</h2>
+<h2>About v10.6.30 Update</h2>
 <ul>
+  <li>
+    v10.6.30: Fixed issue:
+    <ul>
+      <li>Failed to detect Launchpad in OS X 10.10.2.</li>
+    </ul>
+  </li>
   <li>v10.6.29: Prepared settings have been updated.</li>
   <li>v10.6.28: &lt;background/&gt; support to &lt;vkopenurldef&gt; has been added.</li>
   <li>v10.6.27: Prepared settings have been updated.</li>
@@ -65,10 +71,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 25 Mar 2015 16:06:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.29.dmg"
-                 sparkle:version="10.6.29" length="3753946" type="application/octet-stream"
-                 sparkle:dsaSignature="MCsCEy9w/2rX1ZnfaIdKJ/Z95Bzgx+0CFEeda6pl21bPrYj2NZAXRPwN0X3I"
+      <pubDate>Sun, 29 Mar 2015 13:11:23 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.30.dmg"
+                 sparkle:version="10.6.30" length="3758182" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFD80GBlpZQMv/u/NhnI1lHsY3FnYAhRwLVlE6+gTUVa1KpWFF6ZUm4jJww=="
                  />
     </item>
 
