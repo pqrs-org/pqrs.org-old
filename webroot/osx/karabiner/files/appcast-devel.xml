@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.31</title>
+      <title>Version 10.6.32</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.31 Update</h2>
+<h2>About v10.6.32 Update</h2>
 <ul>
+  <li>v10.6.32: "Status Message &gt; Show caps lock state" option has been added.</li>
   <li>v10.6.31: Minor update.</li>
   <li>v10.6.29: Prepared settings have been updated.</li>
   <li>v10.6.28: &lt;background/&gt; support to &lt;vkopenurldef&gt; has been added.</li>
@@ -66,10 +67,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 30 Mar 2015 03:31:27 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.31.dmg"
-                 sparkle:version="10.6.31" length="3758116" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGKmfkUaXHJ5rb7e5Lq11PAmgy47AhQFEG3K+QNRIqY8Q6+Z+T5eQjrELw=="
+      <pubDate>Tue, 31 Mar 2015 05:15:57 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.32.dmg"
+                 sparkle:version="10.6.32" length="3757584" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCreOox3jDM7YjvDSi9b9QFWhbzjAhUAgzi90z7OHtSDl8CS8X0MM48PwFA="
                  />
     </item>
 
