@@ -126,6 +126,74 @@
     <p>
         <a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner-ja">Google グループ</a>に投稿してください。
     </p>
+    <h3 id="required-information">
+        バグ報告に必要な情報
+    </h3>
+    <p>
+        バグ報告を送信するときは、以下の情報を記入してください。
+    </p>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            必要な情報
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            <b>
+                OS Xのバージョン:
+            </b>
+          </li>
+          <li>
+            <b>
+                Karabinerのバージョン:
+            </b>
+            <br />
+              （Karabinerの設定画面の「Misc &amp; Uninstall」タブで確認できます。）
+          </li>
+          <li>
+            <b>
+                あなたのMacのハードウェア:
+            </b>
+          </li>
+          <li>
+            <b>
+                あなたのキーボードのハードウェア:
+            </b>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p>
+        例:
+    </p>
+    <ul>
+      <li>
+        <b>
+            OS Xのバージョン:
+        </b>
+        OS X 10.10.2
+      </li>
+      <li>
+        <b>
+            Karabinerのバージョン:
+        </b>
+        Karabiner 10.6.0
+      </li>
+      <li>
+        <b>
+            あなたのMacのハードウェア:
+        </b>
+        MacBook Pro
+      </li>
+      <li>
+        <b>
+            あなたのキーボードのハードウェア:
+        </b>
+        Das Keyboard 4 Professional for Mac Mechanical Keyboard
+      </li>
+    </ul>
     <h2>
         その他
     </h2>

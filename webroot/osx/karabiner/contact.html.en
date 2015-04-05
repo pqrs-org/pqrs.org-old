@@ -126,6 +126,74 @@
     <p>
         Please post to <a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner">Google Groups</a>.
     </p>
+    <h3 id="required-information">
+        Required information with bug reports
+    </h3>
+    <p>
+        Please fill your information when you send bug reports:
+    </p>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            Required information
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            <b>
+                OS X version:
+            </b>
+          </li>
+          <li>
+            <b>
+                Karabiner version:
+            </b>
+            <br />
+              (You can confirm version in "Misc &amp; Uninstall" tab in Karabiner Preferences.)
+          </li>
+          <li>
+            <b>
+                Your Mac hardware:
+            </b>
+          </li>
+          <li>
+            <b>
+                Your keyboard hardware:
+            </b>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p>
+        For example:
+    </p>
+    <ul>
+      <li>
+        <b>
+            OS X version:
+        </b>
+        OS X 10.10.2
+      </li>
+      <li>
+        <b>
+            Karabiner version:
+        </b>
+        Karabiner 10.6.0
+      </li>
+      <li>
+        <b>
+            Your Mac hardware:
+        </b>
+        MacBook Pro
+      </li>
+      <li>
+        <b>
+            Your keyboard hardware:
+        </b>
+        Das Keyboard 4 Professional for Mac Mechanical Keyboard
+      </li>
+    </ul>
     <h2>
         Other
     </h2>
