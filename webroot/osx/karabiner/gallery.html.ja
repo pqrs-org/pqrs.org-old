@@ -384,13 +384,13 @@
       &lt;![CDATA[
         &lt;autogen&gt;
           __KeyDownUpToKey__
-          KeyCode::C, ModifierFlag::NONE,
+          KeyCode::C,
           KeyCode::VK_OPEN_URL_APP_Maps,
         &lt;/autogen&gt;
 
         &lt;autogen&gt;
           __KeyDownUpToKey__
-          KeyCode::V, ModifierFlag::NONE,
+          KeyCode::V,
           KeyCode::VK_OPEN_URL_APP_FaceTime,
         &lt;/autogen&gt;
       ]]&gt;
