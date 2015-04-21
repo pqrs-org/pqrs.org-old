@@ -400,6 +400,35 @@
 &lt;/root&gt;</pre>
       </section>
 
+      <section id="disable-built-in-keyboard-if-external-keyboard-exists">
+        <div class="page-header">
+          <h1>
+              外付けキーボードが接続されている場合は内蔵キーボードを無効化する
+          </h1>
+        </div>
+
+        <p>
+            あなたがMacBookでコンパクトキーボードを使っていて、内蔵キーボードの上に外付けキーボードを置いている場合、この設定が有用です。
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 1380px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
       <section id="ignore-bouncing">
         <div class="page-header">
           <h1>
@@ -413,10 +442,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -433,10 +462,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -485,6 +514,11 @@
               <li>
                 <a href="#launcher-mode-v2">
                   Launcher Mode v2
+                </a>
+              </li>
+              <li>
+                <a href="#disable-built-in-keyboard-if-external-keyboard-exists">
+                  外付けキーボードが接続されている場合は内蔵キーボードを無効化する
                 </a>
               </li>
               <li>
