@@ -57,6 +57,13 @@ class Gallery < KarabinerBase
         },
       },
       {
+        :href => '#disable-built-in-keyboard-if-external-keyboard-exists',
+        :name_l10n => {
+          :en => 'Disable the built-in keyboard if an external keyboard exists.',
+          :ja => '外付けキーボードが接続されている場合は内蔵キーボードを無効化する',
+        },
+      },
+      {
         :href => '#ignore-bouncing',
         :name_l10n => {
           :en => 'Ignore bouncing (chattering) events',
