@@ -417,7 +417,7 @@
   <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 1380px;">
+  <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
