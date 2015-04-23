@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.43</title>
+      <title>Version 10.6.44</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.43 Update</h2>
+<h2>About v10.6.44 Update</h2>
 <ul>
+  <li>v10.6.44: Prepared settings have been updated.</li>
   <li>v10.6.43: Change Option::SIMULTANEOUSKEYPRESSES_RAW_WITH_ORIGINAL_EVENTS to Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW.</li>
   <li>v10.6.42: Minor update.</li>
   <li>v10.6.41: Improved `Option::SIMULTANEOUSKEYPRESSES_RAW_WITH_ORIGINAL_EVENTS`.</li>
@@ -82,10 +83,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 22 Apr 2015 16:18:09 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.43.dmg"
-                 sparkle:version="10.6.43" length="3771504" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFClp3XWzUECmeP/cLuDHF4u6QuLfAhRwCZDdcE99W3kR2mnxVHMiCON7jQ=="
+      <pubDate>Thu, 23 Apr 2015 03:14:48 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.44.dmg"
+                 sparkle:version="10.6.44" length="3771240" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFDXV7FP1cPp9Ao893YZAem8AQjV0AhUAhGx2abe5RooxmpGoxnZwzkOYQtE="
                  />
     </item>
 
