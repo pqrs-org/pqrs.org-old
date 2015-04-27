@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.46</title>
+      <title>Version 10.6.47</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.46 Update</h2>
+<h2>About v10.6.47 Update</h2>
 <ul>
+  <li>v10.6.47: Improved __DropAllKeys__.</li>
   <li>v10.6.46: Improved __DropAllKeys__.</li>
   <li>v10.6.45: Change __DropKey__ to __DropAllKeys__ and improved it.</li>
   <li>v10.6.44: Prepared settings have been updated.</li>
@@ -85,10 +86,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 26 Apr 2015 21:04:47 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.46.dmg"
-                 sparkle:version="10.6.46" length="3772231" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCDIWZDskryGdWDYFKsIT6LO5tNGwIUW7Ibt9stCurD4tZ9NDovG2Nlqqg="
+      <pubDate>Mon, 27 Apr 2015 07:20:45 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.47.dmg"
+                 sparkle:version="10.6.47" length="3771748" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBVwTQqH9ojpRqweeDjXSPa76gXeAhRLJJlUBPBcYs5jNVfNq94dPsPC/g=="
                  />
     </item>
 
