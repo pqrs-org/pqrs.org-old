@@ -244,7 +244,7 @@ src="img/launchpad.png" width="150" height="157"            />
             またOS Xの限界を越えてキーリピート速度を加速することも出来ます。
         </p>
         <p>
-            Key Repeatタブを開いて、Initial WaitとWaitの値を変更してください。
+            Key Repeatタブを開いて、Delay Until RepeatとKey Repeatの値を変更してください。
         </p>
         <div class="row">
           <div class="col-lg-4">

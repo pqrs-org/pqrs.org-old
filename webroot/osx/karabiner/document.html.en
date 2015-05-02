@@ -245,7 +245,7 @@ src="img/launchpad.png" width="150" height="157"            />
             You also can accelerate key repeat rate beyond the limits of OS X.
         </p>
         <p>
-            Open "Key Repeat" tab and change "Initial Wait" and "Wait".
+            Open "Key Repeat" tab and change "Delay Until Repeat" and "Key Repeat".
         </p>
         <div class="row">
           <div class="col-lg-4">
