@@ -72,6 +72,23 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '11.1.0',
+              :updated => '2015-05-06',
+              :link => 'files/Seil-11.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>List of known key code has been updated.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>既知のキーコードの一覧を更新しました。li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '11.0.0',
               :updated => '2014-12-05',
               :link => 'files/Seil-11.0.0.dmg',

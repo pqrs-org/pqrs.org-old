@@ -130,7 +130,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-11.0.0.dmg">Seil-11.0.0をダウンロード
+            href="files/Seil-11.1.0.dmg">Seil-11.1.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
 
       <div class="alert alert-info">
@@ -611,6 +611,19 @@ $ sh ~/Desktop/seil-import.sh
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 11.1.0
+              <small>
+2015年5月6日              </small>
+
+              <a class="btn btn-default" href="files/Seil-11.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>既知のキーコードの一覧を更新しました。li>
+</ul>
 
           <h2>
             Version 11.0.0
