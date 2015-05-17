@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.53</title>
+      <title>Version 10.6.54</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.53 Update</h2>
+<h2>About v10.6.54 Update</h2>
 <ul>
+  <li>v10.6.54: Reduce unnecessary modifier events.</li>
   <li>v10.6.53: Prepared settings have been updated.</li>
   <li>v10.6.51: Fast User Switching support has been improved.</li>
   <li>v10.6.50: Minor update.</li>
@@ -91,10 +92,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sat, 16 May 2015 06:10:18 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.53.dmg"
-                 sparkle:version="10.6.53" length="3773296" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCB98sOvgGq+OCL2a44nytD+ZqN9AIUblfNQ+56eH5XRHtk6OqQmDj4smc="
+      <pubDate>Sun, 17 May 2015 18:44:26 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.54.dmg"
+                 sparkle:version="10.6.54" length="3773334" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCAx2+2XV2lBXSM+rZ5Ex2OHnOCMAIUPMj34SL1E+uz7CrJwp9qYrsgwgQ="
                  />
     </item>
 
