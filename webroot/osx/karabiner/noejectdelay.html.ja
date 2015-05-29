@@ -120,7 +120,10 @@
 
       <ul>
           <li>NoEjectDelayはEjectキーの遅延を無効化します。</li>
-          <li>NoEjectDelayはF12Eject機能を無効化します。</li>
+          <li>
+            NoEjectDelayはF12Eject機能を無効化します。<br />
+            （アップル製のキーボード以外でのf12キーの奇妙な挙動を改善します。）
+          </li>
       </ul>
 
       <p>

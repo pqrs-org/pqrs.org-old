@@ -120,7 +120,10 @@
 
       <ul>
           <li>NoEjectDelay eliminates the eject key delay.</li>
-          <li>NoEjectDelay disables F12Eject feature.</li>
+          <li>
+            NoEjectDelay disables F12Eject feature.<br />
+            (Fix peculiar behavior of f12 key in non-Apple keyboards.)
+          </li>
       </ul>
 
       <p>
