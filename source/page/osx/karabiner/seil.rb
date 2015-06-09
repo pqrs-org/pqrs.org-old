@@ -72,6 +72,25 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '11.2.0',
+              :updated => '2015-06-09',
+              :link => 'files/Seil-11.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>OS X 10.11 has been supported.</li>
+  <li>Fast User Switching support has been improved.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.11をサポートしました。</li>
+  <li>ファストユーザスイッチ機能のサポートを改善しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '11.1.0',
               :updated => '2015-05-06',
               :link => 'files/Seil-11.1.0.dmg',

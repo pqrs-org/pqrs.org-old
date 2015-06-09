@@ -130,8 +130,8 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-11.1.0.dmg">Download Seil-11.1.0
-            &nbsp;<span class="label label-default">For OS X 10.10, 10.9</span></a>      </p>
+            href="files/Seil-11.2.0.dmg">Download Seil-11.2.0
+            &nbsp;<span class="label label-default">For OS X 10.11, 10.10, 10.9</span></a>      </p>
 
       <div class="alert alert-info">
           Prior to version 10.7.0, Seil was called <b>PCKeyboardHack</b>.
@@ -617,6 +617,20 @@ $ sh ~/Desktop/seil-import.sh
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 11.2.0
+              <small>
+Jun 9, 2015              </small>
+
+              <a class="btn btn-default" href="files/Seil-11.2.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.11 has been supported.</li>
+  <li>Fast User Switching support has been improved.</li>
+</ul>
 
           <h2>
             Version 11.1.0
