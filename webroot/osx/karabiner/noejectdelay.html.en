@@ -128,8 +128,8 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/NoEjectDelay-6.0.0.dmg">Download NoEjectDelay-6.0.0
-            &nbsp;<span class="label label-default">For OS X 10.10, 10.9</span></a>      </p>
+            href="files/NoEjectDelay-6.1.0.dmg">Download NoEjectDelay-6.1.0
+            &nbsp;<span class="label label-default">For OS X 10.11, 10.10, 10.9</span></a>      </p>
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">Download NoEjectDelay-5.4.0
@@ -250,13 +250,13 @@ src="img/pkg.png" width="128" height="128"                />
 
             <pre>
 $ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-org.pqrs.driver.NoEjectDelay (6.0.0)
+org.pqrs.driver.NoEjectDelay (6.1.0)
 org.pqrs.driver.Seil (11.2.0)
 org.pqrs.driver.Karabiner (10.6.0)
 </pre>
 
             <p>
-                The number (6.0.0) is the installed version.
+                The number (6.1.0) is the installed version.
             </p>
           </div>
         </div>
@@ -281,13 +281,13 @@ org.pqrs.driver.Karabiner (10.6.0)
             </p>
 
             <pre>
-org.pqrs.driver.NoEjectDelay (6.0.0)
+org.pqrs.driver.NoEjectDelay (6.1.0)
 org.pqrs.driver.Seil (11.2.0)
 org.pqrs.driver.Karabiner (10.6.0)
 </pre>
 
             <p>
-                The number (6.0.0) is the installed version.
+                The number (6.1.0) is the installed version.
             </p>
           </div>
         </div>
@@ -387,6 +387,19 @@ org.pqrs.driver.Karabiner (10.6.0)
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 6.1.0
+              <small>
+Jun 9, 2015              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-6.1.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.11 has been supported.</li>
+</ul>
 
           <h2>
             Version 6.0.0

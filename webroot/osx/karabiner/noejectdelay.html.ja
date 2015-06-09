@@ -128,8 +128,8 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/NoEjectDelay-6.0.0.dmg">NoEjectDelay-6.0.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
+            href="files/NoEjectDelay-6.1.0.dmg">NoEjectDelay-6.1.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">NoEjectDelay-5.4.0をダウンロード
@@ -248,13 +248,13 @@ src="img/pkg.png" width="128" height="128"                />
 
             <pre>
 $ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-org.pqrs.driver.NoEjectDelay (6.0.0)
+org.pqrs.driver.NoEjectDelay (6.1.0)
 org.pqrs.driver.Seil (11.2.0)
 org.pqrs.driver.Karabiner (10.6.0)
 </pre>
 
             <p>
-                数字（6.0.0）がインストール済みのバージョンです。
+                数字（6.1.0）がインストール済みのバージョンです。
             </p>
           </div>
         </div>
@@ -279,13 +279,13 @@ org.pqrs.driver.Karabiner (10.6.0)
             </p>
 
             <pre>
-org.pqrs.driver.NoEjectDelay (6.0.0)
+org.pqrs.driver.NoEjectDelay (6.1.0)
 org.pqrs.driver.Seil (11.2.0)
 org.pqrs.driver.Karabiner (10.6.0)
 </pre>
 
             <p>
-                数字（6.0.0）がインストール済みのバージョンです。
+                数字（6.1.0）がインストール済みのバージョンです。
             </p>
           </div>
         </div>
@@ -382,6 +382,19 @@ org.pqrs.driver.Karabiner (10.6.0)
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 6.1.0
+              <small>
+2015年6月9日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-6.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.11をサポートしました。</li>
+</ul>
 
           <h2>
             Version 6.0.0
