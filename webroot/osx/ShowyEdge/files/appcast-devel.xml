@@ -7,19 +7,20 @@
     <language>en</language>
 
     <item>
-      <title>Version 2.1.1</title>
+      <title>Version 2.1.2</title>
       <description><![CDATA[
-<h2>About v2.1.1 Update</h2>
+<h2>About v2.1.2 Update</h2>
 <ul>
+  <li>v2.1.2: Update Sparkle.</li>
   <li>v2.1.1: Minor UI update.</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Tue, 02 Dec 2014 20:22:00 +0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.1.1.dmg"
-                 sparkle:version="2.1.1" length="1469335" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCHh3PnsAzOIMqBVDdoFYSlx1dstAIVAIbJwORivW1IkDkXALyAeeMTtuXL"
+      <pubDate>Tue, 09 Jun 2015 15:58:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.1.2.dmg"
+                 sparkle:version="2.1.2" length="1491709" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCI4vX9UC+mQE2qVDBJ07nxPtv9BAhUAjmLCTPwhn/Ykq5dwm2QZYX4acgo="
       />
     </item>
 
