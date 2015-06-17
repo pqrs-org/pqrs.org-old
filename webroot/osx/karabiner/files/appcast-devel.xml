@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.65</title>
+      <title>Version 10.6.66</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.65 Update</h2>
+<h2>About v10.6.66 Update</h2>
 <ul>
+  <li>v10.6.66: Prepared settings have been updated.</li>
   <li>v10.6.65: `&lt;appdef&gt;` behavior has been improved. It preserves prepared settings when you use `&lt;appdef&gt;` in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
   <li>
     v10.6.64: Fixed issue:
@@ -108,10 +109,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 15 Jun 2015 16:13:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.65.dmg"
-                 sparkle:version="10.6.65" length="3800389" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAHZA8uyo9XjfP1MxyMTAFCFzd9XAhR2Kujy/7VgtZvnPaINvE8c0HbD2w=="
+      <pubDate>Wed, 17 Jun 2015 08:58:36 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.66.dmg"
+                 sparkle:version="10.6.66" length="3799621" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHQEHW1iCVEz4uqqbDmxNEBDfRcIAhQjOOODTOvoCydurSvb3VOj0YtIiA=="
                  />
     </item>
 
