@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.73</title>
+      <title>Version 10.6.74</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.73 Update</h2>
+<h2>About v10.6.74 Update</h2>
 <ul>
+  <li>v10.6.74: "high_priority" attribute has been introduced into &lt;identifier&gt; tag.</li>
   <li>v10.6.73: Minor update of multitouch extension.</li>
   <li>v10.6.73: Prepared settings have been updated.</li>
   <li>v10.6.72: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
@@ -117,10 +118,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Sun, 28 Jun 2015 12:38:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.73.dmg"
-                 sparkle:version="10.6.73" length="3802398" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCAGJMsxaRShfDtlKcAkEgcAN0TKgIVAIGvEJumxDvGZpYu7b2uCVOXzH2E"
+      <pubDate>Sun, 28 Jun 2015 15:03:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.74.dmg"
+                 sparkle:version="10.6.74" length="3802047" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFD5CAA25w42OxkTjKHsZtjOIkU3nAhRLkahqs39T2y0fsUrPYhjjuPi0Ow=="
                  />
     </item>
 
