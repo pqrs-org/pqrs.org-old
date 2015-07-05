@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.75</title>
+      <title>Version 10.6.76</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.75 Update</h2>
+<h2>About v10.6.76 Update</h2>
 <ul>
+  <li>v10.6.76: Improved __DropAllKeys__.</li>
   <li>v10.6.75: Minor update of multitouch extension.</li>
   <li>v10.6.74: "high_priority" attribute has been introduced into &lt;identifier&gt; tag.</li>
   <li>v10.6.73: Minor update of multitouch extension.</li>
@@ -119,10 +120,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 30 Jun 2015 04:42:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.75.dmg"
-                 sparkle:version="10.6.75" length="3803044" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFA1qCmDoj4fQSJMgvxPioiN5LilZAhRVRfG5kqPwwzKbzlbmX8szzP/ctg=="
+      <pubDate>Sun, 05 Jul 2015 14:56:49 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.76.dmg"
+                 sparkle:version="10.6.76" length="3803966" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAvakWvGKYLXCCDdvW/zuvsRVXhwAhQcromDWAH7qRqhGAswJYguIMlI9A=="
                  />
     </item>
 
