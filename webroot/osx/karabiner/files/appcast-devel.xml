@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.77</title>
+      <title>Version 10.6.78</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.77 Update</h2>
+<h2>About v10.6.78 Update</h2>
 <ul>
+  <li>v10.6.78: `KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*` have been added.</li>
   <li>v10.6.77: Update procedure has been improved by Sparkle's guided installation.</li>
   <li>v10.6.76: Improved __DropAllKeys__.</li>
   <li>v10.6.75: Minor update of multitouch extension.</li>
@@ -121,10 +122,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 06 Jul 2015 02:20:52 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.77.dmg"
-                 sparkle:version="10.6.77" length="3804064" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHFvGTfele4FV+IEkILvmSeONOauAhRjVM1J1lNLXvcd34l85Yrx/TJ8cQ=="
+      <pubDate>Mon, 06 Jul 2015 14:22:22 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.78.dmg"
+                 sparkle:version="10.6.78" length="3803742" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFMMrIswO/SplO/ul//3VsJWGm4xAhRfEvq6rsBPQTZKTLxc1/xp86Y/Aw=="
                  />
     </item>
 
