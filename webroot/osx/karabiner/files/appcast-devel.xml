@@ -15,7 +15,7 @@
 
 <h2>About v10.6.77 Update</h2>
 <ul>
-  <li>v10.6.77: Minor update.</li>
+  <li>v10.6.77: Update procedure has been improved by Sparkle's guided installation.</li>
   <li>v10.6.76: Improved __DropAllKeys__.</li>
   <li>v10.6.75: Minor update of multitouch extension.</li>
   <li>v10.6.74: "high_priority" attribute has been introduced into &lt;identifier&gt; tag.</li>
