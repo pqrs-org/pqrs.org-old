@@ -1229,6 +1229,12 @@ $ sh ~/Desktop/karabiner-import.sh
 $ sudo sysctl -w karabiner.debug=1
 Password: &lt;enter your password&gt;
 </pre>
+
+            <p>
+              <span class="label label-info">Note</span>
+                <code>$</code>はプロンプトです。
+                <code>sudo</code>から入力してください。
+            </p>
           </li>
 
           <li>

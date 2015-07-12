@@ -1232,6 +1232,12 @@ $ sh ~/Desktop/karabiner-import.sh
 $ sudo sysctl -w karabiner.debug=1
 Password: &lt;enter your password&gt;
 </pre>
+
+            <p>
+              <span class="label label-info">Note</span>
+                <code>$</code> is prompt.
+                Please input from <code>sudo</code>.
+            </p>
           </li>
 
           <li>
