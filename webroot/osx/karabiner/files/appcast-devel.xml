@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.82</title>
+      <title>Version 10.6.83</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.82 Update</h2>
+<h2>About v10.6.83 Update</h2>
 <ul>
+  <li>v10.6.83: `&lt;windownamedef&gt;` behavior has been improved as same as appdef improvement at v10.6.65.</li>
   <li>v10.6.82: Show Karabiner internal information @ EventViewer &gt; App</li>
   <li>v10.6.81: Minor update.</li>
   <li>v10.6.80: `KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*` have been improved.</li>
@@ -126,10 +127,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Wed, 15 Jul 2015 15:12:57 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.82.dmg"
-                 sparkle:version="10.6.82" length="3806092" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFutOHlohqQNyFxIjaTW/u+Dwx0QAhQ7hhpQnjoyY21NyBqcxno5DF07EA=="
+      <pubDate>Sat, 18 Jul 2015 14:17:48 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.83.dmg"
+                 sparkle:version="10.6.83" length="3808179" type="application/octet-stream"
+                 sparkle:dsaSignature="MCsCFDd3OB0j2JaFRgwbZ7h0qihwIpQdAhNrsmqZWZm8KeaZrboByTUwJt/s"
                  />
     </item>
 
