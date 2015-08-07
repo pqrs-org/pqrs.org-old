@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.90</title>
+      <title>Version 10.6.91</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.90 Update</h2>
+<h2>About v10.6.91 Update</h2>
 <ul>
+  <li>v10.6.91: Minor update.</li>
   <li>v10.6.90: Add `be_careful_to_use__clear_all_values_by_name` into command line interface.</li>
   <li>v10.6.89: Minor update.</li>
   <li>v10.6.88: Prepared settings have been updated.</li>
@@ -139,10 +140,10 @@
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Tue, 04 Aug 2015 02:56:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.90.dmg"
-                 sparkle:version="10.6.90" length="3807853" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFE9r68uj9A7HXSggB08yn6aHpODQAhR3YI+yc0YZHIU7oe4m85yHLX7iaA=="
+      <pubDate>Fri, 07 Aug 2015 03:16:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.91.dmg"
+                 sparkle:version="10.6.91" length="3807800" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHAQWLFLkNP2mPNevesDQo+4fvi4AhRDRhWEVFJ3Pd0P//tgQ40Wiz8V+A=="
                  />
     </item>
 
