@@ -72,6 +72,33 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '11.3.0',
+              :updated => '2015-08-08',
+              :link => 'files/Seil-11.3.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>OS X 10.11 beta 6でkextが読み込まれない問題を修正しました。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '11.2.0',
               :updated => '2015-06-09',
               :link => 'files/Seil-11.2.0.dmg',
