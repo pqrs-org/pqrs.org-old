@@ -7,25 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.2.4</title>
+      <title>Version 11.3.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v11.2.4 Update</h2>
+<h2>About v11.3.0 Update</h2>
 <ul>
-  <li>v11.2.4: Support OS X 10.11 beta 6.</li>
-  <li>v11.2.2: Update procedure has been improved by Sparkle's guided installation.</li>
-  <li>v11.2.1: Minor update.</li>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
 ]]>
       </description>
-      <pubDate>Sat, 08 Aug 2015 16:54:54 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.2.4.dmg"
-                 sparkle:version="11.2.4" length="1610422" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDYZRNvGj3n2TGaynCfeRY5LpyTfgIUH5k84/j6KWOidT+TaTPDpdVU9Mk="
+      <pubDate>Sat, 08 Aug 2015 17:54:50 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.3.0.dmg"
+                 sparkle:version="11.3.0" length="1610255" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDe1IOl0hpkYqqIEZ5z8H+ZUJoW3wIUUkfIYQkauo4b5O6z0fsFzy9mdwU="
                  />
     </item>
 
