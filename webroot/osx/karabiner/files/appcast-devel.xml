@@ -16,7 +16,7 @@
 <h2>About v10.7.0 Update</h2>
 <ul>
   <li>
-    <i>Incompatibility changes:</i>
+    Incompatibility changes:
     <ul>
       <li>The default mouse keys scroll direction has been changed to natural.</li>
       <li>
