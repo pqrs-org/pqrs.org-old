@@ -7,147 +7,65 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.6.95</title>
+      <title>Version 10.7.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.6.95 Update</h2>
+<h2>About v10.7.0 Update</h2>
 <ul>
-  <li>v10.6.95: Minor update.</li>
-  <li>v10.6.94: Minor update.</li>
-  <li>v10.6.93: Add `--flag` into post-hid-event command.</li>
-  <li>v10.6.92: kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
-  <li>v10.6.91: Minor update.</li>
-  <li>v10.6.90: Add `be_careful_to_use__clear_all_values_by_name` into command line interface.</li>
-  <li>v10.6.89: Minor update.</li>
-  <li>v10.6.88: Prepared settings have been updated.</li>
-  <li>v10.6.87: Prepared settings have been updated.</li>
-  <li>v10.6.86: Prepared settings have been updated.</li>
-  <li style="color: #ff0033">
-    Incompatibility changes:
+  <li style="color: red; font-weight: bold">
+    <i>Incompatibility changes:</i>
     <ul>
-      <li>v10.6.85: `&lt;inputsourcedetail_only&gt;` and `&lt;inputsourcedetail_not&gt;` filters have been merged into `&lt;inputsource_only&gt;` and `&lt;inputsource_not&gt;`. <br />
-      Please use `&lt;inputsource_only&gt;` and `&lt;inputsource_not&gt;` in your private.xml.</li>
+      <li>The default mouse keys scroll direction has been changed to natural.</li>
+      <li>
+        &lt;inputsourcedetail_only&gt; and &lt;inputsourcedetail_not&gt; filters have been merged into &lt;inputsource_only&gt; and &lt;inputsource_not&gt;.<br />
+        Please use &lt;inputsource_only&gt; and &lt;inputsource_not&gt; in your private.xml.
+      </li>
     </ul>
   </li>
-  <li>v10.6.83: `&lt;windownamedef&gt;` behavior has been improved as same as appdef improvement at v10.6.65.</li>
-  <li>v10.6.82: Show Karabiner internal information @ EventViewer &gt; App</li>
-  <li>v10.6.81: Minor update.</li>
-  <li>v10.6.80: `KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*` have been improved.</li>
-  <li>v10.6.79: Minor update.</li>
-  <li>v10.6.78: `KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*` have been added.</li>
-  <li>v10.6.77: Update procedure has been improved by Sparkle's guided installation.</li>
-  <li>v10.6.76: Improved __DropAllKeys__.</li>
-  <li>v10.6.75: Minor update of multitouch extension.</li>
-  <li>v10.6.74: "high_priority" attribute has been introduced into &lt;identifier&gt; tag.</li>
-  <li>v10.6.73: Minor update of multitouch extension.</li>
-  <li>v10.6.73: Prepared settings have been updated.</li>
-  <li>v10.6.72: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
-  <li>v10.6.71: Prepared settings have been updated.</li>
-  <li>v10.6.70: __KeyOverlaidModifier__ with PointingButton has been improved.</li>
-  <li>v10.6.69: Prepared settings have been updated.</li>
-  <li>v10.6.68: Minor update.</li>
-  <li>v10.6.67: Prepared settings have been updated.</li>
-  <li>v10.6.66: Prepared settings have been updated.</li>
-  <li>v10.6.65: `&lt;appdef&gt;` behavior has been improved. It preserves prepared settings when you use `&lt;appdef&gt;` in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
+  <li>New option has been added into command line interface: toggle, be_careful_to_use__clear_all_values_by_name</li>
+  <li>"Status Message &gt; Show caps lock state" option has been added.</li>
+  <li>Multiple displays support has been improved. The status message will be shown in the all screen.</li>
+  <li>Fast User Switching support has been improved.</li>
+  <li>Prepared settings have been updated.</li>
   <li>
-    v10.6.64: Fixed issue:
+    Updates for people who add new settings by oneself:
     <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (RazorSQL, EditRocket)</li>
-    </ul>
-  </li>
-  <li>v10.6.63: Prepared settings have been updated.</li>
-  <li>v10.6.62: Prepared settings have been updated.</li>
-  <li>v10.6.61: ModifierFlag pattern matching has been introduced into Option::KEYTOKEY_AFTER_KEYUP.</li>
-  <li>v10.6.60: Reduce unnecessary modifier key events in __KeyOverlaidModifier__ and __HoldingKeyToKey__.</li>
-  <li>v10.6.59: Minor update.</li>
-  <li>v10.6.58: Prepared settings have been updated.</li>
-  <li>v10.6.57: Prepared settings have been updated.</li>
-  <li>v10.6.56: Prepared settings have been updated.</li>
-  <li>v10.6.55: Prepared settings have been updated.</li>
-  <li>v10.6.54: Reduce unnecessary modifier events.</li>
-  <li>v10.6.53: Prepared settings have been updated.</li>
-  <li>v10.6.51: Fast User Switching support has been improved.</li>
-  <li>v10.6.50: Minor update.</li>
-  <li>v10.6.49: Add Quicksilver support into AXNotifier.</li>
-  <li>v10.6.48: Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS has been added.</li>
-  <li>v10.6.47: Improved __DropAllKeys__.</li>
-  <li>v10.6.46: Improved __DropAllKeys__.</li>
-  <li>v10.6.45: Change __DropKey__ to __DropAllKeys__ and improved it.</li>
-  <li>v10.6.44: Prepared settings have been updated.</li>
-  <li>v10.6.43: Change Option::SIMULTANEOUSKEYPRESSES_RAW_WITH_ORIGINAL_EVENTS to Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW.</li>
-  <li>v10.6.42: Minor update.</li>
-  <li>v10.6.41: Improved `Option::SIMULTANEOUSKEYPRESSES_RAW_WITH_ORIGINAL_EVENTS`.</li>
-  <li>v10.6.40: `Option::SIMULTANEOUSKEYPRESSES_RAW_WITH_ORIGINAL_EVENTS` has been added.</li>
-  <li>v10.6.39: Improved __DropKey__.</li>
-  <li>v10.6.37: Improved modifier treatment in __HoldingKeyToKey__.</li>
-  <li style="color: #ff0033">
-    Incompatibility changes:
-    <ul>
-      <li>v10.6.36: The default mouse keys scroll direction has been changed to `natural`.</li>
-    </ul>
-  </li>
-  <li>v10.6.35: Minor update.</li>
-  <li>v10.6.34: Multiple displays support has been improved. The status message will be shown in the all screen.</li>
-  <li>v10.6.33: Minor update.</li>
-  <li>v10.6.32: "Status Message &gt; Show caps lock state" option has been added.</li>
-  <li>v10.6.31: Minor update.</li>
-  <li>v10.6.29: Prepared settings have been updated.</li>
-  <li>v10.6.28: &lt;background/&gt; support to &lt;vkopenurldef&gt; has been added.</li>
-  <li>v10.6.27: Prepared settings have been updated.</li>
-  <li>v10.6.26: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
-  <li>v10.6.25: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
-  <li>v10.6.24: Prepared settings have been updated.</li>
-  <li>v10.6.23: Fixed a Sparkle issue that has been introduced at v10.6.22.</li>
-  <li>v10.6.22: Option::KEYTOKEY_DELAYED_ACTION has been improved.</li>
-  <li>v10.6.22: Prepared settings have been updated.</li>
-  <li>v10.6.21: Prepared settings have been updated.</li>
-  <li>v10.6.20: Option::KEYTOKEY_TIMEOUT has been renamed to Option::KEYTOKEY_DELAYED_ACTION.</li>
-  <li>v10.6.19: Option::KEYTOKEY_TIMEOUT has been improved.</li>
-  <li>v10.6.18: Option::KEYTOKEY_TIMEOUT has been improved.</li>
-  <li>v10.6.17: Prepared settings have been updated.</li>
-  <li>v10.6.16: Prepared settings have been updated.</li>
-  <li>v10.6.15: Prepared settings have been updated.</li>
-  <li>v10.6.14: Option::KEYTOKEY_TIMEOUT has been added.</li>
-  <li>v10.6.13: New option has been added into command line interface: `toggle`</li>
-  <li>v10.6.12: Fixed issue: post-hid-event command was not included in the package.</li>
-  <li>v10.6.11: Prepared settings have been updated.</li>
-  <li>
-    v10.6.10: Fixed issue:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse)</li>
+      <li>__DropAllKeys__ has been added.</li>
+      <li>Option::KEYTOKEY_DELAYED_ACTION has been added.</li>
+      <li>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS has been added.</li>
+      <li>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW has been added.</li>
+      <li>
+        The following filters have been added.
+        <ul>
+          <li>&lt;pressingphysicalkeys_greaterthan&gt;</li>
+          <li>&lt;pressingphysicalkeys_lessthan&gt;</li>
+        </ul>
+      </li>
+      <li>__HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
+      <li>ModifierFlag pattern matching has been introduced into Option::KEYTOKEY_AFTER_KEYUP.</li>
+      <li>high_priority attribute has been introduced into &lt;identifier&gt; tag.</li>
+      <li>&lt;appdef&gt; behavior has been improved. It preserves prepared settings when you use &lt;appdef&gt; in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
+      <li>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_* have been added.</li>
     </ul>
   </li>
   <li>
-    v10.6.9: The following filters have been added.
+    Fixed issues:
     <ul>
-      <li>&lt;pressingphysicalkeys_greaterthan&gt;</li>
-      <li>&lt;pressingphysicalkeys_lessthan&gt;</li>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse, Screencast-O-Matic, RazorSQL, EditRocket)</li>
+      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
     </ul>
   </li>
-  <li>v10.6.8: A command line tool has been added: post-hid-event.</li>
-  <li>v10.6.7: Prepared settings have been updated.</li>
-  <li>v10.6.6: Prepared settings have been updated.</li>
-  <li>
-    v10.6.5: Fixed issue:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Screencast-O-Matic)</li>
-    </ul>
-  </li>
-  <li>v10.6.4: Prepared settings have been updated.</li>
-  <li>v10.6.3: __HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
-  <li>v10.6.2: Prepared settings have been updated.</li>
-  <li>v10.6.1: Prepared settings have been updated.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
 ]]>
       </description>
-      <pubDate>Mon, 10 Aug 2015 13:35:21 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.6.95.dmg"
-                 sparkle:version="10.6.95" length="3805588" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBMG25iKlSKZnNHGpK9p+VYgw/1+AhQCr/6Jwwhwv01nFEp7/PDy1KRYhQ=="
+      <pubDate>Mon, 10 Aug 2015 14:25:09 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.0.dmg"
+                 sparkle:version="10.7.0" length="3805711" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCH6rfcToxu8f7T7omPLNSniJ8GyAhQeCbyUJ4KbGwV0mjesA57I623pkw=="
                  />
     </item>
 
