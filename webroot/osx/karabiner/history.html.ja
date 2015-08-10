@@ -121,6 +121,61 @@
       </h1>
     </div>
       <h2>
+        Version 10.7.0
+          <small>
+2015年8月10日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.7.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    互換性がない変更点:
+    <ul>
+      <li>マウスキーのスクロール方向のデフォルト値を「natural」に変更しました。</li>
+      <li>
+        <code>&lt;inputsourcedetail_only&gt;</code>と<code>&lt;inputsourcedetail_not&gt;</code>フィルタを、<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>に統合しました。<br />
+        private.xmlでは<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>を使ってください。
+      </li>
+    </ul>
+  </li>
+  <li>コマンドラインインターフェースにオプションを追加しました: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>「Status Message &gt; Show caps lock state」の設定を加えました。</li>
+  <li>マルチディスプレイのサポートを改善しました。ステータスメッセージを全てのディスプレイで表示します。</li>
+  <li>ファストユーザスイッチのサポートを改善しました。</li>
+  <li>設定の追加・更新をしました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li><code>__DropAllKeys__</code>を追加しました。</li>
+      <li><code>Option::KEYTOKEY_DELAYED_ACTION</code>を追加しました。</li>
+      <li><code>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS</code>を追加しました。</li>
+      <li><code>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW</code>を追加しました。</li>
+      <li>
+        以下のフィルタを追加しました。
+        <ul>
+          <li><code>&lt;pressingphysicalkeys_greaterthan&gt;</code></li>
+          <li><code>&lt;pressingphysicalkeys_lessthan&gt;</code></li>
+        </ul>
+      </li>
+      <li>モディファイアが押されているときの<code>__HoldingKeyToKey__</code>の挙動を改善しました。</li>
+      <li><code>Option::KEYTOKEY_AFTER_KEYUP</code>にモディファイアの状態によって挙動を変化する機能を追加しました。</li>
+      <li><code>&lt;identifier&gt;</code>タグに<code>high_priority</code>属性を追加しました。</li>
+      <li><code>&lt;appdef&gt;</code>を改善しました。private.xmlの<code>&lt;appdef&gt;</code>で既存のappdef.xmlに含まれるBundle Identifierを指定しても、既存の設定を壊さなくなりました。</li>
+      <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code>を追加しました。</li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Eclipse, Screencast-O-Matic, RazorSQL, EditRocket）</li>
+      <li>OS X 10.11 beta 6でkextがロードされない。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.6.0
           <small>
 2015年1月13日          </small>

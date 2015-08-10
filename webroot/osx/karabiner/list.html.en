@@ -122,12 +122,12 @@
     </div>
 
     <h2>
-      Karabiner-10.6.0 (Total: 2133 items)
+      Karabiner-10.7.0 (Total: 2197 items)
     </h2>
 
 <ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
   (For example: Generic USB keyboard)</li><li>Don't remap non-Apple's pointing devices
-  (For example: Generic USB mouse)</li><li>Don't remap keyboards which has third vendor's driver
+  (For example: Generic USB mouse)</li><li>Don't remap keyboards which have third vendor's driver
   (Logitech, Microsoft, Kensington, ...)</li><li>Don't remap pointing devices which has third vendor's driver
   (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Disable an internal keyboard while external keyboards are connected.<ul><li>Disable an internal keyboard while external keyboards are connected.
 
@@ -168,15 +168,12 @@
   You can disable all settings temporarily.
   Turn on a setting below, and toggle "Pass Through Mode".</li><li>Change Fn+Escape to toggle "Pass Through Mode"</li><li>Simultaneous Key Presses [Escape+Tab] to toggle "Pass Through Mode"</li><li>Holding Escape to toggle "Pass Through Mode"</li></ul></li><li>Pointing Device<ul><li>Reverse scrolling direction<ul><li>Important:
   Items are exclusive. Choose one item.</li><li>Reverse Vertical &amp; Horizontal Scrolling</li><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li></ul></li><li>CursorMove to ScrollWheel<ul><li>We can scroll pages by moving the mouse pointer.
-  (Also, you can generate a click event if you click without moving)</li><li>RightClick+CursorMove to ScrollWheel</li><li>MiddleClick+CursorMove to ScrollWheel</li><li>MouseButton4+CursorMove to ScrollWheel</li><li>MouseButton5+CursorMove to ScrollWheel</li><li>Control+RightClick+CursorMove to ScrollWheel</li><li>Shift+RightClick+CursorMove to ScrollWheel</li><li>Command+Control+CursorMove to ScrollWheel</li><li>Command+CursorMove to ScrollWheel</li><li>Fn+CursorMove to ScrollWheel</li><li>Option+CursorMove to ScrollWheel</li><li>(Simultaneous) LeftClick+RightClick+CursorMove to ScrollWheel</li><li>Space+CursorMove to ScrollWheel</li><li>CursorMove to ScrollWheel Option<ul><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li><li>Enable dynamic scrollwheel direction fixation (Horizontal/Vertical)</li><li>Disable Horizontal Scroll</li><li>Disable Vertical Scroll</li><li>Disable Momentum Scroll</li></ul></li></ul></li><li>Button to Button<ul><li>Command+LeftClick to Mouse Button 4</li><li>Control+LeftClick to LeftClick</li><li>Control+LeftClick to MiddleClick</li><li>Fn+LeftClick to MiddleClick</li><li>Fn+LeftClick to Option_L+LeftClick</li><li>Option+LeftClick to MiddleClick</li><li>RightClick to LeftClick</li><li>Control+RightClick to Double-LeftClick</li><li>Fn+RightClick to Mouse Button 5</li><li>MiddleClick to Command+LeftClick</li><li>MouseButton4 to MiddleClick
+  (Also, you can generate a click event if you click without moving)</li><li>RightClick+CursorMove to ScrollWheel</li><li>MiddleClick+CursorMove to ScrollWheel</li><li>MouseButton4+CursorMove to ScrollWheel</li><li>MouseButton5+CursorMove to ScrollWheel</li><li>Control+RightClick+CursorMove to ScrollWheel</li><li>Shift+RightClick+CursorMove to ScrollWheel</li><li>Command+Control+CursorMove to ScrollWheel</li><li>Command+CursorMove to ScrollWheel</li><li>Fn+CursorMove to ScrollWheel</li><li>Option+CursorMove to ScrollWheel</li><li>(Simultaneous) LeftClick+RightClick+CursorMove to ScrollWheel</li><li>Space+CursorMove to ScrollWheel</li><li>CursorMove to ScrollWheel Option<ul><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li><li>Enable dynamic scrollwheel direction fixation (Horizontal/Vertical)</li><li>Disable Horizontal Scroll</li><li>Disable Vertical Scroll</li><li>Disable Momentum (Inertia) Scroll</li></ul></li></ul></li><li>Button to Button<ul><li>Command+LeftClick to Mouse Button 4</li><li>Control+LeftClick to LeftClick</li><li>Control+LeftClick to MiddleClick</li><li>Fn+LeftClick to MiddleClick</li><li>Fn+LeftClick to Option_L+LeftClick</li><li>Option+LeftClick to MiddleClick</li><li>RightClick to LeftClick</li><li>Control+RightClick to Double-LeftClick</li><li>Fn+RightClick to Mouse Button 5</li><li>MiddleClick to Command+LeftClick</li><li>MouseButton4 to MiddleClick
   (+ MouseButton4+CursorMove to ScrollWheel)</li><li>MouseButton4 to Back (command-[)
   (+ MouseButton4+CursorMove to ScrollWheel)</li><li>Middle to Back (command-[)
   (+ Middle+CursorMove to ScrollWheel)</li><li>(Simultaneous) LeftClick+RightClick to MiddleClick</li><li>(Simultaneous) LeftClick+RightClick to Button4</li><li>(Simultaneous) LeftClick+RightClick to Button5</li></ul></li><li>Button to Key<ul><li>MiddleClick to Dashboard</li><li>MiddleClick to Expose</li><li>MiddleClick to F8</li><li>MiddleClick to Control+F4 (= Move focus to active or next window)</li><li>Use Button4 and Button5 as Back/Forward<ul><li>Set 1: Button4 to Command+[ (Back)</li><li>Set 1: Button5 to Command+] (Forward)</li><li>Set 2: Button4 to Command+] (Forward)</li><li>Set 2: Button5 to Command+[ (Back)</li></ul></li><li>Open Mission Control when you press and hold the right button for 500 milliseconds.</li><li>(Simultaneous) LeftClick+RightClick to Dashboard</li><li>(Simultaneous) LeftClick+RightClick to Expose</li><li>(Simultaneous) LeftClick+RightClick to F8</li></ul></li><li>Change ScrollWheel<ul><li>Fn+ScrollWheel to Brightness Control
   (Fn+ScrollWheel Up to Brightness Up
-  (Fn+ScrollWheel Down to Brightness Down</li></ul></li><li>Change Modifiers on ScrollWheel<ul><li>Change Control+ScrollWheel to Command+ScrollWheel</li><li>Change Command+ScrollWheel to Control+ScrollWheel</li><li>Strip Modifiers<ul><li>Command+ScrollWheel to ScrollWheel (strip Command)</li><li>Control+ScrollWheel to ScrollWheel (strip Control)</li><li>Option+ScrollWheel to ScrollWheel (strip Option)</li><li>Shift+ScrollWheel to ScrollWheel (strip Shift)</li><li>Strip any modifiers from ScrollWheel</li></ul></li></ul></li><li>Change CursorMove to Key<ul><li>Change fn+CursorMove to PageUp/PageDown/Home/End</li><li>Change fn+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Change Arrow(Up/Down/Left/Right) Key<ul><li>Arrow(Down/Left/Right) to Command_L
-  Disable Up-Arrow</li><li>Arrow(Down/Left/Right) to Fn
-  Disable Up-Arrow</li><li>Arrow(Down/Left/Right) to Option_L
-  Disable Up-Arrow</li><li>Command+Arrow to Option_L+Arrow</li><li>Command-left/right arrow to option-left/right arrow</li><li>Control+Arrow to Option_L+Arrow</li><li>Option+Arrow to Command_L+Arrow</li><li>Command_R+Arrow to PageUp/PageDown/Home/End</li><li>Option_R+Arrow to PageUp/PageDown/Home/End</li><li>Left-Arrow to Control_L</li><li>Command+Left-Arrow to Shift_L+Home,Command_L+X
+  (Fn+ScrollWheel Down to Brightness Down</li></ul></li><li>Change Modifiers on ScrollWheel<ul><li>Change Control+ScrollWheel to Command+ScrollWheel</li><li>Change Command+ScrollWheel to Control+ScrollWheel</li><li>Strip Modifiers<ul><li>Command+ScrollWheel to ScrollWheel (strip Command)</li><li>Control+ScrollWheel to ScrollWheel (strip Control)</li><li>Option+ScrollWheel to ScrollWheel (strip Option)</li><li>Shift+ScrollWheel to ScrollWheel (strip Shift)</li><li>Strip any modifiers from ScrollWheel</li></ul></li></ul></li><li>Change CursorMove to Key<ul><li>Change fn+CursorMove to PageUp/PageDown/Home/End</li><li>Change fn+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End</li><li>Change Control+CursorMove to PageUp/PageDown/Home/End (direction: natural)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Change Arrow(Up/Down/Left/Right) Key<ul><li>Command+Arrow to Option_L+Arrow</li><li>Command-left/right arrow to option-left/right arrow</li><li>Control+Arrow to Option_L+Arrow</li><li>Option+Arrow to Command_L+Arrow</li><li>Command_R+Arrow to PageUp/PageDown/Home/End</li><li>Option_R+Arrow to PageUp/PageDown/Home/End</li><li>Left-Arrow to Control_L</li><li>Command+Left-Arrow to Shift_L+Home,Command_L+X
   (only in virtual machine, RDC)</li><li>Command+Left-Arrow to Shift_L+Home,Control_L+X
   (only in virtual machine, RDC)</li><li>Command+Left-Arrow to Command_L+Shift_L+Left-Arrow,Command_L+X
   (except virtual machine, RDC)</li><li>Command+Left-Arrow to Command_L+Shift_L+Left-Arrow,Control_L+X
@@ -188,7 +185,10 @@
   FN+Up-Arrow to Brightness Up (Consumer)
   FN+Down-Arrow to Brightness Down (Consumer)</li><li>Use FN+Up/Down to adjust brightness (Alternative)
   FN+Up-Arrow to Brightness Up (F15)
-  FN+Down-Arrow to Brightness Down (F14)</li></ul></li><li>Change Backquote(`) Key<ul><li>Backquote(`) to CapsLock</li><li>Backquote(`) to Command_L</li><li>Backquote(`) to Control_L</li><li>Backquote(`) to Option_L</li><li>Backquote(`) to Shift_L</li><li>Fn+Backquote(`) to Backslash(\)</li><li>Backquote(`) to Delete</li><li>Backquote(`) to Escape</li><li>Control+Backquote(`) to Escape</li><li>Fn+Backquote(`) to Fn+Enter</li><li>Backquote(`) to Escape if no modifiers pressed</li><li>Backquote(`) to Forward Delete</li><li>Backquote(`) to F8</li><li>Backquote(`) to Hashtag(#)
+  FN+Down-Arrow to Brightness Down (F14)</li><li>Use arrow keys as modifier keys<ul><li>Arrow(Down/Left/Right) to Command_L
+  Disable Up-Arrow</li><li>Arrow(Down/Left/Right) to Fn
+  Disable Up-Arrow</li><li>Arrow(Down/Left/Right) to Option_L
+  Disable Up-Arrow</li></ul></li><li>Disable arrow keys</li></ul></li><li>Change Backquote(`) Key<ul><li>Backquote(`) to CapsLock</li><li>Backquote(`) to Command_L</li><li>Backquote(`) to Control_L</li><li>Backquote(`) to Option_L</li><li>Backquote(`) to Shift_L</li><li>Fn+Backquote(`) to Backslash(\)</li><li>Backquote(`) to Delete</li><li>Backquote(`) to Escape</li><li>Control+Backquote(`) to Escape</li><li>Fn+Backquote(`) to Fn+Enter</li><li>Backquote(`) to Escape if no modifiers pressed</li><li>Backquote(`) to Forward Delete</li><li>Backquote(`) to F8</li><li>Backquote(`) to Hashtag(#)
   (Change Backquote to Shift+3)</li><li>Backquote(`) to Cmd+Option+L</li><li>Backquote(`) to Cmd+Space</li><li>Backquote(`) to LeftClick</li><li>Swap Command+Backquote(`) and Option+Backquote(`)</li></ul></li><li>Change Backslash(\) Key<ul><li>Backslash(\) to Fn
   (+ Fn+Backslash(\) to Backslash(\))</li><li>Backslash(\) to Delete</li><li>Backslash(\) to Delete
   (+ Fn+Backslash(\) to Backslash(\))
@@ -238,7 +238,7 @@
   (Note: Enter is sent when you release Command_R)</li><li>Control_L+Command_R to Return
   (Note: Return is sent when you release Command_R)</li><li>Shift_L+Command_R to Return
   (Note: Return is sent when you release Command_R)</li><li>Command_R to Command_R
-  (+ When you type Command_R only, send Control+F8 (Move focus to the status bar))</li></ul></li><li>Change Control_L Key (Left Control)<ul><li>Control_L to Command_L</li><li>Variations of specific apps<ul><li>Control_L to Command_L (only in virtual machine, RDC)</li><li>Control_L to Command_L (only in Terminal)</li><li>Control_L to Command_L (only in X11)</li><li>Control_L to Command_L (except Emacs)</li><li>Control_L to Command_L (except Terminal, Chrome, RDC)</li><li>Control_L to Command_L
+  (+ When you type Command_R only, send Control+F8 (Move focus to the status bar))</li><li>Send a section (§) key event when the right command key is pressed alone.</li></ul></li><li>Change Control_L Key (Left Control)<ul><li>Control_L to Command_L</li><li>Variations of specific apps<ul><li>Control_L to Command_L (only in virtual machine, RDC)</li><li>Control_L to Command_L (only in Terminal)</li><li>Control_L to Command_L (only in X11)</li><li>Control_L to Command_L (except Emacs)</li><li>Control_L to Command_L (except Terminal, Chrome, RDC)</li><li>Control_L to Command_L
   (except Terminal, Virtual Machine, RDC, VNC, TeamViewer, EMACS, X11, Citrix Viewer)</li><li>Control_L to Command_L (except Virtual Machine, RDC)</li><li>──────────────────────────────</li></ul></li><li>Control_L to Control_L
   (+ When you type Control_L only, send Delete)</li><li>Control_L to Control_L
   (+ When you type Control_L only, send Delete) + [KeyRepeat]</li><li>Control_L to Control_L
@@ -247,7 +247,8 @@
   (Note: Escape is sent when you release Control_L)</li><li>Shift_L+Control_L to Escape
   (Note: Escape is sent when you release Control_L)</li><li>Control_L to Forward Delete</li><li>Control_L to Return</li><li>Disable Control_L</li><li>Control_L x2 to Control_L+Space</li><li>Control_L to LeftClick</li><li>Control_L to RightClick</li></ul></li><li>Change Control_R Key (Right Control)<ul><li>Control_R to Command_R</li><li>Control_R to Command_R (only in virtual machine, RDC)</li><li>Control_R to Fn</li><li>Control_R to Option_R</li><li>Control_R to Option_R (only in virtual machine, RDC)</li><li>Control_R to Shift_R</li><li>Use the right control key as sticky modifier. (without lock)</li><li>Use the right control key as sticky modifier. (with lock)</li><li>Control_R to Delete</li><li>Control_R to Enter</li><li>Control_R x2 to Enter</li><li>Control_R to Escape</li><li>Control_R to Forward Delete</li><li>Control_R to RightClick</li></ul></li><li>Change Delete Key<ul><li>Delete to Backquote(`)</li><li>Delete to Backslash(\)</li><li>Delete to CapsLock</li><li>Command+Delete to Option_L+Delete</li><li>Control+Delete to Command_L+Delete</li><li>Option+Delete to Command_L+Delete</li><li>Delete to Forward Delete</li><li>Delete to Forward Delete
   (Fn+Delete to Delete)</li><li>Command_R+Delete to Forward Delete
-  (Right Command+Delete to Forward Delete)</li><li>Control+Delete to Forward Delete</li><li>Option+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete (if no other modifiers pressed)</li><li>Shift+Delete to Help</li><li>Shift+Delete to Pipe(|)</li><li>Delete to Quote(')</li><li>Delete to Return</li><li>Delete to Tab</li><li>Shift+Delete to Tilde(~)</li><li>Disable Delete</li></ul></li><li>Change Eject Key<ul><li>Important:
+  (Right Command+Delete to Forward Delete)</li><li>Control+Delete to Forward Delete</li><li>Option+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete</li><li>Shift+Delete to Forward Delete (if no other modifiers pressed)</li><li>Shift+Delete to Help</li><li>Shift+Delete to Pipe(|)</li><li>Delete to Quote(')</li><li>Delete to Return</li><li>Delete to Tab</li><li>Shift+Delete to Tilde(~)</li><li>Close window or tab by command-delete
+  (Change command-delete to command-w)</li><li>Disable Delete</li></ul></li><li>Change Eject Key<ul><li>Important:
   Eject key has a delay.
   You need to press eject key for a few seconds.
   We recommend you to use "NoEjectDelay" together to get rid of a delay.
@@ -280,7 +281,7 @@
   (+ Option_L+Fn to Fn)</li><li>Fn to Control_R</li><li>Fn to Fn
   (+ When you type Fn only, send Fn_Lock)</li><li>Fn to Fn_Lock</li><li>Fn to Option_L</li><li>Fn to Option_L
   (only in Illustrator, Photoshop, Cheetah3D)
-  (retain Fn+F1...Fn+F12)</li><li>Fn to Control_L+Option_L</li><li>Fn to All Modifiers Mode<ul><li>FN to Shift+Control+Option+Command</li><li>Doubletap Left Shift to Enable Fn as Shift+Control+Option+Command</li></ul></li><li>Fn to Shift_L</li><li>Fn to Delete</li><li>Fn to Enter</li><li>Fn to Eject</li><li>Fn to Forward Delete</li><li>Fn to F14</li><li>Fn x2 to F19</li><li>Fn to Help</li><li>Fn to Tab</li><li>Fn to LeftClick</li><li>Fn to RightClick</li><li>Disable Fn</li></ul></li><li>Change Forward Delete Key<ul><li>Forward Delete to Delete</li><li>Command+Forward Delete to Option_L+Forward Delete</li><li>Control+Forward Delete to Command_L+Forward Delete</li><li>Option+Forward Delete to Command_L+Forward Delete</li></ul></li><li>Change F1..F19 Key &amp; Functional Key (Brightness Control, Music Control, Volume Control)<ul><li>Change Functional Key (Brightness, Volume, ....)<ul><li>Dashboard to Launchpad</li><li>Launchpad to Dashboard</li><li>Functional Keys to F1..F12<ul><li>Brightness Adjust to F1,F2
+  (retain Fn+F1...Fn+F12)</li><li>Fn to Control_L+Option_L</li><li>Use the fn key as sticky modifier. (without lock)</li><li>Use the fn key as sticky modifier. (with lock)</li><li>Fn to All Modifiers Mode<ul><li>FN to Shift+Control+Option+Command</li><li>Doubletap Left Shift to Enable Fn as Shift+Control+Option+Command</li></ul></li><li>Fn to Shift_L</li><li>Fn to Delete</li><li>Fn to Enter</li><li>Fn to Eject</li><li>Fn to Forward Delete</li><li>Fn to F14</li><li>Fn x2 to F19</li><li>Fn to Help</li><li>Fn to Tab</li><li>Fn to LeftClick</li><li>Fn to RightClick</li><li>Disable Fn</li></ul></li><li>Change Forward Delete Key<ul><li>Forward Delete to Delete</li><li>Command+Forward Delete to Option_L+Forward Delete</li><li>Control+Forward Delete to Command_L+Forward Delete</li><li>Option+Forward Delete to Command_L+Forward Delete</li></ul></li><li>Change F1..F19 Key &amp; Functional Key (Brightness Control, Music Control, Volume Control)<ul><li>Change Functional Key (Brightness, Volume, ....)<ul><li>Dashboard to Launchpad</li><li>Launchpad to Dashboard</li><li>Functional Keys to F1..F12<ul><li>Brightness Adjust to F1,F2
   * Brightness Down to F1
   * Brightness Up to F2</li><li>Mission Control/Launchpad to F3,F4
   (And Expose and Dashboard to F3,F4)</li><li>Keyboard Backlit Adjust to F5,F6
@@ -304,7 +305,8 @@
   * Fn+Volume Mute to F10
   * Fn+Volume Down to F11
   * Fn+Volume Up to F12</li></ul></li><li>Fine grained brightness controls
-  Enables fine grained brightness controls by default</li><li>Fine grained volume controls
+  Enables fine grained brightness controls by default</li><li>Fine grained keyboard backlighting controls
+  Enables fine grained backlighting controls by default</li><li>Fine grained volume controls
   Enables fine grained volume controls by default</li><li>Separately settings<ul><li>Brightness Down to F1</li><li>Brightness Up to F2</li><li>Expose to F3</li><li>Mission Control to Eject</li><li>Dashboard to F4</li><li>Launchpad to Eject</li><li>──────────────────────────────</li><li>Volume Mute to F3</li><li>Volume Down to F4</li><li>Volume Up to F5</li><li>──────────────────────────────</li><li>Volume Mute to F4</li><li>Volume Down to F5</li><li>Volume Up to F6</li><li>──────────────────────────────</li><li>Volume Mute to F10</li><li>Volume Down to F11</li><li>Volume Up to F12</li><li>──────────────────────────────</li><li>Volume Mute to F9</li><li>Volume Down to F10</li><li>Volume Up to F11</li><li>──────────────────────────────</li><li>NumLock to F6</li><li>──────────────────────────────</li><li>NumLock to Music Prev</li><li>Video Mirroring to Music Play/Pause</li><li>Keyboard Light Off to Music Next</li><li>──────────────────────────────</li><li>Video Mirroring to Music Prev</li><li>Keyboard Light Off to Music Play/Pause</li><li>Keyboard Light Low to Music Next</li><li>──────────────────────────────</li><li>Keyboard Light Off to Music Prev</li><li>Keyboard Light Low to Music Play/Pause</li><li>Keyboard Light High to Music Next</li><li>──────────────────────────────</li><li>Keyboard Light Low to Tab Left ( Command+{ )</li><li>Keyboard Light High to Tab Right ( Command+} )</li><li>──────────────────────────────</li><li>"Rewind/Fast-Forward" to "beginning/end of line" (Command+Left/Right-Arrow)</li><li>──────────────────────────────</li><li>Dashboard to F8</li><li>Keyboard Light High to Volume Mute</li><li>Volume Mute/Down/Up without click</li><li>Command+Functional to Functional
   (ex. Command+Volume Mute to Volume Mute</li><li>Functional Keys to F1..F12
   Brightness Down to F1
@@ -373,7 +375,7 @@
   Fn+F9 to Music Next</li><li>Fn+F10,F11,F12 to Speaker Controls
   Fn+F10 to Mute
   Fn+F11 to Volume Down
-  Fn+F12 to Volume Up</li></ul></li><li>Separately settings<ul><li>F1 to Brightness Down (except virtual machine, RDC)</li><li>F2 to Brightness Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F3 to Volume Mute (except virtual machine, RDC)</li><li>F4 to Volume Down (except virtual machine, RDC)</li><li>F5 to Volume Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F3,F4 to Expose/Dashboard</li><li>F3,F4 to Expose/Dashboard (except in Parallels/RDP)</li><li>Fn+F3,F4 to Expose/Dashboard</li><li>F3,F4 to Expose/Dashboard (except in Parallels/RDP)</li><li>──────────────────────────────</li><li>F4 to Launchpad</li><li>──────────────────────────────</li><li>F4 to Volume Mute</li><li>F5 to Volume Down</li><li>F6 to Volume Up</li><li>──────────────────────────────</li><li>F5/F6 to Volume Down/Up 1/4</li><li>F5 to Volume Down 1/4</li><li>F6 to Volume Up 1/4</li><li>F5/F6 to Volume Down/Up without click</li><li>──────────────────────────────</li><li>F5 to Volume Mute</li><li>──────────────────────────────</li><li>F5, F6, and F7 to iTunes music controls
+  Fn+F12 to Volume Up</li></ul></li><li>Separately settings<ul><li>F1 to Brightness Down (except virtual machine, RDC)</li><li>F2 to Brightness Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>Volume controls by F1,F2 and F3</li><li>──────────────────────────────</li><li>F3 to Volume Mute (except virtual machine, RDC)</li><li>F4 to Volume Down (except virtual machine, RDC)</li><li>F5 to Volume Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F3,F4 to Expose/Dashboard</li><li>F3,F4 to Expose/Dashboard (except in Parallels/RDP)</li><li>Fn+F3,F4 to Expose/Dashboard</li><li>F3,F4 to Expose/Dashboard (except in Parallels/RDP)</li><li>──────────────────────────────</li><li>F4 to Launchpad</li><li>──────────────────────────────</li><li>F4 to Volume Mute</li><li>F5 to Volume Down</li><li>F6 to Volume Up</li><li>──────────────────────────────</li><li>F5/F6 to Volume Down/Up 1/4</li><li>F5 to Volume Down 1/4</li><li>F6 to Volume Up 1/4</li><li>F5/F6 to Volume Down/Up without click</li><li>──────────────────────────────</li><li>F5 to Volume Mute</li><li>──────────────────────────────</li><li>F5, F6, and F7 to iTunes music controls
   * F5 to Music Prev
   * F6 to Music Play/Pause
   * F7 to Music Next</li><li>──────────────────────────────</li><li>F6 to Virtual NumLock
@@ -391,7 +393,7 @@
   Change F12 to music next</li><li>──────────────────────────────</li><li>F13 to Volume Mute</li><li>F14 to Volume Down</li><li>F15 to Volume Up</li><li>──────────────────────────────</li><li>F13 to Volume Mute (except virtual machine, RDC)</li><li>F14 to Volume Down (except virtual machine, RDC)</li><li>F15 to Volume Up (except virtual machine, RDC)</li><li>──────────────────────────────</li><li>F14 to Music Prev</li><li>F15 to Music Play/Pause</li><li>F16 to Music Next</li><li>──────────────────────────────</li><li>F16 to Music Prev</li><li>F17 to Music Play/Pause</li><li>F18 to Music Next</li><li>──────────────────────────────</li><li>MacBook Air (2010, Late) Style<ul><li>F6 to Music Prev</li><li>F7 to Music Play/Pause</li><li>F8 to Music Next</li><li>F9 to Volume Mute</li><li>F10 to Volume Down</li><li>F11 to Volume Up</li><li>F12 to Eject</li></ul></li><li>──────────────────────────────</li><li>Fn+F11 to F11</li><li>Fn+F12 to F12</li><li>F11 to display mirroring</li><li>F12 to Forward Delete</li><li>F12 to Expose</li><li>F12 to Move focus to active or next window (Control+F4)</li><li>F12 to Move focus to active or next window (Control+F4)
   (+ F12 to Control_L if you held down F12 key)</li><li>──────────────────────────────</li><li>Fn+F1 to Brightness Down</li><li>Fn+F2 to Brightness Up</li><li>──────────────────────────────</li><li>Fn+F7 to Music Prev</li><li>Fn+F8 to Music Play/Pause</li><li>Fn+F9 to Music Next</li><li>──────────────────────────────</li><li>Fn+F10 to Volume Mute</li><li>Fn+F11 to Volume Down</li><li>Fn+F12 to Volume Up</li><li>──────────────────────────────</li><li>Fn+F5 to PageDown</li><li>Fn+F12 to PageUp</li><li>──────────────────────────────</li><li>Change Command+F1...F12 to Functional Keys
   (ex. F10 to Volume Mute, F11 to Volume Down)</li><li>Change F1...F12 to Functional Keys (except Terminal)
-  (ex. F10 to Volume Mute, F11 to Volume Down)</li><li>Force change F1..F12 in VMware, Parallels, RDC<ul><li>F1 to Brightness Down</li><li>F2 to Brightness Up</li><li>F3 to Volume Mute</li><li>F4 to Volume Down</li><li>F5 to Volume Up</li></ul></li><li>F1 to Escape</li><li>Control+F1 to F16</li><li>F11 to F4</li><li>F16 to Tab</li><li>F19 to Quote(')</li><li>Macbook series: Keyboard Preferences Configured to Standard Function Keys
+  (ex. F10 to Volume Mute, F11 to Volume Down)</li><li>Force change F1..F12 in VMware, Parallels, RDC<ul><li>F1 to Brightness Down</li><li>F2 to Brightness Up</li><li>F3 to Volume Mute</li><li>F4 to Volume Down</li><li>F5 to Volume Up</li></ul></li><li>F1 to Escape</li><li>Control+F1 to F16</li><li>F11 to F4</li><li>F16 to Tab</li><li>F19 to Quote(')</li><li>Macbook family: Keyboard Preferences Configured to Standard Function Keys
   (Except in Virtual Machine, RDC)
 
   You need to use all F1, F2, etc. keys as standard function keys.
@@ -510,7 +512,8 @@
   (except virtual machine, RDC)</li><li>When you type Enter only, send Option+Backquote
   (only in virtual machine, RDC)</li></ul></li><li>Enter to Option_R</li><li>Enter to Option_R<ul><li>When you type Enter only, send Command+Space
   (except virtual machine, RDC)</li><li>When you type Enter only, send Option+Backquote
-  (only in virtual machine, RDC)</li></ul></li><li>Enter to Command_L+Control_L</li><li>Enter to Command_L+Shift_L</li><li>Enter to Control_L+Option_L</li><li>Enter to Delete</li><li>Enter to End</li><li>Enter to End (only in virtual machine, RDC)</li><li>Enter to Forward Delete</li><li>Enter to Left-Arrow</li><li>Enter to Return</li><li>Enter to Command_L+Right-Arrow (end-of-line)</li><li>Enter to Command_L+Right-Arrow (end-of-line)
+  (only in virtual machine, RDC)</li></ul></li><li>Enter to Command_L+Control_L</li><li>Enter to Command_L+Shift_L</li><li>Enter to Control_L+Option_L</li><li>Enter to Delete</li><li>Enter to End</li><li>Enter to End (only in virtual machine, RDC)</li><li>Enter to Forward Delete</li><li>Enter to Left-Arrow</li><li>Enter to Return</li><li>Enter to Tab + Return
+  Change the Eject button on full keyboard (== enter key) to be tab then return.</li><li>Enter to Command_L+Right-Arrow (end-of-line)</li><li>Enter to Command_L+Right-Arrow (end-of-line)
   (+ Control+Enter to Command_L+Down-Arrow) (end-of-buffer)
   (Except in Virtual Machine, RDC)</li><li>Enter to Right-Arrow</li><li>Enter to Semicolon</li><li>Enter to Space</li><li>Enter to Tab</li><li>Enter to Up-Arrow</li></ul></li><li>Change KeyPad-Minus(-) Key<ul><li>KeyPad-Minus(-) to Command_L</li><li>KeyPad-Minus(-) to Control_L</li><li>KeyPad-Minus(-) to Option_L</li><li>KeyPad-Minus(-) to Shift_L</li></ul></li><li>Change KeyPad-Plus(+) Key<ul><li>KeyPad-Plus(+) to Command_L</li><li>KeyPad-Plus(+) to Control_L</li><li>KeyPad-Plus(+) to Option_L</li><li>KeyPad-Plus(+) to Shift_L</li></ul></li><li>Keypad_0 to Shift_L
   (+ When you type Keypad_0 only, send Keypad_0) + [KeyRepeat]</li><li>Control+Keypad_0 to Command+C (Copy)</li><li>Shift+Keypad_0 to Command+V (Paste)</li><li>Control+Keypad_1 to Command+Down Arrow</li><li>Control+Keypad_7 to Command+Up Arrow</li><li>Shift+Enter to Equal</li><li>Keypad_0 x3 to Equal
@@ -552,7 +555,7 @@
   (except virtual machine, RDC)</li><li>When you type Option_R only, send Option+Backquote
   (only in virtual machine, RDC)</li></ul></li><li>Option_R to Option_R+Shift_L</li><li>Use the right option key as sticky modifier. (without lock)</li><li>Use the right option key as sticky modifier. (with lock)</li><li>Option_R to Delete</li><li>Option_R to End</li><li>Option_R to End (only in virtual machine, RDC)</li><li>Option_R to End (only in virtual machine, RDC)
   (+ Shift+Option_R to Shift+End,Control_L+C)</li><li>Option_R to End (only in virtual machine, RDC)
-  (+ Shift+Option_R to Shift+End,Command_L+C)</li><li>Option_R to Enter</li><li>Option_R to Escape</li><li>Option_R to Forward Delete</li><li>Send a escape key event when right option key is pressed alone.</li><li>Send a forward delete key event when right option key is pressed alone.</li><li>Option_R to Left-Arrow</li><li>Option_R to PageDown</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)</li><li>Option_R to Command_L+Right-Arrow (end-of-line)
+  (+ Shift+Option_R to Shift+End,Command_L+C)</li><li>Option_R to Enter</li><li>Option_R to Enter (except virtual machine)</li><li>Option_R to Escape</li><li>Option_R to Forward Delete</li><li>Send a escape key event when right option key is pressed alone.</li><li>Send a forward delete key event when right option key is pressed alone.</li><li>Option_R to Left-Arrow</li><li>Option_R to PageDown</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)</li><li>Option_R to Command_L+Right-Arrow (end-of-line)
   (+ Control+Option_R to Command_L+Down-Arrow) (end-of-buffer)</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)
   (+ Shift+Option_R to Command_L+Shift_L+Right-Arrow,Command_L+C)</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)
   (+ Shift+Option_R to Command_L+Shift_L+Right-Arrow,Control_L+C)</li><li>Option_R to Command_L+Right-Arrow</li><li>Option_R to Semicolon</li><li>Option_R to Space</li><li>Option_R to Command+Control+Option+Shift+F1</li><li>Change Input Source while pressing right option key.
@@ -563,13 +566,15 @@
   (This is effective only with "Kensington K33374 Wireless Presenter with Laser Pointer")</li></ul></li><li>Change Power Button/Power Key<ul><li>Caution:
   Karabiner has removed power button support since OS X 10.9.
   You can no longer change the power button on MacBook.</li><li>For Power Key on old ADB keyboard<ul><li>Power Key to Command_L</li><li>Power Key to Fn
-  (+ Fn+Power to Power)</li></ul></li></ul></li><li>Change Quote(') Key<ul><li>Fn+Quote(') to Backslash(\)</li><li>Quote(') to Delete</li><li>Swap Quote and Shift+Quote</li></ul></li><li>Change Return Key<ul><li>Return to Command_L</li><li>Return to Control_L
-  (+ When you type Return only, send Return)</li><li>Return to Option_L
+  (+ Fn+Power to Power)</li></ul></li></ul></li><li>Change Quote(') Key<ul><li>Fn+Quote(') to Backslash(\)</li><li>Quote(') to Delete</li><li>Swap Quote and Shift+Quote</li></ul></li><li>Change Return Key<ul><li>Return to Command_L</li><li>Return to Command_L
+  (+ When you type Return only, send Return)</li><li>Return to Control_L
   (+ When you type Return only, send Return)</li><li>Return to Control_L
   (+ When you type Return only, send Return) + [KeyRepeat]</li><li>Return to Option_L</li><li>Return to Option_L
-  (+ When you type Return only, send Escape)</li><li>Fn+Return to Option_L</li><li>Return to Delete</li><li>Return to Control_L+F4 (= Move focus to the active (or next) window)</li><li>Fn+Return to Shift_L+Insert</li><li>Return to Semicolon</li><li>Disable Return</li></ul></li><li>Change Semicolon(;) Key<ul><li>Semicolon to Minus</li><li>Semicolon to Return</li><li>Semicolon to Return
+  (+ When you type Return only, send Return)</li><li>Return to Option_L
+  (+ When you type Return only, send Escape)</li><li>Fn+Return to Option_L</li><li>Return to Delete</li><li>Return to Control_L+F4 (= Move focus to the active (or next) window)</li><li>Fn+Return to Shift_L+Insert</li><li>Return to Semicolon</li><li>Disable Return</li><li>Linefeed to Return
+  (Control+Return to Return)</li></ul></li><li>Change Semicolon(;) Key<ul><li>Semicolon to Minus</li><li>Semicolon to Return</li><li>Semicolon to Return
   (+ Control+Semicolon to Semicolon)</li><li>Semicolon to Return (when there are not any modifiers)
-  (+ Control+Semicolon to Semicolon)</li><li>Semicolon to Return (Only on WebIDE)</li><li>Semicolon to Sticky Shift_L</li><li>Swap Semicolon and Colon</li></ul></li><li>Change Shift Keys<ul><li>Shift to Shift
+  (+ Control+Semicolon to Semicolon)</li><li>Semicolon to Return (Only on WebIDE)</li><li>Semicolon to Sticky Shift_L</li><li>Swap Semicolon and Colon</li><li>Input colon(:) by pressing semicolon(;) twice.</li></ul></li><li>Change Shift Keys<ul><li>Shift to Shift
   (+ When you type Shift only, send the appropriate parenthesis)</li></ul></li><li>Change Shift_L Key (Left Shift)<ul><li>Shift_L to CapsLock</li><li>Shift_L to turn off CapsLock
   (+ Retain Shift_L movement)</li><li>Shift_R+Shift_L to CapsLock
   (+ Shift_L to turn CapsLock off)</li><li>Shift_L to Command_L</li><li>Shift_L to Control_L</li><li>Fn+Shift_L to Control_R</li><li>Shift_L to Fn</li><li>Shift_L to Shift_L
@@ -586,7 +591,7 @@
   (+ Shift_R to turn CapsLock off)</li><li>Shift_R to Command_L</li><li>Shift_R to Control_L</li><li>Shift_R to Fn</li><li>Shift_R to Option_L</li><li>Shift_R to Shift_R
   (+ When you type Shift_R only, release CapsLock)</li><li>Shift_R to Shift_R
   (+ When you type Shift_R only, send Backslash)</li><li>Shift_R to Shift_R
-  (+ When you type Shift_R only, send CapsLock)</li><li>Send a delete key event when left shift key is pressed alone.</li><li>Shift_R to Shift_R
+  (+ When you type Shift_R only, send CapsLock)</li><li>Send a delete key event when right shift key is pressed alone.</li><li>Shift_R to Shift_R
   (+ When you type Shift_R only, send Enter)</li><li>Shift_R to Shift_R
   (+ When you type Shift_R only, send Escape)</li><li>Shift_R to Shift_R
   (+ When you type shiftR only, send Space)</li><li>Shift_R to Shift_R
@@ -640,19 +645,20 @@
   For people who like jkli configuration and have cmd+option+left/rigth as shortcut to
   switch tabs</li><li>[Option] Quit application with q</li><li>[Option] Close window with w</li><li>[Option] bnmh to (left/down/right/up)+Ctrl+Optn+Shift+
   Shortcuts used to switch split panes it apps like iTerm2 and others</li><li>[Option] Y to Command+W</li><li>[Option] P to Command+T</li><li>[Option] ' to Command+Q</li><li>[Option] ; to Command+Option+L</li><li>[Option] F+J/L to Command+Option+Control+Left/Right
-  (Using this to change spaces)</li></ul></li><li>Items for backwards compatibility<ul><li>Option+Tab to Command+Tab</li></ul></li></ul></li><li>──────────────────────────────</li><li>Custom Shortcuts<ul><li>F19 to Escape and Control
-  Tap F19 for Escape, Hold F19 for Control
-  Works well with using Seil to remap CapsLock to F19(code 80).</li><li>Change Command+Q to Command+Shift+W
-  Change Command+Shift_L+Q to Command+Q</li><li>──────────────────────────────</li><li>Hold Command+Q to Quit Application
+  (Using this to change spaces)</li></ul></li><li>Items for backwards compatibility<ul><li>Option+Tab to Command+Tab</li></ul></li></ul></li><li>──────────────────────────────</li><li>Custom Shortcuts<ul><li>Hold Command+Q to Quit Application
   (You can adjust the threshold time of holding by
-  "Holding Key to Key &gt; Holding Threshold" in Key Repeat tab.)</li><li>Press Command+Q twice to Quit Application</li><li>Change Command+Q to Escape.
-  (Quit Application by Command+Option+Q.)</li><li>──────────────────────────────</li><li>Change "right option key + equal key" to "move focus to next window in application".
-  (You need to enable command-backquote (⌘`) shortcut from System Preferences.)</li><li>Change "right option key + bracket keys" to "move focus to previous/next tab in application".
-  (Change right option key + bracket keys to command-{})</li><li>──────────────────────────────</li><li>Toggle Bluetooth by fn-b</li><li>Toggle Wi-Fi by fn-w</li><li>──────────────────────────────</li><li>Move mouse cursor to the center of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li><li>By button4 on mouse.</li><li>By button5 on mouse.</li></ul></li><li>Move mouse cursor to top-left side of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li></ul></li><li>──────────────────────────────</li><li>Switch current setting profile by fn+1,fn+2,fn+3, and fn+4.
+  "Holding Key to Key &gt; Holding Threshold" in Key Repeat tab.)</li><li>Press Command+Q twice to Quit Application</li><li>──────────────────────────────</li><li>Switch current setting profile by fn+1,fn+2,fn+3, and fn+4.
   (You can make multiple profiles by MenuBar tab on Preferences.
   This setting changes current profile by shortcut.)</li><li>Open Karabiner by fn+K.
   (+ Reload XML by fn+R.)
-  (+ Open EventViewer by fn+E.)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
+  (+ Open EventViewer by fn+E.)</li><li>──────────────────────────────</li><li>F19 to Escape and Control
+  Tap F19 for Escape, Hold F19 for Control
+  Works well with using Seil to remap CapsLock to F19(code 80).</li><li>──────────────────────────────</li><li>Change Command+Q to Command+Shift+W
+  Change Command+Shift_L+Q to Command+Q</li><li>Change Command+Q to Escape.
+  (Quit Application by Command+Option+Q.)</li><li>──────────────────────────────</li><li>Change "right option key + equal key" to "move focus to next window in application".
+  (You need to enable command-backquote (⌘`) shortcut from System Preferences.)</li><li>Change "right option key + bracket keys" to "move focus to previous/next tab in application".
+  (Change right option key + bracket keys to command-{})</li><li>──────────────────────────────</li><li>Toggle Bluetooth by fn-b</li><li>Toggle Wi-Fi by fn-w</li><li>──────────────────────────────</li><li>Move mouse cursor to the center of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li><li>By button4 on mouse.</li><li>By button5 on mouse.</li></ul></li><li>Move mouse cursor to top-left side of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li></ul></li><li>──────────────────────────────</li><li>Launch iTunes when you press the play/pause button twice.</li><li>──────────────────────────────</li><li>Change screen shot shortcuts
+  (Swap command-shift-3/4 and command-control-shift-3)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li><li>Enable Sticky Modifier Keys (with lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li></ul></li><li>Diamond Cursor<ul><li>Control_L+WSAD to Up/Down/Left/Right</li><li>Control_R+WSAD to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>ModifierFlag::EXTRA1+WXSD to Up/Down/Left/Right
   (+ ModifierFlag::EXTRA1+A to Command_L+Left)
@@ -699,8 +705,7 @@
   (+ retain Control+Shift+PNBF)
   (+ retain Control+Shift+AE)<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Control+AE to Home/End<ul><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>[Terminal] Control+/ to C-_ and Control+' to C-M-_</li></ul></li></ul></li><li>Mouse Keys<ul><li>Important:
   You need at least one pointing device that has been remapped in order to use Mouse Keys feature.
-  Do not enable "General &gt; Don't remap any pointing devices" if you want to use Mouse Keys.</li><li>Mouse Keys scroll direction: natural
-  (Enable this setting if your scroll direction of trackpad/mouse is natural.)</li><li>Mouse Keys Mode v2
+  Do not enable "General &gt; Don't remap any pointing devices" if you want to use Mouse Keys.</li><li>Mouse Keys Mode v2
   You can move mouse pointer by d+hjkl keys, and scroll by d+s+hjkl keys.
 
   Usage:
@@ -727,7 +732,8 @@
   * D+N: Right click.
 
   Warp cursor position:
-  * D+I: Move mouse cursor to the center of the frontmost app's window.</li><li>──────────────────────────────</li><li>Other settings<ul><li>"Right command key + j/k" to scroll down/up</li><li>"Right command key + h/l" to scroll left/right</li><li>"Right option key + up down arrows" to scroll down/up</li><li>"Right option key + left right arrows" to scroll left/right</li><li>"Left control key + qa" to scroll down/up</li><li>"Left control key + ws to scroll left/right"</li><li>Mouse Keys Mode v1<ul><li>What's Mouse Keys Mode?
+  * D+I: Move mouse cursor to the center of the frontmost app's window.</li><li>Mouse Keys scroll direction: not natural
+  (Enable this setting if your scroll direction of trackpad/mouse is not natural.)</li><li>──────────────────────────────</li><li>Other settings<ul><li>"Right command key + j/k" to scroll down/up</li><li>"Right command key + h/l" to scroll left/right</li><li>"Right option key + up down arrows" to scroll down/up</li><li>"Right option key + left right arrows" to scroll left/right</li><li>"Left control key + qa" to scroll down/up</li><li>"Left control key + ws to scroll left/right"</li><li>Mouse Keys Mode v1<ul><li>What's Mouse Keys Mode?
   Push "S" and "D" keys simultaneously while pressing Shift key,
   and keep S,D keys pressing.
   Then you can control mouse cursor by HJKL keys. (and Arrow keys)
@@ -1237,20 +1243,22 @@
   List:
 
   * Activity Monitor: O+A key
-  * Dictionary: O+D key
   * Search a selected text by Dictionary: O+Q key
-  * DigitalColor Meter: O+shift+D key
+  * Dictionary: O+Q,Q (press Q twice)
+  * Show desktop: O+D key
+  * DigitalColor Meter: O+D,D (press D twice)
   * Launchpad: O+Space key
   * Mail: O+M key
   * Mission Control: O+Tab key
-  * Open Desktop by Finder: O+F key
+  * Finder: O+F key
+  * Open Desktop by Finder: O+F,D key
+  * Open the home folder by Finder: O+F,F (press F twice)
   * Safari: O+S key
-  * Show Desktop: O+Escape key
-  * Stickies: O+shift+S key
+  * Stickies: O+S,S (press S twice)
   * Terminal: O+T key
-  * TextEdit: O+shift+T key
+  * TextEdit: O+E key
   * Xcode: O+X key
-  * iPhone Simulator: O+shift+X key</li></ul></li><li>Grenouille
+  * iPhone Simulator: O+X,X (press X twice)</li></ul></li><li>Grenouille
   FrogPad-compatible layout<ul><li>Left-handed</li><li>Right-handed</li></ul></li><li>asetniop<ul><li>Note:
   To make typing a little easier you should increased the [Simultaneous Keypresses]
   Delay Threshold in the “Key Repeat” tab to 300 ms.
@@ -1312,13 +1320,13 @@
   When pressed alone, Left Control types less symbol &lt;
   When pressed alone, Right Control types greater symbol &gt;
   When used with other keys, they're normal Controls.</li><li>Swap backtick ` and underscore _
-  Backtick is Shift+Hyphen, Underscore is unshifted tilde ~</li><li>──────────────────────────────</li><li>Replace number keys with symbols.
+  Backtick is Shift+Hyphen, Underscore is unshifted tilde ~</li><li>Swap backtick ` and tilde ~</li><li>──────────────────────────────</li><li>Replace number keys with symbols.
   (Use numpad in order to enter numbers.)</li><li>Change 1 to !</li><li>Change 2 to @</li><li>Change 3 to #</li><li>Change 4 to $</li><li>Change 5 to pipe |</li><li>Change 6 to +</li><li>Change 7 to &amp;</li><li>Change 8 to *</li><li>Change 9 to /* and */
   C-style open and close comment</li><li>Change 0 to &lt;!-- and --&gt;
   HTML-style open and close comment</li><li>──────────────────────────────</li><li>Swap brace { and bracket ]
   Open and close on the same keys</li><li>Change Shift+Equal = to 0</li><li>Change Shift+Backslash \ to 1</li><li>Change Shift+Comma , to {{{
   Code-folding open token</li><li>Change Shift+Dot . to }}}
-  Code-folding close token</li></ul></li><li>For Applications<ul><li>Enable at only VMware Fusion, Parallels Desktop, VirtualBox<ul><li>Disable momentum scrolling on virtual machine.</li><li>Eject to Forward Delete
+  Code-folding close token</li></ul></li><li>For Applications<ul><li>Enable at only VMware Fusion, Parallels Desktop, VirtualBox<ul><li>Disable momentum (inertia) scrolling on virtual machine.</li><li>Eject to Forward Delete
   (Fn+Eject to Eject)
   *** We recommend you to use "NoEjectDelay" together when you change eject key.
   *** → https://pqrs.org/osx/karabiner/noejectdelay.html</li><li>Change Enter to Control_L</li><li>Change Fn+Return to Insert</li><li>Change Option_R to Control_R</li><li>Change Ctrl+Q to Alt+F4</li><li>Change Command+Space to Option+Backquote(`)</li><li>Change Command+Space to Option_L+Shift_L</li><li>Disable a tapping feature of the Windows key.
@@ -1360,20 +1368,23 @@
   (Change Option_L+Backquote to Command+Backquote)
   (Change Option_L+Arrow to Control+Arrow)
 
-  This setting is useful when you exchange Control+Tab and Command+Tab.</li></ul></li></ul></li><li>Enable at only Adobe Softwares<ul><li>Change Command+Tab to Control_L+Tab</li></ul></li><li>Enable at only Safari<ul><li>Firefox-like hotkey (Control+PgUp/PgDown) to switch tabs in Safari</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Firefox<ul><li>Control+K to Command+K</li><li>Control+L to Command+L</li><li>Control+T to Command+T</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Thunderbird<ul><li>Next Tab and Previous Tab by command-shift-[ and command-shift-]</li></ul></li><li>Enable at only Firefox/Thunderbird<ul><li>Fix Home/End
-  (Home/End move to beg/end of line, Ctl/Cmd+Home/End move to beg/end of page)</li><li>Change Control+R to Command+R</li><li>Change Control+T to Command+T</li><li>Change Control+W to Command+W</li></ul></li><li>Enable at only Google Chrome<ul><li>Tilt Wheel to Back/Forward. (Command+[, Command+])</li><li>Disable Close Window shortcut. (command-shift-w)</li><li>Disable Close Tab shortcut (command-w) on Gmail.</li><li>Disable Close Tab shortcut (command-w) on Google Translate.</li><li>Control+L to Command+L</li></ul></li><li>Enable at only Excel<ul><li>Emacs bindings for Excel</li><li>Windows-like operation<ul><li>F2 key to Edit a cell (Control+U)<ul><li>Change Brightness Up to Ctrl+U</li><li>Change F2 to Ctrl+U</li></ul></li><li>F4 key to Repeat (Command+Y)<ul><li>Change Launchpad to Command+Y
+  This setting is useful when you exchange Control+Tab and Command+Tab.</li></ul></li></ul></li><li>Enable at only Adobe Softwares<ul><li>Change Command+Tab to Control_L+Tab</li></ul></li><li>Enable at only Safari<ul><li>Firefox-like hotkey (Control+PgUp/PgDown) to switch tabs in Safari</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Firefox<ul><li>Control+K to Command+K</li><li>Control+L to Command+L</li><li>Control+T to Command+T</li><li>Tilt Wheel to Back/Forward (Command+[, Command+])</li></ul></li><li>Enable at only Thunderbird<ul><li>Next Tab and Previous Tab by command-shift-[ and command-shift-]</li><li>Search Messages by command-F
+  (Swap command-F and command-shift-F)</li><li>Change control-a/e to command-left/right arrow.</li></ul></li><li>Enable at only Firefox/Thunderbird<ul><li>Fix Home/End
+  (Home/End move to beg/end of line, Ctl/Cmd+Home/End move to beg/end of page)</li><li>Change Control+R to Command+R</li><li>Change Control+T to Command+T</li><li>Change Control+W to Command+W</li></ul></li><li>Enable at only Google Chrome<ul><li>Tilt Wheel to Back/Forward. (Command+[, Command+])</li><li>Disable Close Window shortcut. (command-shift-w)</li><li>Disable Close Tab shortcut (command-w) on Gmail.</li><li>Disable Close Tab shortcut (command-w) on Google Calendar.</li><li>Disable Close Tab shortcut (command-w) on Google Translate.</li><li>Control+L to Command+L</li><li>Control+T to Command+T</li><li>Control+W to Command+W</li></ul></li><li>Enable at only Excel<ul><li>Emacs bindings for Excel</li><li>Windows-like operation<ul><li>F2 key to Edit a cell (Control+U)<ul><li>Change Brightness Up to Ctrl+U</li><li>Change F2 to Ctrl+U</li></ul></li><li>F4 key to Repeat (Command+Y)<ul><li>Change Launchpad to Command+Y
   (+ Change Dashboard to Command+Y)</li><li>Change F4 to Command+Y</li></ul></li><li>F4 key to Repeat (Command+T)<ul><li>Change Launchpad to Command+T
   (+ Change Dashboard to Command+T)</li><li>Change F4 to Command+T</li></ul></li><li>Others<ul><li>Control+Shift+Plus (Insert Row)
-  (Change Control+Shift+Plus to Control+i)</li></ul></li></ul></li></ul></li><li>Enable at only Entourage<ul><li>Change PageUp/PageDown to Option+Up/Down</li></ul></li><li>Enable at only MacSOUP<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Vienna<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Gruml<ul><li>Change Option_R to Return</li></ul></li><li>Enable at only Launchbar<ul><li>Open LaunchBar by command-space.
+  (Change Control+Shift+Plus to Control+i)</li></ul></li></ul></li></ul></li><li>Enable at only Entourage<ul><li>Change PageUp/PageDown to Option+Up/Down</li></ul></li><li>Enable at only Word<ul><li>Emacs bindings for Word</li></ul></li><li>Enable at only MacSOUP<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Vienna<ul><li>Change Option_R to Enter</li></ul></li><li>Enable at only Gruml<ul><li>Change Option_R to Return</li></ul></li><li>Enable at only Launchbar<ul><li>Open LaunchBar by command-space.
   *** Please use this setting together if you use the following settings. ***</li><li>Change semi-colon(;) to return key</li><li>Change control-L to command-right arrow
   Assumed Control Key Navigation in LB Preferences is hkli</li><li>Change Dot(.) to Tab Key</li><li>Change right arrow to command-right arrow
   also, change control-L to command-right arrow.</li><li>Change Cmd+D to Cmd+Shift+D</li><li>Change Cmd+R to Cmd+Shift+R</li><li>Change Cmd+N to Cmd+Shift+N</li></ul></li><li>Enable at only League of Legends<ul><li>Swap Command and Option for Alt Bindings
   Command_L to Option_L
-  Option_L to Command_L</li></ul></li><li>Enable at only Remote Desktop Connection Client<ul><li>Change command key to control key in RDC.
+  Option_L to Command_L</li></ul></li><li>Enable at only Remote Desktop<ul><li>Change command key to control key in Remote Desktop.
   + Change command-tab to alt-tab.
+  + Send Windows key event when you pressed the command key alone.</li><li>Change command key to control key in Remote Desktop.
+  + Keep command-tab.
   + Send Windows key event when you pressed the command key alone.</li><li>Command+Tab to Option+Tab
-  (only in RDC)</li><li>Command+XCVSZWF to Ctrl+XCVSZWF (only in RDC)
-  (Use the following "lazy command keys" together.)</li><li>Command+SPACE to Ctrl+SPACE (only in RDC)
+  (only in Remote Desktop)</li><li>Command+XCVSZWF to Ctrl+XCVSZWF (only in Remote Desktop)
+  (Use the following "lazy command keys" together.)</li><li>Command+SPACE to Ctrl+SPACE (only in Remote Desktop)
   (Use the following "lazy command keys" together.)</li><li>Change command keys to lazy command keys.</li><li>Use F12 as Insert
   (Press F12 to simulate pressing Insert key.)
   (Works well with CoRD.)</li></ul></li><li>Enable at only World of Warcraft<ul><li>Swap Command and Option for Alt Bindings
@@ -1402,7 +1413,9 @@
   - Change fn-§ to PC_INSERT key
   - Change fn-minus to keypad /
   - Change fn-equal to keypad *</li></ul></li><li>Enable at only Blender<ul><li>FlipScrollWheel<ul><li>Flip Horizontal and Vertical ScrollWheel at Blender</li><li>Flip Horizontal ScrollWheel at Blender</li><li>Flip Vertical ScrollWheel at Blender</li></ul></li></ul></li><li>DigitalColor Meter<ul><li>Use command-c as "Copy Color as Text" on DigitalColor Meter.
-  (Change command-c to command-shift-c.)</li><li>Launch DigitalColor Meter by holding equal key.</li></ul></li><li>Enable at only VNC<ul><li>Change the left command key to the left control key.</li><li>Change the right command key to the right control key.</li><li>Change the left control key to the left command key.</li><li>Change the right control key to the right command key.</li></ul></li><li>Change Functional Keys for specific App<ul><li>muCommander - Change Functional Keys to F3...F10</li></ul></li></ul></li><li>Change Keyboard Layout<ul><li>Change QWERTY to Colemak layout</li><li>Change QWERTY to QWERF layout</li><li>Change QWERTY to QWERTZ layout
+  (Change command-c to command-shift-c.)</li><li>Launch DigitalColor Meter by holding equal key.</li></ul></li><li>Enable at only VNC<ul><li>Change the left command key to the left control key.</li><li>Change the right command key to the right control key.</li><li>Change the left control key to the left command key.</li><li>Change the right control key to the right command key.</li></ul></li><li>Change Functional Keys for specific App<ul><li>muCommander - Change Functional Keys to F3...F10</li></ul></li><li>Enable at only Skim<ul><li>Fix Skim.app navigation
+  * Enable the space key navigation.
+  * Invert page up and page down.</li></ul></li></ul></li><li>Change Keyboard Layout<ul><li>Change QWERTY to Colemak layout</li><li>Change QWERTY to QWERF layout</li><li>Change QWERTY to QWERTZ layout
   (Swap Z and Y)</li><li>Change QWERTY to QWKRFY layout<ul><li>Basic QWKRFY layout</li><li>Swap P and ;
   (Please use this setting with "Basic QWKRFY layout".)</li><li>Swap U and G (qwkrfy mod for "ou")
   (Please use this setting with "Basic QWKRFY layout".)</li></ul></li><li>Change QWERTY to CarpalxQ layout<ul><li>CarpalxQ step 1 (E/K)</li><li>CarpalxQ step 2 (T/F)</li><li>CarpalxQ step 3 (N/J, I/L)</li><li>CarpalxQ step 4 (O/P/;)</li></ul></li><li>Change QWERTY to Maltron layout
@@ -1437,7 +1450,7 @@
   IJ-WF=though and WF-IJ=through generate larger common words and some programming
   constructs. For complete details, see the spreadsheet
 
-  https://pqrs.org/osx/karabiner/contrib/eps_keymap3.ods</li><li>Virtual NumLock</li><li>EPS keymap, edit submap</li><li>EPS keymap, ss submap</li><li>EPS keymap, XT submap</li><li>EPS keymap, CF3 submap</li><li>EPS keymap, CR3 submap</li><li>EPS keymap, CV3 submap</li><li>EPS keymap, CW3 submap</li><li>EPS keymap, EF3 submap</li><li>EPS keymap, ER3 submap</li><li>EPS keymap, EV3 submap</li><li>EPS keymap, EW3 submap</li><li>EPS keymap, FV3 submap</li><li>EPS keymap, FW3 submap</li><li>EPS keymap, GV3 submap</li><li>EPS keymap, IJ3 submap</li><li>EPS keymap, IM3 submap</li><li>EPS keymap, IO3 submap</li><li>EPS keymap, JO3 submap</li><li>EPS keymap, OM3 submap</li><li>EPS keymap, TV3 submap</li><li>EPS keymap, VW3 submap</li></ul></li><li>Set a keyboard type to ANSI on JIS and ISO keyboard</li></ul></li><li>For PC Users<ul><li>Change PC Application Key (Menu Key)<ul><li>Application Key to CapsLock</li><li>Application Key to Command_L</li><li>Application Key to Command_L
+  https://pqrs.org/osx/karabiner/contrib/eps_keymap3.ods</li><li>Virtual NumLock</li><li>EPS keymap, edit submap</li><li>EPS keymap, ss submap</li><li>EPS keymap, XT submap</li><li>EPS keymap, CF3 submap</li><li>EPS keymap, CR3 submap</li><li>EPS keymap, CV3 submap</li><li>EPS keymap, CW3 submap</li><li>EPS keymap, EF3 submap</li><li>EPS keymap, ER3 submap</li><li>EPS keymap, EV3 submap</li><li>EPS keymap, EW3 submap</li><li>EPS keymap, FV3 submap</li><li>EPS keymap, FW3 submap</li><li>EPS keymap, GV3 submap</li><li>EPS keymap, IJ3 submap</li><li>EPS keymap, IM3 submap</li><li>EPS keymap, IO3 submap</li><li>EPS keymap, JO3 submap</li><li>EPS keymap, OM3 submap</li><li>EPS keymap, TV3 submap</li><li>EPS keymap, VW3 submap</li></ul></li><li>Change QWERTY to Norman layout</li><li>Set a keyboard type to ANSI on JIS and ISO keyboard</li></ul></li><li>For PC Users<ul><li>Change PC Application Key (Menu Key)<ul><li>Application Key to CapsLock</li><li>Application Key to Command_L</li><li>Application Key to Command_L
   (+ Application Key to Control_L in Terminal, Screen Sharing, MacVim,
   RDC, Emacs, X11, VNC)</li><li>Application Key to Command_R
   (+ When you type Application only, send Command_L+Space)</li><li>Application Key to Control_L</li><li>Application Key to Control_L
@@ -1445,9 +1458,9 @@
   (+ When you type Application only, send Fn_Lock)</li><li>Application Key to Option_L</li><li>Application Key to Option_R (right option key)</li><li>Application Key to Shift_L</li><li>Application Key to Command_L+Backquote</li><li>Application Key to Delete</li><li>Application Key to Delete
   (+ Command+Application Key to CapsLock)</li><li>Application Key to Escape</li><li>Application Key to Escape
   (+ Shift+Application Key to CapsLock)</li><li>Application Key to Eject</li><li>Application Key to Expose All</li><li>Application Key to F9</li><li>Application Key to F11</li><li>Application Key to Minimize (Send command-m)</li><li>Application Key to Command_L+Space</li><li>Application Key to Option_L+Space</li><li>Application Key to Underscore(Shift_L+Minus)</li><li>Application Key to LeftClick</li><li>Application Key to RightClick</li></ul></li><li>Change PC Insert Key<ul><li>Insert Key to Control_R</li><li>Insert Key to Option_L+Insert</li><li>Insert Key to PageDown</li><li>Insert Key to Tab</li></ul></li><li>Change PC NumLock Key<ul><li>NumLock Key to F11</li><li>Disable NumLock Key</li><li>Disable NumLock Key (except in TeamViewer.app)</li></ul></li><li>Change PC PrintScreen Key, ScrollLock Key, Pause/Break Key<ul><li>Right-hand function key block to system volume controls
-  * PrintScreen to Volume Down
-  * ScrollLock to Volume Up
-  * Pause/Break to Volume Mute</li><li>PrintScreen Key to Eject</li><li>PrintScreen Key to F12</li><li>ScrollLock Key to F13</li><li>Pause/Break Key to Eject</li><li>Pause/Break Key to Power</li></ul></li><li>Use KeyPad as Arrow (PC Style NumLock)<ul><li>Enable KeyPad as Arrow
+  * PrintScreen to Volume Mute
+  * ScrollLock to Volume Down
+  * Pause/Break to Volume Up</li><li>PrintScreen Key to Eject</li><li>PrintScreen Key to F12</li><li>ScrollLock Key to F13</li><li>Pause/Break Key to Eject</li><li>Pause/Break Key to Power</li></ul></li><li>Use KeyPad as Arrow (PC Style NumLock)<ul><li>Enable KeyPad as Arrow
   (except virtual machine, RDC)</li><li>Use Clear Key to toggle "KeyPad as Arrow"
   (except virtual machine, RDC)</li><li>Enable KeyPad as Arrow
   (With PC Style Home/End/PageUp/PageDown)
@@ -1470,8 +1483,8 @@
   (Use Home and End key to beginning-of-line/end-of-line.)
   (Actually, change Home/End key to Command+Left/Right.)
 
-  (+ Change Home to Control+A in Emacs,Terminal,X11,Eclipse)
-  (+ Change End to Control+E in Emacs,Terminal,X11,Eclipse)
+  (+ Change Home to Control+A in Emacs,Terminal,X11)
+  (+ Change End to Control+E in Emacs,Terminal,X11)
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style PageUp/PageDown
   (behave like Option+PageUp/PageDown)
@@ -1494,11 +1507,14 @@
   (Shift+Insert to Command_L+V)
   (Shift+Delete to Command_L+X) (Note: "Delete" is Mac's Forward Delete)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Copy-Paste #4
+  (Except in Virtual Machine, Remote Desktop)</li><li>Use PC Style Copy-Paste #4
   Change Command+Insert to Command+C
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Undo
   (Control+Z to Command_L+Z)
+
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Undo #2
+  Undo by Option+Delete (Alt+Backspace).
 
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Redo
   (Control+Y to Command_L+Shift_L+Z)
@@ -1607,7 +1623,7 @@
   when you use this setting.
 
   This setting changes Caps Lock to Control+Option.
-  On Virtual Machine, Caps Lock becomes Help key.</li></ul></li><li>Device Specific Mixed Settings<ul><li>For MacBook series (vid/pid: 0x05ac,0x0236)<ul><li>Swap Command_L and Option_L on MacBook pro (vid/pid: 0x05ac,0x0236)</li></ul></li><li>For MacBook series (vid/pid: 0x05ac,0x021a)<ul><li>Backslash to R Bracket</li><li>Fix Keyboard Upgrade!</li></ul></li><li>For MacBook series (vid/pid: 0x05ac,0x0218)<ul><li>Swap Shift_L and CapsLock on the Mac's internal kbd (vid/pid: 0x05ac,0x0218)
+  On Virtual Machine, Caps Lock becomes Help key.</li></ul></li><li>Device Specific Mixed Settings<ul><li>For MacBook family (vid/pid: 0x05ac,0x0236)<ul><li>Swap Command_L and Option_L on MacBook pro (vid/pid: 0x05ac,0x0236)</li></ul></li><li>For MacBook family (vid/pid: 0x05ac,0x021a)<ul><li>Backslash to R Bracket</li><li>Fix Keyboard Upgrade!</li></ul></li><li>For MacBook family (vid/pid: 0x05ac,0x0218)<ul><li>Swap Shift_L and CapsLock on the Mac's internal kbd (vid/pid: 0x05ac,0x0218)
   (*Note: You have to set Seil to remap CapsLock to ExposeAll on all kbds*)
   (ExposeAll to Shift_L and Shift_L to CapsLock on the MacBook's internal keyboard)
   (ExposeAll back to CapsLock on other devices)</li><li>Revert CapsLock to normal on every kbds
@@ -1617,7 +1633,17 @@
   You can rotate Magic Trackpad 180 degrees.
   (This setting flips only pointer and scroll. So, gestures do not work properly.
   Please disable gestures from System Preferences.)</li></ul></li><li>For Logitech Devices<ul><li>Tilt Wheel to Back/Forward (Command+[, Command+]) on Logitech MX620 and G9X</li><li>Logitech Wireless Presenter
-  Configure Logitech Wireless Presenter for use with Apple Keynote</li><li>Logitech Presenter (R400, R800) with Preview</li><li>Logitech Presenter (R400, R800) with Lightroom</li><li>Enhance Logicool Wireless Trackball M570, M570t.
+  Configure Logitech Wireless Presenter for use with Apple Keynote</li><li>Logitech Presenter (R400, R800) with Preview</li><li>Logitech Presenter (R400, R800) with Lightroom</li><li>Enhance Logitech Trackman Marble
+  Button4+Trackball -&gt; ScrollWheel
+  Button5 -&gt; Move mouse cursor to the center of the frontmost app's window
+
+  Right click+Trackball:
+  * Up: Mission Control
+  * Down: Show Desktop
+  * Left: Move right a space
+  * Right: Move left a space
+
+  Press button4 alone -&gt; middle click</li><li>Enhance Logitech Wireless Trackball M570, M570t.
   Button5+Trackball -&gt; ScrollWheel
 
   Button4+Trackball:
@@ -1628,7 +1654,25 @@
 
   Press button5 alone -&gt; middle click
   Press button4 alone -&gt; Move mouse cursor to the center of the frontmost app's window
-  Press button4+button5 simultaneously -&gt; Show app switcher</li></ul></li><li>For TypeMatrix 2030<ul><li>Swap Command_L and Option_L on TypeMatrix 2030 kbd</li><li>Option+Tab to Command+Tab on TypeMatrix 2030 kbd</li><li>Application Key to Command_L+Backquote on TypeMatrix 2030 kbd</li><li>Use PC Style Copy/Paste #3 on TypeMatrix 2030 kbd
+  Press button4+button5 simultaneously -&gt; Show app switcher</li><li>Workaround for duplicated modifier events on Logitech keyboards.
+  Some Logitech keyboards sends same modifier events twice when you pressed
+  modifier keys.
+  Karabiner counts them and changes only the first event.
+  That causes extra modifiers will be added into the changed keys.
+
+  For example:
+  "Change control-D to delete" setting should send "delete" key event when you
+  press control-D.
+  But "control-delete" key event will be sent with some Logitech keyboards.
+
+  This setting solves this issue.</li><li>Logitech M560 mouse
+  Support for extra buttons<ul><li>Forward Button to Browser Go Forward
+  Button on the left side of M560</li><li>Back Button to Browser Go Back
+  Button on the left side of M560</li><li>Home button (under the wheel) to Mission Control
+  Button in the middle of M560 under the wheel</li></ul></li><li>Logitech M510 mouse
+  Support for extra buttons<ul><li>Forward Button to Browser Go Forward
+  Button on the left side of M510</li><li>Back Button to Browser Go Back
+  Button on the left side of M510</li></ul></li></ul></li><li>For TypeMatrix 2030<ul><li>Swap Command_L and Option_L on TypeMatrix 2030 kbd</li><li>Option+Tab to Command+Tab on TypeMatrix 2030 kbd</li><li>Application Key to Command_L+Backquote on TypeMatrix 2030 kbd</li><li>Use PC Style Copy/Paste #3 on TypeMatrix 2030 kbd
   (Control+Insert to Command_L+C)
   (Shift+Insert to Command_L+V)
   (Shift+Delete to Command_L+X) (Note: "Delete" is Mac's Forward Delete)</li><li>Use PC Style Copy/Paste #3bis (for bépo / french dvorak) on TypeMatrix 2030 kbd
@@ -1641,17 +1685,15 @@
   (with PS2-to-USB adapters (Chesen Electronics Corp))
   Bottom row of Model M keyboard:
   Original: Ctrl Alt [space bar] Alt Ctrl
-  Remapped: Ctrl Cmd [space bar] Cmd Alt</li><li>Swap Start (aka Command) and Alt keys on Windows keyboard</li></ul></li><li>For Unicomp SpaceSaver M<ul><li>Change Fn+F1..F12 keys to F1..F12 (only in Emacs)</li></ul></li><li>For HHK (Happy Hacking Keyboard) Users<ul><li>Enable HHK compatible Arrow Key Mode</li><li>Enable Fn+hjkl at HHK to Left/Down/Up/Right</li><li>Change Option_L+1...= to F1...F12 Keys</li></ul></li><li>For Targus Bluetooth Presenter<ul><li>Fix Targus Bluetooth Presenter
+  Remapped: Ctrl Cmd [space bar] Cmd Alt</li><li>Swap Start (aka Command) and Alt keys on Windows keyboard</li></ul></li><li>For Unicomp SpaceSaver M<ul><li>Change Fn+F1..F12 keys to F1..F12 (only in Emacs)</li></ul></li><li>For HHKB (Happy Hacking Keyboard) Users<ul><li>Enable HHKB compatible Arrow Key Mode</li><li>Enable Fn+hjkl at HHKB to Left/Down/Up/Right</li><li>Change Option_L+1...= to F1...F12 Keys</li><li>HHKB JP + US keycap hacks
+  (Change Japanese Yen key to backslash.)
+  (Change BS key to backquote.)</li><li>Remappings for Happy Hacking Professional<ul><li>Change backslash to `</li><li>Shift + ESC to ~</li><li>Command + ESC to `</li><li>Change ` to DEL</li><li>Change Shift+DEL to Pipe (|)</li><li>Change DEL to Backslash</li></ul></li></ul></li><li>For Targus Bluetooth Presenter<ul><li>Fix Targus Bluetooth Presenter
   Map shift-up to up and shift-down to down</li><li>Remap Targus Presenter to work with Google Presentation
   (Change shift-up/down to left/right arrow.)</li></ul></li><li>For FILCO FKBN91ML/NB, FKBN91MRL/NFB2<ul><li>Swap CapsLock and Control on FILCO FKBN91ML/NB, FKBN91MRL/NFB2.
   // We perform it through PC Application Key.
   // Set CapsLock key code to 110 by Seil.</li><li>Swap Command_L and Option_L on FILCO FKBN91ML/NB, FKBN91MRL/NFB2.</li></ul></li><li>For Sun Type6 keyboard<ul><li>Exchange ^ and greater key on Sun Type6 keyboard</li></ul></li><li>For Ideazon Fang<ul><li>Set keyboard type to ANSI on Ideazon Fang</li></ul></li><li>For LMP Bluetooth Keypad<ul><li>(Keypad) ENTER to L_COMMAND</li><li>KeypadNums to Ctrl+KeypadNums
   Keypad_1 becomes Ctrl+ Keypad_1</li><li>KeypadOperations Clear = / * - + to same keys with Ctrl</li><li>Keypad Page Up, Page Down, Forward_Delete with Ctrl</li><li>F16, F17 to Ctrl+F14, Ctrl+F15
-  Because Adobe Apps do not support F16 and F17</li></ul></li><li>For Satechi Bluetooth Remote<ul><li>Configure Satechi Bluetooth Remote for EyeTV</li><li>Configure Satechi Bluetooth Remote for Safari</li><li>Configure Satechi Bluetooth Remote for Safari Plugins</li><li>Configure Satechi Bluetooth Remote for Chrome</li><li>Configure Satechi Bluetooth Remote for Firefox</li><li>Configure Satechi Bluetooth Remote for iTunes</li><li>Configure Satechi Bluetooth Remote for QuickTime</li><li>Configure Satechi Bluetooth Remote for VLC</li><li>Configure Satechi Bluetooth Remote (global settings)</li></ul></li><li>Logitech M560 mouse
-  Support for extra buttons<ul><li>Forward Button to Browser Go Forward
-  Button on the left side of M560</li><li>Back Button to Browser Go Back
-  Button on the left side of M560</li><li>Home button (under the wheel) to Mission Control
-  Button in the middle of M560 under the wheel</li></ul></li></ul></li><li>Change input source temporary<ul><li>Change input source to Greek while you are holding down right option key.</li><li>Change input source to Unicode Hex Input while you are holding down right option key.</li></ul></li><li>Workarounds for broken keys<ul><li>For broken up arrow and down arrow keys<ul><li>Change "shift-left arrow" to up arrow</li><li>Change "shift-right arrow" to down arrow</li><li>Change "command-left arrow" to pageup</li><li>Change "command-right arrow" to pagedown</li></ul></li><li>For broken "2" key<ul><li>Input @ by option-q</li></ul></li></ul></li><li>──────────────────────────────</li><li>For International English Keyboard and ISO Keyboard Users<ul><li>Improve ISO Keyboard Layout
+  Because Adobe Apps do not support F16 and F17</li></ul></li><li>For Satechi Bluetooth Remote<ul><li>Configure Satechi Bluetooth Remote for EyeTV</li><li>Configure Satechi Bluetooth Remote for Safari</li><li>Configure Satechi Bluetooth Remote for Safari Plugins</li><li>Configure Satechi Bluetooth Remote for Chrome</li><li>Configure Satechi Bluetooth Remote for Firefox</li><li>Configure Satechi Bluetooth Remote for iTunes</li><li>Configure Satechi Bluetooth Remote for QuickTime</li><li>Configure Satechi Bluetooth Remote for VLC</li><li>Configure Satechi Bluetooth Remote (global settings)</li></ul></li><li>For Microsoft Natural Ergonomic 4000 Keyboard (UK)<ul><li>fix Backquote(`) key</li><li>fix backslash(\) key</li><li>Use Windows Key as Option</li><li>Use Alt Key as Command</li><li>Swap @ and double-quote(") Done by default if 'British PC'keyboard already specified?</li></ul></li></ul></li><li>Change input source temporary<ul><li>Change input source to Greek while you are holding down right option key.</li><li>Change input source to Unicode Hex Input while you are holding down right option key.</li></ul></li><li>Workarounds for broken keys<ul><li>For broken up arrow and down arrow keys<ul><li>Change "shift-left arrow" to up arrow</li><li>Change "shift-right arrow" to down arrow</li><li>Change "command-left arrow" to pageup</li><li>Change "command-right arrow" to pagedown</li></ul></li><li>For broken "2" key<ul><li>Input @ by option-q</li></ul></li></ul></li><li>──────────────────────────────</li><li>For International English Keyboard and ISO Keyboard Users<ul><li>Improve ISO Keyboard Layout
   ( '\' to additional Enter, '§' to '`' and '`' to '\' )</li><li>Improve ISO Keyboard Layout (Option 2)
   ( '§' to '`' and '`' to '\' )</li><li>Swap @ and double-quote(")</li><li>Swap the Tilde(~) key with Section (§)</li><li>Make Shift_R the Backslash (\)  and Backslash (\) into an extra Enter</li><li>Backquote(`) to Backslash(\)</li><li>Backquote(`) to Section(§)</li><li>Backquote(`) to Shift_L</li><li>Backslash(\) to Option_L+3 (Hash #), Shift+Backslash(\) to Tilde(~)</li><li>Backslash(\) to Hash # (Alt+3)
   (+Alt+Backslash to Backslash)</li><li>Forward Delete to Section(§)</li><li>Change Section(§) Key<ul><li>Section(§) to Option_L+3 (Hash #), Shift+Section(§) to Tilde(~)</li><li>Section(§) to Command_L</li><li>Section(§) to Control_L</li><li>Section(§) to Option_L</li><li>Section(§) to Shift_L</li><li>Section(§) to Backquote(`)</li><li>Section(§) to Backquote(`)
@@ -1660,7 +1702,8 @@
   If the key is supposed to be typed with the right hand and requires a modifier use
   left shift or left option, vice versa for the left hand.
   With this in mind, option left or option right are used as AltGr.
-  This layout assumes you are using the 'Spanish ISO' input source from OS X.</li></ul></li><li>For Belgian<ul><li>Change KeyPad Comma(,) to Dot(.)</li></ul></li><li>For Bulgarian<ul><li>Bulgarian Phonetic map 'ч' to ±
+  This layout assumes you are using the 'Spanish ISO' input source from OS X.</li></ul></li><li>For Belgian<ul><li>Change KeyPad Comma(,) to Dot(.)</li><li>Change AltGr+2 to @
+  (When Input Source is Belgian AZERTY)</li></ul></li><li>For Bulgarian<ul><li>Bulgarian Phonetic map 'ч' to ±
   Bulgarian Phonetic map 'ч' from '`' to ±.
   This is valid when you get used with US layout and then switch to UK</li><li>Change underscore(_) on Japanese keyboard to ч
   (For Bulgarian-Phonetic)</li></ul></li><li>For Canadian<ul><li>Space to Option_L (when Input Source == Canadian)</li><li>Space to Option_L (when Input Source == Canadian)
@@ -1811,7 +1854,7 @@
   KANA + YUIOP for 0123=
   KANA + HJKL; for +456*
   KANA + NM,./ for -789/</li></ul></li><li>Change Underscore(Ro) Key<ul><li>Underscore(Ro) to Shift_R</li><li>Underscore(Ro) to Backslash(\)</li><li>Underscore(Ro) to Delete</li><li>Underscore(Ro) to JIS Yen(¥)</li><li>Underscore(Ro) to JIS Yen(¥) (if no modifiers pressed)</li></ul></li><li>Change Yen(¥) Key<ul><li>JIS Yen(¥) to Backslash(\)
-  (except virtual machine, X11, RDC)</li><li>JIS Yen(¥) to Forward Delete</li><li>JIS Yen(¥) to Forward Delete
+  (except virtual machine, X11, RDC)</li><li>JIS Yen(¥) to Backslash(\)</li><li>JIS Yen(¥) to Forward Delete</li><li>JIS Yen(¥) to Forward Delete
   (+ Shift+JIS Yen to Pipe(|))</li></ul></li><li>Change Zero(0) Key<ul><li>Shift+0 to Backslash(\)</li><li>Shift+0 to JIS Yen(¥)</li><li>Shift+0 to Underscore(Ro)</li></ul></li><li>Emacs Mode<ul><li>Control+[ to Escape at Japanese Keyboard</li><li>[ex] Option+{|} to Command+{|}</li><li>Behavior in Emacs, Terminal, X11, VMware, Parallels, RDC<ul><li>Force change C-[ to Escape<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li></ul></li></ul></li><li>enthumble (http://www.enthumble.com/)<ul><li>英数+「スペース/かなキー」で「Return/ESC」</li><li>英数+「N,M/",","."」で「BackSpace/Delete」</li><li>英数+「Y,U/I,O」で「BackSpace/Delete」</li><li>英数+IJKLを移動キーへ</li><li>英数+HJKLを移動キーへ</li><li>英数+FBNPを移動キーへ</li><li>英数キーボード対応版（＋英数キーをコマンドキーに変更）<ul><li>この設定を使用するときは、上のenthumble関連の設定はオフにしてください。
 
   ・英数キーを左コマンドキーに変更。（英数キーの空打ちで英数キーとして動作）
@@ -1901,13 +1944,14 @@
   (We can change the key once again)</li><li>日本語入力時にF、Jキーの同時押しをSticky Shiftにする
   （SKKと一緒に使うと便利です。）</li><li>(7), 8, 9, 0 for IME<ul><li>8+9 for Shift+Left</li><li>9+0 for Shift+Right</li><li>8+0 for Right</li><li>7+9 for Left</li><li>Optional Cursors<ul><li>Y+U for Up</li><li>N+M for Down</li></ul></li></ul></li></ul></li><li>Kotoeri Hacks<ul><li>Control+I to Control+K (Control+I でカタカナ変換)
   (Except in Virtual Machine, RDC)</li><li>Control+I to F7 (Control+I でカタカナ変換)
-  (Except in Virtual Machine, RDC)</li></ul></li><li>Hack for the bug of Mac OS X<ul><li>Disable Command/Control/Option/Shift+EISUU, Command/Control/Option/Shift+KANA
-  (to prevent the system hangup at Snow Leopard)</li></ul></li></ul></li><li>For Korean<ul><li>Space 키 옆 2개의 키를 '한/영'키와 '한자'키로 사용하기<ul><li>맥 -&gt; Command+Space가 한영 전환으로 설정되어 있어야 합니다.
+  (Except in Virtual Machine, RDC)</li></ul></li><li>Hack for bugs of OS X<ul><li>Disable Command/Control/Option/Shift+EISUU, Command/Control/Option/Shift+KANA
+  * This setting prevents app hang up that is caused by option+kana.
+  * This setting prevents unintended up-arrow injection that is caused by control+kana.</li></ul></li></ul></li><li>For Korean<ul><li>Space 키 옆 2개의 키를 '한/영'키와 '한자'키로 사용하기<ul><li>맥 -&gt; Command+Space가 한영 전환으로 설정되어 있어야 합니다.
 윈도우 -&gt; 한영전환을 위한 레지스트리가 등록되어야 합니다.
 (참고 - https://github.com/niceview/KoreanKeyboard4MacBook)</li><li>애플 키보드</li><li>한글 103/106키 키보드</li><li>한글 101키 키보드 (오른쪽에 Alt, Ctrl키가 없는 키보드)</li><li>──────────────────────────────</li><li>옵션</li><li>Shift+Space를 한/영키로 사용하기</li><li>Enter키를 한자키로 사용하기 (화이트 맥북)</li><li>Option_R키를 한자키로 할당하지 않기</li><li>Fn키를 두번 누르면 설명 홈페이지를 띄움</li></ul></li><li>Items for backwards compatibility<ul><li>Toggle HanEng Key(to Command_L(R)+Space)</li><li>Toggle Hanja Key(to Option_L(R)+Return)</li><li>Toggle Option_R(Alt_R) Key(to Option_L(R)+Enter)</li><li>Make Command_R, Option_R as HanEng, Hanja keys (except virtual machine, RDC)<ul><li>Command_R to Command+Space</li><li>Shift+Space to Command+Space</li><li>Option_R to Option+Return</li></ul></li><li>Make Command_R, Option_R as HanEng, Hanja keys (only in virtual machine, RDC)<ul><li>see https://github.com/niceview/KoreanKeyboard4MacBook</li><li>Command_R to HanEng / Option_R to Hanja
   (it works with Key remapping in virtual machine.)</li><li>Command_R to Alt_R / Option_R to Ctrl_R
   (it works with Korean Keyboard Type 1)</li><li>Command_R to Shift+Space / Option_R to Ctrl+Space
-  (it works with Korean Keyboard Type 3)</li></ul></li><li>Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)<ul><li>HanEng Key to Command+Space</li><li>Hanja Key to Option+Return</li></ul></li></ul></li></ul></li><li>For Lithuanian<ul><li>Change KeyPad Comma(,) to Dot(.)</li></ul></li><li>For Norwegian<ul><li>Change KeyPad Comma(,) to Dot(.)
+  (it works with Korean Keyboard Type 3)</li></ul></li><li>Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)<ul><li>HanEng Key to Command+Space</li><li>Hanja Key to Option+Return</li></ul></li></ul></li></ul></li><li>For Lithuanian<ul><li>Change KeyPad Comma(,) to Dot(.)</li><li>Change letters to numbers when right command key is pressed in Lithuanian input source.</li></ul></li><li>For Norwegian<ul><li>Change KeyPad Comma(,) to Dot(.)
 + Shift+KeyPad Comma(,) to Comma(,)</li></ul></li><li>For Polish<ul><li>Swap Command_R with Options_R</li></ul></li><li>For Portuguese<ul><li>For Portuguese PC keyboards
 Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</li><li>Map backslash</li><li>Map ordinals</li><li>Map tilde/accent</li><li>Map Alt-Gr modified keys</li></ul></li></ul></li><li>For Russian<ul><li>Change Backquote(`) Key<ul><li>Backquote(`) to Paragraph(§)</li><li>Swap Backquote(`) to Paragraph(§) only for US input source</li></ul></li><li>Change Command_L Key<ul><li>Command_L to Command_L
   (+ When you type Command_L only, change Input Source to English)</li></ul></li><li>Change Command_R Key<ul><li>Command_R to Command_R
@@ -1970,7 +2014,7 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
 
   Simultaneous Key Presses [D+F] to Escape
   (using __SimultaneousKeyPresses__)</li><li>Disable all settings while you are using Terminal.
-  (using __PassThrough__ and only)</li><li>Disable all settings on Magic Mouse.
+  (using __PassThrough__ and only)</li><li>Disable all settings on Apple keyboards and pointing devices.
   (using device_only, DeviceVendor::*, DeviceProduct::*)</li></ul></li><li>ShowStatusMessage
   (show a message box, usually in lower right corner)<ul><li>Sample1
   (using __ShowStatusMessage__)</li><li>Sample2
@@ -2172,7 +2216,52 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   (BeforeKeyDown C, AfterKeyUp D)
 
   Right Click to B.
-  (BeforeKeyDown C, AfterKeyUp D)</li><li>Apply from the top sequentially.
+  (BeforeKeyDown C, AfterKeyUp D)</li><li>AfterKeyUp with ModifierFlag conditional pattern matching. (1)
+  * Change the right option key to control key.
+  * AfterKeyUp f1 when the left shift key and the left control key are pressed.
+  * AfterKeyUp f2 when the left shift key is pressed.
+  * AfterKeyUp f3 when the left control key is pressed.
+  * Otherwise, AfterKeyUp f4.
+
+  For example, OPTION_R down, SHIFT_L down, OPTION_R up sends f2.</li><li>AfterKeyUp with ModifierFlag conditional pattern matching. (2)
+  * Change the right shift key to shift-right arrow.
+  * AfterKeyUp command-c.
+  * If the escape key is pressed, AfterKeyUp will be cancel.</li><li>Option::KEYTOKEY_DELAYED_ACTION
+  ────────
+  Change the return key x2 to the space key.
+
+  * When you press the return key twice, a space key event will be sent. (no return key events)
+  * When you press the return key once, a return key event will be sent.
+  ────────
+  Change control-tab to the left shift key.
+  + Change control-tab x2 to a,option-b,control-c,d
+
+  * When you press control-tab twice, "left shift, a, option-b, control-c, d" will be sent.
+  * When you press control-tab once, "left shift" will be sent.
+  ────────</li><li>Option::KEYTOKEY_DELAYED_ACTION (2)
+  ────────
+  Change the right command key x2 to shift-space.
+
+  * When you press the right command key twice, "right command, shift-space" will be sent.
+  * When you press the right command key once, right command key event will be sent.
+  ────────</li><li>Option::KEYTOKEY_DELAYED_ACTION (3)
+  With __HoldingKeyToKey__
+  ────────
+  Change the return key to `1`.
+  + Input `2` by holding the return key down.
+  + Input `3` by press the return key twice.
+  ────────</li><li>Option::KEYTOKEY_DELAYED_ACTION (4)
+  * change space,1 to f1
+  * change space,2 to f2
+  * change space,3 to f3
+  * change space,4 to f4
+  * space will be the return key when another key is pressed (eg. change space,5 to return,5).</li><li>Option::KEYTOKEY_DELAYED_ACTION with key repeat
+  * change space x2 to f1 with key repeat</li><li>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS
+  ────────
+  Change HJKL keys to arrow key while you press S key.
+
+  * S down, J down, S up, L down, J up, L up =&gt;  down arrow, right arrow
+  ────────</li><li>Apply from the top sequentially.
   1 to A
   1 to B (skipped)
   2 to B
@@ -2191,7 +2280,20 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   J to Shift_L+Option_L (When type only, send Space)
   Command_R to Shift_L (Without other modifiers) (When type only, send Space)</li><li>Standard2
   A to Shift_L (Without other modifiers) (When type only, send Space)
-  Command_R to Command_R (Without other modifiers) (When type only, send "command-a")</li><li>With @begin .. @end (1)
+  Command_R to Command_R (Without other modifiers) (When type only, send "command-a")</li><li>Standard3
+  Change shift-A to option (send space when alone)
+  Change shift-S to tab (send space when alone)
+  Change shift-Control_L to option (send space when alone)
+  Change shift-Command_L to tab (send space when alone)
+
+  Press shift, Press A, Press Q -&gt; option-Q
+  Press shift, Press S, Press Q -&gt; tab,shift-Q
+  Press shift, Press Control_L, Press Q -&gt; option-Q
+  Press shift, Press Command_L, Press Q -&gt; tab,shift-Q</li><li>With PointingButton
+  Change the right click to shift. (click alone, send space)
+  (Note: "right button down, move pointer, right button up" sends a space key event.)
+
+  Change button4 to shift. (click alone, send button4)</li><li>With @begin .. @end (1)
   Use "a" key to show status message "1" and "2" and left shift key.
   (Send space if you press only "a" key.)</li><li>With @begin .. @end (2)
   Change "a" key "abc" (no repeat).
@@ -2206,6 +2308,14 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   (Send "def" if you press only "a" key.)</li><li>With Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP
   Change right shift key to option key.
   (Send space key event if right shift key is pressed alone.)
+  (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)
+
+  Change option-a to shift.
+  (Send space key event if option-a is pressed alone.)
+  (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)
+
+  Change option-s to tab.
+  (Send space key event if option-a is pressed alone.)
   (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)</li><li>With DelayUntilRepeat,KeyRepeat
   Change "a" key "abc". (+ repeat tokeys: "1".)
   (Send "def" if you press only "a" key.)
@@ -2228,7 +2338,18 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   (with DelayUntilRepeat::RawValue::1, KeyRepeat::RawValue::1)</li><li>With Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUP
   Right shift key to Tab (+ Holding right shift key to Space)
   (BeforeKeyDown Shift+B,C AfterKeyUp Option+D,Shift+E,F)</li><li>with ThresholdMillisecond
-  Escape to Tab (+ Holding Escape to Space for 3 seconds.)</li></ul></li><li>DoublePressModifier<ul><li>Standard
+  Escape to Tab (+ Holding Escape to Space for 3 seconds.)
+
+  Note:
+  "escape down, right shift down, escape up, right shift up" sends tab,shift.
+  "right shift down, escape down, right shift up, escape up" sends shift,shift-tab.</li></ul></li><li>DoublePressModifier<ul><li>Note:
+  DoublePressModifier always sends the first event.
+  For example, "change shift x2 to return" sends shift,shift,return when you press shift key twice.
+
+  If you want to cancel the first event, please use __KeyToKey__ and
+  Option::KEYTOKEY_DELAYED_ACTION.
+  For example, you should use __KeyToKey__ if you want
+  "change semicolon(;) twice to colon(:)" that sends either semicolon or colon.</li><li>Standard
   Shift_L x2 to RETURN
   (A to Control_L) + (A x2 to Shift_L+RETURN)
   (Shift+B to Control_L+Option_L) + (Shift+B x2 to A,S,Command_L+D)
@@ -2252,7 +2373,8 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   - Space up
   - T down
   - T up
-  </li><li>With KeyOverlaidModifier
+
+  Note: __BlockUntilKeyUp__ has timeout. You have to press these keys quickly.</li><li>With KeyOverlaidModifier
   * Change the space key to the left shift key.
   * Send a space key event when the space key is pressed alone.
 
@@ -2280,13 +2402,38 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Output:
   - S
   - A
+  </li><li>Change key if interrupted
+  The A key will be changed the space key
+  when you pressed and released the A key without other keys press.
+
+  Otherwise change the A key to the tab key
+
+  Input:   A down -&gt; A up:
+  Output:
+  - Space
+
+  Input:   A down -&gt; S down -&gt; A up:
+  Output:
+  - Tab
+  - S
+
+  Input:   S down -&gt; A down -&gt; S up -&gt; A up:
+  Output:
+  - S
+  - Tab
   </li></ul></li><li>DropKeyAfterRemap<ul><li>Standard
   Drop Tab
   Drop Shift+Return
   Change A to Tab (== dropped)
-  Change B to Shift_L+Return (== dropped)</li></ul></li><li>DropPointingRelativeCursorMove<ul><li>Standard
+  Change B to Shift_L+Return (== dropped)</li></ul></li><li>DropAllKeys<ul><li>  Drop all key combinations while the right option key is pressed.
+  (Except option-qwer)
+  (__DropAllKeys__ does not drop modifier events.)
+
+  With "change S to left shift key".
+  (option-S sends option,shift key events.)
+  (option-S-Q will be option-shift-Q, option-S-A will be ignored.)</li><li>  Drop all keys while the right option key is pressed.</li><li>  Drop all consumer keys while the right option key is pressed.</li><li>  Drop all pointing buttons while the right option key is pressed.</li></ul></li><li>DropPointingRelativeCursorMove<ul><li>Standard
   A to toggle DropPointingRelativeCursorMove</li><li>Core
-  (You need enable above setting.)</li></ul></li><li>DropScrollWheel<ul><li>Drop ScrollWheel at Emacs</li><li>Drop Horizontal Scroll</li><li>Drop momentum scrolling on safari</li></ul></li><li>FlipPointingRelative<ul><li>Flip Horizontal and Vertical PointingRelative at Safari</li><li>Flip Horizontal PointingRelative at Safari</li><li>Flip Vertical PointingRelative at Safari</li></ul></li><li>FlipScrollWheel<ul><li>Flip Horizontal and Vertical ScrollWheel at Safari</li><li>Flip Horizontal ScrollWheel at Safari</li><li>Flip Vertical ScrollWheel at Safari</li></ul></li><li>IgnoreMultipleSameKeyPress<ul><li>Standard
+  (You need enable above setting.)</li></ul></li><li>DropScrollWheel<ul><li>Drop ScrollWheel at Emacs</li><li>Drop Horizontal Scroll</li><li>Drop momentum (inertia) scrolling on safari</li></ul></li><li>FlipPointingRelative<ul><li>Flip Horizontal and Vertical PointingRelative at Safari</li><li>Flip Horizontal PointingRelative at Safari</li><li>Flip Vertical PointingRelative at Safari</li></ul></li><li>FlipScrollWheel<ul><li>Flip Horizontal and Vertical ScrollWheel at Safari</li><li>Flip Horizontal ScrollWheel at Safari</li><li>Flip Vertical ScrollWheel at Safari</li></ul></li><li>IgnoreMultipleSameKeyPress<ul><li>Standard
   Ignore the multiple press of 'A'
   Ignore the multiple press of 'Shift+B' (with Modifier)
   Ignore the multiple press of 'Shift+Option+C' (with Modifier)</li></ul></li><li>StripModifierFromScrollWheel<ul><li>Standard
@@ -2334,7 +2481,22 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   [Normal] K+J to Space)</li><li>Using more than three keys
   (S+D+F to Expose)
   (Q+W+E+R to Space)
-  (J+K+L to Escape) (Strict Key Order)</li><li>Note:
+  (J+K+L to Escape) (Strict Key Order)</li><li>With Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW
+
+  Change D+F to lock control key.
+  * Unlock control key by escape key.
+  * Change D key to left shift key when control is locked.
+  * Change F key to left option key when control is locked.
+
+  When you press D+F, shift and option modifiers will be active until you release D,F keys.
+  * D down, F down, D up -&gt; control down, shift down, option down, shift up
+  * D down, F down, F up -&gt; control down, shift down, option down, option up
+
+
+  Change F+G to EXTRA1 modifier key.
+  * Change F key to left shift key when extra1 is pressed.
+  * Change G key to left option key when extra1 is pressed.
+  </li><li>Note:
   Basically, a sending key will not be modified by other manipulators such as __KeyToKey__.
   Option::SIMULTANEOUSKEYPRESSES_RAW removes this restriction.
   This option allows you to modify a sending key once more by __KeyToKey__.
@@ -2395,11 +2557,14 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   (You can move pointer by Command+CursorMove)</li><li>Standard (2)
   CursorMove to Arrows
   (+ You can disable this setting by escape key.)</li><li>With __KeyOverlaidModifier__
-  RightClick+CursorMove to Arrows</li></ul></li><li>ForceNumLockOn<ul><li>Force turn NumLock on at Apple Internal Keyboard (0x05ac,0x0245)
-  (The jkl keys on MacBook will be changed to 123 when numlock is on.)</li><li>Toggle NumLock by fn-escape.</li><li>Force turn NumLock *off* at Apple Internal Keyboard (0x05ac,0x0245)</li></ul></li><li>"NotSave" keymap overwriting<ul><li>base mapping
+  RightClick+CursorMove to Arrows</li></ul></li><li>ForceNumLockOn<ul><li>Force turn NumLock on at Apple Keyboards.
+  (The jkl keys will be changed to 123 when numlock is on.)</li><li>Toggle NumLock by fn-escape.</li><li>Force turn NumLock *off* at Apple Keyboards</li></ul></li><li>"NotSave" keymap overwriting<ul><li>base mapping
   A to toggle notsave.sample
   B to C
   (B becomes D when notsave.sample is active)</li><li>notsave.sample
+  B to D</li><li>──────────────────────────────</li><li>high_priority attribute: base mapping
+  B to C
+  (B becomes D when `high_priority` is active)</li><li>high_priority attribute: high_priority
   B to D</li></ul></li><li>&lt;identifier&gt; which contains white space<ul><li>Standard: &lt;identifier&gt; is "remap.sample change tab to space"
   Change Tab to Space</li><li>Filter<ul><li>Core</li><li>Change Tab to Space when the above setting is activated.</li></ul></li><li>VK_CONFIG<ul><li>Change Tab to Space</li><li>Change A to toggle above setting.</li></ul></li></ul></li><li>Filters<ul><li>application
   A to B if application == TERMINAL (KeyToKey)
@@ -2426,38 +2591,38 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   C to 5</li><li>Config only mode1</li><li>Config only mode2</li><li>──────────────────────────────</li><li>With KEYTOKEY_BEFORE_KEYDOWN, KEYTOKEY_AFTER_KEYUP
   Space to Tab (And Before A, After B)
   (If you type Space key, a sequence of "A,Tab,B" is fired.)</li></ul></li><li>Input Source<ul><li>bépo<ul><li>inputsource_only (bépo-*)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-normal)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-AzertyCmd)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-AzertyCmdRoman)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-QwertyCmd)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-QwertyCmdRoman)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-QwertzCmd)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-QwertzCmdRoman)
-  Space to Tab</li><li>inputsourcedetail_only (bépo-Roman)
+  Space to Tab</li><li>inputsource_only (bépo)
+  Space to Tab</li><li>inputsource_only (bépo-AzertyCmd)
+  Space to Tab</li><li>inputsource_only (bépo-AzertyCmdRoman)
+  Space to Tab</li><li>inputsource_only (bépo-QwertyCmd)
+  Space to Tab</li><li>inputsource_only (bépo-QwertyCmdRoman)
+  Space to Tab</li><li>inputsource_only (bépo-QwertzCmd)
+  Space to Tab</li><li>inputsource_only (bépo-QwertzCmdRoman)
+  Space to Tab</li><li>inputsource_only (bépo-Roman)
   Space to Tab</li></ul></li><li>inputsource_only (Chinese Traditional-*)
-  Space to Tab</li><li>inputsourcedetail_only (Chinese Traditional Yahoo! KeyKey)
+  Space to Tab</li><li>inputsource_only (Chinese Traditional Yahoo! KeyKey)
   Space to Tab</li><li>inputsource_only (Chinese Simplified-*)
   Space to Tab</li><li>inputsource_only (Canadian)
   Space to Tab</li><li>Dvorak<ul><li>inputsource_only (Dvorak-*)
-  Space to Tab</li><li>inputsourcedetail_only (Dvorak-normal)
-  Space to Tab</li><li>inputsourcedetail_only (Dvorak-Left)
-  Space to Tab</li><li>inputsourcedetail_only (Dvorak-QwertyCmd)
-  Space to Tab</li><li>inputsourcedetail_only (Dvorak-Right)
+  Space to Tab</li><li>inputsource_only (Dvorak)
+  Space to Tab</li><li>inputsource_only (Dvorak-Left)
+  Space to Tab</li><li>inputsource_only (Dvorak-QwertyCmd)
+  Space to Tab</li><li>inputsource_only (Dvorak-Right)
   Space to Tab</li></ul></li><li>inputsource_only (English)
   Space to Tab</li><li>inputsource_only (Finnish)
   Space to Tab</li><li>inputsource_only (French-*)
   Space to Tab</li><li>Japanese<ul><li>inputsource_only (Japanese-*)
   Space to Tab</li><li>inputsource_not (Japanese-*)
-  Space to Tab</li><li>inputsourcedetail_only (Japanese-Hiragana)
-  Space to Tab</li><li>inputsourcedetail_not (Japanese-Hiragana)
-  Space to Tab</li><li>inputsourcedetail_only (Japanese-Katakana)
-  Space to Tab</li><li>inputsourcedetail_only (Japanese-Full-width Roman)
-  Space to Tab</li><li>inputsourcedetail_only (Japanese-Half-width Katakana)
-  Space to Tab</li><li>inputsourcedetail_only (JANSI)
+  Space to Tab</li><li>inputsource_only (Japanese-Hiragana)
+  Space to Tab</li><li>inputsource_not (Japanese-Hiragana)
+  Space to Tab</li><li>inputsource_only (Japanese-Katakana)
+  Space to Tab</li><li>inputsource_only (Japanese-Full-width Roman)
+  Space to Tab</li><li>inputsource_only (Japanese-Half-width Katakana)
+  Space to Tab</li><li>inputsource_only (JANSI)
   Space to Tab</li><li>Enforce roman input at semicolon(;).</li></ul></li><li>inputsource_only (Korean-*)
   Space to Tab</li><li>Polish<ul><li>inputsource_only (Polish-*)
-  Space to Tab</li><li>inputsourcedetail_only (Polish)
-  Space to Tab</li><li>inputsourcedetail_only (Polish Pro)
+  Space to Tab</li><li>inputsource_only (Polish)
+  Space to Tab</li><li>inputsource_only (Polish Pro)
   Space to Tab</li></ul></li><li>inputsource_only (Swedish)
   Space to Tab</li><li>inputsource_only (Russian)
   Space to Tab</li><li>inputsource_only (Thai)
@@ -2517,7 +2682,16 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Change D to 3 if last pressed physical key is left click.
   Change E to 3 unless last pressed physical key is left click.</li></ul></li><li>Elapsed Time Since Last Pressed<ul><li>Standard
   Change A to 1 if time elapsed since last pressed is greater than 1000ms.
-  Change S to 2 if time elapsed since last pressed is less than 1000ms.</li></ul></li><li>block sample
+  Change S to 2 if time elapsed since last pressed is less than 1000ms.</li></ul></li><li>Pressing Physical Keys Count<ul><li>Standard
+  Change A to 1 if pressing physical keys count &lt; 2
+  Change S to 2 if pressing physical keys count &gt; 1
+
+  Example:
+  Return down, A down, A up, Return up -&gt; Return, A
+  Return down, Return up, A down, A up -&gt; Return, 1
+
+  Return down, S down, S up, Return up -&gt; Return, 2
+  Return down, Return up, S down, S up -&gt; Return, S</li></ul></li><li>block sample
   A to B if application == Terminal (KeyToKey)
   B to D if application == Terminal (KeyToKey)
   A to C if application == Safari (KeyToKey)
@@ -2704,8 +2878,8 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
 
   eventType:keyMod          code:0x3a       name:Option_L        flags:Opt
   eventType:keyMod          code:0x38       name:Shift_L         flags:Shift Opt
-  eventType:keyMod          code:0x3a       name:Option_L        flags:Shift
-  eventType:keyMod          code:0x38       name:Shift_L         flags:
+  eventType:keyMod          code:0x38       name:Shift_L         flags:Opt
+  eventType:keyMod          code:0x3a       name:Option_L        flags:
 
 
   The events are follows when you press "right command-c".
@@ -2748,7 +2922,8 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Change N to VK_MOUSEKEY_BUTTON_BUTTON14
   Change M to VK_MOUSEKEY_BUTTON_BUTTON15
   Change , to VK_MOUSEKEY_BUTTON_BUTTON16</li><li>Fixed Distance Move
-  Change Arrows to VK_MOUSEKEY_FIXED_DISTANCE_UP/DOWN/LEFT/RIGHT</li><li>Lock
+  Change Arrows to VK_MOUSEKEY_FIXED_DISTANCE_UP/DOWN/LEFT/RIGHT</li><li>Fixed Distance Scroll
+  Change Arrows to VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_UP/DOWN/LEFT/RIGHT</li><li>Lock
   Change 1 to VK_MOUSEKEY_LOCK_BUTTON_LEFT
   Change 2 to VK_MOUSEKEY_LOCK_BUTTON_MIDDLE
   Change 3 to VK_MOUSEKEY_LOCK_BUTTON_RIGHT
@@ -2811,9 +2986,13 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Change S to Dvorak:S, US:S ("os" will be input).</li></ul></li><li>VK_OPEN_URL
   Command_R+A to Launch Activity Monitor
   Command_R+F to Launch Finder and Open New Window
-  Command_R+G to Open Google
+  Command_R+P to Open https://pqrs.org/
+  Command_R+B to Open https://pqrs.org/ in background
   Command_R+S to Launch Safari
-  Command_R+T to Launch TextEdit</li><li>VK_CONFIG<ul><li>Standard<ul><li>  Use A to VK_CONFIG_TOGGLE
+  Command_R+T to Launch TextEdit
+
+  Note: Some apps ignore `background` option.
+  For example Google Chrome will always be in foreground.</li><li>VK_CONFIG<ul><li>Standard<ul><li>  Use A to VK_CONFIG_TOGGLE
   Use S to VK_CONFIG_FORCE_ON
   Use D to VK_CONFIG_FORCE_OFF
   Use F to VK_CONFIG_SYNC_KEYDOWNUP

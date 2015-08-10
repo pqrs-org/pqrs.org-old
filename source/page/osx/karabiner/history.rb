@@ -8,6 +8,107 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.7.0',
+              :updated => '2015-08-10',
+              :link => 'files/Karabiner-10.7.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Incompatibility changes:
+    <ul>
+      <li>The default mouse keys scroll direction has been changed to natural.</li>
+      <li>
+        <code>&lt;inputsourcedetail_only&gt;</code> and <code>&lt;inputsourcedetail_not&gt;</code> filters have been merged into <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code>.<br />
+        Please use <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code> in your private.xml.
+      </li>
+    </ul>
+  </li>
+  <li>New option has been added into command line interface: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>"Status Message &gt; Show caps lock state" option has been added.</li>
+  <li>Multiple displays support has been improved. The status message will be shown in the all screen.</li>
+  <li>Fast User Switching support has been improved.</li>
+  <li>Prepared settings have been updated.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li><code>__DropAllKeys__</code> has been added.</li>
+      <li><code>Option::KEYTOKEY_DELAYED_ACTION</code> has been added.</li>
+      <li><code>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS</code> has been added.</li>
+      <li><code>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW</code> has been added.</li>
+      <li>
+        The following filters have been added.
+        <ul>
+          <li><code>&lt;pressingphysicalkeys_greaterthan&gt;</code></li>
+          <li><code>&lt;pressingphysicalkeys_lessthan&gt;</code></li>
+        </ul>
+      </li>
+      <li><code>__HoldingKeyToKey__</code> has been improved at you pressed modifiers while holding target key down.</li>
+      <li>ModifierFlag pattern matching has been introduced into <code>Option::KEYTOKEY_AFTER_KEYUP</code>.</li>
+      <li><code>high_priority</code> attribute has been introduced into <code>&lt;identifier&gt;</code> tag.</li>
+      <li><code>&lt;appdef&gt;</code> behavior has been improved. It preserves prepared settings when you use <code>&lt;appdef&gt;</code> in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
+      <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code> have been added.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse, Screencast-O-Matic, RazorSQL, EditRocket)</li>
+      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    互換性がない変更点:
+    <ul>
+      <li>マウスキーのスクロール方向のデフォルト値を「natural」に変更しました。</li>
+      <li>
+        <code>&lt;inputsourcedetail_only&gt;</code>と<code>&lt;inputsourcedetail_not&gt;</code>フィルタを、<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>に統合しました。<br />
+        private.xmlでは<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>を使ってください。
+      </li>
+    </ul>
+  </li>
+  <li>コマンドラインインターフェースにオプションを追加しました: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>「Status Message &gt; Show caps lock state」の設定を加えました。</li>
+  <li>マルチディスプレイのサポートを改善しました。ステータスメッセージを全てのディスプレイで表示します。</li>
+  <li>ファストユーザスイッチのサポートを改善しました。</li>
+  <li>設定の追加・更新をしました。</li>
+  <li>
+    自分で設定を追加する人向けの変更点:
+    <ul>
+      <li><code>__DropAllKeys__</code>を追加しました。</li>
+      <li><code>Option::KEYTOKEY_DELAYED_ACTION</code>を追加しました。</li>
+      <li><code>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS</code>を追加しました。</li>
+      <li><code>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW</code>を追加しました。</li>
+      <li>
+        以下のフィルタを追加しました。
+        <ul>
+          <li><code>&lt;pressingphysicalkeys_greaterthan&gt;</code></li>
+          <li><code>&lt;pressingphysicalkeys_lessthan&gt;</code></li>
+        </ul>
+      </li>
+      <li>モディファイアが押されているときの<code>__HoldingKeyToKey__</code>の挙動を改善しました。</li>
+      <li><code>Option::KEYTOKEY_AFTER_KEYUP</code>にモディファイアの状態によって挙動を変化する機能を追加しました。</li>
+      <li><code>&lt;identifier&gt;</code>タグに<code>high_priority</code>属性を追加しました。</li>
+      <li><code>&lt;appdef&gt;</code>を改善しました。private.xmlの<code>&lt;appdef&gt;</code>で既存のappdef.xmlに含まれるBundle Identifierを指定しても、既存の設定を壊さなくなりました。</li>
+      <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code>を追加しました。</li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Eclipse, Screencast-O-Matic, RazorSQL, EditRocket）</li>
+      <li>OS X 10.11 beta 6でkextがロードされない。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.6.0',
               :updated => '2015-01-13',
               :link => 'files/Karabiner-10.6.0.dmg',
