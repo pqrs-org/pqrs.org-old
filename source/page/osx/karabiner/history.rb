@@ -32,6 +32,7 @@ class History < KarabinerBase
     </ul>
   </li>
   <li>New option has been added into command line interface: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>New option has been added into <code>post-hid-event</code> command line utility: <code>--flag</code></li>
   <li>"Status Message &gt; Show caps lock state" option has been added.</li>
   <li>Multiple displays support has been improved. The status message will be shown in the all screen.</li>
   <li>Fast User Switching support has been improved.</li>
@@ -52,6 +53,7 @@ class History < KarabinerBase
       </li>
       <li><code>__HoldingKeyToKey__</code> has been improved at you pressed modifiers while holding target key down.</li>
       <li>ModifierFlag pattern matching has been introduced into <code>Option::KEYTOKEY_AFTER_KEYUP</code>.</li>
+      <li><code>&lt;background /&gt;</code> support has been added into <code>&lt;vkopenurldef&gt;</code> tag.</li>
       <li><code>high_priority</code> attribute has been introduced into <code>&lt;identifier&gt;</code> tag.</li>
       <li><code>&lt;appdef&gt;</code> behavior has been improved. It preserves prepared settings when you use <code>&lt;appdef&gt;</code> in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
       <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code> have been added.</li>
@@ -86,6 +88,7 @@ EOS
     </ul>
   </li>
   <li>コマンドラインインターフェースにオプションを追加しました: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>コマンドラインのユーティリティ<code>post-hid-event</code>にオプションを追加しました: <code>--flag</code></li>
   <li>「Status Message &gt; Show caps lock state」の設定を加えました。</li>
   <li>マルチディスプレイのサポートを改善しました。ステータスメッセージを全てのディスプレイで表示します。</li>
   <li>ファストユーザスイッチのサポートを改善しました。</li>
@@ -106,6 +109,7 @@ EOS
       </li>
       <li>モディファイアが押されているときの<code>__HoldingKeyToKey__</code>の挙動を改善しました。</li>
       <li><code>Option::KEYTOKEY_AFTER_KEYUP</code>にモディファイアの状態によって挙動を変化する機能を追加しました。</li>
+      <li><code>&lt;vkopenurldef&gt;</code>で<code>&lt;background /&gt;</code>がサポートされました。</li>
       <li><code>&lt;identifier&gt;</code>タグに<code>high_priority</code>属性を追加しました。</li>
       <li><code>&lt;appdef&gt;</code>を改善しました。private.xmlの<code>&lt;appdef&gt;</code>で既存のappdef.xmlに含まれるBundle Identifierを指定しても、既存の設定を壊さなくなりました。</li>
       <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code>を追加しました。</li>

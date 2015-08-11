@@ -148,6 +148,7 @@ Aug 10, 2015          </small>
     </ul>
   </li>
   <li>New option has been added into command line interface: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
+  <li>New option has been added into <code>post-hid-event</code> command line utility: <code>--flag</code></li>
   <li>"Status Message &gt; Show caps lock state" option has been added.</li>
   <li>Multiple displays support has been improved. The status message will be shown in the all screen.</li>
   <li>Fast User Switching support has been improved.</li>
@@ -168,6 +169,7 @@ Aug 10, 2015          </small>
       </li>
       <li><code>__HoldingKeyToKey__</code> has been improved at you pressed modifiers while holding target key down.</li>
       <li>ModifierFlag pattern matching has been introduced into <code>Option::KEYTOKEY_AFTER_KEYUP</code>.</li>
+      <li><code>&lt;background /&gt;</code> support has been added into <code>&lt;vkopenurldef&gt;</code> tag.</li>
       <li><code>high_priority</code> attribute has been introduced into <code>&lt;identifier&gt;</code> tag.</li>
       <li><code>&lt;appdef&gt;</code> behavior has been improved. It preserves prepared settings when you use <code>&lt;appdef&gt;</code> in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
       <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code> have been added.</li>
