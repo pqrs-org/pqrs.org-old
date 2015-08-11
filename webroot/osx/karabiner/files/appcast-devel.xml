@@ -23,6 +23,13 @@
         &lt;inputsourcedetail_only&gt; and &lt;inputsourcedetail_not&gt; filters have been merged into &lt;inputsource_only&gt; and &lt;inputsource_not&gt;.<br />
         Please use &lt;inputsource_only&gt; and &lt;inputsource_not&gt; in your private.xml.
       </li>
+      <li>
+        Launcher Mode v2 uses own modifier flag in order to improve usability. <br />
+        If you extended Launcher Mode v2 by LAUNCHER_MODE_V2_EXTRA, please remove `ModifierFlag::NONE`from LAUNCHER_MODE_V2_EXTRA.<br />
+        Example:<br />
+        old: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
+        new: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
+      </li>
     </ul>
   </li>
   <li>New option has been added into command line interface: toggle, be_careful_to_use__clear_all_values_by_name</li>

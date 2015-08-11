@@ -22,6 +22,13 @@ class History < KarabinerBase
         <code>&lt;inputsourcedetail_only&gt;</code> and <code>&lt;inputsourcedetail_not&gt;</code> filters have been merged into <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code>.<br />
         Please use <code>&lt;inputsource_only&gt;</code> and <code>&lt;inputsource_not&gt;</code> in your private.xml.
       </li>
+      <li>
+        Launcher Mode v2 uses own modifier flag in order to improve usability. <br />
+        If you extended Launcher Mode v2 by <code>LAUNCHER_MODE_V2_EXTRA</code>, please remove <code>ModifierFlag::NONE</code> from <code>LAUNCHER_MODE_V2_EXTRA</code>. <br />
+        Example:<br />
+        old: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
+        new: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
+      </li>
     </ul>
   </li>
   <li>New option has been added into command line interface: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
@@ -68,6 +75,13 @@ EOS
       <li>
         <code>&lt;inputsourcedetail_only&gt;</code>と<code>&lt;inputsourcedetail_not&gt;</code>フィルタを、<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>に統合しました。<br />
         private.xmlでは<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>を使ってください。
+      </li>
+      <li>
+        Launcher Mode v2は使い勝手の向上のため、独自のモディファイアを使うようになりました。<br />
+        もし、Launcher Mode v2を<code>LAUNCHER_MODE_V2_EXTRA</code>により拡張している場合、<code>LAUNCHER_MODE_V2_EXTRA</code>から<code>ModifierFlag::NONE</code>を削除してください。<br />
+        例:<br />
+        変更前: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
+        変更後: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
       </li>
     </ul>
   </li>
