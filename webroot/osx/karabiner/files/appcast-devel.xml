@@ -19,43 +19,20 @@
     Incompatibility changes:
     <ul>
       <li>The default mouse keys scroll direction has been changed to natural.</li>
-      <li>
-        &lt;inputsourcedetail_only&gt; and &lt;inputsourcedetail_not&gt; filters have been merged into &lt;inputsource_only&gt; and &lt;inputsource_not&gt;.<br />
-        Please use &lt;inputsource_only&gt; and &lt;inputsource_not&gt; in your private.xml.
-      </li>
-      <li>
-        Launcher Mode v2 uses own modifier flag in order to improve usability. <br />
-        If you extended Launcher Mode v2 by LAUNCHER_MODE_V2_EXTRA, please remove ModifierFlag::NONE from LAUNCHER_MODE_V2_EXTRA.<br />
-        Example:<br />
-        old: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
-        new: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
-      </li>
+      <li>&lt;inputsourcedetail_only&gt; and &lt;inputsourcedetail_not&gt; filters have been merged into &lt;inputsource_only&gt; and &lt;inputsource_not&gt;.</li>
+      <li>Some prepared settings have been updated with incompatible changes in order to improve usability.</li>
     </ul>
   </li>
-  <li>New option has been added into command line interface: toggle, be_careful_to_use__clear_all_values_by_name</li>
-  <li>"Status Message &gt; Show caps lock state" option has been added.</li>
-  <li>Multiple displays support has been improved. The status message will be shown in the all screen.</li>
-  <li>Fast User Switching support has been improved.</li>
-  <li>Prepared settings have been updated.</li>
   <li>
-    Updates for people who add new settings by oneself:
+    New functions and improvements:
     <ul>
-      <li>__DropAllKeys__ has been added.</li>
-      <li>Option::KEYTOKEY_DELAYED_ACTION has been added.</li>
-      <li>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS has been added.</li>
-      <li>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW has been added.</li>
-      <li>
-        The following filters have been added.
-        <ul>
-          <li>&lt;pressingphysicalkeys_greaterthan&gt;</li>
-          <li>&lt;pressingphysicalkeys_lessthan&gt;</li>
-        </ul>
-      </li>
-      <li>__HoldingKeyToKey__ has been improved at you pressed modifiers while holding target key down.</li>
-      <li>ModifierFlag pattern matching has been introduced into Option::KEYTOKEY_AFTER_KEYUP.</li>
-      <li>high_priority attribute has been introduced into &lt;identifier&gt; tag.</li>
-      <li>&lt;appdef&gt; behavior has been improved. It preserves prepared settings when you use &lt;appdef&gt; in private.xml for bundle identifiers that are in prepared appdef.xml.</li>
-      <li>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_* have been added.</li>
+      <li>New option has been added into command line interface.</li>
+      <li>New option has been added into `post-hid-event` command line utility.</li>
+      <li>"Status Message &gt; Show caps lock state" option has been added.</li>
+      <li>Multiple displays support has been improved.</li>
+      <li>Fast User Switching support has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>New functions have been introduced for people who add new settings by oneself.</li>
     </ul>
   </li>
   <li>
@@ -66,7 +43,7 @@
     </ul>
   </li>
 </ul>
-<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+<a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
       <pubDate>Mon, 10 Aug 2015 14:25:09 -0000</pubDate>

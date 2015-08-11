@@ -46,7 +46,7 @@ EOF
 
 >>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
 </ul>
-<a href="https://pqrs.org/osx/karabiner/">Karabiner Web Site</a>
+<a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
       <pubDate>$pubDate</pubDate>
