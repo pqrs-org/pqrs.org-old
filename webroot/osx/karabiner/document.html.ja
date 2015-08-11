@@ -1111,6 +1111,7 @@ Usage:
     $ karabiner export
     $ karabiner reloadxml
     $ karabiner relaunch
+    $ karabiner be_careful_to_use__clear_all_values_by_name PROFILE_NAME
 
 Examples:
   $ karabiner list
@@ -1130,6 +1131,7 @@ Examples:
   $ karabiner export
   $ karabiner reloadxml
   $ karabiner relaunch
+  $ karabiner be_careful_to_use__clear_all_values_by_name NewItem
 </pre>
 
         <h2>
