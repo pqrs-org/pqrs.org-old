@@ -25,7 +25,7 @@
       </li>
       <li>
         Launcher Mode v2 uses own modifier flag in order to improve usability. <br />
-        If you extended Launcher Mode v2 by LAUNCHER_MODE_V2_EXTRA, please remove `ModifierFlag::NONE`from LAUNCHER_MODE_V2_EXTRA.<br />
+        If you extended Launcher Mode v2 by LAUNCHER_MODE_V2_EXTRA, please remove ModifierFlag::NONE from LAUNCHER_MODE_V2_EXTRA.<br />
         Example:<br />
         old: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
         new: &lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt; <br />
