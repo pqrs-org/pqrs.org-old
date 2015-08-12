@@ -7,49 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.7.0</title>
+      <title>Version 10.7.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.7.0 Update</h2>
+<h2>About v10.7.1 Update</h2>
 <ul>
-  <li>
-    Incompatibility changes:
-    <ul>
-      <li>The default mouse keys scroll direction has been changed to natural.</li>
-      <li>&lt;inputsourcedetail_only&gt; and &lt;inputsourcedetail_not&gt; filters have been merged into &lt;inputsource_only&gt; and &lt;inputsource_not&gt;.</li>
-      <li>Some prepared settings have been updated with incompatible changes in order to improve usability.</li>
-    </ul>
-  </li>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>New option has been added into command line interface.</li>
-      <li>New option has been added into `post-hid-event` command line utility.</li>
-      <li>"Status Message &gt; Show caps lock state" option has been added.</li>
-      <li>Multiple displays support has been improved.</li>
-      <li>Fast User Switching support has been improved.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>New functions have been introduced for people who add new settings by oneself.</li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse, Screencast-O-Matic, RazorSQL, EditRocket)</li>
-      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
-    </ul>
-  </li>
+  <li>v10.7.1: Prepared settings have been updated.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Mon, 10 Aug 2015 14:25:09 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.0.dmg"
-                 sparkle:version="10.7.0" length="3805711" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCH6rfcToxu8f7T7omPLNSniJ8GyAhQeCbyUJ4KbGwV0mjesA57I623pkw=="
+      <pubDate>Wed, 12 Aug 2015 07:07:20 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.1.dmg"
+                 sparkle:version="10.7.1" length="3805953" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFC3MAD0GrZF6D4qZuTlSs6XyyAehAhQNgqEu7PUstTZSaKAJUVf+4k89ig=="
                  />
     </item>
 
