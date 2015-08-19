@@ -5,6 +5,15 @@ require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
 class Gallery < KarabinerBase
+  def title
+    case @language
+    when :en
+      'Part of useful existing settings - ' + super()
+    when :ja
+      '便利な既存の設定の一例 - ' + super()
+    end
+  end
+
   def tabs_definition
     [
       {
