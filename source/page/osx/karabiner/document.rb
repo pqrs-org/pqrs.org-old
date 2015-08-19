@@ -13,6 +13,15 @@ class Document < KarabinerBase
     true
   end
 
+  def title
+    case @language
+    when :en
+      'Manual - ' + super()
+    when :ja
+      'マニュアル - ' + super()
+    end
+  end
+
   def tabs_definition
     [
      {
