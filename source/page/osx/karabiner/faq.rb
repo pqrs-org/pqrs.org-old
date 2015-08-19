@@ -9,6 +9,15 @@ class Faq < KarabinerBase
     '/osx/karabiner/faq.html'
   end
 
+  def title
+    case @language
+    when :en
+      'Q&amp;A - ' + super()
+    when :ja
+      'Q&amp;A - ' + super()
+    end
+  end
+
   def tabs_definition
     [
      {
