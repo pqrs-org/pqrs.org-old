@@ -13,6 +13,10 @@ class Xml < KarabinerBase
     true
   end
 
+  def title
+    return 'private.xml Reference Manual - ' + super()
+  end
+
   def tabs_definition
     [
      {
