@@ -12,9 +12,9 @@ class Faq < KarabinerBase
   def title
     case @language
     when :en
-      'Q&amp;A - ' + super()
+      'Q&A - ' + super()
     when :ja
-      'Q&amp;A - ' + super()
+      'Q&A - ' + super()
     end
   end
 
