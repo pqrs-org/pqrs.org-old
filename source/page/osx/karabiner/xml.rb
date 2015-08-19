@@ -151,6 +151,13 @@ class Xml < KarabinerBase
        }
      },
      {
+       :href => '#expand',
+       :name_l10n => {
+         :en => "expand prepared settings's capabilities",
+         :ja => "expand prepared settings's capabilities",
+       }
+     },
+     {
        :href => '#prepared',
        :name_l10n => {
          :en => 'modify prepared settings',

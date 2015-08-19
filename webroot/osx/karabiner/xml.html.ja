@@ -1663,7 +1663,7 @@
           You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
         </p>
         <p>
-          You can also overwrite existent replacement definitions by private.xml.
+          You can also overwrite existing replacement definitions by private.xml.
           <br />
           An example of overwriting VI_H:
         </p>
@@ -1855,6 +1855,39 @@ src="img/lock-indicator.png" width="301" height="80"          />
         </ul>
       </section>
 
+      <section id="extend">
+        <div class="page-header">
+          <h1>Expand prepared settings's capabilities</h1>
+        </div>
+
+        <p>
+          Some prepared settings provides a point to expand their capabilities..<br />
+          For example, Emacs Mode allows you to specify ignored apps.
+        </p>
+
+        <p>
+          You can extend them by using replacementdef.
+        </p>
+
+        <h2>Examples</h2>
+        <p>Set Emacs Mode ignored apps to EMACS,TERMINAL,VI</p>
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;replacementdef&gt;
+    &lt;replacementname&gt;EMACS_MODE_IGNORE_APPS&lt;/replacementname&gt;
+    &lt;replacementvalue&gt;
+      EMACS,
+      TERMINAL,
+      VI,
+    &lt;/replacementvalue&gt;
+  &lt;/replacementdef&gt;
+&lt;/root&gt;</pre>
+        <p>
+          The replacements are defined in
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.7.0/src/core/server/Resources/replacementdef.xml">replacementdef.xml</a>.
+        </p>
+      </section>
+
       <section id="prepared">
         <div class="page-header">
           <h1>How to modify prepared settings</h1>
@@ -1992,6 +2025,11 @@ src="img/lock-indicator.png" width="301" height="80"          />
               <li>
                 <a href="#modifier">
                   new virtual modifier definition
+                </a>
+              </li>
+              <li>
+                <a href="#expand">
+                  expand prepared settings's capabilities
                 </a>
               </li>
               <li>

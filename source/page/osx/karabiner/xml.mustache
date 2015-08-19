@@ -1562,7 +1562,7 @@
           You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
         </p>
         <p>
-          You can also overwrite existent replacement definitions by private.xml.
+          You can also overwrite existing replacement definitions by private.xml.
           <br />
           An example of overwriting VI_H:
         </p>
@@ -1770,6 +1770,42 @@
             <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.7.0/src/core/server/Resources/modifierdef.xml">List of virtual modifier definition.</a>
           </li>
         </ul>
+      </section>
+
+      <section id="extend">
+        <div class="page-header">
+          <h1>Expand prepared settings's capabilities</h1>
+        </div>
+
+        <p>
+          Some prepared settings provides a point to expand their capabilities..<br />
+          For example, Emacs Mode allows you to specify ignored apps.
+        </p>
+
+        <p>
+          You can extend them by using replacementdef.
+        </p>
+
+        <h2>Examples</h2>
+        <p>Set Emacs Mode ignored apps to EMACS,TERMINAL,VI</p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <replacementdef>
+          |    <replacementname>EMACS_MODE_IGNORE_APPS</replacementname>
+          |    <replacementvalue>
+          |      EMACS,
+          |      TERMINAL,
+          |      VI,
+          |    </replacementvalue>
+          |  </replacementdef>
+          |</root>
+        {{/indented_xml}}
+
+        <p>
+          The replacements are defined in
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.7.0/src/core/server/Resources/replacementdef.xml">replacementdef.xml</a>.
+        </p>
       </section>
 
       <section id="prepared">
