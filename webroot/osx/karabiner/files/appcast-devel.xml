@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.7.8</title>
+      <title>Version 10.7.9</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.7.8 Update</h2>
+<h2>About v10.7.9 Update</h2>
 <ul>
+  <li>v10.7.9: KeyCode::VK_MOUSEKEY_* has been improved in edge case.</li>
   <li>v10.7.8: Prepared settings have been updated.</li>
   <li>v10.7.7: Prepared settings have been updated.</li>
   <li>v10.7.6: Minor update.</li>
@@ -35,10 +36,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 20 Aug 2015 03:12:25 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.8.dmg"
-                 sparkle:version="10.7.8" length="3807086" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFG9+7mgU9HThjE/dMMyaOZwCKO/mAhRjpHiWnDIf7Gkegt1KlEVAzTuiow=="
+      <pubDate>Fri, 21 Aug 2015 00:24:55 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.9.dmg"
+                 sparkle:version="10.7.9" length="3805801" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBJndXEi/4vxoltrSgiT5idQR9TGAhRQpPqifMe41uN3nuATUo3Ox8lrhA=="
                  />
     </item>
 
