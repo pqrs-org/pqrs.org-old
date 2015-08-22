@@ -7,14 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.7.12</title>
+      <title>Version 10.7.13</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.7.12 Update</h2>
+<h2>About v10.7.13 Update</h2>
 <ul>
+  <li>v10.7.13: `__PassThrough__` behavior has been improved.</li>
   <li>v10.7.12: Update Status Message (Edge of screen mode) size.</li>
   <li>v10.7.11: Minor update.</li>
   <li>v10.7.10: Fixed an issue: multi-touch extension stops working after wake up.</li>
@@ -39,10 +40,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sat, 22 Aug 2015 07:51:27 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.12.dmg"
-                 sparkle:version="10.7.12" length="3808379" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFErcg2pvLh+6vdG/8j0orFOBbbNxAhQUXzd0xEizb1K9M294++qG6EOVtg=="
+      <pubDate>Sat, 22 Aug 2015 14:16:17 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.13.dmg"
+                 sparkle:version="10.7.13" length="3808287" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBLvS2DFtmhFPm/VQR56KZ4Rv6FXAhRGmCtNv0DTAWiJVJmpw8lYByGXBg=="
                  />
     </item>
 
