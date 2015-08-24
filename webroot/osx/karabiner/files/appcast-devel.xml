@@ -7,43 +7,37 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.7.13</title>
+      <title>Version 10.8.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.7.13 Update</h2>
+<h2>About v10.8.0 Update</h2>
 <ul>
-  <li>v10.7.13: `__PassThrough__` behavior has been improved.</li>
-  <li>v10.7.12: Update Status Message (Edge of screen mode) size.</li>
-  <li>v10.7.11: Minor update.</li>
-  <li>v10.7.10: Fixed an issue: multi-touch extension stops working after wake up.</li>
-  <li>v10.7.9: KeyCode::VK_MOUSEKEY_* has been improved in edge case.</li>
-  <li>v10.7.8: Prepared settings have been updated.</li>
-  <li>v10.7.7: Prepared settings have been updated.</li>
-  <li>v10.7.6: Minor update.</li>
   <li>
-    v10.7.5: The following filters have been added.
+    New functions and improvements:
     <ul>
-      <li>&lt;lastreleasedphysicalkey_only&gt;
-      <li>&lt;lastreleasedphysicalkey_not&gt;
-      <li>&lt;elapsedtimesincelastreleased_greaterthan&gt;
-      <li>&lt;elapsedtimesincelastreleased_lessthan&gt;
+      <li>AXNotifier supported new Alfred (Alfred 2.7.2).</li>
+      <li>Prepared settings have been updated.</li>
+      <li>__PassThrough__ behavior has been improved.</li>
+      <li>New filters have been introduced for people who add new settings by oneself.</li>
     </ul>
   </li>
-  <li>v10.7.4: AXNotifier supported new Alfred (Alfred 2.7.2).</li>
-  <li>v10.7.3: Prepared settings have been updated.</li>
-  <li>v10.7.2: Prepared settings have been updated.</li>
-  <li>v10.7.1: Prepared settings have been updated.</li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>multi-touch extension might stop working after wake up.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sat, 22 Aug 2015 14:16:17 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.7.13.dmg"
-                 sparkle:version="10.7.13" length="3808287" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBLvS2DFtmhFPm/VQR56KZ4Rv6FXAhRGmCtNv0DTAWiJVJmpw8lYByGXBg=="
+      <pubDate>Mon, 24 Aug 2015 22:32:52 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.0.dmg"
+                 sparkle:version="10.8.0" length="3808696" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHzxhd6lKtuhz3Z+v4HRfdKUnflMAhQwsvqSOKsf8eg8qJAUG2j7NqevRw=="
                  />
     </item>
 

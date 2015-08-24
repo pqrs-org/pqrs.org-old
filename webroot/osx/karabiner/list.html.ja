@@ -122,7 +122,7 @@
     </div>
 
     <h2>
-      Karabiner-10.7.0 (Total: 2197 items)
+      Karabiner-10.8.0 (Total: 2198 items)
     </h2>
 
 <ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
@@ -555,7 +555,7 @@
   (except virtual machine, RDC)</li><li>When you type Option_R only, send Option+Backquote
   (only in virtual machine, RDC)</li></ul></li><li>Option_R to Option_R+Shift_L</li><li>Use the right option key as sticky modifier. (without lock)</li><li>Use the right option key as sticky modifier. (with lock)</li><li>Option_R to Delete</li><li>Option_R to End</li><li>Option_R to End (only in virtual machine, RDC)</li><li>Option_R to End (only in virtual machine, RDC)
   (+ Shift+Option_R to Shift+End,Control_L+C)</li><li>Option_R to End (only in virtual machine, RDC)
-  (+ Shift+Option_R to Shift+End,Command_L+C)</li><li>Option_R to Enter</li><li>Option_R to Enter (except virtual machine)</li><li>Option_R to Escape</li><li>Option_R to Forward Delete</li><li>Send a escape key event when right option key is pressed alone.</li><li>Send a forward delete key event when right option key is pressed alone.</li><li>Option_R to Left-Arrow</li><li>Option_R to PageDown</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)</li><li>Option_R to Command_L+Right-Arrow (end-of-line)
+  (+ Shift+Option_R to Shift+End,Command_L+C)</li><li>Option_R to Enter</li><li>Option_R to Enter (except virtual machine)</li><li>Option_R to Escape</li><li>Option_R to Forward Delete</li><li>Send a escape key event when right option key is pressed alone.</li><li>Send a forward delete key event when right option key is pressed alone.</li><li>Option_R to Left-Arrow</li><li>Option_R to PageDown</li><li>Option_R to Return</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)</li><li>Option_R to Command_L+Right-Arrow (end-of-line)
   (+ Control+Option_R to Command_L+Down-Arrow) (end-of-buffer)</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)
   (+ Shift+Option_R to Command_L+Shift_L+Right-Arrow,Command_L+C)</li><li>Option_R to Command_L+Right-Arrow (except virtual machine, RDC)
   (+ Shift+Option_R to Command_L+Shift_L+Right-Arrow,Control_L+C)</li><li>Option_R to Command_L+Right-Arrow</li><li>Option_R to Semicolon</li><li>Option_R to Space</li><li>Option_R to Command+Control+Option+Shift+F1</li><li>Change Input Source while pressing right option key.
@@ -678,7 +678,18 @@
   - Change L to End</li><li>Eject to toggle Browsing Mode
   (+ Fn+Eject to Eject)</li><li>Fn to Fn
   (+ When you type Fn only, toggle Browsing Mode)</li><li>Option_R to Option_R
-  (+ When you type Option_R only, toggle Browsing Mode)</li><li>RightClick to toggle Browsing Mode</li><li>──────────────────────────────</li><li>[Option] Use J/K as Scroll Wheel</li></ul></li><li>Pseudo Overtype Mode<ul><li>Pseudo Overtype Mode sends Forward Delete Key before keys.</li><li>Change fn+I to Toggle Pseudo Overtype Mode</li><li>Change Command+Option+O to Toggle Pseudo Overtype Mode</li></ul></li><li>Emacs Mode<ul><li>Control+D to Forward Delete</li><li>Control+D to Forward Delete
+  (+ When you type Option_R only, toggle Browsing Mode)</li><li>RightClick to toggle Browsing Mode</li><li>──────────────────────────────</li><li>[Option] Use J/K as Scroll Wheel</li></ul></li><li>Pseudo Overtype Mode<ul><li>Pseudo Overtype Mode sends Forward Delete Key before keys.</li><li>Change fn+I to Toggle Pseudo Overtype Mode</li><li>Change Command+Option+O to Toggle Pseudo Overtype Mode</li></ul></li><li>Emacs Mode<ul><li>Note:
+  Emacs Mode will be disabled in the following apps.
+
+  * Emacs
+  * Remote Desktop
+  * Terminal
+  * Vi
+  * X11
+
+  If you want to change these ignored apps, please modify EMACS_MODE_IGNORE_APPS
+  in private.xml.
+  (See "Expand prepared settings's capabilities" section in private.xml Reference Manual.)</li><li>Control+D to Forward Delete</li><li>Control+D to Forward Delete
   (when there are no other modifiers)</li><li>Control+H to Delete</li><li>Control+I to Tab</li><li>Control+[ to Escape</li><li>Control+J to Return</li><li>Control+J to Enter</li><li>Control+M to Return</li><li>Control+PNBF to Up/Down/Left/Right</li><li>Control+PNBF to Up/Down/Left/Right
   (when there are no other modifiers)</li><li>Control+PNBF to Up/Down/Left/Right
   (+ Control+AE to Command+Left/Right)
@@ -698,12 +709,12 @@
   Control+W to Command_L+X
   Option+W to Command_L+C
   Control+G to turn off MarkSet
-  Control+Space to turn off MarkSet</li><li>Enable Control+Space</li></ul></li><li>Behavior in Emacs, Terminal, X11, VMware, Parallels, RDC, Eclipse<ul><li>Force change C-d to Forward Delete<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-h to Delete<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-i to Tab<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-m to Return<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-[ to Escape<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-pnbf to Up/Down/Left/Right<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Force change C-pnbf to Up/Down/Left/Right
+  Control+Space to turn off MarkSet</li><li>Enable Control+Space</li></ul></li><li>Behavior in Emacs, Terminal, X11, VMware, Parallels, RDC<ul><li>Force change C-d to Forward Delete<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-h to Delete<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-i to Tab<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-m to Return<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-[ to Escape<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-pnbf to Up/Down/Left/Right<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Force change C-pnbf to Up/Down/Left/Right
   (+ Control+AE to Command+Left/Right)
   (+ Command+Control+PNBF to Shift+Up/Down/Left/Right)
   (+ Command+Control+AE to Shift+Command+Left/Right)
   (+ retain Control+Shift+PNBF)
-  (+ retain Control+Shift+AE)<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li><li>In Eclipse</li></ul></li><li>Control+AE to Home/End<ul><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>[Terminal] Control+/ to C-_ and Control+' to C-M-_</li></ul></li></ul></li><li>Mouse Keys<ul><li>Important:
+  (+ retain Control+Shift+AE)<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Control+AE to Home/End<ul><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>[Terminal] Control+/ to C-_ and Control+' to C-M-_</li></ul></li></ul></li><li>Mouse Keys<ul><li>Important:
   You need at least one pointing device that has been remapped in order to use Mouse Keys feature.
   Do not enable "General &gt; Don't remap any pointing devices" if you want to use Mouse Keys.</li><li>Mouse Keys Mode v2
   You can move mouse pointer by d+hjkl keys, and scroll by d+s+hjkl keys.
@@ -1952,7 +1963,12 @@
   (it works with Key remapping in virtual machine.)</li><li>Command_R to Alt_R / Option_R to Ctrl_R
   (it works with Korean Keyboard Type 1)</li><li>Command_R to Shift+Space / Option_R to Ctrl+Space
   (it works with Korean Keyboard Type 3)</li></ul></li><li>Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)<ul><li>HanEng Key to Command+Space</li><li>Hanja Key to Option+Return</li></ul></li></ul></li></ul></li><li>For Lithuanian<ul><li>Change KeyPad Comma(,) to Dot(.)</li><li>Change letters to numbers when right command key is pressed in Lithuanian input source.</li></ul></li><li>For Norwegian<ul><li>Change KeyPad Comma(,) to Dot(.)
-+ Shift+KeyPad Comma(,) to Comma(,)</li></ul></li><li>For Polish<ul><li>Swap Command_R with Options_R</li></ul></li><li>For Portuguese<ul><li>For Portuguese PC keyboards
++ Shift+KeyPad Comma(,) to Comma(,)</li><li>Improve ISO Keyboard Layout
+  ( ''' to Pipe, 'Alt-gr +4' to '§' and '' to '\' )</li><li>Curly brackets
+( 'Alt-gr +7' to '{' and 'Alt-gr +0') to '}' )</li><li>At sign fix
+( 'Alt-gr +2' to '@' )</li><li>Star sign fix
+( '@' to ''' and 'Shift + ''' to '*' )</li><li>Euro sign fix
+( 'Alt-gr +e' to '€' )</li></ul></li><li>For Polish<ul><li>Swap Command_R with Options_R</li></ul></li><li>For Portuguese<ul><li>For Portuguese PC keyboards
 Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</li><li>Map backslash</li><li>Map ordinals</li><li>Map tilde/accent</li><li>Map Alt-Gr modified keys</li></ul></li></ul></li><li>For Russian<ul><li>Change Backquote(`) Key<ul><li>Backquote(`) to Paragraph(§)</li><li>Swap Backquote(`) to Paragraph(§) only for US input source</li></ul></li><li>Change Command_L Key<ul><li>Command_L to Command_L
   (+ When you type Command_L only, change Input Source to English)</li></ul></li><li>Change Command_R Key<ul><li>Command_R to Command_R
   (+ When you type Command_R only, change Input Source to Russian)</li></ul></li><li>Change Paragraph(§) Key<ul><li>Paragraph(§) to 1</li><li>Paragraph(§) to Backquote(`)</li><li>Paragraph(§) to Escape</li><li>Paragraph(§) to Forward Delete</li></ul></li><li>Change Shift_L Key<ul><li>Shift_L to Shift_L
@@ -2680,9 +2696,17 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Change S to 2 if last pressed physical key is mute.
   Change W to 2 unless last pressed physical key is mute.
   Change D to 3 if last pressed physical key is left click.
-  Change E to 3 unless last pressed physical key is left click.</li></ul></li><li>Elapsed Time Since Last Pressed<ul><li>Standard
+  Change E to 3 unless last pressed physical key is left click.</li></ul></li><li>Last Released Physical Key<ul><li>Standard
+  Change A to 1 if last released physical key is return key.
+  Change Q to 1 unless last released physical key is return key.
+  Change S to 2 if last released physical key is mute.
+  Change W to 2 unless last released physical key is mute.
+  Change D to 3 if last released physical key is left click.
+  Change E to 3 unless last released physical key is left click.</li></ul></li><li>Elapsed Time Since Last Pressed<ul><li>Standard
   Change A to 1 if time elapsed since last pressed is greater than 1000ms.
-  Change S to 2 if time elapsed since last pressed is less than 1000ms.</li></ul></li><li>Pressing Physical Keys Count<ul><li>Standard
+  Change S to 2 if time elapsed since last pressed is less than 1000ms.</li></ul></li><li>Elapsed Time Since Last Released<ul><li>Standard
+  Change A to 1 if time elapsed since last released is greater than 1000ms.
+  Change S to 2 if time elapsed since last released is less than 1000ms.</li></ul></li><li>Pressing Physical Keys Count<ul><li>Standard
   Change A to 1 if pressing physical keys count &lt; 2
   Change S to 2 if pressing physical keys count &gt; 1
 

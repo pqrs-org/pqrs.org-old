@@ -17,6 +17,77 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.8.0',
+              :updated => '2015-08-24',
+              :link => 'files/Karabiner-10.8.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>AXNotifier supported new Alfred (Alfred 2.7.2).</li>
+      <li>Prepared settings have been updated.</li>
+      <li>__PassThrough__ behavior has been improved.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>
+            The following filters have been added.
+            <ul>
+              <li>&lt;lastreleasedphysicalkey_only&gt;</li>
+              <li>&lt;lastreleasedphysicalkey_not&gt;</li>
+              <li>&lt;elapsedtimesincelastreleased_greaterthan&gt;</li>
+              <li>&lt;elapsedtimesincelastreleased_lessthan&gt;</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>multi-touch extension might stop working after wake up.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>AXNotifierが新しいAlfred (Alfred 2.7.2)をサポートしました。</li>
+      <li>設定の追加・更新をしました。</li>
+      <li>__PassThrough__の挙動を改良しました。</li>
+      <li>
+        自分で設定を追加する人向けの変更点:
+        <ul>
+          <li>
+            以下のフィルタを追加しました。
+            <ul>
+              <li>&lt;lastreleasedphysicalkey_only&gt;</li>
+              <li>&lt;lastreleasedphysicalkey_not&gt;</li>
+              <li>&lt;elapsedtimesincelastreleased_greaterthan&gt;</li>
+              <li>&lt;elapsedtimesincelastreleased_lessthan&gt;</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>multi-touch extensionがスリープからの復帰後に動作しなくなることがある。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.7.0',
               :updated => '2015-08-10',
               :link => 'files/Karabiner-10.7.0.dmg',
