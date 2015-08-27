@@ -7,37 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.8.0</title>
+      <title>Version 10.8.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.8.0 Update</h2>
+<h2>About v10.8.1 Update</h2>
 <ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>AXNotifier supported new Alfred (Alfred 2.7.2).</li>
-      <li>Prepared settings have been updated.</li>
-      <li>__PassThrough__ behavior has been improved.</li>
-      <li>New filters have been introduced for people who add new settings by oneself.</li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>multi-touch extension might stop working after wake up.</li>
-    </ul>
-  </li>
+  <li>v10.8.1: The external keyboard handling has been improved.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Mon, 24 Aug 2015 22:32:52 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.0.dmg"
-                 sparkle:version="10.8.0" length="3808696" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHzxhd6lKtuhz3Z+v4HRfdKUnflMAhQwsvqSOKsf8eg8qJAUG2j7NqevRw=="
+      <pubDate>Thu, 27 Aug 2015 05:38:58 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.1.dmg"
+                 sparkle:version="10.8.1" length="3809245" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAFw4pF+aZuaMkZqK7AswKviWqV5AhRXf2zm38rCh6xGkzS9nVkx1WFOcg=="
                  />
     </item>
 
