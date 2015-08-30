@@ -7,23 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.8.1</title>
+      <title>Version 10.8.2</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.8.1 Update</h2>
+<h2>About v10.8.2 Update</h2>
 <ul>
+  <li>v10.8.2: Prepared settings have been updated.</li>
   <li>v10.8.1: The external keyboard handling has been improved.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 27 Aug 2015 05:38:58 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.1.dmg"
-                 sparkle:version="10.8.1" length="3809245" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAFw4pF+aZuaMkZqK7AswKviWqV5AhRXf2zm38rCh6xGkzS9nVkx1WFOcg=="
+      <pubDate>Sun, 30 Aug 2015 13:58:42 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.2.dmg"
+                 sparkle:version="10.8.2" length="3807982" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEz2NGnta7ksjR0/UsQc8c1DgFMkAhQSWSqQgMt9x6FfZrA+a1hPUqqHjg=="
                  />
     </item>
 
