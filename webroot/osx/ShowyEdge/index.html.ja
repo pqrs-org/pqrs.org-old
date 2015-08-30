@@ -83,7 +83,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-2.1.0.dmg">ShowyEdge-2.1.0をダウンロード
+            href="files/ShowyEdge-2.2.0.dmg">ShowyEdge-2.2.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.7以降で動作します。</span></a>      </p>
 
       <p>
@@ -426,6 +426,20 @@ src="img/dmg.png" width="128" height="128"              />
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 2.2.0
+              <small>
+2015年8月30日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.2.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+  <li>Closeボタンを追加しました。</li>
+</ul>
 
           <h2>
             Version 2.1.0

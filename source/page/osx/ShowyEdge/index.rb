@@ -75,6 +75,25 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '2.2.0',
+              :updated => '2015-08-30',
+              :link => 'files/ShowyEdge-2.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>Close button has been added.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>「Check for updates（Sparkle）」を更新しました。</li>
+  <li>Closeボタンを追加しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '2.1.0',
               :updated => '2014-12-02',
               :link => 'files/ShowyEdge-2.1.0.dmg',

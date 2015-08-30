@@ -84,7 +84,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-2.1.0.dmg">Download ShowyEdge-2.1.0
+            href="files/ShowyEdge-2.2.0.dmg">Download ShowyEdge-2.2.0
             &nbsp;<span class="label label-default">For OS X 10.7+</span></a>      </p>
 
       <p>
@@ -428,6 +428,20 @@ src="img/dmg.png" width="128" height="128"              />
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 2.2.0
+              <small>
+Aug 30, 2015              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-2.2.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>Close button has been added.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+</ul>
 
           <h2>
             Version 2.1.0
