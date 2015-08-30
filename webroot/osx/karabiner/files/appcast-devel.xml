@@ -7,24 +7,42 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.8.2</title>
+      <title>Version 10.8.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.8.2 Update</h2>
+<h2>About v10.8.3 Update</h2>
 <ul>
-  <li>v10.8.2: Prepared settings have been updated.</li>
-  <li>v10.8.1: The external keyboard handling has been improved.</li>
+  <li>
+    Incompatibility changes:
+    <ul>
+      <li>
+        The fn keypad has been removed from Implicit behavior. <br />
+        Please use either of the following settings instead if you need.
+        <ul>
+          <li>"Fn+Number to KeyPad"</li>
+          <li>"Use old style fn keypad"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>The external keyboard handling has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sun, 30 Aug 2015 13:58:42 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.2.dmg"
-                 sparkle:version="10.8.2" length="3807982" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEz2NGnta7ksjR0/UsQc8c1DgFMkAhQSWSqQgMt9x6FfZrA+a1hPUqqHjg=="
+      <pubDate>Sun, 30 Aug 2015 16:42:31 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.3.dmg"
+                 sparkle:version="10.8.3" length="3798941" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDRMl2AI5YmNdRgdbjmlGCWNrVCGAhRdnX+ysaRCToSpxUcf5fNeCUpZgQ=="
                  />
     </item>
 
