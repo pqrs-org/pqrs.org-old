@@ -7,28 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.3.0</title>
+      <title>Version 11.3.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v11.3.0 Update</h2>
+<h2>About v11.3.1 Update</h2>
 <ul>
-  <li>
-    Fixed an issue:
-    <ul>
-      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
-    </ul>
-  </li>
+  <li>Update Sparkle.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
 ]]>
       </description>
-      <pubDate>Sat, 08 Aug 2015 17:54:50 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.3.0.dmg"
-                 sparkle:version="11.3.0" length="1610255" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDe1IOl0hpkYqqIEZ5z8H+ZUJoW3wIUUkfIYQkauo4b5O6z0fsFzy9mdwU="
+      <pubDate>Mon, 31 Aug 2015 03:31:09 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.3.1.dmg"
+                 sparkle:version="11.3.1" length="1601792" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFF4lLQ3twmSvqxDG2RMLf539pF+HAhQOjdp15JnJ1rGeVcDfCGYUwErdsQ=="
                  />
     </item>
 
