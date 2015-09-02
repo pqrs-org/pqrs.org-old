@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.8.3</title>
+      <title>Version 10.8.4</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.8.3 Update</h2>
+<h2>About v10.8.4 Update</h2>
 <ul>
   <li>
     Incompatibility changes:
@@ -33,16 +33,28 @@
     <ul>
       <li>The external keyboard handling has been improved.</li>
       <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>
+            The following filters have been added.
+            <ul>
+              <li>&lt;lastsentevent_not&gt;</li>
+              <li>&lt;lastsentevent_only&gt;</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sun, 30 Aug 2015 16:42:31 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.3.dmg"
-                 sparkle:version="10.8.3" length="3798941" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDRMl2AI5YmNdRgdbjmlGCWNrVCGAhRdnX+ysaRCToSpxUcf5fNeCUpZgQ=="
+      <pubDate>Wed, 02 Sep 2015 06:12:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.4.dmg"
+                 sparkle:version="10.8.4" length="3801174" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEBuCzr+ZpQF5oLPgWV2uC+o8hp7AhQ/+Lb3K8opv3vrokDq3wj9C2yAYg=="
                  />
     </item>
 
