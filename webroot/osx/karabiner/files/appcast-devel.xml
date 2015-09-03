@@ -50,7 +50,7 @@
   <li>
     Fixed issues:
     <ul>
-      <li>__DropKeyAfterRemap__ does not work properly if the target key is changed by &lt;autogen&gt; that are defined before __DropKeyAfterRemap__.</li>
+      <li>__DropKeyAfterRemap__ does not work properly if the target key is changed by &lt;autogen&gt; that is defined before __DropKeyAfterRemap__.</li>
     </ul>
   </li>
 </ul>
