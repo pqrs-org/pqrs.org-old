@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.8.6</title>
+      <title>Version 10.8.7</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.8.6 Update</h2>
+<h2>About v10.8.7 Update</h2>
 <ul>
   <li>
     Incompatibility changes:
@@ -57,10 +57,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 03 Sep 2015 07:41:44 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.6.dmg"
-                 sparkle:version="10.8.6" length="3801340" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHa4HTXuO9Y7IFoWDMGLJM+DK57WAhQzML/KXlsOLw8+7NcrDkbcha6qnA=="
+      <pubDate>Thu, 03 Sep 2015 07:55:58 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.8.7.dmg"
+                 sparkle:version="10.8.7" length="3802150" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFC9kPwNzRL5rETXPxn7ShbA1uzM2AhQKprrb1jMuy0msQga6chTZq8BQPA=="
                  />
     </item>
 
