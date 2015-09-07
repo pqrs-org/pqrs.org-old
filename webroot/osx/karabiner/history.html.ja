@@ -121,6 +121,56 @@
       </h1>
     </div>
       <h2>
+        Version 10.9.0
+          <small>
+2015年9月7日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.9.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    互換性がない変更点:
+    <ul>
+      <li>
+        fnキーとの組み合わせによるキーパッド機能を暗黙の挙動から削除しました。<br />
+        必要に応じて、以下の設定を使ってください。
+        <ul>
+          <li>"Fn+Number to KeyPad"</li>
+          <li>"Use old style fn keypad"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>外部キーボードの扱いを改善しました。</li>
+      <li>設定の追加・更新をしました。</li>
+      <li>
+        自分で設定を追加する人向けの変更点:
+        <ul>
+          <li>
+            以下のフィルタを追加しました。
+            <ul>
+              <li><code>&lt;lastsentevent_not&gt;</code></li>
+              <li><code>&lt;lastsentevent_only&gt;</code></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li><code>__DropKeyAfterRemap__</code>の対象のキーを、<code>__DropKeyAfterRemap__</code>よりも前に定義された<code>&lt;autogen&gt;</code>で変更した場合、<code>__DropKeyAfterRemap__</code>が適切に動作しない。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.8.0
           <small>
 2015年8月24日          </small>

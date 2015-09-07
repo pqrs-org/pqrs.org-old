@@ -12,27 +12,33 @@
     </div>
 
     <h2>
-      Karabiner-10.8.0 (Total: 2198 items)
+      Karabiner-10.9.0 (Total: 2199 items)
     </h2>
 {{=<% %>=}}
 
-<ul id="collapser"><li>General<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
+<ul id="collapser"><li>Karabiner core settings<ul><li>Exclude devices<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
   (For example: Generic USB keyboard)</li><li>Don't remap non-Apple's pointing devices
   (For example: Generic USB mouse)</li><li>Don't remap keyboards which have third vendor's driver
   (Logitech, Microsoft, Kensington, ...)</li><li>Don't remap pointing devices which has third vendor's driver
-  (Logitech, Microsoft, Kensington, ...)</li><li>──────────────────────────────</li><li>Disable an internal keyboard while external keyboards are connected.<ul><li>Disable an internal keyboard while external keyboards are connected.
+  (Logitech, Microsoft, Kensington, ...)</li></ul></li><li>Disable an internal keyboard while external keyboards are connected.<ul><li>Disable an internal keyboard while external keyboards are connected.
 
   Note for Logitech Unifying Receiver users:
   The receiver is detected as a composite device of keyboard and mouse.
   So, the receiver always disables an internal keyboard even if you are using only mouse.
   If you are not using Unifying keyboard devices, please enable a following option.</li><li>Options<ul><li>Treat Logitech Unifying Receiver as pointing device.</li><li>Ignore devices that do not have valid Vendor ID and Product ID.
-  (Vendor ID == 0x0000 and Product ID == 0x0000)</li></ul></li></ul></li><li>──────────────────────────────</li><li>Don't leave any modes automatically when the machine wakes from sleep.
+  (Vendor ID == 0x0000 and Product ID == 0x0000)</li></ul></li></ul></li><li>Pointing device core settings<ul><li>Mouse Keys scroll direction: not natural
+  (Enable this setting if your scroll direction of trackpad/mouse is not natural.)</li><li>Options for "CursorMove to ScrollWheel"<ul><li>Enable dynamic scrollwheel direction fixation. (horizontal and vertical)</li><li>Disable momentum (inertia) scroll.</li><li>Reverse scroll direction vertically.</li><li>Reverse scroll direction horizontally.</li><li>Disable vertical scroll.</li><li>Disable horizontal scroll.</li></ul></li></ul></li><li>Advanced configurations<ul><li>Unlimited rapid key repeat rate
+  (Karabiner limits most rapid "Delay Until Repeat" to 200ms for safe.
+  This setting allows you unlimited "Delay Until Repeat".)</li><li>Ignore bouncing (chattering) events.
+  (Please adjust threshold in "Key Repeat" tab.)</li><li>Allow devices which Vendor ID and Product ID are zero.
+  (Be careful enabling this option.
+  These devices might cause system crash with Karabiner.)</li><li>Don't leave any modes automatically when the machine wakes from sleep.
   (Pass Through Mode, Browsing Mode, etc.)
 
   Karabiner turns off these modes automatically because
   these modes are not suitable for password input.
 
-  This setting allows you to keep these modes's states.</li><li>──────────────────────────────</li><li>Pass-Through caps lock LED status
+  This setting allows you to keep these modes's states.</li><li>Pass-Through caps lock LED status
 
   Karabiner manipulates caps lock LED according to internal caps lock state.
   (For example, if you changed right option key to caps lock,
@@ -42,24 +48,16 @@
   Therefore, we provide an option to suppress this behavior.
 
   Please turn on this option if your device does not work properly
-  when you changed a key to caps lock.</li><li>──────────────────────────────</li><li>Don't restore modifiers in the mouse event
+  when you changed a key to caps lock.</li><li>Don't restore modifiers in the mouse event
 
   For example, when you use Option+Tab to Command+Tab,
   we send "Command+Click" when you did a mouse click while
   pushing the Option key after you pushed Option+Tab.
-  "Option+Click" should be output, but this option changes this behavior.</li><li>──────────────────────────────</li><li>Disable NumPad Hack
-  (Don't change Fn+JKL.. to NumPad, and other Fn+key combinations)</li><li>──────────────────────────────</li><li>Unlimited rapid key repeat rate
-  (Karabiner limits most rapid "Delay Until Repeat" to 200ms for safe.
-  This setting allows you unlimited "Delay Until Repeat".)</li><li>──────────────────────────────</li><li>Ignore bouncing (chattering) events.
-  (Please adjust threshold in "Key Repeat" tab.)</li><li>──────────────────────────────</li><li>Workaround for keyboards with stuck keys.
-  Enable this setting if you are using external keyboards
-  which sometimes keep pressing modifiers. (eg. shift)</li><li>──────────────────────────────</li><li>Allow devices which Vendor ID and Product ID are zero.
-  (Be careful enabling this option.
-  These devices might cause system crash with Karabiner.)</li></ul></li><li>Ignore apps &amp; devices<ul><li>──────────────────────────────</li><li>Ignore apps</li><li>Disable all settings while you are using virtual machine.</li><li>Disable all settings while you are using Remote Desktop or VNC.</li><li>──────────────────────────────</li><li>Ignore devices</li><li>Disable all settings on Logitech Cordless Presenter.</li><li>Disable all settings on Logitech G502 Mouse.</li><li>Disable all settings on Magic Mouse.</li><li>──────────────────────────────</li></ul></li><li>Pass Through Mode (Disable all settings temporarily)<ul><li>What is Pass Through Mode?
+  "Option+Click" should be output, but this option changes this behavior.</li></ul></li></ul></li><li>Ignore apps &amp; devices<ul><li>──────────────────────────────</li><li>Ignore apps</li><li>Disable all settings while you are using virtual machine.</li><li>Disable all settings while you are using Remote Desktop or VNC.</li><li>──────────────────────────────</li><li>Ignore devices</li><li>Disable all settings on Logitech Cordless Presenter.</li><li>Disable all settings on Logitech G502 Mouse.</li><li>Disable all settings on Magic Mouse.</li><li>──────────────────────────────</li></ul></li><li>Pass Through Mode (Disable all settings temporarily)<ul><li>What is Pass Through Mode?
   You can disable all settings temporarily.
   Turn on a setting below, and toggle "Pass Through Mode".</li><li>Change Fn+Escape to toggle "Pass Through Mode"</li><li>Simultaneous Key Presses [Escape+Tab] to toggle "Pass Through Mode"</li><li>Holding Escape to toggle "Pass Through Mode"</li></ul></li><li>Pointing Device<ul><li>Reverse scrolling direction<ul><li>Important:
   Items are exclusive. Choose one item.</li><li>Reverse Vertical &amp; Horizontal Scrolling</li><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li></ul></li><li>CursorMove to ScrollWheel<ul><li>We can scroll pages by moving the mouse pointer.
-  (Also, you can generate a click event if you click without moving)</li><li>RightClick+CursorMove to ScrollWheel</li><li>MiddleClick+CursorMove to ScrollWheel</li><li>MouseButton4+CursorMove to ScrollWheel</li><li>MouseButton5+CursorMove to ScrollWheel</li><li>Control+RightClick+CursorMove to ScrollWheel</li><li>Shift+RightClick+CursorMove to ScrollWheel</li><li>Command+Control+CursorMove to ScrollWheel</li><li>Command+CursorMove to ScrollWheel</li><li>Fn+CursorMove to ScrollWheel</li><li>Option+CursorMove to ScrollWheel</li><li>(Simultaneous) LeftClick+RightClick+CursorMove to ScrollWheel</li><li>Space+CursorMove to ScrollWheel</li><li>CursorMove to ScrollWheel Option<ul><li>Reverse Vertical Scrolling</li><li>Reverse Horizontal Scrolling</li><li>Enable dynamic scrollwheel direction fixation (Horizontal/Vertical)</li><li>Disable Horizontal Scroll</li><li>Disable Vertical Scroll</li><li>Disable Momentum (Inertia) Scroll</li></ul></li></ul></li><li>Button to Button<ul><li>Command+LeftClick to Mouse Button 4</li><li>Control+LeftClick to LeftClick</li><li>Control+LeftClick to MiddleClick</li><li>Fn+LeftClick to MiddleClick</li><li>Fn+LeftClick to Option_L+LeftClick</li><li>Option+LeftClick to MiddleClick</li><li>RightClick to LeftClick</li><li>Control+RightClick to Double-LeftClick</li><li>Fn+RightClick to Mouse Button 5</li><li>MiddleClick to Command+LeftClick</li><li>MouseButton4 to MiddleClick
+  (Also, you can generate a click event if you click without moving)</li><li>RightClick+CursorMove to ScrollWheel</li><li>MiddleClick+CursorMove to ScrollWheel</li><li>MouseButton4+CursorMove to ScrollWheel</li><li>MouseButton5+CursorMove to ScrollWheel</li><li>Control+RightClick+CursorMove to ScrollWheel</li><li>Shift+RightClick+CursorMove to ScrollWheel</li><li>Command+Control+CursorMove to ScrollWheel</li><li>Command+CursorMove to ScrollWheel</li><li>Fn+CursorMove to ScrollWheel</li><li>Option+CursorMove to ScrollWheel</li><li>(Simultaneous) LeftClick+RightClick+CursorMove to ScrollWheel</li><li>Space+CursorMove to ScrollWheel</li></ul></li><li>Button to Button<ul><li>Command+LeftClick to Mouse Button 4</li><li>Control+LeftClick to LeftClick</li><li>Control+LeftClick to MiddleClick</li><li>Fn+LeftClick to MiddleClick</li><li>Fn+LeftClick to Option_L+LeftClick</li><li>Option+LeftClick to MiddleClick</li><li>RightClick to LeftClick</li><li>Control+RightClick to Double-LeftClick</li><li>Fn+RightClick to Mouse Button 5</li><li>MiddleClick to Command+LeftClick</li><li>MouseButton4 to MiddleClick
   (+ MouseButton4+CursorMove to ScrollWheel)</li><li>MouseButton4 to Back (command-[)
   (+ MouseButton4+CursorMove to ScrollWheel)</li><li>Middle to Back (command-[)
   (+ Middle+CursorMove to ScrollWheel)</li><li>(Simultaneous) LeftClick+RightClick to MiddleClick</li><li>(Simultaneous) LeftClick+RightClick to Button4</li><li>(Simultaneous) LeftClick+RightClick to Button5</li></ul></li><li>Button to Key<ul><li>MiddleClick to Dashboard</li><li>MiddleClick to Expose</li><li>MiddleClick to F8</li><li>MiddleClick to Control+F4 (= Move focus to active or next window)</li><li>Use Button4 and Button5 as Back/Forward<ul><li>Set 1: Button4 to Command+[ (Back)</li><li>Set 1: Button5 to Command+] (Forward)</li><li>Set 2: Button4 to Command+] (Forward)</li><li>Set 2: Button5 to Command+[ (Back)</li></ul></li><li>Open Mission Control when you press and hold the right button for 500 milliseconds.</li><li>(Simultaneous) LeftClick+RightClick to Dashboard</li><li>(Simultaneous) LeftClick+RightClick to Expose</li><li>(Simultaneous) LeftClick+RightClick to F8</li></ul></li><li>Change ScrollWheel<ul><li>Fn+ScrollWheel to Brightness Control
@@ -549,7 +547,18 @@
   (Quit Application by Command+Option+Q.)</li><li>──────────────────────────────</li><li>Change "right option key + equal key" to "move focus to next window in application".
   (You need to enable command-backquote (⌘`) shortcut from System Preferences.)</li><li>Change "right option key + bracket keys" to "move focus to previous/next tab in application".
   (Change right option key + bracket keys to command-{})</li><li>──────────────────────────────</li><li>Toggle Bluetooth by fn-b</li><li>Toggle Wi-Fi by fn-w</li><li>──────────────────────────────</li><li>Move mouse cursor to the center of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li><li>By button4 on mouse.</li><li>By button5 on mouse.</li></ul></li><li>Move mouse cursor to top-left side of the frontmost app's window:<ul><li>By pressing fn key alone.</li><li>By holding quote(') key down</li><li>By holding slash(/) key down</li></ul></li><li>──────────────────────────────</li><li>Launch iTunes when you press the play/pause button twice.</li><li>──────────────────────────────</li><li>Change screen shot shortcuts
-  (Swap command-shift-3/4 and command-control-shift-3)</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
+  (Swap command-shift-3/4 and command-control-shift-3)</li><li>──────────────────────────────</li><li>Use old style fn keypad
+  fn-789: 789
+  fn-UIO: 456
+  fn-JKL: 123
+  fn-M  : 0
+
+  fn-0: /
+  fn-P: *
+  fn-;: -
+  fn-.: .
+  fn-/: +
+  fn-6: clear</li></ul></li><li>Sticky Modifier Keys<ul><li>Enable Sticky Modifier Keys (without lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li><li>Enable Sticky Modifier Keys (with lock feature)
   You should turn on "Show sticky modifiers state" in Status Message tab on Preferences.</li></ul></li><li>Diamond Cursor<ul><li>Control_L+WSAD to Up/Down/Left/Right</li><li>Control_R+WSAD to Up/Down/Left/Right</li><li>──────────────────────────────</li><li>ModifierFlag::EXTRA1+WXSD to Up/Down/Left/Right
   (+ ModifierFlag::EXTRA1+A to Command_L+Left)
@@ -606,8 +615,8 @@
   (+ Command+Control+AE to Shift+Command+Left/Right)
   (+ retain Control+Shift+PNBF)
   (+ retain Control+Shift+AE)<ul><li>In Emacs, Terminal</li><li>In X11</li><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>Control+AE to Home/End<ul><li>In VMware Fusion, Parallels Desktop, Remote Desktop Connection</li></ul></li><li>[Terminal] Control+/ to C-_ and Control+' to C-M-_</li></ul></li></ul></li><li>Mouse Keys<ul><li>Important:
-  You need at least one pointing device that has been remapped in order to use Mouse Keys feature.
-  Do not enable "General &gt; Don't remap any pointing devices" if you want to use Mouse Keys.</li><li>Mouse Keys Mode v2
+  At least one pointing device must be connected when you use Mouse Keys.
+  (Excluded devices by "Karabiner core settings &gt; Exclude devices" are not counted.)</li><li>Mouse Keys Mode v2
   You can move mouse pointer by d+hjkl keys, and scroll by d+s+hjkl keys.
 
   Usage:
@@ -634,8 +643,7 @@
   * D+N: Right click.
 
   Warp cursor position:
-  * D+I: Move mouse cursor to the center of the frontmost app's window.</li><li>Mouse Keys scroll direction: not natural
-  (Enable this setting if your scroll direction of trackpad/mouse is not natural.)</li><li>──────────────────────────────</li><li>Other settings<ul><li>"Right command key + j/k" to scroll down/up</li><li>"Right command key + h/l" to scroll left/right</li><li>"Right option key + up down arrows" to scroll down/up</li><li>"Right option key + left right arrows" to scroll left/right</li><li>"Left control key + qa" to scroll down/up</li><li>"Left control key + ws to scroll left/right"</li><li>Mouse Keys Mode v1<ul><li>What's Mouse Keys Mode?
+  * D+I: Move mouse cursor to the center of the frontmost app's window.</li><li>Other settings<ul><li>"Right command key + j/k" to scroll down/up</li><li>"Right command key + h/l" to scroll left/right</li><li>"Right option key + up down arrows" to scroll down/up</li><li>"Right option key + left right arrows" to scroll left/right</li><li>"Left control key + qa" to scroll down/up</li><li>"Left control key + ws to scroll left/right"</li><li>Mouse Keys Mode v1<ul><li>What's Mouse Keys Mode?
   Push "S" and "D" keys simultaneously while pressing Shift key,
   and keep S,D keys pressing.
   Then you can control mouse cursor by HJKL keys. (and Arrow keys)
@@ -1468,7 +1476,7 @@
   (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Alt+F4
   Disable Cmd+Q, remap Alt/Cmd+F4 to Cmd+Q
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Simulate Windows Copy Paste keys.
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Lock Screen (Lock screen by command-L)</li><li>Simulate Windows Copy Paste keys.
   (Change Command+Fn to Command+C)
   (Change Shift+Fn to Command+V)
 
@@ -2331,8 +2339,12 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   </li></ul></li><li>DropKeyAfterRemap<ul><li>Standard
   Drop Tab
   Drop Shift+Return
+  Drop Option+Return (if no other modifiers are not pressed)
   Change A to Tab (== dropped)
-  Change B to Shift_L+Return (== dropped)</li></ul></li><li>DropAllKeys<ul><li>  Drop all key combinations while the right option key is pressed.
+  Change B to Shift_L+Return (== dropped)
+  Change C to Option_L+Return (== dropped)
+
+  Control+C will be Control+Option+Return and it will not be dropped.</li></ul></li><li>DropAllKeys<ul><li>  Drop all key combinations while the right option key is pressed.
   (Except option-qwer)
   (__DropAllKeys__ does not drop modifier events.)
 
@@ -2606,7 +2618,19 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Return down, Return up, A down, A up -&gt; Return, 1
 
   Return down, S down, S up, Return up -&gt; Return, 2
-  Return down, Return up, S down, S up -&gt; Return, S</li></ul></li><li>block sample
+  Return down, Return up, S down, S up -&gt; Return, S</li></ul></li><li>Last Sent Event<ul><li>Standard
+  Change 1 to KeyCode::A
+  Change 2 to KeyCode::VK_MODIFIER_EXTRA1
+  Change 3 to KeyCode::SHIFT_L
+
+  Change Return to Tab when:
+  * the last sent event is KeyCode::A, EventType::DOWN
+  * the last sent event is KeyCode::B
+  * the last sent event is KeyCode::VK_MODIFIER_EXTRA1
+  * the last sent event is KeyCode::SHIFT_L
+
+  Change Space to Tab when:
+  * the last sent event is not KeyCode::A</li></ul></li><li>block sample
   A to B if application == Terminal (KeyToKey)
   B to D if application == Terminal (KeyToKey)
   A to C if application == Safari (KeyToKey)

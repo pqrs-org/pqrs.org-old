@@ -17,6 +17,97 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.9.0',
+              :updated => '2015-09-07',
+              :link => 'files/Karabiner-10.9.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Incompatibility changes:
+    <ul>
+      <li>
+        The fn keypad has been removed from Implicit behavior. <br />
+        Please use either of the following settings instead if you need.
+        <ul>
+          <li>"Fn+Number to KeyPad"</li>
+          <li>"Use old style fn keypad"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>The external keyboard handling has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>
+            The following filters have been added.
+            <ul>
+              <li><code>&lt;lastsentevent_not&gt;</code></li>
+              <li><code>&lt;lastsentevent_only&gt;</code></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li><code>__DropKeyAfterRemap__</code> does not work properly if the target key is changed by <code>&lt;autogen&gt;</code> that is defined before <code>__DropKeyAfterRemap__</code>.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    互換性がない変更点:
+    <ul>
+      <li>
+        fnキーとの組み合わせによるキーパッド機能を暗黙の挙動から削除しました。<br />
+        必要に応じて、以下の設定を使ってください。
+        <ul>
+          <li>"Fn+Number to KeyPad"</li>
+          <li>"Use old style fn keypad"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>外部キーボードの扱いを改善しました。</li>
+      <li>設定の追加・更新をしました。</li>
+      <li>
+        自分で設定を追加する人向けの変更点:
+        <ul>
+          <li>
+            以下のフィルタを追加しました。
+            <ul>
+              <li><code>&lt;lastsentevent_not&gt;</code></li>
+              <li><code>&lt;lastsentevent_only&gt;</code></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li><code>__DropKeyAfterRemap__</code>の対象のキーを、<code>__DropKeyAfterRemap__</code>よりも前に定義された<code>&lt;autogen&gt;</code>で変更した場合、<code>__DropKeyAfterRemap__</code>が適切に動作しない。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.8.0',
               :updated => '2015-08-24',
               :link => 'files/Karabiner-10.8.0.dmg',
