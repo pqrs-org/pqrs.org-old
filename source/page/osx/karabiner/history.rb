@@ -27,7 +27,7 @@ class History < KarabinerBase
     Incompatibility changes:
     <ul>
       <li>
-        The fn keypad has been removed from Implicit behavior. <br />
+        The fn keypad has been removed from implicit behavior. <br />
         Please use either of the following settings instead if you need.
         <ul>
           <li>"Fn+Number to KeyPad"</li>
