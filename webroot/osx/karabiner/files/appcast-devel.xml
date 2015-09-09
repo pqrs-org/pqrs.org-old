@@ -7,28 +7,36 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.9.2</title>
+      <title>Version 10.9.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.9.2 Update</h2>
+<h2>About v10.9.3 Update</h2>
 <ul>
+  <li>v10.9.3: XXX</li>
+
   <li>
     New functions and improvements:
     <ul>
       <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>`once` attribute has been introduced into `&lt;include&gt;` tag.</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Wed, 09 Sep 2015 15:46:05 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.9.2.dmg"
-                 sparkle:version="10.9.2" length="3801118" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGMwZufWxxyyWwIASk5USTszVNJWAhRnWQn1nC0pFqU7NE7OosD3o8/wbQ=="
+      <pubDate>Wed, 09 Sep 2015 16:22:58 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.9.3.dmg"
+                 sparkle:version="10.9.3" length="3801551" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCAqZiZLV4ZeVa6IpihNX0ULRJe5AIUN4jylynSPSvboc9RWUPBZUT8VIs="
                  />
     </item>
 
