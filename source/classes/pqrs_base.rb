@@ -133,16 +133,20 @@ class PqrsBase < Mustache
     path = File.join(File.dirname(File.join($destination_directory, @path)), src)
     img = Magick::Image::read(path).first
     margin = 60
+    width = img.columns
+    if /@2x\./ =~ File.basename(path) then
+      width = width / 2
+    end
 
     <<EOS
 <a data-toggle="modal" href="##{id}" class="thumbnail">
   <img src="#{src}" alt="#{alt}" />
 </a>
 <div class="modal fade" id="#{id}" tabindex="#{@lightbox_id + 30000}">
-  <div class="modal-dialog clickable" style="width: #{img.columns + margin}px;">
+  <div class="modal-dialog clickable" style="width: #{width + margin}px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="#{src}" alt="#{alt}" />
+        <img src="#{src}" alt="#{alt}" style="width: 100%" />
       </div>
     </div>
   </div>

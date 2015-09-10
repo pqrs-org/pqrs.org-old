@@ -201,7 +201,7 @@ src="img/pkg.png" width="128" height="128"                />
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelay-installer.png" alt="installer" />
+        <img src="img/noejectdelay-installer.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -315,7 +315,7 @@ org.pqrs.driver.Karabiner (10.9.0)
   <div class="modal-dialog clickable" style="width: 420px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" />
+        <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -329,7 +329,7 @@ org.pqrs.driver.Karabiner (10.9.0)
   <div class="modal-dialog clickable" style="width: 526px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" />
+        <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -343,7 +343,7 @@ org.pqrs.driver.Karabiner (10.9.0)
   <div class="modal-dialog clickable" style="width: 534px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" />
+        <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>

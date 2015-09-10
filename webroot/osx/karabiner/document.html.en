@@ -148,7 +148,7 @@
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-full.png" alt="Launchpad" />
+        <img src="img/launchpad-full.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -183,7 +183,7 @@ src="img/launchpad.png" width="150" height="157"            />
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-dialog.png" alt="AX dialog" />
+        <img src="img/ax-dialog.png" alt="AX dialog" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -203,7 +203,7 @@ src="img/launchpad.png" width="150" height="157"            />
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-preferences.png" alt="AX Preferences" />
+        <img src="img/ax-preferences.png" alt="AX Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -224,7 +224,7 @@ src="img/launchpad.png" width="150" height="157"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/preferences.png" alt="Preferences" />
+        <img src="img/preferences.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -256,7 +256,7 @@ src="img/launchpad.png" width="150" height="157"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/keyrepeat.png" alt="key repeat rate" />
+        <img src="img/keyrepeat.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -301,7 +301,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/uninstall.png" alt="preferences pane" />
+        <img src="img/uninstall.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -320,7 +320,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/uninstaller.png" alt="Karabiner Uninstaller" />
+        <img src="img/uninstaller.png" alt="Karabiner Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -334,7 +334,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 505px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/uninstaller2.png" alt="Karabiner Uninstaller" />
+        <img src="img/uninstaller2.png" alt="Karabiner Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -348,7 +348,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 482px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/uninstaller3.png" alt="Karabiner Uninstaller" />
+        <img src="img/uninstaller3.png" alt="Karabiner Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -380,7 +380,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/check-for-updates.png" alt="Check for updates" />
+        <img src="img/check-for-updates.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -400,7 +400,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/using-beta.png" alt="Check for updates" />
+        <img src="img/using-beta.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -465,7 +465,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 560px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier.png" alt="AXNotifier" />
+        <img src="img/axnotifier.png" alt="AXNotifier" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -479,7 +479,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-dialog.png" alt="AX dialog" />
+        <img src="img/ax-dialog.png" alt="AX dialog" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -508,7 +508,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-app.png" alt="AXNotifier examples" />
+        <img src="img/axnotifier-example-app.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -528,7 +528,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-windowname.png" alt="AXNotifier examples" />
+        <img src="img/axnotifier-example-windowname.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -548,7 +548,7 @@ src="img/quit.png" width="376" height="216"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-role.png" alt="AXNotifier examples" />
+        <img src="img/axnotifier-example-role.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -596,7 +596,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-sample.png" alt="eventviewer" />
+        <img src="img/eventviewer-sample.png" alt="eventviewer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -628,7 +628,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/open_private_xml.png" alt="open private.xml" />
+        <img src="img/open_private_xml.png" alt="open private.xml" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -647,7 +647,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 688px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/private.xml.png" alt="finder" />
+        <img src="img/private.xml.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -666,7 +666,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 690px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/private.xml.open_with.png" alt="finder" />
+        <img src="img/private.xml.open_with.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -685,7 +685,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 715px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/textedit.png" alt="textedit" />
+        <img src="img/textedit.png" alt="textedit" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -704,7 +704,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="Reload XML" />
+        <img src="img/reload_xml.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -723,7 +723,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reloaded.png" alt="reloaded" />
+        <img src="img/reloaded.png" alt="reloaded" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -860,7 +860,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/mte1.png" alt="preferences pane" />
+        <img src="img/mte1.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -879,7 +879,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 331px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/mte2.png" alt="dock" />
+        <img src="img/mte2.png" alt="dock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -901,7 +901,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/mte3.png" alt="multi-touch extension" />
+        <img src="img/mte3.png" alt="multi-touch extension" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -915,7 +915,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/mte4.png" alt="configuration of ignored area" />
+        <img src="img/mte4.png" alt="configuration of ignored area" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -955,7 +955,7 @@ src="img/statusbar.png" width="370" height="203"          />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/menubar_setting.png" alt="menubar tab" />
+        <img src="img/menubar_setting.png" alt="menubar tab" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -991,7 +991,7 @@ src="img/switch_current_setting.png" width="405" height="220"              />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/switch-profile.png" alt="switch profile" />
+        <img src="img/switch-profile.png" alt="switch profile" style="width: 100%" />
       </div>
     </div>
   </div>

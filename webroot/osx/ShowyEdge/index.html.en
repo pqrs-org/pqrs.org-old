@@ -129,7 +129,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 830px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/install.png" alt="Install ShowyEdge" />
+        <img src="img/install.png" alt="Install ShowyEdge" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -149,7 +149,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" />
+        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -172,7 +172,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/preferences.png" alt="Preferences" />
+        <img src="img/preferences.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -194,7 +194,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/close.png" alt="Preferences" />
+        <img src="img/close.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -230,7 +230,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 559px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/french.png" alt="French" />
+        <img src="img/french.png" alt="French" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -258,7 +258,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" />
+        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -277,7 +277,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/color1.png" alt="Finder" />
+        <img src="img/color1.png" alt="Finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -296,7 +296,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/color2.png" alt="Finder" />
+        <img src="img/color2.png" alt="Finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -318,7 +318,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/close.png" alt="Preferences" />
+        <img src="img/close.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -348,7 +348,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" />
+        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -367,7 +367,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 692px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/quit.png" alt="Launchpad" />
+        <img src="img/quit.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -400,7 +400,7 @@ src="img/dmg.png" width="128" height="128"              />
   <div class="modal-dialog clickable" style="width: 830px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/finder.png" alt="Finder" />
+        <img src="img/finder.png" alt="Finder" style="width: 100%" />
       </div>
     </div>
   </div>

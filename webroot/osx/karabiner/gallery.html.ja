@@ -151,7 +151,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/left_command_to_control.png" alt="Change the left command key to the control key" />
+        <img src="img/gallery/left_command_to_control.png" alt="Change the left command key to the control key" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -187,7 +187,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" />
+        <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -217,7 +217,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" />
+        <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -249,7 +249,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/simple_vi_mode_v2.png" alt="Mouse Keys Mode v2" />
+        <img src="img/gallery/simple_vi_mode_v2.png" alt="Mouse Keys Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -274,13 +274,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
+  <img src="img/gallery/mouse_keys_mode_v2@2x.png" alt="Mouse Keys Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
-  <div class="modal-dialog clickable" style="width: 1312px;">
+  <div class="modal-dialog clickable" style="width: 686px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/mouse_keys_mode_v2.png" alt="Mouse Keys Mode v2" />
+        <img src="img/gallery/mouse_keys_mode_v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -310,7 +310,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/operate_finder_by_hjkl_keys.png" alt="Use hjkl keys as arrow keys if you are not editing text." />
+        <img src="img/gallery/operate_finder_by_hjkl_keys.png" alt="Use hjkl keys as arrow keys if you are not editing text." style="width: 100%" />
       </div>
     </div>
   </div>
@@ -344,7 +344,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" />
+        <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -420,7 +420,7 @@
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
+        <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -449,7 +449,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
+        <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -469,7 +469,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
+        <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>

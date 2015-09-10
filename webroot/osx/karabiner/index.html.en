@@ -198,7 +198,7 @@ src="img/pkg.png" width="128" height="128"            />
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/installer.png" alt="installer" />
+        <img src="img/installer.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -229,7 +229,7 @@ src="img/pkg.png" width="128" height="128"            />
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-full.png" alt="Launchpad" />
+        <img src="img/launchpad-full.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>

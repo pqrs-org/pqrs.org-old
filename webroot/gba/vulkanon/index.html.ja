@@ -108,7 +108,7 @@
   <div class="modal-dialog clickable" style="width: 518px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/vulkanon.jpg" alt="photol" />
+        <img src="img/vulkanon.jpg" alt="photol" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@
   <div class="modal-dialog clickable" style="width: 300px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/title.png" alt="title" />
+        <img src="img/title.png" alt="title" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@
   <div class="modal-dialog clickable" style="width: 300px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ss-main.png" alt="main" />
+        <img src="img/ss-main.png" alt="main" style="width: 100%" />
       </div>
     </div>
   </div>

@@ -108,7 +108,7 @@
   <div class="modal-dialog clickable" style="width: 299px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/photo.jpg" alt="photo" />
+        <img src="img/photo.jpg" alt="photo" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@
   <div class="modal-dialog clickable" style="width: 220px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/title.png" alt="title" />
+        <img src="img/title.png" alt="title" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -136,7 +136,7 @@
   <div class="modal-dialog clickable" style="width: 220px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/normal.png" alt="simulator" />
+        <img src="img/normal.png" alt="simulator" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -150,7 +150,7 @@
   <div class="modal-dialog clickable" style="width: 220px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/shooting.png" alt="shooting mode" />
+        <img src="img/shooting.png" alt="shooting mode" style="width: 100%" />
       </div>
     </div>
   </div>

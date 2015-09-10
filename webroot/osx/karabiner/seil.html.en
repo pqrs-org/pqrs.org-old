@@ -205,7 +205,7 @@ src="img/pkg.png" width="128" height="128"                />
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-installer.png" alt="installer" />
+        <img src="img/seil-installer.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -235,7 +235,7 @@ src="img/pkg.png" width="128" height="128"                />
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-launchpad.png" alt="Launchpad" />
+        <img src="img/seil-launchpad.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -274,7 +274,7 @@ src="img/seil-icon.png" width="130" height="153"                />
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-launchpad.png" alt="Launchpad" />
+        <img src="img/seil-launchpad.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -308,7 +308,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-preferences.png" alt="Preferences" />
+        <img src="img/seil-preferences.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -338,7 +338,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/capslock.png" alt="No Action" />
+        <img src="img/capslock.png" alt="No Action" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -361,7 +361,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 739px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-noaction-multiple-devices.png" alt="No Action" />
+        <img src="img/seil-noaction-multiple-devices.png" alt="No Action" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -390,7 +390,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-preferences-misc.png" alt="Seil" />
+        <img src="img/seil-preferences-misc.png" alt="Seil" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -409,7 +409,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
+        <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -423,7 +423,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 499px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
+        <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -437,7 +437,7 @@ src="img/seil-icon.png" width="130" height="153"            />
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
+        <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" style="width: 100%" />
       </div>
     </div>
   </div>

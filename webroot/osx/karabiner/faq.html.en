@@ -174,7 +174,7 @@
   <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-console.png" alt="Launchpad" />
+        <img src="img/launchpad-console.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -194,7 +194,7 @@
   <div class="modal-dialog clickable" style="width: 1185px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/console.png" alt="Launchpad" />
+        <img src="img/console.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -296,7 +296,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_1.png" alt="Seil" />
+        <img src="img/swap_caps_and_delete_1.png" alt="Seil" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -315,7 +315,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/capslock.png" alt="caps lock" />
+        <img src="img/capslock.png" alt="caps lock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -334,7 +334,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_2.png" alt="Application Key to Delete" />
+        <img src="img/swap_caps_and_delete_2.png" alt="Application Key to Delete" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -353,7 +353,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_3.png" alt="Delete to CapsLock" />
+        <img src="img/swap_caps_and_delete_3.png" alt="Delete to CapsLock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -418,7 +418,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc1.png" alt="fnfunc" />
+        <img src="img/fnfunc1.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -440,7 +440,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc.png" alt="fnfunc" />
+        <img src="img/fnfunc.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -562,7 +562,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" />
+        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -642,7 +642,7 @@
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" />
+        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>
