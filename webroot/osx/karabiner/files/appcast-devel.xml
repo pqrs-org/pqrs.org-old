@@ -7,17 +7,21 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.9.4</title>
+      <title>Version 10.9.5</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.9.4 Update</h2>
+<h2>About v10.9.5 Update</h2>
 <ul>
   <li>
     New functions and improvements:
     <ul>
+      <li>
+        "Use prepared settings" option has been added into Karabiner Preferences > Misc & Uninstall tab. <br />
+        Turning off the setting allows you to drop prepared settings and improve the speed of reloading XML.
+      </li>
       <li>Prepared settings have been updated.</li>
       <li>
         Updates for people who add new settings by oneself:
@@ -31,10 +35,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 10 Sep 2015 04:31:37 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.9.4.dmg"
-                 sparkle:version="10.9.4" length="3801759" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBt1RTcWP/TyeMSr9+BvvvN/dgWvAhQZkghORJlu2CiWlObPVLzIhAiODw=="
+      <pubDate>Fri, 11 Sep 2015 03:07:27 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.9.5.dmg"
+                 sparkle:version="10.9.5" length="3801867" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFD1fEhLtwHiiPbifxsKI5XPJN/dfAhR8r0WC9YVGPdiauXDziubYenVYZA=="
                  />
     </item>
 
