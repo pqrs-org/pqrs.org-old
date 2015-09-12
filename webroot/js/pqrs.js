@@ -1,34 +1,34 @@
-!function ($) {
+! function($) {
     'use strict';
 
-    $(function () {
+    $(function() {
         /* ------------------------------------------------------------ */
         /* from bs/assets/js/application.js */
         var $window = $(window);
-        var $body   = $(document.body);
+        var $body = $(document.body);
 
         var navHeight = $('.navbar').outerHeight(true) + 10;
 
         $body.scrollspy({
             target: '.bs-docs-sidebar'
         });
-        $window.on('load', function () {
+        $window.on('load', function() {
             $body.scrollspy('refresh');
         });
 
-        setTimeout(function () {
+        setTimeout(function() {
             var $sideBar = $('.bs-docs-sidebar');
 
             $sideBar.affix({
                 offset: {
-                    top: function () {
-                        var offsetTop      = $sideBar.offset().top;
-                        var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10);
+                    top: function() {
+                        var offsetTop = $sideBar.offset().top;
+                        var sideBarMargin = parseInt($sideBar.children(0).css('margin-top'), 10);
                         var navOuterHeight = $('.bs-docs-nav').height();
 
                         return (this.top = offsetTop - navOuterHeight - sideBarMargin);
-                    }
-                    , bottom: function () {
+                    },
+                    bottom: function() {
                         return (this.bottom = $('.bs-footer').outerHeight(true));
                     }
                 }
@@ -37,7 +37,7 @@
 
         /* ------------------------------------------------------------ */
         /* pqrs.org */
-        $('.modal-dialog').click(function () {
+        $('.modal-dialog').click(function() {
             $(this).parent().modal('hide');
         });
     });
