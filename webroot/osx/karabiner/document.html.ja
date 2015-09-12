@@ -754,7 +754,48 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
               </ul>
           </li>
         </ol>
-      </section>
+
+        <h2 id="privatexml-only">Advanced Usage: Turning off prepared settings</h2>
+
+        <p>
+          <span class="label label-beta">beta</span>
+          This function is available since Karabiner-10.9.7.
+        </p>
+
+        <p>
+          You can turn off prepared settings if you don't need all prepared settings.<br />
+          Turn the "Use prepared settings" checkbox off.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+  <img src="img/checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
+</a>
+<div class="modal fade" id="lightbox-24" tabindex="30024">
+  <div class="modal-dialog clickable" style="width: 702px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <p>
+          You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
+          Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/master/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+        </p>
+        <p>
+          For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+        </p>
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;include once="true" path="{{ ENV_Karabiner_Resources }}/include/checkbox/launcher_mode.xml" /&gt;
+  &lt;include once="true" path="{{ ENV_Karabiner_Resources }}/include/checkbox/mouse_keys.xml" /&gt;
+&lt;/root&gt;</pre>      </section>
 
       <section>
         <div class="page-header">
@@ -852,10 +893,10 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
               Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/mte1.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -871,10 +912,10 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
               アプリケーションが立ち上がるのでDockからアイコンをクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/mte2.png" alt="dock" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 331px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -892,10 +933,10 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
               notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.9.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/mte3.png" alt="multi-touch extension" />
 </a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -906,10 +947,10 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/mte4.png" alt="configuration of ignored area" />
 </a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -946,10 +987,10 @@ src="img/statusbar.png" width="370" height="203"          />
               設定の追加を「MenuBar」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
   <img src="img/menubar_setting.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-28" tabindex="30028">
+<div class="modal fade" id="lightbox-29" tabindex="30029">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -982,10 +1023,10 @@ src="img/switch_current_setting.png" width="405" height="220"              />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
   <img src="img/switch-profile.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-29" tabindex="30029">
+<div class="modal fade" id="lightbox-30" tabindex="30030">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">

@@ -690,6 +690,41 @@
             {{/language_ja}}
           </li>
         </ol>
+
+        <h2 id="privatexml-only">Advanced Usage: Turning off prepared settings</h2>
+
+        <p>
+          <span class="label label-beta">beta</span>
+          This function is available since Karabiner-10.9.7.
+        </p>
+
+        <p>
+          You can turn off prepared settings if you don't need all prepared settings.<br />
+          Turn the "Use prepared settings" checkbox off.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/checkbox-use-prepared-settings@2x.png checkbox-use-prepared-settings
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
+          Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/master/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+        </p>
+        <p>
+          For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |  <include once="true" path="{{curly}} ENV_Karabiner_Resources }}/include/checkbox/launcher_mode.xml" />
+          |  <include once="true" path="{{curly}} ENV_Karabiner_Resources }}/include/checkbox/mouse_keys.xml" />
+          |</root>
+        {{/indented_xml}}
       </section>
 
       <section>
