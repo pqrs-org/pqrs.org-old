@@ -764,7 +764,7 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
 
         <p>
           You can turn off prepared settings if you don't need all prepared settings.<br />
-          Turn the "Use prepared settings" checkbox off.
+          Turn off the "Use prepared settings" checkbox.
         </p>
 
         <div class="row">
