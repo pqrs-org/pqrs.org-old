@@ -957,6 +957,24 @@
           </li>
         </ol>
 
+        <h2 id="device-rawvalue">Using RawValue</h2>
+        <p>
+          You can also use RawValue to specify Vendor ID and Product ID.
+        </p>
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <item>
+          |    <name>Space to Tab in MY_HP_KEYBOARD</name>
+          |    <identifier>private.deviceproductdef_rawvalue</identifier>
+          |    <device_only>DeviceVendor::RawValue::0x03f0, DeviceProduct::RawValue::0x0224</device_only>
+          |    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+          |  </item>
+          |
+          |</root>
+        {{/indented_xml}}
+
         <h2 id="multiple-devicedef">Multiple devices</h2>
         <p>
           You can specify multiple devices by a comma separated list. <br />
