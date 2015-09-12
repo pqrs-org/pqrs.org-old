@@ -1586,7 +1586,40 @@
     &lt;autogen&gt;__KeyToKey__ {{ KEY1 }}, {{ KEY2 }}&lt;/autogen&gt;
     &lt;autogen&gt;__KeyToKey__ {{ KEY2 }}, {{ KEY1 }}&lt;/autogen&gt;
   &lt;/item&gt;
-&lt;/root&gt;</pre>      </section>
+&lt;/root&gt;</pre>
+        <h2 id="include-once">once attribute</h2>
+        <p>
+          <span class="label label-beta">beta</span>
+          once attribute is available since Karabiner-10.9.4.
+        </p>
+        <p>
+          You can include specific files only once by <code>&lt;include&gt;</code> with <code>once</code> attribute.<br />
+          For example, the core.xml will be included only once.
+        </p>
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;include once="true" path="core.xml" /&gt; &lt;!-- will be included. --&gt;
+  &lt;include once="true" path="core.xml" /&gt; &lt;!-- will be ignored. --&gt;
+&lt;/root&gt;</pre>
+        <h3>mixture of once attribute</h3>
+        <p>
+          Karabiner remembers the included files by each <code>&lt;included&gt;</code> even if the <code>&lt;included&gt;</code> does not have <code>once</code> attribute.<br />
+          And Karabiner will check the included files only when <code>once</code> attribute exists.
+        </p>
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;include             path="core.xml" /&gt; &lt;!-- will be included. --&gt;
+  &lt;include once="true" path="core.xml" /&gt; &lt;!-- will be ignored. --&gt;
+&lt;/root&gt;</pre>
+        <p>
+          If the second <code>&lt;include&gt;</code> does not have <code>once</code> attribute, the second <code>&lt;include&gt;</code> always includes the file.
+        </p>
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;include once="true" path="core.xml" /&gt; &lt;!-- will be included. --&gt;
+  &lt;include             path="core.xml" /&gt; &lt;!-- will be included. --&gt;
+&lt;/root&gt;</pre>
+      </section>
 
       <section id="replacementdef">
         <div class="page-header">

@@ -37,6 +37,10 @@ ol.steps a.thumbnail {
   border-bottom-width: 5px;
 }
 
+.label-beta {
+    background-color: #5bc0de;
+}
+
 /* -------------------------------------------------- */
 /* for jquery.collapse.js */
 .jqcNode { font-weight: bold; color: green; }
