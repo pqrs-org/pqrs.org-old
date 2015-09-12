@@ -29,7 +29,8 @@ end
 
 execute "modify nginx.conf" do
   user "root"
-  command "sed -i'' 's|^user www-data;$|user vagrant;|g' /etc/nginx/nginx.conf"
+  command 'sed -i"" "s|^user www-data;$|user vagrant;|g" /etc/nginx/nginx.conf &&' +
+          'sed -i"" "s|^.*sendfile.*$|sendfile off;|g" /etc/nginx/nginx.conf'
   action :run
 end
 
