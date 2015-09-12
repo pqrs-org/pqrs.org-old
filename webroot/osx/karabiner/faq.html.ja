@@ -124,9 +124,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="general">
+      <section>
         <div class="page-header">
-          <h1>General</h1>
+          <h1 id="general">General</h1>
         </div>
 
         <h2>
@@ -244,9 +244,9 @@
         </p>
       </section>
 
-      <section id="trackpad">
+      <section>
         <div class="page-header">
-          <h1>Trackpad</h1>
+          <h1 id="trackpad">Trackpad</h1>
         </div>
         <h2>
             「キーの同時押しのリマッピング」を有効にしているとSafariでのスワイプが動作しません。どうすれば良いですか？
@@ -262,9 +262,9 @@
         </p>
       </section>
 
-      <section id="capslock">
+      <section>
         <div class="page-header">
-          <h1>caps lock key</h1>
+          <h1 id="capslock">caps lock key</h1>
         </div>
 
         <h2>
@@ -382,9 +382,9 @@
         </div>
       </section>
 
-      <section id="fn">
+      <section>
         <div class="page-header">
-          <h1>fn key</h1>
+          <h1 id="fn">fn key</h1>
         </div>
 
         <h2>
@@ -458,9 +458,9 @@
         </p>
       </section>
 
-      <section id="eject">
+      <section>
         <div class="page-header">
-          <h1>eject key</h1>
+          <h1 id="eject">eject key</h1>
         </div>
 
         <h2>
@@ -484,9 +484,9 @@
         </p>
       </section>
 
-      <section id="power">
+      <section>
         <div class="page-header">
-          <h1>power key</h1>
+          <h1 id="power">power key</h1>
         </div>
 
         <h2>
@@ -497,9 +497,9 @@
         </p>
       </section>
 
-      <section id="shift">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="shift">
               シフトキー
           </h1>
         </div>
@@ -534,9 +534,9 @@
 
       </section>
 
-      <section id="unicode-hex-input">
+      <section>
         <div class="page-header">
-          <h1>Unicode hex input</h1>
+          <h1 id="unicode-hex-input">Unicode hex input</h1>
         </div>
 
         <h2>
@@ -762,7 +762,7 @@
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>

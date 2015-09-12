@@ -123,9 +123,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="examples">
+      <section>
         <div class="page-header">
-          <h1>Examples</h1>
+          <h1 id="examples">Examples</h1>
         </div>
 
         <h2>A simple example of private.xml</h2>
@@ -208,9 +208,9 @@
         </p>
       </section>
 
-      <section id="basic-syntax">
+      <section>
         <div class="page-header">
-          <h1>Basic syntax</h1>
+          <h1 id="basic-syntax">Basic syntax</h1>
         </div>
         <p>
           You can add a new setting by <code>&lt;item&gt;</code>.
@@ -481,9 +481,9 @@
         </table>
       </section>
 
-      <section id="filter-overview">
+      <section>
         <div class="page-header">
-          <h1>Filter: Overview</h1>
+          <h1 id="filter-overview">Filter: Overview</h1>
         </div>
         <p>
           You can define settings which are effective in specific conditions. <br />
@@ -575,9 +575,9 @@
   &lt;/item&gt;
 &lt;/root&gt;</pre>      </section>
 
-      <section id="appdef">
+      <section>
         <div class="page-header">
-          <h1>Filter: Specify application</h1>
+          <h1 id="appdef">Filter: Specify application</h1>
         </div>
 
         <h2>An example</h2>
@@ -765,9 +765,9 @@
   &lt;/appdef&gt;
 &lt;/root&gt;</pre>      </section>
 
-      <section id="windownamedef">
+      <section>
         <div class="page-header">
-          <h1>Filter: Specify window name (window title)</h1>
+          <h1 id="windownamedef">Filter: Specify window name (window title)</h1>
         </div>
 
         <h2>An example</h2>
@@ -903,9 +903,9 @@
         </p>
       </section>
 
-      <section id="uielementroledef">
+      <section>
         <div class="page-header">
-          <h1>Filter: Specify ui element role</h1>
+          <h1 id="uielementroledef">Filter: Specify ui element role</h1>
         </div>
 
         <h2>An example</h2>
@@ -972,9 +972,9 @@
         </p>
       </section>
 
-      <section id="devicedef">
+      <section>
         <div class="page-header">
-          <h1>Filter: Specify device</h1>
+          <h1 id="devicedef">Filter: Specify device</h1>
         </div>
 
         <p>
@@ -1234,9 +1234,9 @@
 
 &lt;/root&gt;</pre>      </section>
 
-      <section id="inputsourcedef">
+      <section>
         <div class="page-header">
-          <h1>Filter: Specify input source</h1>
+          <h1 id="inputsourcedef">Filter: Specify input source</h1>
         </div>
 
         <h2>An example</h2>
@@ -1342,9 +1342,9 @@
         </div>
       </section>
 
-      <section id="vkopenurldef">
+      <section>
         <div class="page-header">
-          <h1>Launch app / Open URL / Execute shell commands</h1>
+          <h1 id="vkopenurldef">Launch app / Open URL / Execute shell commands</h1>
         </div>
 
         <h2>An example</h2>
@@ -1460,9 +1460,9 @@
         </p>
       </section>
 
-      <section id="vkchangeinputsourcedef">
+      <section>
         <div class="page-header">
-          <h1>Change input source by virtual key code.</h1>
+          <h1 id="vkchangeinputsourcedef">Change input source by virtual key code.</h1>
         </div>
 
         <h2>An example</h2>
@@ -1517,9 +1517,9 @@
         </p>
       </section>
 
-      <section id="include">
+      <section>
         <div class="page-header">
-          <h1>Include external XML</h1>
+          <h1 id="include">Include external XML</h1>
         </div>
 
         <h2>An example</h2>
@@ -1636,9 +1636,9 @@
 &lt;/root&gt;</pre>
       </section>
 
-      <section id="replacementdef">
+      <section>
         <div class="page-header">
-          <h1>String replacement</h1>
+          <h1 id="replacementdef">String replacement</h1>
         </div>
 
         <h2>An example</h2>
@@ -1723,9 +1723,9 @@
   &lt;/replacementdef&gt;
 &lt;/root&gt;</pre>      </section>
 
-      <section id="keycode">
+      <section>
         <div class="page-header">
-          <h1>New keycode definition</h1>
+          <h1 id="keycode">New keycode definition</h1>
         </div>
 
         <h2>An example</h2>
@@ -1756,9 +1756,9 @@
   &lt;/item&gt;
 &lt;/root&gt;</pre>      </section>
 
-      <section id="modifier">
+      <section>
         <div class="page-header">
-          <h1>New virtual modifier definition</h1>
+          <h1 id="modifier">New virtual modifier definition</h1>
         </div>
 
         <h2>An example</h2>
@@ -1903,9 +1903,9 @@ src="img/lock-indicator.png" width="301" height="80"          />
         </ul>
       </section>
 
-      <section id="expand">
+      <section>
         <div class="page-header">
-          <h1>Expand prepared settings's capabilities</h1>
+          <h1 id="expand">Expand prepared settings's capabilities</h1>
         </div>
 
         <p>
@@ -1936,9 +1936,9 @@ src="img/lock-indicator.png" width="301" height="80"          />
         </p>
       </section>
 
-      <section id="prepared">
+      <section>
         <div class="page-header">
-          <h1>How to modify prepared settings</h1>
+          <h1 id="prepared">How to modify prepared settings</h1>
         </div>
 
         <ol class="steps">
@@ -2100,7 +2100,7 @@ src="img/lock-indicator.png" width="301" height="80"          />
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
       <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>

@@ -125,9 +125,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="usage">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="usage">
               Usage
           </h1>
         </div>
@@ -233,9 +233,9 @@ src="img/launchpad.png" width="150" height="157"            />
         </div>
       </section>
 
-      <section id="keyrepeat">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="keyrepeat">
               Change key repeat rate
           </h1>
         </div>
@@ -265,9 +265,9 @@ src="img/launchpad.png" width="150" height="157"            />
         </div>
       </section>
 
-      <section id="quit">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="quit">
               How to quit
           </h1>
         </div>
@@ -283,9 +283,9 @@ src="img/quit.png" width="376" height="216"          />
         </p>
       </section>
 
-      <section id="uninstall">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="uninstall">
               Uninstall
           </h1>
         </div>
@@ -362,9 +362,9 @@ src="img/quit.png" width="376" height="216"          />
         </ol>
       </section>
 
-      <section id="check-for-updates">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="check-for-updates">
               Check for updates
           </h1>
         </div>
@@ -409,9 +409,9 @@ src="img/quit.png" width="376" height="216"          />
         </div>
       </section>
 
-      <section id="axnotifier">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="axnotifier">
               AXNotifier
           </h1>
         </div>
@@ -569,9 +569,9 @@ src="img/quit.png" width="376" height="216"          />
         </ul>
       </section>
 
-      <section id="eventviewer">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="eventviewer">
               How to confirm result of key remappings
           </h1>
         </div>
@@ -605,9 +605,9 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
         </div>
       </section>
 
-      <section id="privatexml">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="privatexml">
               How to add your own settings
           </h1>
         </div>
@@ -757,9 +757,9 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
         </ol>
       </section>
 
-      <section id="implicit">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="implicit">
               Implicit behavior
           </h1>
         </div>
@@ -824,9 +824,9 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
         </table>
       </section>
 
-      <section id="multitouchextension">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="multitouchextension">
               Multi-touch extension
           </h1>
         </div>
@@ -926,9 +926,9 @@ src="img/eventviewer-menu.png" width="347" height="209"            />
         </ol>
       </section>
 
-      <section id="profiles">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="profiles">
               Multiple profiles
           </h1>
         </div>
@@ -1014,9 +1014,9 @@ src="img/switch_current_setting.png" width="405" height="220"              />
   &lt;/item&gt;
 &lt;/root&gt;</pre>      </section>
 
-      <section id="commandlineinterface">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="commandlineinterface">
               Command line interface
           </h1>
         </div>
@@ -1137,9 +1137,9 @@ $ sh ~/Desktop/karabiner-import.sh
         </ol>
       </section>
 
-      <section id="preferences">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="preferences">
               The location of the configuration file
           </h1>
         </div>
@@ -1161,9 +1161,9 @@ $ sh ~/Desktop/karabiner-import.sh
         </p>
       </section>
 
-      <section id="debugmode">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="debugmode">
               Debug Mode
           </h1>
         </div>
@@ -1360,7 +1360,7 @@ Password: &lt;enter your password&gt;
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
       <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>

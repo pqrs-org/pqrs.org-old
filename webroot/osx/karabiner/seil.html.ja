@@ -166,9 +166,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="installation">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="installation">
               インストール方法
           </h1>
         </div>
@@ -251,9 +251,9 @@ src="img/seil-icon.png" width="130" height="153"                />
         </div>
       </section>
 
-      <section id="usage">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="usage">
               使い方
           </h1>
         </div>
@@ -368,9 +368,9 @@ src="img/seil-icon.png" width="130" height="153"            />
         </div>
       </section>
 
-      <section id="uninstall">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="uninstall">
               アンインストール方法
           </h1>
         </div>
@@ -448,9 +448,9 @@ src="img/seil-icon.png" width="130" height="153"            />
         </ol>
       </section>
 
-      <section id="faq">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="faq">
               Q&amp;A
           </h1>
         </div>
@@ -545,9 +545,9 @@ src="img/seil-icon.png" width="130" height="153"            />
         </p>
       </section>
 
-      <section id="commandlineinterface">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="commandlineinterface">
               コマンドラインインターフェース
           </h1>
         </div>
@@ -605,9 +605,9 @@ $ sh ~/Desktop/seil-import.sh
         </ol>
       </section>
 
-      <section id="history">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="history">
               更新履歴
           </h1>
         </div>
@@ -1064,7 +1064,7 @@ $ sh ~/Desktop/seil-import.sh
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
       <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>

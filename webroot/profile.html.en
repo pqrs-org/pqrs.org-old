@@ -99,7 +99,7 @@ src="img/profile.jpg" width="396" height="395"        alt="Profile Photo"
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
     <script src="/js/pqrs.js?1376532151"></script>
 

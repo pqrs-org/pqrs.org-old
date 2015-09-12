@@ -124,9 +124,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="change-either-the-left-or-right-modifier-key">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="change-either-the-left-or-right-modifier-key">
               左右のいずれかのモディファイアを変更する
           </h1>
         </div>
@@ -160,9 +160,9 @@
         </div>
       </section>
 
-      <section id="use-emacs-key-bindings-everywhere">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="use-emacs-key-bindings-everywhere">
               Emacsのキーバインドをどこでも使えるようにする
           </h1>
         </div>
@@ -196,9 +196,9 @@
         </div>
       </section>
 
-      <section id="avoid-unintended-command-q">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="avoid-unintended-command-q">
               意図しないCommand-Qを防ぐ
           </h1>
         </div>
@@ -226,9 +226,9 @@
         </div>
       </section>
 
-      <section id="simple-vi-mode-v2">
+      <section>
         <div class="page-header">
-          <h1>Simple Vi Mode v2</h1>
+          <h1 id="simple-vi-mode-v2">Simple Vi Mode v2</h1>
         </div>
 
         <p>
@@ -258,9 +258,9 @@
         </div>
       </section>
 
-      <section id="mouse-keys-mode-v2">
+      <section>
         <div class="page-header">
-          <h1>Mouse Keys Mode v2</h1>
+          <h1 id="mouse-keys-mode-v2">Mouse Keys Mode v2</h1>
         </div>
 
         <p>
@@ -289,9 +289,9 @@
         </div>
       </section>
 
-      <section id="operate-finder-by-hjkl-keys">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="operate-finder-by-hjkl-keys">
               hjklキーでFinderを操作する
           </h1>
         </div>
@@ -319,9 +319,9 @@
         </div>
       </section>
 
-      <section id="launcher-mode-v2">
+      <section>
         <div class="page-header">
-          <h1>Launcher Mode v2</h1>
+          <h1 id="launcher-mode-v2">Launcher Mode v2</h1>
         </div>
 
         <p>
@@ -400,9 +400,9 @@
 &lt;/root&gt;</pre>
       </section>
 
-      <section id="disable-built-in-keyboard-if-external-keyboard-exists">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="disable-built-in-keyboard-if-external-keyboard-exists">
               外付けキーボードが接続されている場合は内蔵キーボードを無効化する
           </h1>
         </div>
@@ -429,9 +429,9 @@
         </div>
       </section>
 
-      <section id="ignore-bouncing">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="ignore-bouncing">
               チャタリングの抑制
           </h1>
         </div>
@@ -541,7 +541,7 @@
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>

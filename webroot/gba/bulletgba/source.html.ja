@@ -235,7 +235,7 @@ $ make copy all
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script src="/assets/google-code-prettify/prettify.js" type="text/javascript"></script>
       <script type="text/javascript">jQuery(function(){ prettyPrint(); });</script>

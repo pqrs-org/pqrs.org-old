@@ -184,7 +184,7 @@ src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>

@@ -163,9 +163,9 @@
 
   <div class="row">
     <div class="col-md-9 pqrs-docs-container">
-      <section id="installation">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="installation">
               インストール方法
           </h1>
         </div>
@@ -212,9 +212,9 @@ src="img/pkg.png" width="128" height="128"                />
         </div>
       </section>
 
-      <section id="usage">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="usage">
               使い方
           </h1>
         </div>
@@ -224,9 +224,9 @@ src="img/pkg.png" width="128" height="128"                />
         </p>
       </section>
 
-      <section id="show-version">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="show-version">
               インストール済みのバージョンを知る方法
           </h1>
         </div>
@@ -291,9 +291,9 @@ org.pqrs.driver.Karabiner (10.9.0)
         </div>
       </section>
 
-      <section id="uninstall">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="uninstall">
               アンインストール方法
           </h1>
         </div>
@@ -355,9 +355,9 @@ org.pqrs.driver.Karabiner (10.9.0)
         </ol>
       </section>
 
-      <section id="faq">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="faq">
               Q&amp;A
           </h1>
         </div>
@@ -376,9 +376,9 @@ org.pqrs.driver.Karabiner (10.9.0)
         </p>
       </section>
 
-      <section id="history">
+      <section>
         <div class="page-header">
-          <h1>
+          <h1 id="history">
               更新履歴
           </h1>
         </div>
@@ -675,7 +675,7 @@ org.pqrs.driver.Karabiner (10.9.0)
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>

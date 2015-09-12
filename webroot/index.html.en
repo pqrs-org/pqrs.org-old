@@ -62,9 +62,9 @@
     </header>
 
     <div class="container">
-    <section id="os-x">
+    <section>
       <div class="page-header">
-        <h1>OS X</h1>
+        <h1 id="os-x">OS X</h1>
       </div>
         <div class="row">
             <div class="col-lg-6">
@@ -85,9 +85,9 @@
             </div>
         </div>
     </section>
-    <section id="thunderbird">
+    <section>
       <div class="page-header">
-        <h1>Thunderbird</h1>
+        <h1 id="thunderbird">Thunderbird</h1>
       </div>
         <div class="row">
             <div class="col-lg-6">
@@ -103,9 +103,9 @@ This extension prevents unintended folder movement.
             </div>
         </div>
     </section>
-    <section id="web-api">
+    <section>
       <div class="page-header">
-        <h1>Web API</h1>
+        <h1 id="web-api">Web API</h1>
       </div>
         <div class="row">
             <div class="col-lg-6">
@@ -118,9 +118,9 @@ This extension prevents unintended folder movement.
             </div>
         </div>
     </section>
-    <section id="game-boy-advance">
+    <section>
       <div class="page-header">
-        <h1>Game Boy Advance</h1>
+        <h1 id="game-boy-advance">Game Boy Advance</h1>
       </div>
         <div class="row">
             <div class="col-lg-6">
@@ -141,9 +141,9 @@ This extension prevents unintended folder movement.
             </div>
         </div>
     </section>
-    <section id="dreamcast">
+    <section>
       <div class="page-header">
-        <h1>Dreamcast</h1>
+        <h1 id="dreamcast">Dreamcast</h1>
       </div>
         <div class="row">
             <div class="col-lg-6">
@@ -175,7 +175,7 @@ This extension prevents unintended folder movement.
       </div>
     </footer>
 
-    <script src="/assets/jquery/jquery-2.0.3.min.js"></script>
+    <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
     <script src="/js/pqrs.js?1376532151"></script>
 
