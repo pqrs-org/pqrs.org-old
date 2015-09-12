@@ -37,6 +37,11 @@
 
         /* ------------------------------------------------------------ */
         /* pqrs.org */
+        $('h1[id], h2[id], h3[id]').each(function() {
+            var $this = $(this);
+            $this.prepend(' <a class="id-link" href="#' + $this.attr('id') + '"><small><span class="glyphicon glyphicon-link"></span></small></a> ');
+        });
+
         $('.modal-dialog').click(function() {
             $(this).parent().modal('hide');
         });

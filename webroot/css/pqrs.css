@@ -41,6 +41,10 @@ ol.steps a.thumbnail {
     background-color: #5bc0de;
 }
 
+.id-link {
+  color: inherit;
+}
+
 /* -------------------------------------------------- */
 /* for jquery.collapse.js */
 .jqcNode { font-weight: bold; color: green; }
