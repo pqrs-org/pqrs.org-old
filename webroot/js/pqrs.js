@@ -39,7 +39,8 @@
         /* pqrs.org */
         $('h1[id], h2[id], h3[id]').each(function() {
             var $this = $(this);
-            $this.prepend(' <a class="id-link" href="#' + $this.attr('id') + '"><small><span class="glyphicon glyphicon-link"></span></small></a> ');
+            $this.prepend(' <a class="js-id-link" href="#' + $this.attr('id') + '"><small><span class="glyphicon glyphicon-link"></span></small></a> ');
+            $this.wrapInner('<div class="js-id-link-wrapper"></div>');
         });
 
         $('.modal-dialog').click(function() {
