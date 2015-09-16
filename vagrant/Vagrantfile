@@ -14,7 +14,8 @@ Vagrant.configure(2) do |config|
 
   config.vm.provider 'virtualbox' do |vb|
     vb.name = "pqrs.org"
-    vb.memory = '512'
+    vb.customize ["modifyvm", :id, "--memory", "512"]
+    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
   end
 
   config.vm.provision "chef_solo" do |chef|
