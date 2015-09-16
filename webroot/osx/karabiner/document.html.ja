@@ -1209,7 +1209,7 @@ $ sh ~/Desktop/karabiner-import.sh
         <p>
             通常のキーイベントは<a href="#eventviewer">EventViewer</a>で確認することが出来ます。
             <br />
-            しかし、輝度や音量のコントロールやCommand+Tabなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
+            しかし、Command+Tabやミッションコントロールキーなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
         </p>
 
         <p>
