@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>NoEjectDelay Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/noejectdelay-appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 6.1.1</title>
+      <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+<!-- RENAME_INFORMATION -->
+
+<h2>About v6.1.1 Update</h2>
+<ul>
+  <li>An utility application "NoEjectDelay.app" has been added.</li>
+  <li>Uninstaller has been bundled.</li>
+  <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
+  <li>OS X 10.10 support has been dropped.</li>
+  <li>OS X 10.9 support has been dropped.</li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
+]]>
+      </description>
+      <pubDate>Wed, 23 Sep 2015 13:38:36 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-6.1.1.dmg"
+                 sparkle:version="6.1.1" length="80983" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCsu94mYMiXAeEJyVstn89T/3BpFAhQQmBjLH7DaBoLYJ3U0kxHlQMj9SA=="
+                 />
+    </item>
+
+  </channel>
+</rss>
