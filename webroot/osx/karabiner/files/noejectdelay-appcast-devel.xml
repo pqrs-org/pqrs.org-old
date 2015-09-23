@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 6.1.1</title>
+      <title>Version 6.99.2</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v6.1.1 Update</h2>
+<h2>About v6.99.2 Update</h2>
 <ul>
   <li>An utility application "NoEjectDelay.app" has been added.</li>
   <li>Uninstaller has been bundled.</li>
@@ -24,10 +24,10 @@
 <a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
 ]]>
       </description>
-      <pubDate>Wed, 23 Sep 2015 13:38:36 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-6.1.1.dmg"
-                 sparkle:version="6.1.1" length="80983" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCsu94mYMiXAeEJyVstn89T/3BpFAhQQmBjLH7DaBoLYJ3U0kxHlQMj9SA=="
+      <pubDate>Wed, 23 Sep 2015 14:02:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-6.99.2.dmg"
+                 sparkle:version="6.99.2" length="1377356" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDCDjy8SXFW0fAtrAG4KdxptiChaAhRPd4UCg9maQlAjiUg4RkA8YQRpjg=="
                  />
     </item>
 
