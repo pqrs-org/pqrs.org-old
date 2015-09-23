@@ -46,7 +46,7 @@ EOF
 
 >>"$targetdir/seil-appcast-devel.xml.tmp" cat <<EOF
 </ul>
-<a href="https://pqrs.org/osx/karabiner/seil.html">Seil web site</a>
+<a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
 ]]>
       </description>
       <pubDate>$pubDate</pubDate>
