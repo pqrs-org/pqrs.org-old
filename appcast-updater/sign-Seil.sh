@@ -39,7 +39,6 @@ rm -f "$targetdir/seil-appcast-devel.xml.tmp"
 
 <h2>About v$version Update</h2>
 <ul>
-  <li>XXXXXXXX</li>
 EOF
 
 >>"$targetdir/seil-appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/seil-appcast-devel.xml"

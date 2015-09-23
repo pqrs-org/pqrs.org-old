@@ -39,7 +39,6 @@ rm -f "$targetdir/noejectdelay-appcast-devel.xml.tmp"
 
 <h2>About v$version Update</h2>
 <ul>
-  <li>v$version: XXX</li>
 EOF
 
 >>"$targetdir/noejectdelay-appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/noejectdelay-appcast-devel.xml"
