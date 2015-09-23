@@ -38,13 +38,12 @@ rm -f "$targetdir/noejectdelay-appcast-devel.xml.tmp"
 <!-- RENAME_INFORMATION -->
 
 <h2>About v$version Update</h2>
-<ul>
 EOF
 
 >>"$targetdir/noejectdelay-appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/noejectdelay-appcast-devel.xml"
 
 >>"$targetdir/noejectdelay-appcast-devel.xml.tmp" cat <<EOF
-</ul>
+
 <a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
 ]]>
       </description>

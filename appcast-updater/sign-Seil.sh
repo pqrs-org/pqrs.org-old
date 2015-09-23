@@ -38,13 +38,12 @@ rm -f "$targetdir/seil-appcast-devel.xml.tmp"
 <!-- RENAME_INFORMATION -->
 
 <h2>About v$version Update</h2>
-<ul>
 EOF
 
 >>"$targetdir/seil-appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/seil-appcast-devel.xml"
 
 >>"$targetdir/seil-appcast-devel.xml.tmp" cat <<EOF
-</ul>
+
 <a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
 ]]>
       </description>
