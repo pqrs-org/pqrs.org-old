@@ -32,7 +32,7 @@ rm -f "$targetdir/noejectdelay-appcast-devel.xml.tmp"
 
     <item>
       <title>Version $version</title>
-      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
