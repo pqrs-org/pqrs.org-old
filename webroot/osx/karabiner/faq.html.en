@@ -552,17 +552,17 @@
         </h2>
         <ol class="steps">
           <li>
-              Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/unicode-hex-input.png" alt="unicode-hex-input" />
+  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" style="width: 100%" />
+        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -632,17 +632,17 @@
 
         <ol class="steps">
           <li>
-              Enable "Unicode Hex Input" from System Preferences &gt; Language &amp; Text.
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/unicode-hex-input.png" alt="unicode-hex-input" />
+  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input.png" alt="unicode-hex-input" style="width: 100%" />
+        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>
