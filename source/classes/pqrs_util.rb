@@ -6,7 +6,7 @@ require 'fileutils'
 
 class PqrsUtil
   def self.tidy(htmlfilepath)
-    unless system("tidy5 -qe --drop-empty-elements no #{htmlfilepath}") then
+    unless system("tidy -qe --drop-empty-elements no #{htmlfilepath}") then
       print "\n\n\n"
       return false
     end
