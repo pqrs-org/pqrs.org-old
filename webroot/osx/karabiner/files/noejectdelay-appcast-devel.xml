@@ -7,15 +7,15 @@
     <language>en</language>
 
     <item>
-      <title>Version 6.99.5</title>
+      <title>Version 6.99.6</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v6.99.5 Update</h2>
+<h2>About v6.99.6 Update</h2>
 <ul>
-  <li>An utility application "NoEjectDelay.app" has been added.</li>
+  <li>An utility application "NoEjectDelay Utility.app" has been added.</li>
   <li>Uninstaller has been bundled.</li>
   <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
   <li>OS X 10.10 support has been dropped.</li>
@@ -24,10 +24,10 @@
 <a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
 ]]>
       </description>
-      <pubDate>Fri, 02 Oct 2015 10:43:27 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-6.99.5.dmg"
-                 sparkle:version="6.99.5" length="1128434" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEPxul0M+ZIL/DvziKb2RZNqscIdAhRcrWmv6UmCn27Iy/g/R/MJVCxp5g=="
+      <pubDate>Fri, 02 Oct 2015 17:21:31 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-6.99.6.dmg"
+                 sparkle:version="6.99.6" length="1128546" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAQnjklVY4GSKJMIwAV48jY4ZybZAhQ1iKP5jWMalZ32ne54Jn26cGEwOQ=="
                  />
     </item>
 
