@@ -216,7 +216,7 @@ src="img/pkg.png" width="128" height="128"                />
                   <b>Note:</b><br />
                   Do not change the location of Seil.app from /Applications. <br />
                   <br />
-                  For example, Seil will not work properly if you moved Seil.app into /Applications/Utilities.
+                  For example, Seil will not work properly if you moved Seil.app into /Applications/Utils.
               </div>
             </div>
           </div>

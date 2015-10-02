@@ -209,7 +209,7 @@ src="img/pkg.png" width="128" height="128"            />
               <b>Note:</b><br />
               Do not change the location of Karabiner.app from /Applications. <br />
               <br />
-              For example, Karabiner will not work properly if you moved Karabiner.app into /Applications/Utilities.
+              For example, Karabiner will not work properly if you moved Karabiner.app into /Applications/Utils.
           </div>
         </div>
       </div>

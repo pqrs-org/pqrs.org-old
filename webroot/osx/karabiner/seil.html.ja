@@ -216,7 +216,7 @@ src="img/pkg.png" width="128" height="128"                />
                   <b>注意:</b><br />
                   アプリケーションフォルダからSeil.appを移動しないでください。<br />
                   <br />
-                  例えば、/Applications/UtilitiesにSeil.appを移動すると、正常に動作しなくなります。
+                  例えば、/Applications/UtilsにSeil.appを移動すると、正常に動作しなくなります。
               </div>
             </div>
           </div>

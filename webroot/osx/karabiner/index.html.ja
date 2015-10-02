@@ -209,7 +209,7 @@ src="img/pkg.png" width="128" height="128"            />
               <b>注意:</b><br />
               アプリケーションフォルダからKarabiner.appを移動しないでください。<br />
               <br />
-              例えば、/Applications/UtilitiesにKarabiner.appを移動すると、正常に動作しなくなります。
+              例えば、/Applications/UtilsにKarabiner.appを移動すると、正常に動作しなくなります。
           </div>
         </div>
       </div>
