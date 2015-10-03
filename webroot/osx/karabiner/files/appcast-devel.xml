@@ -37,6 +37,12 @@
       </li>
     </ul>
   </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The CPU usage of Preview.app might be 100% at opening a huge PDF file when AXNotifier is enabled.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
