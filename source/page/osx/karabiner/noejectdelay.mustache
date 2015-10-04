@@ -23,6 +23,28 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-7.0.0.dmg">
+            {{#language_en}}
+              Download NoEjectDelay-7.0.0
+            {{/language_en}}
+            {{#language_ja}}
+              NoEjectDelay-7.0.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label label-default">
+              {{#language_en}}
+                For OS X 10.11
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.11用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-default"
             href="files/NoEjectDelay-6.1.0.dmg">
             {{#language_en}}
               Download NoEjectDelay-6.1.0
@@ -33,10 +55,10 @@
             &nbsp;
             <span class="label label-default">
               {{#language_en}}
-                For OS X 10.11, 10.10, 10.9
+                For OS X 10.10, 10.9
               {{/language_en}}
               {{#language_ja}}
-                OS X 10.11、10.10、10.9用
+                OS X 10.10、10.9用
               {{/language_ja}}
             </span>
           </a>
@@ -142,21 +164,6 @@
           </a>
         </small>
       </p>
-
-      <hr />
-      <p>
-        {{#strip_html}}
-          <a class="btn btn-default"
-            href="files/NoEjectDelayUninstaller.dmg">
-            {{#language_en}}
-              Download NoEjectDelay Uninstaller
-            {{/language_en}}
-            {{#language_ja}}
-              NoEjectDelayアンインストーラをダウンロード
-            {{/language_ja}}
-          </a>
-        {{/strip_html}}
-      </p>
     </div>
   </header>
 
@@ -215,7 +222,7 @@
                 {{/language_ja}}
               </p>
               {{#lightbox}}
-                img/noejectdelay-installer.png installer
+                img/noejectdelay-installer@2x.png Installer
               {{/lightbox}}
               <br />
             </div>
@@ -239,10 +246,10 @@
           {{#language_en}}
             No configuration required.
             <br />
-            NoEjectDelay becomes effective immediately after installation has completed and OS X has been restarted.
+            NoEjectDelay becomes effective immediately after installation has completed.
           {{/language_en}}
           {{#language_ja}}
-            設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
+            設定は必要ありません。インストールが完了した直後に有効になります。
           {{/language_ja}}
         </p>
       </section>
@@ -261,112 +268,50 @@
 
         <p>
           {{#language_en}}
-            There are two ways.
+            You can confirm NoEjectDelay version by "NoEjectDelay Utility.app".
           {{/language_en}}
           {{#language_ja}}
-            以下の2通りの方法があります。
+            「NoEjectDelay Utility.app」からバージョンを確認できます。
           {{/language_ja}}
         </p>
 
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-              {{#language_en}}
-                Using Terminal
-              {{/language_en}}
-              {{#language_ja}}
-                ターミナルを使う
-              {{/language_ja}}
-            </h3>
-          </div>
-          <div class="panel-body">
+        <ol class="steps">
+          <li>
             <p>
               {{#language_en}}
-                Run the following command in Terminal.
+                Open "NoEjectDelay Utility" from Launchpad.
               {{/language_en}}
               {{#language_ja}}
-                以下のコマンドをターミナルで実行してください。
+                Launchpadから「NoEjectDelay Utility」を開きます。
               {{/language_ja}}
             </p>
-
-            <pre>{{#strip_indented_lines}}
-              |$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-              |org.pqrs.driver.NoEjectDelay (6.1.0)
-              |org.pqrs.driver.Seil (11.3.0)
-              |org.pqrs.driver.Karabiner (10.9.0)
-            {{/strip_indented_lines}}</pre>
-
+            <p>
+              <img
+              alt="icon"
+              {{#imgsrc}}
+                img/noejectdelay-icon@2x.png
+              {{/imgsrc}}
+              />
+            </p>
+          </li>
+          <li>
             <p>
               {{#language_en}}
-                The number (6.1.0) is the installed version.
+                Then, you can confirm the version.
               {{/language_en}}
               {{#language_ja}}
-                数字（6.1.0）がインストール済みのバージョンです。
+                バージョンを確認できます。
               {{/language_ja}}
             </p>
-          </div>
-        </div>
-
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-              {{#language_en}}
-                Using app
-              {{/language_en}}
-              {{#language_ja}}
-                アプリケーションを使う
-              {{/language_ja}}
-            </h3>
-          </div>
-          <div class="panel-body">
-            <p>
-              {{#language_en}}
-                Download ShowInstalledAppsVersion.app and run it.
-              {{/language_en}}
-              {{#language_ja}}
-                ShowInstalledAppsVersion.appをダウンロードして実行してください。
-              {{/language_ja}}
-            </p>
-
-            <p>
-              {{#strip_html}}
-                <a class="btn btn-primary"
-                  href="files/ShowInstalledAppsVersion.dmg">
-                  {{#language_en}}
-                    Download ShowInstalledAppsVersion.app
-                  {{/language_en}}
-                  {{#language_ja}}
-                    ShowInstalledAppsVersion.appをダウンロード
-                  {{/language_ja}}
-                </a>
-              {{/strip_html}}
-            </p>
-
-            <p>
-              {{#language_en}}
-                TextEdit will be opened with the following text.
-              {{/language_en}}
-              {{#language_ja}}
-                以下のテキストでテキストエディットが開きます。
-              {{/language_ja}}
-            </p>
-
-            <pre>{{#strip_indented_lines}}
-              |org.pqrs.driver.NoEjectDelay (6.1.0)
-              |org.pqrs.driver.Seil (11.3.0)
-              |org.pqrs.driver.Karabiner (10.9.0)
-            {{/strip_indented_lines}}</pre>
-
-            <p>
-              {{#language_en}}
-                The number (6.1.0) is the installed version.
-              {{/language_en}}
-              {{#language_ja}}
-                数字（6.1.0）がインストール済みのバージョンです。
-              {{/language_ja}}
-            </p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/noejectdelay-version@2x.png NoEjectDelay Utility.app
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ol>
       </section>
 
       <section>
@@ -381,47 +326,50 @@
           </h1>
         </div>
 
-        <ol>
+        <p>
+          {{#language_en}}
+            You can uninstall NoEjectDelay by "NoEjectDelay Utility.app".
+          {{/language_en}}
+          {{#language_ja}}
+            「NoEjectDelay Utility.app」からアンインストールできます。
+          {{/language_ja}}
+        </p>
+
+        <ol class="steps">
           <li>
-            {{#language_en}}
-              Download <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelay Uninstaller</a>.
-            {{/language_en}}
-            {{#language_ja}}
-              <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                Open "NoEjectDelay Utility" from Launchpad.
+              {{/language_en}}
+              {{#language_ja}}
+                Launchpadから「NoEjectDelay Utility」を開きます。
+              {{/language_ja}}
+            </p>
+            <p>
+              <img
+              alt="icon"
+              {{#imgsrc}}
+                img/noejectdelay-icon@2x.png
+              {{/imgsrc}}
+              />
+            </p>
           </li>
           <li>
-            {{#language_en}}
-              Execute uninstaller.
-            {{/language_en}}
-            {{#language_ja}}
-              アンインストーラを実行してください。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                Then, press "Launch uninstaller" button.
+              {{/language_en}}
+              {{#language_ja}}
+                「Launch uninstaller」ボタンを押してください。
+              {{/language_ja}}
+            </p>
             <div class="row">
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                 {{#lightbox}}
-                  img/noejectdelayuninstaller1.png NoEjectDelay Uninstaller
-                {{/lightbox}}
-              </div>
-              <div class="col-lg-3">
-                {{#lightbox}}
-                  img/noejectdelayuninstaller2.png NoEjectDelay Uninstaller
-                {{/lightbox}}
-              </div>
-              <div class="col-lg-3">
-                {{#lightbox}}
-                  img/noejectdelayuninstaller3.png NoEjectDelay Uninstaller
+                  img/noejectdelay-uninstall@2x.png NoEjectDelay Utility.app
                 {{/lightbox}}
               </div>
             </div>
-          </li>
-          <li>
-            {{#language_en}}
-              Then restart OS X.
-            {{/language_en}}
-            {{#language_ja}}
-              その後にOS Xを再起動してください。
-            {{/language_ja}}
           </li>
         </ol>
       </section>

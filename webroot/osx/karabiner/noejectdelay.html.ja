@@ -128,8 +128,12 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-7.0.0.dmg">NoEjectDelay-7.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.11用</span></a>      </p>
+      <p>
+<a class="btn btn-default"
             href="files/NoEjectDelay-6.1.0.dmg">NoEjectDelay-6.1.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
+            &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">NoEjectDelay-5.4.0をダウンロード
@@ -153,11 +157,6 @@
           </a>
         </small>
       </p>
-
-      <hr />
-      <p>
-<a class="btn btn-default"
-            href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラをダウンロード</a>      </p>
     </div>
   </header>
 
@@ -195,13 +194,13 @@ src="img/pkg.png" width="128" height="128"                />
                   インストーラが起動しますので、NoEjectDelayをインストールします。
               </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/noejectdelay-installer.png" alt="installer" />
+  <img src="img/noejectdelay-installer@2x.png" alt="Installer" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 680px;">
+  <div class="modal-dialog clickable" style="width: 675px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelay-installer.png" alt="installer" style="width: 100%" />
+        <img src="img/noejectdelay-installer@2x.png" alt="Installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -220,7 +219,7 @@ src="img/pkg.png" width="128" height="128"                />
         </div>
 
         <p>
-            設定は必要ありません。インストールが完了しOS Xを再起動した直後に有効になります。
+            設定は必要ありません。インストールが完了した直後に有効になります。
         </p>
       </section>
 
@@ -232,63 +231,42 @@ src="img/pkg.png" width="128" height="128"                />
         </div>
 
         <p>
-            以下の2通りの方法があります。
+            「NoEjectDelay Utility.app」からバージョンを確認できます。
         </p>
 
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-                ターミナルを使う
-            </h3>
-          </div>
-          <div class="panel-body">
+        <ol class="steps">
+          <li>
             <p>
-                以下のコマンドをターミナルで実行してください。
+                Launchpadから「NoEjectDelay Utility」を開きます。
             </p>
-
-            <pre>
-$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-org.pqrs.driver.NoEjectDelay (6.1.0)
-org.pqrs.driver.Seil (11.3.0)
-org.pqrs.driver.Karabiner (10.9.0)
-</pre>
-
             <p>
-                数字（6.1.0）がインストール済みのバージョンです。
+              <img
+              alt="icon"
+src="img/noejectdelay-icon@2x.png" width="170" height="185"              />
             </p>
-          </div>
-        </div>
-
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-                アプリケーションを使う
-            </h3>
-          </div>
-          <div class="panel-body">
+          </li>
+          <li>
             <p>
-                ShowInstalledAppsVersion.appをダウンロードして実行してください。
+                バージョンを確認できます。
             </p>
-
-            <p>
-<a class="btn btn-primary"
-                  href="files/ShowInstalledAppsVersion.dmg">ShowInstalledAppsVersion.appをダウンロード</a>            </p>
-
-            <p>
-                以下のテキストでテキストエディットが開きます。
-            </p>
-
-            <pre>
-org.pqrs.driver.NoEjectDelay (6.1.0)
-org.pqrs.driver.Seil (11.3.0)
-org.pqrs.driver.Karabiner (10.9.0)
-</pre>
-
-            <p>
-                数字（6.1.0）がインストール済みのバージョンです。
-            </p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 533px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
       </section>
 
       <section>
@@ -298,59 +276,41 @@ org.pqrs.driver.Karabiner (10.9.0)
           </h1>
         </div>
 
-        <ol>
+        <p>
+            「NoEjectDelay Utility.app」からアンインストールできます。
+        </p>
+
+        <ol class="steps">
           <li>
-              <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelayアンインストーラ</a>をダウンロードしてください。
+            <p>
+                Launchpadから「NoEjectDelay Utility」を開きます。
+            </p>
+            <p>
+              <img
+              alt="icon"
+src="img/noejectdelay-icon@2x.png" width="170" height="185"              />
+            </p>
           </li>
           <li>
-              アンインストーラを実行してください。
+            <p>
+                「Launch uninstaller」ボタンを押してください。
+            </p>
             <div class="row">
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 420px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
+              <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" />
+  <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 526px;">
+  <div class="modal-dialog clickable" style="width: 533px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 534px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
+        <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
               </div>
             </div>
-          </li>
-          <li>
-              その後にOS Xを再起動してください。
           </li>
         </ol>
       </section>
@@ -382,6 +342,23 @@ org.pqrs.driver.Karabiner (10.9.0)
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 7.0.0
+              <small>
+2015年10月3日              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-7.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>「NoEjectDelay Utility.app」ユーティリティを追加しました。</li>
+  <li>アンインストーラを同梱しました。</li>
+  <li>OS X 10.10をサポート対象から外しました。</li>
+  <li>OS X 10.9をサポート対象から外しました。</li>
+  <li>ファイルの場所を/Library/org.pqrs/NoEjectDelayから/Library/Application Support/org.pqrs/NoEjectDelayに移動しました。</li>
+</ul>
 
           <h2>
             Version 6.1.0

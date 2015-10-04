@@ -128,8 +128,12 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
+            href="files/NoEjectDelay-7.0.0.dmg">Download NoEjectDelay-7.0.0
+            &nbsp;<span class="label label-default">For OS X 10.11</span></a>      </p>
+      <p>
+<a class="btn btn-default"
             href="files/NoEjectDelay-6.1.0.dmg">Download NoEjectDelay-6.1.0
-            &nbsp;<span class="label label-default">For OS X 10.11, 10.10, 10.9</span></a>      </p>
+            &nbsp;<span class="label label-default">For OS X 10.10, 10.9</span></a>      </p>
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-5.4.0.dmg">Download NoEjectDelay-5.4.0
@@ -153,11 +157,6 @@
           </a>
         </small>
       </p>
-
-      <hr />
-      <p>
-<a class="btn btn-default"
-            href="files/NoEjectDelayUninstaller.dmg">Download NoEjectDelay Uninstaller</a>      </p>
     </div>
   </header>
 
@@ -195,13 +194,13 @@ src="img/pkg.png" width="128" height="128"                />
                   Installer is launched. Install NoEjectDelay.
               </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/noejectdelay-installer.png" alt="installer" />
+  <img src="img/noejectdelay-installer@2x.png" alt="Installer" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 680px;">
+  <div class="modal-dialog clickable" style="width: 675px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelay-installer.png" alt="installer" style="width: 100%" />
+        <img src="img/noejectdelay-installer@2x.png" alt="Installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -222,7 +221,7 @@ src="img/pkg.png" width="128" height="128"                />
         <p>
             No configuration required.
             <br />
-            NoEjectDelay becomes effective immediately after installation has completed and OS X has been restarted.
+            NoEjectDelay becomes effective immediately after installation has completed.
         </p>
       </section>
 
@@ -234,63 +233,42 @@ src="img/pkg.png" width="128" height="128"                />
         </div>
 
         <p>
-            There are two ways.
+            You can confirm NoEjectDelay version by "NoEjectDelay Utility.app".
         </p>
 
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-                Using Terminal
-            </h3>
-          </div>
-          <div class="panel-body">
+        <ol class="steps">
+          <li>
             <p>
-                Run the following command in Terminal.
+                Open "NoEjectDelay Utility" from Launchpad.
             </p>
-
-            <pre>
-$ /usr/sbin/kextstat | /usr/bin/grep --only-matching 'org.pqrs.*)'
-org.pqrs.driver.NoEjectDelay (6.1.0)
-org.pqrs.driver.Seil (11.3.0)
-org.pqrs.driver.Karabiner (10.9.0)
-</pre>
-
             <p>
-                The number (6.1.0) is the installed version.
+              <img
+              alt="icon"
+src="img/noejectdelay-icon@2x.png" width="170" height="185"              />
             </p>
-          </div>
-        </div>
-
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-                Using app
-            </h3>
-          </div>
-          <div class="panel-body">
+          </li>
+          <li>
             <p>
-                Download ShowInstalledAppsVersion.app and run it.
+                Then, you can confirm the version.
             </p>
-
-            <p>
-<a class="btn btn-primary"
-                  href="files/ShowInstalledAppsVersion.dmg">Download ShowInstalledAppsVersion.app</a>            </p>
-
-            <p>
-                TextEdit will be opened with the following text.
-            </p>
-
-            <pre>
-org.pqrs.driver.NoEjectDelay (6.1.0)
-org.pqrs.driver.Seil (11.3.0)
-org.pqrs.driver.Karabiner (10.9.0)
-</pre>
-
-            <p>
-                The number (6.1.0) is the installed version.
-            </p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 533px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
       </section>
 
       <section>
@@ -300,59 +278,41 @@ org.pqrs.driver.Karabiner (10.9.0)
           </h1>
         </div>
 
-        <ol>
+        <p>
+            You can uninstall NoEjectDelay by "NoEjectDelay Utility.app".
+        </p>
+
+        <ol class="steps">
           <li>
-              Download <a href="files/NoEjectDelayUninstaller.dmg">NoEjectDelay Uninstaller</a>.
+            <p>
+                Open "NoEjectDelay Utility" from Launchpad.
+            </p>
+            <p>
+              <img
+              alt="icon"
+src="img/noejectdelay-icon@2x.png" width="170" height="185"              />
+            </p>
           </li>
           <li>
-              Execute uninstaller.
+            <p>
+                Then, press "Launch uninstaller" button.
+            </p>
             <div class="row">
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 420px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/noejectdelayuninstaller1.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
+              <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" />
+  <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 526px;">
+  <div class="modal-dialog clickable" style="width: 533px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/noejectdelayuninstaller2.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 534px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/noejectdelayuninstaller3.png" alt="NoEjectDelay Uninstaller" style="width: 100%" />
+        <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
               </div>
             </div>
-          </li>
-          <li>
-              Then restart OS X.
           </li>
         </ol>
       </section>
@@ -387,6 +347,23 @@ org.pqrs.driver.Karabiner (10.9.0)
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 7.0.0
+              <small>
+Oct 3, 2015              </small>
+
+              <a class="btn btn-default" href="files/NoEjectDelay-7.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>An utility application "NoEjectDelay Utility.app" has been added.</li>
+  <li>Uninstaller has been bundled.</li>
+  <li>OS X 10.10 support has been dropped.</li>
+  <li>OS X 10.9 support has been dropped.</li>
+  <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
+</ul>
 
           <h2>
             Version 6.1.0
