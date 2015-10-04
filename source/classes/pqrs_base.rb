@@ -118,7 +118,15 @@ class PqrsBase < Mustache
     src = render(text).strip
     path = File.join(File.dirname(File.join($destination_directory, @path)), src)
     img = Magick::Image::read(path).first
-    "src=\"#{src}\" width=\"#{img.columns}\" height=\"#{img.rows}\""
+
+    width = img.columns
+    height = img.rows
+    if /@2x\./ =~ File.basename(path) then
+      width = width / 2
+      height = height / 2
+    end
+
+    "src=\"#{src}\" width=\"#{width}\" height=\"#{height}\""
   end
 
   def lightbox(text)
