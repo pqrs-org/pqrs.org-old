@@ -228,23 +228,10 @@ src="img/pkg.png" width="128" height="128"                />
                   LaunchpadからSeilを起動します。
               </p>
 
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/seil-launchpad.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/seil-launchpad.png" alt="Launchpad" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-
               <p>
                 <img
                 alt="icon"
-src="img/seil-icon.png" width="130" height="153"                />
+src="img/seil-icon@2x.png" width="140" height="159"                />
               </p>
             </div>
           </div>
@@ -267,23 +254,9 @@ src="img/seil-icon.png" width="130" height="153"                />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/seil-launchpad.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/seil-launchpad.png" alt="Launchpad" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-          <div class="col-lg-4">
             <img
             alt="icon"
-src="img/seil-icon.png" width="130" height="153"            />
+src="img/seil-icon@2x.png" width="140" height="159"            />
           </div>
         </div>
 
@@ -300,10 +273,10 @@ src="img/seil-icon.png" width="130" height="153"            />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
   <img src="img/seil-preferences.png" alt="Preferences" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -328,10 +301,10 @@ src="img/seil-icon.png" width="130" height="153"            />
           </p>
           <div class="row">
             <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/capslock.png" alt="No Action" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -351,10 +324,10 @@ src="img/seil-icon.png" width="130" height="153"            />
           </p>
           <div class="row">
             <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/seil-noaction-multiple-devices.png" alt="No Action" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 739px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -380,10 +353,10 @@ src="img/seil-icon.png" width="130" height="153"            />
               設定画面の「Misc &amp; Uninstall」タブにある「Launch uninstaller」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/seil-preferences-misc.png" alt="Seil" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -399,10 +372,10 @@ src="img/seil-icon.png" width="130" height="153"            />
               アンインストールを進めてください。
             <div class="row">
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -413,10 +386,10 @@ src="img/seil-icon.png" width="130" height="153"            />
 </div>
               </div>
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 499px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -427,10 +400,10 @@ src="img/seil-icon.png" width="130" height="153"            />
 </div>
               </div>
               <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 480px;">
     <div class="modal-content">
       <div class="modal-body">

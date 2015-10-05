@@ -222,23 +222,10 @@ src="img/pkg.png" width="128" height="128"            />
               <a href="document.html.ja">詳しくはこちら。</a>
           </p>
 
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/launchpad-full.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/launchpad-full.png" alt="Launchpad" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-
           <p>
             <img
             alt="launchpad"
-src="img/launchpad.png" width="150" height="157"            />
+src="img/karabiner-icon@2x.png" width="148" height="168"            />
           </p>
         </div>
       </div>
