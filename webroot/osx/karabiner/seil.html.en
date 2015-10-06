@@ -265,7 +265,7 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
         <p>
           <span class="label label-info">Note</span>
             If you're using PCKeyboardHack 8.0.0 or earlier,
-            <a href="img/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
+            <a href="files/preferencepane-pckeyboardhack.png">Preferences is in System Preferences.</a>
         </p>
 
         <h2>Step 2</h2>

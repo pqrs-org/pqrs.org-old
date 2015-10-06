@@ -152,7 +152,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <p>
           <span class="label label-info">Note</span>
             If you're using KeyRemap4MacBook 7.8.0 or earlier,
-            <a href="img/preferencepane.png">Preferences is in System Preferences.</a>
+            <a href="files/preferencepane-keyremap4macbook.png">Preferences is in System Preferences.</a>
         </p>
 
         <h2>Step 2</h2>
@@ -204,13 +204,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/preferences.png" alt="Preferences" />
+  <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/preferences.png" alt="Preferences" style="width: 100%" />
+        <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
