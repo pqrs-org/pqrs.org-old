@@ -572,7 +572,7 @@ src="img/quit.png" width="376" height="216"          />
           <div class="col-lg-6">
             <img
             alt="menu"
-src="img/eventviewer-menu@2x.png" width="243" height="166"            />
+src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-16" class="thumbnail">
