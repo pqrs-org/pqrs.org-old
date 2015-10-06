@@ -412,13 +412,13 @@
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/fnfunc1.png" alt="fnfunc" />
+  <img src="img/fnfunc1@2x.png" alt="fnfunc" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc1.png" alt="fnfunc" style="width: 100%" />
+        <img src="img/fnfunc1@2x.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -434,13 +434,13 @@
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/fnfunc.png" alt="fnfunc" />
+  <img src="img/fnfunc@2x.png" alt="fnfunc" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 721px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc.png" alt="fnfunc" style="width: 100%" />
+        <img src="img/fnfunc@2x.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>
