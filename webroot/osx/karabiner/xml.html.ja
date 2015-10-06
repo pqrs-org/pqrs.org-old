@@ -607,23 +607,14 @@
         </h3>
         <ol class="steps">
           <li>
-            Launch EventViewer from a menu.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 407px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/eventviewer-menu.png" alt="eventviewer menu" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
+            <p>
+              Launch EventViewer from a menu.
+            </p>
+            <p>
+              <img
+              alt="menu"
+src="img/eventviewer-menu@2x.png" width="243" height="166"              />
+            </p>
           </li>
           <li>
             <p>
@@ -639,10 +630,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -801,23 +792,14 @@
         </h3>
         <ol class="steps">
           <li>
-            Launch EventViewer from a menu.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
-</a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
-  <div class="modal-dialog clickable" style="width: 407px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/eventviewer-menu.png" alt="eventviewer menu" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
+            <p>
+              Launch EventViewer from a menu.
+            </p>
+            <p>
+              <img
+              alt="menu"
+src="img/eventviewer-menu@2x.png" width="243" height="166"              />
+            </p>
           </li>
           <li>
             <p>
@@ -836,10 +818,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -947,10 +929,10 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/eventviewer-app.png" alt="eventviewer-app" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1001,23 +983,14 @@
         <h3>Examine Vendor ID and Product ID of a target device</h3>
         <ol class="steps">
           <li>
-            Launch EventViewer from a menu.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/eventviewer-menu.png" alt="eventviewer menu" />
-</a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 407px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/eventviewer-menu.png" alt="eventviewer menu" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
+            <p>
+              Launch EventViewer from a menu.
+            </p>
+            <p>
+              <img
+              alt="menu"
+src="img/eventviewer-menu@2x.png" width="243" height="166"              />
+            </p>
           </li>
           <li>
             <p>
@@ -1031,10 +1004,10 @@
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/eventviewer-devices.png" alt="eventviewer-devices" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1185,10 +1158,10 @@
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/eventviewer-locationid.png" alt="Location ID" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1326,10 +1299,10 @@
         </ol>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/eventviewer-inputsource.png" alt="Event Viewer" />
 </a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1972,10 +1945,10 @@ src="img/lock-indicator.png" width="301" height="80"          />
             Then, reload XML files by "Reload XML" button on Preference.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/reload_xml.png" alt="Reload XML" />
 </a>
-<div class="modal fade" id="lightbox-13" tabindex="30013">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">

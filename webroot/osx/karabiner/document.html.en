@@ -572,17 +572,17 @@ src="img/quit.png" width="376" height="216"          />
           <div class="col-lg-6">
             <img
             alt="menu"
-src="img/eventviewer-menu.png" width="347" height="209"            />
+src="img/eventviewer-menu@2x.png" width="243" height="166"            />
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-16" class="thumbnail">
-  <img src="img/eventviewer-sample.png" alt="eventviewer" />
+  <img src="img/eventviewer@2x.png" alt="eventviewer" />
 </a>
 <div class="modal fade" id="lightbox-16" tabindex="30016">
-  <div class="modal-dialog clickable" style="width: 934px;">
+  <div class="modal-dialog clickable" style="width: 929px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-sample.png" alt="eventviewer" style="width: 100%" />
+        <img src="img/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
       </div>
     </div>
   </div>
