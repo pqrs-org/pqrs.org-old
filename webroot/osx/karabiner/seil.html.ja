@@ -325,13 +325,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
           <div class="row">
             <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/seil-noaction-multiple-devices.png" alt="No Action" />
+  <img src="img/seil-noaction-multiple-devices@2x.png" alt="No Action" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 739px;">
+  <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-noaction-multiple-devices.png" alt="No Action" style="width: 100%" />
+        <img src="img/seil-noaction-multiple-devices@2x.png" alt="No Action" style="width: 100%" />
       </div>
     </div>
   </div>
