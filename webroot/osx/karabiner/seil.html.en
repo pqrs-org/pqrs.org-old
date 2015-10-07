@@ -184,10 +184,10 @@
               <p>
                 <img
                 alt="dmg"
-src="img/dmg.png" width="128" height="128"                />
+src="../images/dmg-icon@2x.png" width="128" height="128"                />
                 <img
                 alt="pkg"
-src="img/pkg.png" width="128" height="128"                />
+src="../images/pkg-icon@2x.png" width="128" height="128"                />
               </p>
             </div>
           </div>
