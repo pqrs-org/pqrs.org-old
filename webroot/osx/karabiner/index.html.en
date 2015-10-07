@@ -192,13 +192,13 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
               Installer is launched. Install Karabiner.
           </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/installer.png" alt="installer" />
+  <img src="img/karabiner-installer@2x.png" alt="installer" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/installer.png" alt="installer" style="width: 100%" />
+        <img src="img/karabiner-installer@2x.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
