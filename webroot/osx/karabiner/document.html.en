@@ -236,13 +236,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/keyrepeat.png" alt="key repeat rate" />
+  <img src="img/karabiner-keyrepeat@2x.png" alt="key repeat rate" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/keyrepeat.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/karabiner-keyrepeat@2x.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
