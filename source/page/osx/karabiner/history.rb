@@ -17,6 +17,77 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.10.0',
+              :updated => '2015-10-08',
+              :link => 'files/Karabiner-10.10.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        "Use prepared settings" option has been added into Karabiner Preferences &gt; Misc &amp; Uninstall tab. <br />
+        Turning off the setting allows you to drop prepared settings and improve the speed of reloading XML.
+      </li>
+      <li>
+        EventViewer has been improved.<br />
+        Media control events and some key combinations are supported.
+      </li>
+      <li>Event modification has been improved when you are using multiple keyboards at the same time.</li>
+      <li>AXNotifier supported OmniFocus2 Quick Entry.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li><code>once</code> attribute has been introduced into <code>&lt;include&gt;</code> tag.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The CPU usage of Preview.app might be 100% at opening a huge PDF file when AXNotifier is enabled.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>
+        「Use prepared settings」というオプションをKarabinerの設定画面の「Misc &amp; Uninstall」タブに加えました。<br />
+        この設定を無効にすることで、既存の設定を無効化し、private.xmlのロードを速くすることが出来ます。
+      </li>
+      <li>
+        EventViewerを改善しました。<br />
+        メディアキーやいくつかのキーの組み合わせをサポートしました。
+      </li>
+      <li>複数のキーボードを同時に使っている場合の挙動を改善しました。</li>
+      <li>OmniFocus2 Quick EntryをAXNotifierでサポートしました。</li>
+      <li>設定の追加・更新をしました。</li>
+      <li>
+        自分で設定を追加する人向けの変更点:
+        <ul>
+          <li><code>&lt;include&gt;</code>タグに<code>once</code>属性を追加しました。</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合、Preview.appのCPU使用率が巨大なPDFを開くときに100%になることがある。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.9.0',
               :updated => '2015-09-07',
               :link => 'files/Karabiner-10.9.0.dmg',

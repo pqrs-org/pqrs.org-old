@@ -121,6 +121,46 @@
       </h1>
     </div>
       <h2>
+        Version 10.10.0
+          <small>
+Oct 8, 2015          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.10.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        "Use prepared settings" option has been added into Karabiner Preferences &gt; Misc &amp; Uninstall tab. <br />
+        Turning off the setting allows you to drop prepared settings and improve the speed of reloading XML.
+      </li>
+      <li>
+        EventViewer has been improved.<br />
+        Media control events and some key combinations are supported.
+      </li>
+      <li>Event modification has been improved when you are using multiple keyboards at the same time.</li>
+      <li>AXNotifier supported OmniFocus2 Quick Entry.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li><code>once</code> attribute has been introduced into <code>&lt;include&gt;</code> tag.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The CPU usage of Preview.app might be 100% at opening a huge PDF file when AXNotifier is enabled.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.9.0
           <small>
 Sep 7, 2015          </small>
