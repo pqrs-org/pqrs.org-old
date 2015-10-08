@@ -162,13 +162,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/ax-dialog.png" alt="AX dialog" />
+  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-dialog.png" alt="AX dialog" style="width: 100%" />
+        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -182,13 +182,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/ax-preferences.png" alt="AX Preferences" />
+  <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 720px;">
+  <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-preferences.png" alt="AX Preferences" style="width: 100%" />
+        <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -406,13 +406,13 @@ src="img/quit.png" width="376" height="216"          />
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/ax-dialog.png" alt="AX dialog" />
+  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/ax-dialog.png" alt="AX dialog" style="width: 100%" />
+        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
       </div>
     </div>
   </div>
