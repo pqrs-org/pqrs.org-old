@@ -122,7 +122,7 @@
     </div>
 
     <h2>
-      Karabiner-10.9.0 (Total: 2199 items)
+      Karabiner-10.10.0 (Total: 2203 items)
     </h2>
 
 <ul id="collapser"><li>Karabiner core settings<ul><li>Exclude devices<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
@@ -141,7 +141,8 @@
   This setting allows you unlimited "Delay Until Repeat".)</li><li>Ignore bouncing (chattering) events.
   (Please adjust threshold in "Key Repeat" tab.)</li><li>Allow devices which Vendor ID and Product ID are zero.
   (Be careful enabling this option.
-  These devices might cause system crash with Karabiner.)</li><li>Don't leave any modes automatically when the machine wakes from sleep.
+  These devices might cause system crash with Karabiner.)</li><li>Allow devices which has a multiple same key.
+  (For example, enable this option when you use a keyboard which has two left shift keys.)</li><li>Don't leave any modes automatically when the machine wakes from sleep.
   (Pass Through Mode, Browsing Mode, etc.)
 
   Karabiner turns off these modes automatically because
@@ -1119,7 +1120,23 @@
   (+ turn off Modifier Lock)</li><li>Return to Command_L+Control_L
   (+ When you type Return only, toggle Vi Mode)</li><li>Fn to Fn
   (+ When you type Fn only, toggle Vi Mode)</li><li>Option+V to toggle Vi Mode</li><li>Option+V to turn on Vi Mode</li><li>Disable Shift_L
-  (+ When you type Shift_L only, toggle Vi Mode)</li></ul></li><li>Simultaneous Vi Mode<ul><li>What's Simultaneous Vi Mode?
+  (+ When you type Shift_L only, toggle Vi Mode)</li><li>For Japanese<ul><li>Command_L to Command_L
+  (+ When you type Command_L only, send EISUU)
+  (+ When you type Command_R+Command_L only, toggle Complete Vi Mode)</li><li>Command_L to Control_L
+  (+ When you type Command_L only, send EISUU)
+  (+ When you type Command_R+Command_L only, toggle Complete Vi Mode)
+  (+ When you type Shift+Command_L only, send ESCAPE)</li><li>Command_R to Command_R
+  (+ When you type Command_R only, send KANA)
+  (+ When you type Command_L+Command_R only, toggle Complete Vi Mode)</li><li>Command_R to Command_R
+  (+ When you type Command_R only, send KANA)
+  (+ When you type Control+Command_R only, toggle Complete Vi Mode)
+  (+ When you type Shift+Command_R only, send Return)</li><li>EISUU to Control_L
+  (+ When you type Shift+EISUU only, send Escape)
+  (+ When you type Command_R+EISUU only, toggle Complete Vi Mode)
+  (+ When you type EISUU only, send EISUU)</li><li>KANA to Command_R
+  (+ When you type Shift+KANA only, send Return)
+  (+ When you type Control+KANA only, toggle Complete Vi Mode)
+  (+ When you type KANA only, send KANA)</li><li>Simultaneous Key Presses [EISUU+KANA] to toggle Vi Mode</li></ul></li></ul></li><li>Simultaneous Vi Mode<ul><li>What's Simultaneous Vi Mode?
   Push S and D keys simultaneously and keep them pressing.
   Then you can use Vi style navigation by HJKL.
   - HJKL to Left/Down/Up/Right</li><li>Simultaneous Key Presses [S+D] turns on "Simultaneous Vi Mode"</li><li>Simultaneous Key Presses [S+D] turns on "Simultaneous Vi Mode"
@@ -1476,7 +1493,8 @@
   (+ When you type Application Key only, send CapsLock)</li><li>Application Key to Command+Option</li><li>Application Key to Control+Option</li><li>Application Key to Fn</li><li>Application Key to Fn
   (+ When you type Application only, send Fn_Lock)</li><li>Application Key to Option_L</li><li>Application Key to Option_R (right option key)</li><li>Application Key to Shift_L</li><li>Application Key to Command_L+Backquote</li><li>Application Key to Delete</li><li>Application Key to Delete
   (+ Command+Application Key to CapsLock)</li><li>Application Key to Escape</li><li>Application Key to Escape
-  (+ Shift+Application Key to CapsLock)</li><li>Application Key to Eject</li><li>Application Key to Expose All</li><li>Application Key to F9</li><li>Application Key to F11</li><li>Application Key to Minimize (Send command-m)</li><li>Application Key to Command_L+Space</li><li>Application Key to Option_L+Space</li><li>Application Key to Underscore(Shift_L+Minus)</li><li>Application Key to LeftClick</li><li>Application Key to RightClick</li></ul></li><li>Change PC Insert Key<ul><li>Insert Key to Control_R</li><li>Insert Key to Option_L+Insert</li><li>Insert Key to PageDown</li><li>Insert Key to Tab</li></ul></li><li>Change PC NumLock Key<ul><li>NumLock Key to F11</li><li>Disable NumLock Key</li><li>Disable NumLock Key (except in TeamViewer.app)</li></ul></li><li>Change PC PrintScreen Key, ScrollLock Key, Pause/Break Key<ul><li>Right-hand function key block to system volume controls
+  (+ Shift+Application Key to CapsLock)</li><li>Application Key to Eject</li><li>Application Key to Expose All</li><li>Application Key to F9</li><li>Application Key to F11</li><li>Application Key to Minimize (Send command-m)</li><li>Application Key to Command_L+Space</li><li>Application Key to Option_L+Space</li><li>Application Key to Underscore(Shift_L+Minus)</li><li>Application Key to LeftClick</li><li>Application Key to RightClick</li></ul></li><li>Change PC Insert Key<ul><li>Insert Key to Control_R</li><li>Insert Key to Option_L+Insert</li><li>Insert Key to PageDown</li><li>Insert Key to Control+T
+  (This setting is useful in Midnight Commander.)</li><li>Insert Key to Tab</li></ul></li><li>Change PC NumLock Key<ul><li>NumLock Key to F11</li><li>Change Keypad Num Lock to Keypad Equal</li><li>Disable NumLock Key</li><li>Disable NumLock Key (except in TeamViewer.app)</li></ul></li><li>Change PC PrintScreen Key, ScrollLock Key, Pause/Break Key<ul><li>Right-hand function key block to system volume controls
   * PrintScreen to Volume Mute
   * ScrollLock to Volume Down
   * Pause/Break to Volume Up</li><li>PrintScreen Key to Eject</li><li>PrintScreen Key to F12</li><li>ScrollLock Key to F13</li><li>Pause/Break Key to Eject</li><li>Pause/Break Key to Power</li></ul></li><li>Use KeyPad as Arrow (PC Style NumLock)<ul><li>Enable KeyPad as Arrow
@@ -1798,38 +1816,29 @@
   (This setting allows you to toggle input source by caps lock key by using Seil together.
   Set caps lock key code to 80 in Seil.)</li></ul></li><li>For Italian<ul><li>Exchange Backslash(\) and Less-Than(&lt;)</li><li>Option+AEIUO to àèìùò on "Italian Input Source"</li><li>Option+AEIUO to àèìùò on "U.S. Input Source"</li><li>KeyPad Comma(,) to Dot(.) on "Italian Pro Input Source"</li></ul></li><li>For Japanese<ul><li>左右のコマンドキー（⌘）を「英数／かな」としても使う
   （左コマンドキーを英数キーにする）
-  （右コマンドキーをかなキーにする）<ul><li>コマンドキーの動作を優先モード v2
+  （右コマンドキーをかなキーにする）<ul><li>以下の中からいずれか一つを選択してください。
+  複数の設定を有効した場合、上にある設定のほうが優先されます。</li><li>──────────────────────────────</li><li>コマンドキーの動作を優先モード （★おすすめ）
+  （コマンドキーの空打ちで「英数／かな」）
+  （コマンドキーを押している間に他のキーを打つと通常のコマンドキーとして動作）</li><li>──────────────────────────────</li><li>コマンドキーの動作を優先モード（＋意図しないコマンドキーを防止）
   （コマンドキーの空打ちで「英数／かな」）
   （コマンドキーを押している間に他のキーを打つと通常のコマンドキーとして動作。
-  ただし、他のキーを離す前にコマンドキーを離した場合は「英数／かな」として扱う。）</li><li>──────────────────────────────</li><li>コマンドキーの動作を優先モード v1
-  （コマンドキーの空打ちで「英数／かな」）
-  （コマンドキーを押している間に他のキーを打つと通常のコマンドキーとして動作）</li><li>──────────────────────────────</li><li>英数／かなキーの動作を優先モード
+  ただし、他のキーを離す前にコマンドキーを離した場合は「英数／かな」として扱う。）</li><li>──────────────────────────────</li><li>英数／かなキーの動作を優先モード
   （基本的に英数／かなキーとして動作させる）
   （コマンドキーとして動作させるにはコマンドキーを長押しする）
   （長押しの時間は Key Repeat タブの Holding Key to Key &gt; Holding Threshold で指定します）</li></ul></li><li>Change Backquote(`) Key<ul><li>Backquote(`) to KANA/EISUU (toggle)</li></ul></li><li>Change Command_L Key<ul><li>Command_L to EISUU</li><li>Command_L to Command_L
   (+ When you type Command_L only, send EISUU)</li><li>Command_L to Command_L
   (+ When you type Command_L only, send EISUU)
-  (+ When you type Any modifiers+Command_L only, send EISUU)</li><li>Command_L to Command_L
-  (+ When you type Command_L only, send EISUU)
-  (+ When you type Command_R+Command_L only, toggle Complete Vi Mode)</li><li>Command_L to Command_L (except Terminal)
+  (+ When you type Any modifiers+Command_L only, send EISUU)</li><li>Command_L to Command_L (except Terminal)
   (+ When you type Command_L only, send EISUU)</li><li>Command_L to Command_L
   (+ When you type Command_L only, send KANA/EISUU (toggle))</li><li>Command_L to Control_L
   (+ When you type Command_L only, send EISUU)</li><li>Command_L to Control_L
   (+ When you type Command_L only, send EISUU)
-  (+ When you type Shift+Command_L only, send ESCAPE)</li><li>Command_L to Control_L
-  (+ When you type Command_L only, send EISUU)
-  (+ When you type Command_R+Command_L only, toggle Complete Vi Mode)
   (+ When you type Shift+Command_L only, send ESCAPE)</li><li>Command_L to Option_L
   (+ When you type Command_L only, send EISUU)</li><li>Command_L x2 to EISUU</li><li>Command_L x2 to EISUU x2 (for Kotoeri Users)</li><li>Use Command_L as KANA/EISUU (toggle)</li></ul></li><li>Change Command_R Key<ul><li>Command_R to EISUU</li><li>Command_R to KANA</li><li>Command_R to KANA
   (+ Any modifiers+Command_R to KANA)</li><li>Command_R to Shift_L+KANA</li><li>Command_R to Command_R
   (+ When you type Command_R only, send KANA)</li><li>Command_R to Command_R
-  (+ When you type Command_R only, send KANA)
-  (+ When you type Command_L+Command_R only, toggle Complete Vi Mode)</li><li>Command_R to Command_R
   (+ When you type Command_R only, send KANA/EISUU (toggle))</li><li>Command_R to Command_R
   (+ When you type Command_R only, send KANA)
-  (+ When you type Shift+Command_R only, send Return)</li><li>Command_R to Command_R
-  (+ When you type Command_R only, send KANA)
-  (+ When you type Control+Command_R only, toggle Complete Vi Mode)
   (+ When you type Shift+Command_R only, send Return)</li><li>Command_R to Control_L
   (+ When you type Command_R only, send KANA)</li><li>Command_R to Option_R
   (+ When you type Command_R only, send KANA)
@@ -1845,9 +1854,6 @@
   (+ When you type EISUU only, send EISUU)</li><li>EISUU to Control_L</li><li>EISUU to Control_L
   (+ When you type EISUU only, send EISUU)</li><li>EISUU to Control_L
   (+ When you type Shift+EISUU only, send Escape)
-  (+ When you type EISUU only, send EISUU)</li><li>EISUU to Control_L
-  (+ When you type Shift+EISUU only, send Escape)
-  (+ When you type Command_R+EISUU only, toggle Complete Vi Mode)
   (+ When you type EISUU only, send EISUU)</li><li>EISUU to Fn</li><li>EISUU to Option_L</li><li>EISUU to Option_L (only in Terminal)
   (+ When you type EISUU only, send EISUU)</li><li>EISUU to Shift_L</li><li>EISUU to ModifierFlag::EXTRA1</li><li>EISUU to Delete</li><li>Command+EISUU to EISUU</li><li>EISUU to Escape</li><li>EISUU to Escape （入力ソースが日本語以外の場合のみ）</li><li>EISUU to Control_L+F2 (= Move focus to the menu bar)</li><li>EISUU to Space</li><li>EISUU to Space
   (+ 英数キー長押しで通常の英数キーにする)</li><li>EISUU to Tab</li><li>EISUU to MiddleClick</li><li>EISUU to RightClick</li><li>Use EISUU as KANA/EISUU (toggle)</li><li>Ignore the multiple press of EISUU</li><li>EISUU symbol mode
@@ -1861,9 +1867,6 @@
   EISUU + XCVB for Shift + 7890</li></ul></li><li>Change KANA Key<ul><li>KANA to Command_L</li><li>KANA to Command_R</li><li>KANA to Command_R
   (+ When you type KANA only, send KANA)</li><li>KANA to Command_R
   (+ When you type Shift+KANA only, send Return)
-  (+ When you type KANA only, send KANA)</li><li>KANA to Command_R
-  (+ When you type Shift+KANA only, send Return)
-  (+ When you type Control+KANA only, toggle Complete Vi Mode)
   (+ When you type KANA only, send KANA)</li><li>KANA to Control_L</li><li>KANA to Control_L
   (+ When you type KANA only, send KANA)</li><li>KANA to Fn</li><li>KANA to Option_L</li><li>KANA to Option_L
   (+ When you type KANA only, send KANA)</li><li>KANA to Option_R
@@ -1959,7 +1962,7 @@
   1段目: X-EQ/ YGRWP
   2段目: AIUFO HJKST
   3段目: ,.CVL NMDBZ<ul><li>日本語入力のときだけAIU配列にする
-  （Command+CなどのショートカットはQWERTY配列のまま）</li><li>いつでもAIU配列</li></ul></li></ul></li><li>Simultaneous Key Presses<ul><li>Simultaneous Key Presses [EISUU+KANA] to toggle Vi Mode</li><li>Simultaneous Key Presses [EISUU+KANA] to Return
+  （Command+CなどのショートカットはQWERTY配列のまま）</li><li>いつでもAIU配列</li></ul></li></ul></li><li>Simultaneous Key Presses<ul><li>Simultaneous Key Presses [EISUU+KANA] to Return
   (We can change the key once again)</li><li>日本語入力時にF、Jキーの同時押しをSticky Shiftにする
   （SKKと一緒に使うと便利です。）</li><li>(7), 8, 9, 0 for IME<ul><li>8+9 for Shift+Left</li><li>9+0 for Shift+Right</li><li>8+0 for Right</li><li>7+9 for Left</li><li>Optional Cursors<ul><li>Y+U for Up</li><li>N+M for Down</li></ul></li></ul></li></ul></li><li>Kotoeri Hacks<ul><li>Control+I to Control+K (Control+I でカタカナ変換)
   (Except in Virtual Machine, RDC)</li><li>Control+I to F7 (Control+I でカタカナ変換)
@@ -1972,7 +1975,7 @@
   (it works with Korean Keyboard Type 1)</li><li>Command_R to Shift+Space / Option_R to Ctrl+Space
   (it works with Korean Keyboard Type 3)</li></ul></li><li>Make external keyboard HanEng, Hanja keys work in mac (except virtual machine, RDC)<ul><li>HanEng Key to Command+Space</li><li>Hanja Key to Option+Return</li></ul></li></ul></li></ul></li><li>For Lithuanian<ul><li>Change KeyPad Comma(,) to Dot(.)</li><li>Change letters to numbers when right command key is pressed in Lithuanian input source.</li></ul></li><li>For Norwegian<ul><li>Change KeyPad Comma(,) to Dot(.)
 + Shift+KeyPad Comma(,) to Comma(,)</li><li>Improve ISO Keyboard Layout
-  ( ''' to Pipe, 'Alt-gr +4' to '§' and '' to '\' )</li><li>Curly brackets
+  ( ''' to Pipe, 'Alt-gr +4' to '$' and '' to '\' )</li><li>Curly brackets
 ( 'Alt-gr +7' to '{' and 'Alt-gr +0') to '}' )</li><li>At sign fix
 ( 'Alt-gr +2' to '@' )</li><li>Star sign fix
 ( '@' to ''' and 'Shift + ''' to '*' )</li><li>Euro sign fix
@@ -2005,7 +2008,8 @@ Remap keys in Portuguese input source, from PC to MAC keyboard.<ul><li>Map +/-</
   Gives you the missing key combo with Alt-Gr without the ordinals</li><li>Add ordinals with command key+less_than for Spanish
   Gives you the missing Spanish ordinals using any of the command keys</li><li>Change keypad comma(,) to dot(.) on "Spanish" and "Spanish - ISO" Input Source</li><li>Change Command_R+n to ñ
   For Spanish in international US keyboard</li><li>Change option-comma(,) and option-dot(.) to less-than(&lt;) and greater-than(&gt;).
-  (Enable on "Spanish" and "Spanish - ISO" Input Source.)</li></ul></li><li>For Swedish<ul><li>Space to Option_L (when Input Source == Swedish)</li><li>Command_L to Command_L
+  (Enable on "Spanish" and "Spanish - ISO" Input Source.)</li><li>Correct Microsoft Ergonomic Keyboard 4000 Spanish configuration in "Spanish - ISO"
+  input source.</li></ul></li><li>For Swedish<ul><li>Space to Option_L (when Input Source == Swedish)</li><li>Command_L to Command_L
   (+ When you type Command_L only, change Input Source to English)</li><li>Command_R to Command_R
   (+ When you type Command_R only, change Input Source to Swedish)</li><li>Swap Section(§) and Less-Than(&lt;)
   (only in virtual machine)</li></ul></li><li>For Swiss<ul><li>Swap Y and Z</li><li>Swap Section(§) and Less-Than(&lt;)
