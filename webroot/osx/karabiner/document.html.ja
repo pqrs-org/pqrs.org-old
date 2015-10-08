@@ -307,13 +307,13 @@ src="img/quit.png" width="376" height="216"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/check-for-updates.png" alt="Check for updates" />
+  <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/check-for-updates.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -327,13 +327,13 @@ src="img/quit.png" width="376" height="216"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/using-beta.png" alt="Check for updates" />
+  <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/using-beta.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
