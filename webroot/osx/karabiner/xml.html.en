@@ -1942,13 +1942,13 @@ src="img/lock-indicator.png" width="301" height="80"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/reload_xml.png" alt="Reload XML" />
+  <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="Reload XML" style="width: 100%" />
+        <img src="img/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>

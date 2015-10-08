@@ -608,13 +608,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-17" class="thumbnail">
-  <img src="img/open_private_xml.png" alt="open private.xml" />
+  <img src="img/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
 <div class="modal fade" id="lightbox-17" tabindex="30017">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/open_private_xml.png" alt="open private.xml" style="width: 100%" />
+        <img src="img/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -627,13 +627,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-18" class="thumbnail">
-  <img src="img/private.xml.png" alt="finder" />
+  <img src="img/karabiner-xml2@2x.png" alt="finder" />
 </a>
 <div class="modal fade" id="lightbox-18" tabindex="30018">
-  <div class="modal-dialog clickable" style="width: 688px;">
+  <div class="modal-dialog clickable" style="width: 812px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/private.xml.png" alt="finder" style="width: 100%" />
+        <img src="img/karabiner-xml2@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -646,13 +646,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
-  <img src="img/private.xml.open_with.png" alt="finder" />
+  <img src="img/karabiner-xml3@2x.png" alt="finder" />
 </a>
 <div class="modal fade" id="lightbox-19" tabindex="30019">
-  <div class="modal-dialog clickable" style="width: 690px;">
+  <div class="modal-dialog clickable" style="width: 809px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/private.xml.open_with.png" alt="finder" style="width: 100%" />
+        <img src="img/karabiner-xml3@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -665,13 +665,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-20" class="thumbnail">
-  <img src="img/textedit.png" alt="textedit" />
+  <img src="img/karabiner-xml4@2x.png" alt="textedit" />
 </a>
 <div class="modal fade" id="lightbox-20" tabindex="30020">
-  <div class="modal-dialog clickable" style="width: 715px;">
+  <div class="modal-dialog clickable" style="width: 682px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/textedit.png" alt="textedit" style="width: 100%" />
+        <img src="img/karabiner-xml4@2x.png" alt="textedit" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -684,13 +684,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-21" class="thumbnail">
-  <img src="img/reload_xml.png" alt="Reload XML" />
+  <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-21" tabindex="30021">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reload_xml.png" alt="Reload XML" style="width: 100%" />
+        <img src="img/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -703,13 +703,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-22" class="thumbnail">
-  <img src="img/reloaded.png" alt="reloaded" />
+  <img src="img/karabiner-xml6@2x.png" alt="reloaded" />
 </a>
 <div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/reloaded.png" alt="reloaded" style="width: 100%" />
+        <img src="img/karabiner-xml6@2x.png" alt="reloaded" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -731,14 +731,6 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           </li>
           <li>
               Completed!
-              <br />
-              Please send your new settings to me. I'll merge them into prepared settings.
-              <br />
-              You can send it by either following ways.
-              <ul>
-                <li>Send a message to <a href="contact.html.en">Google Groups or mail</a>.</li>
-                <li><a href="https://github.com/tekezo/Karabiner">Sending a pull request on github</a>.</li>
-              </ul>
           </li>
         </ol>
 
