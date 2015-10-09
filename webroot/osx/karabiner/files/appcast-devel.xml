@@ -7,50 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.10.0</title>
+      <title>Version 10.10.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.10.0 Update</h2>
+<h2>About v10.10.1 Update</h2>
 <ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>
-        "Use prepared settings" option has been added into Karabiner Preferences &gt; Misc &amp; Uninstall tab. <br />
-        Turning off the setting allows you to drop prepared settings and improve the speed of reloading XML.
-      </li>
-      <li>
-        EventViewer has been improved.<br />
-        Media control events and some key combinations are supported.
-      </li>
-      <li>Event modification has been improved when you are using multiple keyboards at the same time.</li>
-      <li>AXNotifier supported OmniFocus2 Quick Entry.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>
-        Updates for people who add new settings by oneself:
-        <ul>
-          <li>`once` attribute has been introduced into `&lt;include&gt;` tag.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
   <li>
     Fixed issues:
     <ul>
-      <li>The CPU usage of Preview.app might be 100% at opening a huge PDF file when AXNotifier is enabled.</li>
+      <li>`__SimultaneousKeyPresses__` sends key events continuously even if all keys are released when using multiple keyboards at the same time and both keyboards are pressed.</li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 08 Oct 2015 14:26:59 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.10.0.dmg"
-                 sparkle:version="10.10.0" length="3927828" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFdlK/t9gFQ8y8trZqPDZOCDB9efAhRh0cspWzY5ZdV+/efGsdSjiG29mw=="
+      <pubDate>Fri, 09 Oct 2015 17:05:11 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.10.1.dmg"
+                 sparkle:version="10.10.1" length="3927897" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGsUWbxXt+DNpLu65IaVxpfCGfL7AhRmCJ2wIZB18TvqCx8d2rNc2aTxKg=="
                  />
     </item>
 
