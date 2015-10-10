@@ -213,21 +213,6 @@
             Please uninstall third vendor's keyboard drivers.
         </p>
 
-        <h2 id="atlogin">
-            Karabiner does not work after boot on OS X 10.7. What should I do?
-        </h2>
-        <p>
-            "Resume" feature introduced by Lion delays launching apps at login.
-        </p>
-        <p>
-            Until Karabiner is launched at login, the keyboard layout is not changed.
-          <br />
-            Please wait a minute until menu of Karabiner is shown.
-        </p>
-        <p>
-          <img alt="menu" src="img/menu.png" width="227" height="48" />
-        </p>
-
         <h2 id="rollover">
             A combination of "left command key" + "right command key" + "n key" does not work. Why?
         </h2>
