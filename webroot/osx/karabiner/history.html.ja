@@ -121,6 +121,25 @@
       </h1>
     </div>
       <h2>
+        Version 10.11.0
+          <small>
+2015年10月10日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.11.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>複数のキーボードを使用中していて、それらのキーボードが同時に押された場合に、<code>__SimultaneousKeyPresses__</code>がキーイベントを送り続けてしまう。</li>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Spine, SpineTrial）</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.10.0
           <small>
 2015年10月8日          </small>

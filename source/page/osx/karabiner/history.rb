@@ -17,6 +17,35 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.11.0',
+              :updated => '2015-10-10',
+              :link => 'files/Karabiner-10.11.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li><code>__SimultaneousKeyPresses__</code> sends key events continuously even if all keys are released when using multiple keyboards at the same time and both keyboards are pressed.</li>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Spine, SpineTrial)</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>複数のキーボードを使用中していて、それらのキーボードが同時に押された場合に、<code>__SimultaneousKeyPresses__</code>がキーイベントを送り続けてしまう。</li>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Spine, SpineTrial）</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.10.0',
               :updated => '2015-10-08',
               :link => 'files/Karabiner-10.10.0.dmg',

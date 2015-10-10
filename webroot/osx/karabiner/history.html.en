@@ -121,6 +121,25 @@
       </h1>
     </div>
       <h2>
+        Version 10.11.0
+          <small>
+Oct 10, 2015          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.11.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    Fixed issues:
+    <ul>
+      <li><code>__SimultaneousKeyPresses__</code> sends key events continuously even if all keys are released when using multiple keyboards at the same time and both keyboards are pressed.</li>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Spine, SpineTrial)</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.10.0
           <small>
 Oct 8, 2015          </small>
