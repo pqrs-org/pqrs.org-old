@@ -274,13 +274,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/seil-preferences.png" alt="Preferences" />
+  <img src="img/seil-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-preferences.png" alt="Preferences" style="width: 100%" />
+        <img src="img/seil-preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -354,69 +354,19 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/seil-preferences-misc.png" alt="Seil" />
+  <img src="img/seil-uninstall@2x.png" alt="Seil" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-preferences-misc.png" alt="Seil" style="width: 100%" />
+        <img src="img/seil-uninstall@2x.png" alt="Seil" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
               </div>
             </div>
-          </li>
-          <li>
-              アンインストールを進めてください。
-            <div class="row">
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
-  <div class="modal-dialog clickable" style="width: 480px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/seil-uninstaller1.png" alt="Seil Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
-  <div class="modal-dialog clickable" style="width: 499px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/seil-uninstaller2.png" alt="Seil Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" />
-</a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 480px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/seil-uninstaller3.png" alt="Seil Uninstaller" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-          <li>
-              その後にOS Xを再起動してください。
           </li>
         </ol>
       </section>
