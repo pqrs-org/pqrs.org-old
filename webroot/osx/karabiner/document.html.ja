@@ -392,13 +392,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/axnotifier.png" alt="AXNotifier" />
+  <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 560px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier.png" alt="AXNotifier" style="width: 100%" />
+        <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -435,13 +435,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/axnotifier-example-app.png" alt="AXNotifier examples" />
+  <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-app.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -455,13 +455,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/axnotifier-example-windowname.png" alt="AXNotifier examples" />
+  <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-windowname.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -475,13 +475,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/axnotifier-example-role.png" alt="AXNotifier examples" />
+  <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-role.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
