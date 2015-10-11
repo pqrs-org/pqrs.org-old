@@ -635,11 +635,23 @@
           </li>
         </ol>
 
-        <h2 id="privatexml-only">Advanced Usage: Turning off prepared settings</h2>
+        <h2 id="privatexml-only">
+          {{#language_en}}
+            Advanced Usage: Turning off prepared settings
+          {{/language_en}}
+          {{#language_ja}}
+            高度な使用方法: 既存の設定を読み込まないようにする
+          {{/language_ja}}
+        </h2>
 
         <p>
-          You can turn off prepared settings if you don't need all prepared settings.<br />
-          Turn off the "Use prepared settings" checkbox.
+          {{#language_en}}
+            You can turn off prepared settings if you don't need all prepared settings.<br />
+            Turn off the "Use prepared settings" checkbox.
+          {{/language_en}}
+          {{#language_ja}}
+            「Use prepared settings」をオフにすることで、既存の設定を読み込まないようにすることが出来ます。
+          {{/language_ja}}
         </p>
 
         <div class="row">
@@ -651,11 +663,22 @@
         </div>
 
         <p>
-          You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
-          Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+          {{#language_en}}
+            You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
+            Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+          {{/language_en}}
+          {{#language_ja}}
+            更に、<code>&lt;include&gt;</code>タグを用いて、既存の設定の一部分だけをprivate.xmlから読み込むことも出来ます。<br />
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>中から、読み込みたい行をprivate.xmlにコピーしてください。
+          {{/language_ja}}
         </p>
         <p>
-          For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+          {{#language_en}}
+            For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+          {{/language_en}}
+          {{#language_ja}}
+            例えば、このprivate.xmlでは「Launcher Mode v2」と「Mouse Keys Mode」を読み込みます。
+          {{/language_ja}}
         </p>
         {{#indented_xml}}
           |<?xml version="1.0"?>
