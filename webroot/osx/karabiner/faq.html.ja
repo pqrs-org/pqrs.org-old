@@ -183,7 +183,8 @@
             </div>
           </li>
           <li>
-              ログメッセージを確認できます。
+              ログメッセージを確認できます。<br />
+              行を選択して、コピー＆ペーストしてください。
 
             <div class="row">
               <div class="col-lg-4">
@@ -203,27 +204,6 @@
             </div>
           </li>
         </ol>
-
-        <p>
-            ログメッセージを絞り込むことも出来ます。
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/console-filtered@2x.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 868px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/console-filtered@2x.png" alt="Launchpad" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
 
         <h2 id="vendor">
             LogicoolやMicrosoftのキーボードで動作しません。どうすれば良いですか？
@@ -290,10 +270,10 @@
               Seilでcaps lockのキーコードを110に変更します。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/swap_caps_and_delete_1@2x.png" alt="Seil" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -309,10 +289,10 @@
               システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」に変更します。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/capslock@2x.png" alt="caps lock" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -328,10 +308,10 @@
               Karabinerで「Application Key to Delete」を有効にします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -347,10 +327,10 @@
               Karabinerで「Delete to CapsLock」を有効にします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -412,10 +392,10 @@
             </p>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/fnfunc1@2x.png" alt="fnfunc" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -434,10 +414,10 @@
             </p>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/fnfunc@2x.png" alt="fnfunc" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 721px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -553,10 +533,10 @@
               システム環境設定の「キーボード ＞ 入力ソース」からUnicode Hex Inputを有効にします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -633,10 +613,10 @@
               システム環境設定の「キーボード ＞ 入力ソース」からUnicode Hex Inputを有効にします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
