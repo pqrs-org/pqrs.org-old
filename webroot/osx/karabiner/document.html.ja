@@ -916,7 +916,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         <p>
           <img
           alt="profiles"
-src="img/statusbar.png" width="370" height="203"          />
+src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
         </p>
         <h2>
             複数の設定の使い方
@@ -927,13 +927,13 @@ src="img/statusbar.png" width="370" height="203"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-26" class="thumbnail">
-  <img src="img/menubar_setting.png" alt="menubar tab" />
+  <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
 <div class="modal fade" id="lightbox-26" tabindex="30026">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 726px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/menubar_setting.png" alt="menubar tab" style="width: 100%" />
+        <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -942,11 +942,13 @@ src="img/statusbar.png" width="370" height="203"          />
             </div>
           </li>
           <li>
-              メニューバーから設定を切り替えます。
+            <p>
+                メニューバーから設定を切り替えます。
+            </p>
             <p>
               <img
               alt="profiles"
-src="img/switch_current_setting.png" width="405" height="220"              />
+src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"              />
             </p>
           </li>
           <li>
