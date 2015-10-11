@@ -168,13 +168,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/launchpad-console.png" alt="Launchpad" />
+  <img src="img/console-launchpad@2x.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 700px;">
+  <div class="modal-dialog clickable" style="width: 759px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad-console.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/console-launchpad@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -183,18 +183,18 @@
             </div>
           </li>
           <li>
-              Filter messages by "Karabiner".
+              You can see system log messages.
 
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/karabiner-console@2x.png" alt="Launchpad" />
+  <img src="img/console@2x.png" alt="Console" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 868px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-console@2x.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/console@2x.png" alt="Console" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -203,6 +203,27 @@
             </div>
           </li>
         </ol>
+
+        <p>
+            You can also filter messages.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/console-filtered@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 868px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/console-filtered@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
 
         <h2 id="vendor">
             Karabiner does not work on keyboards of Logitech, Microsoft. What should I do?
@@ -274,10 +295,10 @@
               Change keycode of caps lock to 110 on Seil.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/swap_caps_and_delete_1@2x.png" alt="Seil" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -293,10 +314,10 @@
               Open "System Preferences > Keyboard > Modifier Keys..." and change caps lock configuration to "No Action".
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/capslock@2x.png" alt="caps lock" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -312,10 +333,10 @@
               Activate "Application Key to Delete" on Karabiner.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -331,10 +352,10 @@
               Activate "Delete to CapsLock" on Karabiner.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -396,10 +417,10 @@
             </p>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/fnfunc1@2x.png" alt="fnfunc" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -418,10 +439,10 @@
             </p>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/fnfunc@2x.png" alt="fnfunc" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 721px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -540,10 +561,10 @@
               Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -620,10 +641,10 @@
               Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
   <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">

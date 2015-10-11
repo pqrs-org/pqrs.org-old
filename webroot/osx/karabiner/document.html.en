@@ -968,13 +968,13 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-27" class="thumbnail">
-  <img src="img/switch-profile.png" alt="switch profile" />
+  <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
 <div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/switch-profile.png" alt="switch profile" style="width: 100%" />
+        <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" style="width: 100%" />
       </div>
     </div>
   </div>
