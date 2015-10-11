@@ -682,11 +682,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           </li>
         </ol>
 
-        <h2 id="privatexml-only">Advanced Usage: Turning off prepared settings</h2>
+        <h2 id="privatexml-only">
+            Advanced Usage: Turning off prepared settings
+        </h2>
 
         <p>
-          You can turn off prepared settings if you don't need all prepared settings.<br />
-          Turn off the "Use prepared settings" checkbox.
+            You can turn off prepared settings if you don't need all prepared settings.<br />
+            Turn off the "Use prepared settings" checkbox.
         </p>
 
         <div class="row">
@@ -707,11 +709,11 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         </div>
 
         <p>
-          You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
-          Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+            You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
+            Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
         </p>
         <p>
-          For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+            For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
         </p>
 <pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
 &lt;root&gt;

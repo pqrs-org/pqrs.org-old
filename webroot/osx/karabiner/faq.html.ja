@@ -188,13 +188,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/console.png" alt="Launchpad" />
+  <img src="img/karabiner-console@2x.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 1185px;">
+  <div class="modal-dialog clickable" style="width: 868px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/console.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/karabiner-console@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
