@@ -37,7 +37,7 @@ EOS
   <li>
     下記の問題を修正しました:
     <ul>
-      <li>複数のキーボードを使用中していて、それらのキーボードが同時に押された場合に、<code>__SimultaneousKeyPresses__</code>がキーイベントを送り続けてしまう。</li>
+      <li>複数のキーボードを使用していて、それらのキーボードが同時に押された場合に、<code>__SimultaneousKeyPresses__</code>がキーイベントを送り続けてしまう。</li>
       <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Spine, SpineTrial）</li>
     </ul>
   </li>
