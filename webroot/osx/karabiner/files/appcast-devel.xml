@@ -7,29 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.11.0</title>
+      <title>Version 10.11.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.11.0 Update</h2>
+<h2>About v10.11.1 Update</h2>
 <ul>
   <li>
-    Fixed issues:
+    New functions and improvements:
     <ul>
-      <li>`__SimultaneousKeyPresses__` sends key events continuously even if all keys are released when using multiple keyboards at the same time and both keyboards are pressed.</li>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Spine, SpineTrial)</li>
+      <li>Prepared settings have been updated.</li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sat, 10 Oct 2015 18:01:18 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.11.0.dmg"
-                 sparkle:version="10.11.0" length="3928267" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCwBL4PLC8VzbsTfkvQwnmLXR5SvAhRqPQzawYo657OKdvRMBoD7oBJwAA=="
+      <pubDate>Mon, 12 Oct 2015 07:34:23 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.11.1.dmg"
+                 sparkle:version="10.11.1" length="3928239" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHzmcoN/z6If4MfJJfs4fhaDadSvAhQWdpoD8myHzsY4J9tnDLB3CSUQfA=="
                  />
     </item>
 
