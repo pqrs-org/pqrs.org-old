@@ -34,14 +34,12 @@ rm -f "$targetdir/appcast-devel.xml.tmp"
       <title>Version $version</title>
       <description><![CDATA[
 <h2>About v$version Update</h2>
-<ul>
-  <li>XXXXXXXX</li>
 EOF
 
 >>"$targetdir/appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/appcast-devel.xml"
 
 >>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
-</ul>
+
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
