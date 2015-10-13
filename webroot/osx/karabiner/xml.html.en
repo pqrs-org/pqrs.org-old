@@ -1159,13 +1159,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/eventviewer-locationid.png" alt="Location ID" />
+  <img src="img/eventviewer-locationid@2x.png" alt="Location ID" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-locationid.png" alt="Location ID" style="width: 100%" />
+        <img src="img/eventviewer-locationid@2x.png" alt="Location ID" style="width: 100%" />
       </div>
     </div>
   </div>
