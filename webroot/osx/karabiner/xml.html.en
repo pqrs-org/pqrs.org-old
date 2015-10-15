@@ -174,13 +174,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/samples_for_developer.png" alt="Samples for Karabiner Developer" />
+  <img src="img/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/samples_for_developer.png" alt="Samples for Karabiner Developer" style="width: 100%" />
+        <img src="img/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -503,13 +503,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/filter-examples.png" alt="filter-examples" />
+  <img src="img/karabiner-filter-examples@2x.png" alt="filter-examples" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/filter-examples.png" alt="filter-examples" style="width: 100%" />
+        <img src="img/karabiner-filter-examples@2x.png" alt="filter-examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1856,7 +1856,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
           <br />
           <img
           alt="lock indicator"
-src="img/lock-indicator.png" width="301" height="80"          />
+src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
         </p>
 
         <h2 id="prepared-modifierdef">Prepared virtual modifier definitions</h2>
