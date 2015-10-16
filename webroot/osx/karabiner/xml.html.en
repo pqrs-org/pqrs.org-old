@@ -145,18 +145,18 @@
   &lt;/item&gt;
 &lt;/root&gt;</pre>
         <p>
-          2 settings are added by this private.xml.
+          Two settings will be added by this private.xml.
         </p>
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/xml_basic.png" alt="preferences pane" />
+  <img src="img/karabiner-xml-example@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/xml_basic.png" alt="preferences pane" style="width: 100%" />
+        <img src="img/karabiner-xml-example@2x.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
