@@ -1589,9 +1589,9 @@ EOS
       <li>
         <a href="http://pi200k.blog35.fc2.com/?no=70" target="_blank">天地逆Dvorak配列</a>を加えました。外付けキーボードを逆さにして使う配列です。有効にするには設定から「pi200k」で検索してください。
         <ul>
-          <li><a href="img/jis_updown_dvorak/normal.png">通常時の画像</a></li>
-          <li><a href="img/jis_updown_dvorak/extra1.png">Ex1モディファイア押下時の画像</a></li>
-          <li><a href="img/jis_updown_dvorak/extra2.png">Ex2モディファイア押下時の画像</a></li>
+          <li><a href="files/jis_updown_dvorak/normal.png">通常時の画像</a></li>
+          <li><a href="files/jis_updown_dvorak/extra1.png">Ex1モディファイア押下時の画像</a></li>
+          <li><a href="files/jis_updown_dvorak/extra2.png">Ex2モディファイア押下時の画像</a></li>
         </ul>
       </li>
     </ul>
