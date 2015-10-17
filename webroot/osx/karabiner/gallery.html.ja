@@ -338,13 +338,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" />
+  <img src="img/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/launcher_mode_v2.png" alt="Launcher Mode v2" style="width: 100%" />
+        <img src="img/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -443,13 +443,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" />
+  <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/ignore_bouncing1.png" alt="Ignore bouncing" style="width: 100%" />
+        <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -463,13 +463,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" />
+  <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/ignore_bouncing2.png" alt="Ignore bouncing" style="width: 100%" />
+        <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>
