@@ -180,13 +180,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" />
+  <img src="img/gallery-emacs-mode@2x.png" alt="Emacs Mode" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/emacs_mode.png" alt="Emacs Mode" style="width: 100%" />
+        <img src="img/gallery-emacs-mode@2x.png" alt="Emacs Mode" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -210,13 +210,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" />
+  <img src="img/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/avoid_unintended_command_q.png" alt="Press Command+Q twice to Quit Application" style="width: 100%" />
+        <img src="img/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -273,13 +273,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/gallery/mouse_keys_mode_v2@2x.png" alt="Mouse Keys Mode v2" />
+  <img src="img/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 686px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/mouse_keys_mode_v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
+        <img src="img/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -414,13 +414,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" />
+  <img src="img/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 720px;">
+  <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery/disable_built_in_keyboard_if_external_keyboard_exists.png" alt="Disable an internal keyboard while external keyboards are connected" style="width: 100%" />
+        <img src="img/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" style="width: 100%" />
       </div>
     </div>
   </div>
