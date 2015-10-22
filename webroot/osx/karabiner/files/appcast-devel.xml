@@ -18,6 +18,7 @@
   <li>
     New functions and improvements:
     <ul>
+      <li>The key up event handling has been improved in some keyboards.</li>
       <li>"Don't remap Apple's keyboards" setting supported Magic Keyboard.</li>
       <li>Prepared settings have been updated.</li>
     </ul>
