@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.11.12</title>
+      <title>Version 10.11.13</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.11.12 Update</h2>
+<h2>About v10.11.13 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -24,17 +24,24 @@
       </li>
       <li>The key up event handling has been improved in some keyboards.</li>
       <li>"Don't remap Apple's keyboards" setting supported Magic Keyboard.</li>
+      <li>Karabiner Preferences became resizable.</li>
       <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>__SimultaneousKeyPresses__ sometimes fails sending key up event when __BlockUntilKeyUp__ is used together.</li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Mon, 26 Oct 2015 03:59:49 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.11.12.dmg"
-                 sparkle:version="10.11.12" length="4040405" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCzZ9J5wwWC7k5QSGk+kEimlcyvzAhQv5bhhRs6M5jYftDRruX1RJbsijw=="
+      <pubDate>Thu, 29 Oct 2015 06:02:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.11.13.dmg"
+                 sparkle:version="10.11.13" length="4040349" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB6Zq5HfLNNlDwok/KszAztKARV3AhR5fqJ7AcJvf/2iGVQKAlSW3uJdhw=="
                  />
     </item>
 
