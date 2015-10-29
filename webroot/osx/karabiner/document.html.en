@@ -807,6 +807,113 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
       <section>
         <div class="page-header">
+          <h1 id="event-modification-chaining">
+              Input event modification chaining
+          </h1>
+        </div>
+
+        <p>
+            There are several ways to modify input events:
+        </p>
+        <ul>
+          <li>Karabiner</li>
+          <li>Seil: <a href="https://pqrs.org/osx/karabiner/seil.html">https://pqrs.org/osx/karabiner/seil.html</a></li>
+          <li>
+            <p>
+                System Preferences &gt; Keyboard &gt; Modifier Keys...
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+  <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
+</a>
+<div class="modal fade" id="lightbox-22" tabindex="30022">
+  <div class="modal-dialog clickable" style="width: 477px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p>
+            Input events will be changed by each manipulators by the following order:
+        </p>
+
+        <ol>
+          <li>Seil</li>
+          <li>
+              System Preferences &gt; Keyboard &gt; Modifier Keys...
+          </li>
+          <li>Karabiner</li>
+        </ol>
+
+        <h2>
+            Example
+        </h2>
+        <p>
+            If the following modification is specified:
+        </p>
+        <ol>
+          <li>
+              Seil setting: <code>command key</code> -&gt; <code>option key</code>
+          </li>
+          <li>
+              System Preferences: <code>option key</code> -&gt; <code>shift key</code>
+          </li>
+          <li>
+              Karabiner setting: <code>shift key</code> -&gt; <code>control key</code>
+          </li>
+        </ol>
+        <p>
+            The physical <code>command key</code> will be changed to <code>control key</code>.
+        </p>
+
+        <h2>
+            Example
+        </h2>
+        <p>
+            Generic keys are changed by Seil and Karabiner.
+        </p>
+        <ol>
+          <li>
+              Seil setting: <code>escape key</code> -&gt; <code>tab key</code>
+          </li>
+          <li>
+              Karabiner setting: <code>tab key</code> -&gt; <code>delete key</code>
+          </li>
+        </ol>
+        <p>
+            The physical <code>escape key</code> will be changed to <code>delete key</code> by Seil and Karabiner. <br />
+            The physical <code>tab key</code> will also be changed to <code>delete key</code> by Karabiner.
+        </p>
+
+        <h2>
+            Plural settings in Karabiner
+        </h2>
+        <p>
+            Karabiner does not allow you to recursive event modification.<br />
+            If one setting is applied, other settings are ignored.
+        </p>
+        <ol>
+          <li>
+              Karabiner setting: <code>escape key</code> -&gt; <code>delete key</code>
+          </li>
+          <li>
+              Karabiner setting: <code>delete key</code> -&gt; <code>space key</code>
+          </li>
+        </ol>
+        <p>
+            <code>escape key</code> will be changed to <code>delete key</code>. (not <code>space key</code>)
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="multitouchextension">
               Multi-touch extension
           </h1>
@@ -834,10 +941,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Click "Launch multi-touch extension" button in "Karabiner Preference &gt; Misc &amp; Uninstall".
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-22" tabindex="30022">
+<div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -853,10 +960,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Then application is launched. Click the icon in Dock.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
 </a>
-<div class="modal fade" id="lightbox-23" tabindex="30023">
+<div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 581px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -875,10 +982,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -889,10 +996,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -929,10 +1036,10 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
               Add new configuration from "MenuBar" tab.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 726px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -967,10 +1074,10 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1300,6 +1407,11 @@ Password: &lt;enter your password&gt;
               <li>
                 <a href="#implicit">
                   Implicit behavior
+                </a>
+              </li>
+              <li>
+                <a href="#event-modification-chaining">
+                  Input event modification chaining
                 </a>
               </li>
               <li class="nav-header">Misc.</li>

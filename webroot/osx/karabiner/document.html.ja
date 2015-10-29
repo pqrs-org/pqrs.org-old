@@ -805,6 +805,113 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
       <section>
         <div class="page-header">
+          <h1 id="event-modification-chaining">
+              入力イベントの変更の順番
+          </h1>
+        </div>
+
+        <p>
+            入力イベントを変更する方法はいくつかあります。<br />
+        </p>
+        <ul>
+          <li>Karabiner</li>
+          <li>Seil: <a href="https://pqrs.org/osx/karabiner/seil.html">https://pqrs.org/osx/karabiner/seil.html</a></li>
+          <li>
+            <p>
+                システム環境設定 &gt; キーボード &gt; 修飾キー...
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+  <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
+</a>
+<div class="modal fade" id="lightbox-22" tabindex="30022">
+  <div class="modal-dialog clickable" style="width: 477px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p>
+            入力イベントは各々の方法で、次の順番で変更されます。
+        </p>
+
+        <ol>
+          <li>Seil</li>
+          <li>
+              システム環境設定 &gt; キーボード &gt; 修飾キー...
+          </li>
+          <li>Karabiner</li>
+        </ol>
+
+        <h2>
+            例
+        </h2>
+        <p>
+            もし以下の設定がされていた場合、
+        </p>
+        <ol>
+          <li>
+              Seil設定: <code>コマンドキー</code> -&gt; <code>オプションキー</code>
+          </li>
+          <li>
+              システム環境設定: <code>オプションキー</code> -&gt; <code>シフトキー</code>
+          </li>
+          <li>
+              Karabiner設定: <code>シフトキー</code> -&gt; <code>コントロールキー</code>
+          </li>
+        </ol>
+        <p>
+            <code>コマンドキー</code>は<code>コントロールキー</code>になります。
+        </p>
+
+        <h2>
+            例
+        </h2>
+        <p>
+            通常のキーはSeilとKarabinerで変更されます。
+        </p>
+        <ol>
+          <li>
+              Seil 設定: <code>escapeキー</code> -&gt; <code>tabキー</code>
+          </li>
+          <li>
+              Karabiner設定: <code>tabキー</code> -&gt; <code>deleteキー</code>
+          </li>
+        </ol>
+        <p>
+            <code>escapeキー</code>はSeilとKarabinerにより、<code>deleteキー</code>になります。<br />
+            <code>tabキー</code>もKarabinerにより、<code>deleteキー</code>になります。
+        </p>
+
+        <h2>
+            Karabinerにおける複数の設定
+        </h2>
+        <p>
+            Karabinerでは設定を再帰的に反映することは出来ません。<br />
+            一つの設定が反映された後は他の設定は無視されます。
+        </p>
+        <ol>
+          <li>
+              Karabiner設定: <code>escapeキー</code> -&gt; <code>deleteキー</code>
+          </li>
+          <li>
+              Karabiner設定: <code>deleteキー</code> -&gt; <code>spaceキー</code>
+          </li>
+        </ol>
+        <p>
+            <code>escapeキー</code>は<code>deleteキー</code>になります。（<code>space key</code>にはなりません。）
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="multitouchextension">
               マルチタッチ拡張
           </h1>
@@ -832,10 +939,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-22" tabindex="30022">
+<div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -851,10 +958,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               アプリケーションが立ち上がるのでDockからアイコンをクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
 </a>
-<div class="modal fade" id="lightbox-23" tabindex="30023">
+<div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 581px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -872,10 +979,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -886,10 +993,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -926,10 +1033,10 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
               設定の追加を「MenuBar」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 726px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -964,10 +1071,10 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1296,6 +1403,11 @@ Password: &lt;enter your password&gt;
               <li>
                 <a href="#implicit">
                   暗黙の挙動
+                </a>
+              </li>
+              <li>
+                <a href="#event-modification-chaining">
+                  入力イベントの変更の順番
                 </a>
               </li>
               <li class="nav-header">その他</li>

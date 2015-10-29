@@ -808,6 +808,211 @@
 
       <section>
         <div class="page-header">
+          <h1 id="event-modification-chaining">
+            {{#language_en}}
+              Input event modification chaining
+            {{/language_en}}
+            {{#language_ja}}
+              入力イベントの変更の順番
+            {{/language_ja}}
+          </h1>
+        </div>
+
+        <p>
+          {{#language_en}}
+            There are several ways to modify input events:
+          {{/language_en}}
+          {{#language_ja}}
+            入力イベントを変更する方法はいくつかあります。<br />
+          {{/language_ja}}
+        </p>
+        <ul>
+          <li>Karabiner</li>
+          <li>Seil: <a href="https://pqrs.org/osx/karabiner/seil.html">https://pqrs.org/osx/karabiner/seil.html</a></li>
+          <li>
+            <p>
+              {{#language_en}}
+                System Preferences &gt; Keyboard &gt; Modifier Keys...
+              {{/language_en}}
+              {{#language_ja}}
+                システム環境設定 &gt; キーボード &gt; 修飾キー...
+              {{/language_ja}}
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/event-modification-chaining-keyboard-preferences@2x.png keyboard preferences
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p>
+          {{#language_en}}
+            Input events will be changed by each manipulators by the following order:
+          {{/language_en}}
+          {{#language_ja}}
+            入力イベントは各々の方法で、次の順番で変更されます。
+          {{/language_ja}}
+        </p>
+
+        <ol>
+          <li>Seil</li>
+          <li>
+            {{#language_en}}
+              System Preferences &gt; Keyboard &gt; Modifier Keys...
+            {{/language_en}}
+            {{#language_ja}}
+              システム環境設定 &gt; キーボード &gt; 修飾キー...
+            {{/language_ja}}
+          </li>
+          <li>Karabiner</li>
+        </ol>
+
+        <h2>
+          {{#language_en}}
+            Example
+          {{/language_en}}
+          {{#language_ja}}
+            例
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            If the following modification is specified:
+          {{/language_en}}
+          {{#language_ja}}
+            もし以下の設定がされていた場合、
+          {{/language_ja}}
+        </p>
+        <ol>
+          <li>
+            {{#language_en}}
+              Seil setting: <code>command key</code> -&gt; <code>option key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Seil設定: <code>コマンドキー</code> -&gt; <code>オプションキー</code>
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              System Preferences: <code>option key</code> -&gt; <code>shift key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              システム環境設定: <code>オプションキー</code> -&gt; <code>シフトキー</code>
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Karabiner setting: <code>shift key</code> -&gt; <code>control key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Karabiner設定: <code>シフトキー</code> -&gt; <code>コントロールキー</code>
+            {{/language_ja}}
+          </li>
+        </ol>
+        <p>
+          {{#language_en}}
+            The physical <code>command key</code> will be changed to <code>control key</code>.
+          {{/language_en}}
+          {{#language_ja}}
+            <code>コマンドキー</code>は<code>コントロールキー</code>になります。
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            Example
+          {{/language_en}}
+          {{#language_ja}}
+            例
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Generic keys are changed by Seil and Karabiner.
+          {{/language_en}}
+          {{#language_ja}}
+            通常のキーはSeilとKarabinerで変更されます。
+          {{/language_ja}}
+        </p>
+        <ol>
+          <li>
+            {{#language_en}}
+              Seil setting: <code>escape key</code> -&gt; <code>tab key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Seil 設定: <code>escapeキー</code> -&gt; <code>tabキー</code>
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Karabiner setting: <code>tab key</code> -&gt; <code>delete key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Karabiner設定: <code>tabキー</code> -&gt; <code>deleteキー</code>
+            {{/language_ja}}
+          </li>
+        </ol>
+        <p>
+          {{#language_en}}
+            The physical <code>escape key</code> will be changed to <code>delete key</code> by Seil and Karabiner. <br />
+            The physical <code>tab key</code> will also be changed to <code>delete key</code> by Karabiner.
+          {{/language_en}}
+          {{#language_ja}}
+            <code>escapeキー</code>はSeilとKarabinerにより、<code>deleteキー</code>になります。<br />
+            <code>tabキー</code>もKarabinerにより、<code>deleteキー</code>になります。
+          {{/language_ja}}
+        </p>
+
+        <h2>
+          {{#language_en}}
+            Plural settings in Karabiner
+          {{/language_en}}
+          {{#language_ja}}
+            Karabinerにおける複数の設定
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Karabiner does not allow you to recursive event modification.<br />
+            If one setting is applied, other settings are ignored.
+          {{/language_en}}
+          {{#language_ja}}
+            Karabinerでは設定を再帰的に反映することは出来ません。<br />
+            一つの設定が反映された後は他の設定は無視されます。
+          {{/language_ja}}
+        </p>
+        <ol>
+          <li>
+            {{#language_en}}
+              Karabiner setting: <code>escape key</code> -&gt; <code>delete key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Karabiner設定: <code>escapeキー</code> -&gt; <code>deleteキー</code>
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Karabiner setting: <code>delete key</code> -&gt; <code>space key</code>
+            {{/language_en}}
+            {{#language_ja}}
+              Karabiner設定: <code>deleteキー</code> -&gt; <code>spaceキー</code>
+            {{/language_ja}}
+          </li>
+        </ol>
+        <p>
+          {{#language_en}}
+            <code>escape key</code> will be changed to <code>delete key</code>. (not <code>space key</code>)
+          {{/language_en}}
+          {{#language_ja}}
+            <code>escapeキー</code>は<code>deleteキー</code>になります。（<code>space key</code>にはなりません。）
+          {{/language_ja}}
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="multitouchextension">
             {{#language_en}}
               Multi-touch extension

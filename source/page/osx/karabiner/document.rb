@@ -88,6 +88,13 @@ class Document < KarabinerBase
        }
      },
      {
+       :href => '#event-modification-chaining',
+       :name_l10n => {
+         :en => 'Input event modification chaining',
+         :ja => '入力イベントの変更の順番',
+       }
+     },
+     {
        :name_l10n => {
          :en => 'Misc.',
          :ja => 'その他',
