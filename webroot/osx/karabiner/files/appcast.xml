@@ -7,6 +7,45 @@
     <language>en</language>
 
     <item>
+      <title>Version 10.13.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+
+<!-- RENAME_INFORMATION -->
+
+<h2>About v10.13.0 Update</h2>
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        "Overwrite the key repeat values of system" option has been added. <br />
+        Karabiner uses the system values unless this option is enabled.
+      </li>
+      <li>The key up event handling has been improved in some keyboards.</li>
+      <li>"Don't remap Apple's keyboards" setting supported Magic Keyboard.</li>
+      <li>Karabiner Preferences became resizable.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>__SimultaneousKeyPresses__ sometimes fails sending key up event when __BlockUntilKeyUp__ is used together.</li>
+    </ul>
+  </li>
+</ul>
+<a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+]]>
+      </description>
+      <pubDate>Mon, 02 Nov 2015 18:27:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.13.0.dmg"
+                 sparkle:version="10.13.0" length="4039891" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEcyy+mGHomY2CNMg1iRVKveyMcsAhR715NscgOioOqx3t8sea1kjQ1OWg=="
+                 />
+    </item>
+
+    <item>
       <title>Version 10.11.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
