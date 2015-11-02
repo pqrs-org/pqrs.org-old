@@ -1965,13 +1965,69 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
         <div class="page-header">
           <h1 id="autogen-syntax">autogen syntax</h1>
 
-          <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <h2>Basics</h2>
 
+          <ul>
+            <li>Case sensitive.</li>
+            <li>All white spaces are ignored.</li>
+          </ul>
 
           <h2 id="syntax-__KeyToKey__">__KeyToKey__</h2>
 
-          <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          __KeyToKey__ changes an event.
 
+          <pre>
+ &lt;autogen&gt;
+   __KeyToKey__
+   <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+   <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+   <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+   <code class="optional">TO_EVENT3</code>, <code class="optional">TO_MODIFIER3</code>,
+   ...
+ &lt;/autogen&gt;
+</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT</code></td>
+                <td>yes</td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td>no</td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1</code></td>
+                <td>yes</td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1</code></td>
+                <td>no</td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2</code></td>
+                <td>no</td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2</code></td>
+                <td>no</td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h2 id="syntax-__KeyOverlaidModifier__">__KeyOverlaidModifier__</h2>
 
@@ -1986,11 +2042,11 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
-          <h2 id="syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</h2>
+          <h2 id="syntax-__DoublePressModifier__">__DoublePressModifier__</h2>
 
           <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
-          <h2 id="syntax-__DoublePressModifier__">__DoublePressModifier__</h2>
+          <h2 id="syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</h2>
 
           <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
@@ -2047,6 +2103,10 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
           <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__ForceNumLockOn__">__ForceNumLockOn__</h2>
+
+          <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+
+          <h2 id="syntax-__ForceNumLockOn__">__ShowStatusMessage__</h2>
 
           <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.11.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
         </div>

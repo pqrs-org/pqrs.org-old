@@ -41,7 +41,14 @@ ol.steps a.thumbnail {
     top: 0;
     left: -1em;
 }
-
+code.required {
+    color: #c7254e;
+    background-color: #f9f2f4;
+}
+code.optional {
+    color: #254ec7;
+    background-color: #f2f4f9;
+}
 /* -------------------------------------------------- */
 /* for jquery.collapse.js */
 
