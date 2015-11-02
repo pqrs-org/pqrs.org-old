@@ -17,6 +17,59 @@ class History < KarabinerBase
   def histories
     data = [
             {
+              :version => '10.13.0',
+              :updated => '2015-11-02',
+              :link => 'files/Karabiner-10.13.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        "Overwrite the key repeat values of system" option has been added. <br />
+        Karabiner uses the system values unless this option is enabled.
+      </li>
+      <li>The key up event handling has been improved in some keyboards.</li>
+      <li>"Don't remap Apple's keyboards" setting supported Magic Keyboard.</li>
+      <li>Karabiner Preferences became resizable.</li>
+      <li>Prepared settings have been updated.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>__SimultaneousKeyPresses__ sometimes fails sending key up event when __BlockUntilKeyUp__ is used together.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>
+        「Overwrite the key repeat values of system」というオプションを加えました。<br />
+        この設定を有効にしない限り、Karabinerはシステム環境設定で指定されたキーリピート値を使います。
+      </li>
+      <li>いくつかのキーボードにおいて、キーアップイベントの扱いを改善しました。</li>
+      <li>「Don't remap Apple's keyboards」でMagic Keyboardをサポートしました。</li>
+      <li>設定画面をリサイズ可能にしました。</li>
+      <li>設定の追加・更新をしました。</li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>__SimultaneousKeyPresses__が__BlockUntilKeyUp__と同時に使われている際に、稀にキーアップイベントの送信を行わないことがある。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '10.11.0',
               :updated => '2015-10-10',
               :link => 'files/Karabiner-10.11.0.dmg',

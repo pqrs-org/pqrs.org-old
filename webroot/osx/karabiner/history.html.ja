@@ -121,6 +121,37 @@
       </h1>
     </div>
       <h2>
+        Version 10.13.0
+          <small>
+2015年11月2日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.13.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>
+        「Overwrite the key repeat values of system」というオプションを加えました。<br />
+        この設定を有効にしない限り、Karabinerはシステム環境設定で指定されたキーリピート値を使います。
+      </li>
+      <li>いくつかのキーボードにおいて、キーアップイベントの扱いを改善しました。</li>
+      <li>「Don't remap Apple's keyboards」でMagic Keyboardをサポートしました。</li>
+      <li>設定画面をリサイズ可能にしました。</li>
+      <li>設定の追加・更新をしました。</li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>__SimultaneousKeyPresses__が__BlockUntilKeyUp__と同時に使われている際に、稀にキーアップイベントの送信を行わないことがある。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.11.0
           <small>
 2015年10月10日          </small>
