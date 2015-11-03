@@ -225,23 +225,65 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
           </h1>
         </div>
         <p>
-            Karabinerは非常に細かくキーリピート速度を設定することが出来ます。
-            <br />
-            またOS Xの限界を越えてキーリピート速度を加速することも出来ます。
-        </p>
-        <p>
-            Key Repeatタブを開いて、Delay Until RepeatとKey Repeatの値を変更してください。
+            Karabinerは初期状態だとシステム環境設定で指定されたキーリピート値を用います。
         </p>
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/karabiner-keyrepeat@2x.png" alt="key repeat rate" />
+  <img src="img/repeat-default@2x.png" alt="key repeat rate" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/repeat-default@2x.png" alt="key repeat rate" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <p>
+            そのため、システム環境設定でキーリピート値の設定をしてください。
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-keyrepeat@2x.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <h2 id="keyrepeat-overwrite">
+            キーリピート値の上書き
+        </h2>
+
+        <p>
+            より高速なキーリピート値を使いたい場合、Karabinerでキーリピート値を上書きすることが出来ます。<br />
+            「Overwrite the key repeat values of system」を有効にして、パラメータを調整してください。
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -279,10 +321,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -306,10 +348,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
   <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -326,10 +368,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
   <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -391,10 +433,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
   <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 560px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -405,10 +447,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
 </div>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
   <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -434,10 +476,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             Change command key to control key in RDC.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
   <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -454,10 +496,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             Disable Close Tab shortcut (command-w) on Gmail.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
   <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
+<div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -474,10 +516,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             Use "hjkl" keys as arrow keys if you are not editing text.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
   <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" />
 </a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
+<div class="modal fade" id="lightbox-14" tabindex="30014">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -522,10 +564,10 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
 src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
   <img src="img/eventviewer@2x.png" alt="eventviewer" />
 </a>
-<div class="modal fade" id="lightbox-13" tabindex="30013">
+<div class="modal fade" id="lightbox-15" tabindex="30015">
   <div class="modal-dialog clickable" style="width: 929px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -554,10 +596,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               「Misc &amp; Uninstall」タブの「Open private.xml」を押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
   <img src="img/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
-<div class="modal fade" id="lightbox-14" tabindex="30014">
+<div class="modal fade" id="lightbox-16" tabindex="30016">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -573,10 +615,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Finderが開きます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
   <img src="img/karabiner-xml2@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-15" tabindex="30015">
+<div class="modal fade" id="lightbox-17" tabindex="30017">
   <div class="modal-dialog clickable" style="width: 812px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -592,10 +634,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               private.xmlをテキストエディタで開きます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
   <img src="img/karabiner-xml3@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-16" tabindex="30016">
+<div class="modal fade" id="lightbox-18" tabindex="30018">
   <div class="modal-dialog clickable" style="width: 809px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -611,10 +653,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               ファイルの中身を<a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.13.0/files/sample/private.xml">private.xml</a>の内容に変更します。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
   <img src="img/karabiner-xml4@2x.png" alt="textedit" />
 </a>
-<div class="modal fade" id="lightbox-17" tabindex="30017">
+<div class="modal fade" id="lightbox-19" tabindex="30019">
   <div class="modal-dialog clickable" style="width: 682px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -630,10 +672,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               「Change key」タブの「Reload XML」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
   <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
-<div class="modal fade" id="lightbox-18" tabindex="30018">
+<div class="modal fade" id="lightbox-20" tabindex="30020">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -649,10 +691,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               新しい設定が追加されました。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-21" class="thumbnail">
   <img src="img/karabiner-xml6@2x.png" alt="reloaded" />
 </a>
-<div class="modal fade" id="lightbox-19" tabindex="30019">
+<div class="modal fade" id="lightbox-21" tabindex="30021">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -691,10 +733,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
   <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
-<div class="modal fade" id="lightbox-20" tabindex="30020">
+<div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 702px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -720,10 +762,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 &lt;/root&gt;</pre>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-21" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
-<div class="modal fade" id="lightbox-21" tabindex="30021">
+<div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -822,10 +864,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </p>
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
 </a>
-<div class="modal fade" id="lightbox-22" tabindex="30022">
+<div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 477px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -939,10 +981,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-23" tabindex="30023">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -958,10 +1000,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               アプリケーションが立ち上がるのでDockからアイコンをクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 581px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -979,10 +1021,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.13.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -993,10 +1035,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
 </a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1033,10 +1075,10 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
               設定の追加を「MenuBar」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
   <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
+<div class="modal fade" id="lightbox-29" tabindex="30029">
   <div class="modal-dialog clickable" style="width: 726px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1071,10 +1113,10 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
   <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-28" tabindex="30028">
+<div class="modal fade" id="lightbox-30" tabindex="30030">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">

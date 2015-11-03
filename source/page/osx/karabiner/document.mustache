@@ -132,28 +132,61 @@
         </div>
         <p>
           {{#language_en}}
-            Karabiner provides very finely customization of key repeat rate.
-            <br />
-            You also can accelerate key repeat rate beyond the limits of OS X.
+            Karabiner uses the key repeat parameters in "System Preferences > Keyboard" in default.
           {{/language_en}}
           {{#language_ja}}
-            Karabinerは非常に細かくキーリピート速度を設定することが出来ます。
-            <br />
-            またOS Xの限界を越えてキーリピート速度を加速することも出来ます。
-          {{/language_ja}}
-        </p>
-        <p>
-          {{#language_en}}
-            Open "Key Repeat" tab and change "Delay Until Repeat" and "Key Repeat".
-          {{/language_en}}
-          {{#language_ja}}
-            Key Repeatタブを開いて、Delay Until RepeatとKey Repeatの値を変更してください。
+            Karabinerは初期状態だとシステム環境設定で指定されたキーリピート値を用います。
           {{/language_ja}}
         </p>
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-keyrepeat@2x.png key repeat rate
+              img/repeat-default@2x.png key repeat rate
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          {{#language_en}}
+            Therefore, please adjust key repeat rate in "System Preferences > Keyboard".
+          {{/language_en}}
+          {{#language_ja}}
+            そのため、システム環境設定でキーリピート値の設定をしてください。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/repeat-system-preferences@2x.png key repeat rate
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <h2 id="keyrepeat-overwrite">
+          {{#language_en}}
+            Overwrite the system key repeat rate.
+          {{/language_en}}
+          {{#language_ja}}
+            キーリピート値の上書き
+          {{/language_ja}}
+        </h2>
+
+        <p>
+          {{#language_en}}
+            If you want to use more rapid key repeat rate, you can overwrite the system key repeat rate in Karabiner. <br />
+            Enable "Overwrite the key repeat values of system" and then adjust parameters.
+          {{/language_en}}
+          {{#language_ja}}
+            より高速なキーリピート値を使いたい場合、Karabinerでキーリピート値を上書きすることが出来ます。<br />
+            「Overwrite the key repeat values of system」を有効にして、パラメータを調整してください。
+          {{/language_ja}}
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/repeat-overwrite@2x.png key repeat rate
             {{/lightbox}}
           </div>
         </div>
