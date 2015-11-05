@@ -26,7 +26,13 @@ class History < KarabinerBase
   <li>
     New functions and improvements:
     <ul>
-      <li>"Karabiner Preferences > Key Repeat tab" UI has been improved.</li>
+      <li>"Karabiner Preferences &gt; Key Repeat tab" UI has been improved.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The key repeat configuration migration sometimes does not set properly values when Karabiner has been upgrade from v10.11.0 or prior.</li>
     </ul>
   </li>
 </ul>
@@ -37,6 +43,12 @@ EOS
     新機能や改良:
     <ul>
       <li>設定画面のKey RepeatタブのUIを改善しました。</li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>Karabiner 10.11.0以前からアップグレードしたときに、キーリピートの設定の移行で適切な値が設定されないことがある。</li>
     </ul>
   </li>
 </ul>
