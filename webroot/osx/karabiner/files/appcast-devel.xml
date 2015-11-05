@@ -7,23 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.13.1</title>
+      <title>Version 10.13.2</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.13.1 Update</h2>
+<h2>About v10.13.2 Update</h2>
 <ul>
-  <li>Minor update.</li>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>"Karabiner Preferences > Key Repeat tab" UI has been improved.</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Wed, 04 Nov 2015 16:46:46 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.13.1.dmg"
-                 sparkle:version="10.13.1" length="4039972" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBkQm36GAumzq7RYmrpU2cisq5afAhR+J6i1KvZiFhlBLO8gpzOrUV3xuA=="
+      <pubDate>Thu, 05 Nov 2015 17:03:16 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.13.2.dmg"
+                 sparkle:version="10.13.2" length="4037043" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEPmRHhZvZHf2VmRIqsu9PCLrPXLAhQvCB2hmFb085s9mkR3nQE1EHbtUg=="
                  />
     </item>
 
