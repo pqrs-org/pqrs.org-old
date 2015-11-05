@@ -121,6 +121,24 @@
       </h1>
     </div>
       <h2>
+        Version 10.14.0
+          <small>
+Nov 5, 2015          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.14.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>"Karabiner Preferences > Key Repeat tab" UI has been improved.</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.13.0
           <small>
 Nov 2, 2015          </small>

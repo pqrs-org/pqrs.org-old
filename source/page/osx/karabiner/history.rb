@@ -16,12 +16,39 @@ class History < KarabinerBase
 
   def histories
     data = [
-            {
-              :version => '10.13.0',
-              :updated => '2015-11-02',
-              :link => 'files/Karabiner-10.13.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+      {
+        :version => '10.14.0',
+        :updated => '2015-11-05',
+        :link => 'files/Karabiner-10.14.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>"Karabiner Preferences > Key Repeat tab" UI has been improved.</li>
+    </ul>
+  </li>
+</ul>
+EOS
+          :ja => <<EOS,
+<ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>設定画面のKey RepeatタブのUIを改善しました。</li>
+    </ul>
+  </li>
+</ul>
+EOS
+        },
+      },
+      {
+        :version => '10.13.0',
+        :updated => '2015-11-02',
+        :link => 'files/Karabiner-10.13.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -44,7 +71,7 @@ class History < KarabinerBase
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     新機能や改良:
@@ -67,14 +94,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.11.0',
-              :updated => '2015-10-10',
-              :link => 'files/Karabiner-10.11.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.11.0',
+        :updated => '2015-10-10',
+        :link => 'files/Karabiner-10.11.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -85,7 +112,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     下記の問題を修正しました:
@@ -96,14 +123,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.10.0',
-              :updated => '2015-10-08',
-              :link => 'files/Karabiner-10.10.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.10.0',
+        :updated => '2015-10-08',
+        :link => 'files/Karabiner-10.10.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -135,7 +162,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     新機能や改良:
@@ -167,14 +194,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.9.0',
-              :updated => '2015-09-07',
-              :link => 'files/Karabiner-10.9.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.9.0',
+        :updated => '2015-09-07',
+        :link => 'files/Karabiner-10.9.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Incompatibility changes:
@@ -216,7 +243,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     互換性がない変更点:
@@ -258,14 +285,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.8.0',
-              :updated => '2015-08-24',
-              :link => 'files/Karabiner-10.8.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.8.0',
+        :updated => '2015-08-24',
+        :link => 'files/Karabiner-10.8.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -297,7 +324,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     新機能や改良:
@@ -329,14 +356,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.7.0',
-              :updated => '2015-08-10',
-              :link => 'files/Karabiner-10.7.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.7.0',
+        :updated => '2015-08-10',
+        :link => 'files/Karabiner-10.7.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Incompatibility changes:
@@ -392,7 +419,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     互換性がない変更点:
@@ -448,14 +475,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.6.0',
-              :updated => '2015-01-13',
-              :link => 'files/Karabiner-10.6.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.6.0',
+        :updated => '2015-01-13',
+        :link => 'files/Karabiner-10.6.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     A following prepared setting has been fixed.
@@ -467,7 +494,7 @@ EOS
   <li>Prepared settings have been updated.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     以下の設定を修正しました。
@@ -479,14 +506,14 @@ EOS
   <li>設定の追加・更新をしました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.5.0',
-              :updated => '2014-12-12',
-              :link => 'files/Karabiner-10.5.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.5.0',
+        :updated => '2014-12-12',
+        :link => 'files/Karabiner-10.5.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -516,7 +543,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     下記の問題を修正しました:
@@ -546,31 +573,31 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.4.0',
-              :updated => '2014-10-14',
-              :link => 'files/Karabiner-10.4.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.4.0',
+        :updated => '2014-10-14',
+        :link => 'files/Karabiner-10.4.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>A broken prepared setting has been fixed.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>正常に動作していない設定を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.3.0',
-              :updated => '2014-10-07',
-              :link => 'files/Karabiner-10.3.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.3.0',
+        :updated => '2014-10-07',
+        :link => 'files/Karabiner-10.3.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Stability at reloading XML has been improved.</li>
   <li>OS X 10.10 support has been improved.</li>
@@ -599,7 +626,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>XMLを再読込みする時の安定性を向上しました。</li>
   <li>OS X 10.10のサポートを改善しました。</li>
@@ -627,14 +654,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.2.0',
-              :updated => '2014-08-20',
-              :link => 'files/Karabiner-10.2.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.2.0',
+        :updated => '2014-08-20',
+        :link => 'files/Karabiner-10.2.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -656,7 +683,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     下記の問題を修正しました:
@@ -678,14 +705,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.1.0',
-              :updated => '2014-07-21',
-              :link => 'files/Karabiner-10.1.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.1.0',
+        :updated => '2014-07-21',
+        :link => 'files/Karabiner-10.1.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -705,7 +732,7 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     下記の問題を修正しました:
@@ -725,14 +752,14 @@ EOS
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '10.0.0',
-              :updated => '2014-07-09',
-              :link => 'files/Karabiner-10.0.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '10.0.0',
+        :updated => '2014-07-09',
+        :link => 'files/Karabiner-10.0.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>KeyRemap4MacBook has been renamed to "Karabiner".</li>
   <li>
@@ -835,7 +862,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>KeyRemap4MacBookはKarabinerという名前になりました。</li>
   <li>
@@ -938,14 +965,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '9.3.0',
-              :updated => '2014-02-15',
-              :link => 'files/KeyRemap4MacBook-9.3.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '9.3.0',
+        :updated => '2014-02-15',
+        :link => 'files/KeyRemap4MacBook-9.3.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Fixed an issue:
@@ -1001,7 +1028,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     下記の問題を修正しました:
@@ -1057,14 +1084,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '9.2.0',
-              :updated => '2013-11-29',
-              :link => 'files/KeyRemap4MacBook-9.2.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '9.2.0',
+        :updated => '2013-11-29',
+        :link => 'files/KeyRemap4MacBook-9.2.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
@@ -1079,7 +1106,7 @@ EOS
   <li>Updated some prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     KeyRemap4MacBookのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
@@ -1094,14 +1121,14 @@ EOS
   <li>いくつかの既存の設定を更新しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '9.0.0',
-              :updated => '2013-11-15',
-              :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '9.0.0',
+        :updated => '2013-11-15',
+        :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Optimized for OS X 10.9. <br />
     KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
@@ -1121,7 +1148,7 @@ EOS
   <li>Signed with Developer ID.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>OS X 10.9向けに最適化しました。<br />
     KeyRemap4MacBook 9.0.0はOS X 10.9以降でのみ動作します。</li>
@@ -1141,14 +1168,14 @@ EOS
   <li>Developer IDで署名しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '8.4.0',
-              :updated => '2013-09-23',
-              :link => 'files/KeyRemap4MacBook-8.4.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '8.4.0',
+        :updated => '2013-09-23',
+        :link => 'files/KeyRemap4MacBook-8.4.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
   <li>
@@ -1163,7 +1190,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>アイコンを改善しました。（Kouji TAMURAさんによる）</li>
   <li>
@@ -1178,54 +1205,54 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '8.3.0',
-              :updated => '2013-05-19',
-              :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '8.3.0',
+        :updated => '2013-05-19',
+        :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>OS Xの「調べる」機能（トラックパッドを3本指でタップ）が正常に動作しない問題を修正しました。</li>
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '8.2.0',
-              :updated => '2013-05-17',
-              :link => 'files/KeyRemap4MacBook-8.2.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '8.2.0',
+        :updated => '2013-05-17',
+        :link => 'files/KeyRemap4MacBook-8.2.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
   <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
   <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Adobe Fireworksでオブジェクトが選択できなくなる問題を修正しました。</li>
   <li>「General &gt; Don't remap XXX」が即座に反映されない問題を修正しました。</li>
   <li>control-ejectがOS X 10.7、10.6にて正常に動作しない問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '8.1.0',
-              :updated => '2013-05-12',
-              :link => 'files/KeyRemap4MacBook-8.1.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '8.1.0',
+        :updated => '2013-05-12',
+        :link => 'files/KeyRemap4MacBook-8.1.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Power button remapping has been supported. (Thanks to Peter Kamb who is the author of PowerKey.)</li>
   <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
@@ -1254,7 +1281,7 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>パワーボタンのリマッピングに対応しました。（PowerKeyの作者であるPeter Kambさんに感謝します。）</li>
   <li>「Quit KeyRemap4MacBook」をメニューバーに追加しました。</li>
@@ -1283,14 +1310,14 @@ EOS
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '8.0.0',
-              :updated => '2013-01-30',
-              :link => 'files/KeyRemap4MacBook-8.0.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '8.0.0',
+        :updated => '2013-01-30',
+        :link => 'files/KeyRemap4MacBook-8.0.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Preferences has been integrated into app.</li>
   <li>Integrated a status message indicator. (Removed Growl support.)</li>
@@ -1304,7 +1331,7 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>設定画面をアプリに統合しました。</li>
   <li>ステータス表示をアプリに統合しました。（Growlのサポートを辞めました。）</li>
@@ -1318,52 +1345,52 @@ EOS
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.8.0',
-              :updated => '2012-06-26',
-              :link => 'files/KeyRemap4MacBook-7.8.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.8.0',
+        :updated => '2012-06-26',
+        :link => 'files/KeyRemap4MacBook-7.8.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
   <li>Fixed an issue that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>「General &gt; Don't restore modifiers in the mouse event」が正しく動作しない問題を修正しました。</li>
   <li>private.xmlにおいて&lt;identifier&gt;に空白が含まれる場合に設定が有効にならない問題を修正しました。</li>
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.7.0',
-              :updated => '2012-05-09',
-              :link => 'files/KeyRemap4MacBook-7.7.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.7.0',
+        :updated => '2012-05-09',
+        :link => 'files/KeyRemap4MacBook-7.7.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
 <li>KeyRemap4MacBook-7.6.0における、日本語やいくつかの言語で入力ソースの検出がうまく出来ない問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.6.0',
-              :updated => '2012-05-08',
-              :link => 'files/KeyRemap4MacBook-7.6.0.dmg',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.6.0',
+        :updated => '2012-05-08',
+        :link => 'files/KeyRemap4MacBook-7.6.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Improved XML processing engine. (XML reloading is 2x faster.)</li>
   <li>Some minor improvements.</li>
@@ -1380,7 +1407,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>XMLの処理エンジンを改善しました。（XMLの再読み込みが2倍速くなりました。）</li>
   <li>いくつかの細かな改善を行ないました。</li>
@@ -1403,14 +1430,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.5.0',
-              :updated => '2011-11-02',
-              :link => 'files/KeyRemap4MacBook-7.5.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.5.0',
+        :updated => '2011-11-02',
+        :link => 'files/KeyRemap4MacBook-7.5.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Support Growl-1.3 on notifications.</li>
   <li>Some minor improvements.</li>
@@ -1433,7 +1460,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 
 <ul>
   <li>通知機能でGrowl-1.3に対応しました。</li>
@@ -1457,14 +1484,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.4.0',
-              :updated => '2011-08-23',
-              :link => 'files/KeyRemap4MacBook-7.4.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.4.0',
+        :updated => '2011-08-23',
+        :link => 'files/KeyRemap4MacBook-7.4.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Some improvements on Mac OS X 10.7 (Lion).</li>
   <li>
@@ -1491,7 +1518,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Mac OS X 10.7での動作を改善しました。</li>
   <li>
@@ -1518,14 +1545,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.3.0',
-              :updated => '2011-05-17',
-              :link => 'files/KeyRemap4MacBook-7.3.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.3.0',
+        :updated => '2011-05-17',
+        :link => 'files/KeyRemap4MacBook-7.3.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Improved stability when using Sticky Keys in Universal Access.</li>
   <li>Improved stability when using multi-touch extension together.</li>
@@ -1542,7 +1569,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>ユニバーサルアクセスの複合キーを使用している場合の安定性を改善しました。</li>
   <li>multi-touch extensionを使用している場合の安定性を改善しました。</li>
@@ -1559,14 +1586,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.2.0',
-              :updated => '2011-03-08',
-              :link => 'files/KeyRemap4MacBook-7.2.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.2.0',
+        :updated => '2011-03-08',
+        :link => 'files/KeyRemap4MacBook-7.2.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue that Growl notification did not work in specific environment.</li>
   <li>Fixed an issue that the default setting of checkForUpdate was "Nothing".</li>
@@ -1574,7 +1601,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Growl通知が一部の環境で動作しない問題を修正しました。</li>
   <li>ソフトウェアアップデートの初期設定値が「確認しない」になっていた問題を修正しました。</li>
@@ -1582,14 +1609,14 @@ EOS
   <li>約20種類の設定を加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.1.0',
-              :updated => '2011-02-22',
-              :link => 'files/KeyRemap4MacBook-7.1.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.1.0',
+        :updated => '2011-02-22',
+        :link => 'files/KeyRemap4MacBook-7.1.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac OS X.<br />
@@ -1616,7 +1643,7 @@ EOS
   </li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     Mac OS Xで使うことが出来なかったLogitech Number Padを使えるようにするための設定を追加しました。<br />
@@ -1660,14 +1687,14 @@ EOS
   </li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '7.0.0',
-              :updated => '2010-12-14',
-              :link => 'files/KeyRemap4MacBook-7.0.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '7.0.0',
+        :updated => '2010-12-14',
+        :link => 'files/KeyRemap4MacBook-7.0.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Now, you can add your original settings very very easily.<br />
@@ -1682,7 +1709,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     設定の追加方法が大幅に簡単になりました。<br />
@@ -1698,14 +1725,14 @@ EOS
   <li>約260種類の設定を加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.9.0',
-              :updated => '2010-09-14',
-              :link => 'files/KeyRemap4MacBook-6.9.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.9.0',
+        :updated => '2010-09-14',
+        :link => 'files/KeyRemap4MacBook-6.9.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Improved "Simultaneous Vi Mode" behavior. You can use Vi style navigation (hjkl) on all applications.</li>
   <li>Fixed a problem that a broken package may be generated depending on environment when we build a package from a source code.</li>
@@ -1714,7 +1741,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     親指シフト NICOLAをサポートしました。<br />
@@ -1730,14 +1757,14 @@ EOS
   <li>約130種類の設定を加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.8.0',
-              :updated => '2010-07-27',
-              :link => 'files/KeyRemap4MacBook-6.8.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.8.0',
+        :updated => '2010-07-27',
+        :link => 'files/KeyRemap4MacBook-6.8.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>
     Changed the default value of key repeat wait.<br />
@@ -1749,7 +1776,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     キーボードリピートのデフォルト値をMac OS Xのデフォルト値にあわせました。<br />
@@ -1761,31 +1788,31 @@ EOS
   <li>約160種類の設定を加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.7.0',
-              :updated => '2010-05-15',
-              :link => 'files/KeyRemap4MacBook-6.7.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.7.0',
+        :updated => '2010-05-15',
+        :link => 'files/KeyRemap4MacBook-6.7.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed the problem that a key and a mouse were not changed when we used KeyRemap4MacBook-6.6.0 with USB Overdrive.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>KeyRemap4MacBook-6.6.0とUSB Overdriveを同時に使ったときにキーやマウスが変更されない問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.6.0',
-              :updated => '2010-05-11',
-              :link => 'files/KeyRemap4MacBook-6.6.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.6.0',
+        :updated => '2010-05-11',
+        :link => 'files/KeyRemap4MacBook-6.6.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added a function to define effective setting only with a specific keyboard. For example, "Change Control_L to Command_L" only in Happy Hacking Keyboard.</li>
   <li>Added a function of "Simultaneous Key Presses" re-mapping.</li>
@@ -1794,7 +1821,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>特定のキーボードのみ有効な設定を定義することが出来るようになりました。例えばHappy Hacking KeyboardでのみControl_LをCommand_Lにするなど。</li>
   <li>同時押し（Simultaneous Key Presses）をサポートしました。例えばFとJを同時に押すとカーソルキー（下）に変換する設定を追加しました。</li>
@@ -1803,14 +1830,14 @@ EOS
   <li>約100種類の設定を加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.5.0',
-              :updated => '2010-03-16',
-              :link => 'files/KeyRemap4MacBook-6.5.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.5.0',
+        :updated => '2010-03-16',
+        :link => 'files/KeyRemap4MacBook-6.5.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added the key repeat feature to re-mapped functional keys (volume adjustment, etc),</li>
   <li>Added an Event Viewer application that could confirm a key event, a mouse event.</li>
@@ -1821,7 +1848,7 @@ EOS
   <li>Fixed some issues.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>リマップされた機能キー（音量調節など）でキーリピートするようにしました。</li>
   <li>キーイベント、マウスイベントを確認できるイベントビューアアプリを追加しました。</li>
@@ -1832,35 +1859,35 @@ EOS
   <li>その他、細かい問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.4.0',
-              :updated => '2010-01-21',
-              :link => 'files/KeyRemap4MacBook-6.4.0.pkg.zip',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.4.0',
+        :updated => '2010-01-21',
+        :link => 'files/KeyRemap4MacBook-6.4.0.pkg.zip',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Improved stability when using with the driver of the 3rd vender such as "Logitech Control Center".</li>
   <li>Fixed a mouse drag movement when convert a key into a mouse click.</li>
   <li>Improved Paralles Desktop support at the recognition of the application.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Logitech Control Centerなどのサードベンダのドライバと共に使用するときの安定性を向上しました。</li>
   <li>キーをマウスクリックに変換している場合にマウスドラッグがうまく動作しない不具合を修正しました。</li>
   <li>アプリケーションの認識においてParallelsデスクトップのサポートを強化しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.3.0',
-              :updated => '2010-01-05',
-              :link => 'files/KeyRemap4MacBook-6.3.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.3.0',
+        :updated => '2010-01-05',
+        :link => 'files/KeyRemap4MacBook-6.3.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Supported Fast User Switching.</li>
   <li>Added software update feature.</li>
@@ -1870,7 +1897,7 @@ EOS
   <li>Fixed some issues.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Fast User Switching（ログオフ無しでのユーザー切り替え）をサポートしました。</li>
   <li>ソフトウェアアップデート機能を追加しました。</li>
@@ -1881,38 +1908,38 @@ EOS
   <li>その他、細かい問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.2.0',
-              :updated => '2009-11-12',
-              :link => 'files/KeyRemap4MacBook-6.2.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.2.0',
+        :updated => '2009-11-12',
+        :link => 'files/KeyRemap4MacBook-6.2.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed the issue that the server process crashes in English environment.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>サーバプロセスが英語環境でクラッシュする問題を修正しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.1.0',
-              :updated => '2009-11-11',
-              :link => 'files/KeyRemap4MacBook-6.1.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.1.0',
+        :updated => '2009-11-11',
+        :link => 'files/KeyRemap4MacBook-6.1.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Changed to enable the remapping of the third vendor's devices by default.</li>
   <li>Fixed the memory leak of the server process.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>標準でサードベンダーのデバイスのリマッピングを有効にしました。</li>
   <li>サーバプロセスのメモリーリークを修正しました。</li>
@@ -1920,14 +1947,14 @@ EOS
   <li>60種類以上のリマッピングを追加しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '6.0.0',
-              :updated => '2009-10-08',
-              :link => 'files/KeyRemap4MacBook-6.0.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '6.0.0',
+        :updated => '2009-10-08',
+        :link => 'files/KeyRemap4MacBook-6.0.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Stable release for Snow Leopard.</li>
   <li>Fixed the third vendor's keyboard/mouse handling.</li>
@@ -1941,7 +1968,7 @@ EOS
   <li>Misc changes.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Snow Leopard用の安定版です。</li>
   <li>サードベンダーの独自ドライバを使用するキーボード・マウスの扱いを改善しました。</li>
@@ -1955,14 +1982,14 @@ EOS
   <li>その他、リマッピングの追加など。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '5.1.0',
-              :updated => '2008-05-26',
-              :link => 'files/KeyRemap4MacBook-5.1.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '5.1.0',
+        :updated => '2008-05-26',
+        :link => 'files/KeyRemap4MacBook-5.1.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed the kernel panic after returning from hibernation.</li>
   <li>Fixed the kernel panic when all keyboard are detached on iMac.</li>
@@ -1971,7 +1998,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>ハイバネーションからの復帰の際のカーネルパニックを修正しました。</li>
   <li>iMacで全てのキーボードが取り外された際のカーネルパニックを修正しました。</li>
@@ -1979,14 +2006,14 @@ EOS
   <li>アンインストーラを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '5.0.0',
-              :updated => '2008-05-07',
-              :link => 'files/KeyRemap4MacBook-5.0.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '5.0.0',
+        :updated => '2008-05-07',
+        :link => 'files/KeyRemap4MacBook-5.0.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added the multi-user support.</li>
   <li>Added the multiple settings per user.</li>
@@ -1995,7 +2022,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>マルチユーザーに対応しました。</li>
   <li>複数の設定を使いわけることが出来るようになりました。</li>
@@ -2005,14 +2032,14 @@ EOS
 </ul>
 
 EOS
-              },
-            },
-            {
-              :version => '4.0.0',
-              :updated => '2008-04-02',
-              :link => 'files/KeyRemap4MacBook-4.0.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '4.0.0',
+        :updated => '2008-04-02',
+        :link => 'files/KeyRemap4MacBook-4.0.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed an issue which disable any remappings when you logged out.</li>
   <li>Added the feature to enable remapping for only inside keyboard or an outside keyboard.</li>
@@ -2021,7 +2048,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>ログアウトをするとリマップが効かなくなる問題を修正しました。</li>
   <li>内蔵キーボード、もしくは外付けキーボードのみリマップを有効にする機能を加えました。</li>
@@ -2030,14 +2057,14 @@ EOS
   <li>新たに50近くのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '3.2.0',
-              :updated => '2008-02-29',
-              :link => 'files/KeyRemap4MacBook-3.2.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '3.2.0',
+        :updated => '2008-02-29',
+        :link => 'files/KeyRemap4MacBook-3.2.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added an existence check of DoubleCommand to installer. If DoubleCommand has already installed, the installation will be aborted.</li>
   <li>Support PowerBook G4 &amp; iBook.</li>
@@ -2046,7 +2073,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>
     DoubleCommandが既にインストールされているかどうかインストーラでチェックするようにしました。
@@ -2058,35 +2085,35 @@ EOS
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '3.1.0',
-              :updated => '2008-02-18',
-              :link => 'files/KeyRemap4MacBook-3.1.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '3.1.0',
+        :updated => '2008-02-18',
+        :link => 'files/KeyRemap4MacBook-3.1.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Correct the key repeat behavior.</li>
   <li>Fixed a minor PreferencePane issue.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>キーリピートの挙動を修正しました。</li>
   <li>システム環境設定の細かい問題を修正しました。</li>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '3.0.0',
-              :updated => '2008-02-04',
-              :link => 'files/KeyRemap4MacBook-3.0.0.pkg.tar.gz',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '3.0.0',
+        :updated => '2008-02-04',
+        :link => 'files/KeyRemap4MacBook-3.0.0.pkg.tar.gz',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added PreferencePane. Now, you can configure by System Preferences.</li>
   <li>Added Key Repeat feature.</li>
@@ -2095,7 +2122,7 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>システム環境設定から設定が出来るようになりました。</li>
   <li>キーリピート処理を自前で行うようにしました。</li>
@@ -2104,181 +2131,181 @@ EOS
   <li>新しくいくつかのリマッピングを加えました。また廃れたリマッピングは削除しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '2.3.0',
-              :updated => '2007-12-15',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '2.3.0',
+        :updated => '2007-12-15',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed the issue around arrow keys and delete key when remap.fn2* is enable.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>fnキーを動作を変更したときのカーソルキーやDeleteキーの動作を適切な形に修正しました。</li>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '2.2.0',
-              :updated => '2007-11-29',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '2.2.0',
+        :updated => '2007-11-29',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Fixed the issue around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
   <li>Support PowerBook enter key.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>キーをモディファイアに変換する部分の問題を修正しました。</li>
   <li>PowerBookのenterキーをサポートしました。</li>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '2.1.0',
-              :updated => '2007-11-15',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '2.1.0',
+        :updated => '2007-11-15',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '2.0.0',
-              :updated => '2007-11-01',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '2.0.0',
+        :updated => '2007-11-01',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Added support for Leopard.</li>
   <li>Added support for PowerBook restrictively.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Leopardをサポートしました。</li>
   <li>限定的ですがPowerBookに対応しました。</li>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.5.0',
-              :updated => '2007-10-10',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.5.0',
+        :updated => '2007-10-10',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.4.0',
-              :updated => '2007-09-09',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.4.0',
+        :updated => '2007-09-09',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.3.0',
-              :updated => '2007-08-15',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.3.0',
+        :updated => '2007-08-15',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Updated StartupScript.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>スタートアップスクリプトを更新しました。</li>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.2.0',
-              :updated => '2007-06-10',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.2.0',
+        :updated => '2007-06-10',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>いくつかのリマッピングを加えました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.0.2',
-              :updated => '2007-02-05',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.0.2',
+        :updated => '2007-02-05',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Universal Binary.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>Universal Binary化しました。</li>
 </ul>
 EOS
-              },
-            },
-            {
-              :version => '1.0.1',
-              :updated => '2006-10-09',
-              :body_l10n => {
-                :en => <<EOS,
+        },
+      },
+      {
+        :version => '1.0.1',
+        :updated => '2006-10-09',
+        :body_l10n => {
+          :en => <<EOS,
 <ul>
   <li>Initial release.</li>
 </ul>
 EOS
-                :ja => <<EOS,
+          :ja => <<EOS,
 <ul>
   <li>最初のリリース。</li>
 </ul>
 EOS
-              },
-            },
-           ]
+        },
+      },
+    ]
     set_l10n_text(data)
   end
 end

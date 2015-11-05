@@ -121,6 +121,24 @@
       </h1>
     </div>
       <h2>
+        Version 10.14.0
+          <small>
+2015年11月5日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.14.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>設定画面のKey RepeatタブのUIを改善しました。</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.13.0
           <small>
 2015年11月2日          </small>
