@@ -18,7 +18,13 @@
   <li>
     New functions and improvements:
     <ul>
-      <li>"Karabiner Preferences > Key Repeat tab" UI has been improved.</li>
+      <li>"Karabiner Preferences &gt; Key Repeat tab" UI has been improved.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>The key repeat configuration migration sometimes does not set properly values when Karabiner has been upgrade from v10.11.0 or prior.</li>
     </ul>
   </li>
 </ul>
