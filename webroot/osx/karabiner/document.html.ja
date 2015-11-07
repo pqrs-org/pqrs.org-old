@@ -352,7 +352,7 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
   <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
@@ -372,7 +372,7 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
   <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
