@@ -1974,17 +1974,36 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="syntax-__KeyToKey__">__KeyToKey__</h2>
 
-          __KeyToKey__ changes an event.
+          <p>
+            __KeyToKey__ changes an event.
+          </p>
+
+          <h3>Example</h3>
+
+<pre class="prettyprint lang-xml">&lt;!-- change left shift+; to ; --&gt;
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::SEMICOLON, ModifierFlag::SHIFT_L | ModifierFlag::NONE,
+  KeyCode::SEMICOLON,
+&lt;/autogen&gt;
+
+&lt;!-- change ; to shift+; --&gt;
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::SEMICOLON,
+  KeyCode::SEMICOLON, ModifierFlag::SHIFT_L,
+&lt;/autogen&gt;</pre>
+          <h3>Syntax</h3>
 
           <pre>
- &lt;autogen&gt;
-   __KeyToKey__
-   <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
-   <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
-   <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
-   <code class="optional">TO_EVENT3</code>, <code class="optional">TO_MODIFIER3</code>,
-   ...
- &lt;/autogen&gt;
+&lt;autogen&gt;
+  __KeyToKey__
+  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+  <code class="optional">TO_EVENT3</code>, <code class="optional">TO_MODIFIER3</code>,
+  ...
+&lt;/autogen&gt;
 </pre>
 
           <table class="table">
@@ -1996,32 +2015,32 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               </tr>
               <tr>
                 <td><code class="required">FROM_EVENT</code></td>
-                <td>yes</td>
+                <td><code class="required">yes</code></td>
                 <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
               </tr>
               <tr>
                 <td><code class="optional">FROM_MODIFIER</code></td>
-                <td>no</td>
+                <td><code class="optional">no</code></td>
                 <td>the target modifier: ModifierFlag(s)</td>
               </tr>
               <tr>
                 <td><code class="required">TO_EVENT1</code></td>
-                <td>yes</td>
+                <td><code class="required">yes</code></td>
                 <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
               </tr>
               <tr>
                 <td><code class="optional">TO_MODIFIER1</code></td>
-                <td>no</td>
+                <td><code class="optional">no</code></td>
                 <td>to modifier: ModifierFlag(s)</td>
               </tr>
               <tr>
                 <td><code class="optional">TO_EVENT2</code></td>
-                <td>no</td>
+                <td><code class="optional">no</code></td>
                 <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
               </tr>
               <tr>
                 <td><code class="optional">TO_MODIFIER2</code></td>
-                <td>no</td>
+                <td><code class="optional">no</code></td>
                 <td>to modifier: ModifierFlag(s)</td>
               </tr>
             </tbody>
@@ -2031,8 +2050,94 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="syntax-__KeyOverlaidModifier__">__KeyOverlaidModifier__</h2>
 
-          <p>Not yet available. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __KeyOverlaidModifier__ changes an event and send additional events when key is pressed alone.
+          </p>
 
+          <h3>Example</h3>
+
+<pre class="prettyprint lang-xml">&lt;!-- change left command to control, send command+space when left command is pressed alone. --&gt;
+&lt;autogen&gt;
+  __KeyOverlaidModifier__
+  KeyCode::COMMAND_L,
+  KeyCode::CONTROL_L,
+  KeyCode::SPACE, ModifierFlag::COMMAND_L,
+&lt;/autogen&gt;</pre>
+          <h3>Syntax</h3>
+
+          <pre>
+&lt;autogen&gt;
+  __KeyOverlaidModifier__
+  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+  <code class="required">TO_EVENT</code>, <code class="optional">TO_MODIFIER</code>,
+  <code class="required">ADDITIONAL_EVENT</code>, <code class="optional">ADDITIONAL_MODIFIER</code>,
+&lt;/autogen&gt;
+</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">ADDITIONAL_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>an additional event when key is pressed alone: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">ADDITIONAL_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>modifier for additional event: ModifierFlag(s)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Use @begin and @end if TO_EVENT or ADDITIONAL_EVENT are more than one event.
+          </p>
+
+          <pre>
+&lt;autogen&gt;
+  __KeyOverlaidModifier__
+  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+
+  @begin
+  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+  <code class="required">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+  ...
+  @end
+
+  @begin
+  <code class="required">ADDITIONAL_EVENT1</code>, <code class="optional">ADDITIONAL_EVENT_MODIFIER1</code>,
+  <code class="required">ADDITIONAL_EVENT2</code>, <code class="optional">ADDITIONAL_EVENT_MODIFIER2</code>,
+  ...
+  @end
+&lt;/autogen&gt;
+</pre>
+
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h2 id="syntax-__HoldingKeyToKey__">__HoldingKeyToKey__</h2>
 
