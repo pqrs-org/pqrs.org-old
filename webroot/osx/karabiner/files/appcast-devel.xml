@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.14.3</title>
+      <title>Version 10.14.4</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.14.3 Update</h2>
+<h2>About v10.14.4 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -31,10 +31,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Sat, 07 Nov 2015 13:36:14 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.3.dmg"
-                 sparkle:version="10.14.3" length="4037458" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAn2H1J5F6EQIAFziSmR15kz3AS0AhRcU9r5rtkIZ2eiMG3vm+oo9CtJZg=="
+      <pubDate>Tue, 10 Nov 2015 08:57:01 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.4.dmg"
+                 sparkle:version="10.14.4" length="4037490" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGnNVXbCu7N5NhG8xGp015w54ykqAhQGnF0IiTAiGRbugngzGkyiXjMYgw=="
                  />
     </item>
 
