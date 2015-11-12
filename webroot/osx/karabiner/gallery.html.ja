@@ -458,7 +458,7 @@
         </div>
 
         <p>
-            「Key Repeat」タブから閾値を調整できます。
+            Parametersタブから閾値を調整できます。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -466,7 +466,7 @@
   <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" style="width: 100%" />
