@@ -2003,12 +2003,12 @@
               <tr>
                 <td><code class="optional">TO_EVENT2</code></td>
                 <td><code class="optional">no</code></td>
-                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+                <td>same as above</td>
               </tr>
               <tr>
                 <td><code class="optional">TO_MODIFIER2</code></td>
                 <td><code class="optional">no</code></td>
-                <td>to modifier: ModifierFlag(s)</td>
+                <td>same as above</td>
               </tr>
             </tbody>
           </table>
@@ -2102,13 +2102,13 @@
             |
             |  @begin
             |  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
-            |  <code class="required">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+            |  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
             |  ...
             |  @end
             |
             |  @begin
             |  <code class="required">ADDITIONAL_EVENT1</code>, <code class="optional">ADDITIONAL_EVENT_MODIFIER1</code>,
-            |  <code class="required">ADDITIONAL_EVENT2</code>, <code class="optional">ADDITIONAL_EVENT_MODIFIER2</code>,
+            |  <code class="optional">ADDITIONAL_EVENT2</code>, <code class="optional">ADDITIONAL_EVENT_MODIFIER2</code>,
             |  ...
             |  @end
             |&lt;/autogen&gt;
@@ -2122,6 +2122,140 @@
 
           {{! ============================================================ }}
           <h2 id="syntax-__HoldingKeyToKey__">__HoldingKeyToKey__</h2>
+
+          <p>
+            __HoldingKeyToKey__ changes an event when you press and hold a key.
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<!-- send command-w when the escape key is pressed and held down. -->
+            |<autogen>
+            |  __HoldingKeyToKey__
+            |  KeyCode::ESCAPE, ModifierFlag::NONE,
+            |
+            |  <!-- short press -->
+            |  @begin
+            |  KeyCode::ESCAPE,
+            |  @end
+            |
+            |  <!-- hold press -->
+            |  @begin
+            |  KeyCode::W, ModifierFlag::COMMAND_L,
+            |  @end
+            |
+            |  Option::NOREPEAT,
+            |</autogen>
+          {{/indented_xml}}
+
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __HoldingKeyToKey__
+            |  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+            |
+            |  @begin
+            |  <code class="required">TO_EVENT1(short)</code>, <code class="optional">TO_MODIFIER1(short)</code>,
+            |  <code class="optional">TO_EVENT2(short)</code>, <code class="optional">TO_MODIFIER2(short)</code>,
+            |  ...
+            |  @end
+            |
+            |  @begin
+            |  <code class="required">TO_EVENT1(hold)</code>, <code class="optional">TO_MODIFIER1(hold)</code>,
+            |  <code class="optional">TO_EVENT2(hold)</code>, <code class="optional">TO_MODIFIER2(hold)</code>,
+            |  ...
+            |  @end
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1(short)</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event when you release the key immediately: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1(short)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2(short)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2(short)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1(hold)</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event when you hold the key: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1(hold)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2(hold)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2(hold)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Old form</h3>
+
+          <p>
+            <code>KeyCode::VK_NONE</code> will be a separator if <code>@begin</code> and <code>@end</code> are not used.
+          </p>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __HoldingKeyToKey__
+            |  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+            |
+            |  <code class="required">TO_EVENT1(short)</code>, <code class="optional">TO_MODIFIER1(short)</code>,
+            |  <code class="optional">TO_EVENT2(short)</code>, <code class="optional">TO_MODIFIER2(short)</code>,
+            |  ...
+            |
+            |  KeyCode::VK_NONE,
+            |
+            |  <code class="required">TO_EVENT1(hold)</code>, <code class="optional">TO_MODIFIER1(hold)</code>,
+            |  <code class="optional">TO_EVENT2(hold)</code>, <code class="optional">TO_MODIFIER2(hold)</code>,
+            |  ...
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <h3>Option</h3>
 
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
