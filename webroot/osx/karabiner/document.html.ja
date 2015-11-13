@@ -206,7 +206,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
   <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 725px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" style="width: 100%" />
