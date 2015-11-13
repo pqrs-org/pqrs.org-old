@@ -790,14 +790,6 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         </p>
 
         <h2>
-            キーリピート速度を上書きします
-        </h2>
-        <p>
-            Karabinerはキーリピート速度を上書きします。<br />
-            <a href="#keyrepeat">設定から速度を調整してください。</a>
-        </p>
-
-        <h2>
             接続されている全てのキーボードで修飾キーの状態を共有します
         </h2>
         <p>

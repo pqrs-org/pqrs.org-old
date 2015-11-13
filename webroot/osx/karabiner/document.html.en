@@ -792,14 +792,6 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         </p>
 
         <h2>
-            Overwrite keyboard repeat rate:
-        </h2>
-        <p>
-            Karabiner overwrites keyboard repeat rate.<br />
-            <a href="#keyrepeat">Please adjust from Preferences.</a>
-        </p>
-
-        <h2>
             Share state of modifier keys with all connected keyboards:
         </h2>
         <p>
