@@ -1972,6 +1972,32 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             <li>All white spaces are ignored.</li>
           </ul>
 
+          <h3>Commands</h3>
+
+          <ul>
+            <li><a href="#syntax-__KeyToKey__">__KeyToKey__</a></li>
+            <li><a href="#syntax-__KeyOverlaidModifier__">__KeyOverlaidModifier__</a></li>
+            <li><a href="#syntax-__HoldingKeyToKey__">__HoldingKeyToKey__</a></li>
+            <li><a href="#syntax-__SimultaneousKeyPresses__">__SimultaneousKeyPresses__</a></li>
+            <li><a href="#syntax-__DoublePressModifier__">__DoublePressModifier__</a></li>
+            <li><a href="#syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</a></li>
+            <li><a href="#syntax-__KeyDownUpToKey__">__KeyDownUpToKey__</a></li>
+            <li><a href="#syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</a></li>
+            <li><a href="#syntax-__DropAllKeys__">__DropAllKeys__</a></li>
+            <li><a href="#syntax-__DropPointingRelativeCursorMove__">__DropPointingRelativeCursorMove__</a></li>
+            <li><a href="#syntax-__DropScrollWheel__">__DropScrollWheel__</a></li>
+            <li><a href="#syntax-__FlipPointingRelative__">__FlipPointingRelative__</a></li>
+            <li><a href="#syntax-__FlipScrollWheel__">__FlipScrollWheel__</a></li>
+            <li><a href="#syntax-__IgnoreMultipleSameKeyPress__">__IgnoreMultipleSameKeyPress__</a></li>
+            <li><a href="#syntax-__StripModifierFromScrollWheel__">__StripModifierFromScrollWheel__</a></li>
+            <li><a href="#syntax-__ScrollWheelToScrollWheel__">__ScrollWheelToScrollWheel__</a></li>
+            <li><a href="#syntax-__ScrollWheelToKey__">__ScrollWheelToKey__</a></li>
+            <li><a href="#syntax-__PointingRelativeToScroll__">__PointingRelativeToScroll__</a></li>
+            <li><a href="#syntax-__PointingRelativeToKey__">__PointingRelativeToKey__</a></li>
+            <li><a href="#syntax-__ForceNumLockOn__">__ForceNumLockOn__</a></li>
+            <li><a href="#syntax-__ForceNumLockOn__">__ShowStatusMessage__</a></li>
+          </ul>
+
           <hr />
 
           <h2 id="syntax-__KeyToKey__">__KeyToKey__</h2>
@@ -2366,7 +2392,32 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
         <div class="page-header">
           <h1 id="filter-syntax">filters</h1>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <h2>Basics</h2>
+
+          <ul>
+            <li>Case sensitive.</li>
+            <li>All white spaces are ignored.</li>
+          </ul>
+
+          <h3>Filters</h3>
+
+          <ul>
+            <li><a href="#filter-syntax-application">application</a></li>
+            <li><a href="#filter-syntax-window-name">window name</a></li>
+            <li><a href="#filter-syntax-UIElementRole">UIElementRole</a></li>
+            <li><a href="#filter-syntax-device">device</a></li>
+            <li><a href="#filter-syntax-config">config</a></li>
+            <li><a href="#filter-syntax-input-source">input source</a></li>
+            <li><a href="#filter-syntax-modifier">modifier</a></li>
+            <li><a href="#filter-syntax-modifier-lock">modifier lock</a></li>
+            <li><a href="#filter-syntax-modifier-sticky">sticky modifier state</a></li>
+            <li><a href="#filter-syntax-last-pressed-physical-key">last pressed physical key</a></li>
+            <li><a href="#filter-syntax-last-released-physical-key">last released physical key</a></li>
+            <li><a href="#filter-syntax-elapsed-time-since-last-pressed">elapsed time since last pressed</a></li>
+            <li><a href="#filter-syntax-elapsed-time-since-last-released">elapsed time since last released</a></li>
+            <li><a href="#filter-syntax-pressing-physical-keys-count">pressing physical keys count</a></li>
+            <li><a href="#filter-syntax-last-sent-event">last sent event</a></li>
+          </ul>
 
           <h2 id="filter-syntax-application">application</h2>
 
