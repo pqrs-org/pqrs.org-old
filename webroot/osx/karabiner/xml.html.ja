@@ -2441,6 +2441,10 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             __DoublePressModifier__ changes an event and send additional events when key is pressed twice.
           </p>
 
+          <h3>Note</h3>
+          There is more flexible solution.<br />
+          Please consider using <code>__KeyToKey__</code> with <code>Option::KEYTOKEY_DELAYED_ACTION</code>.
+
           <h3>Example</h3>
 
 <pre class="prettyprint lang-xml">&lt;!-- change left command to control, send command+space when left command is pressed twice. --&gt;
