@@ -2381,7 +2381,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               </tr>
               <tr>
                 <td><code class="optional">TO_EVENT2</code></td>
-                <td><code class="optional">yes</code></td>
+                <td><code class="optional">no</code></td>
                 <td>same as above</td>
               </tr>
               <tr>
