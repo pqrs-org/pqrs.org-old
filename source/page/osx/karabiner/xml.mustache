@@ -2285,10 +2285,116 @@
 
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
+          <hr />
+
           {{! ============================================================ }}
           <h2 id="syntax-__SimultaneousKeyPresses__">__SimultaneousKeyPresses__</h2>
 
+          <p>
+            __SimultaneousKeyPresses__ changes events which were pressed simultaneously.
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<!-- enter () when 9 and 0 keys are pressed simultaneously. -->
+            |<autogen>
+            |  __SimultaneousKeyPresses__
+            |  KeyCode::KEY_9, KeyCode::KEY_0,
+            |
+            |  KeyCode::KEY_9, ModifierFlag::SHIFT_L,
+            |  KeyCode::KEY_0, ModifierFlag::SHIFT_L,
+            |  KeyCode::CURSOR_LEFT,
+            |</autogen>
+          {{/indented_xml}}
+
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __SimultaneousKeyPresses__
+            |  <code class="required">FROM_EVENT1</code>, <code class="required">FROM_EVENT2</code>, <code class="optional">FROM_MODIFIER</code>,
+            |  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+            |  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+            |  ...
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT1</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT2</code></td>
+                <td><code class="required">yes</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2</code></td>
+                <td><code class="optional">yes</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Use @begin and @end if FROM_EVENT are more than two.
+          </p>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __SimultaneousKeyPresses__
+            |  @begin
+            |  <code class="required">FROM_EVENT1</code>,
+            |  <code class="required">FROM_EVENT2</code>,
+            |  <code class="optional">FROM_EVENT3</code>,
+            |  ...
+            |  <code class="optional">FROM_MODIFIER</code>,
+            |  @end
+            |
+            |  @begin
+            |  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+            |  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+            |  ...
+            |  @end
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <h3>Option</h3>
+
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+
+          <hr />
 
           {{! ============================================================ }}
           <h2 id="syntax-__DoublePressModifier__">__DoublePressModifier__</h2>
