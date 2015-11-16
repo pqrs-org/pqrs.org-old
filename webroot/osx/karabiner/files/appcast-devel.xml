@@ -7,18 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.14.8</title>
+      <title>Version 10.14.9</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.14.8 Update</h2>
+<h2>About v10.14.9 Update</h2>
 <ul>
   <li>
     New functions and improvements:
     <ul>
       <li>Prepared settings have been updated.</li>
+      <li>
+        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+        <ul>
+          <li>Razer DeathAdder Chroma has been supported.</li>
+        </ul>
+      </li>
       <li>
         Updates for people who add new settings by oneself:
         <ul>
@@ -31,10 +37,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Fri, 13 Nov 2015 17:15:07 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.8.dmg"
-                 sparkle:version="10.14.8" length="4037473" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFG0perVJ+3EG2eCg+5lVbe5h7kecAhQd4dDpuiU91fPT8hjZJKkheNynig=="
+      <pubDate>Mon, 16 Nov 2015 07:10:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.9.dmg"
+                 sparkle:version="10.14.9" length="4037596" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBSEyKnjvJSzMYTqGh4hMBtUjYi3AhRPjXQKefxiPzL1Q3845CBZpeIEMQ=="
                  />
     </item>
 
