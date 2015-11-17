@@ -2260,7 +2260,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   KeyCode::ESCAPE,
   @end
 
-  &lt;!-- hold press --&gt;
+  &lt;!-- hold --&gt;
   @begin
   KeyCode::W, ModifierFlag::COMMAND_L,
   @end
@@ -2381,7 +2381,18 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <p>Karabiner Preferences &gt; Parameters tab</p>
 
-          <p>Not yet documented.</p>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td>Holding Key to Key &gt; Holding Threshold</td>
+                <td>Threshold of hold.</td>
+              </tr>
+            </tbody>
+          </table>
 
           <hr />
 
@@ -2493,7 +2504,28 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <p>Karabiner Preferences &gt; Parameters tab</p>
 
-          <p>Not yet documented.</p>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td>Simultaneous Key Presses &gt; Delay Threshold of Key</td>
+                <td>
+                  __SimultaneousKeyPresses__ delays all events in order to cancel simultaneous pressed events.<br />
+                  This value is delay for key events.
+                </td>
+              </tr>
+              <tr>
+                <td>Simultaneous Key Presses &gt; Delay Threshold of PointingButton</td>
+                <td>
+                  Same as above.<br />
+                  This value is delay for pointing button events.
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
           <hr />
 
@@ -2613,7 +2645,20 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <p>Karabiner Preferences &gt; Parameters tab</p>
 
-          <p>Not yet documented.</p>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td>Double Press Modifier &gt; Recognition Threshold</td>
+                <td>
+                  __DoublePressModifier__ sends ADDITIONAL_EVENT when FROM_EVENT is pressed twice in this period.
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
           <hr />
 
