@@ -2664,7 +2664,97 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __BlockUntilKeyUp__ delays all key down events while the target key is pressed.<br />
+            It's designed to use with __KeyOverlaidModifier__.
+          </p>
+
+          <h3>Example</h3>
+
+<pre class="prettyprint lang-xml">&lt;!-- Delay all key down events while the space key is pressed. --&gt;
+
+&lt;!-- * Input:  Space down, T down, Space up, T up --&gt;
+&lt;!-- * Output: Space down, Space up, T down, T up --&gt;
+
+
+&lt;!-- Send events if key is released. --&gt;
+
+&lt;!-- * Input:  Space down, T down, T up, Space up --&gt;
+&lt;!-- * Output: Space down, T down, T up, Space up --&gt;
+
+&lt;autogen&gt;__BlockUntilKeyUp__ KeyCode::SPACE&lt;/autogen&gt;</pre>          <br />
+
+          <p>Example with __KeyOverlaidModifier__:</p>
+
+<pre class="prettyprint lang-xml">&lt;!-- Change the space key to shift key if another key is pressed and released while the space key is pressed. --&gt;
+
+&lt;!-- * Input:  Space down, T down, T up, Space up --&gt;
+&lt;!-- * Output: Shift down, T down, T up, Shift up --&gt;
+&lt;!-- (Output is Shift+T) --&gt;
+
+&lt;!-- * Input:  Space down, T down, Space up, T up --&gt;
+&lt;!-- * Output: Shift down, Shift up, Space down, Space up, T down, T up --&gt;
+&lt;!-- (Output is Shift,Space,T) --&gt;
+
+&lt;autogen&gt;
+  __KeyOverlaidModifier__
+  KeyCode::SPACE,
+  KeyCode::SHIFT_L,
+  KeyCode::SPACE,
+&lt;/autogen&gt;
+&lt;block&gt;
+  &lt;modifier_only&gt;ModifierFlag::SHIFT_L&lt;/modifier_only&gt;
+  &lt;autogen&gt;__BlockUntilKeyUp__ KeyCode::SPACE&lt;/autogen&gt;
+&lt;/block&gt;</pre>
+          <h3>Syntax</h3>
+
+          <pre>
+&lt;autogen&gt;
+  __BlockUntilKeyUp__
+  <code class="required">TARGET_EVENT</code>
+&lt;/autogen&gt;
+</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">TARGET_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Option</h3>
+
+          <p>There is not option.</p>
+
+          <h3>Parameters</h3>
+
+          <p>Karabiner Preferences &gt; Parameters tab</p>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td>__BlockUntilKeyUp__ &gt; Timeout</td>
+                <td>
+                  __BlockUntilKeyUp__ cancels the delay when the target event is pressed for a long time.<br />
+                  This value is threshold of this cancellation.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
 
           <h2 id="syntax-__KeyDownUpToKey__">__KeyDownUpToKey__</h2>
 

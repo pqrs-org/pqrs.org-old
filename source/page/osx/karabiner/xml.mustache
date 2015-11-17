@@ -2644,7 +2644,103 @@
           {{! ============================================================ }}
           <h2 id="syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __BlockUntilKeyUp__ delays all key down events while the target key is pressed.<br />
+            It's designed to use with __KeyOverlaidModifier__.
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<!-- Delay all key down events while the space key is pressed. -->
+            |
+            |<!-- * Input:  Space down, T down, Space up, T up -->
+            |<!-- * Output: Space down, Space up, T down, T up -->
+            |
+            |
+            |<!-- Send events if key is released. -->
+            |
+            |<!-- * Input:  Space down, T down, T up, Space up -->
+            |<!-- * Output: Space down, T down, T up, Space up -->
+            |
+            |<autogen>__BlockUntilKeyUp__ KeyCode::SPACE</autogen>
+          {{/indented_xml}}
+          <br />
+
+          <p>Example with __KeyOverlaidModifier__:</p>
+
+          {{#indented_xml}}
+            |<!-- Change the space key to shift key if another key is pressed and released while the space key is pressed. -->
+            |
+            |<!-- * Input:  Space down, T down, T up, Space up -->
+            |<!-- * Output: Shift down, T down, T up, Shift up -->
+            |<!-- (Output is Shift+T) -->
+            |
+            |<!-- * Input:  Space down, T down, Space up, T up -->
+            |<!-- * Output: Shift down, Shift up, Space down, Space up, T down, T up -->
+            |<!-- (Output is Shift,Space,T) -->
+            |
+            |<autogen>
+            |  __KeyOverlaidModifier__
+            |  KeyCode::SPACE,
+            |  KeyCode::SHIFT_L,
+            |  KeyCode::SPACE,
+            |</autogen>
+            |<block>
+            |  <modifier_only>ModifierFlag::SHIFT_L</modifier_only>
+            |  <autogen>__BlockUntilKeyUp__ KeyCode::SPACE</autogen>
+            |</block>
+          {{/indented_xml}}
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __BlockUntilKeyUp__
+            |  <code class="required">TARGET_EVENT</code>
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">TARGET_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Option</h3>
+
+          <p>There is not option.</p>
+
+          <h3>Parameters</h3>
+
+          <p>Karabiner Preferences &gt; Parameters tab</p>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td>__BlockUntilKeyUp__ &gt; Timeout</td>
+                <td>
+                  __BlockUntilKeyUp__ cancels the delay when the target event is pressed for a long time.<br />
+                  This value is threshold of this cancellation.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr />
 
           {{! ============================================================ }}
           <h2 id="syntax-__KeyDownUpToKey__">__KeyDownUpToKey__</h2>
