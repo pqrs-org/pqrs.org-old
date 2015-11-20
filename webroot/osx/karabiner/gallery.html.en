@@ -446,7 +446,7 @@
   <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" style="width: 100%" />
