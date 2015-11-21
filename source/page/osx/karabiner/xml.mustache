@@ -2718,7 +2718,7 @@
 
           <h3>Option</h3>
 
-          <p>There is not option.</p>
+          <p>There is no option.</p>
 
           <h3>Parameters</h3>
 
@@ -2745,7 +2745,147 @@
           {{! ============================================================ }}
           <h2 id="syntax-__KeyDownUpToKey__">__KeyDownUpToKey__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __KeyDownUpToKey__ changes an event if the target key is pressed and released immediately.
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<!-- Change command-[ to command-shift-[ if [ key is pressed and released immediately. -->
+            |
+            |<!-- * Input:  command down, [ down, [ up, command up -->
+            |<!-- * Output: command-shift-[ -->
+            |
+            |<!-- * Input:  command down, [ down, command up, [ up -->
+            |<!-- * Output: command-[ -->
+            |
+            |<autogen>
+            |  __KeyDownUpToKey__
+            |  KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+            |  KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+            |</autogen>
+            |
+            |
+            |<!-- Change command-, to command-left. -->
+            |<!-- (If the , key is pressed and released immediately, send command-shift-left. -->
+            |<autogen>
+            |  __KeyDownUpToKey__
+            |  KeyCode::COMMA, ModifierFlag::COMMAND_L | ModifierFlag::NONE,
+            |
+            |  @begin
+            |  KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+            |  @end
+            |
+            |  <!-- interrupted -->
+            |  @begin
+            |  KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L,
+            |  @end
+            |</autogen>
+          {{/indented_xml}}
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __KeyDownUpToKey__
+            |  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+            |  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+            |  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+            |  ...
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <p>
+            Please use <code>@begin</code> and <code>@end</code> if you want to modify events when the target key is interrupted.
+          </p>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __KeyDownUpToKey__
+            |  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+            |
+            |  @begin
+            |  <code class="required">TO_EVENT1</code>, <code class="optional">TO_MODIFIER1</code>,
+            |  <code class="optional">TO_EVENT2</code>, <code class="optional">TO_MODIFIER2</code>,
+            |  ...
+            |  @end
+            |
+            |  @begin
+            |  <code class="required">TO_EVENT1(interrupted)</code>, <code class="optional">TO_MODIFIER1(interrupted)</code>,
+            |  <code class="optional">TO_EVENT2(interrupted)</code>, <code class="optional">TO_MODIFIER2(interrupted)</code>,
+            |  ...
+            |  @end
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="required">TO_EVENT1(interrupted)</code></td>
+                <td><code class="required">yes</code></td>
+                <td>to event: KeyCode, ConsumerKeyCode or PointingButton</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER1(interrupted)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>to modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_EVENT2(interrupted)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+              <tr>
+                <td><code class="optional">TO_MODIFIER2(interrupted)</code></td>
+                <td><code class="optional">no</code></td>
+                <td>same as above</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Option</h3>
+
+          <p>There is no option.</p>
+
+          <h3>Parameters</h3>
+
+          <p>There is no parameter.</p>
 
           {{! ============================================================ }}
           <h2 id="syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</h2>
