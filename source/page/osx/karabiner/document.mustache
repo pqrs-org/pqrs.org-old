@@ -1561,61 +1561,64 @@
           </li>
 
           <li>
-            {{#language_en}}
-              Then, key events are output to log.
-              <br />
-              You can show log by running this command in Terminal.app.
-            {{/language_en}}
-            {{#language_ja}}
-              そうすると、ログにキーイベントが出力されます。
-              <br />
-              Terminal.appで次のコマンドを実行することでログを表示することができます。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                You can confirm the debug log by Console.app.
+              {{/language_en}}
+              {{#language_ja}}
+                コンソールアプリでデバッグログを確認できます。
+              {{/language_ja}}
+            </p>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.8+
-              </span>
+            <p>
+              {{#language_en}}
+                Launch Console app from Launchpad.
+              {{/language_en}}
+              {{#language_ja}}
+                コンソールアプリをLaunchpadから起動してください。
+              {{/language_ja}}
+            </p>
 
-              <pre>{{#strip_indented_lines}}
-                |$ sudo tail -f /var/log/system.log
-                |Password: &lt;enter your password&gt;
-              {{/strip_indented_lines}}</pre>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/console-launchpad@2x.png Launchpad
+                {{/lightbox}}
+              </div>
             </div>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.7
-              </span>
+            <p>
+              {{#language_en}}
+                Then, the debug log will be appended when you press keys. <br />
+                You can select logs and copy them.
+              {{/language_en}}
+              {{#language_ja}}
+                キーを押すと、デバッグログが追加されます。<br />
+                ログを選択してコピーします。
+              {{/language_ja}}
+            </p>
 
-              <pre>{{#strip_indented_lines}}
-                |$ sudo tail -f /var/log/kernel.log
-                |Password: &lt;enter your password&gt;
-              {{/strip_indented_lines}}</pre>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/karabiner-debug-mode@2x.png Launchpad
+                {{/lightbox}}
+              </div>
             </div>
-          </li>
 
-          <li>
-            {{#language_en}}
-              The following messages are shown when you press keys.
-            {{/language_en}}
-            {{#language_ja}}
-              キーを押すたびに以下のようなログが表示されます。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                Paste to text editor and confirm the log.
+              {{/language_en}}
+              {{#language_ja}}
+                テキストエディタに貼り付けて中身を確認します。
+              {{/language_ja}}
+            </p>
 
             <pre>{{#strip_indented_lines}}
               |Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
               |Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
             {{/strip_indented_lines}}</pre>
-          </li>
-
-          <li>
-            {{#language_en}}
-              Press the C key while holding down the Control key to stop the message.
-            {{/language_en}}
-            {{#language_ja}}
-              メッセージを停止するには、Controlキーを押しながらCキーを押します。
-            {{/language_ja}}
           </li>
 
           <li>

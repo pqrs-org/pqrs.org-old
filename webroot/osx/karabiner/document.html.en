@@ -1319,44 +1319,61 @@ Password: &lt;enter your password&gt;
           </li>
 
           <li>
-              Then, key events are output to log.
-              <br />
-              You can show log by running this command in Terminal.app.
+            <p>
+                You can confirm the debug log by Console.app.
+            </p>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.8+
-              </span>
+            <p>
+                Launch Console app from Launchpad.
+            </p>
 
-              <pre>
-$ sudo tail -f /var/log/system.log
-Password: &lt;enter your password&gt;
-</pre>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
+  <img src="img/console-launchpad@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-31" tabindex="30031">
+  <div class="modal-dialog clickable" style="width: 759px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/console-launchpad@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
             </div>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.7
-              </span>
+            <p>
+                Then, the debug log will be appended when you press keys. <br />
+                You can select logs and copy them.
+            </p>
 
-              <pre>
-$ sudo tail -f /var/log/kernel.log
-Password: &lt;enter your password&gt;
-</pre>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
+  <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-32" tabindex="30032">
+  <div class="modal-dialog clickable" style="width: 1242px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
             </div>
-          </li>
 
-          <li>
-              The following messages are shown when you press keys.
+            <p>
+                Paste to text editor and confirm the log.
+            </p>
 
             <pre>
 Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
 Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
 </pre>
-          </li>
-
-          <li>
-              Press the C key while holding down the Control key to stop the message.
           </li>
 
           <li>

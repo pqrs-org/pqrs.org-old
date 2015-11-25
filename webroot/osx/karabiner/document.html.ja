@@ -1315,44 +1315,61 @@ Password: &lt;enter your password&gt;
           </li>
 
           <li>
-              そうすると、ログにキーイベントが出力されます。
-              <br />
-              Terminal.appで次のコマンドを実行することでログを表示することができます。
+            <p>
+                コンソールアプリでデバッグログを確認できます。
+            </p>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.8+
-              </span>
+            <p>
+                コンソールアプリをLaunchpadから起動してください。
+            </p>
 
-              <pre>
-$ sudo tail -f /var/log/system.log
-Password: &lt;enter your password&gt;
-</pre>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
+  <img src="img/console-launchpad@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-31" tabindex="30031">
+  <div class="modal-dialog clickable" style="width: 759px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/console-launchpad@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
             </div>
 
-            <div>
-              <span class="label label-default">
-                OS X 10.7
-              </span>
+            <p>
+                キーを押すと、デバッグログが追加されます。<br />
+                ログを選択してコピーします。
+            </p>
 
-              <pre>
-$ sudo tail -f /var/log/kernel.log
-Password: &lt;enter your password&gt;
-</pre>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
+  <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-32" tabindex="30032">
+  <div class="modal-dialog clickable" style="width: 1242px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
             </div>
-          </li>
 
-          <li>
-              キーを押すたびに以下のようなログが表示されます。
+            <p>
+                テキストエディタに貼り付けて中身を確認します。
+            </p>
 
             <pre>
 Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
 Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
 </pre>
-          </li>
-
-          <li>
-              メッセージを停止するには、Controlキーを押しながらCキーを押します。
           </li>
 
           <li>
