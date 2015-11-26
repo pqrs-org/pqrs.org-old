@@ -130,6 +130,17 @@
 <a class="btn btn-primary btn-lg"
             href="files/NoEjectDelay-7.0.0.dmg">Download NoEjectDelay-7.0.0
             &nbsp;<span class="label label-default">For OS X 10.11</span></a>      </p>
+
+      <p style="margin-left: 1em">
+        <small>
+          <a href="#history">
+              old versions and version history
+          </a>
+        </small>
+      </p>
+
+      <hr />
+
       <p>
 <a class="btn btn-default"
             href="files/NoEjectDelay-6.1.0.dmg">Download NoEjectDelay-6.1.0
@@ -150,13 +161,6 @@
 <a class="btn btn-default"
             href="files/NoEjectDelay-1.1.0.pkg.tar.gz">Download NoEjectDelay-1.1.0
             &nbsp;<span class="label label-default">For OS X 10.5, 10.4</span></a>      </p>
-      <p>
-        <small>
-          <a href="#history">
-              old versions and version history
-          </a>
-        </small>
-      </p>
     </div>
   </header>
 

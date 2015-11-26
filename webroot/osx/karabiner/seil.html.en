@@ -133,6 +133,16 @@
             href="files/Seil-11.3.0.dmg">Download Seil-11.3.0
             &nbsp;<span class="label label-default">For OS X 10.11, 10.10, 10.9</span></a>      </p>
 
+      <p style="margin-left: 1em">
+        <small>
+          <a href="#history">
+              old versions and version history
+          </a>
+        </small>
+      </p>
+
+      <hr />
+
       <div class="alert alert-info">
           Prior to version 10.7.0, Seil was called <b>PCKeyboardHack</b>.
       </div>
@@ -154,13 +164,6 @@
 <a class="btn btn-default"
             href="files/PCKeyboardHack-5.1.0.pkg.tar.gz">Download PCKeyboardHack-5.1.0
             &nbsp;<span class="label label-default">For OS X 10.5, 10.4</span></a>      </p>
-      <p>
-        <small>
-          <a href="#history">
-              old versions and version history
-          </a>
-        </small>
-      </p>
     </div>
   </header>
 
