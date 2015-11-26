@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.14.18</title>
+      <title>Version 10.14.19</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.14.18 Update</h2>
+<h2>About v10.14.19 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -39,14 +39,20 @@
       </li>
     </ul>
   </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
+    </ul>
+  </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Wed, 25 Nov 2015 15:57:47 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.18.dmg"
-                 sparkle:version="10.14.18" length="4044551" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFA4A/kW0YKWDHllHgNjkuepCbod8AhQ1xSIjFHGnITBxjEPtAUfm3Ko9KQ=="
+      <pubDate>Thu, 26 Nov 2015 01:58:13 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.19.dmg"
+                 sparkle:version="10.14.19" length="4044694" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFZuTl1iXTOr0Y4TZMfEW3XbX85/AhRCEnS9IiSdvj+yniNF7z3JZzHwZA=="
                  />
     </item>
 
