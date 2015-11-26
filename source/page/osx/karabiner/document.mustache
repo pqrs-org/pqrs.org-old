@@ -1533,31 +1533,42 @@
           {{/language_ja}}
         </p>
 
+        <div class="alert alert-danger" role="alert">
+          {{#language_en}}
+            This procedure is available since Karabiner-10.14.17.<br />
+            Please <a href="#check-for-updates">upgrade to the latest beta version</a>.
+          {{/language_en}}
+          {{#language_ja}}
+            この手順はKarabiner-10.14.17以降が必要です。<br />
+            <a href="#check-for-updates">最新のベータ版に更新してください。</a>
+          {{/language_ja}}
+        </div>
+
         <ol>
           <li>
-            {{#language_en}}
-              Run the following command in Terminal.app.
-            {{/language_en}}
-            {{#language_ja}}
-              以下のコマンドをTerminal.appで実行します。
-            {{/language_ja}}
-
-            <pre>{{#strip_indented_lines}}
-              |$ sudo sysctl -w karabiner.debug=1
-              |Password: &lt;enter your password&gt;
-            {{/strip_indented_lines}}</pre>
-
             <p>
-              <span class="label label-info">Note</span>
               {{#language_en}}
-                <code>$</code> is prompt.
-                Please input from <code>sudo</code>.
+                Press the "Toggle Debug Mode" button in Karabiner Preferences &gt; Misc &amp; Uninstall tab.<br />
+                Then, enter password.
               {{/language_en}}
               {{#language_ja}}
-                <code>$</code>はプロンプトです。
-                <code>sudo</code>から入力してください。
+                Karabinerの設定のMisc &amp; Uninstallタブの「Toggle Debug Mode」ボタンを押します。<br />
+                そして、パスワードを入力します。
               {{/language_ja}}
             </p>
+
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/karabiner-debug-mode-enable@2x.png Toggle Debug Mode
+                {{/lightbox}}
+              </div>
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/karabiner-debug-mode-password@2x.png Password
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
 
           <li>
@@ -1572,17 +1583,17 @@
 
             <p>
               {{#language_en}}
-                Launch Console app from Launchpad.
+                Launch Console app from the "Launch Console.app" button.
               {{/language_en}}
               {{#language_ja}}
-                コンソールアプリをLaunchpadから起動してください。
+                コンソールアプリを「Launch Console.app」ボタンから起動してください。
               {{/language_ja}}
             </p>
 
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/console-launchpad@2x.png Launchpad
+                  img/karabiner-console@2x.png Launch Console.app
                 {{/lightbox}}
               </div>
             </div>
@@ -1622,17 +1633,24 @@
           </li>
 
           <li>
-            {{#language_en}}
-              Disable debug mode by running this command in Terminal.app.
-            {{/language_en}}
-            {{#language_ja}}
-              以下のコマンドでデバッグモードを終了してください。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                Disable debug mode by the "Toggle Debug Mode" button.<br />
+                You don't need to enter password to disable debug mode.
+              {{/language_en}}
+              {{#language_ja}}
+                「Toggle Debug Mode」ボタンでデバッグモードを終了してください。<br />
+                デバックモードを終了するときはパスワードは不要です。
+              {{/language_ja}}
+            </p>
 
-            <pre>{{#strip_indented_lines}}
-              |$ sudo sysctl -w karabiner.debug=0
-              |Password: &lt;enter your password&gt;
-            {{/strip_indented_lines}}</pre>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/karabiner-debug-mode-disable@2x.png Toggle Debug Mode
+                {{/lightbox}}
+              </div>
+            </div>
           </li>
         </ol>
       </section>

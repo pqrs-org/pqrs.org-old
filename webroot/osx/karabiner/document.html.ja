@@ -1298,20 +1298,48 @@ $ sh ~/Desktop/karabiner-import.sh
             これらのシステムキーイベントを表示するために、デバッグモードを有効にする必要があります。
         </p>
 
+        <div class="alert alert-danger" role="alert">
+            この手順はKarabiner-10.14.17以降が必要です。<br />
+            <a href="#check-for-updates">最新のベータ版に更新してください。</a>
+        </div>
+
         <ol>
           <li>
-              以下のコマンドをTerminal.appで実行します。
-
-            <pre>
-$ sudo sysctl -w karabiner.debug=1
-Password: &lt;enter your password&gt;
-</pre>
-
             <p>
-              <span class="label label-info">Note</span>
-                <code>$</code>はプロンプトです。
-                <code>sudo</code>から入力してください。
+                Karabinerの設定のMisc &amp; Uninstallタブの「Toggle Debug Mode」ボタンを押します。<br />
+                そして、パスワードを入力します。
             </p>
+
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
+  <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" />
+</a>
+<div class="modal fade" id="lightbox-31" tabindex="30031">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
+  <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" />
+</a>
+<div class="modal fade" id="lightbox-32" tabindex="30032">
+  <div class="modal-dialog clickable" style="width: 500px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
           </li>
 
           <li>
@@ -1320,19 +1348,19 @@ Password: &lt;enter your password&gt;
             </p>
 
             <p>
-                コンソールアプリをLaunchpadから起動してください。
+                コンソールアプリを「Launch Console.app」ボタンから起動してください。
             </p>
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
-  <img src="img/console-launchpad@2x.png" alt="Launchpad" />
+<a data-toggle="modal" href="#lightbox-33" class="thumbnail">
+  <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
 </a>
-<div class="modal fade" id="lightbox-31" tabindex="30031">
-  <div class="modal-dialog clickable" style="width: 759px;">
+<div class="modal fade" id="lightbox-33" tabindex="30033">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/console-launchpad@2x.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1347,10 +1375,10 @@ Password: &lt;enter your password&gt;
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-34" class="thumbnail">
   <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
 </a>
-<div class="modal fade" id="lightbox-32" tabindex="30032">
+<div class="modal fade" id="lightbox-34" tabindex="30034">
   <div class="modal-dialog clickable" style="width: 1242px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1373,12 +1401,27 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
           </li>
 
           <li>
-              以下のコマンドでデバッグモードを終了してください。
+            <p>
+                「Toggle Debug Mode」ボタンでデバッグモードを終了してください。<br />
+                デバックモードを終了するときはパスワードは不要です。
+            </p>
 
-            <pre>
-$ sudo sysctl -w karabiner.debug=0
-Password: &lt;enter your password&gt;
-</pre>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-35" class="thumbnail">
+  <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" />
+</a>
+<div class="modal fade" id="lightbox-35" tabindex="30035">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
           </li>
         </ol>
       </section>
