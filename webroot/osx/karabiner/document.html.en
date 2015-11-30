@@ -1406,8 +1406,8 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
 
           <li>
             <p>
-                Disable debug mode by the "Toggle Debug Mode" button.<br />
-                You don't need to enter password to disable debug mode.
+                Disable the debug mode by the "Toggle Debug Mode" button.<br />
+                You don't need to enter password to disable the debug mode.
             </p>
 
             <div class="row">
