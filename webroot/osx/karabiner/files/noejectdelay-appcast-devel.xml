@@ -7,23 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 7.0.2</title>
+      <title>Version 7.0.3</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v7.0.2 Update</h2>
+<h2>About v7.0.3 Update</h2>
 <ul>
-  <li>Use new CocoaPods.</li>
+  <li>Sparkle Framework has been updated.</li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
 ]]>
       </description>
-      <pubDate>Tue, 13 Oct 2015 06:06:59 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.0.2.dmg"
-                 sparkle:version="7.0.2" length="2040975" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAEo4KXWghJaepW1WMbZrv2aAk+hAhRF+LdT0VLSvlx/mU8UUyL6kMkFSQ=="
+      <pubDate>Mon, 30 Nov 2015 16:01:57 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.0.3.dmg"
+                 sparkle:version="7.0.3" length="1085929" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDVb09BLWURXnUNWWFI410td2btEAhQbA/nKS2oqN8r+w3M7piAw6sjufw=="
                  />
     </item>
 
