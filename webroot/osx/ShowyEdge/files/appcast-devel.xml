@@ -7,19 +7,19 @@
     <language>en</language>
 
     <item>
-      <title>Version 2.2.2</title>
+      <title>Version 2.2.3</title>
       <description><![CDATA[
-<h2>About v2.2.2 Update</h2>
+<h2>About v2.2.3 Update</h2>
 <ul>
   <li>Use new CocoaPods.</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Tue, 13 Oct 2015 06:14:06 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.2.2.dmg"
-                 sparkle:version="2.2.2" length="1703427" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBkqrAhMcwY8lWd6l3LUU286ZA/NAhQzp4pqFGfsdTnBWuUZe+Y9uIAQcw=="
+      <pubDate>Mon, 30 Nov 2015 07:51:10 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.2.3.dmg"
+                 sparkle:version="2.2.3" length="1704139" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGdI+KcEZl6wcWdArEExqtoKYtXfAhQMGSWgfiNkpz/xaOa8CcmT6C/ZSw=="
       />
     </item>
 
