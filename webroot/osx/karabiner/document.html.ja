@@ -717,6 +717,23 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
                 </a>
               </li>
             </ul>
+
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+  <img src="img/karabiner-xml7@2x.png" alt="enable new setting" />
+</a>
+<div class="modal fade" id="lightbox-22" tabindex="30022">
+  <div class="modal-dialog clickable" style="width: 860px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-xml7@2x.png" alt="enable new setting" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
           </li>
           <li>
               完了です。
@@ -733,10 +750,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
-<div class="modal fade" id="lightbox-22" tabindex="30022">
+<div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 702px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -762,10 +779,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 &lt;/root&gt;</pre>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
-<div class="modal fade" id="lightbox-23" tabindex="30023">
+<div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -856,10 +873,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </p>
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 477px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -973,10 +990,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -992,10 +1009,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               アプリケーションが立ち上がるのでDockからアイコンをクリックします。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
 </a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 581px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1013,10 +1030,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.14.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
 </a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1027,10 +1044,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
   <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
 </a>
-<div class="modal fade" id="lightbox-28" tabindex="30028">
+<div class="modal fade" id="lightbox-29" tabindex="30029">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1067,10 +1084,10 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
               設定の追加を「MenuBar」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
   <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-29" tabindex="30029">
+<div class="modal fade" id="lightbox-30" tabindex="30030">
   <div class="modal-dialog clickable" style="width: 726px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1105,10 +1122,10 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
   <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-30" tabindex="30030">
+<div class="modal fade" id="lightbox-31" tabindex="30031">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1312,10 +1329,10 @@ $ sh ~/Desktop/karabiner-import.sh
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
   <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" />
 </a>
-<div class="modal fade" id="lightbox-31" tabindex="30031">
+<div class="modal fade" id="lightbox-32" tabindex="30032">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1326,10 +1343,10 @@ $ sh ~/Desktop/karabiner-import.sh
 </div>
               </div>
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-33" class="thumbnail">
   <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" />
 </a>
-<div class="modal fade" id="lightbox-32" tabindex="30032">
+<div class="modal fade" id="lightbox-33" tabindex="30033">
   <div class="modal-dialog clickable" style="width: 500px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1353,10 +1370,10 @@ $ sh ~/Desktop/karabiner-import.sh
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-33" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-34" class="thumbnail">
   <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
 </a>
-<div class="modal fade" id="lightbox-33" tabindex="30033">
+<div class="modal fade" id="lightbox-34" tabindex="30034">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1375,10 +1392,10 @@ $ sh ~/Desktop/karabiner-import.sh
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-34" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-35" class="thumbnail">
   <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
 </a>
-<div class="modal fade" id="lightbox-34" tabindex="30034">
+<div class="modal fade" id="lightbox-35" tabindex="30035">
   <div class="modal-dialog clickable" style="width: 1242px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -1408,10 +1425,10 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-35" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-36" class="thumbnail">
   <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" />
 </a>
-<div class="modal fade" id="lightbox-35" tabindex="30035">
+<div class="modal fade" id="lightbox-36" tabindex="30036">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
