@@ -32,6 +32,7 @@ rm -f "$targetdir/appcast-devel.xml.tmp"
 
     <item>
       <title>Version $version</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <h2>About v$version Update</h2>
 EOF
