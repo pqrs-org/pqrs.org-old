@@ -291,19 +291,18 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
           </div>
         </div>
 
-        <div id="noaction">
-          <h2>
-            Step 3
-            <span class="label label-info">Important</span>
-          </h2>
-          <p>
-              caps lockキーの動作を変更するためにSeilを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
-          </p>
-          <p>
-              caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
-          </p>
-          <div class="row">
-            <div class="col-lg-4">
+        <h2 id="noaction">
+          Step 3
+          <span class="label label-info">Important</span>
+        </h2>
+        <p>
+            caps lockキーの動作を変更するためにSeilを使っている場合は、システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」にしてください。
+        </p>
+        <p>
+            caps lockキーの遅延を抑えるためにこの設定を行う必要があります。
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/capslock@2x.png" alt="No Action" />
 </a>
@@ -316,7 +315,6 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
     </div>
   </div>
 </div>
-            </div>
           </div>
         </div>
 
