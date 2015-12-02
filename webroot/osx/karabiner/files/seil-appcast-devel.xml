@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.99.6</title>
+      <title>Version 11.99.7</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v11.99.6 Update</h2>
+<h2>About v11.99.7 Update</h2>
 <ul>
   <li>OS X 10.10 support has been dropped.</li>
   <li>OS X 10.9 support has been dropped.</li>
@@ -23,10 +23,10 @@
 <a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
 ]]>
       </description>
-      <pubDate>Mon, 30 Nov 2015 16:14:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.99.6.dmg"
-                 sparkle:version="11.99.6" length="1259913" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCV51vIdH2/PKRUkn3qgczMpS0DawIUN/CWq7dOv4y22PhI8bs3pUbpqbs="
+      <pubDate>Wed, 02 Dec 2015 08:40:42 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-11.99.7.dmg"
+                 sparkle:version="11.99.7" length="1262697" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCLHAu+vJMpNEcZKIML0lbmPkmfUgIUfB5M5CN47HIp3RKeJ5xD65e0sd8="
                  />
     </item>
 
