@@ -7,20 +7,23 @@
     <language>en</language>
 
     <item>
-      <title>Version 2.2.7</title>
+      <title>Version 3.0.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>About v2.2.7 Update</h2>
+<h2>About v3.0.0 Update</h2>
 <ul>
-  <li>Use new CocoaPods.</li>
+  <li>ShowyEdge Preferences became resizable.</li>
+  <li>Sparkle Framework has been updated.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+  <li>OS X 10.7 support has been dropped.</li>
 </ul>
 <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 ]]>
       </description>
-      <pubDate>Thu, 03 Dec 2015 14:41:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.2.7.dmg"
-                 sparkle:version="2.2.7" length="1709750" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCVfwmFO2ejWHAV5QyPnzlR93WeJQIVAJ25f97utLsRpP7+WPK16aIS8wv7"
+      <pubDate>Thu, 03 Dec 2015 15:01:04 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.0.dmg"
+                 sparkle:version="3.0.0" length="1709683" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCHma8DqyjZBlQIHi25MaBqm9/BEAIVAJ5xFHhZfEK2n5JPV/qNAv7RUGD+"
       />
     </item>
 
