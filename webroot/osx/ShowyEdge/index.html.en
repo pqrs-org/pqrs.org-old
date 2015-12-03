@@ -84,8 +84,15 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
+            href="files/ShowyEdge-3.0.0.dmg">Download ShowyEdge-3.0.0
+            &nbsp;<span class="label label-default">For OS X 10.9+</span></a>      </p>
+
+      <hr />
+
+      <p>
+<a class="btn btn-default"
             href="files/ShowyEdge-2.2.0.dmg">Download ShowyEdge-2.2.0
-            &nbsp;<span class="label label-default">For OS X 10.7+</span></a>      </p>
+            &nbsp;<span class="label label-default">For OS X 10.8, 10.7</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
@@ -428,6 +435,22 @@ src="img/dmg.png" width="128" height="128"              />
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 3.0.0
+              <small>
+Dec 3, 2015              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-3.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>ShowyEdge Preferences became resizable.</li>
+  <li>Sparkle Framework has been updated.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+  <li>OS X 10.7 support has been dropped.</li>
+</ul>
 
           <h2>
             Version 2.2.0

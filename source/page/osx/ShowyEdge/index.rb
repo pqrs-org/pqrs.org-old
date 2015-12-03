@@ -75,6 +75,29 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '3.0.0',
+              :updated => '2015-12-03',
+              :link => 'files/ShowyEdge-3.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>ShowyEdge Preferences became resizable.</li>
+  <li>Sparkle Framework has been updated.</li>
+  <li>OS X 10.8 support has been dropped.</li>
+  <li>OS X 10.7 support has been dropped.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>設定画面がリサイズ可能になりました。</li>
+  <li>Sparkleフレームワークを更新しました。</li>
+  <li>OS X 10.8をサポート外としました。</li>
+  <li>OS X 10.7をサポート外としました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '2.2.0',
               :updated => '2015-08-30',
               :link => 'files/ShowyEdge-2.2.0.dmg',
