@@ -130,8 +130,8 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-11.3.0.dmg">Seil-11.3.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
+            href="files/Seil-12.0.0.dmg">Seil-12.0.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.11用</span></a>      </p>
 
       <p style="margin-left: 1em">
         <small>
@@ -146,6 +146,11 @@
       <div class="alert alert-info">
           Seilはバージョン10.7.0まで<b>PCKeyboardHack</b>という名前でした。
       </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/Seil-11.3.0.dmg">Seil-11.3.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.10、10.9用</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
@@ -535,6 +540,23 @@ $ sh ~/Desktop/seil-import.sh
               更新履歴
           </h1>
         </div>
+
+          <h2>
+            Version 12.0.0
+              <small>
+2015年12月4日              </small>
+
+              <a class="btn btn-default" href="files/Seil-12.0.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.10をサポート外としました。</li>
+  <li>OS X 10.9をサポート外としました。</li>
+  <li>Closeボタンを追加しました。</li>
+  <li>設定画面をリサイズ可能にしました。</li>
+  <li>Sparkleフレームワークを更新しました。</li>
+</ul>
 
           <h2>
             Version 11.3.0

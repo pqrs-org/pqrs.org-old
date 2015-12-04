@@ -130,8 +130,8 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-11.3.0.dmg">Download Seil-11.3.0
-            &nbsp;<span class="label label-default">For OS X 10.11, 10.10, 10.9</span></a>      </p>
+            href="files/Seil-12.0.0.dmg">Download Seil-12.0.0
+            &nbsp;<span class="label label-default">For OS X 10.11</span></a>      </p>
 
       <p style="margin-left: 1em">
         <small>
@@ -146,6 +146,11 @@
       <div class="alert alert-info">
           Prior to version 10.7.0, Seil was called <b>PCKeyboardHack</b>.
       </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/Seil-11.3.0.dmg">Download Seil-11.3.0
+            &nbsp;<span class="label label-default">For OS X 10.10, 10.9</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
@@ -541,6 +546,23 @@ $ sh ~/Desktop/seil-import.sh
               Version History
           </h1>
         </div>
+
+          <h2>
+            Version 12.0.0
+              <small>
+Dec 4, 2015              </small>
+
+              <a class="btn btn-default" href="files/Seil-12.0.0.dmg">
+                  Download
+              </a>
+          </h2>
+          <ul>
+  <li>OS X 10.10 support has been dropped.</li>
+  <li>OS X 10.9 support has been dropped.</li>
+  <li>Close button has been added.</li>
+  <li>Seil Preferences became resizable.</li>
+  <li>Sparkle Framework has been updated.</li>
+</ul>
 
           <h2>
             Version 11.3.0

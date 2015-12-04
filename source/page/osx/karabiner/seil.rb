@@ -72,6 +72,31 @@ class Seil < KarabinerBase
   def histories
     data = [
             {
+              :version => '12.0.0',
+              :updated => '2015-12-04',
+              :link => 'files/Seil-12.0.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<ul>
+  <li>OS X 10.10 support has been dropped.</li>
+  <li>OS X 10.9 support has been dropped.</li>
+  <li>Close button has been added.</li>
+  <li>Seil Preferences became resizable.</li>
+  <li>Sparkle Framework has been updated.</li>
+</ul>
+EOS
+                :ja => <<EOS,
+<ul>
+  <li>OS X 10.10をサポート外としました。</li>
+  <li>OS X 10.9をサポート外としました。</li>
+  <li>Closeボタンを追加しました。</li>
+  <li>設定画面をリサイズ可能にしました。</li>
+  <li>Sparkleフレームワークを更新しました。</li>
+</ul>
+EOS
+              },
+            },
+            {
               :version => '11.3.0',
               :updated => '2015-08-08',
               :link => 'files/Seil-11.3.0.dmg',
