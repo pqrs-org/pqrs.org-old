@@ -17,6 +17,81 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.15.0',
+        :updated => '2015-12-21',
+        :link => 'files/Karabiner-10.15.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        The safety limit of key repeat rate has been removed.<br />
+        You can overwrite key repeat rate by extreme fast values.
+      </li>
+      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+        <ul>
+          <li>Razer DeathAdder Chroma has been supported.</li>
+        </ul>
+      </li>
+      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>Some error messages have been improved.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
+    </ul>
+  </li>
+</ul>
+EOS
+          :ja => <<EOS,
+<ul>
+  <li>
+    新機能や改良:
+    <ul>
+      <li>
+        キーリピート値の安全のためのリミッターを削除しました。<br />
+        極端に速い値でキーリピート値を上書きできます。
+      </li>
+      <li>デバッグモードを有効にするためのGUIを設定画面に加えました。</li>
+      <li>設定の追加・更新をしました。</li>
+      <li>
+        「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
+        <ul>
+          <li>Razer DeathAdder Chromaをサポートしました。</li>
+        </ul>
+      </li>
+      <li>Option::KEYTOKEY_DELAYED_ACTIONにおけるModifierFlagの扱いを改善しました</li>
+      <li>
+        自分で設定を追加する人向けの変更点:
+        <ul>
+          <li>エラーメッセージを改善しました。</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    下記の問題を修正しました:
+    <ul>
+      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Fiji）</li>
+    </ul>
+  </li>
+</ul>
+EOS
+        },
+      },
+      {
         :version => '10.14.0',
         :updated => '2015-11-05',
         :link => 'files/Karabiner-10.14.0.dmg',

@@ -121,6 +121,48 @@
       </h1>
     </div>
       <h2>
+        Version 10.15.0
+          <small>
+Dec 21, 2015          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.15.0.dmg">
+              Download
+          </a>
+      </h2>
+      <ul>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>
+        The safety limit of key repeat rate has been removed.<br />
+        You can overwrite key repeat rate by extreme fast values.
+      </li>
+      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+        <ul>
+          <li>Razer DeathAdder Chroma has been supported.</li>
+        </ul>
+      </li>
+      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>Some error messages have been improved.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
+    </ul>
+  </li>
+</ul>
+
+      <h2>
         Version 10.14.0
           <small>
 Nov 5, 2015          </small>
