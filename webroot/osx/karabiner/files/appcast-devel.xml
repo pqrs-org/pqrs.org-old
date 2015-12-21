@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.14.32</title>
+      <title>Version 10.15.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.14.32 Update</h2>
+<h2>About v10.15.0 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -22,7 +22,7 @@
         The safety limit of key repeat rate has been removed.<br />
         You can overwrite key repeat rate by extreme fast values.
       </li>
-      <li>GUI to enabling debug mode has been added into Karabiner Preferences.</li>
+      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
       <li>Prepared settings have been updated.</li>
       <li>
         "Disable an internal keyboard while external keyboards are connected" setting has been improved.
@@ -49,10 +49,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Mon, 21 Dec 2015 17:34:00 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.14.32.dmg"
-                 sparkle:version="10.14.32" length="4068852" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFA0URtnj7De09vV6vfFiWvs9HB+jAhROWcOr67pTCC8rpiyoni/GSox4BQ=="
+      <pubDate>Mon, 21 Dec 2015 17:56:31 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.0.dmg"
+                 sparkle:version="10.15.0" length="4068902" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFYLMaa7VhLejdJ0wfQrKlkK6N0pAhQ7MNHNJe1JYYR9tT0yNAZMdScMdg=="
                  />
     </item>
 
