@@ -135,7 +135,8 @@ Dec 21, 2015          </small>
     <ul>
       <li>
         The safety limit of key repeat rate has been removed.<br />
-        You can overwrite key repeat rate by extreme fast values.
+        You can overwrite key repeat rate by extreme fast values. <br />
+        (The limit was 200 ms and 5 ms)
       </li>
       <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
       <li>Prepared settings have been updated.</li>
