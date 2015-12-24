@@ -27,11 +27,14 @@ class History < KarabinerBase
     New functions and improvements:
     <ul>
       <li>
-        The safety limit of key repeat rate has been removed.<br />
-        You can overwrite key repeat rate by extreme fast values. <br />
-        <br />
-        The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
-        Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
+        <p>
+          The safety limit of key repeat rate has been removed.<br />
+          You can overwrite key repeat rate by extreme fast values.
+        </p>
+        <p>
+          The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
+          Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
+        </p>
       </li>
       <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
       <li>Prepared settings have been updated.</li>
@@ -64,11 +67,14 @@ EOS
     新機能や改良:
     <ul>
       <li>
-        キーリピート値の安全のためのリミッターを削除しました。<br />
-        極端に速い値でキーリピート値を上書きできます。<br />
-        <br />
-        以前のバージョンのKarabinerでは、リミッターは200msと5msでした。<br />
-        もしリミッター削除でキーリピートが早くなりすぎたと感じる場合は、キーリピート値を200msと5msに増やしてください。
+        <p>
+          キーリピート値の安全のためのリミッターを削除しました。<br />
+          極端に速い値でキーリピート値を上書きできます。
+        </p>
+        <p>
+          以前のバージョンのKarabinerでは、リミッターは200msと5msでした。<br />
+          もしリミッター削除でキーリピートが早くなりすぎたと感じる場合は、キーリピート値を200msと5msに増やしてください。
+        </p>
       </li>
       <li>デバッグモードを有効にするためのGUIを設定画面に加えました。</li>
       <li>設定の追加・更新をしました。</li>
