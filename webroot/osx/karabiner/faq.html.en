@@ -163,18 +163,20 @@
         </h3>
         <ol class="steps">
           <li>
-              Launch Console app from Launchpad.
+            <p>
+                Launch Console app from the "Launch Console.app" button.
+            </p>
 
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/console-launchpad@2x.png" alt="Launchpad" />
+  <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 759px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/console-launchpad@2x.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
       </div>
     </div>
   </div>
