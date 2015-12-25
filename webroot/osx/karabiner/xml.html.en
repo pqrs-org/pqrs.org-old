@@ -2901,7 +2901,34 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="syntax-__PassThrough__">__PassThrough__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.15.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __PassThrough__ disables all settings if enabled. <br />
+            You should use __PassThrough__ with filters.
+          </p>
+
+          <h3>Example</h3>
+
+<pre class="prettyprint lang-xml">&lt;!-- Ignore all settings in virtual machines. --&gt;
+&lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
+
+&lt;autogen&gt;
+  __PassThrough__
+&lt;/autogen&gt;</pre>
+          <h3>Syntax</h3>
+
+          <pre>
+&lt;autogen&gt;
+  __PassThrough__
+&lt;/autogen&gt;
+</pre>
+
+          <h3>Option</h3>
+
+          <p>There is no option.</p>
+
+          <h3 id="syntax-__PassThrough__-parameters">Parameters</h3>
+
+          <p>There is no parameter.</p>
 
           <h2 id="syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</h2>
 
