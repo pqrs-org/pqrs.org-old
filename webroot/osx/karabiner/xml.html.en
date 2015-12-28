@@ -2961,6 +2961,8 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
       ModifierFlag::MY_VI_MODE,
 
       Option::DROPALLKEYS_DROP_KEY,
+      Option::DROPALLKEYS_DROP_CONSUMERKEY,
+      Option::DROPALLKEYS_DROP_POINTINGBUTTON,
     &lt;/autogen&gt;
   &lt;/block&gt;
 
