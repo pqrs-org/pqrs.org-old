@@ -1942,8 +1942,8 @@
             <li><a href="#syntax-__BlockUntilKeyUp__">__BlockUntilKeyUp__</a></li>
             <li><a href="#syntax-__KeyDownUpToKey__">__KeyDownUpToKey__</a></li>
             <li><a href="#syntax-__PassThrough__">__PassThrough__</a></li>
-            <li><a href="#syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</a></li>
             <li><a href="#syntax-__DropAllKeys__">__DropAllKeys__</a></li>
+            <li><a href="#syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</a></li>
             <li><a href="#syntax-__DropPointingRelativeCursorMove__">__DropPointingRelativeCursorMove__</a></li>
             <li><a href="#syntax-__DropScrollWheel__">__DropScrollWheel__</a></li>
             <li><a href="#syntax-__FlipPointingRelative__">__FlipPointingRelative__</a></li>
@@ -2925,14 +2925,166 @@
           <p>There is no parameter.</p>
 
           {{! ============================================================ }}
-          <h2 id="syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</h2>
-
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.15.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
-
-          {{! ============================================================ }}
           <h2 id="syntax-__DropAllKeys__">__DropAllKeys__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.15.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>
+            __DropAllKeys__ drops all input events.<br />
+            It's useful to make a mode. (eg. vi mode which recognizes only hjkl keys.)
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<modifierdef>MY_VI_MODE</modifierdef>
+            |
+            |<item>
+            |  <name>Change the right option + hjkl to arrow keys.</name>
+            |  <appendix>(Disable all other keys when the right option is pressed.)</appendix>
+            |  <identifier>private.right_option_vi_mode</identifier>
+            |
+            |  <!-- vi mode keymap -->
+            |  <block>
+            |    <modifier_only>ModifierFlag::MY_VI_MODE</modifier_only>
+            |
+            |    <autogen>__KeyToKey__ KeyCode::H, KeyCode::CURSOR_LEFT</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::J, KeyCode::CURSOR_DOWN</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::K, KeyCode::CURSOR_UP</autogen>
+            |    <autogen>__KeyToKey__ KeyCode::L, KeyCode::CURSOR_RIGHT</autogen>
+            |
+            |    <!-- Drop all events which are not modified in above. -->
+            |    <autogen>
+            |      __DropAllKeys__
+            |      ModifierFlag::MY_VI_MODE,
+            |
+            |      Option::DROPALLKEYS_DROP_KEY,
+            |    </autogen>
+            |  </block>
+            |
+            |  <!-- trigger -->
+            |  <autogen>
+            |    __KeyToKey__
+            |    KeyCode::OPTION_R,
+            |    KeyCode::VK_MODIFIER_MY_VI_MODE,
+            |  </autogen>
+            |</item>
+          {{/indented_xml}}
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __DropAllKeys__
+            |  <code class="required">FROM_MODIFIER</code>,
+            |
+            |  <code class="optional">Option::DROPALLKEYS_DROP_KEY,</code>
+            |  <code class="optional">Option::DROPALLKEYS_DROP_CONSUMERKEY,</code>
+            |  <code class="optional">Option::DROPALLKEYS_DROP_POINTINGBUTTON,</code>
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_MODIFIER</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+              <tr>
+                <td><code class="optional">Option::DROPALLKEYS_DROP_KEY,</code></td>
+                <td><code class="optional">no</code></td>
+                <td>Drop all key events if this option is specified.</td>
+              </tr>
+              <tr>
+                <td><code class="optional">Option::DROPALLKEYS_DROP_CONSUMERKEY,</code></td>
+                <td><code class="optional">no</code></td>
+                <td>Drop all media control events if this option is specified.</td>
+              </tr>
+              <tr>
+                <td><code class="optional">Option::DROPALLKEYS_DROP_POINTINGBUTTON,</code></td>
+                <td><code class="optional">no</code></td>
+                <td>Drop all mouse button events if this option is specified.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Note:<br />
+            You have to specified at least one modifier flag to FROM_MODIFIER.<br />
+            If FROM_MODIFIER is empty, __DropAllKeys__ does not drop any events.
+          </p>
+
+          <h3>Option</h3>
+
+          <p>There is no option.</p>
+
+          <h3 id="syntax-__DropAllKeys__-parameters">Parameters</h3>
+
+          <p>There is no parameter.</p>
+
+          {{! ============================================================ }}
+          <h2 id="syntax-__DropKeyAfterRemap__">__DropKeyAfterRemap__</h2>
+
+          <p>
+            __DropKeyAfterRemap__ drops key events if modified events are matched with specified condition.<br />
+            This is useful to disable specific key combinations. (eg. shift-mission control, command-q in some apps, etc.)
+          </p>
+
+          <h3>Example</h3>
+
+          {{#indented_xml}}
+            |<!-- Disable slow mission control -->
+            |<autogen>
+            |  __DropKeyAfterRemap__
+            |  KeyCode::MISSION_CONTROL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT,
+            |</autogen>
+          {{/indented_xml}}
+
+          <h3>Syntax</h3>
+
+          <pre>{{#strip_indented_lines}}
+            |&lt;autogen&gt;
+            |  __DropKeyAfterRemap__
+            |  <code class="required">FROM_EVENT</code>, <code class="optional">FROM_MODIFIER</code>,
+            |&lt;/autogen&gt;
+          {{/strip_indented_lines}}</pre>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>parameter</th>
+                <th>required</th>
+                <th>description</th>
+              </tr>
+              <tr>
+                <td><code class="required">FROM_EVENT</code></td>
+                <td><code class="required">yes</code></td>
+                <td>the target event: KeyCode</td>
+              </tr>
+              <tr>
+                <td><code class="optional">FROM_MODIFIER</code></td>
+                <td><code class="optional">no</code></td>
+                <td>the target modifier: ModifierFlag(s)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Note:<br />
+            You cannot specify ConsumerKeyCode and PointingButton as FROM_MODIFIER.
+          </p>
+
+          <h3>Option</h3>
+
+          <p>There is no option.</p>
+
+          <h3 id="syntax-__DropKeyAfterRemap__-parameters">Parameters</h3>
+
+          <p>There is no parameter.</p>
 
           {{! ============================================================ }}
           <h2 id="syntax-__DropPointingRelativeCursorMove__">__DropPointingRelativeCursorMove__</h2>
