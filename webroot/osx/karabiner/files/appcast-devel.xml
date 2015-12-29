@@ -7,53 +7,33 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.0</title>
+      <title>Version 10.15.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.15.0 Update</h2>
+<h2>About v10.15.1 Update</h2>
 <ul>
   <li>
     New functions and improvements:
     <ul>
       <li>
-        The safety limit of key repeat rate has been removed.<br />
-        You can overwrite key repeat rate by extreme fast values.<br />
-        (The limit was 200 ms and 5 ms)
-      </li>
-      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>
         "Disable an internal keyboard while external keyboards are connected" setting has been improved.
         <ul>
-          <li>Razer DeathAdder Chroma has been supported.</li>
+          <li>Mionix Naos 7000 has been supported.</li>
         </ul>
       </li>
-      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
-      <li>
-        Updates for people who add new settings by oneself:
-        <ul>
-          <li>Some error messages have been improved.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Mon, 21 Dec 2015 17:56:31 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.0.dmg"
-                 sparkle:version="10.15.0" length="4068902" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFYLMaa7VhLejdJ0wfQrKlkK6N0pAhQ7MNHNJe1JYYR9tT0yNAZMdScMdg=="
+      <pubDate>Tue, 29 Dec 2015 04:16:37 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.1.dmg"
+                 sparkle:version="10.15.1" length="4068476" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHKYfdjrI+2Q4jWyPJ9p4nFRQLxKAhR6Jk7oeFYqBZ9U7pjC/z2KBASc+A=="
                  />
     </item>
 
