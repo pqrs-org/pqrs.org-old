@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.3</title>
+      <title>Version 10.15.4</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.15.3 Update</h2>
+<h2>About v10.15.4 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -22,6 +22,7 @@
         "Disable an internal keyboard while external keyboards are connected" setting has been improved.
         <ul>
           <li>Mionix Naos 7000 has been supported.</li>
+          <li>Logitech Bluetooth Mouse M555b has been supported.</li>
         </ul>
       </li>
     </ul>
@@ -30,10 +31,10 @@
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Wed, 30 Dec 2015 16:55:10 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.3.dmg"
-                 sparkle:version="10.15.3" length="4068931" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFS4IuZ2+2dTZXc5GP16TZEE27nSAhRHSshXdC/5cKbWlwX0U4k4xXmQjQ=="
+      <pubDate>Wed, 30 Dec 2015 17:51:00 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.4.dmg"
+                 sparkle:version="10.15.4" length="4069076" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFE0+VMNodlymM6I/Z083lXV/5vzgAhQXIwLhRmp6VAKzarQV49uHTMgzjA=="
                  />
     </item>
 
