@@ -508,10 +508,24 @@
           </li>
         </ol>
 
-        <p>
-          <span class="label label-info">Important</span>
-            Karabinerを設定した後も、毎回起動時にコントロールキーを押しっぱなしにする必要があります。
-        </p>
+        <div class="alert alert-info" role="alert">
+          <h4>Important</h4>
+
+          <p>
+              この設定を行った後も、いくつかの操作が必要になります。
+          </p>
+          <br />
+
+          <ol>
+            <li>
+                Karabinerを設定した後も、毎回起動時にコントロールキーを押しっぱなしにする必要があります。
+            </li>
+            <li>
+                ログイン時にシフトキーが押されている場合、OS Xはログイン時のアプリケーションの自動起動を行いません。<br />
+                この制限のため、ログイン後にKarabinerを手動で実行する必要があります。
+            </li>
+          </ol>
+        </div>
 
         <h3>
             他の方法

@@ -614,15 +614,40 @@
           </li>
         </ol>
 
-        <p>
-          <span class="label label-info">Important</span>
-          {{#language_en}}
-            You need to hold the control key at boot every time even after you have configured Karabiner.
-          {{/language_en}}
-          {{#language_ja}}
-            Karabinerを設定した後も、毎回起動時にコントロールキーを押しっぱなしにする必要があります。
-          {{/language_ja}}
-        </p>
+        <div class="alert alert-info" role="alert">
+          <h4>Important</h4>
+
+          <p>
+            {{#language_en}}
+              You need some operations even after you have configured Karabiner.
+            {{/language_en}}
+            {{#language_ja}}
+              この設定を行った後も、いくつかの操作が必要になります。
+            {{/language_ja}}
+          </p>
+          <br />
+
+          <ol>
+            <li>
+              {{#language_en}}
+                You need to hold the control key at boot every time even after you have configured Karabiner.
+              {{/language_en}}
+              {{#language_ja}}
+                Karabinerを設定した後も、毎回起動時にコントロールキーを押しっぱなしにする必要があります。
+              {{/language_ja}}
+            </li>
+            <li>
+              {{#language_en}}
+                OS X does not launch application automatically when the shift key is pressed when you log in. <br />
+                You have to open Karabiner every time when you logged in due to this OS X restriction.
+              {{/language_en}}
+              {{#language_ja}}
+                ログイン時にシフトキーが押されている場合、OS Xはログイン時のアプリケーションの自動起動を行いません。<br />
+                この制限のため、ログイン後にKarabinerを手動で実行する必要があります。
+              {{/language_ja}}
+            </li>
+          </ol>
+        </div>
 
         <h3>
           {{#language_en}}
