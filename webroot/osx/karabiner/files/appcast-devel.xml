@@ -7,13 +7,13 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.5</title>
+      <title>Version 10.15.6</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 
 <!-- RENAME_INFORMATION -->
 
-<h2>About v10.15.5 Update</h2>
+<h2>About v10.15.6 Update</h2>
 <ul>
   <li>
     New functions and improvements:
@@ -25,16 +25,17 @@
           <li>Logitech Bluetooth Mouse M555b has been supported.</li>
         </ul>
       </li>
+      <li>Prepared settings have been updated.</li>
     </ul>
   </li>
 </ul>
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
-      <pubDate>Thu, 31 Dec 2015 06:39:50 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.5.dmg"
-                 sparkle:version="10.15.5" length="4069197" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFG9zvCiMuRw1M4rBF/uh6lvPD+P6AhRXbVRjj/9b+02bj9z5yl1T6arXXQ=="
+      <pubDate>Tue, 05 Jan 2016 05:03:21 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.6.dmg"
+                 sparkle:version="10.15.6" length="4069112" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGOsdVGH4r2wMHXcu4CjFA4+sNMPAhQVGoOsg35mxmBL8oAvV/uGTuNZig=="
                  />
     </item>
 
