@@ -45,11 +45,13 @@ EOF
 <h2>About v$version Update</h2>
 
 <!-- update-description-begin -->
+
 EOF
 
->>"$targetdir/appcast-devel.xml.tmp" ruby -e 'print $1 if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/appcast-devel.xml"
+>>"$targetdir/appcast-devel.xml.tmp" ruby -e 'print $1.strip if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/appcast-devel.xml"
 
 >>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
+
 
 <!-- update-description-end -->
 <p>

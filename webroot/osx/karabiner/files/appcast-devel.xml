@@ -11,14 +11,15 @@
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
-.update-description p {
-    margin: 5px 0;
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1px;
+    border-style: solid;
 }
-.update-description .update-description-label {
-    float: left;
-    width: 7em;
-    margin-top: 2px;
-    text-align: right;
+.update-description-label {
+    margin-top: .2em;
 }
 .update-description .label {
     display: inline;
@@ -32,32 +33,46 @@
     vertical-align: baseline;
     border-radius: .25em;
 }
-.update-description .label-new {
+.update-description .update-description-body {
+    margin-left: 1em;
+    margin-top: .2em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .label {
     background-color: #337ab7;
 }
-.update-description .label-new:before {
+.update-description-item-new .label:before {
     content: "new";
 }
-.update-description .label-important {
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .label {
     background-color: #d9534f;
 }
-.update-description .label-important:before {
+.update-description-item-important .label:before {
     content: "important";
 }
-.update-description .label-fixed {
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .label {
     background-color: #5cb85c;
 }
-.update-description .label-fixed:before {
+.update-description-item-fixed .label:before {
     content: "fixed";
 }
-.update-description .label-improved {
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .label {
     background-color: #f0ad4e;
 }
-.update-description .label-improved:before {
+.update-description-item-improved .label:before {
     content: "improved";
-}
-.update-description .update-description-body {
-    margin-left: 8em;
 }
 </style>
 
@@ -66,8 +81,9 @@
 <!-- update-description-begin -->
 
 <div class="update-description">
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       "Disable an internal keyboard while external keyboards are connected" setting has been improved.
       <ul>
@@ -75,14 +91,14 @@
         <li>Logitech Bluetooth Mouse M555b has been supported.</li>
       </ul>
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label label"></span></div>
     <div class="update-description-body">
       Prepared settings have been updated.
     </div>
-  </p>
+  </div>
 </div>
 
 <!-- update-description-end -->
@@ -91,10 +107,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 07 Jan 2016 09:46:57 -0000</pubDate>
+      <pubDate>Thu, 07 Jan 2016 10:40:51 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.7.dmg"
                  sparkle:version="10.15.7" length="4069333" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGS4VwB/8SXmODlVvW159kfvk99jAhQENvBplN09lPYhorsTd8TnwpFxYQ=="
+                 sparkle:dsaSignature="MCwCFBDURd3QJ5gw0rcGc6xs6E9bnxfrAhRPedj5bdymvOhw4h2HUD9i3sNxgg=="
                  />
     </item>
 
