@@ -84,47 +84,71 @@ class History < KarabinerBase
   </div>
 
 </div>
-<hr />
 EOS
           :ja => <<EOS,
-<ul>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>
-        <p>
-          キーリピート値の安全のためのリミッターを削除しました。<br />
-          極端に速い値でキーリピート値を上書きできます。
-        </p>
-        <p>
-          以前のバージョンのKarabinerでは、リミッターは200msと5msでした。<br />
-          もしリミッター削除でキーリピートが速くなりすぎたと感じる場合は、キーリピート値を200msと5msに増やしてください。
-        </p>
-      </li>
-      <li>デバッグモードを有効にするためのGUIを設定画面に加えました。</li>
-      <li>設定の追加・更新をしました。</li>
-      <li>
-        「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
-        <ul>
-          <li>Razer DeathAdder Chromaをサポートしました。</li>
-        </ul>
-      </li>
-      <li>Option::KEYTOKEY_DELAYED_ACTIONにおけるModifierFlagの扱いを改善しました</li>
-      <li>
-        自分で設定を追加する人向けの変更点:
-        <ul>
-          <li>エラーメッセージを改善しました。</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Fiji）</li>
-    </ul>
-  </li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      キーリピート値の安全のためのリミッターを削除しました。<br />
+      極端に速い値でキーリピート値を上書きできます。<br />
+      <br />
+      以前のバージョンのKarabinerでは、リミッターは200msと5msでした。<br />
+      もしリミッター削除でキーリピートが速くなりすぎたと感じる場合は、キーリピート値を200msと5msに増やしてください。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      デバッグモードを有効にするためのGUIを設定画面に加えました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
+       <ul>
+         <li>Razer DeathAdder Chromaをサポートしました。</li>
+       </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Option::KEYTOKEY_DELAYED_ACTIONにおけるModifierFlagの扱いを改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      次の問題を修正しました: AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Fiji）
+    </div>
+  </div>
+
+  <hr />
+
+  <h3>自分で設定を追加する人向けの変更点</h3>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      エラーメッセージを改善しました。
+    </div>
+  </div>
+
+</div>
 EOS
         },
       },
