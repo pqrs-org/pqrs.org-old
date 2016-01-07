@@ -52,7 +52,7 @@
     content: "improved";
 }
 .update-description .update-description-body {
-    margin-left: 5em;
+    margin-left: 6em;
 }
 </style>
 
