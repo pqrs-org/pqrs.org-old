@@ -10,49 +10,126 @@
       <title>Version 10.15.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-
-<!-- RENAME_INFORMATION -->
+<style>
+.update-description p {
+    margin: 5px 0;
+}
+.update-description .update-description-label {
+    float: left;
+    width: 7em;
+    margin-top: 2px;
+    text-align: right;
+}
+.update-description .label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.update-description .label-new {
+    background-color: #337ab7;
+}
+.update-description .label-new:before {
+    content: "new";
+}
+.update-description .label-important {
+    background-color: #d9534f;
+}
+.update-description .label-important:before {
+    content: "important";
+}
+.update-description .label-fixed {
+    background-color: #5cb85c;
+}
+.update-description .label-fixed:before {
+    content: "fixed";
+}
+.update-description .label-improved {
+    background-color: #f0ad4e;
+}
+.update-description .label-improved:before {
+    content: "improved";
+}
+.update-description .update-description-body {
+    margin-left: 8em;
+}
+</style>
 
 <h2>About v10.15.0 Update</h2>
-<ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>
-        <p>
-          The safety limit of key repeat rate has been removed.<br />
-          You can overwrite key repeat rate by extreme fast values.
-        </p>
-        <p>
-          The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
-          Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
-        </p>
-      </li>
-      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>
-        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-        <ul>
-          <li>Razer DeathAdder Chroma has been supported.</li>
-        </ul>
-      </li>
-      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
-      <li>
-        Updates for people who add new settings by oneself:
-        <ul>
-          <li>Some error messages have been improved.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
-    </ul>
-  </li>
-</ul>
-<a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+  <p>
+    <div class="update-description-label"><span class="label label-important"></span></div>
+    <div class="update-description-body">
+      The safety limit of key repeat rate has been removed.<br />
+      You can overwrite key repeat rate by extreme fast values.<br />
+      <br />
+      The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
+      Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
+    </div>
+  </p>
+
+  <p>
+    <div class="update-description-label"><span class="label label-new"></span></div>
+    <div class="update-description-body">
+      GUI for enabling debug mode has been added into Karabiner Preferences.
+    </div>
+  </p>
+
+  <p>
+    <div class="update-description-label"><span class="label label-improved"></span></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </p>
+
+  <p>
+    <div class="update-description-label"><span class="label label-improved"></span></div>
+    <div class="update-description-body">
+      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+      <ul>
+        <li>Razer DeathAdder Chroma has been supported.</li>
+      </ul>
+    </div>
+  </p>
+
+  <p>
+    <div class="update-description-label"><span class="label label-improved"></span></div>
+    <div class="update-description-body">
+      ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.
+    </div>
+  </p>
+
+  <p>
+    <div class="update-description-label"><span class="label label-fixed"></span></div>
+    <div class="update-description-body">
+      Fixed issue: Some Java apps might be crash when AXNotifier is enabled. (Fiji)
+    </div>
+  </p>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <p>
+    <div class="update-description-label"><span class="label label-improved"></span></div>
+    <div class="update-description-body">
+      Some error messages have been improved.
+    </div>
+  </p>
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
 ]]>
       </description>
       <pubDate>Mon, 21 Dec 2015 17:56:31 -0000</pubDate>
