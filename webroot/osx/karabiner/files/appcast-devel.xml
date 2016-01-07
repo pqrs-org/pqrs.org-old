@@ -10,25 +10,52 @@
       <title>Version 10.15.7</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-
-<!-- RENAME_INFORMATION -->
+<style>
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.label-new {
+    background-color: #337ab7;
+    content: "new";
+}
+.label-important {
+    background-color: #d9534f;
+    content: "important";
+}
+.label-fixed {
+    background-color: #5cb85c;
+    content: "fixed";
+}
+.label-improved {
+    background-color: #f0ad4e;
+    content: "improved";
+}
+</style>
 
 <h2>About v10.15.7 Update</h2>
-<ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>
-        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-        <ul>
-          <li>Mionix Naos 7000 has been supported.</li>
-          <li>Logitech Bluetooth Mouse M555b has been supported.</li>
-        </ul>
-      </li>
-      <li>Prepared settings have been updated.</li>
-    </ul>
-  </li>
-</ul>
+
+<p>
+  <span class="label label-improved"></span>
+  "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+  <ul>
+    <li>Mionix Naos 7000 has been supported.</li>
+    <li>Logitech Bluetooth Mouse M555b has been supported.</li>
+  </ul>
+</p>
+<p>
+  <span class="label label-improved"></span>
+  Prepared settings have been updated.
+</p>
+
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
       </description>
