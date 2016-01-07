@@ -13,6 +13,7 @@
 <style>
 .update-description p {
     margin: 5px;
+    clear: both;
 }
 .update-description .label {
     display: inline;
@@ -50,6 +51,9 @@
 .update-description .label-improved:before {
     content: "improved";
 }
+.update-description .update-description-body {
+    float: right;
+}
 </style>
 
 <h2>About v10.15.7 Update</h2>
@@ -57,20 +61,26 @@
 <div class="update-description">
   <p>
     <span class="label label-improved"></span>
-    "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-    <ul>
-      <li>Mionix Naos 7000 has been supported.</li>
-      <li>Logitech Bluetooth Mouse M555b has been supported.</li>
-    </ul>
+    <div class="update-description-body">
+      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+      <ul>
+        <li>Mionix Naos 7000 has been supported.</li>
+        <li>Logitech Bluetooth Mouse M555b has been supported.</li>
+      </ul>
+    </div>
   </p>
 
   <p>
     <span class="label label-improved"></span>
-    Prepared settings have been updated.
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
   </p>
   <p>
     <span class="label label-improved"></span>
-    description test.
+    <div class="update-description-body">
+      description test.
+    </div>
   </p>
 </div>
 
