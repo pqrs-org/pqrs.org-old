@@ -1,11 +1,12 @@
-.update-description p {
-    margin: 5px 0;
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1px;
+    border-style: solid;
 }
-.update-description .update-description-label {
-    float: left;
-    width: 7em;
-    margin-top: 2px;
-    text-align: right;
+.update-description-label {
+    margin-top: .2em;
 }
 .update-description .label {
     display: inline;
@@ -19,30 +20,44 @@
     vertical-align: baseline;
     border-radius: .25em;
 }
-.update-description .label-new {
+.update-description .update-description-body {
+    margin-left: 1em;
+    margin-top: .2em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .label {
     background-color: #337ab7;
 }
-.update-description .label-new:before {
+.update-description-item-new .label:before {
     content: "new";
 }
-.update-description .label-important {
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .label {
     background-color: #d9534f;
 }
-.update-description .label-important:before {
+.update-description-item-important .label:before {
     content: "important";
 }
-.update-description .label-fixed {
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .label {
     background-color: #5cb85c;
 }
-.update-description .label-fixed:before {
+.update-description-item-fixed .label:before {
     content: "fixed";
 }
-.update-description .label-improved {
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .label {
     background-color: #f0ad4e;
 }
-.update-description .label-improved:before {
+.update-description-item-improved .label:before {
     content: "improved";
-}
-.update-description .update-description-body {
-    margin-left: 8em;
 }
