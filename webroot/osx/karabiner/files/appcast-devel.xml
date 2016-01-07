@@ -13,7 +13,6 @@
 <style>
 .update-description p {
     margin: 5px;
-    position: relative;
 }
 .update-description .label {
     display: inline;
@@ -53,9 +52,7 @@
     content: "improved";
 }
 .update-description .update-description-body {
-    position: absolute;
-    top: 0;
-    left: 10em;
+    margin-left: 5em;
 }
 </style>
 
@@ -77,12 +74,6 @@
     <span class="label label-improved"></span>
     <div class="update-description-body">
       Prepared settings have been updated.
-    </div>
-  </p>
-  <p>
-    <span class="label label-improved"></span>
-    <div class="update-description-body">
-      description test.
     </div>
   </p>
 </div>
