@@ -11,6 +11,9 @@
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
+p {
+    margin: 0;
+}
 .label {
     display: inline;
     padding: .2em .6em .3em;
@@ -25,18 +28,26 @@
 }
 .label-new {
     background-color: #337ab7;
+}
+.label-new:before {
     content: "new";
 }
 .label-important {
     background-color: #d9534f;
+}
+.label-important:before {
     content: "important";
 }
 .label-fixed {
     background-color: #5cb85c;
+}
+.label-fixed:before {
     content: "fixed";
 }
 .label-improved {
     background-color: #f0ad4e;
+}
+.label-improved:before {
     content: "improved";
 }
 </style>
