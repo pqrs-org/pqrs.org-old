@@ -11,10 +11,10 @@
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
-p.item {
+.update-description p {
     margin: 0;
 }
-.label {
+.update-description .label {
     display: inline;
     padding: .2em .6em .3em;
     font-size: 75%;
@@ -26,46 +26,48 @@ p.item {
     vertical-align: baseline;
     border-radius: .25em;
 }
-.label-new {
+.update-description .label-new {
     background-color: #337ab7;
 }
-.label-new:before {
+.update-description .label-new:before {
     content: "new";
 }
-.label-important {
+.update-description .label-important {
     background-color: #d9534f;
 }
-.label-important:before {
+.update-description .label-important:before {
     content: "important";
 }
-.label-fixed {
+.update-description .label-fixed {
     background-color: #5cb85c;
 }
-.label-fixed:before {
+.update-description .label-fixed:before {
     content: "fixed";
 }
-.label-improved {
+.update-description .label-improved {
     background-color: #f0ad4e;
 }
-.label-improved:before {
+.update-description .label-improved:before {
     content: "improved";
 }
 </style>
 
 <h2>About v10.15.7 Update</h2>
 
-<p class="item">
-  <span class="label label-improved"></span>
-  "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-  <ul>
-    <li>Mionix Naos 7000 has been supported.</li>
-    <li>Logitech Bluetooth Mouse M555b has been supported.</li>
-  </ul>
-</p>
-<p class="item">
-  <span class="label label-improved"></span>
-  Prepared settings have been updated.
-</p>
+<div class="update-description">
+  <p class="item">
+    <span class="label label-improved"></span>
+    "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+    <ul>
+      <li>Mionix Naos 7000 has been supported.</li>
+      <li>Logitech Bluetooth Mouse M555b has been supported.</li>
+    </ul>
+  </p>
+    <p class="item">
+      <span class="label label-improved"></span>
+    Prepared settings have been updated.
+  </p>
+</div>
 
 <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 ]]>
