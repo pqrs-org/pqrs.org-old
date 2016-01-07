@@ -11,7 +11,7 @@
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
-p {
+p.item {
     margin: 0;
 }
 .label {
@@ -54,7 +54,7 @@ p {
 
 <h2>About v10.15.7 Update</h2>
 
-<p>
+<p class="item">
   <span class="label label-improved"></span>
   "Disable an internal keyboard while external keyboards are connected" setting has been improved.
   <ul>
@@ -62,7 +62,7 @@ p {
     <li>Logitech Bluetooth Mouse M555b has been supported.</li>
   </ul>
 </p>
-<p>
+<p class="item">
   <span class="label label-improved"></span>
   Prepared settings have been updated.
 </p>
