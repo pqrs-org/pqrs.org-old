@@ -12,7 +12,7 @@
       <description><![CDATA[
 <style>
 .update-description p {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .update-description .update-description-label {
     float: left;
