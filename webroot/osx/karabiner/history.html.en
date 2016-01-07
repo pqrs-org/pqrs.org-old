@@ -11,6 +11,7 @@
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
     <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+    <link href="/css/sparkle.css?1452163974" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
 
@@ -129,45 +130,72 @@ Dec 21, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>
-        <p>
-          The safety limit of key repeat rate has been removed.<br />
-          You can overwrite key repeat rate by extreme fast values.
-        </p>
-        <p>
-          The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
-          Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
-        </p>
-      </li>
-      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>
-        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-        <ul>
-          <li>Razer DeathAdder Chroma has been supported.</li>
-        </ul>
-      </li>
-      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
-      <li>
-        Updates for people who add new settings by oneself:
-        <ul>
-          <li>Some error messages have been improved.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
-    </ul>
-  </li>
-</ul>
+      <div style="margin-left: 2em">
+        <div class="update-description">
 
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      The safety limit of key repeat rate has been removed.<br />
+      You can overwrite key repeat rate by extreme fast values.<br />
+      <br />
+      The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
+      Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      GUI for enabling debug mode has been added into Karabiner Preferences.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+      <ul>
+        <li>Razer DeathAdder Chroma has been supported.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Fixed issue: Some Java apps might be crash when AXNotifier is enabled. (Fiji)
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Some error messages have been improved.
+    </div>
+  </div>
+
+</div>
+<hr />
+
+      </div>
       <h2>
         Version 10.14.0
           <small>
@@ -177,7 +205,8 @@ Nov 5, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     New functions and improvements:
     <ul>
@@ -192,6 +221,7 @@ Nov 5, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.13.0
           <small>
@@ -201,7 +231,8 @@ Nov 2, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     New functions and improvements:
     <ul>
@@ -223,6 +254,7 @@ Nov 2, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.11.0
           <small>
@@ -232,7 +264,8 @@ Oct 10, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Fixed issues:
     <ul>
@@ -242,6 +275,7 @@ Oct 10, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.10.0
           <small>
@@ -251,7 +285,8 @@ Oct 8, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     New functions and improvements:
     <ul>
@@ -282,6 +317,7 @@ Oct 8, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.9.0
           <small>
@@ -291,7 +327,8 @@ Sep 7, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Incompatibility changes:
     <ul>
@@ -332,6 +369,7 @@ Sep 7, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.8.0
           <small>
@@ -341,7 +379,8 @@ Aug 24, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     New functions and improvements:
     <ul>
@@ -372,6 +411,7 @@ Aug 24, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.7.0
           <small>
@@ -381,7 +421,8 @@ Aug 10, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Incompatibility changes:
     <ul>
@@ -436,6 +477,7 @@ Aug 10, 2015          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.6.0
           <small>
@@ -445,7 +487,8 @@ Jan 13, 2015          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     A following prepared setting has been fixed.
     <ul>
@@ -456,6 +499,7 @@ Jan 13, 2015          </small>
   <li>Prepared settings have been updated.</li>
 </ul>
 
+      </div>
       <h2>
         Version 10.5.0
           <small>
@@ -465,7 +509,8 @@ Dec 12, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Fixed issues:
     <ul>
@@ -494,6 +539,7 @@ Dec 12, 2014          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.4.0
           <small>
@@ -503,10 +549,12 @@ Oct 14, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>A broken prepared setting has been fixed.</li>
 </ul>
 
+      </div>
       <h2>
         Version 10.3.0
           <small>
@@ -516,7 +564,8 @@ Oct 7, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Stability at reloading XML has been improved.</li>
   <li>OS X 10.10 support has been improved.</li>
   <li>Prepared settings have been updated.</li>
@@ -544,6 +593,7 @@ Oct 7, 2014          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.2.0
           <small>
@@ -553,7 +603,8 @@ Aug 20, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Fixed issues:
     <ul>
@@ -574,6 +625,7 @@ Aug 20, 2014          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 10.1.0
           <small>
@@ -583,7 +635,8 @@ Jul 21, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Fixed issues:
     <ul>
@@ -602,6 +655,7 @@ Jul 21, 2014          </small>
   <li>Some minor improvements.</li>
 </ul>
 
+      </div>
       <h2>
         Version 10.0.0
           <small>
@@ -611,7 +665,8 @@ Jul 9, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>KeyRemap4MacBook has been renamed to "Karabiner".</li>
   <li>
     AXNotifier has been added. <br />
@@ -713,6 +768,7 @@ Jul 9, 2014          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 9.3.0
           <small>
@@ -722,7 +778,8 @@ Feb 15, 2014          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Fixed an issue:
     <ul>
@@ -777,6 +834,7 @@ Feb 15, 2014          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 9.2.0
           <small>
@@ -786,7 +844,8 @@ Nov 29, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
     If you need to restart system for some reason, KeyRemap4MacBook will show an alert which urges you to restart.
@@ -800,6 +859,7 @@ Nov 29, 2013          </small>
   <li>Updated some prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 9.0.0
           <small>
@@ -809,7 +869,8 @@ Nov 15, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Optimized for OS X 10.9. <br />
     KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
   <li>Added delay configurations into multi-touch extension.</li>
@@ -828,6 +889,7 @@ Nov 15, 2013          </small>
   <li>Signed with Developer ID.</li>
 </ul>
 
+      </div>
       <h2>
         Version 8.4.0
           <small>
@@ -837,7 +899,8 @@ Sep 23, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
   <li>
     Updates for people who add new settings by oneself:
@@ -851,6 +914,7 @@ Sep 23, 2013          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 8.3.0
           <small>
@@ -860,11 +924,13 @@ May 19, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
   <li>Some minor improvements.</li>
 </ul>
 
+      </div>
       <h2>
         Version 8.2.0
           <small>
@@ -874,12 +940,14 @@ May 17, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
   <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
   <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
 </ul>
 
+      </div>
       <h2>
         Version 8.1.0
           <small>
@@ -889,7 +957,8 @@ May 12, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Power button remapping has been supported. (Thanks to Peter Kamb who is the author of PowerKey.)</li>
   <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
   <li>Added some styles into status message indicator.</li>
@@ -917,6 +986,7 @@ May 12, 2013          </small>
   <li>Some minor improvements.</li>
 </ul>
 
+      </div>
       <h2>
         Version 8.0.0
           <small>
@@ -926,7 +996,8 @@ Jan 30, 2013          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Preferences has been integrated into app.</li>
   <li>Integrated a status message indicator. (Removed Growl support.)</li>
   <li>Added a preference of ignored area into "multi-touch extension".</li>
@@ -939,6 +1010,7 @@ Jan 30, 2013          </small>
   <li>Some minor improvements.</li>
 </ul>
 
+      </div>
       <h2>
         Version 7.8.0
           <small>
@@ -948,12 +1020,14 @@ Jun 26, 2012          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
   <li>Fixed an issue that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
   <li>Some minor improvements.</li>
 </ul>
 
+      </div>
       <h2>
         Version 7.7.0
           <small>
@@ -963,10 +1037,12 @@ May 9, 2012          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
 </ul>
 
+      </div>
       <h2>
         Version 7.6.0
           <small>
@@ -976,7 +1052,8 @@ May 8, 2012          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Improved XML processing engine. (XML reloading is 2x faster.)</li>
   <li>Some minor improvements.</li>
   <li>Increased prepared settings.</li>
@@ -992,6 +1069,7 @@ May 8, 2012          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 7.5.0
           <small>
@@ -1001,7 +1079,8 @@ Nov 2, 2011          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Support Growl-1.3 on notifications.</li>
   <li>Some minor improvements.</li>
   <li>Resolved a minor installer issue.</li>
@@ -1023,6 +1102,7 @@ Nov 2, 2011          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 7.4.0
           <small>
@@ -1032,7 +1112,8 @@ Aug 23, 2011          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Some improvements on Mac OS X 10.7 (Lion).</li>
   <li>
     Removed "General &gt; Enable CapsLock LED Hack" from preferences.<br />
@@ -1058,6 +1139,7 @@ Aug 23, 2011          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 7.3.0
           <small>
@@ -1067,7 +1149,8 @@ May 17, 2011          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Improved stability when using Sticky Keys in Universal Access.</li>
   <li>Improved stability when using multi-touch extension together.</li>
   <li>Improved "Lazy-Modifier (KeyCode::VK_LAZY_*)" behavior.</li>
@@ -1083,6 +1166,7 @@ May 17, 2011          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 7.2.0
           <small>
@@ -1092,13 +1176,15 @@ Mar 8, 2011          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue that Growl notification did not work in specific environment.</li>
   <li>Fixed an issue that the default setting of checkForUpdate was "Nothing".</li>
   <li>Improved multi-touch extension around sleep/wakeup.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 7.1.0
           <small>
@@ -1108,7 +1194,8 @@ Feb 22, 2011          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac OS X.<br />
     Activate "Change KeyPad Key &gt; Logitech Number Pad Hack".
@@ -1134,6 +1221,7 @@ Feb 22, 2011          </small>
   </li>
 </ul>
 
+      </div>
       <h2>
         Version 7.0.0
           <small>
@@ -1143,7 +1231,8 @@ Dec 14, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Now, you can add your original settings very very easily.<br />
     <a href="document.html.en#privatexml">How to add new settings.</a><br />
@@ -1157,6 +1246,7 @@ Dec 14, 2010          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.9.0
           <small>
@@ -1166,7 +1256,8 @@ Sep 14, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Improved "Simultaneous Vi Mode" behavior. You can use Vi style navigation (hjkl) on all applications.</li>
   <li>Fixed a problem that a broken package may be generated depending on environment when we build a package from a source code.</li>
   <li>Fixed a problem which slight setting did not work properly.</li>
@@ -1174,6 +1265,7 @@ Sep 14, 2010          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.8.0
           <small>
@@ -1183,7 +1275,8 @@ Jul 27, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>
     Changed the default value of key repeat wait.<br />
     Please set "[Key Repeat] wait" to "30ms" from "Key Repeat" tab if you prefer the previous default value.
@@ -1194,6 +1287,7 @@ Jul 27, 2010          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.7.0
           <small>
@@ -1203,10 +1297,12 @@ May 15, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed the problem that a key and a mouse were not changed when we used KeyRemap4MacBook-6.6.0 with USB Overdrive.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.6.0
           <small>
@@ -1216,7 +1312,8 @@ May 11, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added a function to define effective setting only with a specific keyboard. For example, "Change Control_L to Command_L" only in Happy Hacking Keyboard.</li>
   <li>Added a function of "Simultaneous Key Presses" re-mapping.</li>
   <li>Added virtual modifiers (ModifierFlag::EXTRA1 - ModifierFlag::EXTRA5).</li>
@@ -1224,6 +1321,7 @@ May 11, 2010          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.5.0
           <small>
@@ -1233,7 +1331,8 @@ Mar 16, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added the key repeat feature to re-mapped functional keys (volume adjustment, etc),</li>
   <li>Added an Event Viewer application that could confirm a key event, a mouse event.</li>
   <li>Merged the configuration GUI of menu bar to the system preference pane.</li>
@@ -1243,6 +1342,7 @@ Mar 16, 2010          </small>
   <li>Fixed some issues.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.4.0
           <small>
@@ -1252,12 +1352,14 @@ Jan 21, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Improved stability when using with the driver of the 3rd vender such as "Logitech Control Center".</li>
   <li>Fixed a mouse drag movement when convert a key into a mouse click.</li>
   <li>Improved Paralles Desktop support at the recognition of the application.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.3.0
           <small>
@@ -1267,7 +1369,8 @@ Jan 5, 2010          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Supported Fast User Switching.</li>
   <li>Added software update feature.</li>
   <li>Improved the movement of the re-mapping.</li>
@@ -1276,6 +1379,7 @@ Jan 5, 2010          </small>
   <li>Fixed some issues.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.2.0
           <small>
@@ -1285,10 +1389,12 @@ Nov 12, 2009          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed the issue that the server process crashes in English environment.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.1.0
           <small>
@@ -1298,12 +1404,14 @@ Nov 11, 2009          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Changed to enable the remapping of the third vendor's devices by default.</li>
   <li>Fixed the memory leak of the server process.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 6.0.0
           <small>
@@ -1313,7 +1421,8 @@ Oct 8, 2009          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Stable release for Snow Leopard.</li>
   <li>Fixed the third vendor's keyboard/mouse handling.</li>
   <li>Fixed the issue that the fn key doesn't work when "Don't Remap the Internal/External Keyboard" is activated.</li>
@@ -1326,6 +1435,7 @@ Oct 8, 2009          </small>
   <li>Misc changes.</li>
 </ul>
 
+      </div>
       <h2>
         Version 5.1.0
           <small>
@@ -1335,7 +1445,8 @@ May 26, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed the kernel panic after returning from hibernation.</li>
   <li>Fixed the kernel panic when all keyboard are detached on iMac.</li>
   <li>Fixed the issue which "SettingList" didn't work on some environment.</li>
@@ -1343,6 +1454,7 @@ May 26, 2008          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 5.0.0
           <small>
@@ -1352,7 +1464,8 @@ May 7, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added the multi-user support.</li>
   <li>Added the multiple settings per user.</li>
   <li>Added remappings which are effective at only specific applications. (ex. Return -&gt; CMD+O only in Finder).</li>
@@ -1360,6 +1473,7 @@ May 7, 2008          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 4.0.0
           <small>
@@ -1369,7 +1483,8 @@ Apr 2, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed an issue which disable any remappings when you logged out.</li>
   <li>Added the feature to enable remapping for only inside keyboard or an outside keyboard.</li>
   <li>Supported PointingDevice remappings (Key to Mouseclick, Fn+CursorMove to ScrollWheel).</li>
@@ -1377,6 +1492,7 @@ Apr 2, 2008          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 3.2.0
           <small>
@@ -1386,7 +1502,8 @@ Feb 29, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added an existence check of DoubleCommand to installer. If DoubleCommand has already installed, the installation will be aborted.</li>
   <li>Support PowerBook G4 &amp; iBook.</li>
   <li>Fixed the key repeat issue on VMware + emacsmode.</li>
@@ -1394,6 +1511,7 @@ Feb 29, 2008          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 3.1.0
           <small>
@@ -1403,12 +1521,14 @@ Feb 18, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Correct the key repeat behavior.</li>
   <li>Fixed a minor PreferencePane issue.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 3.0.0
           <small>
@@ -1418,7 +1538,8 @@ Feb 4, 2008          </small>
               Download
           </a>
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added PreferencePane. Now, you can configure by System Preferences.</li>
   <li>Added Key Repeat feature.</li>
   <li>Improved handling of CapsLock.</li>
@@ -1426,112 +1547,133 @@ Feb 4, 2008          </small>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 2.3.0
           <small>
 Dec 15, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed the issue around arrow keys and delete key when remap.fn2* is enable.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 2.2.0
           <small>
 Nov 29, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Fixed the issue around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
   <li>Support PowerBook enter key.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 2.1.0
           <small>
 Nov 15, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 2.0.0
           <small>
 Nov 1, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Added support for Leopard.</li>
   <li>Added support for PowerBook restrictively.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.5.0
           <small>
 Oct 10, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.4.0
           <small>
 Sep 9, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.3.0
           <small>
 Aug 15, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Updated StartupScript.</li>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.2.0
           <small>
 Jun 10, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Increased prepared settings.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.0.2
           <small>
 Feb 5, 2007          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Universal Binary.</li>
 </ul>
 
+      </div>
       <h2>
         Version 1.0.1
           <small>
 Oct 9, 2006          </small>
 
       </h2>
-      <ul>
+      <div style="margin-left: 2em">
+        <ul>
   <li>Initial release.</li>
 </ul>
 
+      </div>
   </section>
 </div>
 

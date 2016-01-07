@@ -22,44 +22,69 @@ class History < KarabinerBase
         :link => 'files/Karabiner-10.15.0.dmg',
         :body_l10n => {
           :en => <<EOS,
-<ul>
-  <li>
-    New functions and improvements:
-    <ul>
-      <li>
-        <p>
-          The safety limit of key repeat rate has been removed.<br />
-          You can overwrite key repeat rate by extreme fast values.
-        </p>
-        <p>
-          The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
-          Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
-        </p>
-      </li>
-      <li>GUI for enabling debug mode has been added into Karabiner Preferences.</li>
-      <li>Prepared settings have been updated.</li>
-      <li>
-        "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-        <ul>
-          <li>Razer DeathAdder Chroma has been supported.</li>
-        </ul>
-      </li>
-      <li>ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.</li>
-      <li>
-        Updates for people who add new settings by oneself:
-        <ul>
-          <li>Some error messages have been improved.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    Fixed issues:
-    <ul>
-      <li>Some Java apps might be crash when AXNotifier is enabled. (Fiji)</li>
-    </ul>
-  </li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      The safety limit of key repeat rate has been removed.<br />
+      You can overwrite key repeat rate by extreme fast values.<br />
+      <br />
+      The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
+      Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      GUI for enabling debug mode has been added into Karabiner Preferences.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+      <ul>
+        <li>Razer DeathAdder Chroma has been supported.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Fixed issue: Some Java apps might be crash when AXNotifier is enabled. (Fiji)
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-body">
+      Some error messages have been improved.
+    </div>
+  </div>
+
+</div>
+<hr />
 EOS
           :ja => <<EOS,
 <ul>
