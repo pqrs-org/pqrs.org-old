@@ -11,14 +11,15 @@
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
-.update-description p {
+.update-description-item {
     margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1px;
+    border-style: solid;
 }
-.update-description .update-description-label {
-    float: left;
-    width: 7em;
-    margin-top: 3px;
-    text-align: right;
+.update-description-label {
+    margin-top: .2em;
 }
 .update-description .label {
     display: inline;
@@ -32,32 +33,46 @@
     vertical-align: baseline;
     border-radius: .25em;
 }
-.update-description .label-new {
+.update-description .update-description-body {
+    margin-left: 1em;
+    margin-top: .2em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .label {
     background-color: #337ab7;
 }
-.update-description .label-new:before {
+.update-description-item-new .label:before {
     content: "new";
 }
-.update-description .label-important {
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .label {
     background-color: #d9534f;
 }
-.update-description .label-important:before {
+.update-description-item-important .label:before {
     content: "important";
 }
-.update-description .label-fixed {
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .label {
     background-color: #5cb85c;
 }
-.update-description .label-fixed:before {
+.update-description-item-fixed .label:before {
     content: "fixed";
 }
-.update-description .label-improved {
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .label {
     background-color: #f0ad4e;
 }
-.update-description .label-improved:before {
+.update-description-item-improved .label:before {
     content: "improved";
-}
-.update-description .update-description-body {
-    margin-left: 8em;
 }
 </style>
 
@@ -66,8 +81,9 @@
 <!-- update-description-begin -->
 
 <div class="update-description">
-  <p>
-    <div class="update-description-label"><span class="label label-important"></span></div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       The safety limit of key repeat rate has been removed.<br />
       You can overwrite key repeat rate by extreme fast values.<br />
@@ -75,55 +91,55 @@
       The limit was 200 ms and 5 ms in the previous versions of Karabiner.<br />
       Please increase the key repeat values to 200 ms and 5 ms if you feel new key repeat is too fast.
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-new"></span></div>
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       GUI for enabling debug mode has been added into Karabiner Preferences.
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       Prepared settings have been updated.
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       "Disable an internal keyboard while external keyboards are connected" setting has been improved.
       <ul>
         <li>Razer DeathAdder Chroma has been supported.</li>
       </ul>
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.
     </div>
-  </p>
+  </div>
 
-  <p>
-    <div class="update-description-label"><span class="label label-fixed"></span></div>
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       Fixed issue: Some Java apps might be crash when AXNotifier is enabled. (Fiji)
     </div>
-  </p>
+  </div>
 
   <hr />
   <h3>Updates for people who add new settings by oneself</h3>
 
-  <p>
-    <div class="update-description-label"><span class="label label-improved"></span></div>
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"><span class="label"></span></div>
     <div class="update-description-body">
       Some error messages have been improved.
     </div>
-  </p>
+  </div>
 </div>
 
 <!-- update-description-end -->
