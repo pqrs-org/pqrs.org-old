@@ -13,7 +13,6 @@
 <style>
 .update-description p {
     margin: 5px;
-    clear: both;
 }
 .update-description .label {
     display: inline;
@@ -51,6 +50,11 @@
 }
 .update-description .label-improved:before {
     content: "improved";
+}
+.update-description .update-description-body {
+    position: absolute;
+    top: 0;
+    left: 10em;
 }
 </style>
 
