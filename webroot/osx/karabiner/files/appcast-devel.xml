@@ -13,6 +13,7 @@
 <style>
 .update-description p {
     margin: 5px;
+    position: relative;
 }
 .update-description .label {
     display: inline;
