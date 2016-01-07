@@ -55,7 +55,7 @@
 <h2>About v10.15.7 Update</h2>
 
 <div class="update-description">
-  <p class="item">
+  <p>
     <span class="label label-improved"></span>
     "Disable an internal keyboard while external keyboards are connected" setting has been improved.
     <ul>
@@ -63,13 +63,16 @@
       <li>Logitech Bluetooth Mouse M555b has been supported.</li>
     </ul>
   </p>
-    <p class="item">
-      <span class="label label-improved"></span>
+
+  <p>
+    <span class="label label-improved"></span>
     Prepared settings have been updated.
   </p>
 </div>
 
-<a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
 ]]>
       </description>
       <pubDate>Thu, 07 Jan 2016 05:44:48 -0000</pubDate>
