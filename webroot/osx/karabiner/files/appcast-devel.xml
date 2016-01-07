@@ -26,6 +26,7 @@
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25em;
+    float: left;
 }
 .update-description .label-new {
     background-color: #337ab7;
@@ -50,9 +51,6 @@
 }
 .update-description .label-improved:before {
     content: "improved";
-}
-.update-description .update-description-body {
-    float: right;
 }
 </style>
 
