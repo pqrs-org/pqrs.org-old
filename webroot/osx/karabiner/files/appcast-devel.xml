@@ -10,56 +10,7 @@
       <title>Version 10.15.7</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<style>
-.update-description p {
-    margin: 5px 0;
-}
-.update-description .update-description-label {
-  float: left;
-  width: 7em;
-  margin-top: 2px;
-  text-align: right;
-}
-.update-description .label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
-}
-.update-description .label-new {
-    background-color: #337ab7;
-}
-.update-description .label-new:before {
-    content: "new";
-}
-.update-description .label-important {
-    background-color: #d9534f;
-}
-.update-description .label-important:before {
-    content: "important";
-}
-.update-description .label-fixed {
-    background-color: #5cb85c;
-}
-.update-description .label-fixed:before {
-    content: "fixed";
-}
-.update-description .label-improved {
-    background-color: #f0ad4e;
-}
-.update-description .label-improved:before {
-    content: "improved";
-}
-.update-description .update-description-body {
-    margin-left: 8em;
-}
-</style>
+<link href="//css/sparkle.css" rel="stylesheet" />
 
 <h2>About v10.15.7 Update</h2>
 
