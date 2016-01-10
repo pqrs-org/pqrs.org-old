@@ -357,13 +357,44 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
-  <li>「NoEjectDelay Utility.app」ユーティリティを追加しました。</li>
-  <li>アンインストーラを同梱しました。</li>
-  <li>OS X 10.10をサポート対象から外しました。</li>
-  <li>OS X 10.9をサポート対象から外しました。</li>
-  <li>ファイルの場所を/Library/org.pqrs/NoEjectDelayから/Library/Application Support/org.pqrs/NoEjectDelayに移動しました。</li>
-</ul>
+          <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10をサポート対象から外しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9をサポート対象から外しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「NoEjectDelay Utility.app」ユーティリティを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      アンインストーラを同梱しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ファイルの場所を/Library/org.pqrs/NoEjectDelayから/Library/Application Support/org.pqrs/NoEjectDelayに移動しました。
+    </div>
+  </div>
+
+</div>
 
           <h2>
             Version 6.1.0

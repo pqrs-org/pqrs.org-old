@@ -73,22 +73,84 @@ class Noejectdelay < KarabinerBase
               :link => 'files/NoEjectDelay-7.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
-<ul>
-  <li>An utility application "NoEjectDelay Utility.app" has been added.</li>
-  <li>Uninstaller has been bundled.</li>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      An utility application "NoEjectDelay Utility.app" has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Uninstaller has been bundled.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".
+    </div>
+  </div>
+
+</div>
 EOS
                 :ja => <<EOS,
-<ul>
-  <li>「NoEjectDelay Utility.app」ユーティリティを追加しました。</li>
-  <li>アンインストーラを同梱しました。</li>
-  <li>OS X 10.10をサポート対象から外しました。</li>
-  <li>OS X 10.9をサポート対象から外しました。</li>
-  <li>ファイルの場所を/Library/org.pqrs/NoEjectDelayから/Library/Application Support/org.pqrs/NoEjectDelayに移動しました。</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10をサポート対象から外しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9をサポート対象から外しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「NoEjectDelay Utility.app」ユーティリティを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      アンインストーラを同梱しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ファイルの場所を/Library/org.pqrs/NoEjectDelayから/Library/Application Support/org.pqrs/NoEjectDelayに移動しました。
+    </div>
+  </div>
+
+</div>
 EOS
               },
             },

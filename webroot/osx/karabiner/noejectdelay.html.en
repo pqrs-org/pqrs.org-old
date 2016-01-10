@@ -362,13 +362,44 @@ Oct 3, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
-  <li>An utility application "NoEjectDelay Utility.app" has been added.</li>
-  <li>Uninstaller has been bundled.</li>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
-</ul>
+          <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      An utility application "NoEjectDelay Utility.app" has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Uninstaller has been bundled.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".
+    </div>
+  </div>
+
+</div>
 
           <h2>
             Version 6.1.0
