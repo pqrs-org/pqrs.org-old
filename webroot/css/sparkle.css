@@ -2,23 +2,16 @@
     margin: 10px 0;
     padding: 0;
     border-radius: .25em;
-    border-width: 1px;
+    border-width: 1.5em 1px 1px 1px;
     border-style: solid;
 }
 .update-description-label {
-    margin-top: .2em;
-}
-.update-description .label {
-    display: inline;
-    padding: .2em .6em .3em;
+    margin: -1.5em 0 0 0.5em;
+    padding: 0;
     font-size: 75%;
     font-weight: 700;
     line-height: 1;
     color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
 }
 .update-description .update-description-body {
     margin-left: 1em;
@@ -28,36 +21,24 @@
 .update-description-item-new {
     border-color: #337ab7;
 }
-.update-description-item-new .label {
-    background-color: #337ab7;
-}
-.update-description-item-new .label:before {
+.update-description-item-new .update-description-label:before {
     content: "new";
 }
 .update-description-item-important {
     border-color: #d9534f;
 }
-.update-description-item-important .label {
-    background-color: #d9534f;
-}
-.update-description-item-important .label:before {
+.update-description-item-important .update-description-label:before {
     content: "important";
 }
 .update-description-item-fixed {
     border-color: #5cb85c;
 }
-.update-description-item-fixed .label {
-    background-color: #5cb85c;
-}
-.update-description-item-fixed .label:before {
+.update-description-item-fixed .update-description-label:before {
     content: "fixed";
 }
 .update-description-item-improved {
     border-color: #f0ad4e;
 }
-.update-description-item-improved .label {
-    background-color: #f0ad4e;
-}
-.update-description-item-improved .label:before {
+.update-description-item-improved .update-description-label:before {
     content: "improved";
 }

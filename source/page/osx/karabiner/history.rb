@@ -25,7 +25,7 @@ class History < KarabinerBase
 <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       The safety limit of key repeat rate has been removed.<br />
       You can overwrite key repeat rate by extreme fast values.<br />
@@ -36,21 +36,21 @@ class History < KarabinerBase
   </div>
 
   <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       GUI for enabling debug mode has been added into Karabiner Preferences.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       Prepared settings have been updated.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       "Disable an internal keyboard while external keyboards are connected" setting has been improved.
       <ul>
@@ -60,14 +60,14 @@ class History < KarabinerBase
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       ModifierFlag treatment has been improved in Option::KEYTOKEY_DELAYED_ACTION.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed issue: Some Java apps might be crash when AXNotifier is enabled. (Fiji)
     </div>
@@ -77,7 +77,7 @@ class History < KarabinerBase
   <h3>Updates for people who add new settings by oneself</h3>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       Some error messages have been improved.
     </div>
@@ -89,7 +89,7 @@ EOS
 <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       キーリピート値の安全のためのリミッターを削除しました。<br />
       極端に速い値でキーリピート値を上書きできます。<br />
@@ -100,21 +100,21 @@ EOS
   </div>
 
   <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       デバッグモードを有効にするためのGUIを設定画面に加えました。
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       設定の追加・更新をしました。
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
        <ul>
@@ -124,14 +124,14 @@ EOS
   </div>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       Option::KEYTOKEY_DELAYED_ACTIONにおけるModifierFlagの扱いを改善しました。
     </div>
   </div>
 
   <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       次の問題を修正しました: AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Fiji）
     </div>
@@ -142,7 +142,7 @@ EOS
   <h3>自分で設定を追加する人向けの変更点</h3>
 
   <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"><span class="label"></span></div>
+    <div class="update-description-label"></div>
     <div class="update-description-body">
       エラーメッセージを改善しました。
     </div>
