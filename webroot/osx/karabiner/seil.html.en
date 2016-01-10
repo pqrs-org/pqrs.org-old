@@ -557,7 +557,8 @@ Dec 4, 2015              </small>
                   Download
               </a>
           </h2>
-          <div class="update-description">
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -596,6 +597,7 @@ Dec 4, 2015              </small>
 
 </div>
 
+          </div>
           <h2>
             Version 11.3.0
               <small>
@@ -605,7 +607,8 @@ Aug 8, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     Fixed an issue:
     <ul>
@@ -614,6 +617,7 @@ Aug 8, 2015              </small>
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 11.2.0
               <small>
@@ -623,11 +627,13 @@ Jun 9, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.11 has been supported.</li>
   <li>Fast User Switching support has been improved.</li>
 </ul>
 
+          </div>
           <h2>
             Version 11.1.0
               <small>
@@ -637,10 +643,12 @@ May 6, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>List of known key code has been updated.</li>
 </ul>
 
+          </div>
           <h2>
             Version 11.0.0
               <small>
@@ -650,12 +658,14 @@ Dec 5, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.10 support has been improved.</li>
   <li>OS X 10.8 support has been dropped.</li>
   <li>List of known key code has been updated.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.11.0
               <small>
@@ -665,11 +675,13 @@ Aug 30, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Preferences UI has been updated.</li>
   <li>"Check for updates" (Sparkle) has been updated.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.10.0
               <small>
@@ -679,7 +691,8 @@ Jul 22, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     Fixed an issue:
     <ul>
@@ -690,6 +703,7 @@ Jul 22, 2014              </small>
   <li>SteelSeries Apex Gaming Keyboard has been supported.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.9.0
               <small>
@@ -699,7 +713,8 @@ Jun 22, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     Fixed issues:
     <ul>
@@ -709,6 +724,7 @@ Jun 22, 2014              </small>
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 10.8.0
               <small>
@@ -718,10 +734,12 @@ Jun 18, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>PCKeyboardHack has been renamed to "Seil" since version 10.8.0.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.7.0
               <small>
@@ -731,11 +749,13 @@ Jun 3, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Supported OS X 10.10.</li>
   <li>Changed a way to launch at login. (LaunchAgents -&gt; Login Items)</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.6.0
               <small>
@@ -745,10 +765,12 @@ Mar 14, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>A command line interface (PCKeyboardHack_cli) has been added.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.5.0
               <small>
@@ -758,7 +780,8 @@ Jan 26, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     Fixed issues:
     <ul>
@@ -767,6 +790,7 @@ Jan 26, 2014              </small>
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 10.4.0
               <small>
@@ -776,7 +800,8 @@ Dec 1, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     PCKeyboardHack no longer requires system restart at installing or upgrading. <br />
     If you need to restart system for some reason, PCKeyboardHack will show an alert which urges you to restart.
@@ -784,6 +809,7 @@ Dec 1, 2013              </small>
   <li>Added a remappable key: Application Key (Menu Key) on PC keyboard.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.2.0
               <small>
@@ -793,11 +819,13 @@ Nov 10, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Signed kext with Developer ID.</li>
   <li>Updated installer.</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.0.0
               <small>
@@ -807,12 +835,14 @@ Oct 20, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Supported OS X 10.9.</li>
   <li>Icons have been updated. (Thanks to Kouji TAMURA.)</li>
   <li>Signed with Developer ID.</li>
 </ul>
 
+          </div>
           <h2>
             Version 9.0.0
               <small>
@@ -822,11 +852,13 @@ Jan 13, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>The preferences has been integrated into app.</li>
   <li>Some minor improvements.</li>
 </ul>
 
+          </div>
           <h2>
             Version 8.0.0
               <small>
@@ -836,10 +868,12 @@ Aug 11, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Update for OS X 10.8 Mountain Lion.</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.4.0
               <small>
@@ -849,10 +883,12 @@ Apr 24, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Changed package archive format to dmg from zip.</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.3.0
               <small>
@@ -862,11 +898,13 @@ Feb 21, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Added a remappable key: International Keys, Lang Keys and keys on Sun Type6 Keyboard.</li>
   <li>Updated source code for Xcode 4.3.</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.2.0
               <small>
@@ -876,11 +914,13 @@ Oct 26, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Added a remappable key: ADB Keyboard Power Key.</li>
   <li>Resolved a minor installer issue.</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.1.0
               <small>
@@ -890,12 +930,14 @@ Aug 16, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Added remappable keys: Command, Control, Option, Shift, Escape, Delete, Return, Keypad Enter.</li>
   <li>Added software update feature.</li>
   <li>Fixed a minor issue on Mac OS X 10.7.</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.0.0
               <small>
@@ -905,11 +947,13 @@ Jul 23, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Update for Mac OS X 10.7 Lion.</li>
   <li>Removed "Change Control Key" feature. Use KeyRemap4MacBook to do it.</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.3.0
               <small>
@@ -919,10 +963,12 @@ May 11, 2010              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Improved a log message.</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.2.0
               <small>
@@ -932,10 +978,12 @@ Jan 20, 2010              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Improved the Preference Pane.</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.1.0
               <small>
@@ -945,10 +993,12 @@ Jan 5, 2010              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Supported Fast User Switching.</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.0.0
               <small>
@@ -958,10 +1008,12 @@ Sep 13, 2009              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Stable release for Snow Leopard..</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.1.0
               <small>
@@ -971,10 +1023,12 @@ May 26, 2008              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Minor Improvements.</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.0.0
               <small>
@@ -984,20 +1038,24 @@ May 7, 2008              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Minor Improvements.</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.3.0
               <small>
 Dec 15, 2007              </small>
 
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Initial release.</li>
 </ul>
 
+          </div>
       </section>
     </div>
     <div class="col-md-3">

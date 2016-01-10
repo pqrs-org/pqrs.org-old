@@ -444,7 +444,8 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <div class="update-description">
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -476,6 +477,7 @@ src="img/dmg.png" width="128" height="128"              />
 
 </div>
 
+          </div>
           <h2>
             Version 2.2.0
               <small>
@@ -485,11 +487,13 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>「Check for updates（Sparkle）」を更新しました。</li>
   <li>Closeボタンを追加しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.1.0
               <small>
@@ -499,11 +503,13 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>複数のディスプレイの扱いを改善しました。各ディスプレイにカラーバーが表示されます。</li>
   <li>Quitボタンを追加しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.0.0
               <small>
@@ -513,11 +519,13 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>「Check for updates（Sparkle）」を更新しました。</li>
   <li>サポートOSを「OS X 10.7以降」に変更しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.8.0
               <small>
@@ -527,10 +535,12 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>マルチディスプレイをサポートしました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.7.0
               <small>
@@ -540,11 +550,13 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>設定に「Indicator opacity」を追加しました。</li>
   <li>Developer IDで署名しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.6.0
               <small>
@@ -554,12 +566,14 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>設定に「Use custom frame」を追加しました。</li>
   <li>設定に「Show icon in Dock」を追加しました。</li>
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.4.0
               <small>
@@ -569,10 +583,12 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>ファイルのパーミッションを修正。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.3.0
               <small>
@@ -582,10 +598,12 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>最初のリリース。</li>
 </ul>
 
+          </div>
       </section>
     </div>
     <div class="col-md-3">

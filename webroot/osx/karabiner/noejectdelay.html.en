@@ -362,7 +362,8 @@ Oct 3, 2015              </small>
                   Download
               </a>
           </h2>
-          <div class="update-description">
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -401,6 +402,7 @@ Oct 3, 2015              </small>
 
 </div>
 
+          </div>
           <h2>
             Version 6.1.0
               <small>
@@ -410,10 +412,12 @@ Jun 9, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.11 has been supported.</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.0.0
               <small>
@@ -423,11 +427,13 @@ Nov 1, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.10 has been supported.</li>
   <li>OS X 10.8 support has been dropped.</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.4.0
               <small>
@@ -437,7 +443,8 @@ Feb 27, 2014              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     Fixed an issue:
     <ul>
@@ -446,6 +453,7 @@ Feb 27, 2014              </small>
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 5.3.0
               <small>
@@ -455,10 +463,12 @@ Dec 1, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>NoEjectDelay no longer requires system restart at installing or upgrading.</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.2.0
               <small>
@@ -468,11 +478,13 @@ Nov 10, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Signed kext with Developer ID.</li>
   <li>Updated installer.</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.0.0
               <small>
@@ -482,11 +494,13 @@ Oct 20, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Supported OS X 10.9.</li>
   <li>Signed with Developer ID.</li>
 </ul>
 
+          </div>
           <h2>
             Version 4.1.0
               <small>
@@ -496,10 +510,12 @@ Jan 13, 2013              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Fixed a minor issue in the installer.</li>
 </ul>
 
+          </div>
           <h2>
             Version 4.0.0
               <small>
@@ -509,10 +525,12 @@ Aug 5, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Update for OS X 10.8 Mountain Lion.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.6.0
               <small>
@@ -522,10 +540,12 @@ Aug 5, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Added "Disable F12Eject" feature.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.4.0
               <small>
@@ -535,10 +555,12 @@ Apr 24, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Changed package archive format to dmg from zip.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.3.0
               <small>
@@ -548,10 +570,12 @@ Feb 21, 2012              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Updated source code for Xcode 4.3.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.2.0
               <small>
@@ -561,10 +585,12 @@ Oct 26, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Resolved a minor installer issue.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.1.0
               <small>
@@ -574,10 +600,12 @@ Aug 16, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Fixed a minor issue on Mac OS X 10.7.</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.0.0
               <small>
@@ -587,10 +615,12 @@ Jul 23, 2011              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Update for Mac OS X 10.7 Lion.</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.1.0
               <small>
@@ -600,10 +630,12 @@ May 11, 2010              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Fixed a minor bug.</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.0.0
               <small>
@@ -613,10 +645,12 @@ Sep 13, 2009              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Stable release for Snow Leopard.</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.1.0
               <small>
@@ -626,10 +660,12 @@ May 26, 2008              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Minor Improvements.</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.0.0
               <small>
@@ -639,10 +675,12 @@ May 7, 2008              </small>
                   Download
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Initial release.</li>
 </ul>
 
+          </div>
       </section>
     </div>
     <div class="col-md-3">

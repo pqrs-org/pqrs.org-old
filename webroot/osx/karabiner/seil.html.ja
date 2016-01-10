@@ -551,7 +551,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <div class="update-description">
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -590,6 +591,7 @@ $ sh ~/Desktop/seil-import.sh
 
 </div>
 
+          </div>
           <h2>
             Version 11.3.0
               <small>
@@ -599,7 +601,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     下記の問題を修正しました:
     <ul>
@@ -608,6 +611,7 @@ $ sh ~/Desktop/seil-import.sh
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 11.2.0
               <small>
@@ -617,11 +621,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.11をサポートしました。</li>
   <li>ファストユーザスイッチ機能のサポートを改善しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 11.1.0
               <small>
@@ -631,10 +637,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>既知のキーコードの一覧を更新しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 11.0.0
               <small>
@@ -644,12 +652,14 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.10のサポートを改善しました。</li>
   <li>OS X 10.8をサポート外としました。</li>
   <li>既知のキーコードの一覧を更新しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.11.0
               <small>
@@ -659,11 +669,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>設定UIを更新しました。</li>
   <li>「Check for updates（Sparkle）」を更新しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.10.0
               <small>
@@ -673,7 +685,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     下記の問題を修正しました:
     <ul>
@@ -684,6 +697,7 @@ $ sh ~/Desktop/seil-import.sh
   <li>SteelSeries Apex Gaming Keyboardをサポートしました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.9.0
               <small>
@@ -693,7 +707,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     下記の問題を修正しました:
     <ul>
@@ -703,6 +718,7 @@ $ sh ~/Desktop/seil-import.sh
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 10.8.0
               <small>
@@ -712,10 +728,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>PCKeyboardHackはSeilという名前になりました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.7.0
               <small>
@@ -725,11 +743,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.10に対応しました。</li>
   <li>ログイン時の起動方法を変更しました。 (LaunchAgents -&gt; Login Items)</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.6.0
               <small>
@@ -739,10 +759,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>コマンドラインインターフェイス（PCKeyboardHack_cli）を追加しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.5.0
               <small>
@@ -752,7 +774,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     下記のバグを修正しました:
     <ul>
@@ -761,6 +784,7 @@ $ sh ~/Desktop/seil-import.sh
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 10.4.0
               <small>
@@ -770,7 +794,8 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     PCKeyboardHackのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
     もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
@@ -778,6 +803,7 @@ $ sh ~/Desktop/seil-import.sh
   <li>PCキーボードのApplicationキー（Menuキー）を変更可能なキーに追加しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.2.0
               <small>
@@ -787,11 +813,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>kextをDeveloper IDで署名しました。</li>
   <li>インストーラを更新しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 10.0.0
               <small>
@@ -801,12 +829,14 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.9に対応しました。</li>
   <li>アイコンを更新しました。（Kouji TAMURAさんによる）</li>
   <li>Developer IDで署名しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 9.0.0
               <small>
@@ -816,11 +846,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>設定画面をアプリに統合しました。</li>
   <li>いくつかの細かい改善を行いました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 8.0.0
               <small>
@@ -830,10 +862,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.8 Mountain Lionに対応しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.4.0
               <small>
@@ -843,10 +877,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>パッケージの形式をzipからdmgに変更しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.3.0
               <small>
@@ -856,11 +892,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>変更可能なキーを追加しました。（Internationalキー、Langキー, Sun Type6 Keyboardのキー）</li>
   <li>ソースコードについてXcode 4.3対応をしました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.2.0
               <small>
@@ -870,11 +908,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>変更可能なキーを追加しました。（ADBキーボードのパワーキー）</li>
   <li>インストーラの小さな問題を修正しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.1.0
               <small>
@@ -884,12 +924,14 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>変更可能なキーを追加しました。(Command、Control、Option、Shift、Escape、Delete、Return、Keypad Enter)</li>
   <li>ソフトウェアアップデート機能を追加しました。</li>
   <li>Mac OS X 10.7での小さな問題を修正しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 7.0.0
               <small>
@@ -899,11 +941,13 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Mac OS X 10.7 Lionに対応しました。</li>
   <li>Controlキーの変更機能について削除しました。Controlキーの変更についてはKeyRemap4MacBookを使ってください。</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.3.0
               <small>
@@ -913,10 +957,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>ログメッセージを改善。</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.2.0
               <small>
@@ -926,10 +972,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>設定画面を改善。</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.1.0
               <small>
@@ -939,10 +987,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Fast User Switchingに対応しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.0.0
               <small>
@@ -952,10 +1002,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Snow Leopard用の安定版です。</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.1.0
               <small>
@@ -965,10 +1017,12 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>細かい改善。</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.0.0
               <small>
@@ -978,20 +1032,24 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>細かい改善。</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.3.0
               <small>
 2007年12月15日              </small>
 
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>最初のリリース。</li>
 </ul>
 
+          </div>
       </section>
     </div>
     <div class="col-md-3">

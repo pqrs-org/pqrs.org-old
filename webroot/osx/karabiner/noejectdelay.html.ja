@@ -357,7 +357,8 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <div class="update-description">
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -396,6 +397,7 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
 
 </div>
 
+          </div>
           <h2>
             Version 6.1.0
               <small>
@@ -405,10 +407,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.11をサポートしました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 6.0.0
               <small>
@@ -418,11 +422,13 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.10をサポートしました。</li>
   <li>OS X 10.8をサポート対象から外しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.4.0
               <small>
@@ -432,7 +438,8 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>
     下記の問題を修正しました:
     <ul>
@@ -441,6 +448,7 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
   </li>
 </ul>
 
+          </div>
           <h2>
             Version 5.3.0
               <small>
@@ -450,10 +458,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>NoEjectDelayのインストールやアップグレード時にシステムの再起動が不要になりました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.2.0
               <small>
@@ -463,11 +473,13 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>kextをDeveloper IDで署名しました。</li>
   <li>インストーラを更新しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 5.0.0
               <small>
@@ -477,11 +489,13 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.9に対応しました。</li>
   <li>Developer IDで署名しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 4.1.0
               <small>
@@ -491,10 +505,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>インストーラのささいな問題を修正しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 4.0.0
               <small>
@@ -504,10 +520,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>OS X 10.8 Mountain Lionに対応しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.6.0
               <small>
@@ -517,10 +535,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>F12Ejectを無効にする機能を追加しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.4.0
               <small>
@@ -530,10 +550,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>パッケージの形式をzipからdmgに変更しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.3.0
               <small>
@@ -543,10 +565,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>ソースコードについてXcode 4.3対応をしました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.2.0
               <small>
@@ -556,10 +580,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>インストーラの小さな問題を修正しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.1.0
               <small>
@@ -569,10 +595,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Mac OS X 10.7での小さな問題を修正しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 3.0.0
               <small>
@@ -582,10 +610,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Mac OS X 10.7 Lionに対応しました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.1.0
               <small>
@@ -595,10 +625,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>細かいバグ修正を行ないました。</li>
 </ul>
 
+          </div>
           <h2>
             Version 2.0.0
               <small>
@@ -608,10 +640,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>Snow Leopard用の安定版です。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.1.0
               <small>
@@ -621,10 +655,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>細かい改善。</li>
 </ul>
 
+          </div>
           <h2>
             Version 1.0.0
               <small>
@@ -634,10 +670,12 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
+          <div style="margin-left: 2em">
+            <ul>
   <li>最初のリリース。</li>
 </ul>
 
+          </div>
       </section>
     </div>
     <div class="col-md-3">
