@@ -77,22 +77,84 @@ class Seil < KarabinerBase
               :link => 'files/Seil-12.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
-<ul>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>Close button has been added.</li>
-  <li>Seil Preferences became resizable.</li>
-  <li>Sparkle Framework has been updated.</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Close button has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Seil Preferences became resizable.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkle Framework has been updated.
+    </div>
+  </div>
+
+</div>
 EOS
                 :ja => <<EOS,
-<ul>
-  <li>OS X 10.10をサポート外としました。</li>
-  <li>OS X 10.9をサポート外としました。</li>
-  <li>Closeボタンを追加しました。</li>
-  <li>設定画面をリサイズ可能にしました。</li>
-  <li>Sparkleフレームワークを更新しました。</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Closeボタンを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面をリサイズ可能にしました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkleフレームワークを更新しました。
+    </div>
+  </div>
+
+</div>
 EOS
               },
             },

@@ -551,13 +551,44 @@ $ sh ~/Desktop/seil-import.sh
                   ダウンロード
               </a>
           </h2>
-          <ul>
-  <li>OS X 10.10をサポート外としました。</li>
-  <li>OS X 10.9をサポート外としました。</li>
-  <li>Closeボタンを追加しました。</li>
-  <li>設定画面をリサイズ可能にしました。</li>
-  <li>Sparkleフレームワークを更新しました。</li>
-</ul>
+          <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Closeボタンを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面をリサイズ可能にしました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkleフレームワークを更新しました。
+    </div>
+  </div>
+
+</div>
 
           <h2>
             Version 11.3.0

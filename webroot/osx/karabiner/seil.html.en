@@ -557,13 +557,44 @@ Dec 4, 2015              </small>
                   Download
               </a>
           </h2>
-          <ul>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>Close button has been added.</li>
-  <li>Seil Preferences became resizable.</li>
-  <li>Sparkle Framework has been updated.</li>
-</ul>
+          <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Close button has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Seil Preferences became resizable.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkle Framework has been updated.
+    </div>
+  </div>
+
+</div>
 
           <h2>
             Version 11.3.0
