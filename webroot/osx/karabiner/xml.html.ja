@@ -11,6 +11,7 @@
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
     <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+    <link href="/css/sparkle.css?1452407596" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
       <link href="/assets/bootstrap-prettify/prettify.css" rel="stylesheet" type="text/css"/>
