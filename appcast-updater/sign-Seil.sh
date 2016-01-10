@@ -34,17 +34,29 @@ rm -f "$targetdir/seil-appcast-devel.xml.tmp"
       <title>Version $version</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-
-<!-- RENAME_INFORMATION -->
-
-<h2>About v$version Update</h2>
+<style>
 EOF
 
->>"$targetdir/seil-appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/seil-appcast-devel.xml"
+>>"$targetdir/seil-appcast-devel.xml.tmp" cat ../webroot/css/sparkle.css
+
+>>"$targetdir/seil-appcast-devel.xml.tmp" cat <<EOF
+</style>
+
+<h2>About v$version Update</h2>
+
+<!-- update-description-begin -->
+
+EOF
+
+>>"$targetdir/seil-appcast-devel.xml.tmp" ruby -e 'print $1.strip if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/seil-appcast-devel.xml"
 
 >>"$targetdir/seil-appcast-devel.xml.tmp" cat <<EOF
 
-<a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
+</p>
 ]]>
       </description>
       <pubDate>$pubDate</pubDate>
