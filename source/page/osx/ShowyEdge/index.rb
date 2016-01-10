@@ -80,20 +80,70 @@ class Index < PqrsBase
               :link => 'files/ShowyEdge-3.0.0.dmg',
               :body_l10n => {
                 :en => <<EOS,
-<ul>
-  <li>ShowyEdge Preferences became resizable.</li>
-  <li>Sparkle Framework has been updated.</li>
-  <li>OS X 10.8 support has been dropped.</li>
-  <li>OS X 10.7 support has been dropped.</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.8 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.7 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ShowyEdge Preferences became resizable.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkle Framework has been updated.
+    </div>
+  </div>
+
+</div>
 EOS
                 :ja => <<EOS,
-<ul>
-  <li>設定画面がリサイズ可能になりました。</li>
-  <li>Sparkleフレームワークを更新しました。</li>
-  <li>OS X 10.8をサポート外としました。</li>
-  <li>OS X 10.7をサポート外としました。</li>
-</ul>
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.8をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.7をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面がリサイズ可能になりました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkleフレームワークを更新しました。
+    </div>
+  </div>
+
+</div>
 EOS
               },
             },

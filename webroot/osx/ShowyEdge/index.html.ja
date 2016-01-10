@@ -444,12 +444,37 @@ src="img/dmg.png" width="128" height="128"              />
                   ダウンロード
               </a>
           </h2>
-          <ul>
-  <li>設定画面がリサイズ可能になりました。</li>
-  <li>Sparkleフレームワークを更新しました。</li>
-  <li>OS X 10.8をサポート外としました。</li>
-  <li>OS X 10.7をサポート外としました。</li>
-</ul>
+          <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.8をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.7をサポート外としました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面がリサイズ可能になりました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Sparkleフレームワークを更新しました。
+    </div>
+  </div>
+
+</div>
 
           <h2>
             Version 2.2.0
