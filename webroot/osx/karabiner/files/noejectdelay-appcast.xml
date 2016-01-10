@@ -10,18 +10,100 @@
       <title>Version 7.0.0</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-
-<!-- RENAME_INFORMATION -->
+<style>
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1.5em 1px 1px 1px;
+    border-style: solid;
+}
+.update-description-label {
+    margin: -1.5em 0 0 0.5em;
+    padding: 0;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+}
+.update-description .update-description-body {
+    margin-left: 1em;
+    margin-top: .2em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .update-description-label:before {
+    content: "new";
+}
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .update-description-label:before {
+    content: "important";
+}
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .update-description-label:before {
+    content: "fixed";
+}
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .update-description-label:before {
+    content: "improved";
+}
+</style>
 
 <h2>About v7.0.0 Update</h2>
-<ul>
-  <li>An utility application "NoEjectDelay Utility.app" has been added.</li>
-  <li>Uninstaller has been bundled.</li>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".</li>
-</ul>
-<a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.10 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      OS X 10.9 support has been dropped.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      An utility application "NoEjectDelay Utility.app" has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Uninstaller has been bundled.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The file location has been moved to "/Library/Application Support/org.pqrs/NoEjectDelay" from "/Library/org.pqrs/NoEjectDelay".
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/noejectdelay.html#history">More</a>
+</p>
 ]]>
       </description>
       <pubDate>Sat, 03 Oct 2015 21:28:15 -0000</pubDate>
