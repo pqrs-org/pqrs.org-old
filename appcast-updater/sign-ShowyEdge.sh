@@ -34,14 +34,29 @@ rm -f "$targetdir/appcast-devel.xml.tmp"
       <title>Version $version</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>About v$version Update</h2>
+<style>
 EOF
 
->>"$targetdir/appcast-devel.xml.tmp" ruby scripts/get-ul.rb < "$targetdir/appcast-devel.xml"
+>>"$targetdir/appcast-devel.xml.tmp" cat ../webroot/css/sparkle.css
+
+>>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
+</style>
+
+<h2>About v$version Update</h2>
+
+<!-- update-description-begin -->
+
+EOF
+
+>>"$targetdir/appcast-devel.xml.tmp" ruby -e 'print $1.strip if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/appcast-devel.xml"
 
 >>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
 
-<a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
+</p>
 ]]>
       </description>
       <pubDate>$pubDate</pubDate>
