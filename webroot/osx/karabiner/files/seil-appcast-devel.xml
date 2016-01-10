@@ -7,27 +7,81 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.0</title>
+      <title>Version 12.0.1</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
+<style>
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1.5em 1px 1px 1px;
+    border-style: solid;
+}
+.update-description-label {
+    margin: -1.5em 0 0 0.5em;
+    padding: 0;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+}
+.update-description .update-description-body {
+    margin-left: 1em;
+    margin-top: .2em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .update-description-label:before {
+    content: "new";
+}
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .update-description-label:before {
+    content: "important";
+}
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .update-description-label:before {
+    content: "fixed";
+}
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .update-description-label:before {
+    content: "improved";
+}
+</style>
 
-<!-- RENAME_INFORMATION -->
+<h2>About v12.0.1 Update</h2>
 
-<h2>About v12.0.0 Update</h2>
-<ul>
-  <li>OS X 10.10 support has been dropped.</li>
-  <li>OS X 10.9 support has been dropped.</li>
-  <li>Close button has been added.</li>
-  <li>Seil Preferences became resizable.</li>
-  <li>Sparkle Framework has been updated.</li>
-</ul>
-<a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The physical forward delete key has been added into the changeable keys.
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/seil.html#history">Seil web site</a>
+</p>
 ]]>
       </description>
-      <pubDate>Fri, 04 Dec 2015 17:37:09 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.0.dmg"
-                 sparkle:version="12.0.0" length="1262638" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFF4uf4guiaWWEfB44l8mJZjPd2qbAhUAhYSxoyc+UnAVEv9SrMmcjn+QWRI="
+      <pubDate>Sun, 10 Jan 2016 12:54:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.1.dmg"
+                 sparkle:version="12.0.1" length="1263247" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBfxgiFWALk5Rk22OXQBDEmdU+d2AhRyRVNcFl1sppZS5idILAbfMh9mTw=="
                  />
     </item>
 
