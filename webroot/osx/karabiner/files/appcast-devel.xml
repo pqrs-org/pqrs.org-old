@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.9</title>
+      <title>Version 10.15.10</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,11 +56,18 @@
 }
 </style>
 
-<h2>About v10.15.9 Update</h2>
+<h2>About v10.15.10 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Show icon in Dock" setting has been added.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -87,10 +94,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 13 Jan 2016 07:38:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.9.dmg"
-                 sparkle:version="10.15.9" length="4102516" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEXa60FJXnCC8pNX/EZVQUI5b7BPAhRlsYgZTjW8gRkYYtAMlgTppIeE7g=="
+      <pubDate>Wed, 13 Jan 2016 10:33:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.10.dmg"
+                 sparkle:version="10.15.10" length="4113257" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHVYBeXhMl9XAZl/RqOmRryaEs0yAhQ/BlgNEvMv/yf00YlWkD1Cmlq9oA=="
                  />
     </item>
 
