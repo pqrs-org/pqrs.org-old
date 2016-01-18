@@ -90,7 +90,8 @@
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      Fixed issue: Microsoft Excel scroll position is sometimes reset while using scroll wheel.
+      Fixed an issue:<br />
+      Microsoft Excel scroll position is sometimes reset while using scroll wheel.
     </div>
   </div>
 
