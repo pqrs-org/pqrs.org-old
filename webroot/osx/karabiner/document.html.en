@@ -709,16 +709,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Edit private.xml as you like, and press Reload XML button.<br />
-              Then, activate added settings.
-
-            <ul>
-              <li>
-                <a href="xml.html.en">
-                    private.xml Reference Manual
-                </a>
-              </li>
-            </ul>
+              Apply new setting by activating added settings.
 
             <div class="row">
               <div class="col-lg-4">
@@ -738,7 +729,15 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Completed!
+              Edit private.xml as you like, reload XML and activate new settings.<br />
+
+            <ul>
+              <li>
+                <a href="xml.html.en">
+                    private.xml Reference Manual
+                </a>
+              </li>
+            </ul>
           </li>
         </ol>
 

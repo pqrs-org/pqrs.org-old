@@ -708,16 +708,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              private.xmlの中身を好きなように変更して、Reload XMLボタンを押してください。<br />
-              そして、追加された設定を有効にしてください。
-
-            <ul>
-              <li>
-                <a href="xml.html.ja">
-                    private.xml Reference Manual（英語）
-                </a>
-              </li>
-            </ul>
+              追加された設定を有効にすると、新しい設定が適用されます。
 
             <div class="row">
               <div class="col-lg-4">
@@ -737,7 +728,15 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              完了です。
+              private.xmlの中身を好きなように変更して、XMLを再読み込みし、新しい設定を有効にしてください。<br />
+
+            <ul>
+              <li>
+                <a href="xml.html.ja">
+                    private.xml Reference Manual（英語）
+                </a>
+              </li>
+            </ul>
           </li>
         </ol>
 
