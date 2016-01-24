@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.23</title>
+      <title>Version 10.15.24</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.15.23 Update</h2>
+<h2>About v10.15.24 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -90,6 +90,13 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      The consumer keys (media keys) repeat values has been synchronized with the key repeat values.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
       Prepared settings have been updated.
     </div>
   </div>
@@ -110,10 +117,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 24 Jan 2016 13:35:59 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.23.dmg"
-                 sparkle:version="10.15.23" length="4210634" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFMGX1K/SaDwwvy6kPbxlvevv1ANAhQNe0sLAgMxQGObIJSIcR8jTGqzlA=="
+      <pubDate>Sun, 24 Jan 2016 15:24:23 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.24.dmg"
+                 sparkle:version="10.15.24" length="4199634" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCc0m8M7uSIgNjtqokgWKQIlo/FkAhRM8f/lhp9tLp2E0gIs854uSearrA=="
                  />
     </item>
 
