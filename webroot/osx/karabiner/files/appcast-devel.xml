@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.24</title>
+      <title>Version 10.15.25</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.15.24 Update</h2>
+<h2>About v10.15.25 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -97,6 +97,13 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      The behavior of starting Karabiner on system startup has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
       Prepared settings have been updated.
     </div>
   </div>
@@ -117,10 +124,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 24 Jan 2016 15:24:23 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.24.dmg"
-                 sparkle:version="10.15.24" length="4199634" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCc0m8M7uSIgNjtqokgWKQIlo/FkAhRM8f/lhp9tLp2E0gIs854uSearrA=="
+      <pubDate>Mon, 25 Jan 2016 03:17:38 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.25.dmg"
+                 sparkle:version="10.15.25" length="4199697" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEjb9mJUKi5emNbAxYayK/vNsXWuAhQQDCxgmNpUhctSo7gOpUbeSEfyjQ=="
                  />
     </item>
 
