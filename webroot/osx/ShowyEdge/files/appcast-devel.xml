@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.0.0</title>
+      <title>Version 3.0.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,37 +56,16 @@
 }
 </style>
 
-<h2>About v3.0.0 Update</h2>
+<h2>About v3.0.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      OS X 10.8 support has been dropped.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      OS X 10.7 support has been dropped.
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      ShowyEdge Preferences became resizable.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Sparkle Framework has been updated.
+      The behavior of starting ShowyEdge on system startup has been improved.
     </div>
   </div>
 
@@ -98,10 +77,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 03 Dec 2015 15:01:04 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.0.dmg"
-                 sparkle:version="3.0.0" length="1709683" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCHma8DqyjZBlQIHi25MaBqm9/BEAIVAJ5xFHhZfEK2n5JPV/qNAv7RUGD+"
+      <pubDate>Mon, 25 Jan 2016 02:56:35 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.1.dmg"
+                 sparkle:version="3.0.1" length="1709625" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFC8wCqi9jgrX+fMp/Jc6/xCqt6P7AhRqoXmsOxRqNYFds1d0JX7+cN7jdA=="
       />
     </item>
 
