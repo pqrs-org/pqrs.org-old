@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.25</title>
+      <title>Version 10.15.26</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.15.25 Update</h2>
+<h2>About v10.15.26 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -116,6 +116,16 @@
     </div>
   </div>
 
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Option::FLIPSCROLLWHEEL_ROTATE has been added.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -124,10 +134,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 25 Jan 2016 03:17:38 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.25.dmg"
-                 sparkle:version="10.15.25" length="4199697" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEjb9mJUKi5emNbAxYayK/vNsXWuAhQQDCxgmNpUhctSo7gOpUbeSEfyjQ=="
+      <pubDate>Wed, 27 Jan 2016 03:38:44 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.26.dmg"
+                 sparkle:version="10.15.26" length="4209634" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFC9mZQzUvO1ebyYWml3D8wJEOmVcAhQtsB2DcpGeN5B0WPCKNIAwBXCaCg=="
                  />
     </item>
 
