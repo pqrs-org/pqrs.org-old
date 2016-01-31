@@ -347,28 +347,27 @@
           </li>
         </ol>
 
-        <div id="escape">
-          <h2>
-              caps lockキーとescapeキーを交換するには？
-          </h2>
-          <p>
-              基本的には上の手順と同じです。以下の点に注意してください。
-          </p>
-          <ol class="steps">
-            <li>
-                Seilで指定するcaps lockのキーコードは110のままにしてください。
-            </li>
-            <li>
-                「アクションなし」の設定は行う必要があります。
-            </li>
-            <li>
-                「Application Key to Delete」は「Application Key to Escape」に変更してください。
-            </li>
-            <li>
-                「Delete to CapsLock」は「Escape to CapsLock」に変更してください。
-            </li>
-          </ol>
-        </div>
+        <h2 id="escape">
+            caps lockキーとescapeキーを交換するには？
+        </h2>
+        <p>
+            基本的には上の手順と同じです。以下の点に注意してください。
+        </p>
+        <ol class="steps">
+          <li>
+              Seilで指定するcaps lockのキーコードは110のままにしてください。
+          </li>
+          <li>
+              「アクションなし」の設定は行う必要があります。
+          </li>
+          <li>
+              「Application Key to Delete」は「Application Key to Escape」に変更してください。
+          </li>
+          <li>
+              「Delete to CapsLock」は「Escape to CapsLock」に変更してください。
+          </li>
+        </ol>
+
       </section>
 
       <section>

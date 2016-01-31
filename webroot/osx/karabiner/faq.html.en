@@ -352,28 +352,27 @@
           </li>
         </ol>
 
-        <div id="escape">
-          <h2>
-              How to exchange caps lock key and escape key?
-          </h2>
-          <p>
-              Basically, it is same as the above procedure. Please note the following points.
-          </p>
-          <ol class="steps">
-            <li>
-                Do not change the key code of caps lock on Seil. Keep 110.
-            </li>
-            <li>
-                You need "No Action" configuration.
-            </li>
-            <li>
-                Change "Application Key to Delete" to "Application Key to Escape".
-            </li>
-            <li>
-                Change "Delete to CapsLock" to "Escape to CapsLock".
-            </li>
-          </ol>
-        </div>
+        <h2 id="escape">
+            How to exchange caps lock key and escape key?
+        </h2>
+        <p>
+            Basically, it is same as the above procedure. Please note the following points.
+        </p>
+        <ol class="steps">
+          <li>
+              Do not change the key code of caps lock on Seil. Keep 110.
+          </li>
+          <li>
+              You need "No Action" configuration.
+          </li>
+          <li>
+              Change "Application Key to Delete" to "Application Key to Escape".
+          </li>
+          <li>
+              Change "Delete to CapsLock" to "Escape to CapsLock".
+          </li>
+        </ol>
+
       </section>
 
       <section>
