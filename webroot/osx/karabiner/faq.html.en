@@ -258,7 +258,7 @@
           <h1 id="capslock">caps lock key</h1>
         </div>
 
-        <h2>
+        <h2 id="exchange-caps-lock-and-delete">
             How to exchange caps lock key and delete key?
         </h2>
         <p>
@@ -352,7 +352,7 @@
           </li>
         </ol>
 
-        <h2 id="escape">
+        <h2 id="exchange-caps-lock-and-escape">
             How to exchange caps lock key and escape key?
         </h2>
         <p>
