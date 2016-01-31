@@ -242,7 +242,7 @@
             What should I do?
         </h2>
         <p>
-            Please activate "General > Don't remap Apple's pointing devices".
+            Please activate "General &gt; Don't remap Apple's pointing devices".
         </p>
         <p>
             "Simultaneous key presses remapping" brings a delay into keyboard and pointing device events to detect simultaneous presses.
@@ -294,7 +294,7 @@
             </div>
           </li>
           <li>
-              Open "System Preferences > Keyboard > Modifier Keys..." and change caps lock configuration to "No Action".
+              Open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and change caps lock configuration to "No Action".
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
