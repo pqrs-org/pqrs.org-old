@@ -368,6 +368,32 @@
           </li>
         </ol>
 
+        <h2 id="exchange-caps-lock-and-left-control">
+            右コントロールキーを変更せずに、Caps Lockと左コントロールキーを変更するには？
+        </h2>
+        <p>
+            基本的には上の手順と同じです。
+        </p>
+        <ol class="steps">
+          <li>
+              <a href="index.html.ja">Karabiner</a>と<a href="seil.html.ja">Seil</a>をインストールします。
+          </li>
+          <li>
+              Seilでcaps lockのキーコードは59にしてください。
+          </li>
+          <li>
+              SeilでControl_Lのキーコードを110にしてください。
+          </li>
+          <li>
+              システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」に変更します。
+          </li>
+          <li>
+              Karabinerで「Application Key to CapsLock」 to Escape」を有効にします。
+          </li>
+          <li>
+              必要であれば、Karabinerで「Fn+Control_L to Control_R」を有効にします。（右コントロールキーがないMacBookのキーボードで便利です）
+          </li>
+        </ol>
       </section>
 
       <section>

@@ -373,6 +373,35 @@
           </li>
         </ol>
 
+        <h2 id="exchange-caps-lock-and-left-control">
+            How do I swap Caps Lock with Left Control, retaining Right Control?
+        </h2>
+        <p>
+            Basically, it is same as the above procedure.
+        </p>
+        <ol class="steps">
+          <li>
+              Install
+              <a href="index.html.en">Karabiner</a>
+              and
+              <a href="seil.html.en">Seil</a>.
+          </li>
+          <li>
+              Change keycode of caps lock to 59 (left control) on Seil.
+          </li>
+          <li>
+              Change keycode of Control_L to 110 (application key) on Seil.
+          </li>
+          <li>
+              Open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and change caps lock configuration to "No Action”.
+          </li>
+          <li>
+              Activate "Application Key to CapsLock" on Karabiner.
+          </li>
+          <li>
+              (Optional, but useful for macbook keyboards lacking right control key): Activate Fn+Control_L to Control_R on Karabiner.
+          </li>
+        </ol>
       </section>
 
       <section>

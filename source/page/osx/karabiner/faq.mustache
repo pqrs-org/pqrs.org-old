@@ -383,6 +383,75 @@
           </li>
         </ol>
 
+        <h2 id="exchange-caps-lock-and-left-control">
+          {{#language_en}}
+            How do I swap Caps Lock with Left Control, retaining Right Control?
+          {{/language_en}}
+          {{#language_ja}}
+            右コントロールキーを変更せずに、Caps Lockと左コントロールキーを変更するには？
+          {{/language_ja}}
+        </h2>
+        <p>
+          {{#language_en}}
+            Basically, it is same as the above procedure.
+          {{/language_en}}
+          {{#language_ja}}
+            基本的には上の手順と同じです。
+          {{/language_ja}}
+        </p>
+        <ol class="steps">
+          <li>
+            {{#language_en}}
+              Install
+              <a href="index.html.{{ language }}">Karabiner</a>
+              and
+              <a href="seil.html.{{ language }}">Seil</a>.
+            {{/language_en}}
+            {{#language_ja}}
+              <a href="index.html.{{ language }}">Karabiner</a>と<a href="seil.html.{{ language }}">Seil</a>をインストールします。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Change keycode of caps lock to 59 (left control) on Seil.
+            {{/language_en}}
+            {{#language_ja}}
+              Seilでcaps lockのキーコードは59にしてください。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Change keycode of Control_L to 110 (application key) on Seil.
+            {{/language_en}}
+            {{#language_ja}}
+              SeilでControl_Lのキーコードを110にしてください。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Open "System Preferences &gt; Keyboard &gt; Modifier Keys..." and change caps lock configuration to "No Action”.
+            {{/language_en}}
+            {{#language_ja}}
+              システム環境設定の「キーボード」から「修飾キー」ボタンを押してcaps lockの動作を「アクションなし」に変更します。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              Activate "Application Key to CapsLock" on Karabiner.
+            {{/language_en}}
+            {{#language_ja}}
+              Karabinerで「Application Key to CapsLock」 to Escape」を有効にします。
+            {{/language_ja}}
+          </li>
+          <li>
+            {{#language_en}}
+              (Optional, but useful for macbook keyboards lacking right control key): Activate Fn+Control_L to Control_R on Karabiner.
+            {{/language_en}}
+            {{#language_ja}}
+              必要であれば、Karabinerで「Fn+Control_L to Control_R」を有効にします。（右コントロールキーがないMacBookのキーボードで便利です）
+            {{/language_ja}}
+          </li>
+        </ol>
       </section>
 
       <section>
