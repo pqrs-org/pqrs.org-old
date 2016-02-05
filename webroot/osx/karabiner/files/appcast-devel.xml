@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.41</title>
+      <title>Version 10.15.42</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.15.41 Update</h2>
+<h2>About v10.15.42 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -126,6 +126,14 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      __KeyDownUpToKey__ sends only the last interrupted events when multiple interrupted events are specified.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -134,10 +142,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 05 Feb 2016 15:41:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.41.dmg"
-                 sparkle:version="10.15.41" length="4210611" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFiGI08waL67xbnZajzCTEIe9IGGAhQ+7Kg4yVBhlW5PLE++bu/+Vu5O1A=="
+      <pubDate>Fri, 05 Feb 2016 16:05:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.42.dmg"
+                 sparkle:version="10.15.42" length="4210949" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHgb6FMA71w1Gg+rvVUWI302fmenAhQoiXuo/PzJShgF00GULeZQHjV2QQ=="
                  />
     </item>
 
