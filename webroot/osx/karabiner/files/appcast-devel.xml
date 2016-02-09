@@ -112,6 +112,14 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue:<br />
+      Some Qt apps might be crash when AXNotifier is enabled. (WISO apps)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
       Microsoft Excel scroll position is sometimes reset while using scroll wheel.
     </div>
   </div>
