@@ -88,6 +88,12 @@
             href="files/ShowyEdge-3.0.0.dmg">Download ShowyEdge-3.0.0
             &nbsp;<span class="label label-default">For OS X 10.9+</span></a>      </p>
 
+      <div class="alert alert-warning" role="alert">
+        About Sparkle Updater Vulnerability:<br />
+        ShowyEdge is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
+        because ShowyEdge uses HTTPS for feeds and files.
+      </div>
+
       <hr />
 
       <p>
