@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.15.64</title>
+      <title>Version 10.15.65</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.15.64 Update</h2>
+<h2>About v10.15.65 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -76,6 +76,7 @@
       <ul>
         <li>Mionix Naos 7000 has been supported.</li>
         <li>Logitech Bluetooth Mouse M555b has been supported.</li>
+        <li>Microsoft Sculpt Touch Mouse has been supported.</li>
       </ul>
     </div>
   </div>
@@ -150,10 +151,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 21 Feb 2016 03:47:06 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.64.dmg"
-                 sparkle:version="10.15.64" length="4275832" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCAny4ZOKHej4UAEXRjmI5tni/fDQIUN5WqEX2CiCbWUo+c9sDlmQxpgas="
+      <pubDate>Wed, 24 Feb 2016 02:43:51 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.15.65.dmg"
+                 sparkle:version="10.15.65" length="4275931" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGIAdrgep6/+ekRZ2NGQPiZyEBTZAhRHfj9Eq7vgf16i1v75HgDmTM0ffQ=="
                  />
     </item>
 
