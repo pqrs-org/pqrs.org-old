@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.3</title>
+      <title>Version 12.0.4</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v12.0.3 Update</h2>
+<h2>About v12.0.4 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -84,10 +84,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 25 Jan 2016 03:10:02 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.3.dmg"
-                 sparkle:version="12.0.3" length="1493907" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFBcJHGYpf8zDHxnAJisZq6YXq+BpAhUA3yHa217hgvg0N9VSGB4Gs0b1MJs="
+      <pubDate>Thu, 25 Feb 2016 05:42:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.4.dmg"
+                 sparkle:version="12.0.4" length="1494240" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQC+KtIm+nF36uLlU+cpK2NMfOxl+QIVAIRbteLAxGYPnMg7DmVUM7HgjKwj"
                  />
     </item>
 
