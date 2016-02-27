@@ -267,10 +267,6 @@
             You can control pointer cursor and scroll wheel from keyboard.
         </p>
 
-        <p>
-            We recommend to use "Mouse Keys scroll direction: natural" together.
-        </p>
-
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">

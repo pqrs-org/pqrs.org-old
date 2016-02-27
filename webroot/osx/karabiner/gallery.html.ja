@@ -268,10 +268,6 @@
             キーボードからマウスを操作できます。
         </p>
 
-        <p>
-            同時に「Mouse Keys scroll direction: natural」も使用することをオススメします。
-        </p>
-
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
