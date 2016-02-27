@@ -91,6 +91,13 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      The font size in Preferences has been selectable from "default font" and "large font".
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
       The consumer keys (media keys) repeat values has been synchronized with the key repeat values.
     </div>
   </div>
