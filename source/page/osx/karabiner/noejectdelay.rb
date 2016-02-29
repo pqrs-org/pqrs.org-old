@@ -68,6 +68,37 @@ class Noejectdelay < KarabinerBase
   def histories
     data = [
             {
+              :version => '7.1.0',
+              :updated => '2016-02-29',
+              :link => 'files/NoEjectDelay-7.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      NoEjectDelay Utility UI has been adjusted.
+    </div>
+  </div>
+
+</div>
+EOS
+                :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      NoEjectDelay UtilityのUIを調整しました。
+    </div>
+  </div>
+
+</div>
+EOS
+              },
+            },
+            {
               :version => '7.0.0',
               :updated => '2015-10-03',
               :link => 'files/NoEjectDelay-7.0.0.dmg',
