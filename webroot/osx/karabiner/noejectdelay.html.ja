@@ -265,7 +265,7 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
   <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 533px;">
+  <div class="modal-dialog clickable" style="width: 540px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/noejectdelay-version@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
@@ -311,7 +311,7 @@ src="img/noejectdelay-icon@2x.png" width="152" height="172"              />
   <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 533px;">
+  <div class="modal-dialog clickable" style="width: 540px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/noejectdelay-uninstall@2x.png" alt="NoEjectDelay Utility.app" style="width: 100%" />
