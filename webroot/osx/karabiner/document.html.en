@@ -327,7 +327,7 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
   <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" style="width: 100%" />
@@ -366,7 +366,7 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </div>
 
         <p>
-            If you want to use the latest beta version, use "Check for updates including beta versions" button.
+            If you want to use the latest beta version, use "Check for beta updates" button.
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -602,7 +602,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
   <img src="img/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
 <div class="modal fade" id="lightbox-16" tabindex="30016">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
@@ -756,7 +756,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
   <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
 <div class="modal fade" id="lightbox-23" tabindex="30023">
-  <div class="modal-dialog clickable" style="width: 702px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
@@ -785,7 +785,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
   <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
 <div class="modal fade" id="lightbox-24" tabindex="30024">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" style="width: 100%" />
@@ -996,7 +996,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
   <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-26" tabindex="30026">
-  <div class="modal-dialog clickable" style="width: 728px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" style="width: 100%" />
@@ -1084,14 +1084,14 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
         </h2>
         <ol class="steps">
           <li>
-              Add new configuration from "MenuBar" tab.
+              Add new configuration from Profiles tab.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-30" class="thumbnail">
   <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
 <div class="modal fade" id="lightbox-30" tabindex="30030">
-  <div class="modal-dialog clickable" style="width: 726px;">
+  <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
         <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
@@ -1104,7 +1104,7 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
           </li>
           <li>
             <p>
-                Choose the configuration from menu bar.
+                Choose the profile from menu bar.
             </p>
             <p>
               <img
