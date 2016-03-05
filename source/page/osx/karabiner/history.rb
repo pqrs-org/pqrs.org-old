@@ -17,6 +17,229 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.16.0',
+        :updated => '2016-03-05',
+        :link => 'files/Karabiner-10.16.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Show icon in Dock" setting has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Resume at login" setting has been added. <br />
+      You can disable auto resume function.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
+      <ul>
+        <li>Mionix Naos 7000 has been supported.</li>
+        <li>Logitech Bluetooth Mouse M555b has been supported.</li>
+        <li>Microsoft Sculpt Touch Mouse has been supported.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The word-wrap property of setting description in Preferences became break-word.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The font size in Preferences has been selectable from "default font" and "large font".
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The consumer keys (media keys) repeat values has been synchronized with the key repeat values.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The behavior of starting Karabiner on system startup has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Qt apps might be crash when AXNotifier is enabled. (WISO apps)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Microsoft Excel scroll position is sometimes reset while using scroll wheel.
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Option::FLIPSCROLLWHEEL_ROTATE has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      PointingRelative::ANY has been added into __PointingRelativeToKey__.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      __KeyDownUpToKey__ sends only the last interrupted events when multiple interrupted events are specified.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Show icon in Dock」という設定項目を加えました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Resume at login」という設定項目を加えました。<br />
+      Karabinerの自動起動を無効に出来ます。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
+      <ul>
+        <li>Mionix Naos 7000をサポートしました。</li>
+        <li>Logitech Bluetooth Mouse M555bをサポートしました。</li>
+        <li>Microsoft Sculpt Touch Mouseをサポートしました。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面で説明文が折り返しされるようになりました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面のフォントサイズを「default font」と「large font」から選べるようになりました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      メディアキーのキーリピート速度を、通常のキーのリピート速度の設定値を使うようにしました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ログイン後のKarabinerの自動起動の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュすることがある。（WISO apps）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      Microsoft Excelでスクロール中に、スクロール位置がリセットされることがある。
+    </div>
+  </div>
+
+  <hr />
+  <h3>自分で設定を追加する人向けの変更点</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Option::FLIPSCROLLWHEEL_ROTATEを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      __PointingRelativeToKey__にPointingRelative::ANYを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      __KeyDownUpToKey__で中断されたときに送信するキーを複数指定していた場合に、最後のキーしか送信されない。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.15.0',
         :updated => '2015-12-21',
         :link => 'files/Karabiner-10.15.0.dmg',
