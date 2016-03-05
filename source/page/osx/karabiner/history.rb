@@ -17,9 +17,9 @@ class History < KarabinerBase
   def histories
     data = [
       {
-        :version => '10.16.0',
+        :version => '10.17.0',
         :updated => '2016-03-05',
-        :link => 'files/Karabiner-10.16.0.dmg',
+        :link => 'files/Karabiner-10.17.0.dmg',
         :body_l10n => {
           :en => <<EOS,
 <div class="update-description">
