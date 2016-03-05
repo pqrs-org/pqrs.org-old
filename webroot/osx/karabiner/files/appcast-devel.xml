@@ -72,7 +72,8 @@
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      "Resume at login" setting has been added.
+      "Resume at login" setting has been added. <br />
+      You can disable auto resume function.
     </div>
   </div>
 
