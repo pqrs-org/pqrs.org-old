@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.17.0</title>
+      <title>Version 10.17.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,11 +56,19 @@
 }
 </style>
 
-<h2>About v10.17.0 Update</h2>
+<h2>About v10.17.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue that is introduced in Karabiner 10.17.0:<br />
+      Karabiner will be crashed when you enable/disable settings after Parameter is closed at OS X 10.10.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -173,10 +181,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 05 Mar 2016 16:35:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.17.0.dmg"
-                 sparkle:version="10.17.0" length="4323272" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDi1B8uN+T96TwVClIwOyVoenFNrAhRq8/AAzxePIozq9HSrdhnvk1v7AA=="
+      <pubDate>Mon, 07 Mar 2016 02:59:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.17.1.dmg"
+                 sparkle:version="10.17.1" length="4323408" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHZdh+4zgq1XuxXwMr8I7kixepZWAhQ7QsrYSMbprvBmTPUXIONb3t2vOA=="
                  />
     </item>
 
