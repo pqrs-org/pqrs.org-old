@@ -17,6 +17,39 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.18.0',
+        :updated => '2016-03-07',
+        :link => 'files/Karabiner-10.18.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue that is introduced in Karabiner 10.17.0:<br />
+      Karabiner will be crashed when you change settings after you opened and closed the Preferences window in OS X 10.10.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Karabiner-10.17.0における次の問題を修正しました: <br />
+      OS X 10.10において、設定画面を開閉した後で、設定を変更するとKarabinerがクラッシュします。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.17.0',
         :updated => '2016-03-05',
         :link => 'files/Karabiner-10.17.0.dmg',

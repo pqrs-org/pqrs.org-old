@@ -170,7 +170,7 @@
           There are a lot of examples of <code>&lt;autogen&gt;</code> in "Samples for Karabiner Binding Developers" at
           the bottom of Karabiner Prefs.
           <br />
-          You can see the raw XML from <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.
+          You can see the raw XML from <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -196,10 +196,10 @@
         </p>
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/tree/version_10.17.0/src/core/server/Resources/include/checkbox/">include/checkbox/</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/tree/version_10.18.0/src/core/server/Resources/include/checkbox/">include/checkbox/</a>
           </li>
         </ul>
 
@@ -277,16 +277,16 @@
         <h2 id="keycode-list">List of KeyCode, ConsumerKeyCode, PointingButton</h2>
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
           </li>
         </ul>
 
@@ -498,7 +498,7 @@
         </ul>
 
         <p>
-          You can see all filters and examples in <a href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
+          You can see all filters and examples in <a href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.
           (You can try them by searching "developer filters" in Preferences.)
         </p>
         <div class="row">
@@ -738,7 +738,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h2 id="prepared-appdef">Prepared application definitions</h2>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/appdef.xml">various application definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/appdef.xml">various application definitions</a>.
           <br />
           You can use them without <code>&lt;appdef&gt;</code> in private.xml.
         </p>
@@ -877,7 +877,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h2 id="prepared-windownamedef">Prepared window name definitions</h2>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/windownamedef.xml">various window name definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/windownamedef.xml">various window name definitions</a>.
           <br />
           You can use them without <code>&lt;windownamedef&gt;</code> in private.xml.
         </p>
@@ -948,7 +948,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h2 id="prepared-uielementroledef">Prepared ui element role definitions</h2>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/uielementroledef.xml">various ui element role definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/uielementroledef.xml">various ui element role definitions</a>.
         </p>
         <p>
           You can also add your own ui element role by &lt;uielementroledef&gt; tag.
@@ -1095,10 +1095,10 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         </p>
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/devicevendordef.xml">List of prepared Vendor ID</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/devicevendordef.xml">List of prepared Vendor ID</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/deviceproductdef.xml">List of prepared Product ID</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/deviceproductdef.xml">List of prepared Product ID</a>
           </li>
         </ul>
         <p>
@@ -1282,7 +1282,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
 
         <h2>Prepared input source definitions</h2>
         <p>
-          Karabiner provides <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
+          Karabiner provides <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/inputsourcedef.xml">various input source definitions</a>.
           <br />
           You can use them without <code>&lt;inputsourcedef&gt;</code> in private.xml.
         </p>
@@ -1428,7 +1428,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h2>Prepared virtual key code definitions</h2>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/vkopenurldef.xml">various virtual key code definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/vkopenurldef.xml">various virtual key code definitions</a>.
           <br />
           You can use them without <code>&lt;vkopenurldef&gt;</code> in private.xml.
         </p>
@@ -1485,7 +1485,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h3>Prepared virtual key code definitions</h3>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/vkchangeinputsourcedef.xml">various virtual key code definitions</a>.
           <br />
           You can use them without <code>&lt;vkchangeinputsourcedef&gt;</code> in private.xml.
         </p>
@@ -1676,7 +1676,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <h2>Prepared replacement definitions</h2>
         <p>
           Karabiner provides
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/replacementdef.xml">various replacement definitions</a>.
           <br />
           You can use them without <code>&lt;replacementdef&gt;</code> in private.xml.
         </p>
@@ -1868,7 +1868,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
         </p>
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/modifierdef.xml">List of virtual modifier definition.</a>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/modifierdef.xml">List of virtual modifier definition.</a>
           </li>
         </ul>
       </section>
@@ -1902,7 +1902,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 &lt;/root&gt;</pre>
         <p>
           The replacements are defined in
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/replacementdef.xml">replacementdef.xml</a>.
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/replacementdef.xml">replacementdef.xml</a>.
         </p>
       </section>
 
@@ -1920,10 +1920,10 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             Prepared settings are defined in these files:
             <ul>
               <li>
-                <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/checkbox.xml">src/core/server/Resources/checkbox.xml</a>
+                <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/checkbox.xml">src/core/server/Resources/checkbox.xml</a>
               </li>
               <li>
-                <a target="_blank" href="https://github.com/tekezo/Karabiner/tree/version_10.17.0/src/core/server/Resources/include/checkbox/">src/core/server/Resources/include/checkbox/</a>
+                <a target="_blank" href="https://github.com/tekezo/Karabiner/tree/version_10.18.0/src/core/server/Resources/include/checkbox/">src/core/server/Resources/include/checkbox/</a>
               </li>
             </ul>
             Modify them.
@@ -2024,7 +2024,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   KeyCode::SEMICOLON,
   KeyCode::SEMICOLON, ModifierFlag::SHIFT_L,
 &lt;/autogen&gt;</pre>
-          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h3>Syntax</h3>
 
@@ -2081,7 +2081,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h3>Option</h3>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h3 id="syntax-__KeyToKey__-parameters">Parameters</h3>
 
@@ -2117,7 +2117,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   KeyCode::CONTROL_L,
   KeyCode::SPACE, ModifierFlag::COMMAND_L,
 &lt;/autogen&gt;</pre>
-          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h3>Syntax</h3>
 
@@ -2208,7 +2208,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h3>Option</h3>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
 
           <h3 id="syntax-__KeyOverlaidModifier__-parameters">Parameters</h3>
@@ -2270,7 +2270,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
   Option::NOREPEAT,
 &lt;/autogen&gt;</pre>
-          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h3>Syntax</h3>
 
@@ -2378,7 +2378,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h3>Option</h3>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h3 id="syntax-__HoldingKeyToKey__-parameters">Parameters</h3>
 
@@ -2416,7 +2416,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   KeyCode::KEY_0, ModifierFlag::SHIFT_L,
   KeyCode::CURSOR_LEFT,
 &lt;/autogen&gt;</pre>
-          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h3>Syntax</h3>
 
@@ -2501,7 +2501,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h3>Option</h3>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h3 id="syntax-__SimultaneousKeyPresses__-parameters">Parameters</h3>
 
@@ -2551,7 +2551,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   KeyCode::CONTROL_L,
   KeyCode::SPACE, ModifierFlag::COMMAND_L,
 &lt;/autogen&gt;</pre>
-          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
+          <p>Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a> for more examples.</p>
 
           <h3>Syntax</h3>
 
@@ -2642,7 +2642,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h3>Option</h3>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h3 id="syntax-__DoublePressModifier__-parameters">Parameters</h3>
 
@@ -3089,55 +3089,55 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="syntax-__DropPointingRelativeCursorMove__">__DropPointingRelativeCursorMove__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__DropScrollWheel__">__DropScrollWheel__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__FlipPointingRelative__">__FlipPointingRelative__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__FlipScrollWheel__">__FlipScrollWheel__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__IgnoreMultipleSameKeyPress__">__IgnoreMultipleSameKeyPress__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__StripModifierFromScrollWheel__">__StripModifierFromScrollWheel__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__ScrollWheelToScrollWheel__">__ScrollWheelToScrollWheel__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__ScrollWheelToKey__">__ScrollWheelToKey__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__PointingRelativeToScroll__">__PointingRelativeToScroll__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__PointingRelativeToKey__">__PointingRelativeToKey__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__ForceNumLockOn__">__ForceNumLockOn__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__ShowStatusMessage__">__ShowStatusMessage__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
 
           <h2 id="syntax-__SetKeyboardType__">__SetKeyboardType__</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
         </div>
       </section>
 
@@ -3174,63 +3174,63 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h2 id="filter-syntax-application">application</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-window-name">window name</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-UIElementRole">UIElementRole</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-device">device</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-config">config</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-input-source">input source</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-modifier">modifier</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-modifier-lock">modifier lock</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-modifier-sticky">sticky modifier state</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-last-pressed-physical-key">last pressed physical key</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-last-released-physical-key">last released physical key</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-elapsed-time-since-last-pressed">elapsed time since last pressed</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-elapsed-time-since-last-released">elapsed time since last released</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-pressing-physical-keys-count">pressing physical keys count</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
 
           <h2 id="filter-syntax-last-sent-event">last sent event</h2>
 
-          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
+          <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
         </div>
       </section>
     </div>

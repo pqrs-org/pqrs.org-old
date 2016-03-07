@@ -652,7 +652,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.17.0/files/sample/private.xml">private.xml</a>.
+              Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.18.0/files/sample/private.xml">private.xml</a>.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
@@ -769,7 +769,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
         <p>
             You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
-            Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+            Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
         </p>
         <p>
             For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
@@ -1030,7 +1030,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Then the preference window is opened. Change checkboxes and text if needed.
               <br />
               The value of "Target setting" such as notsave.thumbsense is &lt;identifier&gt; in
-              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
+              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-28" class="thumbnail">
@@ -1450,16 +1450,16 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
       </p>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.17.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
         </li>
       </ul>
 

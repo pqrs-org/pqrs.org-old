@@ -122,6 +122,29 @@
       </h1>
     </div>
       <h2>
+        Version 10.18.0
+          <small>
+2016年3月7日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.18.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Karabiner-10.17.0における次の問題を修正しました: <br />
+      OS X 10.10において、設定画面を開閉した後で、設定を変更するとKarabinerがクラッシュします。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
         Version 10.17.0
           <small>
 2016年3月5日          </small>
