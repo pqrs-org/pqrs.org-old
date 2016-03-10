@@ -66,7 +66,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue:<br />
-      The argument treatment of `warp-mouse-cursor-position` is wrong. <br />
+      The argument treatment in `warp-mouse-cursor-position` utility is wrong. <br />
       These adjustment values for `screen` and `front_window` were exchanged. <br />
       For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
     </div>
