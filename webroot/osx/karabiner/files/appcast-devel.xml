@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.0</title>
+      <title>Version 10.18.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.18.0 Update</h2>
+<h2>About v10.18.1 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -65,117 +65,10 @@
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      Fixed an issue that is introduced in Karabiner 10.17.0:<br />
-      Karabiner will be crashed when you change settings after you opened and closed the Preferences window in OS X 10.10.
-    </div>
-  </div>
-
-  <br />
-
-  <hr />
-
-  <h3>Changes in v10.17.0</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Show icon in Dock" setting has been added.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Resume at login" setting has been added. <br />
-      You can disable auto resume function.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Disable an internal keyboard while external keyboards are connected" setting has been improved.
-      <ul>
-        <li>Mionix Naos 7000 has been supported.</li>
-        <li>Logitech Bluetooth Mouse M555b has been supported.</li>
-        <li>Microsoft Sculpt Touch Mouse has been supported.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The word-wrap property of setting description in Preferences became break-word.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The font size in Preferences has been selectable from "default font" and "large font".
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The consumer keys (media keys) repeat values has been synchronized with the key repeat values.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The behavior of starting Karabiner on system startup has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Prepared settings have been updated.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
       Fixed an issue:<br />
-      Some Qt apps might be crash when AXNotifier is enabled. (WISO apps)
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      Microsoft Excel scroll position is sometimes reset while using scroll wheel.
-    </div>
-  </div>
-
-  <hr />
-  <h3>Updates for people who add new settings by oneself</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Option::FLIPSCROLLWHEEL_ROTATE has been added.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      PointingRelative::ANY has been added into __PointingRelativeToKey__.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      __KeyDownUpToKey__ sends only the last interrupted events when multiple interrupted events are specified.
+      The argument treatment of `warp-mouse-cursor-position` is wrong. <br />
+      These adjustment values for `screen` and `front_window` were exchanged. <br />
+      For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
     </div>
   </div>
 
@@ -187,10 +80,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 07 Mar 2016 04:05:21 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.0.dmg"
-                 sparkle:version="10.18.0" length="4323518" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAt9LkLlXG1bwjfQSoBrlfeFpsu9AhRfuEu+/NFaSvWkfkPkcCW1uzoadQ=="
+      <pubDate>Thu, 10 Mar 2016 09:26:46 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.1.dmg"
+                 sparkle:version="10.18.1" length="4323540" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHTVfNtjiYy/RsVJNTcL86Yh2CyqAhQHEeDh0bwlFXSHlokZUsNOERrD4g=="
                  />
     </item>
 
