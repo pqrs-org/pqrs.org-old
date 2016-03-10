@@ -6,6 +6,8 @@
     <appendix>* Mouse Keys Mode v2</appendix>
     <appendix>* Simple Vi Mode v2</appendix>
     <appendix>* Use "hjkl" keys as arrow keys if you are not editing text.</appendix>
+    <appendix></appendix>
+    <appendix>Note: This setting is applied automatically.</appendix>
   </item>
 
   <replacementdef>
