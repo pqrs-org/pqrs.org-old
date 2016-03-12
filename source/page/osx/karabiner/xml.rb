@@ -188,6 +188,19 @@ class Xml < KarabinerBase
           :ja => 'filters',
         }
       },
+      {
+        :name_l10n => {
+          :en => 'tips',
+          :ja => 'tips',
+        }
+      },
+      {
+        :href => '#unicode-hex-input',
+        :name_l10n => {
+          :en => 'unicode hex input',
+          :ja => 'unicode hex input',
+        }
+      },
     ]
   end
 end

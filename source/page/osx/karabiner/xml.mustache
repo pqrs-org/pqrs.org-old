@@ -3267,6 +3267,167 @@
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
         </div>
       </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="unicode-hex-input">Tips: Unicode hex input</h1>
+        </div>
+
+        <h2>
+          How to input ⌘(U+2318) by "option+a"?
+        </h2>
+        <ol class="steps">
+          <li>
+            <p>
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/unicode-hex-input@2x.png unicode-hex-input
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              Use this private.xml.
+            </p>
+
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |
+              |  <item>
+              |    <name>My Unicode Hex Input</name>
+              |    <identifier>private.unicode_hex_input</identifier>
+              |    <autogen>
+              |      __KeyToKey__
+              |      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+              |
+              |      <!-- change input source to Unicode Hex Input -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+              |      <!-- wait until input source will be changed -->
+              |      KeyCode::VK_WAIT_100MS,
+              |      <!-- 2318 -->
+              |      KeyCode::KEY_2, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_3, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_1, ModifierFlag::OPTION_L,
+              |      KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |
+              |      <!-- restore input source -->
+              |      <!-- *** please change keycode to a suitable input source on your environment *** -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+              |
+              |      <!-- suppress key repeat -->
+              |      Option::NOREPEAT,
+              |    </autogen>
+              |  </item>
+              |
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+
+        <h2 id="unicode-hex-input-modifier">
+          Making a key as modifier.
+        </h2>
+        <p>
+          If you input many Unicode characters, making a key as modifier might be useful.
+        </p>
+        <p>
+          In the next step, you will be able to enter unicode characters.
+        </p>
+        <ul>
+          <li>
+            right shift + a = 
+          </li>
+          <li>
+            right shift + c = ⌘
+          </li>
+        </ul>
+
+        <p>
+          Steps:
+        </p>
+
+        <ol class="steps">
+          <li>
+            <p>
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+                {{#lightbox}}
+                  img/unicode-hex-input@2x.png unicode-hex-input
+                {{/lightbox}}
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              Use this private.xml.
+            </p>
+
+            {{#indented_xml}}
+              |<?xml version="1.0"?>
+              |<root>
+              |
+              |  <item>
+              |    <name>Use right shift as unicode hex input modifier</name>
+              |    <appendix>- right shift + a =  (U+F8FF)</appendix>
+              |    <appendix>- right shift + c = ⌘ (U+2318)</appendix>
+              |    <identifier>private.unicode_hex_input_modifier</identifier>
+              |    <autogen>
+              |      __KeyToKey__
+              |      KeyCode::SHIFT_R,
+              |      KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_private_unicode_hex_input_modifier_flag,
+              |
+              |      Option::KEYTOKEY_BEFORE_KEYDOWN,
+              |      <!-- change input source to Unicode Hex Input -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+              |      <!-- wait until input source will be changed -->
+              |      KeyCode::VK_WAIT_100MS,
+              |
+              |      Option::KEYTOKEY_AFTER_KEYUP,
+              |      <!-- change input source to U.S. -->
+              |      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+              |    </autogen>
+              |
+              |    <block>
+              |      <config_only>notsave.private_unicode_hex_input_modifier_flag</config_only>
+              |      <autogen>
+              |        <!-- right shift + a =  (U+F8FF) -->
+              |        __KeyToKey__
+              |        KeyCode::A,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |        KeyCode::F,     ModifierFlag::OPTION_L,
+              |      </autogen>
+              |
+              |      <autogen>
+              |        <!-- right shift + c = ⌘ (U+2318) -->
+              |        __KeyToKey__
+              |        KeyCode::C,
+              |        KeyCode::KEY_2, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_3, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_1, ModifierFlag::OPTION_L,
+              |        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+              |      </autogen>
+              |    </block>
+              |  </item>
+              |
+              |  <item hidden="true">
+              |    <identifier vk_config="true">notsave.private_unicode_hex_input_modifier_flag</identifier>
+              |  </item>
+              |
+              |</root>
+            {{/indented_xml}}
+          </li>
+        </ol>
+      </section>
+
     </div>
     <div class="col-md-3">
       {{> ../../pqrs_tabs }}

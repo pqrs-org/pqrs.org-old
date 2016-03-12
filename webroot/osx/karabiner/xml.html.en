@@ -2085,6 +2085,8 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
           <h4>Option::KEYTOKEY_BEFORE_KEYDOWN</h4>
           <h4>Option::KEYTOKEY_AFTER_KEYUP</h4>
+          <h4>Option::KEYTOKEY_DELAYED_ACTION</h4>
+          <h4>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS</h4>
 
           <h3 id="syntax-__KeyToKey__-parameters">Parameters</h3>
 
@@ -3236,6 +3238,179 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples/filters.xml">filters.xml</a>.</p>
         </div>
       </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="unicode-hex-input">Tips: Unicode hex input</h1>
+        </div>
+
+        <h2>
+          How to input ⌘(U+2318) by "option+a"?
+        </h2>
+        <ol class="steps">
+          <li>
+            <p>
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
+</a>
+<div class="modal fade" id="lightbox-11" tabindex="30011">
+  <div class="modal-dialog clickable" style="width: 718px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              Use this private.xml.
+            </p>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;My Unicode Hex Input&lt;/name&gt;
+    &lt;identifier&gt;private.unicode_hex_input&lt;/identifier&gt;
+    &lt;autogen&gt;
+      __KeyToKey__
+      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+
+      &lt;!-- change input source to Unicode Hex Input --&gt;
+      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+      &lt;!-- wait until input source will be changed --&gt;
+      KeyCode::VK_WAIT_100MS,
+      &lt;!-- 2318 --&gt;
+      KeyCode::KEY_2, ModifierFlag::OPTION_L,
+      KeyCode::KEY_3, ModifierFlag::OPTION_L,
+      KeyCode::KEY_1, ModifierFlag::OPTION_L,
+      KeyCode::KEY_8, ModifierFlag::OPTION_L,
+
+      &lt;!-- restore input source --&gt;
+      &lt;!-- *** please change keycode to a suitable input source on your environment *** --&gt;
+      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+
+      &lt;!-- suppress key repeat --&gt;
+      Option::NOREPEAT,
+    &lt;/autogen&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>          </li>
+        </ol>
+
+        <h2 id="unicode-hex-input-modifier">
+          Making a key as modifier.
+        </h2>
+        <p>
+          If you input many Unicode characters, making a key as modifier might be useful.
+        </p>
+        <p>
+          In the next step, you will be able to enter unicode characters.
+        </p>
+        <ul>
+          <li>
+            right shift + a = 
+          </li>
+          <li>
+            right shift + c = ⌘
+          </li>
+        </ul>
+
+        <p>
+          Steps:
+        </p>
+
+        <ol class="steps">
+          <li>
+            <p>
+              Enable "Unicode Hex Input" from System Preferences &gt; Keyboard &gt; Input Sources.
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
+</a>
+<div class="modal fade" id="lightbox-12" tabindex="30012">
+  <div class="modal-dialog clickable" style="width: 718px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>
+              Use this private.xml.
+            </p>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;Use right shift as unicode hex input modifier&lt;/name&gt;
+    &lt;appendix&gt;- right shift + a =  (U+F8FF)&lt;/appendix&gt;
+    &lt;appendix&gt;- right shift + c = ⌘ (U+2318)&lt;/appendix&gt;
+    &lt;identifier&gt;private.unicode_hex_input_modifier&lt;/identifier&gt;
+    &lt;autogen&gt;
+      __KeyToKey__
+      KeyCode::SHIFT_R,
+      KeyCode::VK_CONFIG_SYNC_KEYDOWNUP_notsave_private_unicode_hex_input_modifier_flag,
+
+      Option::KEYTOKEY_BEFORE_KEYDOWN,
+      &lt;!-- change input source to Unicode Hex Input --&gt;
+      KeyCode::VK_CHANGE_INPUTSOURCE_UNICODEHEXINPUT,
+      &lt;!-- wait until input source will be changed --&gt;
+      KeyCode::VK_WAIT_100MS,
+
+      Option::KEYTOKEY_AFTER_KEYUP,
+      &lt;!-- change input source to U.S. --&gt;
+      KeyCode::VK_CHANGE_INPUTSOURCE_US,
+    &lt;/autogen&gt;
+
+    &lt;block&gt;
+      &lt;config_only&gt;notsave.private_unicode_hex_input_modifier_flag&lt;/config_only&gt;
+      &lt;autogen&gt;
+        &lt;!-- right shift + a =  (U+F8FF) --&gt;
+        __KeyToKey__
+        KeyCode::A,
+        KeyCode::F,     ModifierFlag::OPTION_L,
+        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+        KeyCode::F,     ModifierFlag::OPTION_L,
+        KeyCode::F,     ModifierFlag::OPTION_L,
+      &lt;/autogen&gt;
+
+      &lt;autogen&gt;
+        &lt;!-- right shift + c = ⌘ (U+2318) --&gt;
+        __KeyToKey__
+        KeyCode::C,
+        KeyCode::KEY_2, ModifierFlag::OPTION_L,
+        KeyCode::KEY_3, ModifierFlag::OPTION_L,
+        KeyCode::KEY_1, ModifierFlag::OPTION_L,
+        KeyCode::KEY_8, ModifierFlag::OPTION_L,
+      &lt;/autogen&gt;
+    &lt;/block&gt;
+  &lt;/item&gt;
+
+  &lt;item hidden="true"&gt;
+    &lt;identifier vk_config="true"&gt;notsave.private_unicode_hex_input_modifier_flag&lt;/identifier&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>          </li>
+        </ol>
+      </section>
+
     </div>
     <div class="col-md-3">
       <div class="bs-docs-sidebar" id="bs-docs-sidebar">
@@ -3339,6 +3514,12 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               <li>
                 <a href="#filter-syntax">
                   filters
+                </a>
+              </li>
+              <li class="nav-header">tips</li>
+              <li>
+                <a href="#unicode-hex-input">
+                  unicode hex input
                 </a>
               </li>
         </ul>
