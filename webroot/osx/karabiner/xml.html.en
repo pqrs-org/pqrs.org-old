@@ -3244,9 +3244,8 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
           <h1 id="tips-unicode-hex-input">Tips: Unicode hex input</h1>
         </div>
 
-        <h2>
-          How to input ⌘(U+2318) by "option+a"?
-        </h2>
+        <h2>Input ⌘(U+2318) by option-a shortcut</h2>
+
         <ol class="steps">
           <li>
             <p>
@@ -3306,9 +3305,8 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 &lt;/root&gt;</pre>          </li>
         </ol>
 
-        <h2 id="unicode-hex-input-modifier">
-          Making a key as modifier.
-        </h2>
+        <h2 id="unicode-hex-input-modifier">Making a key as modifier</h2>
+
         <p>
           If you input many Unicode characters, making a key as modifier might be useful.
         </p>
@@ -3409,6 +3407,78 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
 &lt;/root&gt;</pre>          </li>
         </ol>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="tips-string-input">Tips: String input</h1>
+        </div>
+
+        <h2>Input "Hello, World!" by option-a shortcut</h2>
+
+        <p>
+          There are two ways to input string as follows:
+        </p>
+
+        <h3>Using the sequence of KeyCode</h3>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;My Hello, World!&lt;/name&gt;
+    &lt;identifier&gt;private.string_input1&lt;/identifier&gt;
+    &lt;autogen&gt;
+      __KeyToKey__
+      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+
+      KeyCode::H, ModifierFlag::SHIFT_L,
+      KeyCode::E,
+      KeyCode::L,
+      KeyCode::L,
+      KeyCode::O,
+      KeyCode::COMMA,
+      KeyCode::SPACE,
+      KeyCode::W, ModifierFlag::SHIFT_L,
+      KeyCode::O,
+      KeyCode::R,
+      KeyCode::L,
+      KeyCode::D,
+      &lt;!-- ! is shift-1 --&gt;
+      KeyCode::1, ModifierFlag::SHIFT_L,
+    &lt;/autogen&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>
+        <h3>Using AppleScript via <a href="#vkopenurldef">&lt;vkopenurldef&gt;</a></h3>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+
+  &lt;!-- Input Hello, World! twice --&gt;
+  &lt;vkopenurldef&gt;
+    &lt;name&gt;KeyCode::VK_OPEN_URL_JXA_keystroke_HelloWorld&lt;/name&gt;
+    &lt;url type="shell"&gt;
+      osascript -l JavaScript -e "
+      Application('System Events').keystroke('Hello, World!');
+      Application('System Events').keyCode(36); /* press return */
+      Application('System Events').keystroke('Hello, World!');
+      Application('System Events').keyCode(36); /* press return */
+      "
+    &lt;/url&gt;
+  &lt;/vkopenurldef&gt;
+
+  &lt;item&gt;
+    &lt;name&gt;My Hello, World! (AppleScript)&lt;/name&gt;
+    &lt;identifier&gt;private.string_input2&lt;/identifier&gt;
+    &lt;autogen&gt;
+      __KeyToKey__
+      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+      KeyCode::VK_OPEN_URL_JXA_keystroke_HelloWorld,
+    &lt;/autogen&gt;
+  &lt;/item&gt;
+
+&lt;/root&gt;</pre>
       </section>
 
     </div>
@@ -3520,6 +3590,11 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               <li>
                 <a href="#tips-unicode-hex-input">
                   unicode hex input
+                </a>
+              </li>
+              <li>
+                <a href="#tips-string-input">
+                  string input
                 </a>
               </li>
         </ul>

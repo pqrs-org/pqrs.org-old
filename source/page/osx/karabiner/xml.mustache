@@ -3273,9 +3273,8 @@
           <h1 id="tips-unicode-hex-input">Tips: Unicode hex input</h1>
         </div>
 
-        <h2>
-          How to input ⌘(U+2318) by "option+a"?
-        </h2>
+        <h2>Input ⌘(U+2318) by option-a shortcut</h2>
+
         <ol class="steps">
           <li>
             <p>
@@ -3329,9 +3328,8 @@
           </li>
         </ol>
 
-        <h2 id="unicode-hex-input-modifier">
-          Making a key as modifier.
-        </h2>
+        <h2 id="unicode-hex-input-modifier">Making a key as modifier</h2>
+
         <p>
           If you input many Unicode characters, making a key as modifier might be useful.
         </p>
@@ -3426,6 +3424,84 @@
             {{/indented_xml}}
           </li>
         </ol>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="tips-string-input">Tips: String input</h1>
+        </div>
+
+        <h2>Input "Hello, World!" by option-a shortcut</h2>
+
+        <p>
+          There are two ways to input string as follows:
+        </p>
+
+        <h3>Using the sequence of KeyCode</h3>
+
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <item>
+          |    <name>My Hello, World!</name>
+          |    <identifier>private.string_input1</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+          |
+          |      KeyCode::H, ModifierFlag::SHIFT_L,
+          |      KeyCode::E,
+          |      KeyCode::L,
+          |      KeyCode::L,
+          |      KeyCode::O,
+          |      KeyCode::COMMA,
+          |      KeyCode::SPACE,
+          |      KeyCode::W, ModifierFlag::SHIFT_L,
+          |      KeyCode::O,
+          |      KeyCode::R,
+          |      KeyCode::L,
+          |      KeyCode::D,
+          |      <!-- ! is shift-1 -->
+          |      KeyCode::1, ModifierFlag::SHIFT_L,
+          |    </autogen>
+          |  </item>
+          |
+          |</root>
+        {{/indented_xml}}
+
+        <h3>Using AppleScript via <a href="#vkopenurldef">&lt;vkopenurldef&gt;</a></h3>
+
+        {{#indented_xml}}
+          |<?xml version="1.0"?>
+          |<root>
+          |
+          |  <!-- Input Hello, World! twice -->
+          |  <vkopenurldef>
+          |    <name>KeyCode::VK_OPEN_URL_JXA_keystroke_HelloWorld</name>
+          |    <url type="shell">
+          |      osascript -l JavaScript -e "
+          |      Application('System Events').keystroke('Hello, World!');
+          |      Application('System Events').keyCode(36); /* press return */
+          |      Application('System Events').keystroke('Hello, World!');
+          |      Application('System Events').keyCode(36); /* press return */
+          |      "
+          |    </url>
+          |  </vkopenurldef>
+          |
+          |  <item>
+          |    <name>My Hello, World! (AppleScript)</name>
+          |    <identifier>private.string_input2</identifier>
+          |    <autogen>
+          |      __KeyToKey__
+          |      KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION | ModifierFlag::NONE,
+          |      KeyCode::VK_OPEN_URL_JXA_keystroke_HelloWorld,
+          |    </autogen>
+          |  </item>
+          |
+          |</root>
+        {{/indented_xml}}
+
       </section>
 
     </div>

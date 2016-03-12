@@ -201,6 +201,13 @@ class Xml < KarabinerBase
           :ja => 'unicode hex input',
         }
       },
+      {
+        :href => '#tips-string-input',
+        :name_l10n => {
+          :en => 'string input',
+          :ja => 'string input',
+        }
+      },
     ]
   end
 end
