@@ -6,6 +6,7 @@
         /* from bs/assets/js/application.js */
         var $window = $(window);
         var $body = $(document.body);
+        var $sideBar = $('.bs-docs-sidebar');
 
         var navHeight = $('.navbar').outerHeight(true) + 10;
 
@@ -17,8 +18,6 @@
         });
 
         setTimeout(function() {
-            var $sideBar = $('.bs-docs-sidebar');
-
             $sideBar.affix({
                 offset: {
                     top: function() {
@@ -34,6 +33,16 @@
                 }
             });
         }, 100);
+
+        // set bs-docs-sidebar height
+        console.log($sideBar.offset().left);
+        if ($sideBar.offset().left < 400) {
+            // $sideBar block is wrapped because the window.width is too small.
+            // We should not set $sideBar.height.
+        } else {
+            $sideBar.height($window.height() - $sideBar.offset().top - 50);
+            $sideBar.css('overflow', 'auto');
+        }
 
         /* ------------------------------------------------------------ */
         /* pqrs.org */
