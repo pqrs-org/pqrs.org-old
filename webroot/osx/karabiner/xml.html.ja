@@ -2079,9 +2079,12 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             </tbody>
           </table>
 
-          <h3>Option</h3>
+          <h3 id="syntax-__KeyToKey__-options">Option</h3>
 
           <p>Not yet documented. Please see <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.18.0/src/core/server/Resources/include/checkbox/samples.xml">samples.xml</a>.</p>
+
+          <h4>Option::KEYTOKEY_BEFORE_KEYDOWN</h4>
+          <h4>Option::KEYTOKEY_AFTER_KEYUP</h4>
 
           <h3 id="syntax-__KeyToKey__-parameters">Parameters</h3>
 
