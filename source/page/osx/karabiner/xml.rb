@@ -195,7 +195,7 @@ class Xml < KarabinerBase
         }
       },
       {
-        :href => '#unicode-hex-input',
+        :href => '#tips-unicode-hex-input',
         :name_l10n => {
           :en => 'unicode hex input',
           :ja => 'unicode hex input',

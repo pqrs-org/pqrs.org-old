@@ -3241,7 +3241,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
 
       <section>
         <div class="page-header">
-          <h1 id="unicode-hex-input">Tips: Unicode hex input</h1>
+          <h1 id="tips-unicode-hex-input">Tips: Unicode hex input</h1>
         </div>
 
         <h2>
@@ -3518,7 +3518,7 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               </li>
               <li class="nav-header">tips</li>
               <li>
-                <a href="#unicode-hex-input">
+                <a href="#tips-unicode-hex-input">
                   unicode hex input
                 </a>
               </li>
