@@ -3459,12 +3459,14 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
   &lt;vkopenurldef&gt;
     &lt;name&gt;KeyCode::VK_OPEN_URL_JXA_keystroke_HelloWorld&lt;/name&gt;
     &lt;url type="shell"&gt;
-      osascript -l JavaScript -e "
-      Application('System Events').keystroke('Hello, World!');
-      Application('System Events').keyCode(36); /* press return */
-      Application('System Events').keystroke('Hello, World!');
-      Application('System Events').keyCode(36); /* press return */
-      "
+      osascript -e '
+        tell application "System Events"
+          keystroke "Hello, World!"
+          keystroke return
+          keystroke "Hello, World!"
+          keystroke return
+        end tell
+      '
     &lt;/url&gt;
   &lt;/vkopenurldef&gt;
 
