@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/css/pqrs.css?1391687151" rel="stylesheet" />
+    <link href="/css/pqrs.css?1458101036" rel="stylesheet" />
     <link href="/css/sparkle.css?1452433405" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -635,7 +635,7 @@
     <script src="/assets/bootstrap/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
-    <script src="/js/pqrs.js?1376532151"></script>
+    <script src="/js/pqrs.js?1458101081"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
