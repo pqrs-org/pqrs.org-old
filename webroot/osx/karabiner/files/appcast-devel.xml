@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.6</title>
+      <title>Version 10.18.7</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.18.6 Update</h2>
+<h2>About v10.18.7 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -79,6 +79,23 @@
     </div>
   </div>
 
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `&lt;bundleidentifieroverridedef&gt;` has been introduced.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      In some case, ModifierFlag pattern matching of `Option::KEYTOKEY_AFTER_KEYUP` in `__KeyOverlaidModifier__` and `__HoldingKeyToKey__` does not work property.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -87,10 +104,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 20 Mar 2016 17:30:52 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.6.dmg"
-                 sparkle:version="10.18.6" length="4333964" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBxN49XtbAwpnLWmmOW14LpEMk5PAhQzmu0l0GZasEEFWH0QW0ZiPQg0iQ=="
+      <pubDate>Mon, 21 Mar 2016 15:51:53 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.7.dmg"
+                 sparkle:version="10.18.7" length="4334927" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHoDNrj64sxNj/pStMUIE8YuvNUYAhRSG846xJyd2yAvLcRZjqpN2Zk+tg=="
                  />
     </item>
 
