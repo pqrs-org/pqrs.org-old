@@ -92,6 +92,7 @@
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      Fixed an issue:<br />
       In some case, ModifierFlag pattern matching of `Option::KEYTOKEY_AFTER_KEYUP` in `__KeyOverlaidModifier__` and `__HoldingKeyToKey__` does not work property.
     </div>
   </div>

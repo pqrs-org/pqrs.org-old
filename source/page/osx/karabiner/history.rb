@@ -41,7 +41,7 @@ EOS
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Karabiner-10.17.0における次の問題を修正しました: <br />
-      OS X 10.10において、設定画面を開閉した後で、設定を変更するとKarabinerがクラッシュします。
+      OS X 10.10において、設定画面を開閉した後で、設定を変更するとKarabinerがクラッシュする。
     </div>
   </div>
 
