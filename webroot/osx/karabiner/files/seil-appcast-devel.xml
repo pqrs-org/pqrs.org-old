@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.4</title>
+      <title>Version 12.0.5</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,11 +56,26 @@
 }
 </style>
 
-<h2>About v12.0.4 Update</h2>
+<h2>About v12.0.5 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Show icon in Dock" setting has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Resume at login" setting has been added. <br />
+      You can disable auto resume function.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -84,10 +99,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 25 Feb 2016 05:42:18 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.4.dmg"
-                 sparkle:version="12.0.4" length="1494240" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQC+KtIm+nF36uLlU+cpK2NMfOxl+QIVAIRbteLAxGYPnMg7DmVUM7HgjKwj"
+      <pubDate>Thu, 24 Mar 2016 14:36:51 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.5.dmg"
+                 sparkle:version="12.0.5" length="1598878" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFEjFcb62681w6uDImIoIIqn/W+cXAhUAk89PGATPII1xlV5zKQnZ95GC7rc="
                  />
     </item>
 
