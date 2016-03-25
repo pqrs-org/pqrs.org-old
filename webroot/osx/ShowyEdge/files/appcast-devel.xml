@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.0.4</title>
+      <title>Version 3.0.5</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,11 +56,18 @@
 }
 </style>
 
-<h2>About v3.0.4 Update</h2>
+<h2>About v3.0.5 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Colors layout orientation" setting has been added.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -77,10 +84,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 29 Feb 2016 14:49:33 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.4.dmg"
-                 sparkle:version="3.0.4" length="1766487" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAIITTSKhbK07l6/si0dbxt+CHahAhQXA8MYY7AfOp0AQd7HjTmF6aLoGw=="
+      <pubDate>Fri, 25 Mar 2016 15:24:04 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.5.dmg"
+                 sparkle:version="3.0.5" length="1785730" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGmuybxGq3FEoDt4RI7euyKLc4PMAhRbR8XstmKxvk4Y8FP7gKcclBIgRQ=="
       />
     </item>
 
