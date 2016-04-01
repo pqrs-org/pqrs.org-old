@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.0.5</title>
+      <title>Version 3.0.6</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v3.0.5 Update</h2>
+<h2>About v3.0.6 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -76,6 +76,13 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The preferences window UI has been improved.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -84,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 25 Mar 2016 15:24:04 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.5.dmg"
-                 sparkle:version="3.0.5" length="1785730" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGmuybxGq3FEoDt4RI7euyKLc4PMAhRbR8XstmKxvk4Y8FP7gKcclBIgRQ=="
+      <pubDate>Fri, 01 Apr 2016 15:31:27 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.6.dmg"
+                 sparkle:version="3.0.6" length="1799783" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBPXHWN/Yaqr0K2gDECs1oFs3HpfAhRnicFDBgyUpKbCesyYHF6gNgwzcA=="
       />
     </item>
 
