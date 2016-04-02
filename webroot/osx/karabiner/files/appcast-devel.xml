@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.14</title>
+      <title>Version 10.18.17</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.18.14 Update</h2>
+<h2>About v10.18.17 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -89,6 +89,17 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following filters have been added.
+      <ul>
+        <li>&lt;deviceexists_not&gt;</li>
+        <li>&lt;deviceexists_only&gt;</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -105,10 +116,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 31 Mar 2016 17:31:14 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.14.dmg"
-                 sparkle:version="10.18.14" length="4455800" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEGR7k0jHxnxL4unxGAUy8fKr4LlAhQhLXtsSQuoc8RoM8gZ++LZFQvHZw=="
+      <pubDate>Sat, 02 Apr 2016 16:41:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.17.dmg"
+                 sparkle:version="10.18.17" length="4456125" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHluNcau3Kg0YJiIW2KqxyEYcMH/AhRwdUlLbQqRcGySmATq7R1eqOd8+A=="
                  />
     </item>
 
