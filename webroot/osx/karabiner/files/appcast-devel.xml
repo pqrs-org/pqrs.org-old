@@ -92,11 +92,9 @@
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      The following filters have been added.
-      <ul>
-        <li>&lt;deviceexists_not&gt;</li>
-        <li>&lt;deviceexists_only&gt;</li>
-      </ul>
+      The following filters have been added. <br />
+      * &lt;deviceexists_not&gt;<br />
+      * &lt;deviceexists_only&gt;<br />
     </div>
   </div>
 
