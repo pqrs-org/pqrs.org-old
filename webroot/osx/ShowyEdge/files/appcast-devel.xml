@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.0.13</title>
+      <title>Version 3.0.14</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v3.0.13 Update</h2>
+<h2>About v3.0.14 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -98,10 +98,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 08 Apr 2016 02:23:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.13.dmg"
-                 sparkle:version="3.0.13" length="2191370" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAsu5WdHLYTSVin8cm5/ahfvOngPAhRQ9LgWnxJZIH6NGBdSD5qMZxUnTg=="
+      <pubDate>Fri, 08 Apr 2016 17:05:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.0.14.dmg"
+                 sparkle:version="3.0.14" length="2191704" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAYBFqixqBFekbyBKv6aKbtGIpN6AhRnmhO9CmFDAnbJzos+blNoIZRZMg=="
       />
     </item>
 
