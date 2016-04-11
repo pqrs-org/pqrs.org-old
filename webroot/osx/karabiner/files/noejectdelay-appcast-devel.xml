@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 7.1.2</title>
+      <title>Version 7.1.3</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v7.1.2 Update</h2>
+<h2>About v7.1.3 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -77,10 +77,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 24 Mar 2016 15:06:27 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.1.2.dmg"
-                 sparkle:version="7.1.2" length="1127971" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFCao8B0xZnvmC1HDXsBROcZX7jk8AhUAr0tJ/JugCWr00Kqew1FaZqiNjck="
+      <pubDate>Mon, 11 Apr 2016 16:16:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.1.3.dmg"
+                 sparkle:version="7.1.3" length="1127917" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFBukuW1fz0w2otiqfiMhbsQSPgY7AhUAt1eH0tn1a9gFI1+LPPcN/TnqXrk="
                  />
     </item>
 
