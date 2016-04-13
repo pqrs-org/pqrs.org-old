@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.21</title>
+      <title>Version 10.18.23</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.18.21 Update</h2>
+<h2>About v10.18.23 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -69,6 +69,13 @@
       The argument treatment in `warp-mouse-cursor-position` utility is wrong. <br />
       These adjustment values for `screen` and `front_window` were exchanged. <br />
       For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The device disconnect handling has been improved.
     </div>
   </div>
 
@@ -114,10 +121,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 11 Apr 2016 16:08:25 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.21.dmg"
-                 sparkle:version="10.18.21" length="4456139" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCxKhn9RhZDGPGhg0aG+bMkA88lzAhQm2iysYLQF+qGYxNWdyxPDtiAKhQ=="
+      <pubDate>Wed, 13 Apr 2016 04:57:47 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.23.dmg"
+                 sparkle:version="10.18.23" length="4456342" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDO617c3lBtXRbgtD0hxg5SFQGZ5AhQAq1yX/lZwQCiZM1WgWSOVj96C/Q=="
                  />
     </item>
 
