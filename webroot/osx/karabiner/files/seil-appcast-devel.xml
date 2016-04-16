@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.11</title>
+      <title>Version 12.0.12</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,18 +56,11 @@
 }
 </style>
 
-<h2>About v12.0.11 Update</h2>
+<h2>About v12.0.12 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Show icon in Dock" setting has been added.
-    </div>
-  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -91,6 +84,20 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The preferences window UI has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Memory usage has been reduced.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -99,10 +106,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 02 Apr 2016 13:58:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.11.dmg"
-                 sparkle:version="12.0.11" length="1599060" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFHsxXtpigEdQE8LH8KNRsXKDYqFkAhUAxOfP/Njkh8vjALc9TMUXKEmCgPQ="
+      <pubDate>Sat, 16 Apr 2016 15:58:24 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.0.12.dmg"
+                 sparkle:version="12.0.12" length="2072155" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFERtBHtR/vDFGmMEWQ0S1uceM0VYAhUAtjjkKgtvEgB/cBqfTF7O8IGR1dM="
                  />
     </item>
 
