@@ -7,6 +7,105 @@
     <language>en</language>
 
     <item>
+      <title>Version 3.1.0</title>
+      <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1.5em 1px 1px 1px;
+    border-style: solid;
+}
+.update-description-label {
+    margin: -1.5em 0 0 .5em;
+    padding: 0;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+}
+.update-description .update-description-body {
+    margin: .2em 1em;
+    padding: .5em;
+}
+.update-description-item-new {
+    border-color: #337ab7;
+}
+.update-description-item-new .update-description-label:before {
+    content: "new";
+}
+.update-description-item-important {
+    border-color: #d9534f;
+}
+.update-description-item-important .update-description-label:before {
+    content: "important";
+}
+.update-description-item-fixed {
+    border-color: #5cb85c;
+}
+.update-description-item-fixed .update-description-label:before {
+    content: "fixed";
+}
+.update-description-item-improved {
+    border-color: #f0ad4e;
+}
+.update-description-item-improved .update-description-label:before {
+    content: "improved";
+}
+</style>
+
+<h2>About v3.1.0 Update</h2>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Colors layout orientation" setting has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The behavior of starting ShowyEdge on system startup has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The preferences window UI has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Memory usage has been reduced.
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
+</p>
+]]>
+      </description>
+      <pubDate>Sun, 17 Apr 2016 14:40:12 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.0.dmg"
+                 sparkle:version="3.1.0" length="2193375" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFDN3c6888ROhmficIgnZfXBOR4xUAhUAlpQ5o++7PgTmtKMQ1HEGVY63DPQ="
+      />
+    </item>
+
+    <item>
       <title>Version 3.0.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[

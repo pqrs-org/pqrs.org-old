@@ -74,7 +74,10 @@
       </h1>
 
       <p>
-        <img src="img/menubar.png" alt="menu bar" style="border: 1px solid black; margin: 20px" />
+        <img
+        alt="menu bar"
+src="img/menubar@2x.png" width="830" height="190"        style="border: 1px solid black; margin: 20px"
+        />
       </p>
 
       <p>
@@ -84,7 +87,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-3.0.0.dmg">ShowyEdge-3.0.0をダウンロード
+            href="files/ShowyEdge-3.1.0.dmg">ShowyEdge-3.1.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.9以降で動作します。</span></a>      </p>
 
       <div class="alert alert-warning" role="alert">
@@ -123,7 +126,7 @@
             <p>
               <img
               alt="dmg"
-src="img/dmg.png" width="128" height="128"              />
+src="../images/dmg-icon@2x.png" width="128" height="128"              />
             </p>
           </li>
 
@@ -135,33 +138,13 @@ src="img/dmg.png" width="128" height="128"              />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/install.png" alt="Install ShowyEdge" />
+  <img src="img/install@2x.png" alt="Install ShowyEdge" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 830px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/install.png" alt="Install ShowyEdge" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-              LaunchpadからShowyEdgeを開いてください。
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/launchpad.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 700px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/install@2x.png" alt="Install ShowyEdge" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -172,40 +155,41 @@ src="img/dmg.png" width="128" height="128"              />
 
           <li>
             <p>
-                設定画面が開きますので、「Start ShowyEdge on system startup」をチェックしてください。
+                LaunchpadからShowyEdgeを開いてください。
+            </p>
+            <div class="row">
+              <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/launchpad@2x.png" alt="Launchpad" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 655px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/launchpad@2x.png" alt="Launchpad" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <p>
+                設定画面が開きます。
+                必要に応じて設定を変更してから、ウィンドウを閉じてください。
             </p>
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/preferences.png" alt="Preferences" />
+  <img src="img/preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 692px;">
+  <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/preferences.png" alt="Preferences" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-                設定画面を閉じてください。
-            </p>
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/close.png" alt="Preferences" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 692px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/close.png" alt="Preferences" style="width: 100%" />
+        <img src="img/preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -232,22 +216,12 @@ src="img/dmg.png" width="128" height="128"              />
             例えば、入力ソースをフランス語にするとカラーバーの色が「青、白、赤」になります。
         </p>
 
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/french.png" alt="French" />
-</a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
-  <div class="modal-dialog clickable" style="width: 559px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/french.png" alt="French" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
+        <p>
+          <img
+          alt="menu bar"
+src="img/menubar@2x.png" width="830" height="190"          style="border: 1px solid black; margin: 20px"
+          />
+        </p>
 
         <h2>
             色の設定
@@ -262,14 +236,14 @@ src="img/dmg.png" width="128" height="128"              />
               LaunchpadからShowyEdgeを開いてください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/launchpad.png" alt="Launchpad" />
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/launchpad@2x.png" alt="Launchpad" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
-  <div class="modal-dialog clickable" style="width: 700px;">
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 655px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/launchpad@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -278,17 +252,17 @@ src="img/dmg.png" width="128" height="128"              />
             </div>
           </li>
           <li>
-              設定画面が開きますので、「＋」ボタンを押してください。
+              設定画面が開きますので、「Add custom color」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/color1.png" alt="Finder" />
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/add-color@2x.png" alt="Finder" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
-  <div class="modal-dialog clickable" style="width: 692px;">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/color1.png" alt="Finder" style="width: 100%" />
+        <img src="img/add-color@2x.png" alt="Finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -300,36 +274,14 @@ src="img/dmg.png" width="128" height="128"              />
               入力ソースの設定が追加されますので、色を変更してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/color2.png" alt="Finder" />
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/change-color@2x.png" alt="Finder" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 692px;">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/color2.png" alt="Finder" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-                設定画面を閉じてください。
-            </p>
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/close.png" alt="Preferences" />
-</a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 692px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/close.png" alt="Preferences" style="width: 100%" />
+        <img src="img/change-color@2x.png" alt="Finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -352,14 +304,14 @@ src="img/dmg.png" width="128" height="128"              />
               LaunchpadからShowyEdgeを開いてください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/launchpad.png" alt="Launchpad" />
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/launchpad@2x.png" alt="Launchpad" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
-  <div class="modal-dialog clickable" style="width: 700px;">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 655px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/launchpad.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/launchpad@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -371,14 +323,14 @@ src="img/dmg.png" width="128" height="128"              />
               「Quit ShowyEdge」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/quit.png" alt="Launchpad" />
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/quit@2x.png" alt="Launchpad" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
-  <div class="modal-dialog clickable" style="width: 692px;">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 700px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/quit.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/quit@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -404,14 +356,14 @@ src="img/dmg.png" width="128" height="128"              />
               FinderでApplicationsを開いてください。そしてShowyEdgeを削除してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/finder.png" alt="Finder" />
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/uninstall@2x.png" alt="Uninstall" />
 </a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 830px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/finder.png" alt="Finder" style="width: 100%" />
+        <img src="img/uninstall@2x.png" alt="Uninstall" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -440,6 +392,49 @@ src="img/dmg.png" width="128" height="128"              />
           </h1>
         </div>
 
+          <h2>
+            Version 3.1.0
+              <small>
+2016年4月17日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-3.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定に「Colors layout orientation」を追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ログイン後のShowyEdgeの自動起動の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面のUIを改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      メモリ使用量を削減しました。
+    </div>
+  </div>
+
+</div>
+
+          </div>
           <h2>
             Version 3.0.0
               <small>
@@ -661,7 +656,7 @@ src="img/dmg.png" width="128" height="128"              />
 
     <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
-    <script src="/js/pqrs.js?1458101081"></script>
+    <script src="/js/pqrs.js?1460905784"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

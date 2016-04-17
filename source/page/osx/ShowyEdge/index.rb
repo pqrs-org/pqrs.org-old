@@ -75,6 +75,79 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '3.1.0',
+              :updated => '2016-04-17',
+              :link => 'files/ShowyEdge-3.1.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Colors layout orientation" setting has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The behavior of starting ShowyEdge on system startup has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The preferences window UI has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Memory usage has been reduced.
+    </div>
+  </div>
+
+</div>
+EOS
+                :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定に「Colors layout orientation」を追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ログイン後のShowyEdgeの自動起動の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面のUIを改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      メモリ使用量を削減しました。
+    </div>
+  </div>
+
+</div>
+EOS
+              },
+            },
+            {
               :version => '3.0.0',
               :updated => '2015-12-03',
               :link => 'files/ShowyEdge-3.0.0.dmg',

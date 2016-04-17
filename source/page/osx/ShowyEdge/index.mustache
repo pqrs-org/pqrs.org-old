@@ -7,7 +7,13 @@
       </h1>
 
       <p>
-        <img src="img/menubar.png" alt="menu bar" style="border: 1px solid black; margin: 20px" />
+        <img
+        alt="menu bar"
+        {{#imgsrc}}
+          img/menubar@2x.png
+        {{/imgsrc}}
+        style="border: 1px solid black; margin: 20px"
+        />
       </p>
 
       <p>
@@ -24,12 +30,12 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-3.0.0.dmg">
+            href="files/ShowyEdge-3.1.0.dmg">
             {{#language_en}}
-              Download ShowyEdge-3.0.0
+              Download ShowyEdge-3.1.0
             {{/language_en}}
             {{#language_ja}}
-              ShowyEdge-3.0.0をダウンロード
+              ShowyEdge-3.1.0をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label label-default">
@@ -134,7 +140,7 @@
               <img
               alt="dmg"
               {{#imgsrc}}
-                img/dmg.png
+                ../images/dmg-icon@2x.png
               {{/imgsrc}}
               />
             </p>
@@ -154,23 +160,25 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/install.png Install ShowyEdge
+                  img/install@2x.png Install ShowyEdge
                 {{/lightbox}}
               </div>
             </div>
           </li>
 
           <li>
-            {{#language_en}}
-              Open ShowyEdge from Launchpad.
-            {{/language_en}}
-            {{#language_ja}}
-              LaunchpadからShowyEdgeを開いてください。
-            {{/language_ja}}
+            <p>
+              {{#language_en}}
+                Open ShowyEdge from Launchpad.
+              {{/language_en}}
+              {{#language_ja}}
+                LaunchpadからShowyEdgeを開いてください。
+              {{/language_ja}}
+            </p>
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/launchpad.png Launchpad
+                  img/launchpad@2x.png Launchpad
                 {{/lightbox}}
               </div>
             </div>
@@ -180,34 +188,17 @@
             <p>
               {{#language_en}}
                 Preferences will be opened.<br />
-                Check "Start ShowyEdge on system startup".
+                Change values if needed and then close the window.<br />
               {{/language_en}}
               {{#language_ja}}
-                設定画面が開きますので、「Start ShowyEdge on system startup」をチェックしてください。
+                設定画面が開きます。
+                必要に応じて設定を変更してから、ウィンドウを閉じてください。
               {{/language_ja}}
             </p>
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/preferences.png Preferences
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-              {{#language_en}}
-                Close Preferences.
-              {{/language_en}}
-              {{#language_ja}}
-                設定画面を閉じてください。
-              {{/language_ja}}
-            </p>
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/close.png Preferences
+                  img/preferences@2x.png Preferences
                 {{/lightbox}}
               </div>
             </div>
@@ -247,13 +238,15 @@
           {{/language_ja}}
         </p>
 
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/french.png French
-            {{/lightbox}}
-          </div>
-        </div>
+        <p>
+          <img
+          alt="menu bar"
+          {{#imgsrc}}
+            img/menubar@2x.png
+          {{/imgsrc}}
+          style="border: 1px solid black; margin: 20px"
+          />
+        </p>
 
         <h2>
           {{#language_en}}
@@ -284,22 +277,22 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/launchpad.png Launchpad
+                  img/launchpad@2x.png Launchpad
                 {{/lightbox}}
               </div>
             </div>
           </li>
           <li>
             {{#language_en}}
-              Preferences will be opened. Then, press "+" button on Preferences.
+              Preferences will be opened. Then, press "Add custom color" button on Preferences.
             {{/language_en}}
             {{#language_ja}}
-              設定画面が開きますので、「＋」ボタンを押してください。
+              設定画面が開きますので、「Add custom color」ボタンを押してください。
             {{/language_ja}}
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/color1.png Finder
+                  img/add-color@2x.png Finder
                 {{/lightbox}}
               </div>
             </div>
@@ -314,25 +307,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/color2.png Finder
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-              {{#language_en}}
-                Close Preferences.
-              {{/language_en}}
-              {{#language_ja}}
-                設定画面を閉じてください。
-              {{/language_ja}}
-            </p>
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/close.png Preferences
+                  img/change-color@2x.png Finder
                 {{/lightbox}}
               </div>
             </div>
@@ -363,7 +338,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/launchpad.png Launchpad
+                  img/launchpad@2x.png Launchpad
                 {{/lightbox}}
               </div>
             </div>
@@ -378,7 +353,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/quit.png Launchpad
+                  img/quit@2x.png Launchpad
                 {{/lightbox}}
               </div>
             </div>
@@ -409,7 +384,7 @@
           </li>
           <li>
             {{#language_en}}
-              Open Applications in Finder. Then, delete ShowyEdge.
+              Open Applications in Finder and then delete ShowyEdge.
             {{/language_en}}
             {{#language_ja}}
               FinderでApplicationsを開いてください。そしてShowyEdgeを削除してください。
@@ -417,7 +392,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/finder.png Finder
+                  img/uninstall@2x.png Uninstall
                 {{/lightbox}}
               </div>
             </div>
