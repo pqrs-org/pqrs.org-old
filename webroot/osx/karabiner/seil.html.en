@@ -134,6 +134,12 @@
             href="files/Seil-12.0.0.dmg">Download Seil-12.0.0
             &nbsp;<span class="label label-default">For OS X 10.11</span></a>      </p>
 
+      <p>
+        <a href="https://github.com/tekezo/Seil/blob/master/LICENSE.md" target="_blank">
+        <img src="/img/icon/license-public-domain.svg" alt="Public Domain" />
+        </a>
+      </p>
+
       <div class="alert alert-warning" role="alert">
           About Sparkle Updater Vulnerability:<br />
           Seil is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
