@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.1.0</title>
+      <title>Version 3.1.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,37 +56,16 @@
 }
 </style>
 
-<h2>About v3.1.0 Update</h2>
+<h2>About v3.1.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Colors layout orientation" setting has been added.
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      The behavior of starting ShowyEdge on system startup has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The preferences window UI has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Memory usage has been reduced.
+      Minor update.
     </div>
   </div>
 
@@ -98,10 +77,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 17 Apr 2016 14:40:12 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.0.dmg"
-                 sparkle:version="3.1.0" length="2193375" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDN3c6888ROhmficIgnZfXBOR4xUAhUAlpQ5o++7PgTmtKMQ1HEGVY63DPQ="
+      <pubDate>Tue, 19 Apr 2016 03:18:07 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.1.dmg"
+                 sparkle:version="3.1.1" length="2193273" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFAqDOZjvqt9WudviEjIQsu8Lh1TDAhQ7HcurADXiJmYMLCQnygW+b286hw=="
       />
     </item>
 
