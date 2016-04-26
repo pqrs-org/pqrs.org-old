@@ -72,6 +72,95 @@ class Seil < KarabinerBase
   def histories
     data = [
       {
+        :version => '12.1.0',
+        :updated => '2016-04-26',
+        :link => 'files/Seil-12.1.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      "Resume at login" setting has been added. <br />
+      You can disable auto resume function.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The physical forward delete key has been added into the changeable keys.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The behavior of starting Seil on system startup has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The preferences window UI has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Memory usage has been reduced.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Resume at login」という設定項目を加えました。
+      Seilの自動起動を無効に出来ます。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      変更可能なキーを追加しました。（forward deleteキー）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ログイン後のSeilの自動起動の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面のUIを改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      メモリ使用量を削減しました。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '12.0.0',
         :updated => '2015-12-04',
         :link => 'files/Seil-12.0.0.dmg',

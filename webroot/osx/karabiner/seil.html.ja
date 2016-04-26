@@ -131,7 +131,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Seil-12.0.0.dmg">Seil-12.0.0をダウンロード
+            href="files/Seil-12.1.0.dmg">Seil-12.1.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.11用</span></a>      </p>
 
       <p>
@@ -553,6 +553,57 @@ $ sh ~/Desktop/seil-import.sh
           </h1>
         </div>
 
+          <h2>
+            Version 12.1.0
+              <small>
+2016年4月26日              </small>
+
+              <a class="btn btn-default" href="files/Seil-12.1.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Resume at login」という設定項目を加えました。
+      Seilの自動起動を無効に出来ます。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      変更可能なキーを追加しました。（forward deleteキー）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      ログイン後のSeilの自動起動の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定画面のUIを改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      メモリ使用量を削減しました。
+    </div>
+  </div>
+
+</div>
+
+          </div>
           <h2>
             Version 12.0.0
               <small>
