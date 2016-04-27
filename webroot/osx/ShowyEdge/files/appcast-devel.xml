@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.1.2</title>
+      <title>Version 3.1.3</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v3.1.2 Update</h2>
+<h2>About v3.1.3 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -65,7 +65,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      Minor update.
+      An opacity slider has been added to color picker.
     </div>
   </div>
 
@@ -77,10 +77,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 20 Apr 2016 09:35:04 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.2.dmg"
-                 sparkle:version="3.1.2" length="2193422" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBdf3q7ROCp8S3FKGVoSxi1TW1SlAhQpmgcrnz3pqsb4A1h7MBjDZqK7pg=="
+      <pubDate>Wed, 27 Apr 2016 08:24:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.3.dmg"
+                 sparkle:version="3.1.3" length="2193497" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFE9MHVf/tKvubPg+Fpelx3PBieTFAhROnAQ1NUc68xIYomWasRSRD8Wl0Q=="
       />
     </item>
 
