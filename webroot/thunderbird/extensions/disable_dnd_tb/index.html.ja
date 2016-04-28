@@ -45,9 +45,6 @@
                 <li class=active>
                   <a href="/thunderbird/extensions/disable_dnd_tb/index.html.ja">Disable DragAndDrop</a>
                 </li>
-                <li >
-                  <a href="/thunderbird/extensions/disable_dnd_tb/history.html.ja">更新履歴</a>
-                </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
@@ -84,14 +81,132 @@
 
           <p>
 <a class="btn btn-default btn-small"
-                href="files/disable_dnd_tb-2.1.0.xpi">このサイトからダウンロード
-                &nbsp;<small>(Version 2.1.0)</small></a>          </p>
+                href="files/disable_dnd_tb-3.0.0.xpi">このサイトからダウンロード
+                &nbsp;<small>(Version 3.0.0)</small></a>          </p>
         </div>
         <div class="col-lg-4" style="height: 250px; background: url(img/logo.png) no-repeat right">
         </div>
       </div>
     </div>
   </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          更新履歴
+      </h1>
+    </div>
+      <h2>
+        Version 3.0.0
+          <small>
+2016年4月28日          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Thunderbird 45以降に対応。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 2.1.0
+          <small>
+2011年6月29日          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Thunderbird 5以降に対応。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 2.0.0
+          <small>
+2010年8月14日          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Thunderbird 3以降に対応。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 1.0.1
+          <small>
+2007年4月12日          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Thunderbird 2以降に対応。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 1.0.0
+          <small>
+2007年2月28日          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      最初のリリース。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+  </section>
 </div>
 
 

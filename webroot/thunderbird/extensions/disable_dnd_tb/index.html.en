@@ -45,9 +45,6 @@
                 <li class=active>
                   <a href="/thunderbird/extensions/disable_dnd_tb/index.html.en">Disable DragAndDrop</a>
                 </li>
-                <li >
-                  <a href="/thunderbird/extensions/disable_dnd_tb/history.html.en">Version History</a>
-                </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
@@ -84,14 +81,132 @@
 
           <p>
 <a class="btn btn-default btn-small"
-                href="files/disable_dnd_tb-2.1.0.xpi">Download from this site
-                &nbsp;<small>(Version 2.1.0)</small></a>          </p>
+                href="files/disable_dnd_tb-3.0.0.xpi">Download from this site
+                &nbsp;<small>(Version 3.0.0)</small></a>          </p>
         </div>
         <div class="col-lg-4" style="height: 250px; background: url(img/logo.png) no-repeat right">
         </div>
       </div>
     </div>
   </header>
+
+  <section>
+    <div class="page-header">
+      <h1>
+          Version History
+      </h1>
+    </div>
+      <h2>
+        Version 3.0.0
+          <small>
+Apr 28, 2016          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Update for Thunderbird 45+.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 2.1.0
+          <small>
+Jun 29, 2011          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Update for Thunderbird 5+.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 2.0.0
+          <small>
+Aug 14, 2010          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Update for Thunderbird 3.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 1.0.1
+          <small>
+Apr 12, 2007          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Update for Thunderbird 2.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
+        Version 1.0.0
+          <small>
+Feb 28, 2007          </small>
+
+          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Initial release.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+  </section>
 </div>
 
 
