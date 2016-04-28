@@ -49,42 +49,65 @@
     </div>
   </header>
 
-  <section>
-    <div class="page-header">
-      <h1>
-        {{#language_en}}
-          Version History
-        {{/language_en}}
-        {{#language_ja}}
-          更新履歴
-        {{/language_ja}}
-      </h1>
-    </div>
-    {{#histories}}
-      <h2>
-        Version {{version}}
-        {{#updated}}
-          <small>
-            {{#format_date}}
-              {{updated}}
-            {{/format_date}}
-          </small>
-        {{/updated}}
-
-        {{#link}}
-          <a class="btn btn-default" href="{{link}}">
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="development">
             {{#language_en}}
-              Download
+              Development
             {{/language_en}}
             {{#language_ja}}
-              ダウンロード
+              開発
             {{/language_ja}}
-          </a>
-        {{/link}}
-      </h2>
-      <div style="margin-left: 2em">
-        {{{body_l10n}}}
-      </div>
-    {{/histories}}
-  </section>
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/disable_dnd_tb" target="_blank">https://github.com/tekezo/disable_dnd_tb</a>
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="history">
+            {{#language_en}}
+              Version History
+            {{/language_en}}
+            {{#language_ja}}
+              更新履歴
+            {{/language_ja}}
+          </h1>
+        </div>
+        {{#histories}}
+          <h2>
+            Version {{version}}
+            {{#updated}}
+              <small>
+                {{#format_date}}
+                  {{updated}}
+                {{/format_date}}
+              </small>
+            {{/updated}}
+
+            {{#link}}
+              <a class="btn btn-default" href="{{link}}">
+                {{#language_en}}
+                  Download
+                {{/language_en}}
+                {{#language_ja}}
+                  ダウンロード
+                {{/language_ja}}
+              </a>
+            {{/link}}
+          </h2>
+          <div style="margin-left: 2em">
+            {{{body_l10n}}}
+          </div>
+        {{/histories}}
+      </section>
+    </div>
+    <div class="col-md-3">
+      {{> ../../pqrs_tabs }}
+    </div>
+  </div>
 </div>

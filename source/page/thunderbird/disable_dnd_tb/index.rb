@@ -5,6 +5,25 @@ require '../../../classes/bootstrap.rb'
 require './disable_dnd_tb_base.rb'
 
 class Index < DisableDndTbBase
+  def tabs_definition
+    [
+      {
+        :href => '#development',
+        :name_l10n => {
+          :en => 'Development',
+          :ja => '開発',
+        }
+      },
+      {
+        :href => '#history',
+        :name_l10n => {
+          :en => 'Version History',
+          :ja => '更新履歴',
+        }
+      },
+    ]
+  end
+
   def histories
     data = [
       {

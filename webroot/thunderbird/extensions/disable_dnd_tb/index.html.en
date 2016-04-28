@@ -90,23 +90,36 @@
     </div>
   </header>
 
-  <section>
-    <div class="page-header">
-      <h1>
-          Version History
-      </h1>
-    </div>
-      <h2>
-        Version 3.0.0
-          <small>
-Apr 28, 2016          </small>
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="development">
+              Development
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/disable_dnd_tb" target="_blank">https://github.com/tekezo/disable_dnd_tb</a>
+        </p>
+      </section>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
-              Download
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+      <section>
+        <div class="page-header">
+          <h1 id="history">
+              Version History
+          </h1>
+        </div>
+          <h2>
+            Version 3.0.0
+              <small>
+Apr 28, 2016              </small>
+
+              <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
+                  Download
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -117,18 +130,18 @@ Apr 28, 2016          </small>
 
 </div>
 
-      </div>
-      <h2>
-        Version 2.1.0
-          <small>
-Jun 29, 2011          </small>
+          </div>
+          <h2>
+            Version 2.1.0
+              <small>
+Jun 29, 2011              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
-              Download
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
+                  Download
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -139,18 +152,18 @@ Jun 29, 2011          </small>
 
 </div>
 
-      </div>
-      <h2>
-        Version 2.0.0
-          <small>
-Aug 14, 2010          </small>
+          </div>
+          <h2>
+            Version 2.0.0
+              <small>
+Aug 14, 2010              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
-              Download
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
+                  Download
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -161,18 +174,18 @@ Aug 14, 2010          </small>
 
 </div>
 
-      </div>
-      <h2>
-        Version 1.0.1
-          <small>
-Apr 12, 2007          </small>
+          </div>
+          <h2>
+            Version 1.0.1
+              <small>
+Apr 12, 2007              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
-              Download
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
+                  Download
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -183,18 +196,18 @@ Apr 12, 2007          </small>
 
 </div>
 
-      </div>
-      <h2>
-        Version 1.0.0
-          <small>
-Feb 28, 2007          </small>
+          </div>
+          <h2>
+            Version 1.0.0
+              <small>
+Feb 28, 2007              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
-              Download
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
+                  Download
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -205,8 +218,26 @@ Feb 28, 2007          </small>
 
 </div>
 
+          </div>
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-docs-sidebar" id="bs-docs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#development">
+                  Development
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  Version History
+                </a>
+              </li>
+        </ul>
       </div>
-  </section>
+    </div>
+  </div>
 </div>
 
 

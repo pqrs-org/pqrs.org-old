@@ -90,23 +90,36 @@
     </div>
   </header>
 
-  <section>
-    <div class="page-header">
-      <h1>
-          更新履歴
-      </h1>
-    </div>
-      <h2>
-        Version 3.0.0
-          <small>
-2016年4月28日          </small>
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="development">
+              開発
+          </h1>
+        </div>
+        <p>
+          <a href="https://github.com/tekezo/disable_dnd_tb" target="_blank">https://github.com/tekezo/disable_dnd_tb</a>
+        </p>
+      </section>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
-              ダウンロード
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+      <section>
+        <div class="page-header">
+          <h1 id="history">
+              更新履歴
+          </h1>
+        </div>
+          <h2>
+            Version 3.0.0
+              <small>
+2016年4月28日              </small>
+
+              <a class="btn btn-default" href="files/disable_dnd_tb-3.0.0.xpi">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -117,18 +130,18 @@
 
 </div>
 
-      </div>
-      <h2>
-        Version 2.1.0
-          <small>
-2011年6月29日          </small>
+          </div>
+          <h2>
+            Version 2.1.0
+              <small>
+2011年6月29日              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
-              ダウンロード
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-2.1.0.xpi">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -139,18 +152,18 @@
 
 </div>
 
-      </div>
-      <h2>
-        Version 2.0.0
-          <small>
-2010年8月14日          </small>
+          </div>
+          <h2>
+            Version 2.0.0
+              <small>
+2010年8月14日              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
-              ダウンロード
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-2.0.0.xpi">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -161,18 +174,18 @@
 
 </div>
 
-      </div>
-      <h2>
-        Version 1.0.1
-          <small>
-2007年4月12日          </small>
+          </div>
+          <h2>
+            Version 1.0.1
+              <small>
+2007年4月12日              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
-              ダウンロード
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-1.0.1.xpi">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -183,18 +196,18 @@
 
 </div>
 
-      </div>
-      <h2>
-        Version 1.0.0
-          <small>
-2007年2月28日          </small>
+          </div>
+          <h2>
+            Version 1.0.0
+              <small>
+2007年2月28日              </small>
 
-          <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
-              ダウンロード
-          </a>
-      </h2>
-      <div style="margin-left: 2em">
-        <div class="update-description">
+              <a class="btn btn-default" href="files/disable_dnd_tb-1.0.0.xpi">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -205,8 +218,26 @@
 
 </div>
 
+          </div>
+      </section>
+    </div>
+    <div class="col-md-3">
+      <div class="bs-docs-sidebar" id="bs-docs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li>
+                <a href="#development">
+                  開発
+                </a>
+              </li>
+              <li>
+                <a href="#history">
+                  更新履歴
+                </a>
+              </li>
+        </ul>
       </div>
-  </section>
+    </div>
+  </div>
 </div>
 
 
