@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.1.0</title>
+      <title>Version 12.1.1</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,45 +56,16 @@
 }
 </style>
 
-<h2>About v12.1.0 Update</h2>
+<h2>About v12.1.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      "Resume at login" setting has been added. <br />
-      You can disable auto resume function.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The physical forward delete key has been added into the changeable keys.
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      The behavior of starting Seil on system startup has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The preferences window UI has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Memory usage has been reduced.
+      Minor update.
     </div>
   </div>
 
@@ -106,10 +77,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 26 Apr 2016 14:53:04 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.1.0.dmg"
-                 sparkle:version="12.1.0" length="2075363" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCuXHDB7ZkZRsIT9FFZ2R3nzWPr4wIVAJtxS7bsBvpC6K2GTg1P5TpJm/uz"
+      <pubDate>Sun, 01 May 2016 01:24:13 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Seil-12.1.1.dmg"
+                 sparkle:version="12.1.1" length="2074807" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCFctsBNdXpA+ZqthaaFiGMVbE0MgIVAMCdgCfxR2Hepi14/vzTH8FkyQ0l"
                  />
     </item>
 
