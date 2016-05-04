@@ -35,7 +35,7 @@
         }, 100);
 
         // set bs-docs-sidebar height
-        if ($sideBar.offset().left < 400) {
+        if ($sideBar.length > 0 && $sideBar.offset().left < 400) {
             // $sideBar block is wrapped because the window.width is too small.
             // We should not set $sideBar.height.
         } else {
