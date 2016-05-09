@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.30</title>
+      <title>Version 10.18.31</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -56,7 +56,7 @@
 }
 </style>
 
-<h2>About v10.18.30 Update</h2>
+<h2>About v10.18.31 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -121,10 +121,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 29 Apr 2016 13:37:32 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.30.dmg"
-                 sparkle:version="10.18.30" length="4488407" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCNQXg+uz93XXkeYQn8BiYaylnr6AhRDYlYCD5mxuc1F1BPVAmgKa8WGAg=="
+      <pubDate>Mon, 09 May 2016 03:12:02 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.31.dmg"
+                 sparkle:version="10.18.31" length="5015379" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDCRdtk/RnVmdJMoNfXvQ15jSIFGAhRCb34abBQFlmR8uWeKZUW1P+UtuA=="
                  />
     </item>
 
