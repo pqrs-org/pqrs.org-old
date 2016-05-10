@@ -66,7 +66,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       The multi-touch extension default configuration has been changed. <br />
-      Please enable ThumbSense setting manually if you want to use it.
+      If you are using ThumbSense, please enable ThumbSense setting manually in multi-touch extension preferences.
     </div>
   </div>
 
