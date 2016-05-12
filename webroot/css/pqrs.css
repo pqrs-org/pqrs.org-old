@@ -1,27 +1,35 @@
-/* -------------------------------------------------- */
-/* for bootstrap */
+/* --------------------------------------------------
+ * for bootstrap
+ * -------------------------------------------------- */
 
 h2 {
     font-size: 22px;
 }
+
 h3 {
     font-size: 16px;
 }
+
 h4 {
     font-size: 14px;
 }
+
 header.navbar {
     border-bottom: 2px solid #614788;
 }
+
 div.jumbotron {
     margin-top: 20px;
 }
+
 div.pqrs-docs-container {
     border-right: 1px solid #614788;
 }
+
 ol.steps a.thumbnail {
     margin: 8px 0;
 }
+
 .col-show-grid {
     background-color: #f8f8f8;
     min-height: 120px;
@@ -29,44 +37,58 @@ ol.steps a.thumbnail {
     margin: 0 5px 20px 5px;
     padding: 10px;
 }
+
 .page-header {
     border-bottom-width: 5px;
 }
+
 .label-beta {
     background-color: #5bc0de;
 }
+
 .js-id-link-wrapper {
     position: relative;
 }
+
 .js-id-link {
     color: inherit;
     position: absolute;
     top: 0;
     left: -1em;
 }
+
 code.required {
     color: #3c763d;
     background-color: #dff0d8;
 }
+
 code.optional {
     color: #254ec7;
     background-color: #f2f4f9;
 }
-/* -------------------------------------------------- */
-/* for jquery.collapse.js */
+
+
+/* --------------------------------------------------
+ * for jquery.collapse.js
+ * -------------------------------------------------- */
 
 .jqcNode {
     font-weight: bold;
     color: green;
 }
+
 #collapser li {
     white-space: pre-wrap;
 }
+
 #collapser ul {
     margin-bottom: 10px;
 }
-/* -------------------------------------------------- */
-/* common */
+
+
+/* --------------------------------------------------
+ * common
+ * -------------------------------------------------- */
 
 .clickable {
     cursor: pointer;
