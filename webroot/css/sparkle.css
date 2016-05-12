@@ -18,26 +18,30 @@
     padding: .5em;
 }
 .update-description-item-new {
-    border-color: #337ab7;
+    border-color: #dff2fc;
 }
 .update-description-item-new .update-description-label:before {
     content: "new";
+    color: #337ab7;
 }
 .update-description-item-important {
-    border-color: #d9534f;
+    border-color: #feeeed;
 }
 .update-description-item-important .update-description-label:before {
     content: "important";
+    color: #d9534f;
 }
 .update-description-item-fixed {
-    border-color: #5cb85c;
+    border-color: #cae5cd;
 }
 .update-description-item-fixed .update-description-label:before {
     content: "fixed";
+    color: #184212;
 }
 .update-description-item-improved {
-    border-color: #f0ad4e;
+    border-color: #f4dda5;
 }
 .update-description-item-improved .update-description-label:before {
     content: "improved";
+    color: #cd6118;
 }
