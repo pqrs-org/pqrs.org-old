@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.36</title>
+      <title>Version 10.18.37</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v10.18.36 Update</h2>
+<h2>About v10.18.37 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -121,6 +121,13 @@
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      `Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDS` has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
       The following filters have been added. <br />
       * &lt;deviceexists_not&gt;<br />
       * &lt;deviceexists_only&gt;<br />
@@ -143,10 +150,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 13 May 2016 03:00:21 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.36.dmg"
-                 sparkle:version="10.18.36" length="5017443" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCQYTetSDez5Z8qsXxTOTy9G0ztHAhRP0HIXcRnvYck2vdSFtosz2NfcBg=="
+      <pubDate>Fri, 13 May 2016 17:59:40 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.37.dmg"
+                 sparkle:version="10.18.37" length="5017606" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFl7vUsOghnoWc4BRNe1dNVMSONHAhRAhEAFlfksh8GnYfh8El59ycJVIQ=="
                  />
     </item>
 
