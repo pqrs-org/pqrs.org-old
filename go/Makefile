@@ -1,2 +1,3 @@
 all:
-	go build latest.go
+	mkdir -p build
+	go build -o build/latest.`uname` latest.go
