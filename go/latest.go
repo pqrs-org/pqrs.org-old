@@ -29,13 +29,13 @@ func redirectToLatestFile(w http.ResponseWriter, r *http.Request, filepath strin
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	switch path.Base(r.URL.Path) {
-	case "karabiner":
+	case "karabiner-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/appcast.xml")
-	case "seil":
+	case "seil-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/seil-appcast.xml")
-	case "noejectdelay":
+	case "noejectdelay-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/noejectdelay-appcast.xml")
-	case "showyedge":
+	case "showyedge-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/ShowyEdge/files/appcast.xml")
 	}
 }
