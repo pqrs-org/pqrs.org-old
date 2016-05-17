@@ -25,4 +25,9 @@ server {
                 types { }
                 default_type  text/html;
         }
+
+        location ~ /private\.xml$ {
+                types { }
+                default_type text/plain;
+        }
 }
