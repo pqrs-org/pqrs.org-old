@@ -2,9 +2,12 @@ package main
 
 import (
 	"io/ioutil"
+	"log"
 	"net"
 	"net/http"
 	"net/http/fcgi"
+	"os"
+	"path/filepath"
 	"regexp"
 )
 
@@ -37,7 +40,13 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	l, err := net.Listen("tcp", "127.0.0.1:9000")
+	basedir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		log.Fatal(err)
+	}
+	os.Chdir(basedir)
+
+	l, err := net.Listen("tcp", "127.0.0.1:9100")
 	if err != nil {
 		return
 	}
