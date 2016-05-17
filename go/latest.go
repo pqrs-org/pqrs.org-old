@@ -24,8 +24,6 @@ func redirectToLatestFile(w http.ResponseWriter, r *http.Request, filepath strin
 		return
 	}
 
-	// Set Content-Disposition for `curl -O -L -J`
-	w.Header().Set("Content-Disposition", path.Base(res[1]))
 	http.Redirect(w, r, res[1], 303)
 }
 
