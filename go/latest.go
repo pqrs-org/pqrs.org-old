@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/http/fcgi"
 	"os"
+	"path"
 	"path/filepath"
 	"regexp"
 )
@@ -27,15 +28,15 @@ func redirectToLatestFile(w http.ResponseWriter, r *http.Request, filepath strin
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	switch r.URL.Path[1:] {
+	switch path.Base(r.URL.Path) {
 	case "karabiner":
-		redirectToLatestFile(w, r, "../webroot/osx/karabiner/files/appcast.xml")
+		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/appcast.xml")
 	case "seil":
-		redirectToLatestFile(w, r, "../webroot/osx/karabiner/files/seil-appcast.xml")
+		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/seil-appcast.xml")
 	case "noejectdelay":
-		redirectToLatestFile(w, r, "../webroot/osx/karabiner/files/noejectdelay-appcast.xml")
+		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/noejectdelay-appcast.xml")
 	case "showyedge":
-		redirectToLatestFile(w, r, "../webroot/osx/ShowyEdge/files/appcast.xml")
+		redirectToLatestFile(w, r, "../../webroot/osx/ShowyEdge/files/appcast.xml")
 	}
 }
 
