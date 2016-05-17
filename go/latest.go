@@ -37,9 +37,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", handler)
-	http.ListenAndServe(":9000", nil)
-
 	l, err := net.Listen("tcp", "127.0.0.1:9000")
 	if err != nil {
 		return
