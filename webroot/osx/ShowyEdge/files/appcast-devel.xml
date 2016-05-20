@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.1.4</title>
+      <title>Version 3.1.5</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -18,6 +18,7 @@
     border-width: 1.5em 1px 1px 1px;
     border-style: solid;
 }
+
 .update-description-label {
     margin: -1.5em 0 0 .5em;
     padding: 0;
@@ -26,37 +27,50 @@
     line-height: 1;
     color: #fff;
 }
+
 .update-description .update-description-body {
     margin: .2em 1em;
     padding: .5em;
 }
+
 .update-description-item-new {
-    border-color: #337ab7;
+    border-color: #dff2fc;
 }
+
 .update-description-item-new .update-description-label:before {
     content: "new";
+    color: #337ab7;
 }
+
 .update-description-item-important {
-    border-color: #d9534f;
+    border-color: #feeeed;
 }
+
 .update-description-item-important .update-description-label:before {
     content: "important";
+    color: #d9534f;
 }
+
 .update-description-item-fixed {
-    border-color: #5cb85c;
+    border-color: #cae5cd;
 }
+
 .update-description-item-fixed .update-description-label:before {
     content: "fixed";
+    color: #184212;
 }
+
 .update-description-item-improved {
-    border-color: #f0ad4e;
+    border-color: #f4dda5;
 }
+
 .update-description-item-improved .update-description-label:before {
     content: "improved";
+    color: #cd6118;
 }
 </style>
 
-<h2>About v3.1.4 Update</h2>
+<h2>About v3.1.5 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -77,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 29 Apr 2016 00:45:29 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.4.dmg"
-                 sparkle:version="3.1.4" length="2193534" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHdWw8TXQgAh608yRVAyJuP2He6TAhQU853SB0aZgceKAkRS7Udr/WCaIg=="
+      <pubDate>Fri, 20 May 2016 02:20:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.1.5.dmg"
+                 sparkle:version="3.1.5" length="2193184" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGNqJ1lFGmJyqsoO9/1lRl0F0OkFAhRgz/uZE9xu2yikzcIrq008rwoSBQ=="
       />
     </item>
 
