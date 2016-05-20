@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 7.1.3</title>
+      <title>Version 7.1.4</title>
       <sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -18,6 +18,7 @@
     border-width: 1.5em 1px 1px 1px;
     border-style: solid;
 }
+
 .update-description-label {
     margin: -1.5em 0 0 .5em;
     padding: 0;
@@ -26,37 +27,50 @@
     line-height: 1;
     color: #fff;
 }
+
 .update-description .update-description-body {
     margin: .2em 1em;
     padding: .5em;
 }
+
 .update-description-item-new {
-    border-color: #337ab7;
+    border-color: #dff2fc;
 }
+
 .update-description-item-new .update-description-label:before {
     content: "new";
+    color: #337ab7;
 }
+
 .update-description-item-important {
-    border-color: #d9534f;
+    border-color: #feeeed;
 }
+
 .update-description-item-important .update-description-label:before {
     content: "important";
+    color: #d9534f;
 }
+
 .update-description-item-fixed {
-    border-color: #5cb85c;
+    border-color: #cae5cd;
 }
+
 .update-description-item-fixed .update-description-label:before {
     content: "fixed";
+    color: #184212;
 }
+
 .update-description-item-improved {
-    border-color: #f0ad4e;
+    border-color: #f4dda5;
 }
+
 .update-description-item-improved .update-description-label:before {
     content: "improved";
+    color: #cd6118;
 }
 </style>
 
-<h2>About v7.1.3 Update</h2>
+<h2>About v7.1.4 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -77,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 11 Apr 2016 16:16:14 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.1.3.dmg"
-                 sparkle:version="7.1.3" length="1127917" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFBukuW1fz0w2otiqfiMhbsQSPgY7AhUAt1eH0tn1a9gFI1+LPPcN/TnqXrk="
+      <pubDate>Fri, 20 May 2016 02:26:41 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/NoEjectDelay-7.1.4.dmg"
+                 sparkle:version="7.1.4" length="1127932" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQC7ppx7sHUOCKhAWBBDe6CFLtT8oAIVALuvoYlIJLM5wB7582tgrcHKVhtM"
                  />
     </item>
 
