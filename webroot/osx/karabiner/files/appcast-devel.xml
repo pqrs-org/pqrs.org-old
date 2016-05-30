@@ -94,6 +94,14 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Java apps might be crash when AXNotifier is enabled. (SAP GUI for Java)
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
