@@ -73,6 +73,13 @@ class Xml < KarabinerBase
         }
       },
       {
+        :href => '#bundleidentifieroverridedef',
+        :name_l10n => {
+          :en => 'override the bundle identifier',
+          :ja => 'override the bundle identifier',
+        }
+      },
+      {
         :href => '#windownamedef',
         :name_l10n => {
           :en => 'specify window name (window title)',

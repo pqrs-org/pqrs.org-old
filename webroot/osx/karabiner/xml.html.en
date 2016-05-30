@@ -759,6 +759,150 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
 
       <section>
         <div class="page-header">
+          <h1 id="bundleidentifieroverridedef">Override the bundle identifier</h1>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+          <strong>Beta function:</strong><br>
+          This function is available since Karabiner-10.18.7. (beta version)
+        </div>
+
+        <p>
+          You can override the application bundle identifier for <code>&lt;appdef&gt;</code> by <code>&lt;bundleidentifieroverridedef&gt;</code>.
+        </p>
+        <p>
+          It is useful when you want to exclude <code>&lt;not&gt;</code> and <code>&lt;only&gt;</code> filters in some app window.<br />
+          For example, changing command keys to control keys in Remote Desktop but Remote Desktop Preferences.
+        </p>
+        <p>
+          This XML changes the application bundle identifier to <code>karabiner.remotedesktop-preferences</code> in <code>com.microsoft.rdc.mac</code> when window name is <code>Microsoft Remote Desktop</code>, <code>Preferences</code>, ..., or starts with <code>Edit Remote Desktops -</code>.
+        </p>
+
+<pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
+&lt;root&gt;
+  &lt;bundleidentifieroverridedef&gt;
+    &lt;newbundleidentifier&gt;karabiner.remotedesktop-preferences&lt;/newbundleidentifier&gt;
+
+    &lt;bundleidentifiers&gt;
+      &lt;equal&gt;com.microsoft.rdc.mac&lt;/equal&gt;
+    &lt;/bundleidentifiers&gt;
+
+    &lt;windownames&gt;
+      &lt;equal&gt;Microsoft Remote Desktop&lt;/equal&gt;
+      &lt;equal&gt;Preferences&lt;/equal&gt;
+      &lt;equal&gt;Remote Resources&lt;/equal&gt;
+      &lt;equal&gt;Azure RemoteApp&lt;/equal&gt;
+      &lt;prefix&gt;Edit Remote Desktops -&lt;/prefix&gt;
+    &lt;/windownames&gt;
+  &lt;/bundleidentifieroverridedef&gt;
+&lt;/root&gt;</pre>
+        <h2 id="bundleidentifieroverridedef-syntax">bundleidentifieroverridedef syntax</h2>
+
+        <p>
+          You have to put one <code>&lt;newbundleidentifier&gt;</code> into <code>&lt;bundleidentifieroverridedef&gt;</code>.<br />
+          Then put conditions into <code>&lt;bundleidentifiers&gt;</code> or <code>&lt;windownames&gt;</code> or <code>&lt;uielementroles&gt;</code>.
+        </p>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>
+                &lt;newbundleidentifier&gt;
+              </th>
+              <td>required</td>
+              <td>
+                New bundle identifier.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;bundleidentifiers&gt;
+              </th>
+              <td>optional</td>
+              <td>
+                Specify rules for the bundle identifier.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;windownames&gt;
+              </th>
+              <td>optional</td>
+              <td>
+                Specify rules for the window name.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;uielementroles&gt;
+              </th>
+              <td>optional</td>
+              <td>
+                Specify rules for the ui element role.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Rules:</h3>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>
+                &lt;equal&gt;
+              </th>
+              <td>
+                Specify entire string.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;prefix&gt;
+              </th>
+              <td>
+                Specify string prefix.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;suffix&gt;
+              </th>
+              <td>
+                Specify string suffix.
+              </td>
+            </tr>
+            <tr>
+              <th>
+                &lt;regex&gt;
+              </th>
+              <td>
+                Specify regex for string.
+                <a href="http://www.cplusplus.com/reference/regex/ECMAScript/" target="_blank">(regex patterns follow the ECMAScript syntax.)</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Conjunction:</h3>
+        <p>
+          <code>&lt;bundleidentifiers&gt;</code>, <code>&lt;windownames&gt;</code> and <code>&lt;uielementroles&gt;</code> will be joined by AND.
+        </p>
+        <p>
+          <code>&lt;equal&gt;</code>, <code>&lt;prefix&gt;</code>, <code>&lt;suffix&gt;</code> and <code>&lt;regex&gt;</code> will be joined by OR.
+        </p>
+
+        <h2 id="prepared-bundleidentifieroverridedef">Prepared definitions</h2>
+        <p>
+          Karabiner provides
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/master/src/core/server/Resources/bundleidentifieroverridedef.xml">various definitions</a>.
+        </p>
+        <p>
+          You can also overwrite existent definitions by private.xml.
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="windownamedef">Filter: Specify window name (window title)</h1>
         </div>
 
@@ -3513,6 +3657,11 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
               <li>
                 <a href="#appdef">
                   specify application
+                </a>
+              </li>
+              <li>
+                <a href="#bundleidentifieroverridedef">
+                  override the bundle identifier
                 </a>
               </li>
               <li>
