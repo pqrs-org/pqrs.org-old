@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.18.62</title>
+      <title>Version 10.18.63</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v10.18.62 Update</h2>
+<h2>About v10.18.63 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -149,6 +149,15 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following environment variables has been added into replacementdef. <br />
+      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
+      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -165,10 +174,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 03 Jun 2016 16:06:43 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.62.dmg"
-                 sparkle:version="10.18.62" length="4347584" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCAV/dBum9e7cqPeKICtJxy+DTHzwIURvdZkOiP3uaIF4z60M9xkVIk7nA="
+      <pubDate>Sat, 04 Jun 2016 14:43:27 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.18.63.dmg"
+                 sparkle:version="10.18.63" length="4471602" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCxYXcgpgeSpECPUIZidBUiboo1iAhR/8dj68iRbF5zGPsKD8JnbGo2bgg=="
                  />
     </item>
 
