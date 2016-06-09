@@ -122,6 +122,111 @@
       </h1>
     </div>
       <h2>
+        Version 10.19.0
+          <small>
+Jun 9, 2016          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.19.0.dmg">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The multi-touch extension default configuration has been changed. <br />
+      If you are using ThumbSense, please enable ThumbSense setting manually in multi-touch extension preferences.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      The argument treatment in `warp-mouse-cursor-position` utility is wrong. <br />
+      These adjustment values for `screen` and `front_window` were exchanged. <br />
+      For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Java apps might be crash when AXNotifier is enabled. (SAP GUI for Java)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The device disconnect handling has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Use modifier symbols (⌘⌃⌥⇧⇪) in place of the modifier names` has been added into Karabiner Preferences &gt; Status Message tab.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `&lt;bundleidentifieroverridedef&gt;` has been introduced.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDS` has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following filters have been added. <br />
+      * &lt;deviceexists_not&gt;<br />
+      * &lt;deviceexists_only&gt;<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following environment variables has been added into replacementdef. <br />
+      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
+      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      In some case, ModifierFlag pattern matching of `Option::KEYTOKEY_AFTER_KEYUP` in `__KeyOverlaidModifier__` and `__HoldingKeyToKey__` does not work property.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
         Version 10.18.0
           <small>
 Mar 7, 2016          </small>
