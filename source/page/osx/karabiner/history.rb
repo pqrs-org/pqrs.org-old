@@ -17,6 +17,202 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.19.0',
+        :updated => '2016-06-09',
+        :link => 'files/Karabiner-10.19.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The multi-touch extension default configuration has been changed. <br />
+      If you are using ThumbSense, please enable ThumbSense setting manually in multi-touch extension preferences.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      The argument treatment in `warp-mouse-cursor-position` utility is wrong. <br />
+      These adjustment values for `screen` and `front_window` were exchanged. <br />
+      For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Java apps might be crash when AXNotifier is enabled. (SAP GUI for Java)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The device disconnect handling has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Use modifier symbols (⌘⌃⌥⇧⇪) in place of the modifier names` has been added into Karabiner Preferences &gt; Status Message tab.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `&lt;bundleidentifieroverridedef&gt;` has been introduced.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDS` has been added.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following filters have been added. <br />
+      * &lt;deviceexists_not&gt;<br />
+      * &lt;deviceexists_only&gt;<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The following environment variables has been added into replacementdef. <br />
+      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
+      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      In some case, ModifierFlag pattern matching of `Option::KEYTOKEY_AFTER_KEYUP` in `__KeyOverlaidModifier__` and `__HoldingKeyToKey__` does not work property.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      マルチタッチ拡張の設定の初期値を変更しました。<br />
+      ThumbSenseをお使いの場合は、マルチタッチの設定からThumbSenseの設定を有効にしてください。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      warp-mouse-cursor-positionユーティリティの引数の扱いが間違っている。<br />
+      screenとfront_window引数における調整値が取り違えられており、例えば垂直方向の調整値が水平方向の調整値として扱われている。<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性がある。（SAP GUI for Java）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      デバイス切断時の挙動を改善しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      「Use modifier symbols (⌘⌃⌥⇧⇪) in place of the modifier names」というオプションをKarabinerの設定画面の「Status Message」タブに加えました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+  <hr />
+  <h3>自分で設定を追加する人向けの変更点</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      &lt;bundleidentifieroverridedef&gt;を追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDSを追加しました。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次のフィルタを追加しました。<br />
+      * &lt;deviceexists_not&gt;<br />
+      * &lt;deviceexists_only&gt;<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      replacementdefに次の環境変数を追加しました。<br />
+      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
+      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      __KeyOverlaidModifier__や__HoldingKeyToKey__において、Option::KEYTOKEY_AFTER_KEYUPのModifierFlagパターンマッチングが適切に動作しないことがある。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.18.0',
         :updated => '2016-03-07',
         :link => 'files/Karabiner-10.18.0.dmg',
