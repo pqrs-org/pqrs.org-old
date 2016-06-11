@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.19.0</title>
+      <title>Version 10.19.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,99 +70,17 @@
 }
 </style>
 
-<h2>About v10.19.0 Update</h2>
+<h2>About v10.19.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The multi-touch extension default configuration has been changed. <br />
-      If you are using ThumbSense, please enable ThumbSense setting manually in multi-touch extension preferences.
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue:<br />
-      The argument treatment in `warp-mouse-cursor-position` utility is wrong. <br />
-      These adjustment values for `screen` and `front_window` were exchanged. <br />
-      For example, the vertical adjustment value for `screen` and `front_window` is used in horizontal adjustment.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      Some Java apps might be crash when AXNotifier is enabled. (SAP GUI for Java)
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The device disconnect handling has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      `Use modifier symbols (⌘⌃⌥⇧⇪) in place of the modifier names` has been added into Karabiner Preferences &gt; Status Message tab.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Prepared settings have been updated.
-    </div>
-  </div>
-
-  <hr />
-  <h3>Updates for people who add new settings by oneself</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      `&lt;bundleidentifieroverridedef&gt;` has been introduced.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      `Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDS` has been added.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The following filters have been added. <br />
-      * &lt;deviceexists_not&gt;<br />
-      * &lt;deviceexists_only&gt;<br />
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The following environment variables has been added into replacementdef. <br />
-      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
-      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      In some case, ModifierFlag pattern matching of `Option::KEYTOKEY_AFTER_KEYUP` in `__KeyOverlaidModifier__` and `__HoldingKeyToKey__` does not work property.
+      Remote Desktop detection will be failed in some cases.
     </div>
   </div>
 
@@ -174,10 +92,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 09 Jun 2016 13:46:02 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.19.0.dmg"
-                 sparkle:version="10.19.0" length="4471967" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFAx0lZ2HucHb3F6Sg24AFhx7ncdhAhRXwW+fSV3jsL+gyxjDYlUg4lNdvw=="
+      <pubDate>Sat, 11 Jun 2016 16:41:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.19.1.dmg"
+                 sparkle:version="10.19.1" length="4472098" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB3EM0R8KO1c5etJpMsXJPxRDFLaAhQtaIwy72VH7ly9TkzmZ9nUF6m6eg=="
                  />
     </item>
 
