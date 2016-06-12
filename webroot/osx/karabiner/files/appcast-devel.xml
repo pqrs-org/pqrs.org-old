@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.19.1</title>
+      <title>Version 10.19.2</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v10.19.1 Update</h2>
+<h2>About v10.19.2 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -84,6 +84,16 @@
     </div>
   </div>
 
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::FLIPSCROLLWHEEL_HORIZONTAL` and `Option::FLIPSCROLLWHEEL_VERTICAL` have been supported in `__PointingRelativeToScroll__`.
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -92,10 +102,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 11 Jun 2016 16:41:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.19.1.dmg"
-                 sparkle:version="10.19.1" length="4472098" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFB3EM0R8KO1c5etJpMsXJPxRDFLaAhQtaIwy72VH7ly9TkzmZ9nUF6m6eg=="
+      <pubDate>Sun, 12 Jun 2016 13:01:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.19.2.dmg"
+                 sparkle:version="10.19.2" length="4349454" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEgagAanrsd6ERXBTtVBy511fAYWAhRm9jt4l0yqka+rlFsl8zYEBWTn4g=="
                  />
     </item>
 
