@@ -17,6 +17,75 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.20.0',
+        :updated => '2016-06-16',
+        :link => 'files/Karabiner-10.20.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Remote Desktop detection will be failed in some cases.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Input source switching settings does not work in some environments.
+    </div>
+  </div>
+
+  <hr />
+  <h3>Updates for people who add new settings by oneself</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::FLIPSCROLLWHEEL_HORIZONTAL` and `Option::FLIPSCROLLWHEEL_VERTICAL` have been supported in `__PointingRelativeToScroll__`.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      Remote Desktopの検出がいくつかのケースで失敗する。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      入力ソースの切り替えの設定がいくつかの環境でうまく動作しない。
+    </div>
+  </div>
+
+  <hr />
+  <h3>自分で設定を追加する人向けの変更点</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::FLIPSCROLLWHEEL_HORIZONTAL`と`Option::FLIPSCROLLWHEEL_VERTICAL`を`__PointingRelativeToScroll__`でサポートしました。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.19.0',
         :updated => '2016-06-09',
         :link => 'files/Karabiner-10.19.0.dmg',

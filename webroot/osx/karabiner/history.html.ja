@@ -122,6 +122,47 @@
       </h1>
     </div>
       <h2>
+        Version 10.20.0
+          <small>
+2016年6月16日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.20.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      Remote Desktopの検出がいくつかのケースで失敗する。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      入力ソースの切り替えの設定がいくつかの環境でうまく動作しない。
+    </div>
+  </div>
+
+  <hr />
+  <h3>自分で設定を追加する人向けの変更点</h3>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      `Option::FLIPSCROLLWHEEL_HORIZONTAL`と`Option::FLIPSCROLLWHEEL_VERTICAL`を`__PointingRelativeToScroll__`でサポートしました。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
         Version 10.19.0
           <small>
 2016年6月9日          </small>
