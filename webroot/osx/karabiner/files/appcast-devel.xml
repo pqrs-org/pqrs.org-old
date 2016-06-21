@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.20.0</title>
+      <title>Version 10.20.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,35 +70,16 @@
 }
 </style>
 
-<h2>About v10.20.0 Update</h2>
+<h2>About v10.20.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-fixed">
+  <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      Fixed an issue:<br />
-      Remote Desktop detection will be failed in some cases.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      Input source switching settings does not work in some environments.
-    </div>
-  </div>
-
-  <hr />
-  <h3>Updates for people who add new settings by oneself</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      `Option::FLIPSCROLLWHEEL_HORIZONTAL` and `Option::FLIPSCROLLWHEEL_VERTICAL` have been supported in `__PointingRelativeToScroll__`.
+      Prepared settings have been updated.
     </div>
   </div>
 
@@ -110,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 15 Jun 2016 17:03:49 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.20.0.dmg"
-                 sparkle:version="10.20.0" length="4350407" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFF5P8TKx4ik3Qqd2tqhtWqQUcDijAhQ/ICO4eXFMU4MM9RZg+dOBw2YozQ=="
+      <pubDate>Tue, 21 Jun 2016 06:39:47 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.20.1.dmg"
+                 sparkle:version="10.20.1" length="4351100" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFA4AMJDHlxzpgm40I9mWyV5r4RrGAhR2RAt+l4MDSa/W2yP+03C09sUAeA=="
                  />
     </item>
 
