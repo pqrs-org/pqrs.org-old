@@ -140,6 +140,10 @@
         </a>
       </p>
 
+      <div class="alert alert-danger" role="alert">
+          Seilは今のところmacOS Sierraでは動作しません。
+      </div>
+
       <div class="alert alert-warning" role="alert">
           Sparkleフレームワークの脆弱性について:<br />
           SeilはフィードやファイルにHTTPSを用いているので、<a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">Sparkleフレームワークの脆弱性</a>の影響を受けません。安全にソフトウェア更新を行えます。

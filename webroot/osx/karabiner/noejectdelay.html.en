@@ -138,6 +138,10 @@
         </a>
       </p>
 
+      <div class="alert alert-danger" role="alert">
+          NoEjectDelay does not work on macOS Sierra at the moment.
+      </div>
+
       <div class="alert alert-warning" role="alert">
           About Sparkle Updater Vulnerability:<br />
           NoEjectDelay is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
