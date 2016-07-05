@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.20.4</title>
+      <title>Version 10.20.6</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,19 @@
 }
 </style>
 
-<h2>About v10.20.4 Update</h2>
+<h2>About v10.20.6 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      The key repeat rate will be set the slower value if you have not changed the system key repeat rate.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
@@ -99,10 +107,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 03 Jul 2016 13:39:52 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.20.4.dmg"
-                 sparkle:version="10.20.4" length="4351465" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFA+Yyvd62b/uZt31TKcbiA9NXbMeAhQcVodcs7yXAGmIMsC2jcyiUwRkVg=="
+      <pubDate>Tue, 05 Jul 2016 15:58:50 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.20.6.dmg"
+                 sparkle:version="10.20.6" length="4351527" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFA1NNRLe0u6NxkV803UbDvuTpfzHAhRl8XHO0CfFN72Y0CDHbu6cNvmGpg=="
                  />
     </item>
 
