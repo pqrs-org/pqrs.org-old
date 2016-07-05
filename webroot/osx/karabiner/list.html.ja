@@ -123,7 +123,7 @@
     </div>
 
     <h2>
-      Karabiner-10.20.0 (Total: 2242 items)
+      Karabiner-10.21.0 (Total: 2244 items)
     </h2>
 
 <ul id="collapser"><li>Karabiner core settings<ul><li>Exclude devices<ul><li>Don't remap an internal keyboard</li><li>Don't remap external keyboards</li><li>Don't remap any pointing devices</li><li>Don't remap Apple's keyboards</li><li>Don't remap Apple's pointing devices</li><li>Don't remap non-Apple's keyboards
@@ -1003,7 +1003,24 @@
   In Virtual or Command mode, nothing happens.</li><li>ChangeKey10: Ctrl-l toggles Insert Mode - Normal Mode
   In Virtual or Command mode, nothing happens.</li><li>ChangeKey11: Left Cmd toggles Insert Mode - Normal Mode
   In Virtual or Command mode, it changes to Insert Mode.</li><li>ChangeKey12: Rgiht Cmd toggles Insert Mode - Normal Mode
-  In Virtual or Command mode, it changes to Insert Mode.</li><li>Enable Vim Emulation</li><li>Enable Vim like complement</li><li>Enable Vim Recording Macro
+  In Virtual or Command mode, it changes to Insert Mode.</li><li>ChangeKey13: Customize key to enter Normal Mode
+  Set VIM_EMU_CUSTOMIZE_KEY, like (To RETURN)
+
+  &lt;replacementdef&gt;
+  &lt;replacementname&gt;VIM_EMU_CUSTOMIZE_KEY&lt;/replacementname&gt;
+  &lt;replacementvalue&gt;KeyCode::RETURN&lt;/replacementvalue&gt;
+  &lt;/replacementdef&gt;
+
+  Holding the key send original key function.
+  The default key is ESC (exactly same as ChangeKey1)</li><li>ChangeKey14: Customize simultaneous toggles Insert Mode - Normal Mode
+  Set VIM_EMU_CUSTOMIZE_SIMULTANEOUS_KEY, like
+
+  &lt;replacementdef&gt;
+  &lt;replacementname&gt;VIM_EMU_CUSTOMIZE_SIMULTANEOUS_KEY&lt;/replacementname&gt;
+  &lt;replacementvalue&gt;KeyCode::O, KeyCode::P&lt;/replacementvalue&gt;
+  &lt;/replacementdef&gt;
+
+  The default key is O and P.</li><li>Enable Vim Emulation</li><li>Enable Vim like complement</li><li>Enable Vim Recording Macro
   q in Normal mode to start recording key inputs.
   q in Normal mode to stop recording key inputs.
   @ to execute recorded key inputs.
@@ -1529,30 +1546,30 @@
   (Use Home and End key to beginning-of-line/end-of-line.)
   (Actually, change Home/End key to Control+A/E.)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Home/End #2
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Home/End #2
   (Use Home and End key to beginning-of-line/end-of-line.)
   (Actually, change Home/End key to Command+Left/Right.)
 
   (+ Change Home to Control+A in Emacs,Terminal,X11)
   (+ Change End to Control+E in Emacs,Terminal,X11)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style PageUp/PageDown
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style PageUp/PageDown
   (behave like Option+PageUp/PageDown)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Control+Up/Down/Left/Right
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Control+Up/Down/Left/Right
   (Change Control+Arrow to Option+Arrow)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Copy/Paste
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Copy/Paste
   (Control+C to Command_L+C)
   (Control+V to Command_L+V)
   (Control+X to Command_L+X)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Copy/Paste #2
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Copy/Paste #2
   (Swap Control+C and Command_L+C)
   (Control+V to Command_L+V)
   (Control+X to Command_L+X)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Copy/Paste #3
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Copy/Paste #3
   (Control+Insert to Command_L+C)
   (Shift+Insert to Command_L+V)
   (Shift+Delete to Command_L+X) (Note: "Delete" is Mac's Forward Delete)
@@ -1560,31 +1577,31 @@
   (Except in Virtual Machine, Remote Desktop)</li><li>Use PC Style Copy-Paste #4
   Change Command+Insert to Command+C
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Undo
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Undo
   (Control+Z to Command_L+Z)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Undo #2
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Undo #2
   Undo by Option+Delete (Alt+Backspace).
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Redo
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Redo
   (Control+Y to Command_L+Shift_L+Z)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Select All
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Select All
   (Control+A to Command_L+A)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Save
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Save
   (Control+S to Command_L+S)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style New
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style New
   (Control+N to Command_L+N)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Reload
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Reload
   (Control+R to Command_L+R)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style New Tab
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style New Tab
   (Control+T to Command_L+T)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style New Tab #2 (Browser only)
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style New Tab #2 (Browser only)
   (Control+T to Command_L+T)
 
   (Only in Firefox, Google Chrome, Opera, Safari)</li><li>Use PC Style Open In New Tab (Browser only) Control+LeftClick to Command+LeftClick</li><li>Use PC Style Find
@@ -1593,47 +1610,47 @@
   (F3 to Command_L+G)
   (Control+F3 to Shift+Command_L+G)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Open
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Open
   (Open file by control-o)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Close
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Close
   (Close window by control-w)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Quit application by control-q
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Delete-Last-Word
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Quit application by control-q
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Delete-Last-Word
 (Control+Delete to Option+Delete)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style "Change Input Source" #1
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style "Change Input Source" #1
   * Change input source by option-shift
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style "Change Input Source" #2
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style "Change Input Source" #2
   * Change input source by option-left shift
   * Reverse input source by option-right shift
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style "Change Input Source" #3
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style "Change Input Source" #3
   * Change input source by control-shift
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style "Change Input Source" #4
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style "Change Input Source" #4
   * Change input source by command-shift
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Alt+F4
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Alt+F4
   Disable Cmd+Q, remap Alt/Cmd+F4 to Cmd+Q
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Use PC Style Lock Screen (Lock screen by command-L)</li><li>Simulate Windows Copy Paste keys.
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Use PC Style Lock Screen (Lock screen by command-L)</li><li>Simulate Windows Copy Paste keys.
   (Change Command+Fn to Command+C)
   (Change Shift+Fn to Command+V)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Command+Y sends Command+Shift+Z (Windows-style Redo command modifier ver.)
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Command+Y sends Command+Shift+Z (Windows-style Redo command modifier ver.)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>KeyPad copy and paste for PC Users who swapped Control and Command
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>KeyPad copy and paste for PC Users who swapped Control and Command
   (Command+KeyPad_0 to Command+C)
   (Shift+KeyPad_0 to Command+V)
   (Shift+KeyPad_Dot(.) to Command+X)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>KeyPad beginning or end of document for PC Users who swapped Control and Command
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>KeyPad beginning or end of document for PC Users who swapped Control and Command
   (Command+KeyPad_7 to Command+Up)
   (Command+KeyPad_1 to Command+Down)
 
-  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer)</li><li>Ctrl+Alt+Delete or Ctrl+Alt+Del to show restart / sleep / shutdown dialog</li><li>Ctrl+Alt+Delete or Ctrl+Alt+Del to show restart / sleep / shutdown dialog
+  (Except in Virtual Machine, RDC, VNC, TeamViewer, EMACS, TERMINAL, X11, Citrix Viewer, Wine)</li><li>Ctrl+Alt+Delete or Ctrl+Alt+Del to show restart / sleep / shutdown dialog</li><li>Ctrl+Alt+Delete or Ctrl+Alt+Del to show restart / sleep / shutdown dialog
   (for PC Users who swapped Control and Command)</li><li>Items for backwards compatibility<ul><li>Use PC Style Copy/Paste
   (Control+C to Command_L+C)
   (Control+V to Command_L+V)

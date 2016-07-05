@@ -80,7 +80,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue:<br />
-      The key repeat rate will be set the slower value if you have not changed the system key repeat rate.
+      The initial key repeat rate of Karabiner will be set the slower value if you have not changed the key repeat rate in System Preferences.
     </div>
   </div>
 

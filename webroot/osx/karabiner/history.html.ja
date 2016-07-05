@@ -122,6 +122,44 @@
       </h1>
     </div>
       <h2>
+        Version 10.21.0
+          <small>
+2016年7月5日          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.21.0.dmg">
+              ダウンロード
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      システム環境設定のキーリピート速度を変更していなかった場合、Karabinerのキーリピート速度の初期値が遅い値に設定される。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      Karabinerの設定がごく稀なケースで保存されないことがある。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
         Version 10.20.0
           <small>
 2016年6月16日          </small>

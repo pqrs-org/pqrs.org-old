@@ -17,6 +17,69 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.21.0',
+        :updated => '2016-07-05',
+        :link => 'files/Karabiner-10.21.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      The initial key repeat rate of Karabiner will be set the slower value if you have not changed the key repeat rate in System Preferences.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Karabiner does not save preferences properly in an edge case.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      システム環境設定のキーリピート速度を変更していなかった場合、Karabinerのキーリピート速度の初期値が遅い値に設定される。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      Karabinerの設定がごく稀なケースで保存されないことがある。
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.20.0',
         :updated => '2016-06-16',
         :link => 'files/Karabiner-10.20.0.dmg',

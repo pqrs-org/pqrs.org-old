@@ -651,7 +651,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              ファイルの中身を<a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.20.0/files/sample/private.xml">private.xml</a>の内容に変更します。
+              ファイルの中身を<a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.21.0/files/sample/private.xml">private.xml</a>の内容に変更します。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
@@ -767,7 +767,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
         <p>
             更に、<code>&lt;include&gt;</code>タグを用いて、既存の設定の一部分だけをprivate.xmlから読み込むことも出来ます。<br />
-            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>中から、読み込みたい行をprivate.xmlにコピーしてください。
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>中から、読み込みたい行をprivate.xmlにコピーしてください。
         </p>
         <p>
             例えば、このprivate.xmlでは「Launcher Mode v2」と「Mouse Keys Mode」を読み込みます。
@@ -1027,7 +1027,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           <li>
               設定画面が開くので、必要に応じてチェックボックスやテキストの中身を変更してください。
               <br />
-              notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
+              notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-28" class="thumbnail">
@@ -1461,16 +1461,16 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
       </p>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.20.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
+          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.21.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
         </li>
       </ul>
 
