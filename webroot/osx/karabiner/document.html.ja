@@ -1273,6 +1273,21 @@ $ sh ~/Desktop/karabiner-import.sh
 </pre>
           </li>
         </ol>
+
+        <h3 id="clear-before-import">Reset configuration before import</h3>
+        <p>
+            <code>karabiner-import.sh</code>は設定をリセットしません。<br />
+            インポートをする前に有効にしていた設定はインポート後も有効になります。
+        </p>
+        <p>
+            インポート前に設定をリセットしたい場合は<code>be_careful_to_use__clear_all_values_by_name</code>をkarabiner-import.shの前に実行してください。
+        </p>
+        <pre>
+$ /Applications/Karabiner.app/Contents/Library/bin/karabiner \
+     be_careful_to_use__clear_all_values_by_name \
+     YOUR_PROFILE_NAME
+$ sh ~/Desktop/karabiner-import.sh
+</pre>
       </section>
 
       <section>
