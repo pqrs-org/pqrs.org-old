@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.21.0</title>
+      <title>Version 10.21.1</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,27 +70,11 @@
 }
 </style>
 
-<h2>About v10.21.0 Update</h2>
+<h2>About v10.21.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      The initial key repeat rate of Karabiner will be set the slower value if you have not changed the key repeat rate in System Preferences.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Fixed an issue:<br />
-      Karabiner does not save preferences properly in an edge case.
-    </div>
-  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -107,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 05 Jul 2016 16:09:46 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.0.dmg"
-                 sparkle:version="10.21.0" length="4351383" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHS36VGPDbza3Eb1MZQwoUQuMZbkAhQ5pXiP54O70dW7yQcOq/Q1jjWeEA=="
+      <pubDate>Thu, 14 Jul 2016 17:16:31 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.1.dmg"
+                 sparkle:version="10.21.1" length="4351627" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBBLX5H8owPAd3a78kdCgtUzM4cJAhR5TJE+cTXuG0WD9Ongt2t2PCIqIQ=="
                  />
     </item>
 
