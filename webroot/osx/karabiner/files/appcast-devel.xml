@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.21.5</title>
+      <title>Version 10.21.6</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,19 @@
 }
 </style>
 
-<h2>About v10.21.5 Update</h2>
+<h2>About v10.21.6 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Qt apps might be crash when AXNotifier is enabled. (VirtualBox Preferences)
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -91,10 +99,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 29 Jul 2016 15:57:47 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.5.dmg"
-                 sparkle:version="10.21.5" length="4478900" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDZPq9I5DE3jfifjmjdYGsWyva1FAhQRoC+q85jEPPpAvmceJXbLd+ys5A=="
+      <pubDate>Fri, 05 Aug 2016 03:51:40 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.6.dmg"
+                 sparkle:version="10.21.6" length="4479166" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFC4bSXDPgMznMDl1AYCNkjBvbDxIAhQYSDNB/0nN7zEi+RVS+nIo59wBeA=="
                  />
     </item>
 
