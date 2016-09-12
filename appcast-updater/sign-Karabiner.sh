@@ -8,7 +8,7 @@ priv_pem="secret/karabiner_priv.pem"
 
 targetdir="../webroot/osx/karabiner/files"
 
-latest_dmg=`ruby scripts/get-latest.rb $targetdir/Karabiner-*.dmg`
+latest_dmg=`ruby scripts/get-latest.rb $targetdir/Karabiner-[0-9]*.dmg`
 version=$(echo `basename $latest_dmg .dmg` | sed 's|Karabiner-||')
 length=`ruby scripts/get-length.rb $latest_dmg`
 dsaSignature=`sh scripts/sign_update.sh $latest_dmg $priv_pem`

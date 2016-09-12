@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Karabiner-Elements Changelog</title>
+    <link>https://pqrs.org/osx/karabiner/files/karabiner-elements-appcast-devel.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 0.90.10</title>
+      <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: .25em;
+    border-width: 1.5em 1px 1px 1px;
+    border-style: solid;
+}
+
+.update-description-label {
+    margin: -1.5em 0 0 .5em;
+    padding: 0;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+}
+
+.update-description .update-description-body {
+    margin: .2em 1em;
+    padding: .5em;
+}
+
+.update-description-item-new {
+    border-color: #dff2fc;
+}
+
+.update-description-item-new .update-description-label:before {
+    content: "new";
+    color: #337ab7;
+}
+
+.update-description-item-important {
+    border-color: #feeeed;
+}
+
+.update-description-item-important .update-description-label:before {
+    content: "important";
+    color: #d9534f;
+}
+
+.update-description-item-fixed {
+    border-color: #cae5cd;
+}
+
+.update-description-item-fixed .update-description-label:before {
+    content: "fixed";
+    color: #184212;
+}
+
+.update-description-item-improved {
+    border-color: #f4dda5;
+}
+
+.update-description-item-improved .update-description-label:before {
+    content: "improved";
+    color: #cd6118;
+}
+</style>
+
+<h2>About v0.90.10 Update</h2>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      The first release
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/karabiner-elements.html#history">More</a>
+</p>
+]]>
+      </description>
+      <pubDate>Mon, 12 Sep 2016 05:42:51 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.10.dmg"
+                 sparkle:version="0.90.10" length="2515852" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFC+6P4ts03odq+EctqiPaXhGT/Z2AhUAiGeAQGgXSsraEOmi2/0J9AfM/jY="
+                 />
+    </item>
+
+  </channel>
+</rss>
