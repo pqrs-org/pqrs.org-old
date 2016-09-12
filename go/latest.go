@@ -31,6 +31,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	switch path.Base(r.URL.Path) {
 	case "karabiner-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/appcast.xml")
+	case "karabiner-elements-latest.dmg":
+		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/karabiner-elements-appcast.xml")
 	case "seil-latest.dmg":
 		redirectToLatestFile(w, r, "../../webroot/osx/karabiner/files/seil-appcast.xml")
 	case "noejectdelay-latest.dmg":
