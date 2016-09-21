@@ -143,13 +143,16 @@
       </p>
 
       <div class="alert alert-danger" role="alert">
-          Karabiner does not work on macOS Sierra at the moment.
-      </div>
-
-      <div class="alert alert-warning" role="alert">
-          About Sparkle Updater Vulnerability:<br />
-          Karabiner is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
-          because Karabiner uses HTTPS for feeds and files.
+          <strong>macOS Sierra support status</strong><br />
+          <br />
+          Karabiner does not work on macOS Sierra at the moment.<br />
+          <br />
+          We are developing Karabiner-Elements which provides simple key modification for macOS Sierra at first.<br />
+          (Karabiner-Elements works on macOS Sierra except prefernces GUI.)<br />
+          <br />
+          We'll start updating for the full featured Karabiner for Sierra after Karabiner-Elements is completed.<br />
+          <br />
+          <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank">https://github.com/tekezo/Karabiner-Elements</a>
       </div>
 
       <p style="margin-left: 1em">

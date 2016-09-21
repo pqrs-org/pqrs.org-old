@@ -141,13 +141,14 @@
       </p>
 
       <div class="alert alert-danger" role="alert">
-          Seil does not work on macOS Sierra at the moment.
-      </div>
-
-      <div class="alert alert-warning" role="alert">
-          About Sparkle Updater Vulnerability:<br />
-          Seil is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
-          because Seil uses HTTPS for feeds and files.
+          <strong>macOS Sierra support status</strong><br />
+          <br />
+          Seil functions are integraded to Karabiner-Elements. Please use Karabiner-Elements.<br />
+          <br />
+          We are developing Karabiner-Elements which provides simple key modification for macOS Sierra at first.<br />
+          (Karabiner-Elements works on macOS Sierra except prefernces GUI.)<br />
+          <br />
+          <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank">https://github.com/tekezo/Karabiner-Elements</a>
       </div>
 
       <p style="margin-left: 1em">

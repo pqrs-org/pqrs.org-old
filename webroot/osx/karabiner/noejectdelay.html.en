@@ -139,7 +139,7 @@
       </p>
 
       <div class="alert alert-danger" role="alert">
-          NoEjectDelay does not work on macOS Sierra at the moment.
+          NoEjectDelay does not work on macOS Sierra.
       </div>
 
       <div class="alert alert-warning" role="alert">
