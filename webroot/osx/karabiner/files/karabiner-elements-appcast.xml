@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.46</title>
+      <title>Version 0.90.47</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.46 Update</h2>
+<h2>About v0.90.47 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -79,7 +79,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      The first release
+      v0.90.47: Modifier flags handling has been improved.
     </div>
   </div>
 
@@ -91,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 02 Oct 2016 16:45:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.46.dmg"
-                 sparkle:version="0.90.46" length="2548009" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCsUSnotm+O0REa3NkRmjhPBrkqUgIUMg9k68/mavW14ybA1DNKUrtuto8="
+      <pubDate>Sat, 08 Oct 2016 17:54:23 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.47.dmg"
+                 sparkle:version="0.90.47" length="2622899" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCWL347l4VDKnc6yOH7n/9b7OL2YgIVAO4Vw8cGcXvCQmaBuYawmlQ1IkuC"
                  />
     </item>
 
