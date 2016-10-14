@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.48</title>
+      <title>Version 0.90.50</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,25 @@
 }
 </style>
 
-<h2>About v0.90.48 Update</h2>
+<h2>About v0.90.50 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.50: Modifier flags handling with mouse events has been improved.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.49: Preferences &gt; Function Keys UI has been added.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -98,10 +112,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 10 Oct 2016 18:43:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.48.dmg"
-                 sparkle:version="0.90.48" length="2670784" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDi2QVo65rawCL8pmwE5KsZCm+hXAhUA7fEK/mW1cX7wWP+Jjc0lf8PzZsc="
+      <pubDate>Fri, 14 Oct 2016 09:03:40 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.50.dmg"
+                 sparkle:version="0.90.50" length="2688326" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQC6ar2dlLdJ8O8i7VN5r+i52ra8bwIVAN8tlae0Ud8ZlVU2BpcThujPnReD"
                  />
     </item>
 
