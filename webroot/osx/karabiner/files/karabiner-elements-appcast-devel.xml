@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.51</title>
+      <title>Version 0.90.52</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.51 Update</h2>
+<h2>About v0.90.52 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -79,7 +79,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.90.50: Sleep / wake up handling has been improved.
+      v0.90.52: Sleep / wake up handling has been improved.
     </div>
   </div>
 
@@ -119,10 +119,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 17 Oct 2016 14:31:17 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.51.dmg"
-                 sparkle:version="0.90.51" length="2696600" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCoAPZCNaMz1tgoESpm/uvll9wy3gIUR0b6D124Gh3uLO38uP7SY7iMSMA="
+      <pubDate>Mon, 17 Oct 2016 14:47:21 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.52.dmg"
+                 sparkle:version="0.90.52" length="2700459" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCYZDtJlz0Uy1IWu+/GtxLgVy9eHAhUA7nWuTx7iHwZvYlw5g/ZpsunOlAU="
                  />
     </item>
 
