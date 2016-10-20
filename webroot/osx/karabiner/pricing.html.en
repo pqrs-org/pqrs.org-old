@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>寄付 - Karabiner - OS X用のソフトウェア</title>
+    <title>Pricing - Karabiner - Software for OS X</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -38,66 +38,66 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
+                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    ドキュメント
+                    Documents
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.en">Manual</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/gallery.html.ja">設定の一例</a>
+                        <a href="/osx/karabiner/gallery.html.en">Gallery</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
+                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
+                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
+                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
+                        <a href="/osx/karabiner/history.html.en">Version History</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
                       </li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
+                    Additional Apps
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
                       </li>
                   </ul>
                 </li>
                 <li class=active>
-                  <a href="/osx/karabiner/donation.html.ja">寄付</a>
+                  <a href="/osx/karabiner/pricing.html.en">Pricing</a>
                 </li>
                 <li >
-                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
+                  <a href="/osx/karabiner/contact.html.en">Contact</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.ja">プロフィール</a>
+                <a href="/profile.html.en">Profile</a>
               </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -105,8 +105,8 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/osx/karabiner/donation.html.en">English</a></li>
-                <li><a href="/osx/karabiner/donation.html.ja">Japanese</a></li>
+                <li><a href="/osx/karabiner/pricing.html.en">English</a></li>
+                <li><a href="/osx/karabiner/pricing.html.ja">Japanese</a></li>
               </ul>
             </li>
           </ul>
@@ -118,16 +118,32 @@
   <section>
     <div class="page-header">
       <h1>
-          寄付
+          Pricing
       </h1>
     </div>
-    <p>
-        PayPalにて寄付を受け付けています。以下のいずれかのボタンから寄付できます。
+
+    <p style="margin: 50px 0; font-size: 120%">
+      <strong>
+          Karabiner is <a href="source.html.en">an open source software</a> and you can use it without any purchases.
+      </strong>
     </p>
 
     <hr />
 
-    <h2>PayPal</h2>
+    <h2>
+        Purchase for supporting this project
+    </h2>
+
+    <p>
+        You can pay software fee via PayPal to support this project.<br />
+        (It's nearly a donation, but we can not receive a donation by japanese law and the constraints on government regulation.
+        Thus, it has taken the form of software fee.)<br />
+        <br />
+        We does not provide any difference between purchased users and not-purchased users.<br />
+        Please pay if you are interested to support this project.
+    </p>
+
+    <hr />
 
     <div class="row">
       <div class="col-lg-2">
@@ -137,42 +153,23 @@
 src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
       </div>
       <div class="col-lg-4">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
         <input type="hidden" name="cmd" value="_xclick"/>
         <input type="hidden" name="business" value="tekezo@pqrs.org"/>
         <input type="hidden" name="lc" value="US"/>
-        <input type="hidden" name="item_name" value="Karabiner (for OS X)"/>
+        <input type="hidden" name="item_name" value="Karabiner for macOS"/>
         <input type="hidden" name="no_note" value="0"/>
         <input type="hidden" name="no_shipping" value="1"/>
         <input type="hidden" name="currency_code" value="USD"/>
         <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
-
-        <select name="amount" class="form-control">
-          <option value="5.00">$5</option>
-          <option value="10.00" selected="selected">$10</option>
-          <option value="20.00">$20</option>
-          <option value="30.00">$30</option>
-          <option value="40.00">$40</option>
-          <option value="50.00">$50</option>
-          <option value="">Other</option>
-        </select>
-
-        <br />
+        <input type="hidden" name="amount" value="10.00"/>
 
         <button type="submit" class="btn btn-primary">
-            PayPalの支払いフォームを開く
+            Open PayPal Payments Form (Pay $10 for Karabiner)
         </button>
         </form>
       </div>
     </div>
-
-    <hr />
-
-    <h2>Pledgie</h2>
-
-    <p>
-      <a href='http://www.pledgie.com/campaigns/11108'><img alt='Click here to lend your support to: Karabiner and make a donation at www.pledgie.com !' src='https://pledgie.com/campaigns/11108.png?skin_name=chrome' border='0' /></a>
-    </p>
   </section>
 </div>
 

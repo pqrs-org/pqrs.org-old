@@ -10,5 +10,5 @@ all:
 	./source.rb
 	./history.rb
 	./list.rb
-	./donation.rb
+	./pricing.rb
 	./contact.rb

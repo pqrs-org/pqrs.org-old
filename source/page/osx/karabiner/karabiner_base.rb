@@ -104,10 +104,10 @@ class KarabinerBase < PqrsBase
        }
      },
      {
-       :href => '/osx/karabiner/donation.html',
+       :href => '/osx/karabiner/pricing.html',
        :name_l10n => {
-         :en => 'Donations',
-         :ja => '寄付',
+         :en => 'Pricing',
+         :ja => '支援',
        },
      },
      {

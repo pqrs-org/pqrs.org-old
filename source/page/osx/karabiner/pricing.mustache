@@ -1,0 +1,88 @@
+<div class="container">
+  <section>
+    <div class="page-header">
+      <h1>
+        {{#language_en}}
+          Pricing
+        {{/language_en}}
+        {{#language_ja}}
+          支援
+        {{/language_ja}}
+      </h1>
+    </div>
+
+    <p style="margin: 50px 0; font-size: 120%">
+      <strong>
+        {{#language_en}}
+          Karabiner is <a href="source.html.{{ language }}">an open source software</a> and you can use it without any purchases.
+        {{/language_en}}
+        {{#language_ja}}
+          Karabinerは<a href="source.html.{{ language }}">オープンソースソフトウェア</a>であり、無料で使うことが出来ます。
+        {{/language_ja}}
+      </strong>
+    </p>
+
+    <hr />
+
+    <h2>
+      {{#language_en}}
+        Purchase for supporting this project
+      {{/language_en}}
+      {{#language_ja}}
+        支援
+      {{/language_ja}}
+    </h2>
+
+    <p>
+      {{#language_en}}
+        You can pay software fee via PayPal to support this project.<br />
+        (It's nearly a donation, but we can not receive a donation by japanese law and the constraints on government regulation.
+        Thus, it has taken the form of software fee.)<br />
+        <br />
+        We does not provide any difference between purchased users and not-purchased users.<br />
+        Please pay if you are interested to support this project.
+      {{/language_en}}
+      {{#language_ja}}
+        プロジェクトに支援を行うために、Paypal経由でソフトウェアのサービス費用を支払うことも出来ます。<br />
+        （日本の法律および行政規制上の制約により、寄付金という形で決済サービスを利用することが出来ないため、ソフトウェアのサービス費用という形を取っています。）<br />
+        そのため、「サービス費用の支払いのあり・なし」による機能やサポートの違いはありませんので、純粋に支援いただける方は支払いをお願いします。
+      {{/language_ja}}
+    </p>
+
+    <hr />
+
+    <div class="row">
+      <div class="col-lg-2">
+        <img
+        class="pull-left"
+        alt="PayPal" style="margin-right: 20px"
+        {{#imgsrc}}
+          img/PayPal_mark_180x113.gif
+        {{/imgsrc}}
+        />
+      </div>
+      <div class="col-lg-4">
+        <form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
+        <input type="hidden" name="cmd" value="_xclick"/>
+        <input type="hidden" name="business" value="tekezo@pqrs.org"/>
+        <input type="hidden" name="lc" value="US"/>
+        <input type="hidden" name="item_name" value="Karabiner for macOS"/>
+        <input type="hidden" name="no_note" value="0"/>
+        <input type="hidden" name="no_shipping" value="1"/>
+        <input type="hidden" name="currency_code" value="USD"/>
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
+        <input type="hidden" name="amount" value="10.00"/>
+
+        <button type="submit" class="btn btn-primary">
+          {{#language_en}}
+            Open PayPal Payments Form (Pay $10 for Karabiner)
+          {{/language_en}}
+          {{#language_ja}}
+            PayPalの支払いフォームを開く（Karabinerに10ドル支払う）
+          {{/language_ja}}
+        </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
