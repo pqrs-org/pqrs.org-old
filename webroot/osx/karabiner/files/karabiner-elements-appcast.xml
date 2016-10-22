@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.54</title>
+      <title>Version 0.90.55</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,18 @@
 }
 </style>
 
-<h2>About v0.90.54 Update</h2>
+<h2>About v0.90.55 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.55: Show key code name in Karabiner-EventViewer.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -133,10 +140,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 21 Oct 2016 17:09:28 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.54.dmg"
-                 sparkle:version="0.90.54" length="2756632" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDbsmUnq51sdH9rHaQSnLPNAcVXsAhUAgR0W0tVuCTkdpYWeJDWzUw6Idts="
+      <pubDate>Sat, 22 Oct 2016 11:38:35 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.55.dmg"
+                 sparkle:version="0.90.55" length="2822187" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFH31IWBYDQRC1SZjzv/7jarq6VABAhUAwiDrcZe4wtoLYWv5ss4RjUgCUNY="
                  />
     </item>
 
