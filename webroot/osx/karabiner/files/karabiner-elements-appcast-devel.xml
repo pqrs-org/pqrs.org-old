@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.55</title>
+      <title>Version 0.90.56</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,22 @@
 }
 </style>
 
-<h2>About v0.90.55 Update</h2>
+<h2>About v0.90.56 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.56: <br />
+      Devices tab has been added into Preferences. You can ignore devices in Karabiner-Elements.<br />
+      Ignore keyboard-and-mouse-combined-devices in default.<br />
+      <br />
+      Note: There is a known issue that modifier flags from ignored devices will be ignored in mouse events.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -140,10 +151,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 22 Oct 2016 11:38:35 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.55.dmg"
-                 sparkle:version="0.90.55" length="2822187" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFH31IWBYDQRC1SZjzv/7jarq6VABAhUAwiDrcZe4wtoLYWv5ss4RjUgCUNY="
+      <pubDate>Tue, 25 Oct 2016 16:56:16 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.56.dmg"
+                 sparkle:version="0.90.56" length="2890074" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCBcqUuLd50tl++FghZlTxfvM7iyQIVAL8czpNkD5R8khkdO7T0j5sm0EDn"
                  />
     </item>
 
