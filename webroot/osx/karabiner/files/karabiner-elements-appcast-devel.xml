@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.57</title>
+      <title>Version 0.90.58</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,18 @@
 }
 </style>
 
-<h2>About v0.90.57 Update</h2>
+<h2>About v0.90.58 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.58: A preferences GUI issue has been fixed.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -149,10 +156,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 27 Oct 2016 02:38:02 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.57.dmg"
-                 sparkle:version="0.90.57" length="2889432" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFHYbo5UbWv6SD5A7sKghLfCOYrG9AhUApN1q3a4znEH/Z19+mTtLYoJ09/4="
+      <pubDate>Thu, 27 Oct 2016 03:43:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.58.dmg"
+                 sparkle:version="0.90.58" length="2889783" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCpmAWuLhpRQdIlQvOIb7XM9lb8twIUacT/y7/yBTK9SR09YaY1Yy9hYQc="
                  />
     </item>
 
