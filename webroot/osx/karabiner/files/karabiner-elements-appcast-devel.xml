@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.58</title>
+      <title>Version 0.90.59</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,18 @@
 }
 </style>
 
-<h2>About v0.90.58 Update</h2>
+<h2>About v0.90.59 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.59: Fixed an issue that Karabiner-Elements ignores "Use all F1, F2, etc. keys as standard function keys" setting in System Preferences.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -156,10 +163,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 27 Oct 2016 03:43:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.58.dmg"
-                 sparkle:version="0.90.58" length="2889783" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCpmAWuLhpRQdIlQvOIb7XM9lb8twIUacT/y7/yBTK9SR09YaY1Yy9hYQc="
+      <pubDate>Thu, 27 Oct 2016 16:20:19 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.59.dmg"
+                 sparkle:version="0.90.59" length="2937545" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFGv5vyY3uGl1whKQEOw02X+FclZkAhUA2Z61WyJeYs8COTImZtk5SWxeP2Y="
                  />
     </item>
 
