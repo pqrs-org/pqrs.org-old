@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 10.21.10</title>
+      <title>Version 10.21.11</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v10.21.10 Update</h2>
+<h2>About v10.21.11 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -80,7 +80,14 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue:<br />
-      Some Qt apps might be crash when AXNotifier is enabled. (VirtualBox, LyX)
+      Some Qt apps might be crash when AXNotifier is enabled. (VirtualBox, LyX, Wireshark)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-update">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Default setting of AXNotifier has been changed. (Enabled in Microsoft Office)
     </div>
   </div>
 
@@ -99,10 +106,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 25 Aug 2016 21:48:58 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.10.dmg"
-                 sparkle:version="10.21.10" length="4479337" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBAv4fBgwHeUK30LtBxKsj8pALtIAhQpPIrNrRucxbXHRYydwwHg7hHaSA=="
+      <pubDate>Sun, 30 Oct 2016 15:50:36 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-10.21.11.dmg"
+                 sparkle:version="10.21.11" length="4363559" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFH1owsM8ryj7olcTdD24NhwMBIodAhRegVUhjgXxMbvnVI2CPkZtlfZcYA=="
                  />
     </item>
 
