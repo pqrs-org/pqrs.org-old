@@ -145,9 +145,6 @@
           <br />
           Seilの機能はKarabiner-Elementsに統合されました。Karabiner-Elementsをお使いください。<br />
           <br />
-          現在、単純なキーの変更機能を提供するKarabiner-Elementsを開発中です。<br />
-          （設定画面を除くとSierra上で動作しています）<br />
-          <br />
           <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank">https://github.com/tekezo/Karabiner-Elements</a>
       </div>
 

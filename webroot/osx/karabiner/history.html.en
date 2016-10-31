@@ -122,6 +122,43 @@
       </h1>
     </div>
       <h2>
+        Version 10.22.0
+          <small>
+Oct 31, 2016          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-10.22.0.dmg">
+              Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Qt apps might be crash when AXNotifier is enabled. (VirtualBox, LyX, Wireshark)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Default setting of AXNotifier has been changed. (Enabled in Microsoft Office)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <h2>
         Version 10.21.0
           <small>
 Jul 5, 2016          </small>

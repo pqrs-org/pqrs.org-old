@@ -17,6 +17,67 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => '10.22.0',
+        :updated => '2016-10-31',
+        :link => 'files/Karabiner-10.22.0.dmg',
+        :body_l10n => {
+          :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Fixed an issue:<br />
+      Some Qt apps might be crash when AXNotifier is enabled. (VirtualBox, LyX, Wireshark)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Default setting of AXNotifier has been changed. (Enabled in Microsoft Office)
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Prepared settings have been updated.
+    </div>
+  </div>
+
+</div>
+EOS
+          :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      次の問題を修正しました: <br />
+      AXNotifierが有効な場合に、いくつかのQtアプリがクラッシュすることがある。（VirtualBox, LyX, Wireshark）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      AXNotifierの設定のデフォルト値を変更しました。（Microsoft Officeで有効にしました）
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      設定の追加・更新をしました。
+    </div>
+  </div>
+
+</div>
+EOS
+        },
+      },
+      {
         :version => '10.21.0',
         :updated => '2016-07-05',
         :link => 'files/Karabiner-10.21.0.dmg',

@@ -133,7 +133,7 @@
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Karabiner-10.21.0.dmg">Karabiner-10.21.0をダウンロード
+            href="files/Karabiner-10.22.0.dmg">Karabiner-10.22.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
 
       <p>
@@ -148,7 +148,7 @@
           Karabinerは今のところmacOS Sierraでは動作しません。<br />
           <br />
           Sierra対応は、まずは単純なキーの変更を行える機能をKarabiner-Elementsとして開発中です。<br />
-          （設定画面を除くとSierra上で動作しています）<br />
+          （Karabiner-ElementsはSierra上で動作しています。いくつか残っている問題の修正に取り組んでいます。）<br />
           <br />
           Karabinerのフル機能のSierra対応はKarabiner-Elementsが完成してから対応します。<br />
           <br />
