@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.61</title>
+      <title>Version 0.90.63</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,23 @@
 }
 </style>
 
-<h2>About v0.90.61 Update</h2>
+<h2>About v0.90.63 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.67: <br />
+      <ul>
+        <li>Disable the built-in keyboard function has been added.</li>
+        <li>Key Repeat tab has been added into Preferences.</li>
+        <li>Sleep / wake up handling has been improved.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -177,10 +189,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 28 Oct 2016 16:47:07 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.61.dmg"
-                 sparkle:version="0.90.61" length="2952652" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFG+sIWF0GaYgEOf6E90bK38mPOGtAhRnmzmVE1l2o3cjjugfTeX1RvgKng=="
+      <pubDate>Sun, 06 Nov 2016 11:49:13 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.63.dmg"
+                 sparkle:version="0.90.63" length="2994761" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDpLfUMS0795YhUIiDo3zVVV8WLuAIVAOXzBWODHEXmYRiSjsYAjURr41mx"
                  />
     </item>
 
