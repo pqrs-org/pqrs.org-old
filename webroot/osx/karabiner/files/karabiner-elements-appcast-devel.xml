@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.63</title>
+      <title>Version 0.90.64</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,18 @@
 }
 </style>
 
-<h2>About v0.90.63 Update</h2>
+<h2>About v0.90.64 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.64: Fixed an issue that Preferences does not work properly with some devices.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -189,10 +196,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 06 Nov 2016 11:49:13 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.63.dmg"
-                 sparkle:version="0.90.63" length="2994761" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDpLfUMS0795YhUIiDo3zVVV8WLuAIVAOXzBWODHEXmYRiSjsYAjURr41mx"
+      <pubDate>Mon, 07 Nov 2016 14:54:58 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.64.dmg"
+                 sparkle:version="0.90.64" length="2996188" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDo/ttZlnQ0RKGjNp27IWtYoyw+GwIUTH/rgnesx1/U1v4LeXPbe92YQKk="
                  />
     </item>
 
