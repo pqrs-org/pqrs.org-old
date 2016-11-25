@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.64</title>
+      <title>Version 0.90.66</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,18 @@
 }
 </style>
 
-<h2>About v0.90.64 Update</h2>
+<h2>About v0.90.66 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.66: Touch Bar on MacBook Pro 2016 is ignored by default.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -196,10 +203,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 07 Nov 2016 14:54:58 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.64.dmg"
-                 sparkle:version="0.90.64" length="2996188" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDo/ttZlnQ0RKGjNp27IWtYoyw+GwIUTH/rgnesx1/U1v4LeXPbe92YQKk="
+      <pubDate>Fri, 25 Nov 2016 18:20:11 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.66.dmg"
+                 sparkle:version="0.90.66" length="3003583" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHGz8OQf9MnpFOC+JdRAqc+Nl0HFAhQlcoF+AZKUtPC8SvK+0vMhcuOtcA=="
                  />
     </item>
 
