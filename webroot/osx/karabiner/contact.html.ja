@@ -125,7 +125,16 @@
         バグ報告や要望など
     </h2>
     <p>
-        <a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner-ja">Google グループ</a>に投稿してください。
+        GitHubに投稿してください。
+    </p>
+
+    <ul>
+      <li><a target="_blank" href="https://github.com/tekezo/Karabiner">Karabiner</a></li>
+      <li><a target="_blank" href="https://github.com/tekezo/Karabiner-Elements">Karabiner-Elements</a></li>
+    </ul>
+
+    <p>
+        もしくは<a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner-ja">Google グループ</a>に投稿してください。
     </p>
     <h3 id="required-information">
         バグ報告に必要な情報

@@ -125,7 +125,16 @@
         Reporting Bugs, Feature requests
     </h2>
     <p>
-        Please post to <a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner">Google Groups</a>.
+        Please post an issue to github
+    </p>
+
+    <ul>
+      <li><a target="_blank" href="https://github.com/tekezo/Karabiner">Karabiner</a></li>
+      <li><a target="_blank" href="https://github.com/tekezo/Karabiner-Elements">Karabiner-Elements</a></li>
+    </ul>
+
+    <p>
+        Or post to <a target="_blank" href="https://groups.google.com/forum/#!forum/osx-karabiner">Google Groups</a>.
     </p>
     <h3 id="required-information">
         Required information with bug reports
