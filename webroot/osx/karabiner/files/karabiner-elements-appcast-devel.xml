@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.68</title>
+      <title>Version 0.90.69</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,26 @@
 }
 </style>
 
-<h2>About v0.90.68 Update</h2>
+<h2>About v0.90.69 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.69: Keyboard Type configuration in Devices tab has been removed.<br >
+      Please use Keyboard Type configuration in Virtual Keyboard tab.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.69: Improved the caps lock key handling and the sticky modifiers handling.
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -217,10 +232,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 02 Dec 2016 16:47:08 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.68.dmg"
-                 sparkle:version="0.90.68" length="3018991" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFA/XfZzcVccPOIyVUU/PQYxYQVF7AhUA0R0uhjJ5Yvq67RScIR0EoTEuMnU="
+      <pubDate>Sun, 25 Dec 2016 14:13:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.69.dmg"
+                 sparkle:version="0.90.69" length="2662059" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB3u0PhcVCliXa1UqnWcM/rAul6yAhRnX2dZ7Q0gLa+uyNcF8koSDSMcGA=="
                  />
     </item>
 
