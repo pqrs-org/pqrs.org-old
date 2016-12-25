@@ -80,7 +80,10 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       v0.90.69: Keyboard Type configuration in Devices tab has been removed.<br >
-      Please use Keyboard Type configuration in Virtual Keyboard tab.
+      Please use Keyboard Type configuration in Virtual Keyboard tab.<br />
+      <br />
+      Key Repeat configuration has been removed.<br />
+      Please use System Preferences &gt; Keyboard to change the key repeat rate.
     </div>
   </div>
 
