@@ -79,6 +79,14 @@
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
+      v0.90.71:<br />
+      The karabiner.json location has been changed to ~/.config/karabiner/karabiner.json.
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
       v0.90.69:
       <ul>
         <li>
