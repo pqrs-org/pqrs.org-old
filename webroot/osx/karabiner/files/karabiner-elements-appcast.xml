@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.72</title>
+      <title>Version 0.90.73</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.72 Update</h2>
+<h2>About v0.90.73 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -98,6 +98,13 @@
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
       </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.73: Improved hardware's macro keys support.
     </div>
   </div>
 
@@ -263,10 +270,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 31 Dec 2016 14:28:24 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.72.dmg"
-                 sparkle:version="0.90.72" length="2686798" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFFmxpYrI8OdUmu4nNr4xKf9N/DeRAhUAhijbquQzYeh0a8Qft2Y1qAQ+NvA="
+      <pubDate>Wed, 04 Jan 2017 08:27:28 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.73.dmg"
+                 sparkle:version="0.90.73" length="2777218" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHshcPYMaHdW9fBkdmO9wGOCASwDAhQyw4irAEk5u7AgGvXBIT7burcUIA=="
                  />
     </item>
 
