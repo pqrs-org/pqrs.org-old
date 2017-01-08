@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.73</title>
+      <title>Version 0.90.75</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.73 Update</h2>
+<h2>About v0.90.75 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -97,6 +97,17 @@
           Key Repeat configuration has been removed.<br />
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.75: <br />
+      <ul>
+        <li>Improved hardware's macro keys support.</li>
+        <li>Improved device name detection.</li>
       </ul>
     </div>
   </div>
@@ -270,10 +281,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 04 Jan 2017 08:27:28 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.73.dmg"
-                 sparkle:version="0.90.73" length="2777218" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHshcPYMaHdW9fBkdmO9wGOCASwDAhQyw4irAEk5u7AgGvXBIT7burcUIA=="
+      <pubDate>Sun, 08 Jan 2017 17:37:21 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.75.dmg"
+                 sparkle:version="0.90.75" length="2789603" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFHIipsl2+yj3FSEg+WEDGT3LUgFlAhUAiYkXmj1LUlR2BdmWZfHouxvHZ6k="
                  />
     </item>
 
