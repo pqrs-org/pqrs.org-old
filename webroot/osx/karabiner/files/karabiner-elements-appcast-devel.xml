@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.74</title>
+      <title>Version 0.90.75</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.74 Update</h2>
+<h2>About v0.90.75 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -104,7 +104,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.90.74: <br />
+      v0.90.75: <br />
       <ul>
         <li>Improved hardware's macro keys support.</li>
         <li>Improved device name detection.</li>
@@ -281,10 +281,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 08 Jan 2017 17:27:01 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.74.dmg"
-                 sparkle:version="0.90.74" length="2789945" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFBpn2Ffp5hfeGG4eVm5mx5jISf/kAhUA7m7TXg2er++1vhEi17W+D5941SI="
+      <pubDate>Sun, 08 Jan 2017 17:37:21 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.75.dmg"
+                 sparkle:version="0.90.75" length="2789603" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFHIipsl2+yj3FSEg+WEDGT3LUgFlAhUAiYkXmj1LUlR2BdmWZfHouxvHZ6k="
                  />
     </item>
 
