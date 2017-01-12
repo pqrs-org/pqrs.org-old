@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.75</title>
+      <title>Version 0.90.76</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.75 Update</h2>
+<h2>About v0.90.76 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -108,6 +108,16 @@
       <ul>
         <li>Improved hardware's macro keys support.</li>
         <li>Improved device name detection.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.76: <br />
+      <ul>
+        <li>Caps Lock Delay configuration has been added into Virtual Keyboard preferences.</li>
       </ul>
     </div>
   </div>
@@ -281,10 +291,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 08 Jan 2017 17:37:21 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.75.dmg"
-                 sparkle:version="0.90.75" length="2789603" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFHIipsl2+yj3FSEg+WEDGT3LUgFlAhUAiYkXmj1LUlR2BdmWZfHouxvHZ6k="
+      <pubDate>Thu, 12 Jan 2017 14:47:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.76.dmg"
+                 sparkle:version="0.90.76" length="2798653" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCQK90IBQMvmCe7+ZKmN9gSuOBNDAhUA4HYT264O2pC9u7AcrkUZgfYuzsg="
                  />
     </item>
 
