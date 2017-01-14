@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.76</title>
+      <title>Version 0.90.77</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.76 Update</h2>
+<h2>About v0.90.77 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -104,10 +104,9 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.90.75: <br />
+      v0.90.77: <br />
       <ul>
-        <li>Improved hardware's macro keys support.</li>
-        <li>Improved device name detection.</li>
+        <li>Caps Lock LED handling has been improved.</li>
       </ul>
     </div>
   </div>
@@ -118,6 +117,17 @@
       v0.90.76: <br />
       <ul>
         <li>Caps Lock Delay configuration has been added into Virtual Keyboard preferences.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.75: <br />
+      <ul>
+        <li>Improved hardware's macro keys support.</li>
+        <li>Improved device name detection.</li>
       </ul>
     </div>
   </div>
@@ -291,10 +301,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 12 Jan 2017 14:47:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.76.dmg"
-                 sparkle:version="0.90.76" length="2798653" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFCQK90IBQMvmCe7+ZKmN9gSuOBNDAhUA4HYT264O2pC9u7AcrkUZgfYuzsg="
+      <pubDate>Sat, 14 Jan 2017 18:07:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.77.dmg"
+                 sparkle:version="0.90.77" length="2798812" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFo8h373/JlxYh3/gtiQmjyocTuqAhRtCC+5Jc3LubsXs7U+ZnwxfzW8iA=="
                  />
     </item>
 
