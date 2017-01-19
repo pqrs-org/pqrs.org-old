@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.81</title>
+      <title>Version 0.90.82</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.81 Update</h2>
+<h2>About v0.90.82 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -104,7 +104,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.90.81: <br />
+      v0.90.82: <br />
       <ul>
         <li>`Check for updates on startup` configuration has been added.</li>
       </ul>
@@ -331,10 +331,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 19 Jan 2017 17:49:42 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.81.dmg"
-                 sparkle:version="0.90.81" length="2847596" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFE8mE5henn2lEjoNuGPxReyeIBllAhRbEtRT8ODNbKUsn2pyqNEfkD8niA=="
+      <pubDate>Thu, 19 Jan 2017 18:21:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.82.dmg"
+                 sparkle:version="0.90.82" length="2846450" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEtctbqFqrJlg7BHpMi47e3AAB9BAhQfbSaPwfVPtRM3aYpOgU9sEFi+9A=="
                  />
     </item>
 
