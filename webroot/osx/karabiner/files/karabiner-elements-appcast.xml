@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.88</title>
+      <title>Version 0.90.89</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.88 Update</h2>
+<h2>About v0.90.89 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -97,6 +97,16 @@
           Key Repeat configuration has been removed.<br />
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.89: <br />
+      <ul>
+        <li>Minor improvement.</li>
       </ul>
     </div>
   </div>
@@ -395,10 +405,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 06 Mar 2017 15:49:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.88.dmg"
-                 sparkle:version="0.90.88" length="3162199" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFAHcyTj1QYBMUsDcYJSZ3953NpvjAhUAi5uzCPMUCV3UJQtTsDxhqqZxYh8="
+      <pubDate>Wed, 08 Mar 2017 12:35:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.89.dmg"
+                 sparkle:version="0.90.89" length="3162190" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGkAJ2ukJNTa7wN6BT2sj5Rk9H84AhQH9mn1NdRWcLj8HpWStGtxqKgsPg=="
                  />
     </item>
 
