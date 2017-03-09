@@ -104,7 +104,7 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.90.89: <br />
+      v0.90.90: <br />
       <ul>
         <li>Fixed an issue that `Add item` and `Add profile` button do not work in some case.</li>
         <li>Improved the system default configuration handling.</li>

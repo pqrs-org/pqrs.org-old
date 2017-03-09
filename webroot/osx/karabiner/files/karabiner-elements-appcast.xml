@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.89</title>
+      <title>Version 0.90.90</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,7 +70,7 @@
 }
 </style>
 
-<h2>About v0.90.89 Update</h2>
+<h2>About v0.90.90 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -97,6 +97,17 @@
           Key Repeat configuration has been removed.<br />
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.90.90: <br />
+      <ul>
+        <li>Fixed an issue that `Add item` and `Add profile` button do not work in some case.</li>
+        <li>Improved the system default configuration handling.</li>
       </ul>
     </div>
   </div>
@@ -405,10 +416,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 08 Mar 2017 12:35:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.89.dmg"
-                 sparkle:version="0.90.89" length="3162190" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGkAJ2ukJNTa7wN6BT2sj5Rk9H84AhQH9mn1NdRWcLj8HpWStGtxqKgsPg=="
+      <pubDate>Thu, 09 Mar 2017 04:28:21 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.90.dmg"
+                 sparkle:version="0.90.90" length="3162173" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDEs1TlNS34DMQM/nlSXJsxzL4EcgIURPq6srr8I0KjKeajYAkRYrwOgXA="
                  />
     </item>
 
