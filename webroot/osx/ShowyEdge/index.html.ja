@@ -87,7 +87,7 @@ src="img/menubar@2x.png" width="830" height="190"        style="border: 1px soli
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-3.1.0.dmg">ShowyEdge-3.1.0をダウンロード
+            href="files/ShowyEdge-3.2.0.dmg">ShowyEdge-3.2.0をダウンロード
             &nbsp;<span class="label label-default">OS X 10.9以降で動作します。</span></a>      </p>
 
       <p>
@@ -398,6 +398,28 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
           </h1>
         </div>
 
+          <h2>
+            Version 3.2.0
+              <small>
+2017年3月23日              </small>
+
+              <a class="btn btn-default btn-small" href="files/ShowyEdge-3.2.0.dmg">
+                  ダウンロード
+              </a>
+          </h2>
+          <div style="margin-left: 2em">
+            <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      色の透過率を設定できるようにしました。
+    </div>
+  </div>
+
+</div>
+
+          </div>
           <h2>
             Version 3.1.0
               <small>

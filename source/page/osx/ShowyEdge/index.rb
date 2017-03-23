@@ -75,6 +75,37 @@ class Index < PqrsBase
   def histories
     data = [
             {
+              :version => '3.2.0',
+              :updated => '2017-03-23',
+              :link => 'files/ShowyEdge-3.2.0.dmg',
+              :body_l10n => {
+                :en => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      An opacity slider has been added to color picker.
+    </div>
+  </div>
+
+</div>
+EOS
+                :ja => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      色の透過率を設定できるようにしました。
+    </div>
+  </div>
+
+</div>
+EOS
+              },
+            },
+            {
               :version => '3.1.0',
               :updated => '2016-04-17',
               :link => 'files/ShowyEdge-3.1.0.dmg',
