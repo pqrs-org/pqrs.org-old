@@ -79,14 +79,6 @@
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v0.91.0:<br />
-      The event manipulation has been improved.
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
       v0.90.71:<br />
       The karabiner.json location has been changed to ~/.config/karabiner/karabiner.json.
     </div>
@@ -106,6 +98,14 @@
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
       </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.0:<br />
+      The event manipulation has been improved.
     </div>
   </div>
 
