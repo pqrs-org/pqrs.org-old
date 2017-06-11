@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.0</title>
+      <title>Version 0.91.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,32 @@
 }
 </style>
 
-<h2>About v0.91.0 Update</h2>
+<h2>About v0.91.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.1:<br />
+      <ul>
+        <li>Fixed an issue that Karabiner-Elements stops working after user switching.</li>
+        <li>Initial support of `complex_modifications` (No GUI yet).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.0:<br />
+      <ul>
+        <li>The event manipulation has been improved.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -97,16 +118,6 @@
           Key Repeat configuration has been removed.<br />
           Please use System Preferences &gt; Keyboard to change the key repeat rate.
         </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      v0.91.0:<br />
-      <ul>
-        <li>The event manipulation has been improved.</li>
       </ul>
     </div>
   </div>
@@ -446,10 +457,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 03 Jun 2017 15:54:19 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.0.dmg"
-                 sparkle:version="0.91.0" length="3219280" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCNI/SRKxf8dMAS+ZP3BHID1Ql4YQIVANEl9aMVmEWcoyYGYipFtPbiv1/u"
+      <pubDate>Sun, 11 Jun 2017 02:14:49 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.1.dmg"
+                 sparkle:version="0.91.1" length="3245194" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCu6C87OZG6xRVGjyV0Ub77vhN22AhQ2gNCWOK2taXi78CP5fTDSA2oXtw=="
                  />
     </item>
 
