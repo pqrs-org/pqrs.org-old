@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.2</title>
+      <title>Version 0.91.3</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,21 @@
 }
 </style>
 
-<h2>About v0.91.2 Update</h2>
+<h2>About v0.91.3 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.3:<br />
+      <ul>
+        <li>Add timeout to `to_if_alone`.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -467,10 +477,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 13 Jun 2017 17:09:51 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.2.dmg"
-                 sparkle:version="0.91.2" length="3245390" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFE5ex6Ld9hT4mGBd8rmF6MON5TpKAhUA1yD6Etq+YMpdGwuAR5q2MVQ/SKA="
+      <pubDate>Wed, 14 Jun 2017 16:12:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.3.dmg"
+                 sparkle:version="0.91.3" length="3249303" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDiAdY8L3ppmDJtmYoTLXmXLQrfmAIVAIwl4KPBCBoacBgHiWK0scFgSm+x"
                  />
     </item>
 
