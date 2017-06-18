@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.3</title>
+      <title>Version 0.91.4</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,22 @@
 }
 </style>
 
-<h2>About v0.91.3 Update</h2>
+<h2>About v0.91.4 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.4:<br />
+      <ul>
+        <li>The modifier flag event handling has been improved.</li>
+        <li>Show warning and error logs by colored text in Log tab.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -477,10 +488,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 14 Jun 2017 16:12:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.3.dmg"
-                 sparkle:version="0.91.3" length="3249303" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDiAdY8L3ppmDJtmYoTLXmXLQrfmAIVAIwl4KPBCBoacBgHiWK0scFgSm+x"
+      <pubDate>Sun, 18 Jun 2017 17:08:53 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.4.dmg"
+                 sparkle:version="0.91.4" length="3261683" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFDFnhk2PU83DvWNSCbMLorXbEoZoAhUA4MLl0waLMtpzlDQZbagtV5gwmpk="
                  />
     </item>
 
