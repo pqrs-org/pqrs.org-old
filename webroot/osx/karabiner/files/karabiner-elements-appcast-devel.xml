@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.4</title>
+      <title>Version 0.91.5</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,25 @@
 }
 </style>
 
-<h2>About v0.91.4 Update</h2>
+<h2>About v0.91.5 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.5:<br />
+      <ul>
+        <li>
+          GUI for complex_modifications has been added.
+          <a href="https://github.com/tekezo/Karabiner-Elements/tree/master/usage#how-to-use-complex-modifications">usage</a>
+        </li>
+        <li>Syntax of `complex_modifications &gt; parameters` has been changed.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -488,10 +502,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 18 Jun 2017 17:08:53 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.4.dmg"
-                 sparkle:version="0.91.4" length="3261683" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDFnhk2PU83DvWNSCbMLorXbEoZoAhUA4MLl0waLMtpzlDQZbagtV5gwmpk="
+      <pubDate>Thu, 29 Jun 2017 14:30:03 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.5.dmg"
+                 sparkle:version="0.91.5" length="3502097" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDcTpEBD3954ZI4+GgUTPtaEgiekgIUZmMPN2oZ/gjZ3W8bwTO9vIDuGGs="
                  />
     </item>
 

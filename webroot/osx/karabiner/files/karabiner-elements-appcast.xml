@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.90.92</title>
+      <title>Version 0.91.5</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,77 @@
 }
 </style>
 
-<h2>About v0.90.92 Update</h2>
+<h2>About v0.91.5 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.5:<br />
+      <ul>
+        <li>
+          GUI for complex_modifications has been added.
+          <a href="https://github.com/tekezo/Karabiner-Elements/tree/master/usage#how-to-use-complex-modifications">usage</a>
+        </li>
+        <li>Syntax of `complex_modifications &gt; parameters` has been changed.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.4:<br />
+      <ul>
+        <li>The modifier flag event handling has been improved.</li>
+        <li>Show warning and error logs by colored text in Log tab.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.3:<br />
+      <ul>
+        <li>Add timeout to `to_if_alone`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.2:<br />
+      <ul>
+        <li>Initial support of `complex_modifications &gt; basic &gt; to_if_alone`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.1:<br />
+      <ul>
+        <li>Fixed an issue that Karabiner-Elements stops working after user switching.</li>
+        <li>Initial support of `complex_modifications` (No GUI yet).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.0:<br />
+      <ul>
+        <li>The event manipulation has been improved.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
@@ -436,10 +502,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 19 Mar 2017 05:40:54 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.90.92.dmg"
-                 sparkle:version="0.90.92" length="3195450" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCFnKcxGufwV+mA1jdAqx+ryx/83gIVAO2WZS3MzthTG1OCTbAUOzMlhJZc"
+      <pubDate>Thu, 29 Jun 2017 14:30:03 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.5.dmg"
+                 sparkle:version="0.91.5" length="3502097" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDcTpEBD3954ZI4+GgUTPtaEgiekgIUZmMPN2oZ/gjZ3W8bwTO9vIDuGGs="
                  />
     </item>
 
