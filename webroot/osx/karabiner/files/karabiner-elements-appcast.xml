@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.5</title>
+      <title>Version 0.91.6</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,24 @@
 }
 </style>
 
-<h2>About v0.91.5 Update</h2>
+<h2>About v0.91.6 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.6:<br />
+      <ul>
+        <li>
+          The conditional event manipulation has been supported. (`frontmost_application_if` and `frontmost_application_unless`)<br />
+          (Emacs key bindings in <a href="https://pqrs.org/osx/karabiner/complex_modifications/">https://pqrs.org/osx/karabiner/complex_modifications/</a> has been updated.)
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -502,10 +515,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 29 Jun 2017 14:30:03 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.5.dmg"
-                 sparkle:version="0.91.5" length="3502097" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDcTpEBD3954ZI4+GgUTPtaEgiekgIUZmMPN2oZ/gjZ3W8bwTO9vIDuGGs="
+      <pubDate>Sun, 09 Jul 2017 16:32:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.6.dmg"
+                 sparkle:version="0.91.6" length="3631930" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFAc+MXpX16Onslj2To7DImQ8xXwvAhUA6mQXK3QOBbC3VbAmeOdfOKJ+fNo="
                  />
     </item>
 
