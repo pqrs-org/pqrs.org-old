@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.6</title>
+      <title>Version 0.91.7</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,24 @@
 }
 </style>
 
-<h2>About v0.91.6 Update</h2>
+<h2>About v0.91.7 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.7:<br />
+      <ul>
+        <li>
+          Shell command execution has been supported.<br />
+          (e.g., Launch apps in <a href="https://pqrs.org/osx/karabiner/complex_modifications/">https://pqrs.org/osx/karabiner/complex_modifications/</a>)
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -515,10 +528,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 09 Jul 2017 16:32:18 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.6.dmg"
-                 sparkle:version="0.91.6" length="3631930" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFAc+MXpX16Onslj2To7DImQ8xXwvAhUA6mQXK3QOBbC3VbAmeOdfOKJ+fNo="
+      <pubDate>Thu, 13 Jul 2017 15:59:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.7.dmg"
+                 sparkle:version="0.91.7" length="3733464" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCboDObun3X9iDNe4uYATV16X2xkQIVAIzgD3+dIG/+uGkuBey1fZKxMUWK"
                  />
     </item>
 
