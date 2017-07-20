@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.8</title>
+      <title>Version 0.91.9</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,24 @@
 }
 </style>
 
-<h2>About v0.91.8 Update</h2>
+<h2>About v0.91.9 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.9:<br />
+      <ul>
+        <li>`variable_if` and `variable_unless` has been added to `conditions`.</li>
+        <li>`to_after_key_up` has been added to `complex_modifications &gt; basic`.</li>
+        <li>"from": { "any": "key_code" }` has been added to `complex_modifications &gt; basic`.</li>
+        <li>`Variables` tab has been added into `EventViewer`.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -538,10 +551,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 15 Jul 2017 14:15:57 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.8.dmg"
-                 sparkle:version="0.91.8" length="3729989" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFBGZKiKEWLLaPpFo72c5gQTqpuuoAhUA1y88pjbjsV/yOYoNbosyksNpD5s="
+      <pubDate>Thu, 20 Jul 2017 16:42:05 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.9.dmg"
+                 sparkle:version="0.91.9" length="3897933" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFPXaNc3boIlDboy6fAGWRX/2H+2AhQztDSMzVpqwIfR3Ri9HTp4oto2rA=="
                  />
     </item>
 
