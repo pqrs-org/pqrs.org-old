@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.9</title>
+      <title>Version 0.91.10</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,22 @@
 }
 </style>
 
-<h2>About v0.91.9 Update</h2>
+<h2>About v0.91.10 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.10:<br />
+      <ul>
+        <li>macOS 10.13 (High Sierra) support has been improved.</li>
+      </ul>
+    </div>
+  </div>
+
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -551,10 +562,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 20 Jul 2017 16:42:05 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.9.dmg"
-                 sparkle:version="0.91.9" length="3897933" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFPXaNc3boIlDboy6fAGWRX/2H+2AhQztDSMzVpqwIfR3Ri9HTp4oto2rA=="
+      <pubDate>Tue, 25 Jul 2017 16:25:46 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.10.dmg"
+                 sparkle:version="0.91.10" length="3912273" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBc+zO+Qny55eDLIKv48Cm0kgkflAhQV0dzXa+mZRCPBegoECrJarpA/hA=="
                  />
     </item>
 
