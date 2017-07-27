@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.10</title>
+      <title>Version 0.91.11</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,24 @@
 }
 </style>
 
-<h2>About v0.91.10 Update</h2>
+<h2>About v0.91.11 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.11:<br />
+      <ul>
+        <li>
+          Fixed an issue that modifier flags might become improperly state in complex_modifications. <br />
+          (In complex_modifications rules which changes modifier+modifier to modifier.)
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -85,7 +98,6 @@
       </ul>
     </div>
   </div>
-
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -562,10 +574,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 25 Jul 2017 16:25:46 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.10.dmg"
-                 sparkle:version="0.91.10" length="3912273" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBc+zO+Qny55eDLIKv48Cm0kgkflAhQV0dzXa+mZRCPBegoECrJarpA/hA=="
+      <pubDate>Thu, 27 Jul 2017 18:39:24 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.11.dmg"
+                 sparkle:version="0.91.11" length="3954020" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCaQYtSsyjITNn6ivLd85w9NB82tQIUNTjJuRQFDwgJ9qnDCJJqRjfH4OU="
                  />
     </item>
 
