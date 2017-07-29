@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.11</title>
+      <title>Version 0.91.12</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,21 @@
 }
 </style>
 
-<h2>About v0.91.11 Update</h2>
+<h2>About v0.91.12 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.12:<br />
+      <ul>
+        <li>`device_if` and `device_unless` has been added to `conditions`.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
@@ -574,10 +584,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 27 Jul 2017 18:39:24 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.11.dmg"
-                 sparkle:version="0.91.11" length="3954020" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCaQYtSsyjITNn6ivLd85w9NB82tQIUNTjJuRQFDwgJ9qnDCJJqRjfH4OU="
+      <pubDate>Sat, 29 Jul 2017 15:10:12 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.12.dmg"
+                 sparkle:version="0.91.12" length="3961902" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFazJp1yGik/D9Ka9ki6abVDBAR8AhQvEHt8pIngAdaKZVnRzT9OGOrtKw=="
                  />
     </item>
 
