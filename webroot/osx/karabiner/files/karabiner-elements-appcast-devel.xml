@@ -33,6 +33,10 @@
     padding: .5em;
 }
 
+.update-description .update-description-body img.img {
+    width: 100%;
+}
+
 .update-description-item-new {
     border-color: #dff2fc;
 }
@@ -83,7 +87,7 @@
       <ul>
         <li>
           Add per device support in `Simple Modifications` and `Fn Function Keys`. <br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v0.91.13_0.png" alt="Simple Modifications" />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v0.91.13_0.png" alt="Simple Modifications" class="img" />
         </li>
         <li>The modifier flag event handling has been improved.</li>
       </ul>

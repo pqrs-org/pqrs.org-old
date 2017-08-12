@@ -20,6 +20,10 @@
     padding: .5em;
 }
 
+.update-description .update-description-body img.img {
+    width: 100%;
+}
+
 .update-description-item-new {
     border-color: #dff2fc;
 }
