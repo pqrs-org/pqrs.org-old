@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.12</title>
+      <title>Version 0.91.13</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -70,11 +70,25 @@
 }
 </style>
 
-<h2>About v0.91.12 Update</h2>
+<h2>About v0.91.13 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.13:<br />
+      <ul>
+        <li>
+          Add per device support in `Simple Modifications` and `Fn Function Keys`. <br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v0.91.13_0.png" alt="Simple Modifications" />
+        </li>
+        <li>The modifier flag event handling has been improved.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -584,10 +598,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 29 Jul 2017 15:10:12 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.12.dmg"
-                 sparkle:version="0.91.12" length="3961902" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFazJp1yGik/D9Ka9ki6abVDBAR8AhQvEHt8pIngAdaKZVnRzT9OGOrtKw=="
+      <pubDate>Sat, 12 Aug 2017 16:12:30 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.13.dmg"
+                 sparkle:version="0.91.13" length="4016991" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFHGPzSwE7Q9OHk0DIQbj8pJPs3JzAhUAiYKmIv01D9f95DWHF4c9Eux1MP4="
                  />
     </item>
 
