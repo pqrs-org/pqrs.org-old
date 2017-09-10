@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 0.91.13</title>
+      <title>Version 0.91.15</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -74,11 +74,22 @@
 }
 </style>
 
-<h2>About v0.91.13 Update</h2>
+<h2>About v0.91.15 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      v0.91.15:<br />
+      <ul>
+        <li>Karabiner-Elements waits grabbing device until all modifier keys are released in order to avoid modifier flags stuck issue in mouse events.</li>
+        <li>Support consumer keys (e.g., media key events in Logitech keyboards.)</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -602,10 +613,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 12 Aug 2017 16:12:30 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.13.dmg"
-                 sparkle:version="0.91.13" length="4016991" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFHGPzSwE7Q9OHk0DIQbj8pJPs3JzAhUAiYKmIv01D9f95DWHF4c9Eux1MP4="
+      <pubDate>Sun, 10 Sep 2017 16:23:10 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-0.91.15.dmg"
+                 sparkle:version="0.91.15" length="4133926" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCN29HU12n202JjtBjS2ZmyVeFkhAhUApypW/BjffwJIa3gdfqZTjz05sTU="
                  />
     </item>
 
