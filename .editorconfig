@@ -16,3 +16,6 @@ indent_size = 4
 
 [*.go]
 tab_width = 8
+
+[*.css]
+indent_size = 4
