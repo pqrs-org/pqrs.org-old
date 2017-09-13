@@ -10,8 +10,8 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/css/pqrs.css?1463029368" rel="stylesheet" />
-    <link href="/css/sparkle.css?1463029369" rel="stylesheet" />
+    <link href="/cache/pqrs.css.f5aca866b11aea9acf833fa2fa9e6ffcd0c6fed2.4df40b4632c5f0273a1e9a4cf938d17b1d025312.css" rel="stylesheet" />
+    <link href="/cache/sparkle.css.004d5f0dfe964283d13cdc09c49611f264049033.96a846a0dbcb98a965ecde52c9c81ba93cccbedb.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
       <link href="/assets/bootstrap-prettify/prettify.css" rel="stylesheet" type="text/css"/>
@@ -29,7 +29,7 @@
   <body>
 
     <!-- Docs master nav -->
-    <header class="navbar navbar-static-top bs-docs-nav">
+    <header class="navbar navbar-fixed-top bs-docs-nav">
       <div class="container">
         <div class="navbar-header">
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
