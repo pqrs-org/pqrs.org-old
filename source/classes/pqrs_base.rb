@@ -6,6 +6,8 @@ require 'mustache'
 require 'time'
 require 'RMagick'
 require 'digest/sha1'
+require 'pathname'
+require 'fileutils'
 
 class PqrsBase < Mustache
   attr_accessor :language
@@ -215,5 +217,25 @@ EOS
       result << { :cols => d }
     end
     result
+  end
+
+  def cache_file(file_path)
+    pn = Pathname.new(File.join($destination_directory, file_path))
+
+    file_path_sha1 = Digest::SHA1.hexdigest(file_path)
+    file_sha1 = Digest::SHA1.file(pn.to_path).hexdigest
+
+    cache_link_fixed = File.join('cache', pn.basename.to_s + '.' + file_path_sha1.to_s + '.')
+    cache_link = cache_link_fixed + file_sha1.to_s + pn.extname
+    cache_file_path = File.join($destination_directory, cache_link)
+
+    unless File.exists?(cache_file_path)
+      # Remove old files
+      FileUtils.rm Dir.glob(File.join($destination_directory, cache_link_fixed + '*'))
+
+      FileUtils.copy_file(pn.to_path, cache_file_path)
+    end
+
+    '/' + cache_link
   end
 end
