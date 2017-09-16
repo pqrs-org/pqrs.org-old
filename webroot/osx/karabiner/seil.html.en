@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.af46c2cd782c35f70c79cb2c568eedc3c79b5a6c.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.e33a1422aeabe4be55fc1e2c3912939b21c844e8.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -1165,9 +1165,7 @@ Dec 15, 2007              </small>
 
     <footer class="bs-docs-footer">
       <div class="container">
-        <ul class="bs-docs-footer-links muted">
-          <li><a href="#">Back to top</a></li>
-        </ul>
+        <a href="#">Back to top</a>
       </div>
     </footer>
 
