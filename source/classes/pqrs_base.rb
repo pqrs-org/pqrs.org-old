@@ -18,19 +18,23 @@ class PqrsBase < Mustache
     throw 'You must set title'
   end
 
+  def body_classes
+    []
+  end
+
   def navs_left_data
     []
   end
 
   def navs_right_data
     [
-     {
-       :href => '/profile.html',
-       :name_l10n => {
-         :en => 'Profile',
-         :ja => 'プロフィール',
-       },
-     },
+      {
+        :href => '/profile.html',
+        :name_l10n => {
+          :en => 'Profile',
+          :ja => 'プロフィール',
+        },
+      },
     ]
   end
 
