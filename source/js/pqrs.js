@@ -8,8 +8,6 @@
         var $body = $(document.body);
         var $sideBar = $('#bs-docs-sidebar');
 
-        var navHeight = $('.navbar').outerHeight(true) + 10;
-
         $body.scrollspy({
             target: '.bs-docs-sidebar'
         });
