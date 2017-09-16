@@ -1,7 +1,8 @@
 /* variables */
 
-$page-top-fixed-alert-height: 72px;
 $header-nav-height: 50px;
+$modal-z-index: 1050;
+$page-top-fixed-alert-height: 72px;
 
 /* --------------------------------------------------
  * for bootstrap
@@ -101,7 +102,7 @@ div.container.with-fixed-alert h3[id] {
 body.with-page-top-fixed-alert {
   header {
     margin-top: $page-top-fixed-alert-height;
-    z-index: 999999;
+    z-index: $modal-z-index - 1;
   }
 
   #page-top-fixed-alert {
@@ -110,7 +111,7 @@ body.with-page-top-fixed-alert {
     left: 0;
     width: 100%;
     height: $page-top-fixed-alert-height;
-    z-index: 99999;
+    z-index: $modal-z-index - 1;
     text-align: center;
   }
 
