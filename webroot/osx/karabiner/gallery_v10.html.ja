@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>Part of useful existing settings - Karabiner - Software for OS X</title>
+    <title>便利な既存の設定の一例 - Karabiner - OS X用のソフトウェア</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.a7294565a37ae95a94460da00cb63d4b9ccee4be.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.6ba3372d0a75087038708f3296d99666400792c5.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -38,77 +38,77 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Documents
+                    ドキュメント
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
                 <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Archives
+                    昔のページ
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document_v10.html.en">Manual for Karabiner-10.22.0</a>
+                        <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
                       <li class="active">
-                        <a href="/osx/karabiner/gallery.html.en">Gallery</a>
+                        <a href="/osx/karabiner/gallery_v10.html.ja">設定の一例</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Additional Apps
+                    追加アプリ
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
                       </li>
                   </ul>
                 </li>
                 <li >
-                  <a href="/osx/karabiner/pricing.html.en">Pricing</a>
+                  <a href="/osx/karabiner/pricing.html.ja">支援</a>
                 </li>
                 <li >
-                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.en">Profile</a>
+                <a href="/profile.html.ja">プロフィール</a>
               </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -116,8 +116,8 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/osx/karabiner/gallery.html.en">English</a></li>
-                <li><a href="/osx/karabiner/gallery.html.ja">Japanese</a></li>
+                <li><a href="/osx/karabiner/gallery_v10.html.en">English</a></li>
+                <li><a href="/osx/karabiner/gallery_v10.html.ja">Japanese</a></li>
               </ul>
             </li>
           </ul>
@@ -125,11 +125,15 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    このドキュメントは前のバージョンのものです。<br />
+</div>
+
+<div class="container">
   <header>
     <div class="page-header">
       <h1>
-          Part of useful existing settings
+          便利な既存の設定の一例（Karabiner-10.22.0向け）
       </h1>
     </div>
   </header>
@@ -139,18 +143,19 @@
       <section>
         <div class="page-header">
           <h1 id="change-either-the-left-or-right-modifier-key">
-              Change either the left or right modifier key
+              左右のいずれかのモディファイアを変更する
           </h1>
         </div>
 
         <p>
-            Standard system Preferences allows you to change modifier keys to other modifier keys such as "command keys to control keys".
+            標準のシステム環境設定では、モディファイアの変更をすることが出来ます。<br />
+            例えば「コマンドキーをコントロールキーに変更する」など。
         </p>
 
         <p>
-            Karabiner has more flexible settings. <br />
-            For example, the following setting changes the left command key to the control key. <br />
-            You can use both command and control modifiers by thumb.
+            Karabinerではより柔軟な設定を行うことができます。<br />
+            例えば、次の設定では左コマンドキーをコントールキーに変更します。<br />
+            親指でコマンドキーとコントロールキーを使うことができるようになります。<br />
         </p>
 
         <div class="row">
@@ -174,19 +179,19 @@
       <section>
         <div class="page-header">
           <h1 id="use-emacs-key-bindings-everywhere">
-              Use Emacs key bindings everywhere
+              Emacsのキーバインドをどこでも使えるようにする
           </h1>
         </div>
 
         <p>
-            OS X provides Emacs key bindings (control-p, control-n, etc.) in text editing. <br />
-            Karabiner enhances these Emacs key bindings and allows you to use them everywhere. (eg: operations in Finder)
+            OS Xはテキスト編集時にEmacsキーバインディング（control-p, control-nなど）を提供しています。<br />
+            Karabinerはこれらを強化し、どこでもEmacsキーバインディングを使えるようにします。（例えばFinderでの操作など。）
         </p>
 
         <p>
-            Note: <br />
-            These settings will be disabled in Emacs, Terminal or other apps that has native Emacs key bindings support. <br />
-            You can use native functions in these apps even if you enabled these Emacs Mode settings.
+            注意: <br />
+            これらの設定はEmacsやターミナルなどのEmacsキーバインディングを元々サポートしているアプリでは無効化されます。<br />
+            Emacs Modeが有効であっても、アプリ内のネイティブ機能を使うことができます。
         </p>
 
         <div class="row">
@@ -210,13 +215,13 @@
       <section>
         <div class="page-header">
           <h1 id="avoid-unintended-command-q">
-              Avoid unintended Command-Q
+              意図しないCommand-Qを防ぐ
           </h1>
         </div>
 
         <p>
-            Unintended Command-Q sometimes happens when you want to type Command-W because Command-W and Command-Q keys are too close. <br />
-            This setting requires typing Command-Q twice in order to avoid unintended Command-Q.
+            Command-WとCommand-Qキーは近すぎるため、Command-Wを押そうとした時に意図せずCommand-Qを押してしまうことがあります。 <br />
+            この設定は、意図しないCommand-Qを避けるため、Command-Qを二度押しすることでアプリを終了するようにします。
         </p>
 
         <div class="row">
@@ -243,12 +248,12 @@
         </div>
 
         <p>
-            You can use the hjkl keys as the arrow keys. (hjkl == left,down,up,right) <br />
-            (The hjkl keys will be changed to the arrow keys while you are pressing S key.)
+            hjklキーをカーソルキーとして使うことができます。（hjkl == 左、下、上、右）<br />
+            （Sキーを押している間、hjklキーはカーソルキーになります。）
         </p>
 
         <p>
-            This settings allows you to use arrow keys with keeping your fingers on the home row of keyboard.
+            この設定は、ホームポジションに指を置いたまま、カーソルキーを使うことを可能にします。
         </p>
 
         <div class="row">
@@ -269,16 +274,16 @@
         </div>
 
         <h2>
-            Use IJKL keys
+            IJKLキーを使用する
         </h2>
 
         <p>
-            Please use this <a href="files/xml/vi_ijkl/private.xml">private.xml</a> if you want to use IJKL keys.
+            IJKLキーを使用したい場合は、こちらの<a href="files/xml/vi_ijkl/private.xml">private.xml</a>を使ってください。
         </p>
 
         <p>
           <a href="document.html#privatexml">
-              (private.xml usage)
+              （private.xmlの使い方）
           </a>
         </p>
 
@@ -290,7 +295,7 @@
         </div>
 
         <p>
-            You can control pointer cursor and scroll wheel from keyboard.
+            キーボードからマウスを操作できます。
         </p>
 
         <div class="row">
@@ -311,16 +316,16 @@
         </div>
 
         <h2>
-            Use IJKL keys
+            IJKLキーを使用する
         </h2>
 
         <p>
-            Please use this <a href="files/xml/vi_ijkl/private.xml">private.xml</a> if you want to use IJKL keys.
+            IJKLキーを使用したい場合は、こちらの<a href="files/xml/vi_ijkl/private.xml">private.xml</a>を使ってください。
         </p>
 
         <p>
           <a href="document.html#privatexml">
-              (private.xml usage)
+              （private.xmlの使い方）
           </a>
         </p>
 
@@ -329,13 +334,13 @@
       <section>
         <div class="page-header">
           <h1 id="operate-finder-by-hjkl-keys">
-              Operate Finder by hjkl keys
+              hjklキーでFinderを操作する
           </h1>
         </div>
 
         <p>
-            This setting allows you to operate Finder by hjkl keys. <br />
-            Unlike other Vi Mode, you don't need to press modifier keys.
+            hjklでFinderを操作することができます。 <br />
+            他のVi Modeと違い、モディファイアなどを押している必要がなく、素のhjklキーがカーソルキーとして動作します。
         </p>
 
         <div class="row">
@@ -356,16 +361,16 @@
         </div>
 
         <h2>
-            Use IJKL keys
+            IJKLキーを使用する
         </h2>
 
         <p>
-            Please use this <a href="files/xml/vi_ijkl/private.xml">private.xml</a> if you want to use IJKL keys.
+            IJKLキーを使用したい場合は、こちらの<a href="files/xml/vi_ijkl/private.xml">private.xml</a>を使ってください。
         </p>
 
         <p>
           <a href="document.html#privatexml">
-              (private.xml usage)
+              （private.xmlの使い方）
           </a>
         </p>
 
@@ -377,15 +382,14 @@
         </div>
 
         <p>
-            You can switch apps directly by Launcher Mode v2. <br />
-            It's more efficient than command-tab. You don't have to choose apps from list.
+            Launcher Mode v2ではアプリを直接切り替えることができます。<br />
+            これはcommand-tabよりも効率的です。一覧からアプリを選択する必要がありません。
         </p>
 
         <p>
-            For example: <br/>
-            If you want to open Mail, type M key while pressing O key. <br />
-            If you want to open Safari, type S key while pressing O key. <br />
-            Thus, you can open apps by type key while pressing O key.
+            例えば、メールを開く場合はOキーを押しながらMキーを押します。<br />
+            Safariを開く場合はOキーを押しながらSキーを押します。<br />
+            このように、Oキーを押しながらキーを押すことでアプリを開くことができます。
         </p>
 
         <div class="row">
@@ -406,15 +410,15 @@
         </div>
 
         <p>
-            And you can modify Launcher Mode v2 by private.xml. <br />
-            For example, this private.xml adds following shortcuts.
+            そしてprivate.xmlでLauncher Mode v2を拡張することができます。 <br />
+            例えば、以下のprivate.xmlで以下のショートカットが追加されます。
         </p>
         <ul>
           <li>
-              Open Maps by C key while pressing O key.
+              Oキーを押しながらCキーを押すとマップを開く。
           </li>
           <li>
-              Open FaceTime by V key while pressing O key.
+              Oキーを押しながらVキーを押すとFaceTimeを開く。
           </li>
         </ul>
 
@@ -456,12 +460,12 @@
       <section>
         <div class="page-header">
           <h1 id="disable-built-in-keyboard-if-external-keyboard-exists">
-              Disable the built-in keyboard if an external keyboard exists
+              外付けキーボードが接続されている場合は内蔵キーボードを無効化する
           </h1>
         </div>
 
         <p>
-            This setting is useful if you are using a compact keyboard with MacBook family and place it on the built-in keyboard.
+            あなたがMacBookファミリーでコンパクトキーボードを使っていて、内蔵キーボードの上に外付けキーボードを置いている場合、この設定が有用です。
         </p>
 
         <div class="row">
@@ -485,12 +489,12 @@
       <section>
         <div class="page-header">
           <h1 id="ignore-bouncing">
-              Ignore bouncing (chattering) events
+              チャタリングの抑制
           </h1>
         </div>
 
         <p>
-            This setting suppresses duplicated events if your keyboard or mice send same events multiple times when you press key once.
+            もしあなたのキーボードやマウスが、キーを一度押したときに複数の同じイベントを発生させている場合、この設定は重複したイベントを削除します。
         </p>
 
         <div class="row">
@@ -511,7 +515,7 @@
         </div>
 
         <p>
-            You can adjust threshold in Parameters tab.
+            Parametersタブから閾値を調整できます。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -536,17 +540,17 @@
         <ul class="nav bs-sidenav">
               <li>
                 <a href="#change-either-the-left-or-right-modifier-key">
-                  Change either the left or right modifier key
+                  左右のいずれかのモディファイアを変更する
                 </a>
               </li>
               <li>
                 <a href="#use-emacs-key-bindings-everywhere">
-                  Use Emacs key bindings everywhere
+                  Emacsのキーバインドをどこでも使えるようにする
                 </a>
               </li>
               <li>
                 <a href="#avoid-unintended-command-q">
-                  Avoid unintended Command-Q
+                  意図しないCommand-Qを防ぐ
                 </a>
               </li>
               <li>
@@ -561,7 +565,7 @@
               </li>
               <li>
                 <a href="#operate-finder-by-hjkl-keys">
-                  Operate Finder by hjkl keys
+                  hjklキーでFinderを操作する
                 </a>
               </li>
               <li>
@@ -571,12 +575,12 @@
               </li>
               <li>
                 <a href="#disable-built-in-keyboard-if-external-keyboard-exists">
-                  Disable the built-in keyboard if an external keyboard exists.
+                  外付けキーボードが接続されている場合は内蔵キーボードを無効化する
                 </a>
               </li>
               <li>
                 <a href="#ignore-bouncing">
-                  Ignore bouncing (chattering) events
+                  チャタリングの抑制
                 </a>
               </li>
         </ul>

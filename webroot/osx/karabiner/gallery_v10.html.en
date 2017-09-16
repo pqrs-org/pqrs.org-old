@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.a7294565a37ae95a94460da00cb63d4b9ccee4be.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.6ba3372d0a75087038708f3296d99666400792c5.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -75,7 +75,7 @@
                         <a href="/osx/karabiner/document_v10.html.en">Manual for Karabiner-10.22.0</a>
                       </li>
                       <li class="active">
-                        <a href="/osx/karabiner/gallery.html.en">Gallery</a>
+                        <a href="/osx/karabiner/gallery_v10.html.en">Gallery</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/xml.html.en">private.xml</a>
@@ -116,8 +116,8 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/osx/karabiner/gallery.html.en">English</a></li>
-                <li><a href="/osx/karabiner/gallery.html.ja">Japanese</a></li>
+                <li><a href="/osx/karabiner/gallery_v10.html.en">English</a></li>
+                <li><a href="/osx/karabiner/gallery_v10.html.ja">Japanese</a></li>
               </ul>
             </li>
           </ul>
@@ -125,11 +125,15 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    It is a document for the previous version.<br />
+</div>
+
+<div class="container">
   <header>
     <div class="page-header">
       <h1>
-          Part of useful existing settings
+          Part of useful existing settings in Karabiner-10.22.0
       </h1>
     </div>
   </header>

@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.a7294565a37ae95a94460da00cb63d4b9ccee4be.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.6ba3372d0a75087038708f3296d99666400792c5.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -56,15 +56,6 @@
                         <a href="/osx/karabiner/document.html.ja">マニュアル</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/gallery.html.ja">設定の一例</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
-                      </li>
-                      <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
@@ -83,6 +74,15 @@
                   <ul class="dropdown-menu">
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/gallery_v10.html.ja">設定の一例</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
                   </ul>
                 </li>
