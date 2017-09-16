@@ -224,7 +224,7 @@ EOS
   end
 
   def cache_file(file_path)
-    pn = Pathname.new(File.join($destination_directory, file_path))
+    pn = Pathname.new(File.join($source_directory, file_path))
 
     file_path_sha1 = Digest::SHA1.hexdigest(file_path)
     file_sha1 = Digest::SHA1.file(pn.to_path).hexdigest

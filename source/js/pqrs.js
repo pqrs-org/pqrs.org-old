@@ -6,7 +6,7 @@
         /* from bs/assets/js/application.js */
         var $window = $(window);
         var $body = $(document.body);
-        var $sideBar = $('.bs-docs-sidebar');
+        var $sideBar = $('#bs-docs-sidebar');
 
         var navHeight = $('.navbar').outerHeight(true) + 10;
 
@@ -17,29 +17,13 @@
             $body.scrollspy('refresh');
         });
 
-        setTimeout(function() {
-            $sideBar.affix({
-                offset: {
-                    top: function() {
-                        var offsetTop = $sideBar.offset().top;
-                        var sideBarMargin = parseInt($sideBar.children(0).css('margin-top'), 10);
-                        var navOuterHeight = $('.bs-docs-nav').height();
-
-                        return (this.top = offsetTop - navOuterHeight - sideBarMargin);
-                    },
-                    bottom: function() {
-                        return (this.bottom = $('.bs-footer').outerHeight(true));
-                    }
-                }
-            });
-        }, 100);
-
         // set bs-docs-sidebar height
         if ($sideBar.length > 0 && $sideBar.offset().left < 400) {
             // $sideBar block is wrapped because the window.width is too small.
             // We should not set $sideBar.height.
+            $sideBar.hide();
         } else {
-            $sideBar.height($window.height() - 50);
+            $sideBar.height($window.height() - 250);
             $sideBar.css('overflow', 'auto');
         }
 
