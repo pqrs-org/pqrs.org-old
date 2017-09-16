@@ -35,27 +35,6 @@ class KarabinerBase < PqrsBase
               },
             },
             {
-              :href => '/osx/karabiner/gallery.html',
-              :name_l10n => {
-                :en => 'Gallery',
-                :ja => '設定の一例',
-              },
-            },
-            {
-              :href => '/osx/karabiner/xml.html',
-              :name_l10n => {
-                :en => 'private.xml',
-                :ja => 'private.xml（英語）',
-              },
-            },
-            {
-              :href => '/osx/karabiner/faq.html',
-              :name_l10n => {
-                :en => 'Q&A',
-                :ja => 'Q&A',
-              },
-            },
-            {
               :href => '/osx/karabiner/source.html',
               :name_l10n => {
                 :en => 'License and Source Code',
@@ -91,6 +70,27 @@ class KarabinerBase < PqrsBase
               :name_l10n => {
                 :en => 'Manual for Karabiner-10.22.0',
                 :ja => 'マニュアル（Karabiner-10.22.0向け）',
+              },
+            },
+            {
+              :href => '/osx/karabiner/gallery_v10.html',
+              :name_l10n => {
+                :en => 'Gallery',
+                :ja => '設定の一例',
+              },
+            },
+            {
+              :href => '/osx/karabiner/xml.html',
+              :name_l10n => {
+                :en => 'private.xml',
+                :ja => 'private.xml（英語）',
+              },
+            },
+            {
+              :href => '/osx/karabiner/faq.html',
+              :name_l10n => {
+                :en => 'Q&A',
+                :ja => 'Q&A',
               },
             },
           ],

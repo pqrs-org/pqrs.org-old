@@ -1,7 +1,6 @@
 all:
 	./index.rb
 	./document.rb
-	./gallery.rb
 	./xml.rb
 	./faq.rb
 	./extra.rb
@@ -13,3 +12,4 @@ all:
 	./pricing.rb
 	./contact.rb
 	./document_v10.rb
+	./gallery_v10.rb

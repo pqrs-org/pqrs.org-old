@@ -4,7 +4,13 @@
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
-class Gallery < KarabinerBase
+class GalleryV10 < KarabinerBase
+  def body_classes
+    [
+      {:class => 'with-page-top-fixed-alert'},
+    ]
+  end
+
   def title
     case @language
     when :en
@@ -83,4 +89,4 @@ class Gallery < KarabinerBase
   end
 end
 
-PqrsUtil.make_page('/osx/karabiner/gallery.html', Gallery)
+PqrsUtil.make_page('/osx/karabiner/gallery_v10.html', GalleryV10)
