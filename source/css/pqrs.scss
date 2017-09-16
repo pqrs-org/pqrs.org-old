@@ -86,17 +86,8 @@ code.optional {
 h1[id],
 h2[id],
 h3[id] {
-  /* header height (50px) + margin (50px) */
-  padding-top: 100px !important;
-  margin-top: -100px !important;
-}
-
-div.container.with-fixed-alert h1[id],
-div.container.with-fixed-alert h2[id],
-div.container.with-fixed-alert h3[id] {
-  /* header height (50px) + fixed-alert (5px + 20px + 5px) + margin (50px) */
-  padding-top: 130px !important;
-  margin-top: -130px !important;
+  padding-top: $header-nav-height + 20px !important;
+  margin-top: -($header-nav-height + 20px) !important;
 }
 
 body.with-page-top-fixed-alert {
@@ -117,6 +108,14 @@ body.with-page-top-fixed-alert {
 
   > div.container {
     margin-top: $page-top-fixed-alert-height - $header-nav-height;
+
+    h1[id],
+    h2[id],
+    h3[id] {
+      /* header height (50px) + fixed-alert (5px + 20px + 5px) + margin (50px) */
+      padding-top: $header-nav-height + $page-top-fixed-alert-height + 20px !important;
+      margin-top: -($header-nav-height + $page-top-fixed-alert-height + 20px) !important;
+    }
   }
 }
 
