@@ -10,8 +10,8 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.f5aca866b11aea9acf833fa2fa9e6ffcd0c6fed2.4df40b4632c5f0273a1e9a4cf938d17b1d025312.css" rel="stylesheet" />
-    <link href="/cache/sparkle.css.004d5f0dfe964283d13cdc09c49611f264049033.96a846a0dbcb98a965ecde52c9c81ba93cccbedb.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.af46c2cd782c35f70c79cb2c568eedc3c79b5a6c.css" rel="stylesheet" />
+    <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
 
@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body>
+  <body class="">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -686,7 +686,7 @@ Jun 14, 2013              </small>
 
     <script src="/assets/jquery/jquery-2.1.4.min.js"></script>
     <script src="/assets/bootstrap/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
-    <script src="/js/pqrs.js?1462400580"></script>
+    <script src="/cache/pqrs.js.3bf75c0e6a2fadabcc4147fa725d9740e841f9c6.4b4e2f3b554fb13523260d9f006b5ac289b414c8.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
