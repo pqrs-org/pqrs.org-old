@@ -1,0 +1,144 @@
+/* variables */
+
+$page-top-fixed-alert-height: 72px;
+$header-nav-height: 50px;
+
+/* --------------------------------------------------
+ * for bootstrap
+ * -------------------------------------------------- */
+
+body {
+  padding: 50px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+header.navbar {
+  border-bottom: 2px solid #614788;
+}
+
+div.jumbotron {
+  margin-top: 20px;
+}
+
+div.pqrs-docs-container {
+  border-right: 1px solid #614788;
+}
+
+ol.steps a.thumbnail {
+  margin: 8px 0;
+}
+
+.col-show-grid {
+  background-color: #f8f8f8;
+  min-height: 120px;
+  border-radius: 6px;
+  margin: 0 5px 20px 5px;
+  padding: 10px;
+}
+
+.page-header {
+  border-bottom-width: 5px;
+}
+
+.label-beta {
+  background-color: #5bc0de;
+}
+
+.js-id-link-wrapper {
+  position: relative;
+}
+
+.js-id-link {
+  color: inherit;
+  position: absolute;
+  top: 0;
+  left: -1em;
+}
+
+code.required {
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+code.optional {
+  color: #254ec7;
+  background-color: #f2f4f9;
+}
+
+h1[id],
+h2[id],
+h3[id] {
+  /* header height (50px) + margin (50px) */
+  padding-top: 100px !important;
+  margin-top: -100px !important;
+}
+
+div.container.with-fixed-alert h1[id],
+div.container.with-fixed-alert h2[id],
+div.container.with-fixed-alert h3[id] {
+  /* header height (50px) + fixed-alert (5px + 20px + 5px) + margin (50px) */
+  padding-top: 130px !important;
+  margin-top: -130px !important;
+}
+
+body.with-page-top-fixed-alert {
+  header {
+    margin-top: $page-top-fixed-alert-height;
+    z-index: 999999;
+  }
+
+  #page-top-fixed-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $page-top-fixed-alert-height;
+    z-index: 99999;
+    text-align: center;
+  }
+
+  > div.container {
+    margin-top: $page-top-fixed-alert-height - $header-nav-height;
+  }
+}
+
+#bs-docs-sidebar {
+  position: fixed;
+}
+
+/* --------------------------------------------------
+ * for jquery.collapse.js
+ * -------------------------------------------------- */
+
+.jqcNode {
+  font-weight: bold;
+  color: green;
+}
+
+#collapser li {
+  white-space: pre-wrap;
+}
+
+#collapser ul {
+  margin-bottom: 10px;
+}
+
+
+/* --------------------------------------------------
+ * common
+ * -------------------------------------------------- */
+
+.clickable {
+  cursor: pointer;
+}
