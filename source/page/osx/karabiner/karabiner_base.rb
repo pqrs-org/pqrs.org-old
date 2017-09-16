@@ -66,6 +66,20 @@ class KarabinerBase < PqrsBase
         :dropdown => {
           :items => [
             {
+              :href => '/osx/karabiner/seil.html',
+              :name_l10n => {
+                :en => 'Seil',
+                :ja => 'Seil',
+              },
+            },
+            {
+              :href => '/osx/karabiner/noejectdelay.html',
+              :name_l10n => {
+                :en => 'NoEjectDelay',
+                :ja => 'NoEjectDelay',
+              },
+            },
+            {
               :href => '/osx/karabiner/document_v10.html',
               :name_l10n => {
                 :en => 'Manual for Karabiner-10.22.0',
@@ -95,30 +109,6 @@ class KarabinerBase < PqrsBase
             },
           ],
         },
-      },
-      {
-        :name_l10n => {
-          :en => 'Additional Apps',
-          :ja => '追加アプリ',
-        },
-        :dropdown => {
-          :items => [
-            {
-              :href => '/osx/karabiner/seil.html',
-              :name_l10n => {
-                :en => 'Seil',
-                :ja => 'Seil',
-              },
-            },
-            {
-              :href => '/osx/karabiner/noejectdelay.html',
-              :name_l10n => {
-                :en => 'NoEjectDelay',
-                :ja => 'NoEjectDelay',
-              },
-            },
-          ]
-        }
       },
       {
         :href => '/osx/karabiner/pricing.html',

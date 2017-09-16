@@ -5,6 +5,12 @@ require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
 class Xml < KarabinerBase
+  def body_classes
+    [
+      {:class => 'with-page-top-fixed-alert'},
+    ]
+  end
+
   def current_nav_path
     '/osx/karabiner/xml.html'
   end
