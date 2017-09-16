@@ -37,7 +37,7 @@ rm -f "$targetdir/karabiner-elements-appcast-devel.xml.tmp"
 <style>
 EOF
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat ../webroot/css/sparkle.css
+>>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat ../source/css/sparkle.css
 
 >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat <<EOF
 </style>

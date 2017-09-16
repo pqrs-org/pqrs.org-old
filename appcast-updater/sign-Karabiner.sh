@@ -37,7 +37,7 @@ rm -f "$targetdir/appcast-devel.xml.tmp"
 <style>
 EOF
 
->>"$targetdir/appcast-devel.xml.tmp" cat ../webroot/css/sparkle.css
+>>"$targetdir/appcast-devel.xml.tmp" cat ../source/css/sparkle.css
 
 >>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
 </style>
