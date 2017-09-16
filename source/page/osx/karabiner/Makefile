@@ -12,3 +12,4 @@ all:
 	./list.rb
 	./pricing.rb
 	./contact.rb
+	./document_v10.rb

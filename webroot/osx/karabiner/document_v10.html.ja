@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>Manual - Karabiner - Software for OS X</title>
+    <title>マニュアル - Karabiner - OS X用のソフトウェア</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -39,66 +39,66 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/osx/karabiner/index.html.en">Karabiner</a>
+                  <a href="/osx/karabiner/index.html.ja">Karabiner</a>
                 </li>
-                <li class="dropdown active">
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Documents
+                    ドキュメント
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
-                      <li class="active">
-                        <a href="/osx/karabiner/document.html.en">Manual</a>
+                      <li >
+                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/gallery.html.en">Gallery</a>
+                        <a href="/osx/karabiner/gallery.html.ja">設定の一例</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/xml.html.en">private.xml</a>
+                        <a href="/osx/karabiner/xml.html.ja">private.xml（英語）</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
+                        <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/source.html.en">License and Source Code</a>
+                        <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/history.html.en">Version History</a>
+                        <a href="/osx/karabiner/history.html.ja">更新履歴</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Additional Apps
+                    追加アプリ
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
                       </li>
                       <li >
-                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
                       </li>
                   </ul>
                 </li>
                 <li >
-                  <a href="/osx/karabiner/pricing.html.en">Pricing</a>
+                  <a href="/osx/karabiner/pricing.html.ja">支援</a>
                 </li>
                 <li >
-                  <a href="/osx/karabiner/contact.html.en">Contact</a>
+                  <a href="/osx/karabiner/contact.html.ja">連絡先</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.en">Profile</a>
+                <a href="/profile.html.ja">プロフィール</a>
               </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -106,8 +106,8 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/osx/karabiner/document.html.en">English</a></li>
-                <li><a href="/osx/karabiner/document.html.ja">Japanese</a></li>
+                <li><a href="/osx/karabiner/document_v10.html.en">English</a></li>
+                <li><a href="/osx/karabiner/document_v10.html.ja">Japanese</a></li>
               </ul>
             </li>
           </ul>
@@ -115,11 +115,16 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    このドキュメントは前のバージョンのものです。<br />
+    <a href="document.html.en">最新のドキュメントを見る。</a>
+</div>
+
+<div class="container with-fixed-alert">
   <header>
     <div class="page-header">
       <h1>
-          Manual
+          マニュアル
       </h1>
     </div>
   </header>
@@ -129,16 +134,16 @@
       <section>
         <div class="page-header">
           <h1 id="usage">
-              Usage
+              使い方
           </h1>
         </div>
 
         <h2>Step 1</h2>
         <p>
-            Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
+            Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
         </p>
         <p>
-            Then, click Karabiner.
+            そして、Karabinerをクリックしてください。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -152,14 +157,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
         <p>
           <span class="label label-info">Note</span>
-            If you're using KeyRemap4MacBook 7.8.0 or earlier,
-            <a href="files/preferencepane-keyremap4macbook.png">Preferences is in System Preferences.</a>
+            KeyRemap4MacBook 7.8.0、またはそれ以前のバージョンを使用している場合、<a href="files/preferencepane-keyremap4macbook.png">設定画面はシステム環境設定にあります。</a>
         </p>
 
         <h2>Step 2</h2>
 
         <p>
-            An alert about accessibility features will be shown. Click "Open System Preferences".
+            アクセシビリティ機能へのアクセスの確認ダイアログが表示されるので、「"システム環境設定"を開く」をクリックしてください。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -179,7 +183,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         </div>
 
         <p>
-            Then, select Karabiner_AXNotifier.
+            そして、Karabiner_AXNotifierを選択します。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -200,7 +204,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
         <h2>Step 3</h2>
         <p>
-            Activate your favorite settings from prepared settings.
+            お好みの設定を有効にしてください。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -222,12 +226,12 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
       <section>
         <div class="page-header">
-          <h1 id="keyrepeat">
-              Change key repeat rate
+          <h1 id="keyrepeat" class="anchor">
+              キーリピート速度の変更
           </h1>
         </div>
         <p>
-            Karabiner uses the key repeat parameters in "System Preferences > Keyboard" in default.
+            Karabinerは初期状態だとシステム環境設定で指定されたキーリピート値を用います。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -247,7 +251,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         </div>
 
         <p>
-            Therefore, please adjust key repeat rate in "System Preferences > Keyboard".
+            そのため、「システム環境設定＞キーボード」でキーリピート値の設定をしてください。
         </p>
 
         <div class="row">
@@ -268,12 +272,12 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         </div>
 
         <h2 id="keyrepeat-overwrite">
-            Overwrite the system key repeat rate
+            キーリピート値の上書き
         </h2>
 
         <p>
-            If you want to use more rapid key repeat rate, you can overwrite the system key repeat rate in Karabiner. <br />
-            Enable "Overwrite the key repeat values of system" and then adjust parameters.
+            より高速なキーリピート値を使いたい場合、Karabinerでキーリピート値を上書きすることが出来ます。<br />
+            「Overwrite the key repeat values of system」を有効にして、パラメータを調整してください。
         </p>
 
         <div class="row">
@@ -297,12 +301,12 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
       <section>
         <div class="page-header">
           <h1 id="quit">
-              How to quit
+              終了する方法
           </h1>
         </div>
 
         <p>
-            Quit from menu bar.
+            メニューバーから終了してください。
         </p>
 
         <p>
@@ -315,11 +319,11 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
       <section>
         <div class="page-header">
           <h1 id="uninstall">
-              Uninstall
+              アンインストール方法
           </h1>
         </div>
         <p>
-            Press the "launch uninstaller" button from "Misc &amp; Uninstall" tab.
+            「Misc &amp; Uninstall」タブの「launch uninstaller」ボタンを押してください。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -342,11 +346,11 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
       <section>
         <div class="page-header">
           <h1 id="check-for-updates">
-              Check for updates
+              最新版への更新
           </h1>
         </div>
         <p>
-            You can check for updates from "Misc &amp; Uninstall" tab.
+            「Misc &amp; Uninstall」タブで最新版への更新が出来ます。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -366,7 +370,7 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </div>
 
         <p>
-            If you want to use the latest beta version, use "Check for beta updates" button.
+            もし最新のベータ版を使う場合は、「Check for updates including beta versions」ボタンを使ってください。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -394,43 +398,43 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </div>
 
         <p>
-            AXNotifier observes these events and notifies Karabiner:
+            AXNotifierは以下のイベントを観察し、Karabinerに通知します。
         </p>
 
         <ul>
           <li>
-              An active application has been changed.
+              アクティブなアプリケーションの変更。
           </li>
           <li>
-              A focused window's title (window name) has been changed.
+              フォーカスされたウィンドウのタイトル（window name）の変更。
           </li>
           <li>
-              A focused ui element role (AXTextArea, AXButton, etc) has been changed.
+              フォーカスされたUIエレメントのロール（AXTextArea、AXButtonなど）の変更。
           </li>
         </ul>
 
         <p>
-            That allows you to make following settings:
+            これにより、次の設定を行うことができます。
         </p>
 
         <ul>
           <li>
-              Settings are effective in specific apps. (eg. "Change the command key only in Terminal".)
+              特定のアプリで有効な設定。（例: ターミナルでコマンドキーを変更する。）
           </li>
           <li>
-              Settings are effective in specific window name. (eg. "Disable command-w in Gmail on Google Chrome".)
+              特定のウィンドウタイトルで有効な設定。（例: Google ChromeのGmailでcommand-wを無効にする。）
           </li>
           <li>
-              Settings are effective in specific ui element role. (eg. "Change hjkl keys to arrow keys when you are not editing text.)
+              特定のUIエレメントのロールで有効な設定。（例: テキスト編集中でない場合はhjklキーをカーソルキーにする。）
           </li>
         </ul>
 
         <h2>
-            Using accessibility features
+            アクセシビリティ機能の使用
         </h2>
 
         <p>
-            AXNotifier requires using accessibility features in order to observe window title (window name) and ui element role.
+            AXNotifierは、ウィンドウタイトルとUIエレメントのロールの監視を行うために、アクセシビリティ機能へのアクセスを要求します。
         </p>
 
         <div class="row">
@@ -465,12 +469,12 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </div>
 
         <p>
-            If you do not need to observe these items, you can deny the request. <br />
-            Please turn on "Do not show this message again".
+            もし、これらを監視する必要がなければ、アクセシビリティ機能へのアクセスを拒否してもかまいません。<br />
+            「Do not show this message again」にチェックを入れてください。
         </p>
 
         <h2>
-            Useful settings using AXNotifier
+            AXNotifierを使っている便利な設定
         </h2>
 
         <ul>
@@ -536,27 +540,27 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </ul>
 
         <h2>
-            How to use AXNotifier in your own settings
+            AXNotifierを使った設定の作り方
         </h2>
 
         <ul>
-          <li><a href="xml.html.en#appdef">Specify application in private.xml.</a></li>
-          <li><a href="xml.html.en#windownamedef">Specify window name (window title) in private.xml.</a></li>
-          <li><a href="xml.html.en#uielementroledef">Specify ui element role in private.xml.</a></li>
+          <li><a href="xml.html.ja#appdef">Specify application in private.xml.</a></li>
+          <li><a href="xml.html.ja#windownamedef">Specify window name (window title) in private.xml.</a></li>
+          <li><a href="xml.html.ja#uielementroledef">Specify ui element role in private.xml.</a></li>
         </ul>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="eventviewer">
-              How to confirm result of key remappings
+              キーリマップの結果を確認する方法
           </h1>
         </div>
 
         <p>
-            You can examine keyboard and mouse events by using EventViewer.
+            EventViewerでキーボードやマウスのイベントを確認することが出来ます。
             <br />
-            Launch EventViewer from a menu.
+            メニューからEventViewerを起動してください。
         </p>
 
         <div class="row">
@@ -585,17 +589,17 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
       <section>
         <div class="page-header">
           <h1 id="privatexml">
-              How to add your own settings
+              設定の追加の方法
           </h1>
         </div>
 
         <p>
-            You can add your own settings by "private.xml".
+            「private.xml」にて設定を追加することが出来ます。
         </p>
 
         <ol class="steps">
           <li>
-              Click "Open private.xml" button on "Misc &amp; Uninstall" tab.
+              「Misc &amp; Uninstall」タブの「Open private.xml」を押してください。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-16" class="thumbnail">
@@ -614,7 +618,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Then, Finder is opened.
+              Finderが開きます。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-17" class="thumbnail">
@@ -633,7 +637,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Open private.xml with your preferred text editor.
+              private.xmlをテキストエディタで開きます。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-18" class="thumbnail">
@@ -652,7 +656,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.22.0/files/sample/private.xml">private.xml</a>.
+              ファイルの中身を<a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.22.0/files/sample/private.xml">private.xml</a>の内容に変更します。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
@@ -671,7 +675,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Press "Reload XML" button on "Change Key" tab.
+              「Change key」タブの「Reload XML」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-20" class="thumbnail">
@@ -690,7 +694,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              New settings have been added.
+              新しい設定が追加されました。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-21" class="thumbnail">
@@ -709,7 +713,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Apply new setting by activating added settings.
+              追加された設定を有効にすると、新しい設定が適用されます。
 
             <div class="row">
               <div class="col-lg-4">
@@ -729,12 +733,12 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Edit private.xml as you like, reload XML and activate new settings.<br />
+              private.xmlの中身を好きなように変更して、XMLを再読み込みし、新しい設定を有効にしてください。<br />
 
             <ul>
               <li>
-                <a href="xml.html.en">
-                    private.xml Reference Manual
+                <a href="xml.html.ja">
+                    private.xml Reference Manual（英語）
                 </a>
               </li>
             </ul>
@@ -742,12 +746,11 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         </ol>
 
         <h2 id="privatexml-only">
-            Advanced Usage: Turning off prepared settings
+            高度な使用方法: 既存の設定を読み込まないようにする
         </h2>
 
         <p>
-            You can turn off prepared settings if you don't need all prepared settings.<br />
-            Turn off the "Use prepared settings" checkbox.
+            「Use prepared settings」をオフにすることで、既存の設定を読み込まないようにすることが出来ます。
         </p>
 
         <div class="row">
@@ -768,11 +771,11 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         </div>
 
         <p>
-            You can also import prepared settings into your private.xml by using <code>&lt;include&gt;</code>.<br />
-            Please copy lines of <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a> which you want to import.
+            更に、<code>&lt;include&gt;</code>タグを用いて、既存の設定の一部分だけをprivate.xmlから読み込むことも出来ます。<br />
+            <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/checkbox.xml">checkbox.xml</a>中から、読み込みたい行をprivate.xmlにコピーしてください。
         </p>
         <p>
-            For example, this private.xml imports "Launcher Mode v2" and "Mouse Keys Mode".
+            例えば、このprivate.xmlでは「Launcher Mode v2」と「Mouse Keys Mode」を読み込みます。
         </p>
 <pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
 &lt;root&gt;
@@ -800,27 +803,27 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
       <section>
         <div class="page-header">
           <h1 id="implicit">
-              Implicit behavior
+              暗黙の挙動
           </h1>
         </div>
 
         <p>
-            Karabiner modifies following behavior automatically without any configurations:
+            Karabinerは全く設定をしない場合でも、以下の変更を行います。
         </p>
 
         <h2>
-            Share state of modifier keys with all connected keyboards:
+            接続されている全てのキーボードで修飾キーの状態を共有します
         </h2>
         <p>
-            When you are using multiple keyboards, modifier keys are shared with all keyboards.<br />
-            For example, pressing "shift key on keyboard1" and "space key on keyboard2" sends shift-space.
+            もし複数のキーボードを使っている場合、修飾キーの状態を全てのキーボードで共有します。<br />
+            例えば、キーボード1でシフトキーを押して、キーボード2でスペースキーを押した場合、シフト+スペースが送信されます。
         </p>
 
         <h2>
-            Add fn-key combinations:
+            fnキーとの組み合わせを追加します
         </h2>
         <p>
-            Karabiner adds fn-key combinations:
+            Karabinerはfnキーとの組み合わせのショートカットを追加します。
         </p>
 
         <h3>Fn-Arrow keys:</h3>
@@ -859,19 +862,19 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
       <section>
         <div class="page-header">
           <h1 id="event-modification-chaining">
-              Input event modification chaining
+              入力イベントの変更の順番
           </h1>
         </div>
 
         <p>
-            There are several ways to modify input events:
+            入力イベントを変更する方法はいくつかあります。<br />
         </p>
         <ul>
           <li>Karabiner</li>
           <li>Seil: <a href="https://pqrs.org/osx/karabiner/seil.html">https://pqrs.org/osx/karabiner/seil.html</a></li>
           <li>
             <p>
-                System Preferences &gt; Keyboard &gt; Modifier Keys...
+                システム環境設定 &gt; キーボード &gt; 修飾キー...
             </p>
             <div class="row">
               <div class="col-lg-4">
@@ -892,104 +895,104 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
           </li>
         </ul>
         <p>
-            Input events will be changed by each manipulators by the following order:
+            入力イベントは各々の方法で、次の順番で変更されます。
         </p>
 
         <ol>
           <li>Seil</li>
           <li>
-              System Preferences &gt; Keyboard &gt; Modifier Keys...
+              システム環境設定 &gt; キーボード &gt; 修飾キー...
           </li>
           <li>Karabiner</li>
         </ol>
 
         <h2>
-            Example #1
+            例1
         </h2>
         <p>
-            If the following modification is specified:
+            もし以下の設定がされていた場合、
         </p>
         <ol>
           <li>
-              Seil setting: <code>command key</code> -&gt; <code>option key</code>
+              Seil設定: <code>コマンドキー</code> -&gt; <code>オプションキー</code>
           </li>
           <li>
-              System Preferences: <code>option key</code> -&gt; <code>shift key</code>
+              システム環境設定: <code>オプションキー</code> -&gt; <code>シフトキー</code>
           </li>
           <li>
-              Karabiner setting: <code>shift key</code> -&gt; <code>control key</code>
+              Karabiner設定: <code>シフトキー</code> -&gt; <code>コントロールキー</code>
           </li>
         </ol>
         <p>
-            The physical <code>command key</code> will be changed to <code>control key</code>.
+            <code>コマンドキー</code>は<code>コントロールキー</code>になります。
         </p>
 
         <h2>
-            Example #2
+            例2
         </h2>
         <p>
-            Generic keys are changed by Seil and Karabiner.
+            通常のキーはSeilとKarabinerで変更されます。
         </p>
         <ol>
           <li>
-              Seil setting: <code>escape key</code> -&gt; <code>tab key</code>
+              Seil 設定: <code>escapeキー</code> -&gt; <code>tabキー</code>
           </li>
           <li>
-              Karabiner setting: <code>tab key</code> -&gt; <code>delete key</code>
+              Karabiner設定: <code>tabキー</code> -&gt; <code>deleteキー</code>
           </li>
         </ol>
         <p>
-            The physical <code>escape key</code> will be changed to <code>delete key</code> by Seil and Karabiner. <br />
-            The physical <code>tab key</code> will also be changed to <code>delete key</code> by Karabiner.
+            <code>escapeキー</code>はSeilとKarabinerにより、<code>deleteキー</code>になります。<br />
+            <code>tabキー</code>もKarabinerにより、<code>deleteキー</code>になります。
         </p>
 
         <h2>
-            Plural settings in Karabiner
+            Karabinerにおける複数の設定
         </h2>
         <p>
-            Karabiner does not allow you to recursive event modification.<br />
-            If one setting is applied, other settings are ignored.
+            Karabinerでは設定を再帰的に反映することは出来ません。<br />
+            一つの設定が反映された後は他の設定は無視されます。
         </p>
         <ol>
           <li>
-              Karabiner setting: <code>escape key</code> -&gt; <code>delete key</code>
+              Karabiner設定: <code>escapeキー</code> -&gt; <code>deleteキー</code>
           </li>
           <li>
-              Karabiner setting: <code>delete key</code> -&gt; <code>space key</code>
+              Karabiner設定: <code>deleteキー</code> -&gt; <code>spaceキー</code>
           </li>
         </ol>
         <p>
-            <code>escape key</code> will be changed to <code>delete key</code>. (not <code>space key</code>)
+            <code>escapeキー</code>は<code>deleteキー</code>になります。（<code>space key</code>にはなりません。）
         </p>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="multitouchextension">
-              Multi-touch extension
+              マルチタッチ拡張
           </h1>
         </div>
 
         <p>
-            An application named "multi-touch extension" is attached.
+            multi-touch extensionというアプリケーションが付属しています。
             <br />
-            You can use this application with multi-touch devices such as MacBook, Magic Mouse and Magic Trackpad.
+            MacBookやMagic Mouse、Magic Trackpadなどのマルチタッチデバイスと一緒に使います。
         </p>
         <p>
-            This application activates specific setting while fingers touch the multi-touch device.
+            このアプリケーションは、マルチタッチデバイスに指が触れている間だけ特定の設定を有効にします。
             <br />
-            For example, you can activate Complete Vi Mode while two fingers touch the device.
+            例えば、指が2本触れているときだけ、Complete Vi Modeを有効にするなどです。
         </p>
         <p>
-            <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html">ThumbSense</a> is one of the function which multi-touch extension supplies.
+            <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html">ThumbSense</a>はマルチタッチ拡張が提供する機能の一つです。
         </p>
 
         <h2>
-            How to use multi-touch extension
+            マルチタッチ拡張の使い方
         </h2>
         <ol class="steps">
           <li>
-              Click "Launch multi-touch extension" button in "Karabiner Preference &gt; Misc &amp; Uninstall".
+              Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-26" class="thumbnail">
@@ -1008,7 +1011,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Then application is launched. Click the icon in Dock.
+              アプリケーションが立ち上がるのでDockからアイコンをクリックします。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-27" class="thumbnail">
@@ -1027,10 +1030,9 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </div>
           </li>
           <li>
-              Then the preference window is opened. Change checkboxes and text if needed.
+              設定画面が開くので、必要に応じてチェックボックスやテキストの中身を変更してください。
               <br />
-              The value of "Target setting" such as notsave.thumbsense is &lt;identifier&gt; in
-              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
+              notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-28" class="thumbnail">
@@ -1068,11 +1070,11 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
       <section>
         <div class="page-header">
           <h1 id="profiles">
-              Multiple profiles
+              複数の設定の使い分け
           </h1>
         </div>
         <p>
-            You can switch activated settings from menu bar.
+            メニューバーから複数の設定を使い分けることができます。
         </p>
         <p>
           <img
@@ -1080,11 +1082,11 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
         </p>
         <h2>
-            How to use multiple profiles
+            複数の設定の使い方
         </h2>
         <ol class="steps">
           <li>
-              Add new configuration from Profiles tab.
+              設定の追加を「Profiles」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-30" class="thumbnail">
@@ -1104,7 +1106,7 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
           </li>
           <li>
             <p>
-                Choose the profile from menu bar.
+                メニューバーから設定を切り替えます。
             </p>
             <p>
               <img
@@ -1113,15 +1115,15 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
             </p>
           </li>
           <li>
-              Set up remapping for the selected configuration.
+              切り替えた設定用にリマッピングの設定を行います。
           </li>
         </ol>
 
         <h2>
-            Switch profile by shortcut
+            ショートカットで設定を切り替える
         </h2>
         <p>
-            You can find a setting which switches profile by fn+1,fn+2,fn+3, and fn+4 by searching "switch profile" on Preference.
+            設定で「switch profile」と検索することで、fn+1、fn+2、fn+3、fn+4で設定を切り替える設定が見つかります。
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -1141,7 +1143,7 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </div>
         <br />
         <p>
-            If you want to assign your own shortcut, this is an example of private.xml.
+            もし独自のショートカットを使いたい場合は、以下がprivate.xmlの例となります。
         </p>
 <pre class="prettyprint lang-xml">&lt;?xml version="1.0"?&gt;
 &lt;root&gt;
@@ -1158,32 +1160,32 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
       <section>
         <div class="page-header">
           <h1 id="commandlineinterface">
-              Command line interface
+              コマンドラインインターフェース
           </h1>
         </div>
         <p>
-            Karabiner provides a command line interface. (karabiner command)
+            Karabinerはコマンドラインインターフェースを提供しています。(karabinerコマンド)
         </p>
         <ul>
           <li>
-              You can get a list of changed setting.
+              変更した設定の一覧を取得できます。
           </li>
           <li>
-              You can activate/deactivate setting.
+              設定の有効化/無効化をできます。
           </li>
           <li>
-              You can choose a profile from multiple profiles.
+              複数の設定の切り替えをできます。
           </li>
           <li>
-              You can export configuration.
+              設定のエクスポートが出来ます。
           </li>
         </ul>
 
         <h2>
-            How to show help
+            使い方の表示方法
         </h2>
         <p>
-            Execute the karabiner command with no argument.
+            karabinerコマンドを引数なしで実行します。
         </p>
         <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner
@@ -1230,14 +1232,14 @@ Examples:
 </pre>
 
         <h2>
-            About "list" and "select" option
+            list、selectオプションについて
         </h2>
         <p>
-            You can choose a profile from multiple profiles.
+            複数の設定の切り替えをできます。
         </p>
         <ol>
           <li>
-              Get a list of profiles by "list" option.
+              listオプションで複数の設定の一覧を取得します。
             <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner list
 0: Default
@@ -1247,9 +1249,9 @@ $ /Applications/Karabiner.app/Contents/Library/bin/karabiner list
 </pre>
           </li>
           <li>
-              Choose a profile by "select" option.
+              selectオプションで切り替えを行ないます。
               <br />
-              The numeral argument is a profile index. It starts from 0.
+              数字のオプションは設定のインデックスです。これは0から始まります。
             <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner select 1
 </pre>
@@ -1257,19 +1259,19 @@ $ /Applications/Karabiner.app/Contents/Library/bin/karabiner select 1
         </ol>
 
         <h2 id="export">
-            About "export" option
+            exportオプションについて
         </h2>
         <ol>
           <li>
-              Export configuration by "export" option.
+              exportオプションで設定のエクスポートを行います。
               <br />
-              The output is a shell script.
+              出力は、シェルスクリプトです。
             <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner export > ~/Desktop/karabiner-import.sh
 </pre>
           </li>
           <li>
-              You can import it from Terminal.
+              ターミナルからインポートを行うことができます。
             <pre>
 $ sh ~/Desktop/karabiner-import.sh
 ...........................................
@@ -1279,11 +1281,11 @@ $ sh ~/Desktop/karabiner-import.sh
 
         <h3 id="clear-before-import">Reset configuration before import</h3>
         <p>
-            The <code>karabiner-import.sh</code> do not reset your configuration.<br />
-            If you have enabled settings before import, the enabled settings will not be disabled in the import.
+            <code>karabiner-import.sh</code>は設定をリセットしません。<br />
+            インポートをする前に有効にしていた設定はインポート後も有効になります。
         </p>
         <p>
-            If you want to reset the configuration before import, please use <code>be_careful_to_use__clear_all_values_by_name</code> before running karabiner-import.sh.
+            インポート前に設定をリセットしたい場合は<code>be_careful_to_use__clear_all_values_by_name</code>をkarabiner-import.shの前に実行してください。
         </p>
         <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner \
@@ -1296,11 +1298,11 @@ $ sh ~/Desktop/karabiner-import.sh
       <section>
         <div class="page-header">
           <h1 id="preferences">
-              The location of the configuration file
+              設定ファイルの場所
           </h1>
         </div>
         <p>
-            Karabiner's settings are stored in the following location.
+            Karabinerの設定は以下の場所に保存されています。
         </p>
         <p>
           <span class="glyphicon glyphicon-home"></span>
@@ -1320,25 +1322,24 @@ $ sh ~/Desktop/karabiner-import.sh
       <section>
         <div class="page-header">
           <h1 id="debugmode">
-              Debug Mode
+              デバッグモード
           </h1>
         </div>
         <p>
-            You can investigate a normal key code by <a href="#eventviewer">EventViewer</a>.
+            通常のキーイベントは<a href="#eventviewer">EventViewer</a>で確認することが出来ます。
             <br />
-            However, you cannot investigate key events which will be processed on the system side,
-            such as Command + Tab, Mission Control key.
+            しかし、Command+Tabやミッションコントロールキーなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
         </p>
 
         <p>
-            You have to enable debug mode in order to show these system key events.
+            これらのシステムキーイベントを表示するために、デバッグモードを有効にする必要があります。
         </p>
 
         <ol>
           <li>
             <p>
-                Press the "Toggle Debug Mode" button in Karabiner Preferences &gt; Misc &amp; Uninstall tab.<br />
-                Then, enter password.
+                Karabinerの設定のMisc &amp; Uninstallタブの「Toggle Debug Mode」ボタンを押します。<br />
+                そして、パスワードを入力します。
             </p>
 
             <div class="row">
@@ -1375,11 +1376,11 @@ $ sh ~/Desktop/karabiner-import.sh
 
           <li>
             <p>
-                You can confirm the debug log by Console.app.
+                コンソールアプリでデバッグログを確認できます。
             </p>
 
             <p>
-                Launch Console app from the "Launch Console.app" button.
+                コンソールアプリを「Launch Console.app」ボタンから起動してください。
             </p>
 
             <div class="row">
@@ -1400,8 +1401,8 @@ $ sh ~/Desktop/karabiner-import.sh
             </div>
 
             <p>
-                Then, the debug log will be appended when you press keys. <br />
-                You can select logs and copy them.
+                キーを押すと、デバッグログが追加されます。<br />
+                ログを選択してコピーします。
             </p>
 
             <div class="row">
@@ -1422,7 +1423,7 @@ $ sh ~/Desktop/karabiner-import.sh
             </div>
 
             <p>
-                Paste to text editor and confirm the log.
+                テキストエディタに貼り付けて中身を確認します。
             </p>
 
             <pre>
@@ -1433,8 +1434,8 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
 
           <li>
             <p>
-                Disable the debug mode by the "Toggle Debug Mode" button.<br />
-                You don't need to enter password to disable the debug mode.
+                「Toggle Debug Mode」ボタンでデバッグモードを終了してください。<br />
+                デバックモードを終了するときはパスワードは不要です。
             </p>
 
             <div class="row">
@@ -1458,10 +1459,10 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
       </section>
 
       <h2>
-          Usage of the debug mode results
+          デバッグモードの結果を利用する
       </h2>
       <p>
-          You can convert a raw key code (for example, "key 0x0037") to "KeyCode::COMMAND_L" by using KeyCode.data.
+          KeyCode.dataを使って、「key 0x0037」などの生のキーコードを「KeyCode::COMMAND_L」の形式に変更できます。
       </p>
       <ul>
         <li>
@@ -1479,7 +1480,7 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
       </ul>
 
       <p>
-          Or use <a href="xml.html.en#keycode">KeyCode::RawValue::0x0037</a> in private.xml.
+          もしくは、「<a href="xml.html.ja#keycode">KeyCode::RawValue::0x0037</a>」をprivate.xmlで使用します。
       </p>
     </div>
     <div class="col-md-3">
@@ -1487,27 +1488,27 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
         <ul class="nav bs-sidenav">
               <li>
                 <a href="#usage">
-                  Usage
+                  使い方
                 </a>
               </li>
               <li>
                 <a href="#keyrepeat">
-                  Change key repeat rate
+                  キーリピート速度の変更
                 </a>
               </li>
               <li>
                 <a href="#quit">
-                  How to quit
+                  終了する方法
                 </a>
               </li>
               <li>
                 <a href="#uninstall">
-                  Uninstall
+                  アンインストール方法
                 </a>
               </li>
               <li>
                 <a href="#check-for-updates">
-                  Check for updates
+                  最新版への更新
                 </a>
               </li>
               <li>
@@ -1517,48 +1518,48 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
               </li>
               <li>
                 <a href="#eventviewer">
-                  Eventviewer
+                  イベントビューア
                 </a>
               </li>
               <li>
                 <a href="#privatexml">
-                  How to add your own settings
+                  設定の追加
                 </a>
               </li>
               <li>
                 <a href="#implicit">
-                  Implicit behavior
+                  暗黙の挙動
                 </a>
               </li>
               <li>
                 <a href="#event-modification-chaining">
-                  Input event modification chaining
+                  入力イベントの変更の順番
                 </a>
               </li>
-              <li class="nav-header">Misc.</li>
+              <li class="nav-header">その他</li>
               <li>
                 <a href="#multitouchextension">
-                  Multi-touch extension
+                  マルチタッチ拡張
                 </a>
               </li>
               <li>
                 <a href="#profiles">
-                  Multiple profiles
+                  複数の設定の使い分け
                 </a>
               </li>
               <li>
                 <a href="#commandlineinterface">
-                  Command line interface
+                  コマンドラインインターフェース
                 </a>
               </li>
               <li>
                 <a href="#preferences">
-                  The location of the configuration file
+                  設定ファイルの場所
                 </a>
               </li>
               <li>
                 <a href="#debugmode">
-                  debug mode
+                  デバッグモード
                 </a>
               </li>
         </ul>

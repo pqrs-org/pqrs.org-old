@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -46,13 +46,13 @@
                 <li >
                   <a href="/osx/karabiner/index.html.en">Karabiner</a>
                 </li>
-                <li class="dropdown active">
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Documents
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
-                      <li class="active">
+                      <li >
                         <a href="/osx/karabiner/document.html.en">Manual</a>
                       </li>
                       <li >
@@ -106,8 +106,8 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/osx/karabiner/document.html.en">English</a></li>
-                <li><a href="/osx/karabiner/document.html.ja">Japanese</a></li>
+                <li><a href="/osx/karabiner/document_v10.html.en">English</a></li>
+                <li><a href="/osx/karabiner/document_v10.html.ja">Japanese</a></li>
               </ul>
             </li>
           </ul>
@@ -115,7 +115,12 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    It is a document for the previous version.<br />
+    <a href="document.html.en">View the latest document.</a>
+</div>
+
+<div class="container with-fixed-alert">
   <header>
     <div class="page-header">
       <h1>
@@ -222,7 +227,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
       <section>
         <div class="page-header">
-          <h1 id="keyrepeat">
+          <h1 id="keyrepeat" class="anchor">
               Change key repeat rate
           </h1>
         </div>
