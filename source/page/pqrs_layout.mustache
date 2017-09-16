@@ -28,7 +28,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body>
+  <body class="{{#body_classes}} {{class}} {{/body_classes}}">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -109,7 +109,7 @@
       <script type="text/javascript" src="/assets/jquery/jquery.collapse.js"></script>
       <script type="text/javascript">jQuery(function(){ jQuery('#collapser').jqcollapse(); });</script>
     {{/enable_jquery_collapse_js}}
-    <script src="/js/pqrs.js?1462400580"></script>
+    <script src="{{#cache_file}}js/pqrs.js{{/cache_file}}"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
