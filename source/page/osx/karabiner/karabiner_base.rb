@@ -81,6 +81,23 @@ class KarabinerBase < PqrsBase
       },
       {
         :name_l10n => {
+          :en => 'Archives',
+          :ja => '昔のページ',
+        },
+        :dropdown => {
+          :items => [
+            {
+              :href => '/osx/karabiner/document_v10.html',
+              :name_l10n => {
+                :en => 'Manual for Karabiner-10.22.0',
+                :ja => 'マニュアル（Karabiner-10.22.0向け）',
+              },
+            },
+          ],
+        },
+      },
+      {
+        :name_l10n => {
           :en => 'Additional Apps',
           :ja => '追加アプリ',
         },
