@@ -53,16 +53,13 @@
                   </a>
                   <ul class="dropdown-menu">
                       <li class="active">
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル（英語）</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/history.html.ja">更新履歴</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -72,6 +69,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
@@ -84,19 +87,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -130,7 +122,7 @@
   <header>
     <div class="page-header">
       <h1>
-          マニュアル
+        Manual
       </h1>
     </div>
   </header>
@@ -139,68 +131,40 @@
     <div class="col-md-9 pqrs-docs-container">
       <section>
         <div class="page-header">
-          <h1 id="usage">
-              使い方
-          </h1>
+          <h1 id="usage">Usage</h1>
         </div>
 
         <h2>Step 1</h2>
         <p>
-            Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
+          Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
         </p>
         <p>
-            そして、Karabinerをクリックしてください。
+          Then, click Karabiner-Elements.
         </p>
         <div class="row">
           <div class="col-lg-4">
             <img
             alt="launchpad"
-src="img/karabiner-icon@2x.png" width="148" height="168"            />
+src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
           </div>
         </div>
-
-        <br />
-
-        <p>
-          <span class="label label-info">Note</span>
-            KeyRemap4MacBook 7.8.0、またはそれ以前のバージョンを使用している場合、<a href="files/preferencepane-keyremap4macbook.png">設定画面はシステム環境設定にあります。</a>
-        </p>
 
         <h2>Step 2</h2>
 
         <p>
-            アクセシビリティ機能へのアクセスの確認ダイアログが表示されるので、「"システム環境設定"を開く」をクリックしてください。
+          An alert about kext policy will be shown since macOS High Sierra.<br />
+          Click "Open System Preferences &gt; Security &amp; Privacy" and press Allow button.
         </p>
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
+  <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext policy" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 521px;">
+  <div class="modal-dialog clickable" style="width: 977px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-
-        <p>
-            そして、Karabiner_AXNotifierを選択します。
-        </p>
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 728px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" style="width: 100%" />
+        <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext policy" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -210,92 +174,18 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
         <h2>Step 3</h2>
         <p>
-            お好みの設定を有効にしてください。
+          Configure Karabiner-Elements from UI.
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" />
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/karabiner-elements-preferences@2x.png" alt="Preferences" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 860px;">
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h1 id="keyrepeat">
-              キーリピート速度の変更
-          </h1>
-        </div>
-        <p>
-            Karabinerは初期状態だとシステム環境設定で指定されたキーリピート値を用います。
-        </p>
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/repeat-default@2x.png" alt="key repeat rate" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/repeat-default@2x.png" alt="key repeat rate" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-
-        <p>
-            そのため、「システム環境設定＞キーボード」でキーリピート値の設定をしてください。
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" />
-</a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
-  <div class="modal-dialog clickable" style="width: 728px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-
-        <h2 id="keyrepeat-overwrite">
-            キーリピート値の上書き
-        </h2>
-
-        <p>
-            より高速なキーリピート値を使いたい場合、Karabinerでキーリピート値を上書きすることが出来ます。<br />
-            「Overwrite the key repeat values of system」を有効にして、パラメータを調整してください。
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" />
-</a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/karabiner-elements-preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -307,40 +197,68 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
       <section>
         <div class="page-header">
           <h1 id="quit">
-              終了する方法
+            How to quit
           </h1>
         </div>
 
         <p>
-            メニューバーから終了してください。
+          Quit from menu bar or Misc tab in Preferences.
         </p>
 
-        <p>
-          <img
-          alt="quit"
-src="img/karabiner-quit@2x.png" width="428" height="171"          />
-        </p>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/karabiner-elements-menu-quit@2x.png" alt="Menu" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 501px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-menu-quit@2x.png" alt="Menu" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/karabiner-elements-quit@2x.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-quit@2x.png" alt="Preferences" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="uninstall">
-              アンインストール方法
+            Uninstall
           </h1>
         </div>
         <p>
-            「Misc &amp; Uninstall」タブの「launch uninstaller」ボタンを押してください。
+          Press the "Uninstall Karabiner-Elements" button in "Misc" tab.
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" />
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall Karabiner-Elements" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
-  <div class="modal-dialog clickable" style="width: 860px;">
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" style="width: 100%" />
+        <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall Karabiner-Elements" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -352,22 +270,22 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
       <section>
         <div class="page-header">
           <h1 id="check-for-updates">
-              最新版への更新
+            Check for updates
           </h1>
         </div>
         <p>
-            「Misc &amp; Uninstall」タブで最新版への更新が出来ます。
+          You can check for updates from "Misc" tab.
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" />
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 860px;">
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -380,210 +298,49 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/karabiner-elements-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
-  <div class="modal-dialog clickable" style="width: 860px;">
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/karabiner-elements-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
           </div>
         </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h1 id="axnotifier">
-              AXNotifier
-          </h1>
-        </div>
-
-        <p>
-            AXNotifierは以下のイベントを観察し、Karabinerに通知します。
-        </p>
-
-        <ul>
-          <li>
-              アクティブなアプリケーションの変更。
-          </li>
-          <li>
-              フォーカスされたウィンドウのタイトル（window name）の変更。
-          </li>
-          <li>
-              フォーカスされたUIエレメントのロール（AXTextArea、AXButtonなど）の変更。
-          </li>
-        </ul>
-
-        <p>
-            これにより、次の設定を行うことができます。
-        </p>
-
-        <ul>
-          <li>
-              特定のアプリで有効な設定。（例: ターミナルでコマンドキーを変更する。）
-          </li>
-          <li>
-              特定のウィンドウタイトルで有効な設定。（例: Google ChromeのGmailでcommand-wを無効にする。）
-          </li>
-          <li>
-              特定のUIエレメントのロールで有効な設定。（例: テキスト編集中でない場合はhjklキーをカーソルキーにする。）
-          </li>
-        </ul>
-
-        <h2>
-            アクセシビリティ機能の使用
-        </h2>
-
-        <p>
-            AXNotifierは、ウィンドウタイトルとUIエレメントのロールの監視を行うために、アクセシビリティ機能へのアクセスを要求します。
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" />
-</a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
-  <div class="modal-dialog clickable" style="width: 560px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-          <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
-</a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
-  <div class="modal-dialog clickable" style="width: 521px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-          </div>
-        </div>
-
-        <p>
-            もし、これらを監視する必要がなければ、アクセシビリティ機能へのアクセスを拒否してもかまいません。<br />
-            「Do not show this message again」にチェックを入れてください。
-        </p>
-
-        <h2>
-            AXNotifierを使っている便利な設定
-        </h2>
-
-        <ul>
-          <li>
-            Change command key to control key in RDC.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" />
-</a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
-  <div class="modal-dialog clickable" style="width: 728px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            Disable Close Tab shortcut (command-w) on Gmail.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
-  <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" />
-</a>
-<div class="modal fade" id="lightbox-13" tabindex="30013">
-  <div class="modal-dialog clickable" style="width: 728px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            Use "hjkl" keys as arrow keys if you are not editing text.
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
-  <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" />
-</a>
-<div class="modal fade" id="lightbox-14" tabindex="30014">
-  <div class="modal-dialog clickable" style="width: 728px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <h2>
-            AXNotifierを使った設定の作り方
-        </h2>
-
-        <ul>
-          <li><a href="xml.html.ja#appdef">Specify application in private.xml.</a></li>
-          <li><a href="xml.html.ja#windownamedef">Specify window name (window title) in private.xml.</a></li>
-          <li><a href="xml.html.ja#uielementroledef">Specify ui element role in private.xml.</a></li>
-        </ul>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="eventviewer">
-              キーリマップの結果を確認する方法
+            How to confirm result of configuration
           </h1>
         </div>
 
         <p>
-            EventViewerでキーボードやマウスのイベントを確認することが出来ます。
-            <br />
-            メニューからEventViewerを起動してください。
+          You can examine keyboard and mouse events by using EventViewer.<br />
+          Launch Karabiner-EventViewer from Launchpad.
         </p>
 
         <div class="row">
           <div class="col-lg-6">
             <img
             alt="menu"
-src="img/eventviewer-menu@2x.png" width="460" height="163"            />
+src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"            />
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
-  <img src="img/eventviewer@2x.png" alt="eventviewer" />
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/v10/eventviewer@2x.png" alt="eventviewer" />
 </a>
-<div class="modal fade" id="lightbox-15" tabindex="30015">
+<div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 929px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
+        <img src="img/v10/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -608,14 +365,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               「Misc &amp; Uninstall」タブの「Open private.xml」を押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
-  <img src="img/karabiner-xml1@2x.png" alt="open private.xml" />
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/v10/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
-<div class="modal fade" id="lightbox-16" tabindex="30016">
+<div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
+        <img src="img/v10/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -627,14 +384,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               Finderが開きます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
-  <img src="img/karabiner-xml2@2x.png" alt="finder" />
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+  <img src="img/v10/karabiner-xml2@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-17" tabindex="30017">
+<div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 812px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml2@2x.png" alt="finder" style="width: 100%" />
+        <img src="img/v10/karabiner-xml2@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -646,14 +403,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               private.xmlをテキストエディタで開きます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
-  <img src="img/karabiner-xml3@2x.png" alt="finder" />
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+  <img src="img/v10/karabiner-xml3@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-18" tabindex="30018">
+<div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 809px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml3@2x.png" alt="finder" style="width: 100%" />
+        <img src="img/v10/karabiner-xml3@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -665,14 +422,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               ファイルの中身を<a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.22.0/files/sample/private.xml">private.xml</a>の内容に変更します。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
-  <img src="img/karabiner-xml4@2x.png" alt="textedit" />
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+  <img src="img/v10/karabiner-xml4@2x.png" alt="textedit" />
 </a>
-<div class="modal fade" id="lightbox-19" tabindex="30019">
+<div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 682px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml4@2x.png" alt="textedit" style="width: 100%" />
+        <img src="img/v10/karabiner-xml4@2x.png" alt="textedit" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -684,14 +441,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               「Change key」タブの「Reload XML」ボタンを押してください。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
-  <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
+<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
+  <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
-<div class="modal fade" id="lightbox-20" tabindex="30020">
+<div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
+        <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -703,14 +460,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               新しい設定が追加されました。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-21" class="thumbnail">
-  <img src="img/karabiner-xml6@2x.png" alt="reloaded" />
+<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
+  <img src="img/v10/karabiner-xml6@2x.png" alt="reloaded" />
 </a>
-<div class="modal fade" id="lightbox-21" tabindex="30021">
+<div class="modal fade" id="lightbox-14" tabindex="30014">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml6@2x.png" alt="reloaded" style="width: 100%" />
+        <img src="img/v10/karabiner-xml6@2x.png" alt="reloaded" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -723,14 +480,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
-  <img src="img/karabiner-xml7@2x.png" alt="enable new setting" />
+<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
+  <img src="img/v10/karabiner-xml7@2x.png" alt="enable new setting" />
 </a>
-<div class="modal fade" id="lightbox-22" tabindex="30022">
+<div class="modal fade" id="lightbox-15" tabindex="30015">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml7@2x.png" alt="enable new setting" style="width: 100%" />
+        <img src="img/v10/karabiner-xml7@2x.png" alt="enable new setting" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -761,14 +518,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
-  <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
+<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
+  <img src="img/v10/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
-<div class="modal fade" id="lightbox-23" tabindex="30023">
+<div class="modal fade" id="lightbox-16" tabindex="30016">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
+        <img src="img/v10/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -790,14 +547,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 &lt;/root&gt;</pre>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
-  <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
+<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
+  <img src="img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
-<div class="modal fade" id="lightbox-24" tabindex="30024">
+<div class="modal fade" id="lightbox-17" tabindex="30017">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" style="width: 100%" />
+        <img src="img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -884,14 +641,14 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             </p>
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
-  <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
+<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
+  <img src="img/v10/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
 </a>
-<div class="modal fade" id="lightbox-25" tabindex="30025">
+<div class="modal fade" id="lightbox-18" tabindex="30018">
   <div class="modal-dialog clickable" style="width: 477px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
+        <img src="img/v10/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -974,107 +731,6 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
 
       <section>
         <div class="page-header">
-          <h1 id="multitouchextension">
-              マルチタッチ拡張
-          </h1>
-        </div>
-
-        <p>
-            multi-touch extensionというアプリケーションが付属しています。
-            <br />
-            MacBookやMagic Mouse、Magic Trackpadなどのマルチタッチデバイスと一緒に使います。
-        </p>
-        <p>
-            このアプリケーションは、マルチタッチデバイスに指が触れている間だけ特定の設定を有効にします。
-            <br />
-            例えば、指が2本触れているときだけ、Complete Vi Modeを有効にするなどです。
-        </p>
-        <p>
-            <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html">ThumbSense</a>はマルチタッチ拡張が提供する機能の一つです。
-        </p>
-
-        <h2>
-            マルチタッチ拡張の使い方
-        </h2>
-        <ol class="steps">
-          <li>
-              Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
-  <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
-</a>
-<div class="modal fade" id="lightbox-26" tabindex="30026">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-          <li>
-              アプリケーションが立ち上がるのでDockからアイコンをクリックします。
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
-  <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
-</a>
-<div class="modal fade" id="lightbox-27" tabindex="30027">
-  <div class="modal-dialog clickable" style="width: 581px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-          <li>
-              設定画面が開くので、必要に応じてチェックボックスやテキストの中身を変更してください。
-              <br />
-              notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
-  <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
-</a>
-<div class="modal fade" id="lightbox-28" tabindex="30028">
-  <div class="modal-dialog clickable" style="width: 600px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-29" class="thumbnail">
-  <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
-</a>
-<div class="modal fade" id="lightbox-29" tabindex="30029">
-  <div class="modal-dialog clickable" style="width: 600px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <section>
-        <div class="page-header">
           <h1 id="profiles">
               複数の設定の使い分け
           </h1>
@@ -1085,7 +741,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         <p>
           <img
           alt="profiles"
-src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
+src="img/v10/karabiner-profiles-menu@2x.png" width="412" height="220"          />
         </p>
         <h2>
             複数の設定の使い方
@@ -1095,14 +751,14 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
               設定の追加を「Profiles」タブから行ないます。
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
-  <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
+<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
+  <img src="img/v10/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-30" tabindex="30030">
+<div class="modal fade" id="lightbox-19" tabindex="30019">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
+        <img src="img/v10/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1117,7 +773,7 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
             <p>
               <img
               alt="profiles"
-src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"              />
+src="img/v10/karabiner-profiles-menu-selected@2x.png" width="254" height="198"              />
             </p>
           </li>
           <li>
@@ -1133,14 +789,14 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-31" class="thumbnail">
-  <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
+<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
+  <img src="img/v10/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-31" tabindex="30031">
+<div class="modal fade" id="lightbox-20" tabindex="30020">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" style="width: 100%" />
+        <img src="img/v10/karabiner-profiles-shortcuts@2x.png" alt="switch profile" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1325,169 +981,6 @@ $ sh ~/Desktop/karabiner-import.sh
         </p>
       </section>
 
-      <section>
-        <div class="page-header">
-          <h1 id="debugmode">
-              デバッグモード
-          </h1>
-        </div>
-        <p>
-            通常のキーイベントは<a href="#eventviewer">EventViewer</a>で確認することが出来ます。
-            <br />
-            しかし、Command+Tabやミッションコントロールキーなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
-        </p>
-
-        <p>
-            これらのシステムキーイベントを表示するために、デバッグモードを有効にする必要があります。
-        </p>
-
-        <ol>
-          <li>
-            <p>
-                Karabinerの設定のMisc &amp; Uninstallタブの「Toggle Debug Mode」ボタンを押します。<br />
-                そして、パスワードを入力します。
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-32" class="thumbnail">
-  <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" />
-</a>
-<div class="modal fade" id="lightbox-32" tabindex="30032">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-33" class="thumbnail">
-  <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" />
-</a>
-<div class="modal fade" id="lightbox-33" tabindex="30033">
-  <div class="modal-dialog clickable" style="width: 500px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-                コンソールアプリでデバッグログを確認できます。
-            </p>
-
-            <p>
-                コンソールアプリを「Launch Console.app」ボタンから起動してください。
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-34" class="thumbnail">
-  <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
-</a>
-<div class="modal fade" id="lightbox-34" tabindex="30034">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-
-            <p>
-                キーを押すと、デバッグログが追加されます。<br />
-                ログを選択してコピーします。
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-35" class="thumbnail">
-  <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
-</a>
-<div class="modal fade" id="lightbox-35" tabindex="30035">
-  <div class="modal-dialog clickable" style="width: 1242px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-
-            <p>
-                テキストエディタに貼り付けて中身を確認します。
-            </p>
-
-            <pre>
-Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
-Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
-</pre>
-          </li>
-
-          <li>
-            <p>
-                「Toggle Debug Mode」ボタンでデバッグモードを終了してください。<br />
-                デバックモードを終了するときはパスワードは不要です。
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-36" class="thumbnail">
-  <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" />
-</a>
-<div class="modal fade" id="lightbox-36" tabindex="30036">
-  <div class="modal-dialog clickable" style="width: 860px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <h2>
-          デバッグモードの結果を利用する
-      </h2>
-      <p>
-          KeyCode.dataを使って、「key 0x0037」などの生のキーコードを「KeyCode::COMMAND_L」の形式に変更できます。
-      </p>
-      <ul>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
-        </li>
-      </ul>
-
-      <p>
-          もしくは、「<a href="xml.html.ja#keycode">KeyCode::RawValue::0x0037</a>」をprivate.xmlで使用します。
-      </p>
     </div>
     <div class="col-md-3">
       <div class="bs-docs-sidebar" id="bs-docs-sidebar">
@@ -1495,11 +988,6 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
               <li>
                 <a href="#usage">
                   使い方
-                </a>
-              </li>
-              <li>
-                <a href="#keyrepeat">
-                  キーリピート速度の変更
                 </a>
               </li>
               <li>
@@ -1515,11 +1003,6 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
               <li>
                 <a href="#check-for-updates">
                   最新版への更新
-                </a>
-              </li>
-              <li>
-                <a href="#axnotifier">
-                  AXNotifier
                 </a>
               </li>
               <li>
@@ -1544,11 +1027,6 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
               </li>
               <li class="nav-header">その他</li>
               <li>
-                <a href="#multitouchextension">
-                  マルチタッチ拡張
-                </a>
-              </li>
-              <li>
                 <a href="#profiles">
                   複数の設定の使い分け
                 </a>
@@ -1561,11 +1039,6 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
               <li>
                 <a href="#preferences">
                   設定ファイルの場所
-                </a>
-              </li>
-              <li>
-                <a href="#debugmode">
-                  デバッグモード
                 </a>
               </li>
         </ul>

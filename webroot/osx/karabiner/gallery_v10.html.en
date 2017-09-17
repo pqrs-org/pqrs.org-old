@@ -60,9 +60,6 @@
                       <li >
                         <a href="/osx/karabiner/history.html.en">Version History</a>
                       </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
-                      </li>
                   </ul>
                 </li>
                 <li class="dropdown active">
@@ -71,6 +68,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.en">Manual for Karabiner-10.22.0</a>
                       </li>
@@ -83,19 +86,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Additional Apps
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.en">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
                       </li>
                   </ul>
                 </li>
@@ -127,6 +119,7 @@
 
     <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
     It is a document for the previous version.<br />
+    (For Karabiner-10.22.0)
 </div>
 
 <div class="container">
@@ -160,13 +153,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/gallery-left-command-to-control@2x.png" alt="Change the left command key to the control key" />
+  <img src="img/v10/gallery-left-command-to-control@2x.png" alt="Change the left command key to the control key" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-left-command-to-control@2x.png" alt="Change the left command key to the control key" style="width: 100%" />
+        <img src="img/v10/gallery-left-command-to-control@2x.png" alt="Change the left command key to the control key" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -196,13 +189,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/gallery-emacs-mode@2x.png" alt="Emacs Mode" />
+  <img src="img/v10/gallery-emacs-mode@2x.png" alt="Emacs Mode" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-emacs-mode@2x.png" alt="Emacs Mode" style="width: 100%" />
+        <img src="img/v10/gallery-emacs-mode@2x.png" alt="Emacs Mode" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -226,13 +219,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" />
+  <img src="img/v10/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" style="width: 100%" />
+        <img src="img/v10/gallery-avoid-unintended-command-q@2x.png" alt="Press Command+Q twice to Quit Application" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -258,13 +251,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/gallery-simple-vi-mode-v2@2x.png" alt="Mouse Keys Mode v2" />
+  <img src="img/v10/gallery-simple-vi-mode-v2@2x.png" alt="Mouse Keys Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-simple-vi-mode-v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
+        <img src="img/v10/gallery-simple-vi-mode-v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -300,13 +293,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" />
+  <img src="img/v10/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
+        <img src="img/v10/gallery-mouse-keys-mode-v2@2x.png" alt="Mouse Keys Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -345,13 +338,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/gallery-operate-finder-by-hjkl-keys@2x.png" alt="Use hjkl keys as arrow keys if you are not editing text." />
+  <img src="img/v10/gallery-operate-finder-by-hjkl-keys@2x.png" alt="Use hjkl keys as arrow keys if you are not editing text." />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-operate-finder-by-hjkl-keys@2x.png" alt="Use hjkl keys as arrow keys if you are not editing text." style="width: 100%" />
+        <img src="img/v10/gallery-operate-finder-by-hjkl-keys@2x.png" alt="Use hjkl keys as arrow keys if you are not editing text." style="width: 100%" />
       </div>
     </div>
   </div>
@@ -395,13 +388,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" />
+  <img src="img/v10/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" style="width: 100%" />
+        <img src="img/v10/gallery-launcher-mode-v2@2x.png" alt="Launcher Mode v2" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -471,13 +464,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" />
+  <img src="img/v10/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" style="width: 100%" />
+        <img src="img/v10/gallery-disable-built-in-keyboard-if-external-keyboard-exists@2x.png" alt="Disable an internal keyboard while external keyboards are connected" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -500,13 +493,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" />
+  <img src="img/v10/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" style="width: 100%" />
+        <img src="img/v10/gallery-ignore-bouncing1@2x.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -520,13 +513,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" />
+  <img src="img/v10/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" style="width: 100%" />
+        <img src="img/v10/gallery-ignore-bouncing2@2x.png" alt="Ignore bouncing" style="width: 100%" />
       </div>
     </div>
   </div>

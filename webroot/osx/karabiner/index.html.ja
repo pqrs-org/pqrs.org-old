@@ -52,16 +52,13 @@
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル（英語）</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/history.html.ja">更新履歴</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -71,6 +68,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
@@ -83,19 +86,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -130,7 +122,7 @@
     <div class="jumbotron">
       <h1>Karabiner</h1>
       <p>
-          高機能で安定性も極めて高いOS X用のキーボードカスタマイズツール。
+          高機能で安定性も極めて高いmacOS用のキーボードカスタマイズツール。
       </p>
 
       <ul style="margin-bottom: 20px">
@@ -138,33 +130,20 @@
             既存の設定が多数用意されているので、<a href="document.html.ja">容易にカスタマイズできます。</a>
         </li>
         <li>
-            また、<a href="document.html.ja#privatexml">XMLであなた専用の設定を追加できます。</a>
+            また、<a href="document.html.ja#privatexml">jsonであなた専用の設定を追加できます。</a>
         </li>
       </ul>
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/Karabiner-10.22.0.dmg">Karabiner-10.22.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
+            href="files/Karabiner-Elements-0.91.16.dmg">Karabiner-Elements-0.91.16をダウンロード
+            &nbsp;<span class="label label-default">macOS High Sierra (10.13), Sierra (10.12) 用</span></a>      </p>
 
       <p>
         <a href="https://github.com/tekezo/Karabiner/blob/master/LICENSE.md" target="_blank">
         <img src="/img/icon/license-public-domain.svg" alt="Public Domain" />
         </a>
       </p>
-
-      <div class="alert alert-danger" role="alert">
-          <strong>macOS Sierraサポート状況</strong><br />
-          <br />
-          Karabinerは今のところmacOS Sierraでは動作しません。<br />
-          <br />
-          Sierra対応は、まずは単純なキーの変更を行える機能をKarabiner-Elementsとして開発中です。<br />
-          （Karabiner-ElementsはSierra上で動作しています。いくつか残っている問題の修正に取り組んでいます。）<br />
-          <br />
-          Karabinerのフル機能のSierra対応はKarabiner-Elementsが完成してから対応します。<br />
-          <br />
-          <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/README.md" target="_blank">https://github.com/tekezo/Karabiner-Elements/blob/master/README.md</a>
-      </div>
 
       <p style="margin-left: 1em">
         <small>
@@ -182,6 +161,11 @@
             <li>KarabinerとKeyRemap4MacBookは、MacBookファミリー、iMac、Mac mini、Mac Proなど全てのMacで動作します。</li>
         </ul>
       </div>
+
+      <p>
+<a class="btn btn-default"
+            href="files/Karabiner-10.22.0.dmg">Karabiner-10.22.0をダウンロード
+            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
@@ -226,13 +210,13 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
               インストーラが起動しますので、Karabinerをインストールします。
           </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/karabiner-installer@2x.png" alt="installer" />
+  <img src="img/karabiner-elements-installer@2x.png" alt="installer" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-installer@2x.png" alt="installer" style="width: 100%" />
+        <img src="img/karabiner-elements-installer@2x.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -253,13 +237,13 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
 
           <p>
               LaunchpadからKarabinerを起動します。
-              <a href="document.html.ja">詳しくはこちら。</a>
+              <a href="document.html.ja">詳しくはこちら（英語）。</a>
           </p>
 
           <p>
             <img
             alt="launchpad"
-src="img/karabiner-icon@2x.png" width="148" height="168"            />
+src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
           </p>
         </div>
       </div>

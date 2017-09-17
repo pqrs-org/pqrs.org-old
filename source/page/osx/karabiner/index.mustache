@@ -4,10 +4,10 @@
       <h1>Karabiner</h1>
       <p>
         {{#language_en}}
-          A powerful and stable keyboard customizer for OS X.
+          A powerful and stable keyboard customizer for macOS.
         {{/language_en}}
         {{#language_ja}}
-          高機能で安定性も極めて高いOS X用のキーボードカスタマイズツール。
+          高機能で安定性も極めて高いmacOS用のキーボードカスタマイズツール。
         {{/language_ja}}
       </p>
 
@@ -22,10 +22,10 @@
         </li>
         <li>
           {{#language_en}}
-            You can also <a href="document.html.{{language}}#privatexml">add your own settings by XML</a>.
+            You can also <a href="document.html.{{language}}#privatexml">add your own settings by json</a>.
           {{/language_en}}
           {{#language_ja}}
-            また、<a href="document.html.{{language}}#privatexml">XMLであなた専用の設定を追加できます。</a>
+            また、<a href="document.html.{{language}}#privatexml">jsonであなた専用の設定を追加できます。</a>
           {{/language_ja}}
         </li>
       </ul>
@@ -33,20 +33,20 @@
       <p>
         {{#strip_html}}
           <a class="btn btn-primary btn-lg"
-            href="files/Karabiner-10.22.0.dmg">
+            href="files/Karabiner-Elements-0.91.16.dmg">
             {{#language_en}}
-              Download Karabiner-10.22.0
+              Download Karabiner-Elements-0.91.16
             {{/language_en}}
             {{#language_ja}}
-              Karabiner-10.22.0をダウンロード
+              Karabiner-Elements-0.91.16をダウンロード
             {{/language_ja}}
             &nbsp;
             <span class="label label-default">
               {{#language_en}}
-                For OS X 10.11, 10.10, 10.9
+                For macOS High Sierra (10.13), Sierra (10.12)
               {{/language_en}}
               {{#language_ja}}
-                OS X 10.11、10.10、10.9用
+                macOS High Sierra (10.13), Sierra (10.12) 用
               {{/language_ja}}
             </span>
           </a>
@@ -58,33 +58,6 @@
         <img src="/img/icon/license-public-domain.svg" alt="Public Domain" />
         </a>
       </p>
-
-      <div class="alert alert-danger" role="alert">
-        {{#language_en}}
-          <strong>macOS Sierra support status</strong><br />
-          <br />
-          Karabiner does not work on macOS Sierra at the moment.<br />
-          <br />
-          We are developing Karabiner-Elements which provides simple key modification for macOS Sierra at first.<br />
-          (Karabiner-Elements works well on macOS Sierra. We are working on fixing several remaining issues.)<br />
-          <br />
-          We'll start updating for the full featured Karabiner for Sierra after Karabiner-Elements is completed.<br />
-          <br />
-          <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/README.md" target="_blank">https://github.com/tekezo/Karabiner-Elements/blob/master/README.md</a>
-        {{/language_en}}
-        {{#language_ja}}
-          <strong>macOS Sierraサポート状況</strong><br />
-          <br />
-          Karabinerは今のところmacOS Sierraでは動作しません。<br />
-          <br />
-          Sierra対応は、まずは単純なキーの変更を行える機能をKarabiner-Elementsとして開発中です。<br />
-          （Karabiner-ElementsはSierra上で動作しています。いくつか残っている問題の修正に取り組んでいます。）<br />
-          <br />
-          Karabinerのフル機能のSierra対応はKarabiner-Elementsが完成してから対応します。<br />
-          <br />
-          <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/README.md" target="_blank">https://github.com/tekezo/Karabiner-Elements/blob/master/README.md</a>
-        {{/language_ja}}
-      </div>
 
       <p style="margin-left: 1em">
         <small>
@@ -113,6 +86,29 @@
           {{/language_ja}}
         </ul>
       </div>
+
+      <p>
+        {{#strip_html}}
+          <a class="btn btn-default"
+            href="files/Karabiner-10.22.0.dmg">
+            {{#language_en}}
+              Download Karabiner-10.22.0
+            {{/language_en}}
+            {{#language_ja}}
+              Karabiner-10.22.0をダウンロード
+            {{/language_ja}}
+            &nbsp;
+            <span class="label label-default">
+              {{#language_en}}
+                For OS X 10.11, 10.10, 10.9
+              {{/language_en}}
+              {{#language_ja}}
+                OS X 10.11、10.10、10.9用
+              {{/language_ja}}
+            </span>
+          </a>
+        {{/strip_html}}
+      </p>
 
       <p>
         {{#strip_html}}
@@ -214,7 +210,7 @@
             {{/language_ja}}
           </p>
           {{#lightbox}}
-            img/karabiner-installer@2x.png installer
+            img/karabiner-elements-installer@2x.png installer
           {{/lightbox}}
           <div class="alert alert-warning">
             {{#language_en}}
@@ -247,7 +243,7 @@
             {{/language_en}}
             {{#language_ja}}
               LaunchpadからKarabinerを起動します。
-              <a href="document.html.ja">詳しくはこちら。</a>
+              <a href="document.html.ja">詳しくはこちら（英語）。</a>
             {{/language_ja}}
           </p>
 
@@ -255,7 +251,7 @@
             <img
             alt="launchpad"
             {{#imgsrc}}
-              img/karabiner-icon@2x.png
+              img/karabiner-elements-icon@2x.png
             {{/imgsrc}}
             />
           </p>

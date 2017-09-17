@@ -53,16 +53,13 @@
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル（英語）</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/history.html.ja">更新履歴</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -72,6 +69,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
@@ -84,19 +87,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -128,10 +120,10 @@
 
     <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
     このドキュメントは前のバージョンのものです。<br />
-    <a href="document.html.en">最新のドキュメントを見る。</a>
+    <a href="document.html.en">最新のドキュメント（英語）を見る。</a>
 </div>
 
-<div class="container with-fixed-alert">
+<div class="container">
   <header>
     <div class="page-header">
       <h1>
@@ -160,7 +152,7 @@
           <div class="col-lg-4">
             <img
             alt="launchpad"
-src="img/karabiner-icon@2x.png" width="148" height="168"            />
+src="img/v10/karabiner-icon@2x.png" width="148" height="168"            />
           </div>
         </div>
 
@@ -179,13 +171,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
+  <img src="img/v10/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
+        <img src="img/v10/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -199,13 +191,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" />
+  <img src="img/v10/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" style="width: 100%" />
+        <img src="img/v10/axnotifier-accessibility@2x.png" alt="AXNotifier Accessibility" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -220,13 +212,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" />
+  <img src="img/v10/karabiner-usage-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-usage-preferences@2x.png" alt="Preferences" style="width: 100%" />
+        <img src="img/v10/karabiner-usage-preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -237,7 +229,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
 
       <section>
         <div class="page-header">
-          <h1 id="keyrepeat" class="anchor">
+          <h1 id="keyrepeat">
               キーリピート速度の変更
           </h1>
         </div>
@@ -247,13 +239,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/repeat-default@2x.png" alt="key repeat rate" />
+  <img src="img/v10/repeat-default@2x.png" alt="key repeat rate" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/repeat-default@2x.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/v10/repeat-default@2x.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -268,13 +260,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" />
+  <img src="img/v10/repeat-system-preferences@2x.png" alt="key repeat rate" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/repeat-system-preferences@2x.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/v10/repeat-system-preferences@2x.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -294,13 +286,13 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" />
+  <img src="img/v10/repeat-overwrite@2x.png" alt="key repeat rate" />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/repeat-overwrite@2x.png" alt="key repeat rate" style="width: 100%" />
+        <img src="img/v10/repeat-overwrite@2x.png" alt="key repeat rate" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -323,7 +315,7 @@ src="img/karabiner-icon@2x.png" width="148" height="168"            />
         <p>
           <img
           alt="quit"
-src="img/karabiner-quit@2x.png" width="428" height="171"          />
+src="img/v10/karabiner-quit@2x.png" width="428" height="171"          />
         </p>
       </section>
 
@@ -339,13 +331,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" />
+  <img src="img/v10/karabiner-uninstall@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-uninstall@2x.png" alt="preferences pane" style="width: 100%" />
+        <img src="img/v10/karabiner-uninstall@2x.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -366,13 +358,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" />
+  <img src="img/v10/karabiner-check-for-updates@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/v10/karabiner-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -386,13 +378,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
+  <img src="img/v10/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/v10/karabiner-check-for-updates-beta@2x.png" alt="Check for updates" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -451,13 +443,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" />
+  <img src="img/v10/axnotifier-alert@2x.png" alt="AXNotifier" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 560px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-alert@2x.png" alt="AXNotifier" style="width: 100%" />
+        <img src="img/v10/axnotifier-alert@2x.png" alt="AXNotifier" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -465,13 +457,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
+  <img src="img/v10/axnotifier-dialog@2x.png" alt="AXNotifier dialog" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 521px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
+        <img src="img/v10/axnotifier-dialog@2x.png" alt="AXNotifier dialog" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -494,13 +486,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" />
+  <img src="img/v10/axnotifier-example-app@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-app@2x.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/v10/axnotifier-example-app@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -514,13 +506,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-13" class="thumbnail">
-  <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" />
+  <img src="img/v10/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/v10/axnotifier-example-windowname@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -534,13 +526,13 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-14" class="thumbnail">
-  <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" />
+  <img src="img/v10/axnotifier-example-role@2x.png" alt="AXNotifier examples" />
 </a>
 <div class="modal fade" id="lightbox-14" tabindex="30014">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/axnotifier-example-role@2x.png" alt="AXNotifier examples" style="width: 100%" />
+        <img src="img/v10/axnotifier-example-role@2x.png" alt="AXNotifier examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -578,17 +570,17 @@ src="img/karabiner-quit@2x.png" width="428" height="171"          />
           <div class="col-lg-6">
             <img
             alt="menu"
-src="img/eventviewer-menu@2x.png" width="460" height="163"            />
+src="img/v10/eventviewer-menu@2x.png" width="460" height="163"            />
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-15" class="thumbnail">
-  <img src="img/eventviewer@2x.png" alt="eventviewer" />
+  <img src="img/v10/eventviewer@2x.png" alt="eventviewer" />
 </a>
 <div class="modal fade" id="lightbox-15" tabindex="30015">
   <div class="modal-dialog clickable" style="width: 929px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
+        <img src="img/v10/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -614,13 +606,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-16" class="thumbnail">
-  <img src="img/karabiner-xml1@2x.png" alt="open private.xml" />
+  <img src="img/v10/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
 <div class="modal fade" id="lightbox-16" tabindex="30016">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
+        <img src="img/v10/karabiner-xml1@2x.png" alt="open private.xml" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -633,13 +625,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-17" class="thumbnail">
-  <img src="img/karabiner-xml2@2x.png" alt="finder" />
+  <img src="img/v10/karabiner-xml2@2x.png" alt="finder" />
 </a>
 <div class="modal fade" id="lightbox-17" tabindex="30017">
   <div class="modal-dialog clickable" style="width: 812px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml2@2x.png" alt="finder" style="width: 100%" />
+        <img src="img/v10/karabiner-xml2@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -652,13 +644,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-18" class="thumbnail">
-  <img src="img/karabiner-xml3@2x.png" alt="finder" />
+  <img src="img/v10/karabiner-xml3@2x.png" alt="finder" />
 </a>
 <div class="modal fade" id="lightbox-18" tabindex="30018">
   <div class="modal-dialog clickable" style="width: 809px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml3@2x.png" alt="finder" style="width: 100%" />
+        <img src="img/v10/karabiner-xml3@2x.png" alt="finder" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -671,13 +663,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
-  <img src="img/karabiner-xml4@2x.png" alt="textedit" />
+  <img src="img/v10/karabiner-xml4@2x.png" alt="textedit" />
 </a>
 <div class="modal fade" id="lightbox-19" tabindex="30019">
   <div class="modal-dialog clickable" style="width: 682px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml4@2x.png" alt="textedit" style="width: 100%" />
+        <img src="img/v10/karabiner-xml4@2x.png" alt="textedit" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -690,13 +682,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-20" class="thumbnail">
-  <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
+  <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-20" tabindex="30020">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
+        <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -709,13 +701,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-21" class="thumbnail">
-  <img src="img/karabiner-xml6@2x.png" alt="reloaded" />
+  <img src="img/v10/karabiner-xml6@2x.png" alt="reloaded" />
 </a>
 <div class="modal fade" id="lightbox-21" tabindex="30021">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml6@2x.png" alt="reloaded" style="width: 100%" />
+        <img src="img/v10/karabiner-xml6@2x.png" alt="reloaded" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -729,13 +721,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-22" class="thumbnail">
-  <img src="img/karabiner-xml7@2x.png" alt="enable new setting" />
+  <img src="img/v10/karabiner-xml7@2x.png" alt="enable new setting" />
 </a>
 <div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml7@2x.png" alt="enable new setting" style="width: 100%" />
+        <img src="img/v10/karabiner-xml7@2x.png" alt="enable new setting" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -767,13 +759,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-23" class="thumbnail">
-  <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
+  <img src="img/v10/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
 <div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
+        <img src="img/v10/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -796,13 +788,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-24" class="thumbnail">
-  <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
+  <img src="img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
 <div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" style="width: 100%" />
+        <img src="img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -890,13 +882,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-25" class="thumbnail">
-  <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
+  <img src="img/v10/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
 </a>
 <div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 477px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
+        <img src="img/v10/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1007,13 +999,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-26" class="thumbnail">
-  <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" />
+  <img src="img/v10/multitouchextension-launch-button@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/multitouchextension-launch-button@2x.png" alt="preferences pane" style="width: 100%" />
+        <img src="img/v10/multitouchextension-launch-button@2x.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1026,13 +1018,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-27" class="thumbnail">
-  <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" />
+  <img src="img/v10/multitouchextension-dock-icon@2x.png" alt="dock" />
 </a>
 <div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 581px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/multitouchextension-dock-icon@2x.png" alt="dock" style="width: 100%" />
+        <img src="img/v10/multitouchextension-dock-icon@2x.png" alt="dock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1047,13 +1039,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-28" class="thumbnail">
-  <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
+  <img src="img/v10/multitouchextension-preferences1@2x.png" alt="multi-touch extension" />
 </a>
 <div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/multitouchextension-preferences1@2x.png" alt="multi-touch extension" style="width: 100%" />
+        <img src="img/v10/multitouchextension-preferences1@2x.png" alt="multi-touch extension" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1061,13 +1053,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
               </div>
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-29" class="thumbnail">
-  <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
+  <img src="img/v10/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" />
 </a>
 <div class="modal fade" id="lightbox-29" tabindex="30029">
   <div class="modal-dialog clickable" style="width: 600px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" style="width: 100%" />
+        <img src="img/v10/multitouchextension-preferences2@2x.png" alt="configuration of ignored area" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1090,7 +1082,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"            />
         <p>
           <img
           alt="profiles"
-src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
+src="img/v10/karabiner-profiles-menu@2x.png" width="412" height="220"          />
         </p>
         <h2>
             複数の設定の使い方
@@ -1101,13 +1093,13 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-30" class="thumbnail">
-  <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
+  <img src="img/v10/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
 <div class="modal fade" id="lightbox-30" tabindex="30030">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
+        <img src="img/v10/karabiner-profiles-preferences@2x.png" alt="menubar tab" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1122,7 +1114,7 @@ src="img/karabiner-profiles-menu@2x.png" width="412" height="220"          />
             <p>
               <img
               alt="profiles"
-src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"              />
+src="img/v10/karabiner-profiles-menu-selected@2x.png" width="254" height="198"              />
             </p>
           </li>
           <li>
@@ -1139,13 +1131,13 @@ src="img/karabiner-profiles-menu-selected@2x.png" width="254" height="198"      
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-31" class="thumbnail">
-  <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
+  <img src="img/v10/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
 <div class="modal fade" id="lightbox-31" tabindex="30031">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-profiles-shortcuts@2x.png" alt="switch profile" style="width: 100%" />
+        <img src="img/v10/karabiner-profiles-shortcuts@2x.png" alt="switch profile" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1356,13 +1348,13 @@ $ sh ~/Desktop/karabiner-import.sh
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-32" class="thumbnail">
-  <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" />
+  <img src="img/v10/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" />
 </a>
 <div class="modal fade" id="lightbox-32" tabindex="30032">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
+        <img src="img/v10/karabiner-debug-mode-enable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1370,13 +1362,13 @@ $ sh ~/Desktop/karabiner-import.sh
               </div>
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-33" class="thumbnail">
-  <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" />
+  <img src="img/v10/karabiner-debug-mode-password@2x.png" alt="Password" />
 </a>
 <div class="modal fade" id="lightbox-33" tabindex="30033">
   <div class="modal-dialog clickable" style="width: 500px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-debug-mode-password@2x.png" alt="Password" style="width: 100%" />
+        <img src="img/v10/karabiner-debug-mode-password@2x.png" alt="Password" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1397,13 +1389,13 @@ $ sh ~/Desktop/karabiner-import.sh
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-34" class="thumbnail">
-  <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
+  <img src="img/v10/karabiner-console@2x.png" alt="Launch Console.app" />
 </a>
 <div class="modal fade" id="lightbox-34" tabindex="30034">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
+        <img src="img/v10/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1419,13 +1411,13 @@ $ sh ~/Desktop/karabiner-import.sh
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-35" class="thumbnail">
-  <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" />
+  <img src="img/v10/karabiner-debug-mode@2x.png" alt="Launchpad" />
 </a>
 <div class="modal fade" id="lightbox-35" tabindex="30035">
   <div class="modal-dialog clickable" style="width: 1242px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-debug-mode@2x.png" alt="Launchpad" style="width: 100%" />
+        <img src="img/v10/karabiner-debug-mode@2x.png" alt="Launchpad" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1452,13 +1444,13 @@ Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCa
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-36" class="thumbnail">
-  <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" />
+  <img src="img/v10/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" />
 </a>
 <div class="modal fade" id="lightbox-36" tabindex="30036">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
+        <img src="img/v10/karabiner-debug-mode-disable@2x.png" alt="Toggle Debug Mode" style="width: 100%" />
       </div>
     </div>
   </div>

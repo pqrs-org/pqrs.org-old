@@ -2,12 +2,7 @@
   <header>
     <div class="page-header">
       <h1>
-        {{#language_en}}
-          Manual
-        {{/language_en}}
-        {{#language_ja}}
-          マニュアル
-        {{/language_ja}}
+        Manual
       </h1>
     </div>
   </header>
@@ -16,177 +11,49 @@
     <div class="col-md-9 pqrs-docs-container">
       <section>
         <div class="page-header">
-          <h1 id="usage">
-            {{#language_en}}
-              Usage
-            {{/language_en}}
-            {{#language_ja}}
-              使い方
-            {{/language_ja}}
-          </h1>
+          <h1 id="usage">Usage</h1>
         </div>
 
         <h2>Step 1</h2>
         <p>
-          {{#language_en}}
-            Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
-          {{/language_en}}
-          {{#language_ja}}
-            Launchpadを開いてください。（もしくは、「<span class="glyphicon glyphicon-folder-open"></span> アプリケーション」フォルダをFinderで開いてください。）
-          {{/language_ja}}
+          Open Launchpad (or open "<span class="glyphicon glyphicon-folder-open"></span> Applications" folder from Finder).
         </p>
         <p>
-          {{#language_en}}
-            Then, click Karabiner.
-          {{/language_en}}
-          {{#language_ja}}
-            そして、Karabinerをクリックしてください。
-          {{/language_ja}}
+          Then, click Karabiner-Elements.
         </p>
         <div class="row">
           <div class="col-lg-4">
             <img
             alt="launchpad"
             {{#imgsrc}}
-              img/karabiner-icon@2x.png
+              img/karabiner-elements-icon@2x.png
             {{/imgsrc}}
             />
           </div>
         </div>
 
-        <br />
-
-        <p>
-          <span class="label label-info">Note</span>
-          {{#language_en}}
-            If you're using KeyRemap4MacBook 7.8.0 or earlier,
-            <a href="files/preferencepane-keyremap4macbook.png">Preferences is in System Preferences.</a>
-          {{/language_en}}
-          {{#language_ja}}
-            KeyRemap4MacBook 7.8.0、またはそれ以前のバージョンを使用している場合、<a href="files/preferencepane-keyremap4macbook.png">設定画面はシステム環境設定にあります。</a>
-          {{/language_ja}}
-        </p>
-
         <h2>Step 2</h2>
 
         <p>
-          {{#language_en}}
-            An alert about accessibility features will be shown. Click "Open System Preferences".
-          {{/language_en}}
-          {{#language_ja}}
-            アクセシビリティ機能へのアクセスの確認ダイアログが表示されるので、「"システム環境設定"を開く」をクリックしてください。
-          {{/language_ja}}
+          An alert about kext policy will be shown since macOS High Sierra.<br />
+          Click "Open System Preferences &gt; Security &amp; Privacy" and press Allow button.
         </p>
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/axnotifier-dialog@2x.png AXNotifier dialog
-            {{/lightbox}}
-          </div>
-        </div>
-
-        <p>
-          {{#language_en}}
-            Then, select Karabiner_AXNotifier.
-          {{/language_en}}
-          {{#language_ja}}
-            そして、Karabiner_AXNotifierを選択します。
-          {{/language_ja}}
-        </p>
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/axnotifier-accessibility@2x.png AXNotifier Accessibility
+              img/high-sierra-kext-policy@2x.png An alert of Kext policy
             {{/lightbox}}
           </div>
         </div>
 
         <h2>Step 3</h2>
         <p>
-          {{#language_en}}
-            Activate your favorite settings from prepared settings.
-          {{/language_en}}
-          {{#language_ja}}
-            お好みの設定を有効にしてください。
-          {{/language_ja}}
+          Configure Karabiner-Elements from UI.
         </p>
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-usage-preferences@2x.png Preferences
-            {{/lightbox}}
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h1 id="keyrepeat">
-            {{#language_en}}
-              Change key repeat rate
-            {{/language_en}}
-            {{#language_ja}}
-              キーリピート速度の変更
-            {{/language_ja}}
-          </h1>
-        </div>
-        <p>
-          {{#language_en}}
-            Karabiner uses the key repeat parameters in "System Preferences > Keyboard" in default.
-          {{/language_en}}
-          {{#language_ja}}
-            Karabinerは初期状態だとシステム環境設定で指定されたキーリピート値を用います。
-          {{/language_ja}}
-        </p>
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/repeat-default@2x.png key repeat rate
-            {{/lightbox}}
-          </div>
-        </div>
-
-        <p>
-          {{#language_en}}
-            Therefore, please adjust key repeat rate in "System Preferences > Keyboard".
-          {{/language_en}}
-          {{#language_ja}}
-            そのため、「システム環境設定＞キーボード」でキーリピート値の設定をしてください。
-          {{/language_ja}}
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/repeat-system-preferences@2x.png key repeat rate
-            {{/lightbox}}
-          </div>
-        </div>
-
-        <h2 id="keyrepeat-overwrite">
-          {{#language_en}}
-            Overwrite the system key repeat rate
-          {{/language_en}}
-          {{#language_ja}}
-            キーリピート値の上書き
-          {{/language_ja}}
-        </h2>
-
-        <p>
-          {{#language_en}}
-            If you want to use more rapid key repeat rate, you can overwrite the system key repeat rate in Karabiner. <br />
-            Enable "Overwrite the key repeat values of system" and then adjust parameters.
-          {{/language_en}}
-          {{#language_ja}}
-            より高速なキーリピート値を使いたい場合、Karabinerでキーリピート値を上書きすることが出来ます。<br />
-            「Overwrite the key repeat values of system」を有効にして、パラメータを調整してください。
-          {{/language_ja}}
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/repeat-overwrite@2x.png key repeat rate
+              img/karabiner-elements-preferences@2x.png Preferences
             {{/lightbox}}
           </div>
         </div>
@@ -195,57 +62,44 @@
       <section>
         <div class="page-header">
           <h1 id="quit">
-            {{#language_en}}
-              How to quit
-            {{/language_en}}
-            {{#language_ja}}
-              終了する方法
-            {{/language_ja}}
+            How to quit
           </h1>
         </div>
 
         <p>
-          {{#language_en}}
-            Quit from menu bar.
-          {{/language_en}}
-          {{#language_ja}}
-            メニューバーから終了してください。
-          {{/language_ja}}
+          Quit from menu bar or Misc tab in Preferences.
         </p>
 
-        <p>
-          <img
-          alt="quit"
-          {{#imgsrc}}
-            img/karabiner-quit@2x.png
-          {{/imgsrc}}
-          />
-        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/karabiner-elements-menu-quit@2x.png Menu
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/karabiner-elements-quit@2x.png Preferences
+            {{/lightbox}}
+          </div>
+        </div>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="uninstall">
-            {{#language_en}}
-              Uninstall
-            {{/language_en}}
-            {{#language_ja}}
-              アンインストール方法
-            {{/language_ja}}
+            Uninstall
           </h1>
         </div>
         <p>
-          {{#language_en}}
-            Press the "launch uninstaller" button from "Misc &amp; Uninstall" tab.
-          {{/language_en}}
-          {{#language_ja}}
-            「Misc &amp; Uninstall」タブの「launch uninstaller」ボタンを押してください。
-          {{/language_ja}}
+          Press the "Uninstall Karabiner-Elements" button in "Misc" tab.
         </p>
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-uninstall@2x.png preferences pane
+              img/karabiner-elements-uninstall@2x.png Uninstall Karabiner-Elements
             {{/lightbox}}
           </div>
         </div>
@@ -254,26 +108,16 @@
       <section>
         <div class="page-header">
           <h1 id="check-for-updates">
-            {{#language_en}}
-              Check for updates
-            {{/language_en}}
-            {{#language_ja}}
-              最新版への更新
-            {{/language_ja}}
+            Check for updates
           </h1>
         </div>
         <p>
-          {{#language_en}}
-            You can check for updates from "Misc &amp; Uninstall" tab.
-          {{/language_en}}
-          {{#language_ja}}
-            「Misc &amp; Uninstall」タブで最新版への更新が出来ます。
-          {{/language_ja}}
+          You can check for updates from "Misc" tab.
         </p>
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-check-for-updates@2x.png Check for updates
+              img/karabiner-elements-check-for-updates@2x.png Check for updates
             {{/lightbox}}
           </div>
         </div>
@@ -289,221 +133,22 @@
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-check-for-updates-beta@2x.png Check for updates
+              img/karabiner-elements-check-for-updates-beta@2x.png Check for updates
             {{/lightbox}}
           </div>
         </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h1 id="axnotifier">
-            {{#language_en}}
-              AXNotifier
-            {{/language_en}}
-            {{#language_ja}}
-              AXNotifier
-            {{/language_ja}}
-          </h1>
-        </div>
-
-        <p>
-          {{#language_en}}
-            AXNotifier observes these events and notifies Karabiner:
-          {{/language_en}}
-          {{#language_ja}}
-            AXNotifierは以下のイベントを観察し、Karabinerに通知します。
-          {{/language_ja}}
-        </p>
-
-        <ul>
-          <li>
-            {{#language_en}}
-              An active application has been changed.
-            {{/language_en}}
-            {{#language_ja}}
-              アクティブなアプリケーションの変更。
-            {{/language_ja}}
-          </li>
-          <li>
-            {{#language_en}}
-              A focused window's title (window name) has been changed.
-            {{/language_en}}
-            {{#language_ja}}
-              フォーカスされたウィンドウのタイトル（window name）の変更。
-            {{/language_ja}}
-          </li>
-          <li>
-            {{#language_en}}
-              A focused ui element role (AXTextArea, AXButton, etc) has been changed.
-            {{/language_en}}
-            {{#language_ja}}
-              フォーカスされたUIエレメントのロール（AXTextArea、AXButtonなど）の変更。
-            {{/language_ja}}
-          </li>
-        </ul>
-
-        <p>
-          {{#language_en}}
-            That allows you to make following settings:
-          {{/language_en}}
-          {{#language_ja}}
-            これにより、次の設定を行うことができます。
-          {{/language_ja}}
-        </p>
-
-        <ul>
-          <li>
-            {{#language_en}}
-              Settings are effective in specific apps. (eg. "Change the command key only in Terminal".)
-            {{/language_en}}
-            {{#language_ja}}
-              特定のアプリで有効な設定。（例: ターミナルでコマンドキーを変更する。）
-            {{/language_ja}}
-          </li>
-          <li>
-            {{#language_en}}
-              Settings are effective in specific window name. (eg. "Disable command-w in Gmail on Google Chrome".)
-            {{/language_en}}
-            {{#language_ja}}
-              特定のウィンドウタイトルで有効な設定。（例: Google ChromeのGmailでcommand-wを無効にする。）
-            {{/language_ja}}
-          </li>
-          <li>
-            {{#language_en}}
-              Settings are effective in specific ui element role. (eg. "Change hjkl keys to arrow keys when you are not editing text.)
-            {{/language_en}}
-            {{#language_ja}}
-              特定のUIエレメントのロールで有効な設定。（例: テキスト編集中でない場合はhjklキーをカーソルキーにする。）
-            {{/language_ja}}
-          </li>
-        </ul>
-
-        <h2>
-          {{#language_en}}
-            Using accessibility features
-          {{/language_en}}
-          {{#language_ja}}
-            アクセシビリティ機能の使用
-          {{/language_ja}}
-        </h2>
-
-        <p>
-          {{#language_en}}
-            AXNotifier requires using accessibility features in order to observe window title (window name) and ui element role.
-          {{/language_en}}
-          {{#language_ja}}
-            AXNotifierは、ウィンドウタイトルとUIエレメントのロールの監視を行うために、アクセシビリティ機能へのアクセスを要求します。
-          {{/language_ja}}
-        </p>
-
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/axnotifier-alert@2x.png AXNotifier
-            {{/lightbox}}
-          </div>
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/axnotifier-dialog@2x.png AXNotifier dialog
-            {{/lightbox}}
-          </div>
-        </div>
-
-        <p>
-          {{#language_en}}
-            If you do not need to observe these items, you can deny the request. <br />
-            Please turn on "Do not show this message again".
-          {{/language_en}}
-          {{#language_ja}}
-            もし、これらを監視する必要がなければ、アクセシビリティ機能へのアクセスを拒否してもかまいません。<br />
-            「Do not show this message again」にチェックを入れてください。
-          {{/language_ja}}
-        </p>
-
-        <h2>
-          {{#language_en}}
-            Useful settings using AXNotifier
-          {{/language_en}}
-          {{#language_ja}}
-            AXNotifierを使っている便利な設定
-          {{/language_ja}}
-        </h2>
-
-        <ul>
-          <li>
-            Change command key to control key in RDC.
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/axnotifier-example-app@2x.png AXNotifier examples
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-
-          <li>
-            Disable Close Tab shortcut (command-w) on Gmail.
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/axnotifier-example-windowname@2x.png AXNotifier examples
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-
-          <li>
-            Use "hjkl" keys as arrow keys if you are not editing text.
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/axnotifier-example-role@2x.png AXNotifier examples
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-        </ul>
-
-        <h2>
-          {{#language_en}}
-            How to use AXNotifier in your own settings
-          {{/language_en}}
-          {{#language_ja}}
-            AXNotifierを使った設定の作り方
-          {{/language_ja}}
-        </h2>
-
-        <ul>
-          <li><a href="xml.html.{{ language }}#appdef">Specify application in private.xml.</a></li>
-          <li><a href="xml.html.{{ language }}#windownamedef">Specify window name (window title) in private.xml.</a></li>
-          <li><a href="xml.html.{{ language }}#uielementroledef">Specify ui element role in private.xml.</a></li>
-        </ul>
       </section>
 
       <section>
         <div class="page-header">
           <h1 id="eventviewer">
-            {{#language_en}}
-              How to confirm result of key remappings
-            {{/language_en}}
-            {{#language_ja}}
-              キーリマップの結果を確認する方法
-            {{/language_ja}}
+            How to confirm result of configuration
           </h1>
         </div>
 
         <p>
-          {{#language_en}}
-            You can examine keyboard and mouse events by using EventViewer.
-            <br />
-            Launch EventViewer from a menu.
-          {{/language_en}}
-          {{#language_ja}}
-            EventViewerでキーボードやマウスのイベントを確認することが出来ます。
-            <br />
-            メニューからEventViewerを起動してください。
-          {{/language_ja}}
+          You can examine keyboard and mouse events by using EventViewer.<br />
+          Launch Karabiner-EventViewer from Launchpad.
         </p>
 
         <div class="row">
@@ -511,13 +156,13 @@
             <img
             alt="menu"
             {{#imgsrc}}
-              img/eventviewer-menu@2x.png
+              img/karabiner-elements-eventviewer-icon@2x.png
             {{/imgsrc}}
             />
           </div>
           <div class="col-lg-4">
             {{#lightbox}}
-              img/eventviewer@2x.png eventviewer
+              img/v10/eventviewer@2x.png eventviewer
             {{/lightbox}}
           </div>
         </div>
@@ -555,7 +200,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml1@2x.png open private.xml
+                  img/v10/karabiner-xml1@2x.png open private.xml
                 {{/lightbox}}
               </div>
             </div>
@@ -570,7 +215,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml2@2x.png finder
+                  img/v10/karabiner-xml2@2x.png finder
                 {{/lightbox}}
               </div>
             </div>
@@ -585,7 +230,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml3@2x.png finder
+                  img/v10/karabiner-xml3@2x.png finder
                 {{/lightbox}}
               </div>
             </div>
@@ -600,7 +245,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml4@2x.png textedit
+                  img/v10/karabiner-xml4@2x.png textedit
                 {{/lightbox}}
               </div>
             </div>
@@ -615,7 +260,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml5@2x.png Reload XML
+                  img/v10/karabiner-xml5@2x.png Reload XML
                 {{/lightbox}}
               </div>
             </div>
@@ -630,7 +275,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml6@2x.png reloaded
+                  img/v10/karabiner-xml6@2x.png reloaded
                 {{/lightbox}}
               </div>
             </div>
@@ -646,7 +291,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-xml7@2x.png enable new setting
+                  img/v10/karabiner-xml7@2x.png enable new setting
                 {{/lightbox}}
               </div>
             </div>
@@ -696,7 +341,7 @@
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-checkbox-use-prepared-settings@2x.png checkbox-use-prepared-settings
+              img/v10/karabiner-checkbox-use-prepared-settings@2x.png checkbox-use-prepared-settings
             {{/lightbox}}
           </div>
         </div>
@@ -730,7 +375,7 @@
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-checkbox-use-prepared-settings-result@2x.png checkbox-use-prepared-settings-result
+              img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png checkbox-use-prepared-settings-result
             {{/lightbox}}
           </div>
         </div>
@@ -861,7 +506,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/event-modification-chaining-keyboard-preferences@2x.png keyboard preferences
+                  img/v10/event-modification-chaining-keyboard-preferences@2x.png keyboard preferences
                 {{/lightbox}}
               </div>
             </div>
@@ -1033,118 +678,6 @@
 
       <section>
         <div class="page-header">
-          <h1 id="multitouchextension">
-            {{#language_en}}
-              Multi-touch extension
-            {{/language_en}}
-            {{#language_ja}}
-              マルチタッチ拡張
-            {{/language_ja}}
-          </h1>
-        </div>
-
-        <p>
-          {{#language_en}}
-            An application named "multi-touch extension" is attached.
-            <br />
-            You can use this application with multi-touch devices such as MacBook, Magic Mouse and Magic Trackpad.
-          {{/language_en}}
-          {{#language_ja}}
-            multi-touch extensionというアプリケーションが付属しています。
-            <br />
-            MacBookやMagic Mouse、Magic Trackpadなどのマルチタッチデバイスと一緒に使います。
-          {{/language_ja}}
-        </p>
-        <p>
-          {{#language_en}}
-            This application activates specific setting while fingers touch the multi-touch device.
-            <br />
-            For example, you can activate Complete Vi Mode while two fingers touch the device.
-          {{/language_en}}
-          {{#language_ja}}
-            このアプリケーションは、マルチタッチデバイスに指が触れている間だけ特定の設定を有効にします。
-            <br />
-            例えば、指が2本触れているときだけ、Complete Vi Modeを有効にするなどです。
-          {{/language_ja}}
-        </p>
-        <p>
-          {{#language_en}}
-            <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html">ThumbSense</a> is one of the function which multi-touch extension supplies.
-          {{/language_en}}
-          {{#language_ja}}
-            <a target="_blank" href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html">ThumbSense</a>はマルチタッチ拡張が提供する機能の一つです。
-          {{/language_ja}}
-        </p>
-
-        <h2>
-          {{#language_en}}
-            How to use multi-touch extension
-          {{/language_en}}
-          {{#language_ja}}
-            マルチタッチ拡張の使い方
-          {{/language_ja}}
-        </h2>
-        <ol class="steps">
-          <li>
-            {{#language_en}}
-              Click "Launch multi-touch extension" button in "Karabiner Preference &gt; Misc &amp; Uninstall".
-            {{/language_en}}
-            {{#language_ja}}
-              Karabinerの設定画面の「Misc &amp; Uninstall」タブから「Launch "multi-touch extension"」をクリックします。
-            {{/language_ja}}
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/multitouchextension-launch-button@2x.png preferences pane
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-          <li>
-            {{#language_en}}
-              Then application is launched. Click the icon in Dock.
-            {{/language_en}}
-            {{#language_ja}}
-              アプリケーションが立ち上がるのでDockからアイコンをクリックします。
-            {{/language_ja}}
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/multitouchextension-dock-icon@2x.png dock
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-          <li>
-            {{#language_en}}
-              Then the preference window is opened. Change checkboxes and text if needed.
-              <br />
-              The value of "Target setting" such as notsave.thumbsense is &lt;identifier&gt; in
-              <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>
-            {{/language_en}}
-            {{#language_ja}}
-              設定画面が開くので、必要に応じてチェックボックスやテキストの中身を変更してください。
-              <br />
-              notsave.thumbsenseなどの設定名は<a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/core/server/Resources/include/checkbox/thumbsense.xml">XML</a>の&lt;identifier&gt;の値です。
-            {{/language_ja}}
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/multitouchextension-preferences1@2x.png multi-touch extension
-                {{/lightbox}}
-              </div>
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/multitouchextension-preferences2@2x.png configuration of ignored area
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <section>
-        <div class="page-header">
           <h1 id="profiles">
             {{#language_en}}
               Multiple profiles
@@ -1166,7 +699,7 @@
           <img
           alt="profiles"
           {{#imgsrc}}
-            img/karabiner-profiles-menu@2x.png
+            img/v10/karabiner-profiles-menu@2x.png
           {{/imgsrc}}
           />
         </p>
@@ -1189,7 +722,7 @@
             <div class="row">
               <div class="col-lg-4">
                 {{#lightbox}}
-                  img/karabiner-profiles-preferences@2x.png menubar tab
+                  img/v10/karabiner-profiles-preferences@2x.png menubar tab
                 {{/lightbox}}
               </div>
             </div>
@@ -1207,7 +740,7 @@
               <img
               alt="profiles"
               {{#imgsrc}}
-                img/karabiner-profiles-menu-selected@2x.png
+                img/v10/karabiner-profiles-menu-selected@2x.png
               {{/imgsrc}}
               />
             </p>
@@ -1241,7 +774,7 @@
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/karabiner-profiles-shortcuts@2x.png switch profile
+              img/v10/karabiner-profiles-shortcuts@2x.png switch profile
             {{/lightbox}}
           </div>
         </div>
@@ -1531,190 +1064,6 @@
         </p>
       </section>
 
-      <section>
-        <div class="page-header">
-          <h1 id="debugmode">
-            {{#language_en}}
-              Debug Mode
-            {{/language_en}}
-            {{#language_ja}}
-              デバッグモード
-            {{/language_ja}}
-          </h1>
-        </div>
-        <p>
-          {{#language_en}}
-            You can investigate a normal key code by <a href="#eventviewer">EventViewer</a>.
-            <br />
-            However, you cannot investigate key events which will be processed on the system side,
-            such as Command + Tab, Mission Control key.
-          {{/language_en}}
-          {{#language_ja}}
-            通常のキーイベントは<a href="#eventviewer">EventViewer</a>で確認することが出来ます。
-            <br />
-            しかし、Command+Tabやミッションコントロールキーなどのシステム側で処理されるキーについてはEventViewerで確認することが出来ません。
-          {{/language_ja}}
-        </p>
-
-        <p>
-          {{#language_en}}
-            You have to enable debug mode in order to show these system key events.
-          {{/language_en}}
-          {{#language_ja}}
-            これらのシステムキーイベントを表示するために、デバッグモードを有効にする必要があります。
-          {{/language_ja}}
-        </p>
-
-        <ol>
-          <li>
-            <p>
-              {{#language_en}}
-                Press the "Toggle Debug Mode" button in Karabiner Preferences &gt; Misc &amp; Uninstall tab.<br />
-                Then, enter password.
-              {{/language_en}}
-              {{#language_ja}}
-                Karabinerの設定のMisc &amp; Uninstallタブの「Toggle Debug Mode」ボタンを押します。<br />
-                そして、パスワードを入力します。
-              {{/language_ja}}
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/karabiner-debug-mode-enable@2x.png Toggle Debug Mode
-                {{/lightbox}}
-              </div>
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/karabiner-debug-mode-password@2x.png Password
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <p>
-              {{#language_en}}
-                You can confirm the debug log by Console.app.
-              {{/language_en}}
-              {{#language_ja}}
-                コンソールアプリでデバッグログを確認できます。
-              {{/language_ja}}
-            </p>
-
-            <p>
-              {{#language_en}}
-                Launch Console app from the "Launch Console.app" button.
-              {{/language_en}}
-              {{#language_ja}}
-                コンソールアプリを「Launch Console.app」ボタンから起動してください。
-              {{/language_ja}}
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/karabiner-console@2x.png Launch Console.app
-                {{/lightbox}}
-              </div>
-            </div>
-
-            <p>
-              {{#language_en}}
-                Then, the debug log will be appended when you press keys. <br />
-                You can select logs and copy them.
-              {{/language_en}}
-              {{#language_ja}}
-                キーを押すと、デバッグログが追加されます。<br />
-                ログを選択してコピーします。
-              {{/language_ja}}
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/karabiner-debug-mode@2x.png Launchpad
-                {{/lightbox}}
-              </div>
-            </div>
-
-            <p>
-              {{#language_en}}
-                Paste to text editor and confirm the log.
-              {{/language_en}}
-              {{#language_ja}}
-                テキストエディタに貼り付けて中身を確認します。
-              {{/language_ja}}
-            </p>
-
-            <pre>{{#strip_indented_lines}}
-              |Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [ caught]: eventType 12, flags 0x80100008, key 0x0037, kbdType  43, repeat = 0
-              |Mar 21 22:19:52 rapeseed kernel[0]: org.pqrs.Karabiner --Debug-- KeyboardEventCallback [sending]: eventType 12, flags 0x00040001, key 0x003b, kbdType  43, repeat = 0
-            {{/strip_indented_lines}}</pre>
-          </li>
-
-          <li>
-            <p>
-              {{#language_en}}
-                Disable the debug mode by the "Toggle Debug Mode" button.<br />
-                You don't need to enter password to disable the debug mode.
-              {{/language_en}}
-              {{#language_ja}}
-                「Toggle Debug Mode」ボタンでデバッグモードを終了してください。<br />
-                デバックモードを終了するときはパスワードは不要です。
-              {{/language_ja}}
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-                {{#lightbox}}
-                  img/karabiner-debug-mode-disable@2x.png Toggle Debug Mode
-                {{/lightbox}}
-              </div>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <h2>
-        {{#language_en}}
-          Usage of the debug mode results
-        {{/language_en}}
-        {{#language_ja}}
-          デバッグモードの結果を利用する
-        {{/language_ja}}
-      </h2>
-      <p>
-        {{#language_en}}
-          You can convert a raw key code (for example, "key 0x0037") to "KeyCode::COMMAND_L" by using KeyCode.data.
-        {{/language_en}}
-        {{#language_ja}}
-          KeyCode.dataを使って、「key 0x0037」などの生のキーコードを「KeyCode::COMMAND_L」の形式に変更できます。
-        {{/language_ja}}
-      </p>
-      <ul>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/KeyCode.data">List of KeyCode.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/ModifierFlag.data">List of ModifierFlag.</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/ConsumerKeyCode.data">List of ConsumerKeyCode (Brightness Control, Audio Volume Control, Music Control, etc).</a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/tekezo/Karabiner/blob/version_10.22.0/src/bridge/generator/keycode/data/PointingButton.data">List of PointingButton.</a>
-        </li>
-      </ul>
-
-      <p>
-        {{#language_en}}
-          Or use <a href="xml.html.{{ language }}#keycode">KeyCode::RawValue::0x0037</a> in private.xml.
-        {{/language_en}}
-        {{#language_ja}}
-          もしくは、「<a href="xml.html.{{ language }}#keycode">KeyCode::RawValue::0x0037</a>」をprivate.xmlで使用します。
-        {{/language_ja}}
-      </p>
     </div>
     <div class="col-md-3">
       {{> ../../pqrs_tabs }}

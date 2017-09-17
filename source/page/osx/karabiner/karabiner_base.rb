@@ -31,7 +31,7 @@ class KarabinerBase < PqrsBase
               :href => '/osx/karabiner/document.html',
               :name_l10n => {
                 :en => 'Manual',
-                :ja => 'マニュアル',
+                :ja => 'マニュアル（英語）',
               },
             },
             {
@@ -46,13 +46,6 @@ class KarabinerBase < PqrsBase
               :name_l10n => {
                 :en => 'Version History',
                 :ja => '更新履歴',
-              },
-            },
-            {
-              :href => '/osx/karabiner/list.html',
-              :name_l10n => {
-                :en => 'List of prepared settings',
-                :ja => 'あらかじめ用意されている設定項目一覧',
               },
             },
           ]
@@ -105,6 +98,13 @@ class KarabinerBase < PqrsBase
               :name_l10n => {
                 :en => 'Q&A',
                 :ja => 'Q&A',
+              },
+            },
+            {
+              :href => '/osx/karabiner/list.html',
+              :name_l10n => {
+                :en => 'List of prepared settings',
+                :ja => 'あらかじめ用意されている設定項目一覧',
               },
             },
           ],

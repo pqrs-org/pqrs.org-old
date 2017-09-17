@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -53,16 +53,13 @@
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル（英語）</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/history.html.ja">更新履歴</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -72,6 +69,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
@@ -84,19 +87,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -126,7 +118,12 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    このドキュメントは前のバージョンのものです。<br />
+    （Karabiner-10.22.0向け）
+</div>
+
+<div class="container">
   <header>
     <div class="page-header">
       <h1>private.xml Reference Manual</h1>
@@ -162,13 +159,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/karabiner-xml-example@2x.png" alt="preferences pane" />
+  <img src="img/v10/karabiner-xml-example@2x.png" alt="preferences pane" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml-example@2x.png" alt="preferences pane" style="width: 100%" />
+        <img src="img/v10/karabiner-xml-example@2x.png" alt="preferences pane" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -186,13 +183,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" />
+  <img src="img/v10/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" style="width: 100%" />
+        <img src="img/v10/karabiner-samples-for-developers@2x.png" alt="Samples for Karabiner Developer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -515,13 +512,13 @@
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/karabiner-filter-examples@2x.png" alt="filter-examples" />
+  <img src="img/v10/karabiner-filter-examples@2x.png" alt="filter-examples" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-filter-examples@2x.png" alt="filter-examples" style="width: 100%" />
+        <img src="img/v10/karabiner-filter-examples@2x.png" alt="filter-examples" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -625,7 +622,7 @@
             <p>
               <img
               alt="menu"
-src="img/eventviewer-menu@2x.png" width="460" height="163"              />
+src="img/v10/eventviewer-menu@2x.png" width="460" height="163"              />
             </p>
           </li>
           <li>
@@ -643,13 +640,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" />
+  <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
+        <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -949,7 +946,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
             <p>
               <img
               alt="menu"
-src="img/eventviewer-menu@2x.png" width="460" height="163"              />
+src="img/v10/eventviewer-menu@2x.png" width="460" height="163"              />
             </p>
           </li>
           <li>
@@ -970,13 +967,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" />
+  <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
+        <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1081,13 +1078,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" />
+  <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
+        <img src="img/v10/eventviewer-app@2x.png" alt="eventviewer-app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1140,7 +1137,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
             <p>
               <img
               alt="menu"
-src="img/eventviewer-menu@2x.png" width="460" height="163"              />
+src="img/v10/eventviewer-menu@2x.png" width="460" height="163"              />
             </p>
           </li>
           <li>
@@ -1156,13 +1153,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/eventviewer-devices@2x.png" alt="eventviewer-devices" />
+  <img src="img/v10/eventviewer-devices@2x.png" alt="eventviewer-devices" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-devices@2x.png" alt="eventviewer-devices" style="width: 100%" />
+        <img src="img/v10/eventviewer-devices@2x.png" alt="eventviewer-devices" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1310,13 +1307,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/eventviewer-locationid@2x.png" alt="Location ID" />
+  <img src="img/v10/eventviewer-locationid@2x.png" alt="Location ID" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-locationid@2x.png" alt="Location ID" style="width: 100%" />
+        <img src="img/v10/eventviewer-locationid@2x.png" alt="Location ID" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -1451,13 +1448,13 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/eventviewer-inputsource@2x.png" alt="Event Viewer" />
+  <img src="img/v10/eventviewer-inputsource@2x.png" alt="Event Viewer" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/eventviewer-inputsource@2x.png" alt="Event Viewer" style="width: 100%" />
+        <img src="img/v10/eventviewer-inputsource@2x.png" alt="Event Viewer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -2007,7 +2004,7 @@ src="img/eventviewer-menu@2x.png" width="460" height="163"              />
           <br />
           <img
           alt="lock indicator"
-src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
+src="img/v10/karabiner-lock-indicator@2x.png" width="302" height="88"          />
         </p>
 
         <h2 id="prepared-modifierdef">Prepared virtual modifier definitions</h2>
@@ -2093,13 +2090,13 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/karabiner-xml5@2x.png" alt="Reload XML" />
+  <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
+        <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -3404,13 +3401,13 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
+  <img src="img/v10/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
+        <img src="img/v10/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -3484,13 +3481,13 @@ src="img/karabiner-lock-indicator@2x.png" width="302" height="88"          />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" />
+  <img src="img/v10/unicode-hex-input@2x.png" alt="unicode-hex-input" />
 </a>
 <div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 718px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
+        <img src="img/v10/unicode-hex-input@2x.png" alt="unicode-hex-input" style="width: 100%" />
       </div>
     </div>
   </div>

@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -60,9 +60,6 @@
                       <li >
                         <a href="/osx/karabiner/history.html.en">Version History</a>
                       </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
-                      </li>
                   </ul>
                 </li>
                 <li class="dropdown active">
@@ -71,6 +68,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.en">Manual for Karabiner-10.22.0</a>
                       </li>
@@ -83,19 +86,8 @@
                       <li class="active">
                         <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Additional Apps
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.en">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
                       </li>
                   </ul>
                 </li>
@@ -125,7 +117,12 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    It is a document for the previous version.<br />
+    (For Karabiner-10.22.0)
+</div>
+
+<div class="container">
   <header>
     <div class="page-header">
       <h1>
@@ -182,13 +179,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/karabiner-console@2x.png" alt="Launch Console.app" />
+  <img src="img/v10/karabiner-console@2x.png" alt="Launch Console.app" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
+        <img src="img/v10/karabiner-console@2x.png" alt="Launch Console.app" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -203,13 +200,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/console@2x.png" alt="Console" />
+  <img src="img/v10/console@2x.png" alt="Console" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 868px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/console@2x.png" alt="Console" style="width: 100%" />
+        <img src="img/v10/console@2x.png" alt="Console" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -290,13 +287,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/swap_caps_and_delete_1@2x.png" alt="Seil" />
+  <img src="img/v10/swap_caps_and_delete_1@2x.png" alt="Seil" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_1@2x.png" alt="Seil" style="width: 100%" />
+        <img src="img/v10/swap_caps_and_delete_1@2x.png" alt="Seil" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -309,13 +306,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/capslock@2x.png" alt="caps lock" />
+  <img src="img/v10/capslock@2x.png" alt="caps lock" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/capslock@2x.png" alt="caps lock" style="width: 100%" />
+        <img src="img/v10/capslock@2x.png" alt="caps lock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -328,13 +325,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" />
+  <img src="img/v10/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" style="width: 100%" />
+        <img src="img/v10/swap_caps_and_delete_2@2x.png" alt="Application Key to Delete" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -347,13 +344,13 @@
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
-  <img src="img/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" />
+  <img src="img/v10/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
   <div class="modal-dialog clickable" style="width: 722px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" style="width: 100%" />
+        <img src="img/v10/swap_caps_and_delete_3@2x.png" alt="Delete to CapsLock" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -440,13 +437,13 @@
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
-  <img src="img/fnfunc1@2x.png" alt="fnfunc" />
+  <img src="img/v10/fnfunc1@2x.png" alt="fnfunc" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc1@2x.png" alt="fnfunc" style="width: 100%" />
+        <img src="img/v10/fnfunc1@2x.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -462,13 +459,13 @@
           </div>
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/fnfunc@2x.png" alt="fnfunc" />
+  <img src="img/v10/fnfunc@2x.png" alt="fnfunc" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 721px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/fnfunc@2x.png" alt="fnfunc" style="width: 100%" />
+        <img src="img/v10/fnfunc@2x.png" alt="fnfunc" style="width: 100%" />
       </div>
     </div>
   </div>

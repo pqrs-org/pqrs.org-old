@@ -26,7 +26,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
   </head>
 
-  <body class="">
+  <body class=" with-page-top-fixed-alert ">
 
     <!-- Docs master nav -->
     <header class="navbar navbar-fixed-top bs-docs-nav">
@@ -53,7 +53,7 @@
                   </a>
                   <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/document.html.ja">マニュアル</a>
+                        <a href="/osx/karabiner/document.html.ja">マニュアル（英語）</a>
                       </li>
                       <li >
                         <a href="/osx/karabiner/source.html.ja">ライセンス・ソースコード</a>
@@ -61,17 +61,20 @@
                       <li >
                         <a href="/osx/karabiner/history.html.ja">更新履歴</a>
                       </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
-                      </li>
                   </ul>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     昔のページ
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li class="active">
+                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.ja">マニュアル（Karabiner-10.22.0向け）</a>
                       </li>
@@ -84,19 +87,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.ja">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    追加アプリ
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li class="active">
-                        <a href="/osx/karabiner/seil.html.ja">Seil</a>
-                      </li>
                       <li >
-                        <a href="/osx/karabiner/noejectdelay.html.ja">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.ja">あらかじめ用意されている設定項目一覧</a>
                       </li>
                   </ul>
                 </li>
@@ -126,7 +118,12 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="alert alert-danger" role="alert" id="page-top-fixed-alert">
+    このアプリケーションは以前のmacOS向けのものです。<br />
+    macOS Sierra以降では<a href="index.html.ja">Karabiner-Elements</a>を使ってください。
+</div>
+
+<div class="container">
   <header>
     <div class="jumbotron">
       <h1>Seil</h1>
@@ -233,13 +230,13 @@ src="../images/pkg-icon@2x.png" width="128" height="128"                />
                   インストーラが起動しますので、Seilをインストールします。
               </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/seil-installer@2x.png" alt="installer" />
+  <img src="img/v10/seil-installer@2x.png" alt="installer" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 680px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-installer@2x.png" alt="installer" style="width: 100%" />
+        <img src="img/v10/seil-installer@2x.png" alt="installer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -265,7 +262,7 @@ src="../images/pkg-icon@2x.png" width="128" height="128"                />
               <p>
                 <img
                 alt="icon"
-src="img/seil-icon@2x.png" width="140" height="159"                />
+src="img/v10/seil-icon@2x.png" width="140" height="159"                />
               </p>
             </div>
           </div>
@@ -290,7 +287,7 @@ src="img/seil-icon@2x.png" width="140" height="159"                />
           <div class="col-lg-4">
             <img
             alt="icon"
-src="img/seil-icon@2x.png" width="140" height="159"            />
+src="img/v10/seil-icon@2x.png" width="140" height="159"            />
           </div>
         </div>
 
@@ -308,13 +305,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/seil-preferences@2x.png" alt="Preferences" />
+  <img src="img/v10/seil-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-preferences@2x.png" alt="Preferences" style="width: 100%" />
+        <img src="img/v10/seil-preferences@2x.png" alt="Preferences" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -335,13 +332,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
         <div class="row">
           <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/capslock@2x.png" alt="No Action" />
+  <img src="img/v10/capslock@2x.png" alt="No Action" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
   <div class="modal-dialog clickable" style="width: 720px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/capslock@2x.png" alt="No Action" style="width: 100%" />
+        <img src="img/v10/capslock@2x.png" alt="No Action" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -357,13 +354,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
           <div class="row">
             <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/seil-noaction-multiple-devices@2x.png" alt="No Action" />
+  <img src="img/v10/seil-noaction-multiple-devices@2x.png" alt="No Action" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
   <div class="modal-dialog clickable" style="width: 725px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-noaction-multiple-devices@2x.png" alt="No Action" style="width: 100%" />
+        <img src="img/v10/seil-noaction-multiple-devices@2x.png" alt="No Action" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -386,13 +383,13 @@ src="img/seil-icon@2x.png" width="140" height="159"            />
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
-  <img src="img/seil-uninstall@2x.png" alt="Seil" />
+  <img src="img/v10/seil-uninstall@2x.png" alt="Seil" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/seil-uninstall@2x.png" alt="Seil" style="width: 100%" />
+        <img src="img/v10/seil-uninstall@2x.png" alt="Seil" style="width: 100%" />
       </div>
     </div>
   </div>

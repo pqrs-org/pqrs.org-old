@@ -60,9 +60,6 @@
                       <li >
                         <a href="/osx/karabiner/history.html.en">Version History</a>
                       </li>
-                      <li >
-                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
-                      </li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -71,6 +68,12 @@
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
+                      <li >
+                        <a href="/osx/karabiner/seil.html.en">Seil</a>
+                      </li>
+                      <li >
+                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                      </li>
                       <li >
                         <a href="/osx/karabiner/document_v10.html.en">Manual for Karabiner-10.22.0</a>
                       </li>
@@ -83,19 +86,8 @@
                       <li >
                         <a href="/osx/karabiner/faq.html.en">Q&amp;A</a>
                       </li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Additional Apps
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
                       <li >
-                        <a href="/osx/karabiner/seil.html.en">Seil</a>
-                      </li>
-                      <li >
-                        <a href="/osx/karabiner/noejectdelay.html.en">NoEjectDelay</a>
+                        <a href="/osx/karabiner/list.html.en">List of prepared settings</a>
                       </li>
                   </ul>
                 </li>
@@ -147,6 +139,13 @@
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>Karabiner-Elements</td>
+          <td>Public Domain</td>
+          <td>
+            <a target="_blank" href="https://github.com/tekezo/Karabiner-Elements">https://github.com/tekezo/Karabiner-Elements</a>
+          </td>
+        </tr>
         <tr>
           <td>Karabiner</td>
           <td>Public Domain</td>
