@@ -1,7 +1,7 @@
 /* variables */
 
 $header-nav-height: 50px;
-$modal-z-index: 1050;
+$zindex-modal: 1050;
 $page-top-fixed-alert-height: 72px;
 
 /* --------------------------------------------------
@@ -10,6 +10,12 @@ $page-top-fixed-alert-height: 72px;
 
 body {
   padding: 50px;
+
+  > div.container {
+    section {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 h2 {
@@ -30,6 +36,14 @@ header.navbar {
 
 div.jumbotron {
   margin-top: 20px;
+  position: relative;
+
+  div.github-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
 }
 
 div.pqrs-docs-container {
@@ -93,7 +107,7 @@ h3[id] {
 body.with-page-top-fixed-alert {
   header {
     margin-top: $page-top-fixed-alert-height;
-    z-index: $modal-z-index - 1;
+    z-index: $zindex-modal - 1;
   }
 
   #page-top-fixed-alert {
@@ -102,7 +116,7 @@ body.with-page-top-fixed-alert {
     left: 0;
     width: 100%;
     height: $page-top-fixed-alert-height;
-    z-index: $modal-z-index - 1;
+    z-index: $zindex-modal - 1;
     text-align: center;
   }
 
@@ -112,7 +126,6 @@ body.with-page-top-fixed-alert {
     h1[id],
     h2[id],
     h3[id] {
-      /* header height (50px) + fixed-alert (5px + 20px + 5px) + margin (50px) */
       padding-top: $header-nav-height + $page-top-fixed-alert-height + 20px !important;
       margin-top: -($header-nav-height + $page-top-fixed-alert-height + 20px) !important;
     }
