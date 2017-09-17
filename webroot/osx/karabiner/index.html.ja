@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.6ba3372d0a75087038708f3296d99666400792c5.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.506b6a56031f4ef5fdedcb4bbec3d0c9cee0953b.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -122,33 +122,78 @@
     <div class="jumbotron">
       <h1>Karabiner</h1>
       <p>
-          高機能で安定性も極めて高いmacOS用のキーボードカスタマイズツール。
+        A powerful and stable keyboard customizer for macOS.
       </p>
 
-      <ul style="margin-bottom: 20px">
-        <li>
-            既存の設定が多数用意されているので、<a href="document.html.ja">容易にカスタマイズできます。</a>
-        </li>
-        <li>
-            また、<a href="document.html.ja#privatexml">jsonであなた専用の設定を追加できます。</a>
-        </li>
-      </ul>
+      <br />
+
+      <div class="btn-group">
+        <a href="files/Karabiner-Elements-0.91.16.dmg" class="btn btn-primary btn-lg">Download</a>
+        <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="files/Karabiner-Elements-0.91.16.dmg">
+            For macOS High Sierra (10.13)<br />
+            For macOS Sierra (10.12)<br />
+            For macOS El Capitan (10.11)<br />
+            </a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="files/Karabiner-10.22.0.dmg">
+            For macOS El Capitan (10.11)<br />
+            For macOS Yosemite (10.10)<br />
+            For macOS Mavericks (10.9)<br />
+            </a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="files/KeyRemap4MacBook-8.4.0.dmg">
+            For macOS Mountain Lion (10.8)<br />
+            For macOS Lion (10.7)<br />
+            For macOS Snow Leopard (10.6)<br />
+            </a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="files/KeyRemap4MacBook-5.1.0.pkg.tar.gz">
+            For macOS Leopard (10.5)<br />
+            For macOS Tiger (10.4)<br />
+            </a>
+          </li>
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank">
+            Source code (GitHub)
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <p>
-<a class="btn btn-primary btn-lg"
-            href="files/Karabiner-Elements-0.91.16.dmg">Karabiner-Elements-0.91.16をダウンロード
-            &nbsp;<span class="label label-default">macOS High Sierra (10.13), Sierra (10.12) 用</span></a>      </p>
-
-      <p>
-        <a href="https://github.com/tekezo/Karabiner/blob/master/LICENSE.md" target="_blank">
+        <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/LICENSE.md" target="_blank">
         <img src="/img/icon/license-public-domain.svg" alt="Public Domain" />
         </a>
       </p>
 
+      <hr />
+
+      <p>
+        <small>The current release works on the following macOS:</small>
+      </p>
+      <ul>
+        <li>macOS High Sierra (10.13)</li>
+        <li>macOS Sierra (10.12)</li>
+        <li>macOS El Capitan (10.11)</li>
+      </ul>
+
       <p style="margin-left: 1em">
         <small>
-          <a href="history.html.ja#history">
-              古いバージョンのダウンロード・更新履歴
+          <a href="history.html#history">
+            old versions and version history
           </a>
         </small>
       </p>
@@ -157,31 +202,22 @@
 
       <div class="alert alert-info">
         <ul>
-            <li>Karabinerはバージョン9.3.0まで<b>KeyRemap4MacBook</b>という名前でした。</li>
-            <li>KarabinerとKeyRemap4MacBookは、MacBookファミリー、iMac、Mac mini、Mac Proなど全てのMacで動作します。</li>
+          <li>We made a new Karabiner as Karabiner-Elements since v11 due to kernel architecture updates in macOS Sierra.</li>
+          <li>Prior to version 9.3.0, Karabiner was called <b>KeyRemap4MacBook</b>.</li>
+          <li>Karabiner and KeyRemap4MacBook work with all Mac products, including the MacBook family, iMac, Mac mini, and Mac Pro.</li>
         </ul>
       </div>
 
-      <p>
-<a class="btn btn-default"
-            href="files/Karabiner-10.22.0.dmg">Karabiner-10.22.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.11、10.10、10.9用</span></a>      </p>
-
-      <p>
-<a class="btn btn-default"
-            href="files/KeyRemap4MacBook-8.4.0.dmg">KeyRemap4MacBook-8.4.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.8、10.7、10.6用</span></a>      </p>
-      <p>
-<a class="btn btn-default"
-            href="files/KeyRemap4MacBook-5.1.0.pkg.tar.gz">KeyRemap4MacBook-5.1.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.5、10.4用</span></a>      </p>
+      <div class="github-link">
+        <a href="https://github.com/tekezo/Karabiner-Elements" target="_blank">GitHub</a>
+      </div>
     </div>
   </header>
 
   <section>
     <div class="page-header">
       <h1>
-          インストール方法
+        Installation
       </h1>
     </div>
     <div class="row">
@@ -190,7 +226,7 @@
           <h2>Step 1</h2>
 
           <p>
-              ダウンロードしたdmgファイルを開き、dmgの中のpkgファイルを開きます。
+            Open a downloaded dmg file, and then open a pkg file in dmg.
           </p>
           <p>
             <img
@@ -207,7 +243,7 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
           <h2>Step 2</h2>
 
           <p>
-              インストーラが起動しますので、Karabinerをインストールします。
+            Installer is launched. Install Karabiner.
           </p>
 <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
   <img src="img/karabiner-elements-installer@2x.png" alt="installer" />
@@ -222,12 +258,12 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
   </div>
 </div>
           <div class="alert alert-warning">
-              Karabinerはアプリケーションフォルダにインストールされます。<br />
-              <br />
-              <b>注意:</b><br />
-              アプリケーションフォルダからKarabiner.appを移動しないでください。<br />
-              <br />
-              例えば、/Applications/UtilsにKarabiner.appを移動すると、正常に動作しなくなります。
+            Karabiner-Elements will be installed into /Applications folder. <br />
+            <br />
+            <b>Note:</b><br />
+            Do not change the location of Karabiner-Elements.app from /Applications. <br />
+            <br />
+            For example, Karabiner-Elements will not work properly if you moved Karabiner-Elements.app into /Applications/Utils.
           </div>
         </div>
       </div>
@@ -236,8 +272,8 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
           <h2>Step 3</h2>
 
           <p>
-              LaunchpadからKarabinerを起動します。
-              <a href="document.html.ja">詳しくはこちら（英語）。</a>
+            Launch Karabiner-Elements from Launchpad.
+            <a href="document.html.en">Learn more.</a>
           </p>
 
           <p>

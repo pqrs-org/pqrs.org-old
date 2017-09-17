@@ -32,6 +32,13 @@ class Document < KarabinerBase
         }
       },
       {
+        :href => '#configuration',
+        :name_l10n => {
+          :en => 'Configuration',
+          :ja => 'Configuration',
+        }
+      },
+      {
         :href => '#quit',
         :name_l10n => {
           :en => 'How to quit',

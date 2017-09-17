@@ -23,12 +23,14 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-            <img
-            alt="launchpad"
-            {{#imgsrc}}
-              img/karabiner-elements-icon@2x.png
-            {{/imgsrc}}
-            />
+            <p>
+              <img
+              alt="launchpad"
+              {{#imgsrc}}
+                img/karabiner-elements-icon@2x.png
+              {{/imgsrc}}
+              />
+            </p>
           </div>
         </div>
 
@@ -48,7 +50,7 @@
 
         <h2>Step 3</h2>
         <p>
-          Configure Karabiner-Elements from UI.
+          <a href="#configuration">Configure Karabiner-Elements from UI.</a>
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -57,6 +59,206 @@
             {{/lightbox}}
           </div>
         </div>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="configuration">
+            Configuration
+          </h1>
+        </div>
+
+        <section>
+          <h2 id="configuration-simple-modifications">Change a key to another key</h2>
+
+          <p>
+            You can change a key to another key in Simple Modifications tab.
+          </p>
+
+          <h3>Step 1</h3>
+
+          <p>
+            Choose target device.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-1@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 2</h3>
+
+          <p>
+            Press "Add item" button.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-2@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 3</h3>
+
+          <p>
+            Select "From key" and "To key".
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-3@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <p>
+            You can investigate the key name by using <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-eventviewer-name@2x.png Karabiner EventViewer
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 4</h3>
+
+          <p>
+            Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="configuration-complex-modifications">Use more complex rules</h2>
+
+          <p>
+            Karabiner-Elements provides more complex event modifications.<br />
+            It changes keys according to the conditions.
+          </p>
+
+          <p>
+            Examples:
+          </p>
+
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th>Modifier flags + key to keys</th>
+                <td>
+                  <ul>
+                    <li>Change control-m to return key.</li>
+                    <li>Change control-h to delete key.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Key to modifier flags + keys</th>
+                <td>
+                  <ul>
+                    <li>Change caps lock to command+control+option+shift key</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Post other key events when a key pressed alone</th>
+                <td>
+                  <ul>
+                    <li>Post escape key when you press left control key alone.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Change keys in specific apps</th>
+                <td>
+                  <ul>
+                    <li>Change left command key to left control key in virtual machines.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Execute shell command</th>
+                <td>
+                  <ul>
+                    <li>Open Activity Monitor by right shift+a</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            You can import predefined rules from the internet (or make your own rules).
+          </p>
+
+          <h3>Step 1</h3>
+
+          <p>
+            Choose target device.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-1@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 2</h3>
+
+          <p>
+            Press "Add item" button.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-2@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 3</h3>
+
+          <p>
+            Select "From key" and "To key".
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-simple-modifications-3@2x.png Simple Modifications
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <p>
+            You can investigate the key name by using <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+              {{#lightbox}}
+                img/karabiner-elements-eventviewer-name@2x.png Karabiner EventViewer
+              {{/lightbox}}
+            </div>
+          </div>
+
+          <h3>Step 4</h3>
+
+          <p>
+            Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+        </section>
       </section>
 
       <section>
@@ -111,9 +313,11 @@
             Check for updates
           </h1>
         </div>
+
         <p>
           You can check for updates from "Misc" tab.
         </p>
+
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
@@ -123,13 +327,9 @@
         </div>
 
         <p>
-          {{#language_en}}
-            If you want to use the latest beta version, use "Check for beta updates" button.
-          {{/language_en}}
-          {{#language_ja}}
-            もし最新のベータ版を使う場合は、「Check for updates including beta versions」ボタンを使ってください。
-          {{/language_ja}}
+          If you want to use the latest beta version, use "Check for beta updates" button.
         </p>
+
         <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
@@ -153,16 +353,25 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <img
-            alt="menu"
-            {{#imgsrc}}
-              img/karabiner-elements-eventviewer-icon@2x.png
-            {{/imgsrc}}
-            />
+            <p>
+              <img
+              alt="menu"
+              {{#imgsrc}}
+                img/karabiner-elements-eventviewer-icon@2x.png
+              {{/imgsrc}}
+              />
+            </p>
           </div>
+        </div>
+
+        <p>
+          Input events will be shown when you type keyboard on EventViewer or press pointing buttons on Mouse Area.
+        </p>
+
+        <div class="row">
           <div class="col-lg-4">
             {{#lightbox}}
-              img/v10/eventviewer@2x.png eventviewer
+              img/karabiner-elements-eventviewer@2x.png eventviewer
             {{/lightbox}}
           </div>
         </div>

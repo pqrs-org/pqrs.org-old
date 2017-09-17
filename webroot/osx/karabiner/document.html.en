@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.6ba3372d0a75087038708f3296d99666400792c5.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.ae873f29dd10c6500d80190116cd1217f7520287.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -143,9 +143,11 @@
         </p>
         <div class="row">
           <div class="col-lg-4">
-            <img
-            alt="launchpad"
-src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
+            <p>
+              <img
+              alt="launchpad"
+src="img/karabiner-elements-icon@2x.png" width="184" height="177"              />
+            </p>
           </div>
         </div>
 
@@ -174,7 +176,7 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
 
         <h2>Step 3</h2>
         <p>
-          Configure Karabiner-Elements from UI.
+          <a href="#configuration">Configure Karabiner-Elements from UI.</a>
         </p>
         <div class="row">
           <div class="col-lg-4">
@@ -196,6 +198,278 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
 
       <section>
         <div class="page-header">
+          <h1 id="configuration">
+            Configuration
+          </h1>
+        </div>
+
+        <section>
+          <h2 id="configuration-simple-modifications">Change a key to another key</h2>
+
+          <p>
+            You can change a key to another key in Simple Modifications tab.
+          </p>
+
+          <h3>Step 1</h3>
+
+          <p>
+            Choose target device.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-1@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-1@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 2</h3>
+
+          <p>
+            Press "Add item" button.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-2@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-4" tabindex="30004">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-2@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 3</h3>
+
+          <p>
+            Select "From key" and "To key".
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-3@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-5" tabindex="30005">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-3@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <p>
+            You can investigate the key name by using <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+  <img src="img/karabiner-elements-eventviewer-name@2x.png" alt="Karabiner EventViewer" />
+</a>
+<div class="modal fade" id="lightbox-6" tabindex="30006">
+  <div class="modal-dialog clickable" style="width: 934px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-eventviewer-name@2x.png" alt="Karabiner EventViewer" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 4</h3>
+
+          <p>
+            Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2 id="configuration-complex-modifications">Use more complex rules</h2>
+
+          <p>
+            Karabiner-Elements provides more complex event modifications.<br />
+            It changes keys according to the conditions.
+          </p>
+
+          <p>
+            Examples:
+          </p>
+
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th>Modifier flags + key to keys</th>
+                <td>
+                  <ul>
+                    <li>Change control-m to return key.</li>
+                    <li>Change control-h to delete key.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Key to modifier flags + keys</th>
+                <td>
+                  <ul>
+                    <li>Change caps lock to command+control+option+shift key</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Post other key events when a key pressed alone</th>
+                <td>
+                  <ul>
+                    <li>Post escape key when you press left control key alone.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Change keys in specific apps</th>
+                <td>
+                  <ul>
+                    <li>Change left command key to left control key in virtual machines.</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Execute shell command</th>
+                <td>
+                  <ul>
+                    <li>Open Activity Monitor by right shift+a</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            You can import predefined rules from the internet (or make your own rules).
+          </p>
+
+          <h3>Step 1</h3>
+
+          <p>
+            Choose target device.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-1@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-7" tabindex="30007">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-1@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 2</h3>
+
+          <p>
+            Press "Add item" button.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-2@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-2@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 3</h3>
+
+          <p>
+            Select "From key" and "To key".
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+  <img src="img/karabiner-elements-simple-modifications-3@2x.png" alt="Simple Modifications" />
+</a>
+<div class="modal fade" id="lightbox-9" tabindex="30009">
+  <div class="modal-dialog clickable" style="width: 960px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-simple-modifications-3@2x.png" alt="Simple Modifications" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <p>
+            You can investigate the key name by using <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+  <img src="img/karabiner-elements-eventviewer-name@2x.png" alt="Karabiner EventViewer" />
+</a>
+<div class="modal fade" id="lightbox-10" tabindex="30010">
+  <div class="modal-dialog clickable" style="width: 934px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-eventviewer-name@2x.png" alt="Karabiner EventViewer" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+
+          <h3>Step 4</h3>
+
+          <p>
+            Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
+
+        </section>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="quit">
             How to quit
           </h1>
@@ -207,10 +481,10 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
   <img src="img/karabiner-elements-menu-quit@2x.png" alt="Menu" />
 </a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
+<div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 501px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -224,10 +498,10 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
   <img src="img/karabiner-elements-quit@2x.png" alt="Preferences" />
 </a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
+<div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -251,10 +525,10 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
   <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall Karabiner-Elements" />
 </a>
-<div class="modal fade" id="lightbox-5" tabindex="30005">
+<div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -273,15 +547,17 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
             Check for updates
           </h1>
         </div>
+
         <p>
           You can check for updates from "Misc" tab.
         </p>
+
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
   <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-6" tabindex="30006">
+<div class="modal fade" id="lightbox-14" tabindex="30014">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -294,14 +570,15 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
         </div>
 
         <p>
-            If you want to use the latest beta version, use "Check for beta updates" button.
+          If you want to use the latest beta version, use "Check for beta updates" button.
         </p>
+
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
   <img src="img/karabiner-elements-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
-<div class="modal fade" id="lightbox-7" tabindex="30007">
+<div class="modal fade" id="lightbox-15" tabindex="30015">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -328,19 +605,28 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"            />
 
         <div class="row">
           <div class="col-lg-6">
-            <img
-            alt="menu"
-src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"            />
+            <p>
+              <img
+              alt="menu"
+src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"              />
+            </p>
           </div>
+        </div>
+
+        <p>
+          Input events will be shown when you type keyboard on EventViewer or press pointing buttons on Mouse Area.
+        </p>
+
+        <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/v10/eventviewer@2x.png" alt="eventviewer" />
+<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
+  <img src="img/karabiner-elements-eventviewer@2x.png" alt="eventviewer" />
 </a>
-<div class="modal fade" id="lightbox-8" tabindex="30008">
-  <div class="modal-dialog clickable" style="width: 929px;">
+<div class="modal fade" id="lightbox-16" tabindex="30016">
+  <div class="modal-dialog clickable" style="width: 934px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/v10/eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
+        <img src="img/karabiner-elements-eventviewer@2x.png" alt="eventviewer" style="width: 100%" />
       </div>
     </div>
   </div>
@@ -365,10 +651,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               Click "Open private.xml" button on "Misc &amp; Uninstall" tab.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-9" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
   <img src="img/v10/karabiner-xml1@2x.png" alt="open private.xml" />
 </a>
-<div class="modal fade" id="lightbox-9" tabindex="30009">
+<div class="modal fade" id="lightbox-17" tabindex="30017">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -384,10 +670,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               Then, Finder is opened.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-10" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
   <img src="img/v10/karabiner-xml2@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-10" tabindex="30010">
+<div class="modal fade" id="lightbox-18" tabindex="30018">
   <div class="modal-dialog clickable" style="width: 812px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -403,10 +689,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               Open private.xml with your preferred text editor.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-11" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
   <img src="img/v10/karabiner-xml3@2x.png" alt="finder" />
 </a>
-<div class="modal fade" id="lightbox-11" tabindex="30011">
+<div class="modal fade" id="lightbox-19" tabindex="30019">
   <div class="modal-dialog clickable" style="width: 809px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -422,10 +708,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               Update the contents of private.xml to <a target="_blank" href="https://raw.githubusercontent.com/tekezo/Karabiner/version_10.22.0/files/sample/private.xml">private.xml</a>.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-12" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
   <img src="img/v10/karabiner-xml4@2x.png" alt="textedit" />
 </a>
-<div class="modal fade" id="lightbox-12" tabindex="30012">
+<div class="modal fade" id="lightbox-20" tabindex="30020">
   <div class="modal-dialog clickable" style="width: 682px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -441,10 +727,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               Press "Reload XML" button on "Change Key" tab.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-13" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-21" class="thumbnail">
   <img src="img/v10/karabiner-xml5@2x.png" alt="Reload XML" />
 </a>
-<div class="modal fade" id="lightbox-13" tabindex="30013">
+<div class="modal fade" id="lightbox-21" tabindex="30021">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -460,10 +746,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
               New settings have been added.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-14" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
   <img src="img/v10/karabiner-xml6@2x.png" alt="reloaded" />
 </a>
-<div class="modal fade" id="lightbox-14" tabindex="30014">
+<div class="modal fade" id="lightbox-22" tabindex="30022">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -480,10 +766,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
 
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-15" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/v10/karabiner-xml7@2x.png" alt="enable new setting" />
 </a>
-<div class="modal fade" id="lightbox-15" tabindex="30015">
+<div class="modal fade" id="lightbox-23" tabindex="30023">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -519,10 +805,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/v10/karabiner-checkbox-use-prepared-settings@2x.png" alt="checkbox-use-prepared-settings" />
 </a>
-<div class="modal fade" id="lightbox-16" tabindex="30016">
+<div class="modal fade" id="lightbox-24" tabindex="30024">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -548,10 +834,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
 &lt;/root&gt;</pre>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-25" class="thumbnail">
   <img src="img/v10/karabiner-checkbox-use-prepared-settings-result@2x.png" alt="checkbox-use-prepared-settings-result" />
 </a>
-<div class="modal fade" id="lightbox-17" tabindex="30017">
+<div class="modal fade" id="lightbox-25" tabindex="30025">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -642,10 +928,10 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
             </p>
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-26" class="thumbnail">
   <img src="img/v10/event-modification-chaining-keyboard-preferences@2x.png" alt="keyboard preferences" />
 </a>
-<div class="modal fade" id="lightbox-18" tabindex="30018">
+<div class="modal fade" id="lightbox-26" tabindex="30026">
   <div class="modal-dialog clickable" style="width: 477px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -752,10 +1038,10 @@ src="img/v10/karabiner-profiles-menu@2x.png" width="412" height="220"          /
               Add new configuration from Profiles tab.
             <div class="row">
               <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
   <img src="img/v10/karabiner-profiles-preferences@2x.png" alt="menubar tab" />
 </a>
-<div class="modal fade" id="lightbox-19" tabindex="30019">
+<div class="modal fade" id="lightbox-27" tabindex="30027">
   <div class="modal-dialog clickable" style="width: 860px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -790,10 +1076,10 @@ src="img/v10/karabiner-profiles-menu-selected@2x.png" width="254" height="198"  
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
   <img src="img/v10/karabiner-profiles-shortcuts@2x.png" alt="switch profile" />
 </a>
-<div class="modal fade" id="lightbox-20" tabindex="30020">
+<div class="modal fade" id="lightbox-28" tabindex="30028">
   <div class="modal-dialog clickable" style="width: 728px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -989,6 +1275,11 @@ $ sh ~/Desktop/karabiner-import.sh
               <li>
                 <a href="#usage">
                   Usage
+                </a>
+              </li>
+              <li>
+                <a href="#configuration">
+                  Configuration
                 </a>
               </li>
               <li>
