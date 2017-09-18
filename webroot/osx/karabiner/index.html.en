@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.506b6a56031f4ef5fdedcb4bbec3d0c9cee0953b.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.c5d0bbad591ee7884fd5aac06604cd87943031e7.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -203,7 +203,7 @@
       <div class="alert alert-info">
         <ul>
           <li>We made a new Karabiner as Karabiner-Elements since v11 due to kernel architecture updates in macOS Sierra.</li>
-          <li>Prior to version 9.3.0, Karabiner was called <b>KeyRemap4MacBook</b>.</li>
+          <li>Prior to version 9.3.0, Karabiner was called KeyRemap4MacBook.</li>
           <li>Karabiner and KeyRemap4MacBook work with all Mac products, including the MacBook family, iMac, Mac mini, and Mac Pro.</li>
         </ul>
       </div>
@@ -259,11 +259,6 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
 </div>
           <div class="alert alert-warning">
             Karabiner-Elements will be installed into /Applications folder. <br />
-            <br />
-            <b>Note:</b><br />
-            Do not change the location of Karabiner-Elements.app from /Applications. <br />
-            <br />
-            For example, Karabiner-Elements will not work properly if you moved Karabiner-Elements.app into /Applications/Utils.
           </div>
         </div>
       </div>
@@ -272,7 +267,7 @@ src="../images/pkg-icon@2x.png" width="128" height="128"            />
           <h2>Step 3</h2>
 
           <p>
-            Launch Karabiner-Elements from Launchpad.
+            Launch Karabiner-Elements from Launchpad.<br />
             <a href="document.html.en">Learn more.</a>
           </p>
 
