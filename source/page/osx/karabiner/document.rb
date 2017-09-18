@@ -26,126 +26,72 @@ class Document < KarabinerBase
     [
       {
         :href => '#usage',
-        :name_l10n => {
-          :en => 'Usage',
-          :ja => '使い方',
-        }
+        :name => 'Usage',
       },
       {
-        :name_l10n => {
-          :en => 'Configuration',
-          :ja => 'Configuration',
-        }
+        :name => 'Configuration',
       },
       {
         :href => '#configuration-simple-modifications',
-        :name_l10n => {
-          :en => 'Simple Modifications',
-          :ja => 'Simple Modifications',
-        }
+        :name => 'Simple Modifications',
       },
       {
         :href => '#configuration-complex-modifications',
-        :name_l10n => {
-          :en => 'Complex Modifications',
-          :ja => 'Complex Modifications',
-        }
+        :name => 'Complex Modifications',
       },
       {
         :href => '#configuration-devices',
-        :name_l10n => {
-          :en => 'Choose devices',
-          :ja => 'Choose devices',
-        }
+        :name => 'Choose devices',
       },
       {
         :href => '#configuration-keyboard-type',
-        :name_l10n => {
-          :en => 'Set keyboard type',
-          :ja => 'Set keyboard type',
-        }
+        :name => 'Set keyboard type',
       },
       {
-        :name_l10n => {
-          :en => 'Operations',
-          :ja => 'Operations',
-        }
+        :name => 'Operations',
       },
       {
         :href => '#quit',
-        :name_l10n => {
-          :en => 'How to quit',
-          :ja => '終了する方法',
-        }
+        :name => 'How to quit',
       },
       {
         :href => '#uninstall',
-        :name_l10n => {
-          :en => 'Uninstall',
-          :ja => 'アンインストール方法',
-        }
+        :name => 'Uninstall',
       },
       {
         :href => '#check-for-updates',
-        :name_l10n => {
-          :en => 'Check for updates',
-          :ja => '最新版への更新',
-        }
+        :name => 'Check for updates',
       },
       {
         :href => '#eventviewer',
-        :name_l10n => {
-          :en => 'Eventviewer',
-          :ja => 'イベントビューア',
-        }
+        :name => 'Eventviewer',
       },
       {
         :href => '#profiles',
-        :name_l10n => {
-          :en => 'Multiple profiles',
-          :ja => '複数の設定の使い分け',
-        }
+        :name => 'Multiple profiles',
       },
       {
-        :name_l10n => {
-          :en => 'Misc.',
-          :ja => 'Misc.',
-        }
+        :name => 'Misc.',
       },
       {
         :href => '#implicit',
-        :name_l10n => {
-          :en => 'Implicit behavior',
-          :ja => '暗黙の挙動',
-        }
+        :name => 'Implicit behavior',
       },
       {
         :href => '#event-modification-chaining',
-        :name_l10n => {
-          :en => 'Input event modification chaining',
-          :ja => '入力イベントの変更の順番',
-        }
+        :name => 'Input event modification chaining',
       },
       {
         :href => '#command-line-interface',
-        :name_l10n => {
-          :en => 'Command line interface',
-          :ja => 'コマンドラインインターフェース',
-        }
+        :name => 'Command line interface',
       },
       {
         :href => '#configuration-file-path',
-        :name_l10n => {
-          :en => 'The location of the configuration file',
-          :ja => '設定ファイルの場所',
-        }
+        :name => 'The location of the configuration file',
       },
       {
         :href => '#security',
-        :name_l10n => {
-          :en => 'Security',
-          :ja => '',
-        }
+        :name => 'Security',
       },
     ]
   end

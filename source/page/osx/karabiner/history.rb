@@ -20,8 +20,7 @@ class History < KarabinerBase
         :version => '10.22.0',
         :updated => '2016-10-31',
         :link => 'files/Karabiner-10.22.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-fixed">
@@ -48,41 +47,12 @@ class History < KarabinerBase
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      AXNotifierが有効な場合に、いくつかのQtアプリがクラッシュすることがある。（VirtualBox, LyX, Wireshark）
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      AXNotifierの設定のデフォルト値を変更しました。（Microsoft Officeで有効にしました）
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定の追加・更新をしました。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.21.0',
         :updated => '2016-07-05',
         :link => 'files/Karabiner-10.21.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-fixed">
@@ -110,42 +80,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      システム環境設定のキーリピート速度を変更していなかった場合、Karabinerのキーリピート速度の初期値が遅い値に設定される。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      Karabinerの設定がごく稀なケースで保存されないことがある。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定の追加・更新をしました。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.20.0',
         :updated => '2016-06-16',
         :link => 'files/Karabiner-10.20.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-fixed">
@@ -176,45 +116,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      Remote Desktopの検出がいくつかのケースで失敗する。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      入力ソースの切り替えの設定がいくつかの環境でうまく動作しない。
-    </div>
-  </div>
-
-  <hr />
-  <h3>自分で設定を追加する人向けの変更点</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      `Option::FLIPSCROLLWHEEL_HORIZONTAL`と`Option::FLIPSCROLLWHEEL_VERTICAL`を`__PointingRelativeToScroll__`でサポートしました。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.19.0',
         :updated => '2016-06-09',
         :link => 'files/Karabiner-10.19.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
@@ -309,108 +216,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      マルチタッチ拡張の設定の初期値を変更しました。<br />
-      ThumbSenseをお使いの場合は、マルチタッチの設定からThumbSenseの設定を有効にしてください。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      warp-mouse-cursor-positionユーティリティの引数の扱いが間違っている。<br />
-      screenとfront_window引数における調整値が取り違えられており、例えば垂直方向の調整値が水平方向の調整値として扱われている。<br />
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性がある。（SAP GUI for Java）
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      デバイス切断時の挙動を改善しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      「Use modifier symbols (⌘⌃⌥⇧⇪) in place of the modifier names」というオプションをKarabinerの設定画面の「Status Message」タブに加えました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定の追加・更新をしました。
-    </div>
-  </div>
-
-  <hr />
-  <h3>自分で設定を追加する人向けの変更点</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      &lt;bundleidentifieroverridedef&gt;を追加しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Option::KEYTOKEY_DELAYED_ACTION_MILLISECONDSを追加しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次のフィルタを追加しました。<br />
-      * &lt;deviceexists_not&gt;<br />
-      * &lt;deviceexists_only&gt;<br />
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      replacementdefに次の環境変数を追加しました。<br />
-      * {{ ENV_Select_the_previous_input_source_shortcut }}<br />
-      * {{ ENV_Select_next_source_in_input_menu_shortcut }}<br />
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      __KeyOverlaidModifier__や__HoldingKeyToKey__において、Option::KEYTOKEY_AFTER_KEYUPのModifierFlagパターンマッチングが適切に動作しないことがある。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.18.0',
         :updated => '2016-03-07',
         :link => 'files/Karabiner-10.18.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-fixed">
@@ -423,27 +234,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Karabiner-10.17.0における次の問題を修正しました: <br />
-      OS X 10.10において、設定画面を開閉した後で、設定を変更するとKarabinerがクラッシュする。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.17.0',
         :updated => '2016-03-05',
         :link => 'files/Karabiner-10.17.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-new">
@@ -551,122 +347,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      「Show icon in Dock」という設定項目を加えました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      「Resume at login」という設定項目を加えました。<br />
-      Karabinerの自動起動を無効に出来ます。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
-      <ul>
-        <li>Mionix Naos 7000をサポートしました。</li>
-        <li>Logitech Bluetooth Mouse M555bをサポートしました。</li>
-        <li>Microsoft Sculpt Touch Mouseをサポートしました。</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定画面で説明文が折り返しされるようになりました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定画面のフォントサイズを「default font」と「large font」から選べるようになりました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      メディアキーのキーリピート速度を、通常のキーのリピート速度の設定値を使うようにしました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      ログイン後のKarabinerの自動起動の挙動を改善しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定の追加・更新をしました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュすることがある。（WISO apps）
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      Microsoft Excelでスクロール中に、スクロール位置がリセットされることがある。
-    </div>
-  </div>
-
-  <hr />
-  <h3>自分で設定を追加する人向けの変更点</h3>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Option::FLIPSCROLLWHEEL_ROTATEを追加しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      __PointingRelativeToKey__にPointingRelative::ANYを追加しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: <br />
-      __KeyDownUpToKey__で中断されたときに送信するキーを複数指定していた場合に、最後のキーしか送信されない。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.15.0',
         :updated => '2015-12-21',
         :link => 'files/Karabiner-10.15.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <div class="update-description">
 
   <div class="update-description-item update-description-item-important">
@@ -730,79 +416,12 @@ EOS
 
 </div>
 EOS
-          :ja => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      キーリピート値の安全のためのリミッターを削除しました。<br />
-      極端に速い値でキーリピート値を上書きできます。<br />
-      <br />
-      以前のバージョンのKarabinerでは、リミッターは200msと5msでした。<br />
-      もしリミッター削除でキーリピートが速くなりすぎたと感じる場合は、キーリピート値を200msと5msに増やしてください。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      デバッグモードを有効にするためのGUIを設定画面に加えました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      設定の追加・更新をしました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      「Disable an internal keyboard while external keyboards are connected」の設定を改善しました。
-       <ul>
-         <li>Razer DeathAdder Chromaをサポートしました。</li>
-       </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      Option::KEYTOKEY_DELAYED_ACTIONにおけるModifierFlagの扱いを改善しました。
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      次の問題を修正しました: AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Fiji）
-    </div>
-  </div>
-
-  <hr />
-
-  <h3>自分で設定を追加する人向けの変更点</h3>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      エラーメッセージを改善しました。
-    </div>
-  </div>
-
-</div>
-EOS
-        },
       },
       {
         :version => '10.14.0',
         :updated => '2015-11-05',
         :link => 'files/Karabiner-10.14.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -818,30 +437,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>設定画面のKey RepeatタブのUIを改善しました。</li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>Karabiner 10.11.0以前からアップグレードしたときに、キーリピートの設定の移行で適切な値が設定されないことがある。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.13.0',
         :updated => '2015-11-02',
         :link => 'files/Karabiner-10.13.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -864,37 +465,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>
-        「Overwrite the key repeat values of system」というオプションを加えました。<br />
-        この設定を有効にしない限り、Karabinerはシステム環境設定で指定されたキーリピート値を使います。
-      </li>
-      <li>いくつかのキーボードにおいて、キーアップイベントの扱いを改善しました。</li>
-      <li>「Don't remap Apple's keyboards」でMagic Keyboardをサポートしました。</li>
-      <li>設定画面をリサイズ可能にしました。</li>
-      <li>設定の追加・更新をしました。</li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>__SimultaneousKeyPresses__が__BlockUntilKeyUp__と同時に使われている際に、稀にキーアップイベントの送信を行わないことがある。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.11.0',
         :updated => '2015-10-10',
         :link => 'files/Karabiner-10.11.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -905,25 +481,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>複数のキーボードを使用していて、それらのキーボードが同時に押された場合に、<code>__SimultaneousKeyPresses__</code>がキーイベントを送り続けてしまう。</li>
-      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Spine, SpineTrial）</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.10.0',
         :updated => '2015-10-08',
         :link => 'files/Karabiner-10.10.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -955,46 +518,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>
-        「Use prepared settings」というオプションをKarabinerの設定画面の「Misc &amp; Uninstall」タブに加えました。<br />
-        この設定を無効にすることで、既存の設定を無効化し、private.xmlのロードを速くすることが出来ます。
-      </li>
-      <li>
-        EventViewerを改善しました。<br />
-        メディアキーやいくつかのキーの組み合わせをサポートしました。
-      </li>
-      <li>複数のキーボードを同時に使っている場合の挙動を改善しました。</li>
-      <li>OmniFocus2 Quick EntryをAXNotifierでサポートしました。</li>
-      <li>設定の追加・更新をしました。</li>
-      <li>
-        自分で設定を追加する人向けの変更点:
-        <ul>
-          <li><code>&lt;include&gt;</code>タグに<code>once</code>属性を追加しました。</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>AXNotifierが有効な場合、Preview.appのCPU使用率が巨大なPDFを開くときに100%になることがある。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.9.0',
         :updated => '2015-09-07',
         :link => 'files/Karabiner-10.9.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Incompatibility changes:
@@ -1036,56 +565,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    互換性がない変更点:
-    <ul>
-      <li>
-        fnキーとの組み合わせによるキーパッド機能を暗黙の挙動から削除しました。<br />
-        必要に応じて、以下の設定を使ってください。
-        <ul>
-          <li>"Fn+Number to KeyPad"</li>
-          <li>"Use old style fn keypad"</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>外部キーボードの扱いを改善しました。</li>
-      <li>設定の追加・更新をしました。</li>
-      <li>
-        自分で設定を追加する人向けの変更点:
-        <ul>
-          <li>
-            以下のフィルタを追加しました。
-            <ul>
-              <li><code>&lt;lastsentevent_not&gt;</code></li>
-              <li><code>&lt;lastsentevent_only&gt;</code></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li><code>__DropKeyAfterRemap__</code>の対象のキーを、<code>__DropKeyAfterRemap__</code>よりも前に定義された<code>&lt;autogen&gt;</code>で変更した場合、<code>__DropKeyAfterRemap__</code>が適切に動作しない。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.8.0',
         :updated => '2015-08-24',
         :link => 'files/Karabiner-10.8.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     New functions and improvements:
@@ -1117,46 +602,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    新機能や改良:
-    <ul>
-      <li>AXNotifierが新しいAlfred (Alfred 2.7.2)をサポートしました。</li>
-      <li>設定の追加・更新をしました。</li>
-      <li><code>__PassThrough__</code>の挙動を改良しました。</li>
-      <li>
-        自分で設定を追加する人向けの変更点:
-        <ul>
-          <li>
-            以下のフィルタを追加しました。
-            <ul>
-              <li><code>&lt;lastreleasedphysicalkey_only&gt;</code></li>
-              <li><code>&lt;lastreleasedphysicalkey_not&gt;</code></li>
-              <li><code>&lt;elapsedtimesincelastreleased_greaterthan&gt;</code></li>
-              <li><code>&lt;elapsedtimesincelastreleased_lessthan&gt;</code></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>multi-touch extensionがスリープからの復帰後に動作しなくなることがある。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.7.0',
         :updated => '2015-08-10',
         :link => 'files/Karabiner-10.7.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Incompatibility changes:
@@ -1212,70 +663,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    互換性がない変更点:
-    <ul>
-      <li>マウスキーのスクロール方向のデフォルト値を「natural」に変更しました。</li>
-      <li>
-        <code>&lt;inputsourcedetail_only&gt;</code>と<code>&lt;inputsourcedetail_not&gt;</code>フィルタを、<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>に統合しました。<br />
-        private.xmlでは<code>&lt;inputsource_only&gt;</code>と<code>&lt;inputsource_not&gt;</code>を使ってください。
-      </li>
-      <li>
-        Launcher Mode v2は使い勝手の向上のため、独自のモディファイアを使うようになりました。<br />
-        もし、Launcher Mode v2を<code>LAUNCHER_MODE_V2_EXTRA</code>により拡張している場合、<code>LAUNCHER_MODE_V2_EXTRA</code>から<code>ModifierFlag::NONE</code>を削除してください。<br />
-        例:<br />
-        変更前: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
-        変更後: <code>&lt;autogen&gt;__KeyDownUpToKey__ KeyCode::A, KeyCode::VK_OPEN_URL_APP_Activity_Monitor&lt;/autogen&gt;</code><br />
-      </li>
-    </ul>
-  </li>
-  <li>コマンドラインインターフェースにオプションを追加しました: <code>toggle</code>, <code>be_careful_to_use__clear_all_values_by_name</code></li>
-  <li>コマンドラインのユーティリティ<code>post-hid-event</code>にオプションを追加しました: <code>--flag</code></li>
-  <li>「Status Message &gt; Show caps lock state」の設定を加えました。</li>
-  <li>マルチディスプレイのサポートを改善しました。ステータスメッセージを全てのディスプレイで表示します。</li>
-  <li>ファストユーザスイッチのサポートを改善しました。</li>
-  <li>設定の追加・更新をしました。</li>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li><code>__DropAllKeys__</code>を追加しました。</li>
-      <li><code>Option::KEYTOKEY_DELAYED_ACTION</code>を追加しました。</li>
-      <li><code>Option::KEYTOKEY_INCREASE_MODIFIER_FLAGS</code>を追加しました。</li>
-      <li><code>Option::SIMULTANEOUSKEYPRESSES_POST_FROM_EVENTS_AS_RAW</code>を追加しました。</li>
-      <li>
-        以下のフィルタを追加しました。
-        <ul>
-          <li><code>&lt;pressingphysicalkeys_greaterthan&gt;</code></li>
-          <li><code>&lt;pressingphysicalkeys_lessthan&gt;</code></li>
-        </ul>
-      </li>
-      <li>モディファイアが押されているときの<code>__HoldingKeyToKey__</code>の挙動を改善しました。</li>
-      <li><code>Option::KEYTOKEY_AFTER_KEYUP</code>にモディファイアの状態によって挙動を変化する機能を追加しました。</li>
-      <li><code>&lt;vkopenurldef&gt;</code>で<code>&lt;background /&gt;</code>がサポートされました。</li>
-      <li><code>&lt;identifier&gt;</code>タグに<code>high_priority</code>属性を追加しました。</li>
-      <li><code>&lt;appdef&gt;</code>を改善しました。private.xmlの<code>&lt;appdef&gt;</code>で既存のappdef.xmlに含まれるBundle Identifierを指定しても、既存の設定を壊さなくなりました。</li>
-      <li><code>KeyCode::VK_MOUSEKEY_FIXED_DISTANCE_SCROLL_*</code>を追加しました。</li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（Eclipse, Screencast-O-Matic, RazorSQL, EditRocket）</li>
-      <li>OS X 10.11 beta 6でkextがロードされない。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.6.0',
         :updated => '2015-01-13',
         :link => 'files/Karabiner-10.6.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     A following prepared setting has been fixed.
@@ -1287,26 +680,12 @@ EOS
   <li>Prepared settings have been updated.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    以下の設定を修正しました。
-    <ul>
-      <li>General &gt; Disable an internal keyboard while external keyboards are connected.</li>
-    </ul>
-  </li>
-  <li>「Sort by name」「Sort by created」ボタンを設定のMenuBarタブに追加しました。</li>
-  <li>設定の追加・更新をしました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.5.0',
         :updated => '2014-12-12',
         :link => 'files/Karabiner-10.5.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -1336,61 +715,22 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>AXNotifierが有効な場合に、いくつかのJavaアプリがクラッシュする可能性があります。（IntelliJ IDEA, PhpStorm, RubyMine, Android Studio）</li>
-      <li>複数のキーボードが接続され、同じキーが同時に押された時に&lt;device_only&gt;と&lt;device_not&gt;フィルタが無視されます。</li>
-    </ul>
-  </li>
-  <li>
-    改善点:
-    <ul>
-      <li>「Ignore bouncing (chattering) events」というチャタリングを無視する設定が追加されました。</li>
-      <li>Spotlightが&lt;only&gt;と&lt;not&gt;フィルタでサポートされました。</li>
-      <li>Quitボタンが設定画面に追加されました。</li>
-      <li>キータイプが速いときの、キーの同時押しの判定が改良されました。</li>
-      <li>キーを離したときのモディファイアの扱いが改善されました。</li>
-      <li>設定の追加・更新をしました。</li>
-    </ul>
-  </li>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li>Option::FORCENUMLOCKON_FORCE_OFFが追加されました。</li>
-      <li>__KeyDownUpToKey__が追加されました。</li>
-      <li>&lt;include&gt;は存在しないファイルを無視します。（ファイルが見つからない場合でもアラートダイアログを表示しません。)</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.4.0',
         :updated => '2014-10-14',
         :link => 'files/Karabiner-10.4.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>A broken prepared setting has been fixed.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>正常に動作していない設定を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.3.0',
         :updated => '2014-10-07',
         :link => 'files/Karabiner-10.3.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Stability at reloading XML has been improved.</li>
   <li>OS X 10.10 support has been improved.</li>
@@ -1419,42 +759,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>XMLを再読込みする時の安定性を向上しました。</li>
-  <li>OS X 10.10のサポートを改善しました。</li>
-  <li>設定の追加・更新をしました。</li>
-  <li>「Check for updates（Sparkle）」を更新しました。</li>
-  <li>「Restart AXNotifier」ボタンを設定に追加しました。</li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>フルキーボードアクセスが有効の場合、EventViewerでcontrol-tabとcontrol-shift-tabが表示されない。</li>
-    </ul>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li>
-        以下のフィルタが追加されました。
-        <ul>
-          <li>&lt;modifierlocked_only&gt;</li>
-          <li>&lt;modifierlocked_not&gt;</li>
-          <li>&lt;modifierstuck_only&gt;</li>
-          <li>&lt;modifierstuck_not&gt;</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.2.0',
         :updated => '2014-08-20',
         :link => 'files/Karabiner-10.2.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -1476,36 +786,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>Microsoft Remote Desktopでショートカット（Ctrl-C, Ctrl-Vなど）がうまく動かないことがあります。</li>
-      <li>いくつかのJavaアプリがクラッシュします。</li>
-    </ul>
-  </li>
-  <li>AXNotifierを無効化する設定を追加しました。（設定画面のAXNotifierタブ） </li>
-  <li>設定の追加・更新をしました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-  <li>プロファイルの管理を行う機能をコマンドラインインターフェースに追加しました。</li>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li>__HoldingKeyToKey__と__KeyOverlaidModifier__で、Option::KEYTOKEY_BEFORE_KEYDOWNとOption::KEYTOKEY_AFTER_KEYUPをサポートしました。</li>
-      <li>@begin、@endの別名として__{、}__を使えるようになりました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.1.0',
         :updated => '2014-07-21',
         :link => 'files/Karabiner-10.1.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Fixed issues:
@@ -1525,34 +811,12 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>VMware Fusionがインストールされた環境で、連続したキー入力の順序が不適切になります。</li>
-      <li>いくつかの環境で「Karabiner cannot connect with kernel extension」というメッセージが表示されることがあります。</li>
-    </ul>
-  </li>
-  <li>Karabinerが/Applications以外の場所にある場合にエラーメッセージを表示するようにしました。</li>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li>KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK を加えました。</li>
-    </ul>
-  </li>
-  <li>設定の追加・更新をしました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '10.0.0',
         :updated => '2014-07-09',
         :link => 'files/Karabiner-10.0.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>KeyRemap4MacBook has been renamed to "Karabiner".</li>
   <li>
@@ -1655,117 +919,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>KeyRemap4MacBookはKarabinerという名前になりました。</li>
-  <li>
-    AXNotifierを追加しました。<br />
-    AXNotifierはウィンドウの名前（ウィンドウタイトル）やフォーカスされたUIエレメントのロール（例えば、テキストエリアか否か）を観測します。<br />
-    例えば、Finderでテキストの変更（ファイル名など）をしていないときに、hjklキーを矢印キーとして使うことができる設定が追加されました。
-  </li>
-  <li>
-    warp-mouse-cursor-positionというコマンドラインユーティリティを追加しました。<br />
-    また、それを使う設定も追加しました。<br />
-    例えば、以下の設定を使うと、fnキーを単独で押したときにマウスカーソルをウィンドウの中央に移動します。
-    <ul>
-      <li>
-        Custom Shortcuts
-        <ul>
-          <li>
-            Move mouse cursor to the center of the frontmost app's window:
-            <ul>
-              <li>By pressing fn key alone.</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>いくつかの環境で「Kernel extension is not loaded」というメッセージが表示されることがあります。</li>
-      <li>複数のディスプレイを使っているときに、ステータスメッセージが正しく表示されません。</li>
-    </ul>
-  </li>
-  <li>設定の追加・更新をしました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-  <li>
-    自分で設定を追加する人向けの変更点:
-    <ul>
-      <li>
-        &lt;modifierdef&gt;でモディファイアを追加できるようになりました。
-        <a href="https://pqrs.org/osx/karabiner/xml.html.ja#modifier">Usage of &lt;modifierdef&gt;.</a>
-      </li>
-      <li>&lt;windowname_only&gt;と&lt;windowname_not&gt;フィルタを加えました。</li>
-      <li>&lt;uielementrole_only&gt;と&lt;uielementrole_not&gt;フィルタを加えました。</li>
-      <li>__PointingRelativeToKey__を加えました。</li>
-      <li>
-        __PassThrough__を加えました。指定した条件のときに全ての設定を無効にすることができます。<br />
-        例えば、以下の設定は、仮想マシン上で全ての設定を無効にします。<br />
-        （この設定は既存の設定に含まれています。）
-<pre>  &lt;item&gt;
-    &lt;name&gt;Disable all settings while you are using virtual machine.&lt;/name&gt;
-    &lt;identifier&gt;private.ignore_virtual_machine&lt;/identifier&gt;
-    &lt;only&gt;VIRTUALMACHINE&lt;/only&gt;
-    &lt;autogen&gt;__PassThrough__&lt;/autogen&gt;
-  &lt;/item&gt;
-</pre>
-      </li>
-      <li>__PointingRelativeToScroll__でKeyCodeとConsumerKeyCodeが使えるようになりました。.</li>
-      <li>
-        __HoldingKeyToKey__でThresholdMillisecondが使えるようになりました。<br />
-        長押しの閾値を指定できます:
-<pre>  &lt;autogen&gt;
-    __HoldingKeyToKey__
-    KeyCode::ESCAPE,
-
-    @begin
-    KeyCode::ESCAPE
-    @end
-
-    @begin
-    KeyCode::LAUNCHPAD,
-    @end
-
-    &lt;!-- open Launchpad by press and hold the escape key for 2 seconds. --&gt;
-    ThresholdMillisecond::RawValue::2000,
-  &lt;/autogen&gt;
-</pre>
-      </li>
-      <li>__BlockUntilKeyUp__を追加しました。</li>
-      <li>Option::KEYOVERLAIDMODIFIER_REPEAT_TOKEYSを追加しました。</li>
-      <li>Option::DROPSCROLLWHEEL_DROP_MOMENTUM_SCROLLを追加しました。</li>
-      <li>KeyCode::VK_NEGATIVE_LOCK_*を追加しました。（例: KeyCode::VK_NEGATIVE_LOCK_COMMAND_L, KeyCode::VK_NEGATIVE_LOCK_SHIFT_L）</li>
-      <li>
-        KeyCode::VK_STICKY_ACTIVE_MODIFIERS_*を追加しました:
-        <ul>
-          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_TOGGLE</li>
-          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_ON</li>
-          <li>KeyCode::VK_STICKY_ACTIVE_MODIFIERS_FORCE_OFF</li>
-        </ul>
-      </li>
-      <li>
-        仮想キーの削除:
-        <ul>
-          <li>
-            KeyCode::VK_JIS_TEMPORARY_*を削除しました。<br />
-            &lt;inputsource_filter&gt;、Option::KEYTOKEY_BEFORE_KEYDOWN、Option::KEYTOKEY_AFTER_KEYUP、KeyCode::JIS_EISUU、KeyCode::JIS_KANAをかわりに使ってください。
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '9.3.0',
         :updated => '2014-02-15',
         :link => 'files/KeyRemap4MacBook-9.3.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Fixed an issue:
@@ -1821,70 +980,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>自動ログインを有効にしていると、特定のマシンで「Kernel extension is not loaded」というアラートが出る場合があります。</li>
-    </ul>
-  </li>
-  <li>いくつかの既存の設定を更新しました。</li>
-  <li>
-    自分で設定を追加する人向けの変更点
-    <ul>
-      <li>
-        以下の命令は__KeyToKey__に統合されました。<br />
-        __KeyToKey__にてKeyCodeやConsumerKeyCode、PointingButtonを変更できます。
-        <ul>
-          <li>__KeyToConsumer__</li>
-          <li>__ConsumerToKey__</li>
-          <li>__ConsumerToConsumer__</li>
-          <li>__KeyToPointingButton__</li>
-          <li>__PointingButtonToKey__</li>
-          <li>__PointingButtonToPointingButton__</li>
-        </ul>
-      </li>
-      <li>
-        以下の命令でKeyCodeやConsumerKeyCode、PointingButtonを使えるようになりました。
-        <ul>
-          <li>__KeyOverlaidModifier__</li>
-          <li>__HoldingKeyToKey__</li>
-          <li>__SimultaneousKeyPresses__</li>
-          <li>__DoublePressModifier__</li>
-          <li>__ScrollWheelToKey__</li>
-          <li>__PointingRelativeToScroll__</li>
-        </ul>
-      </li>
-      <li>特殊なケースでのKeyCode::VK_CONFIG_*の挙動を改善しました。</li>
-      <li>
-        autogenごとにキーリピートの速度の設定が出来るようになりました。<br />
-        例えば、以下のautogenではキーリピートの速度を変更しつつ、control-pをカーソルキー（上）に変更します。<br />
-        <ul>
-          <li>キーリピートまでの時間: 100ms</li>
-          <li>キーリピートの速度: 10ms</li>
-        </ul>
-        <pre>
-&lt;autogen&gt;
-  __KeyToKey__
-  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
-  KeyCode::CURSOR_UP,
-  DelayUntilRepeat::RawValue::100,
-  KeyRepeat::RawValue::10,
-&lt;/autogen&gt;</pre>
-      </li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '9.2.0',
         :updated => '2013-11-29',
         :link => 'files/KeyRemap4MacBook-9.2.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     KeyRemap4MacBook no longer requires system restart at installing or upgrading. <br />
@@ -1899,29 +1000,12 @@ EOS
   <li>Updated some prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    KeyRemap4MacBookのインストールやアップグレード時にシステムの再起動が不要になりました。<br />
-    もし何らかの原因でシステムの再起動が必要なときは、再起動をうながす警告を表示します。<br />
-  </li>
-  <li>
-    下記の問題を修正しました:
-    <ul>
-      <li>キーボードを抜いた際にシステムがクラッシュすることがある。</li>
-    </ul>
-  </li>
-  <li>いくつかの既存の設定を更新しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '9.0.0',
         :updated => '2013-11-15',
         :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Optimized for OS X 10.9. <br />
     KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
@@ -1941,34 +1025,12 @@ EOS
   <li>Signed with Developer ID.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>OS X 10.9向けに最適化しました。<br />
-    KeyRemap4MacBook 9.0.0はOS X 10.9以降でのみ動作します。</li>
-  <li>multi-touch extensionで設定を切り替えるまでの遅延を設定できるようにしました。</li>
-  <li>OS X 10.9の制限により、電源ボタンの変更機能を削除しました。<br />
-    もうMacBookの電源ボタンを変更することは出来ません。</li>
-  <li>下記の問題を修正しました:
-    <ul><li>private.xmlにおいて、ENV_HOMEが正常に動作しないことがある。</li>
-      <li>OS X 10.9で、新しく接続されたデバイスに設定が反映されない。</li>
-      <li>シャットダウンダイアログが無効になってしまう。</li>
-      <li>Leopold FC660MキーボードのFnキーでマウスドラッグが中断されてしまう。</li></ul></li>
-  <li>既存の設定を更新しました:
-    <ul><li>「VIM Emulation」を更新しました。</li>
-      <li>Emacs Modeの「MarkSet」を修正しました。</li></ul></li>
-  <li>インストーラを更新しました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-  <li>Developer IDで署名しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '8.4.0',
         :updated => '2013-09-23',
         :link => 'files/KeyRemap4MacBook-8.4.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Icons have been refined. (Thanks to Kouji TAMURA.).</li>
   <li>
@@ -1983,69 +1045,35 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>アイコンを改善しました。（Kouji TAMURAさんによる）</li>
-  <li>
-    自分で設定を追加する人向けの更新点:
-    <ul>
-      <li>
-        @begin、@end記法が導入されました。<br />
-        __KeyOverlaidModifier__や__DoublePressModifier__で複数のキーに変換することが出来ます。
-      </li>
-      <li>KeyCode::VK_OPEN_URL_*でシェルのコマンドを実行することが出来るようになりました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '8.3.0',
         :updated => '2013-05-19',
         :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>OS Xの「調べる」機能（トラックパッドを3本指でタップ）が正常に動作しない問題を修正しました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '8.2.0',
         :updated => '2013-05-17',
         :link => 'files/KeyRemap4MacBook-8.2.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
   <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
   <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Adobe Fireworksでオブジェクトが選択できなくなる問題を修正しました。</li>
-  <li>「General &gt; Don't remap XXX」が即座に反映されない問題を修正しました。</li>
-  <li>control-ejectがOS X 10.7、10.6にて正常に動作しない問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '8.1.0',
         :updated => '2013-05-12',
         :link => 'files/KeyRemap4MacBook-8.1.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Power button remapping has been supported. (Thanks to Peter Kamb who is the author of PowerKey.)</li>
   <li>Added "Quit KeyRemap4MacBook" into menu bar.</li>
@@ -2074,43 +1102,12 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>パワーボタンのリマッピングに対応しました。（PowerKeyの作者であるPeter Kambさんに感謝します。）</li>
-  <li>「Quit KeyRemap4MacBook」をメニューバーに追加しました。</li>
-  <li>ステータス表示の見た目の種類を増やしました。</li>
-  <li><a href="http://smoothmouse.com/" target="_blank">SmoothMouse</a>がインストールされている場合の挙動を改善しました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>__SimultaneousKeyPresses__において、3キー以上の同時押しに対応しました。</li>
-      <li>KeyCode::VK_OPEN_URL_*を追加しました。</li>
-      <li>KeyCode::VK_PARTIAL_KEYDOWN、KeyCode::VK_PARTIAL_KEYUPを追加しました。</li>
-      <li>Option::POINTINGRELATIVETOSCROLL_TOKEYSを追加しました。</li>
-      <li>__FlipPointingRelative__を追加しました。</li>
-      <li>__FlipScrollWheel__を追加しました。</li>
-      <li>
-        以下のフィルタを追加しました。
-        <ul>
-          <li>&lt;lastpressedphysicalkey_not&gt;</li>
-          <li>&lt;lastpressedphysicalkey_only&gt;</li>
-          <li>&lt;elapsedtimesincelastpressed_greaterthan&gt;</li>
-          <li>&lt;elapsedtimesincelastpressed_lessthan&gt;</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>いくつかの細かい改善を行いました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '8.0.0',
         :updated => '2013-01-30',
         :link => 'files/KeyRemap4MacBook-8.0.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Preferences has been integrated into app.</li>
   <li>Integrated a status message indicator. (Removed Growl support.)</li>
@@ -2124,66 +1121,34 @@ EOS
   <li>Some minor improvements.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>設定画面をアプリに統合しました。</li>
-  <li>ステータス表示をアプリに統合しました。（Growlのサポートを辞めました。）</li>
-  <li>マルチタッチ拡張において、タッチを無視するエリアを設定できるようにしました。</li>
-  <li>KeyRemap4MacBook_cliの場所を変更しました。</li>
-  <li>KeyCode::VK_CHANGE_INPUTSOURCEを動的に定義できるようになりました。</li>
-  <li>&lt;inputsource_only&gt;を動的に定義できるようになりました。</li>
-  <li>Option::SIMULTANEOUSKEYPRESSES_STRICT_KEY_ORDERを追加しました。</li>
-  <li>&lt;device_only&gt;, &lt;device_not&gt;フィルタにおいて、DeviceLocationが指定できるようになりました。</li>
-  <li>&lt;autogen&gt;において、--KeyToKey--を__KeyToKey__に変更しました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.8.0',
         :updated => '2012-06-26',
         :link => 'files/KeyRemap4MacBook-7.8.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue that "General &gt; Don't restore modifiers in the mouse event" does not work properly.</li>
   <li>Fixed an issue that private.xml does not work properly if &lt;identifier&gt; contains white space.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>「General &gt; Don't restore modifiers in the mouse event」が正しく動作しない問題を修正しました。</li>
-  <li>private.xmlにおいて&lt;identifier&gt;に空白が含まれる場合に設定が有効にならない問題を修正しました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.7.0',
         :updated => '2012-05-09',
         :link => 'files/KeyRemap4MacBook-7.7.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue introduced in version 7.6.0 that detecting of Input Sources does not work properly in Japanese and some other languages.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-<li>KeyRemap4MacBook-7.6.0における、日本語やいくつかの言語で入力ソースの検出がうまく出来ない問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.6.0',
         :updated => '2012-05-08',
         :link => 'files/KeyRemap4MacBook-7.6.0.dmg',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Improved XML processing engine. (XML reloading is 2x faster.)</li>
   <li>Some minor improvements.</li>
@@ -2200,37 +1165,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>XMLの処理エンジンを改善しました。（XMLの再読み込みが2倍速くなりました。）</li>
-  <li>いくつかの細かな改善を行ないました。</li>
-  <li>約110種類の設定を加えました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>
-        &lt;replacementdef&gt;を加えました。これでプリセットの設定を調整することが出来ます。
-        <a href="xml.html.ja#replacementdef">（リファレンス）</a>
-      </li>
-      <li>
-        &lt;include&gt;を加えました。private.xmlで他のXMLを読み込むことが出来ます。
-        <a href="xml.html.ja#include">（リファレンス）</a>
-      </li>
-      <li>--ScrollWheelToKey-- を加えました。</li>
-      <li>--ScrollWheelToScrollWheel-- を加えました。</li>
-      <li>KeyCode::VK_WAIT_* を加えました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.5.0',
         :updated => '2011-11-02',
         :link => 'files/KeyRemap4MacBook-7.5.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Support Growl-1.3 on notifications.</li>
   <li>Some minor improvements.</li>
@@ -2253,38 +1193,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-
-<ul>
-  <li>通知機能でGrowl-1.3に対応しました。</li>
-  <li>いくつかの細かな改善を行ないました。</li>
-  <li>インストーラの小さな問題を修正しました。</li>
-  <li>約40種類の設定を加えました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>
-        ApplicationType,DeviceVendor,DeviceProductを動的に定義できるようになりました。
-        <ul>
-          <li><a href="xml.html.ja#appdef">ApplicationTypeについて（英語）</a></li>
-          <li><a href="xml.html.ja#devicedef">DeviceVendor,DeviceProductについて（英語）</a></li>
-        </ul>
-      </li>
-      <li>--StripModifierFromScrollWheel--を加えました。</li>
-      <li>Option::KEYTOKEY_BEFORE_KEYDOWN, Option::KEYTOKEY_AFTER_KEYUPを加えました。</li>
-      <li>KeyCode::VK_CONSUMERKEY_*を加えました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.4.0',
         :updated => '2011-08-23',
         :link => 'files/KeyRemap4MacBook-7.4.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Some improvements on Mac OS X 10.7 (Lion).</li>
   <li>
@@ -2311,41 +1225,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Mac OS X 10.7での動作を改善しました。</li>
-  <li>
-    「General &gt; Enable CapsLock LED Hack」の設定を削除しました。<br />
-    PCKeyboardHackのためにこの設定を使っている場合は、<a href="seil.html.ja#noaction">「アクションなし」の方法</a>に変更してください。
-  </li>
-  <li>
-    「Simultaneous Vi Mode」を整理しました。<br />
-    いくつかの設定は「Home Row Arrow and Modifier Mode」に移動しました。
-  </li>
-  <li>
-    「Key Repeat」タブの設定に「[Key Overlaid Modifier] Initial Modifier Wait」を加えました。<br />
-    ここで設定した時間だけ、KeyOverlaidModifierがキーを修飾キーに変更するのを待ちます。<br />
-    キーボード入力がとても速い人にとって有効なオプションです。
-  </li>
-  <li>いくつかの細かな改善を行ないました。</li>
-  <li>いくつかの設定を加えました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>KeyCode::VK_STICKY_*_FORCE_ON, KeyCode::VK_STICKY_*_FORCE_OFFを加えました。</li>
-      <li>--DropScrollWheel--を加えました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.3.0',
         :updated => '2011-05-17',
         :link => 'files/KeyRemap4MacBook-7.3.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Improved stability when using Sticky Keys in Universal Access.</li>
   <li>Improved stability when using multi-touch extension together.</li>
@@ -2362,31 +1247,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>ユニバーサルアクセスの複合キーを使用している場合の安定性を改善しました。</li>
-  <li>multi-touch extensionを使用している場合の安定性を改善しました。</li>
-  <li>遅延モディファイア(KeyCode::VK_LAZY_*)の動作を改善しました。</li>
-  <li>いくつかの細かな改善を行ないました。</li>
-  <li>約80種類の設定を加えました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>KeyCode::VK_MOUSEKEY_BUTTON_*を加えました。</li>
-      <li>Option::NOREPEAT を加えました。</li>
-      <li>DeviceProduct::ANYを加えました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.2.0',
         :updated => '2011-03-08',
         :link => 'files/KeyRemap4MacBook-7.2.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue that Growl notification did not work in specific environment.</li>
   <li>Fixed an issue that the default setting of checkForUpdate was "Nothing".</li>
@@ -2394,22 +1260,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Growl通知が一部の環境で動作しない問題を修正しました。</li>
-  <li>ソフトウェアアップデートの初期設定値が「確認しない」になっていた問題を修正しました。</li>
-  <li>multi-touch extensionの動作を改善しました。</li>
-  <li>約20種類の設定を加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.1.0',
         :updated => '2011-02-22',
         :link => 'files/KeyRemap4MacBook-7.1.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac OS X.<br />
@@ -2436,58 +1292,12 @@ EOS
   </li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    Mac OS Xで使うことが出来なかったLogitech Number Padを使えるようにするための設定を追加しました。<br />
-    "Change KeyPad Key &gt; Logitech Number Pad Hack"を有効にしてください。
-  </li>
-  <li>
-    通知ウィンドウをGrowlを使うように変更しました。<br />
-  </li>
-  <li>
-    multi-touch extensionというアプリケーションを添付しました。<br />
-    このアプリケーションはマルチタッチデバイスに指が触れている間だけ、指定した設定を有効にします。<br />
-    <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/indexj.html" target="_blank">ThumbSense</a>はこのアプリケーションが提供する機能の一つです。<br />
-    詳しくは <a href="document.html.ja#multitouchextension">マルチタッチ拡張</a>をご覧ください。
-  </li>
-  <li>
-    設定の追加・調整
-    <ul>
-      <li>
-        左右のコマンドキーを「英数／かな」キーとしても使う設定について、「英数／かな」キーを優先する設定を追加しました。
-      </li>
-      <li>新親指シフト配列「飛鳥」に対応しました。有効にするには設定から「asuka」で検索してください。</li>
-      <li>親指シフト、下駄配列の「ローマ字モード」について、高速打鍵時の挙動を改善しました。</li>
-      <li>
-        <a href="http://pi200k.blog35.fc2.com/?no=70" target="_blank">天地逆Dvorak配列</a>を加えました。外付けキーボードを逆さにして使う配列です。有効にするには設定から「pi200k」で検索してください。
-        <ul>
-          <li><a href="files/jis_updown_dvorak/normal.png">通常時の画像</a></li>
-          <li><a href="files/jis_updown_dvorak/extra1.png">Ex1モディファイア押下時の画像</a></li>
-          <li><a href="files/jis_updown_dvorak/extra2.png">Ex2モディファイア押下時の画像</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>いくつかの問題を修正しました。</li>
-  <li>約140種類の設定を加えました。</li>
-  <li>
-    自分で設定を追加する人向けの更新点
-    <ul>
-      <li>&lt;modifier_only&gt;, &lt;modifier_not&gt;フィルタを追加しました。</li>
-      <li>&lt;autogen&gt; に --ForceNumLockOn--を追加しました。</li>
-    </ul>
-  </li>
-</ul>
-EOS
-        },
       },
       {
         :version => '7.0.0',
         :updated => '2010-12-14',
         :link => 'files/KeyRemap4MacBook-7.0.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Now, you can add your original settings very very easily.<br />
@@ -2502,30 +1312,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    設定の追加方法が大幅に簡単になりました。<br />
-    <a href="document.html.ja#privatexml">新しい設定の追加方法</a><br />
-    もうパッケージをビルドする必要はありません。
-  </li>
-  <li>下駄配列、新下駄配列をサポートしました。有効にするには設定から「geta」で検索してください。</li>
-  <li>
-    マウスデバイス向けの"CursorMove to ScrollWheel"で慣性スクロールするようにしました。<br />
-    慣性スクロールを無効にするには設定から"Disable Momentum Scroll"を有効にしてください。
-  </li>
-  <li>Mouse Keys Modeを追加しました。hjklキーでマウスカーソルを動かせます。</li>
-  <li>約260種類の設定を加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.9.0',
         :updated => '2010-09-14',
         :link => 'files/KeyRemap4MacBook-6.9.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Improved "Simultaneous Vi Mode" behavior. You can use Vi style navigation (hjkl) on all applications.</li>
   <li>Fixed a problem that a broken package may be generated depending on environment when we build a package from a source code.</li>
@@ -2534,30 +1326,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    親指シフト NICOLAをサポートしました。<br />
-    有効にするには設定から「oyayubi」で検索してください。
-  </li>
-  <li>
-    あらゆるアプリケーションでVi形式のカーソル（HJKL）を使うことが出来るSimultaneous Vi Modeの動作を改良しました。<br />
-    設定を有効にした状態でSキーとDキーを同時に押すとViモードになります。<br />
-  </li>
-  <li>ソースコードからパッケージを作る際に、環境によっては不正なパッケージが作成されてしまう問題を修正しました。</li>
-  <li>極一部の設定が動作しなくなっていたのを修正しました。</li>
-  <li>Emacs ModeのC-xプレフィックスについて細かい不具合を修正しました。</li>
-  <li>約130種類の設定を加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.8.0',
         :updated => '2010-07-27',
         :link => 'files/KeyRemap4MacBook-6.8.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>
     Changed the default value of key repeat wait.<br />
@@ -2569,43 +1343,22 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    キーボードリピートのデフォルト値をMac OS Xのデフォルト値にあわせました。<br />
-    以前のバージョンの速度が好みの場合は"[Key Repeat] wait"を30msに設定してください。
-  </li>
-  <li>Pass Through Modeを加えました。一時的に全ての設定を無効にできます。</li>
-  <li>Sticky Modifiers を加えました。</li>
-  <li>いくつかの細かい問題を修正しました。</li>
-  <li>約160種類の設定を加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.7.0',
         :updated => '2010-05-15',
         :link => 'files/KeyRemap4MacBook-6.7.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed the problem that a key and a mouse were not changed when we used KeyRemap4MacBook-6.6.0 with USB Overdrive.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>KeyRemap4MacBook-6.6.0とUSB Overdriveを同時に使ったときにキーやマウスが変更されない問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.6.0',
         :updated => '2010-05-11',
         :link => 'files/KeyRemap4MacBook-6.6.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added a function to define effective setting only with a specific keyboard. For example, "Change Control_L to Command_L" only in Happy Hacking Keyboard.</li>
   <li>Added a function of "Simultaneous Key Presses" re-mapping.</li>
@@ -2614,23 +1367,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>特定のキーボードのみ有効な設定を定義することが出来るようになりました。例えばHappy Hacking KeyboardでのみControl_LをCommand_Lにするなど。</li>
-  <li>同時押し（Simultaneous Key Presses）をサポートしました。例えばFとJを同時に押すとカーソルキー（下）に変換する設定を追加しました。</li>
-  <li>仮想モディファイア（ModifierFlag::EXTRA1 - ModifierFlag::EXTRA5）を追加しました。</li>
-  <li>機能キーのリピート速度を調整可能にしました。</li>
-  <li>約100種類の設定を加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.5.0',
         :updated => '2010-03-16',
         :link => 'files/KeyRemap4MacBook-6.5.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added the key repeat feature to re-mapped functional keys (volume adjustment, etc),</li>
   <li>Added an Event Viewer application that could confirm a key event, a mouse event.</li>
@@ -2641,46 +1383,24 @@ EOS
   <li>Fixed some issues.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>リマップされた機能キー（音量調節など）でキーリピートするようにしました。</li>
-  <li>キーイベント、マウスイベントを確認できるイベントビューアアプリを追加しました。</li>
-  <li>メニューバーの設定をシステム環境設定に統合しました。</li>
-  <li>コマンドキーなどを押さずにhjklだけでカーソル移動が出来るComplete Vi Modeを追加しました。</li>
-  <li>KeyCode::VK_CHANGE_INPUTMODE_FRENCHやその他の言語向けのキーを加えました。仏語入力モードなどに直接切り替える仮想キーです。</li>
-  <li>70種類以上のリマッピングを加えました。</li>
-  <li>その他、細かい問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.4.0',
         :updated => '2010-01-21',
         :link => 'files/KeyRemap4MacBook-6.4.0.pkg.zip',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Improved stability when using with the driver of the 3rd vender such as "Logitech Control Center".</li>
   <li>Fixed a mouse drag movement when convert a key into a mouse click.</li>
   <li>Improved Paralles Desktop support at the recognition of the application.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Logitech Control Centerなどのサードベンダのドライバと共に使用するときの安定性を向上しました。</li>
-  <li>キーをマウスクリックに変換している場合にマウスドラッグがうまく動作しない不具合を修正しました。</li>
-  <li>アプリケーションの認識においてParallelsデスクトップのサポートを強化しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.3.0',
         :updated => '2010-01-05',
         :link => 'files/KeyRemap4MacBook-6.3.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Supported Fast User Switching.</li>
   <li>Added software update feature.</li>
@@ -2690,64 +1410,34 @@ EOS
   <li>Fixed some issues.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Fast User Switching（ログオフ無しでのユーザー切り替え）をサポートしました。</li>
-  <li>ソフトウェアアップデート機能を追加しました。</li>
-  <li>リマッピングの動作を向上しました。</li>
-  <li>内部キーボード/外部キーボードの判定方法を改善しました。</li>
-  <li>Commandキーなどにかな/英数キーを付加する機能の互換性を向上しました。</li>
-  <li>70種類以上のリマッピングを追加しました。</li>
-  <li>その他、細かい問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.2.0',
         :updated => '2009-11-12',
         :link => 'files/KeyRemap4MacBook-6.2.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed the issue that the server process crashes in English environment.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>サーバプロセスが英語環境でクラッシュする問題を修正しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.1.0',
         :updated => '2009-11-11',
         :link => 'files/KeyRemap4MacBook-6.1.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Changed to enable the remapping of the third vendor's devices by default.</li>
   <li>Fixed the memory leak of the server process.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>標準でサードベンダーのデバイスのリマッピングを有効にしました。</li>
-  <li>サーバプロセスのメモリーリークを修正しました。</li>
-  <li>入力モードの取得方法を改善したため、「かな/英数」のトグルや、日本語入力時のみ有効なリマップなどの動作がより自然になりました。</li>
-  <li>60種類以上のリマッピングを追加しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '6.0.0',
         :updated => '2009-10-08',
         :link => 'files/KeyRemap4MacBook-6.0.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Stable release for Snow Leopard.</li>
   <li>Fixed the third vendor's keyboard/mouse handling.</li>
@@ -2761,28 +1451,12 @@ EOS
   <li>Misc changes.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Snow Leopard用の安定版です。</li>
-  <li>サードベンダーの独自ドライバを使用するキーボード・マウスの扱いを改善しました。</li>
-  <li>Don't Remap the Internal/External Keyboardが有効になっているときにfnキーが動作しない問題を修正しました。</li>
-  <li>マウスクリック時にキーリピートが中断しないようにしました。</li>
-  <li>Spacesとの親和性を向上しました。</li>
-  <li>アンインストーラを修正しました。</li>
-  <li>CapsLockの扱いについて修正しました。</li>
-  <li>64bit環境での安定性を向上しました。</li>
-  <li>システム環境設定が64bitで動作するよう修正しました。</li>
-  <li>その他、リマッピングの追加など。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '5.1.0',
         :updated => '2008-05-26',
         :link => 'files/KeyRemap4MacBook-5.1.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed the kernel panic after returning from hibernation.</li>
   <li>Fixed the kernel panic when all keyboard are detached on iMac.</li>
@@ -2791,22 +1465,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>ハイバネーションからの復帰の際のカーネルパニックを修正しました。</li>
-  <li>iMacで全てのキーボードが取り外された際のカーネルパニックを修正しました。</li>
-  <li>SettingListがいくつかの環境で動かなかった問題を修正しました。</li>
-  <li>アンインストーラを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '5.0.0',
         :updated => '2008-05-07',
         :link => 'files/KeyRemap4MacBook-5.0.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added the multi-user support.</li>
   <li>Added the multiple settings per user.</li>
@@ -2815,24 +1479,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>マルチユーザーに対応しました。</li>
-  <li>複数の設定を使いわけることが出来るようになりました。</li>
-  <li>特定のアプリケーションのみ有効なリマップをサポートしました。（FinderのみReturnをCMD+Oに変更など）</li>
-  <li>Emacs ModeがTerminal.appやEmacs.appで自動的に無効になるようになりました。</li>
-  <li>新たに80近くのリマッピングを加えました。</li>
-</ul>
-
-EOS
-        },
       },
       {
         :version => '4.0.0',
         :updated => '2008-04-02',
         :link => 'files/KeyRemap4MacBook-4.0.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed an issue which disable any remappings when you logged out.</li>
   <li>Added the feature to enable remapping for only inside keyboard or an outside keyboard.</li>
@@ -2841,23 +1493,12 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>ログアウトをするとリマップが効かなくなる問題を修正しました。</li>
-  <li>内蔵キーボード、もしくは外付けキーボードのみリマップを有効にする機能を加えました。</li>
-  <li>マウスをサポートしました。（キーとクリックのリマップやFnスクロール機能など）</li>
-  <li>インストールする場所を変更しました。(/Library/org.pqrs/KeyRemap4MacBook)</li>
-  <li>新たに50近くのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '3.2.0',
         :updated => '2008-02-29',
         :link => 'files/KeyRemap4MacBook-3.2.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added an existence check of DoubleCommand to installer. If DoubleCommand has already installed, the installation will be aborted.</li>
   <li>Support PowerBook G4 &amp; iBook.</li>
@@ -2866,47 +1507,24 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>
-    DoubleCommandが既にインストールされているかどうかインストーラでチェックするようにしました。
-    DoubleCommandがインストール済みの場合、インストールは中断されます。
-  </li>
-  <li>PowerBook G4とiBookをサポートしました。</li>
-  <li>VMware上でのEmacs Modeの動作を改善しました。</li>
-  <li>システム環境設定の細かい問題を修正しました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '3.1.0',
         :updated => '2008-02-18',
         :link => 'files/KeyRemap4MacBook-3.1.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Correct the key repeat behavior.</li>
   <li>Fixed a minor PreferencePane issue.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>キーリピートの挙動を修正しました。</li>
-  <li>システム環境設定の細かい問題を修正しました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '3.0.0',
         :updated => '2008-02-04',
         :link => 'files/KeyRemap4MacBook-3.0.0.pkg.tar.gz',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added PreferencePane. Now, you can configure by System Preferences.</li>
   <li>Added Key Repeat feature.</li>
@@ -2915,191 +1533,104 @@ EOS
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>システム環境設定から設定が出来るようになりました。</li>
-  <li>キーリピート処理を自前で行うようにしました。</li>
-  <li>CapsLockの扱いを改善しました。</li>
-  <li>sysctlのエントリ名を大きく変更しました。以前のバージョンからアップデートする場合はシステム環境設定から設定をし直してください。</li>
-  <li>新しくいくつかのリマッピングを加えました。また廃れたリマッピングは削除しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '2.3.0',
         :updated => '2007-12-15',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed the issue around arrow keys and delete key when remap.fn2* is enable.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>fnキーを動作を変更したときのカーソルキーやDeleteキーの動作を適切な形に修正しました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '2.2.0',
         :updated => '2007-11-29',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Fixed the issue around "key to modifier" (enter2*, return2option, jis_eisuu2*, jis_kana2*).</li>
   <li>Support PowerBook enter key.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>キーをモディファイアに変換する部分の問題を修正しました。</li>
-  <li>PowerBookのenterキーをサポートしました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '2.1.0',
         :updated => '2007-11-15',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '2.0.0',
         :updated => '2007-11-01',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Added support for Leopard.</li>
   <li>Added support for PowerBook restrictively.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Leopardをサポートしました。</li>
-  <li>限定的ですがPowerBookに対応しました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.5.0',
         :updated => '2007-10-10',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.4.0',
         :updated => '2007-09-09',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.3.0',
         :updated => '2007-08-15',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Updated StartupScript.</li>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>スタートアップスクリプトを更新しました。</li>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.2.0',
         :updated => '2007-06-10',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Increased prepared settings.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>いくつかのリマッピングを加えました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.0.2',
         :updated => '2007-02-05',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Universal Binary.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>Universal Binary化しました。</li>
-</ul>
-EOS
-        },
       },
       {
         :version => '1.0.1',
         :updated => '2006-10-09',
-        :body_l10n => {
-          :en => <<EOS,
+        :body => <<EOS,
 <ul>
   <li>Initial release.</li>
 </ul>
 EOS
-          :ja => <<EOS,
-<ul>
-  <li>最初のリリース。</li>
-</ul>
-EOS
-        },
       },
     ]
-    set_l10n_text(data)
   end
 end
 

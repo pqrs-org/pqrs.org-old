@@ -28,59 +28,35 @@ class Faq < KarabinerBase
     [
       {
         :href => '#general',
-        :name_l10n => {
-          :en => 'general',
-          :ja => '全般',
-        }
+        :name => 'general',
       },
       {
         :href => '#trackpad',
-        :name_l10n => {
-          :en => 'trackpad',
-          :ja => 'trackpad',
-        }
+        :name => 'trackpad',
       },
       {
         :href => '#capslock',
-        :name_l10n => {
-          :en => 'caps lock key',
-          :ja => 'caps lockキー',
-        }
+        :name => 'caps lock key',
       },
       {
         :href => '#fn',
-        :name_l10n => {
-          :en => 'fn key',
-          :ja => 'fnキー',
-        }
+        :name => 'fn key',
       },
       {
         :href => '#eject',
-        :name_l10n => {
-          :en => 'eject key',
-          :ja => 'ejectキー',
-        }
+        :name => 'eject key',
       },
       {
         :href => '#power',
-        :name_l10n => {
-          :en => 'power key',
-          :ja => '電源ボタン',
-        }
+        :name => 'power key',
       },
       {
         :href => '#shift',
-        :name_l10n => {
-          :en => 'shift key',
-          :ja => 'シフトキー',
-        }
+        :name => 'shift key',
       },
       {
         :href => '#unicode-hex-input',
-        :name_l10n => {
-          :en => 'unicode hex input',
-          :ja => 'unicode hex input',
-        }
+        :name => 'unicode hex input',
       },
     ]
   end
