@@ -6,12 +6,7 @@ require './karabiner_base.rb'
 
 class History < KarabinerBase
   def title
-    case @language
-    when :en
-      'Version History - ' + super()
-    when :ja
-      '更新履歴 - ' + super()
-    end
+    'Version History - ' + super()
   end
 
   def histories

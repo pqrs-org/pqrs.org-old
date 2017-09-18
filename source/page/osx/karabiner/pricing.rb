@@ -6,12 +6,7 @@ require './karabiner_base.rb'
 
 class Pricing < KarabinerBase
   def title
-    case @language
-    when :en
-      'Pricing - ' + super()
-    when :ja
-      '支援 - ' + super()
-    end
+    'Pricing - ' + super()
   end
 end
 
