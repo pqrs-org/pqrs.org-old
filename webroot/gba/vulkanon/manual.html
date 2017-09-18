@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>Vulkanon - ゲームボーイアドバンス用のソフトウェア</title>
+    <title>Vulkanon - Software for Gameboy Advance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -38,37 +38,27 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/gba/vulkanon/index.html.ja">Vulkanon</a>
+                  <a href="/gba/vulkanon/index.html">Vulkanon</a>
                 </li>
                 <li class=active>
-                  <a href="/gba/vulkanon/manual.html.ja">マニュアル</a>
+                  <a href="/gba/vulkanon/manual.html">Manual</a>
                 </li>
                 <li >
-                  <a href="/gba/vulkanon/history.html.ja">更新履歴</a>
+                  <a href="/gba/vulkanon/history.html">Version History</a>
                 </li>
                 <li >
-                  <a href="/gba/vulkanon/source.html.ja">開発</a>
+                  <a href="/gba/vulkanon/source.html">Development</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.ja">プロフィール</a>
+                <a href="/profile.html">Profile</a>
               </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/gba/vulkanon/manual.html.en">English</a></li>
-                <li><a href="/gba/vulkanon/manual.html.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
@@ -78,23 +68,23 @@
   <section>
     <div class="page-header">
       <h1>
-          操作方法
+        Controls
       </h1>
     </div>
     <div class="row">
       <div class="col-lg-6">
         <h2>
-            メインメニュー
+          At Main Menu
         </h2>
         <dl class="dl-horizontal">
-            <dt>Aボタン</dt>
-            <dd>選択</dd>
+          <dt>A Button</dt>
+          <dd>Choose.</dd>
 
-            <dt>Bボタン</dt>
-            <dd>キャンセル</dd>
+          <dt>B Button</dt>
+          <dd>Cancel.</dd>
 
-            <dt>十字キー</dt>
-            <dd>カーソル移動</dd>
+          <dt>Control Pad</dt>
+          <dd>Move cursor.</dd>
         </dl>
       </div>
       <div class="col-lg-6">
@@ -108,20 +98,20 @@ src="img/title.png" width="240" height="160"        />
     <div class="row">
       <div class="col-lg-6">
         <h2>
-            ゲーム中
+          In Game
         </h2>
         <dl class="dl-horizontal">
-            <dt>A、Bボタン</dt>
-            <dd>ショット</dd>
+          <dt>A,B Button</dt>
+          <dd>Shot.</dd>
 
-            <dt>L、Rボタン</dt>
-            <dd>レーザー</dd>
+          <dt>L,R Button</dt>
+          <dd>Laser.</dd>
 
-            <dt>セレクトボタン</dt>
-            <dd>メインメニューに戻る</dd>
+          <dt>Select</dt>
+          <dd>Back to Main Menu.</dd>
 
-            <dt>十字キー</dt>
-            <dd>移動</dd>
+          <dt>Control Pad</dt>
+          <dd>Move.</dd>
         </dl>
       </div>
       <div class="col-lg-6">
@@ -134,15 +124,15 @@ src="img/ss-main.png" width="240" height="160"        />
   <section>
     <div class="page-header">
       <h1>
-          マニュアル
+        Manual
       </h1>
     </div>
     <div class="row">
       <div class="col-lg-6">
         <h2>
-            ルール
+          Playing the game
         </h2>
-          3分以内にボスを倒してください。
+        Defeat the boss within three minutes time limits.
       </div>
       <div class="col-lg-6">
         <img alt="Boss"
@@ -153,21 +143,21 @@ src="img/bosscore.png" width="240" height="160"        />
     <hr width="50%" />
 
     <h2>
-        敵弾の種類
+      Enemy Bullets
     </h2>
 
     <table class="table table-bordered">
       <tbody>
         <tr>
-            <th>
-              破壊可能弾
-            </th>
-            <th>
-              打ち返し弾
-            </th>
-            <th>
-              自機狙い打ち返し弾
-            </th>
+          <th>
+            Destroyable Bullet
+          </th>
+          <th>
+            Suicide Bullet
+          </th>
+          <th>
+            Aimed Suicide Bullet
+          </th>
         </tr>
         <tr>
           <td>
@@ -187,7 +177,7 @@ src="img/spr_suicide_bullet_target_self.png" width="32" height="32"            /
     </table>
 
     <p>
-        打ち返し弾と自機狙い打ち返し弾は破壊可能弾を打つと発生します。
+      Suicide Bullets and Aimed Suicide Bullets are generated when you shot Destroyable Bullet.
     </p>
 
     <hr width="50%" />
@@ -195,13 +185,13 @@ src="img/spr_suicide_bullet_target_self.png" width="32" height="32"            /
     <div class="row">
       <div class="col-lg-6">
         <h2>
-            レーザー
+          Laser
         </h2>
         <p>
-            レーザーは全ての敵弾を破壊します。
+          Laser destroys all enemy bullets.
         </p>
         <p>
-            パワーが100%のときにレーザーを使えます。
+          You can use Laser when Power is 100%.
         </p>
       </div>
       <div class="col-lg-6">
