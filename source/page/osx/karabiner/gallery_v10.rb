@@ -12,12 +12,7 @@ class GalleryV10 < KarabinerBase
   end
 
   def title
-    case @language
-    when :en
-      'Part of useful existing settings - ' + super()
-    when :ja
-      '便利な既存の設定の一例 - ' + super()
-    end
+    'Part of useful existing settings - ' + super()
   end
 
   def tabs_definition
