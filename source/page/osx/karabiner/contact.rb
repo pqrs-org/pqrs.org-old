@@ -6,12 +6,7 @@ require './karabiner_base.rb'
 
 class Contact < KarabinerBase
   def title
-    case @language
-    when :en
-      'Contact - ' + super()
-    when :ja
-      '連絡先 - ' + super()
-    end
+    'Contact - ' + super()
   end
 end
 
