@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>BulletGBA - Software for Gameboy Advance</title>
@@ -38,124 +38,143 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
+                <li >
+                  <a href="/gba/bulletgba/index.html">BulletGBA</a>
+                </li>
                 <li class=active>
-                  <a href="/gba/bulletgba/index.html.en">BulletGBA</a>
+                  <a href="/gba/bulletgba/manual.html">Manual</a>
                 </li>
                 <li >
-                  <a href="/gba/bulletgba/manual.html.en">Manual</a>
+                  <a href="/gba/bulletgba/history.html">Version History</a>
                 </li>
                 <li >
-                  <a href="/gba/bulletgba/history.html.en">Version History</a>
-                </li>
-                <li >
-                  <a href="/gba/bulletgba/source.html.en">Development</a>
+                  <a href="/gba/bulletgba/source.html">Development</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.en">Profile</a>
+                <a href="/profile.html">Profile</a>
               </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/gba/bulletgba/index.html.en">English</a></li>
-                <li><a href="/gba/bulletgba/index.html.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
     </header>
 
     <div class="container">
-  <header>
-    <div class="jumbotron">
-      <h1>BulletGBA</h1>
-      <p>
-          A homebrew bullet hell simulator for Gameboy Advance.
-      </p>
-      <p>
-<a class="btn btn-primary btn-lg"
-            href="files/bulletgba-5.0.rom.gba.zip">Download GBA ROM</a>      </p>
-      <p>
-        <small>
-            (64 Mbit Cartridge + 256 Kbit SRAM)
-        </small>
-      </p>
+  <section>
+    <div class="page-header">
+      <h1>
+        Controls
+      </h1>
     </div>
-  </header>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+          At Main Menu
+        </h2>
+        <dl class="dl-horizontal">
+          <dt>A Button</dt>
+          <dd>Choose.</dd>
+
+          <dt>B Button</dt>
+          <dd>Cancel.</dd>
+
+          <dt>Control Pad</dt>
+          <dd>Move cursor.</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Title" src="img/title.png" width="160" height="240" />
+      </div>
+    </div>
+    <hr width="50%" />
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>
+          In Game
+        </h2>
+        <dl class="dl-horizontal">
+          <dt>B Button</dt>
+          <dd>Back to Main Menu.</dd>
+
+          <dt>R Button</dt>
+          <dd>Skip to next barrage. (You cannot skip in Shooting Mode.)</dd>
+
+          <dt>Start,Select</dt>
+          <dd>Toggle slow mode.</dd>
+
+          <dt>Control Pad</dt>
+          <dd>Move.</dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Game" src="img/normal.png" width="160" height="240" />
+      </div>
+    </div>
+  </section>
 
   <section>
     <div class="page-header">
       <h1>
-          Movie &amp; Screenshots
+        Modes
       </h1>
     </div>
-    <iframe width="320" height="240" src="https://www.youtube.com/embed/2rI0Sw1bHLM" frameborder="0"></iframe>
-    <hr />
     <div class="row">
-      <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/photo.jpg" alt="photo" />
-</a>
-<div class="modal fade" id="lightbox-1" tabindex="30001">
-  <div class="modal-dialog clickable" style="width: 299px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/photo.jpg" alt="photo" style="width: 100%" />
+      <div class="col-lg-6">
+        <dl class="dl-horizontal">
+          <dt>Select Barrage</dt>
+          <dd>
+            Select the barrage from the list.
+          </dd>
+
+          <dt>
+            Shooting Level 1-4
+          </dt>
+          <dd>
+            Destroy the boss.
+          </dd>
+
+          <dt>BulletsMorph</dt>
+          <dd>
+            Generate the barrage automatically.
+          </dd>
+        </dl>
+      </div>
+      <div class="col-lg-6">
+        <img alt="Title" src="img/title.png" width="160" height="240" />
       </div>
     </div>
-  </div>
-</div>
-      </div>
-      <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/title.png" alt="title" />
-</a>
-<div class="modal fade" id="lightbox-2" tabindex="30002">
-  <div class="modal-dialog clickable" style="width: 220px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/title.png" alt="title" style="width: 100%" />
-      </div>
+  </section>
+
+  <section>
+    <div class="page-header">
+      <h1>
+        Slow Mode
+      </h1>
     </div>
-  </div>
-</div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          You can toggle slow mode by START or SELECT.
+        </p>
+        <ul>
+          <li>Bullets will be slowed down to 1/4 speed.</li>
+          <li>The color of the bullets becomes purple.</li>
+        </ul>
+        <p>
+          You need "Jewel" to enter slow mode.
+          Slow mode will be canceled when jewel becomes zero or you are bombarded.
+        </p>
       </div>
-      <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
-  <img src="img/normal.png" alt="simulator" />
-</a>
-<div class="modal fade" id="lightbox-3" tabindex="30003">
-  <div class="modal-dialog clickable" style="width: 220px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/normal.png" alt="simulator" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-      <div class="col-lg-3">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
-  <img src="img/shooting.png" alt="shooting mode" />
-</a>
-<div class="modal fade" id="lightbox-4" tabindex="30004">
-  <div class="modal-dialog clickable" style="width: 220px;">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/shooting.png" alt="shooting mode" style="width: 100%" />
-      </div>
-    </div>
-  </div>
-</div>
+      <div class="col-lg-6">
+        <img alt="Normal"
+src="img/shooting.png" width="160" height="240"        />
+        <img alt="Slow"
+src="img/slowmode.png" width="160" height="240"        />
       </div>
     </div>
   </section>

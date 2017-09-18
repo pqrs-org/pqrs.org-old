@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>BulletGBA - Software for Gameboy Advance</title>
@@ -39,37 +39,27 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.en" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/gba/bulletgba/index.html.en">BulletGBA</a>
+                  <a href="/gba/bulletgba/index.html">BulletGBA</a>
                 </li>
                 <li >
-                  <a href="/gba/bulletgba/manual.html.en">Manual</a>
+                  <a href="/gba/bulletgba/manual.html">Manual</a>
                 </li>
                 <li >
-                  <a href="/gba/bulletgba/history.html.en">Version History</a>
+                  <a href="/gba/bulletgba/history.html">Version History</a>
                 </li>
                 <li class=active>
-                  <a href="/gba/bulletgba/source.html.en">Development</a>
+                  <a href="/gba/bulletgba/source.html">Development</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.en">Profile</a>
+                <a href="/profile.html">Profile</a>
               </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/gba/bulletgba/source.html.en">English</a></li>
-                <li><a href="/gba/bulletgba/source.html.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
@@ -79,7 +69,7 @@
   <section>
     <div class="page-header">
       <h1>
-          Source Code
+        Source Code
       </h1>
     </div>
     <p>
@@ -90,24 +80,24 @@
   <section>
     <div class="page-header">
       <h1>
-          How to build
+        How to build
       </h1>
     </div>
     <h2>
-        Requirements
+      Requirements
     </h2>
     <ul>
       <li>
         <a href="http://sourceforge.net/projects/devkitpro/" target="_blank">devkitPro r18 (buildscripts 20060412)</a>
-          (You need to use version r18. Do not use the latest release!)
+        (You need to use version r18. Do not use the latest release!)
       </li>
     </ul>
     <h2>
-        Steps
+      Steps
     </h2>
     <ol>
       <li>
-          Execute the following commands in Terminal.
+        Execute the following commands in Terminal.
         <pre>
 $ tar ztf bulletgba-5.0.tar.gz
 $ cd bulletgba-5.0/bulletgba/
@@ -120,18 +110,18 @@ $ make
   <section>
     <div class="page-header">
       <h1>
-          How to replace graphic resources
+        How to replace graphic resources
       </h1>
     </div>
     <h2>
-        Steps
+      Steps
     </h2>
     <ol>
       <li>
-          Download <a href="files/tools.tar.gz">tools.tar.gz</a>.
+        Download <a href="files/tools.tar.gz">tools.tar.gz</a>.
       </li>
       <li>
-          Execute following commands to setup gba-tools.
+        Execute following commands to setup gba-tools.
         <pre>
 $ mkdir ~/gba
 $ cd ~/gba
@@ -141,10 +131,10 @@ $ make clean all
 </pre>
       </li>
       <li>
-          Modify graphic resources under bulletgba/images.
+        Modify graphic resources under bulletgba/images.
       </li>
       <li>
-          Execute following commands to convert graphic resources.
+        Execute following commands to convert graphic resources.
         <pre>
 $ cd bulletgba-5.0/bulletgba/images/
 $ ./conv.sh
@@ -156,29 +146,29 @@ $ ./conv.sh
   <section>
     <div class="page-header">
       <h1>
-          How to add BulletML
+        How to add BulletML
       </h1>
     </div>
     <h2>
-        Requirements
+      Requirements
     </h2>
     <ul>
       <li>
-          You need PHP 5.0+ to convert BulletML to C++.
+        You need PHP 5.0+ to convert BulletML to C++.
       </li>
     </ul>
     <h2>
-        Steps
+      Steps
     </h2>
     <ol>
       <li>
-          Extract source code.
+        Extract source code.
       </li>
       <li>
-          Put BulletML to bulletgba-5.0/bulletgba/generator/data/xml/user/.
+        Put BulletML to bulletgba-5.0/bulletgba/generator/data/xml/user/.
       </li>
       <li>
-          Execute following commands to convert BulletML into C++.
+        Execute following commands to convert BulletML into C++.
         <pre>
 $ tar ztf bulletgba-5.0.tar.gz
 $ cd bulletgba-5.0/bulletgba/generator/
@@ -191,16 +181,16 @@ $ make copy all
   <section>
     <div class="page-header">
       <h1>
-          Supported BulletML
+        Supported BulletML
       </h1>
     </div>
     <p>
-        The most BulletML are supported. But there are little exception.
+      The most BulletML are supported. But there are little exception.
     </p>
     <ul>
-        <li>&lt;accel&gt; does not work properly.</li>
+      <li>&lt;accel&gt; does not work properly.</li>
       <li>
-          &lt;*Ref&gt; which contains $rand in &lt;param&gt; does not work properly.
+        &lt;*Ref&gt; which contains $rand in &lt;param&gt; does not work properly.
 <pre class="prettyprint lang-xml">&lt;fireRef&gt;
   &lt;param&gt;1.0 * 3.4 + 4.2&lt;/param&gt;     &lt;!-- *** This line works fine. *** --&gt;
   &lt;param&gt;$rand + 1&lt;/param&gt;           &lt;!-- *** This line does not work properly. *** --&gt;
@@ -210,11 +200,11 @@ $ make copy all
   <section>
     <div class="page-header">
       <h1>
-          Thanks
+        Thanks
       </h1>
     </div>
     <p>
-        BulletGBA uses following softwares and data.
+      BulletGBA uses following softwares and data.
     </p>
     <ul>
       <li><a target="_blank" href="http://www.devkitpro.org/">devkitPro</a></li>
