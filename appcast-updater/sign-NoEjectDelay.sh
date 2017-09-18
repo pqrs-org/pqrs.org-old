@@ -37,7 +37,7 @@ rm -f "$targetdir/noejectdelay-appcast-devel.xml.tmp"
 <style>
 EOF
 
->>"$targetdir/noejectdelay-appcast-devel.xml.tmp" cat ../source/css/sparkle.css
+>>"$targetdir/noejectdelay-appcast-devel.xml.tmp" cat ../source/css/output/sparkle.css
 
 >>"$targetdir/noejectdelay-appcast-devel.xml.tmp" cat <<EOF
 </style>
