@@ -67,13 +67,6 @@ class Document < KarabinerBase
         }
       },
       {
-        :href => '#privatexml',
-        :name_l10n => {
-          :en => 'How to add your own settings',
-          :ja => '設定の追加',
-        }
-      },
-      {
         :href => '#implicit',
         :name_l10n => {
           :en => 'Implicit behavior',
@@ -101,17 +94,24 @@ class Document < KarabinerBase
         }
       },
       {
-        :href => '#commandlineinterface',
+        :href => '#command-line-interface',
         :name_l10n => {
           :en => 'Command line interface',
           :ja => 'コマンドラインインターフェース',
         }
       },
       {
-        :href => '#preferences',
+        :href => '#configuration-file-path',
         :name_l10n => {
           :en => 'The location of the configuration file',
           :ja => '設定ファイルの場所',
+        }
+      },
+      {
+        :href => '#security',
+        :name_l10n => {
+          :en => 'Security',
+          :ja => '',
         }
       },
     ]
