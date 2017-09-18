@@ -383,6 +383,36 @@
 
       <section>
         <div class="page-header">
+          <h1 id="profiles">
+            Multiple profiles
+          </h1>
+        </div>
+        <p>
+          You can switch profiles from menu bar. <br />
+          Add profiles from <b>Add profile</b> button in <b>Profiles</b> tab.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              <img
+              alt="profiles"
+              {{#imgsrc}}
+                img/karabiner-elements-menu-profiles@2x.png
+              {{/imgsrc}}
+              />
+            </p>
+          </div>
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/karabiner-elements-profiles@2x.png Profiles
+            {{/lightbox}}
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="implicit">
             Implicit behavior
           </h1>
@@ -467,36 +497,6 @@
 
       <section>
         <div class="page-header">
-          <h1 id="profiles">
-            Multiple profiles
-          </h1>
-        </div>
-        <p>
-          You can switch profiles from menu bar. <br />
-          Add profiles from <b>Add profile</b> button in <b>Profiles</b> tab.
-        </p>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <p>
-              <img
-              alt="profiles"
-              {{#imgsrc}}
-                img/karabiner-elements-menu-profiles@2x.png
-              {{/imgsrc}}
-              />
-            </p>
-          </div>
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/karabiner-elements-profiles@2x.png Profiles
-            {{/lightbox}}
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="page-header">
           <h1 id="command-line-interface">
             Command line interface
           </h1>
@@ -558,13 +558,38 @@
 
         <h2>Processes</h2>
 
-        Karabiner-Elements has two core processes.
+        <p>
+          Karabiner-Elements has two core processes.
+        </p>
 
-        <ul>
-          <li><b>karabiner_grabber</b>: Grab the keyboard hardware and catch events, modify events then post it to virtual devices.</li>
-          <li><b>karabiner_console_user_server</b>: karabiner_grabber grabs device while this process is running.</li>
-        </ul>
-
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <th>
+                <b>karabiner_grabber</b>
+              </th>
+              <td>
+                <ul>
+                  <li>Privileged process.</li>
+                  <li>Grab the keyboard hardware and catch events, modify events then post it to virtual devices.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <b>karabiner_console_user_server</b>
+              </th>
+              <td>
+                <ul>
+                  <li>Session user process</li>
+                  <li>karabiner_grabber grabs keyboards while karabiner_console_user_server is running.</li>
+                  <li>Shell command is executed in this process.</li>
+                  <li>Connect to karabiner_grabber via unix domain socket.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
     </div>

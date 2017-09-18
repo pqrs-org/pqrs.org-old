@@ -32,10 +32,29 @@ class Document < KarabinerBase
         }
       },
       {
-        :href => '#configuration',
         :name_l10n => {
           :en => 'Configuration',
           :ja => 'Configuration',
+        }
+      },
+      {
+        :href => '#configuration-simple-modifications',
+        :name_l10n => {
+          :en => 'Simple Modifications',
+          :ja => 'Simple Modifications',
+        }
+      },
+      {
+        :href => '#configuration-complex-modifications',
+        :name_l10n => {
+          :en => 'Complex Modifications',
+          :ja => 'Complex Modifications',
+        }
+      },
+      {
+        :name_l10n => {
+          :en => 'Operations',
+          :ja => 'Operations',
         }
       },
       {
@@ -67,6 +86,19 @@ class Document < KarabinerBase
         }
       },
       {
+        :href => '#profiles',
+        :name_l10n => {
+          :en => 'Multiple profiles',
+          :ja => '複数の設定の使い分け',
+        }
+      },
+      {
+        :name_l10n => {
+          :en => 'Misc.',
+          :ja => 'Misc.',
+        }
+      },
+      {
         :href => '#implicit',
         :name_l10n => {
           :en => 'Implicit behavior',
@@ -78,19 +110,6 @@ class Document < KarabinerBase
         :name_l10n => {
           :en => 'Input event modification chaining',
           :ja => '入力イベントの変更の順番',
-        }
-      },
-      {
-        :name_l10n => {
-          :en => 'Misc.',
-          :ja => 'その他',
-        }
-      },
-      {
-        :href => '#profiles',
-        :name_l10n => {
-          :en => 'Multiple profiles',
-          :ja => '複数の設定の使い分け',
         }
       },
       {
