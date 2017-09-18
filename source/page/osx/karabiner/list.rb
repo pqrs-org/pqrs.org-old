@@ -12,12 +12,7 @@ class List < KarabinerBase
   end
 
   def title
-    case @language
-    when :en
-      'List of prepared settings - ' + super()
-    when :ja
-      'あらかじめ用意されている設定項目一覧 - ' + super()
-    end
+    'List of prepared settings - ' + super()
   end
 end
 
