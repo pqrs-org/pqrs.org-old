@@ -52,6 +52,20 @@ class Document < KarabinerBase
         }
       },
       {
+        :href => '#configuration-devices',
+        :name_l10n => {
+          :en => 'Choose devices',
+          :ja => 'Choose devices',
+        }
+      },
+      {
+        :href => '#configuration-keyboard-type',
+        :name_l10n => {
+          :en => 'Set keyboard type',
+          :ja => 'Set keyboard type',
+        }
+      },
+      {
         :name_l10n => {
           :en => 'Operations',
           :ja => 'Operations',
