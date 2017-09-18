@@ -3,7 +3,6 @@ all:
 	./document.rb
 	./xml.rb
 	./faq.rb
-	./extra.rb
 	./seil.rb
 	./noejectdelay.rb
 	./source.rb

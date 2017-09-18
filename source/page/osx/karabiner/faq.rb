@@ -16,12 +16,7 @@ class Faq < KarabinerBase
   end
 
   def title
-    case @language
-    when :en
-      'Q&A - ' + super()
-    when :ja
-      'Q&A - ' + super()
-    end
+    'Q&A - ' + super()
   end
 
   def tabs_definition
