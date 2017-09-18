@@ -6,12 +6,7 @@ require './karabiner_base.rb'
 
 class Source < KarabinerBase
   def title
-    case @language
-    when :en
-      'License & Repository - ' + super()
-    when :ja
-      'ライセンス・リポジトリ - ' + super()
-    end
+    'License & Repository - ' + super()
   end
 end
 
