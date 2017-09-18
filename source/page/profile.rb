@@ -5,12 +5,7 @@ require '../classes/bootstrap.rb'
 
 class Profile < PqrsBase
   def title
-    case @language
-    when :en
-      'Profile'
-    when :ja
-      'プロフィール'
-    end
+    'Profile'
   end
 end
 
