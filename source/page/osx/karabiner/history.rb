@@ -856,7 +856,7 @@ EOS
     <ul>
       <li>
         You can add your own modifiers by &lt;modifierdef&gt;.
-        <a href="https://pqrs.org/osx/karabiner/xml.html.en#modifier">Usage of &lt;modifierdef&gt;.</a>
+        <a href="https://pqrs.org/osx/karabiner/xml.html#modifier">Usage of &lt;modifierdef&gt;.</a>
       </li>
       <li>Added &lt;windowname_only&gt; and &lt;windowname_not&gt; filters.</li>
       <li>Added &lt;uielementrole_only&gt; and &lt;uielementrole_not&gt; filters.</li>
@@ -1156,8 +1156,8 @@ EOS
   <li>
     Updates for people who add new settings by oneself.
     <ul>
-      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this. <a href="xml.html.en#replacementdef">(reference)</a></li>
-      <li>Added &lt;include&gt;. You can load external xml files in private.xml. <a href="xml.html.en#include">(reference)</a></li>
+      <li>Added &lt;replacementdef&gt;. You can replace preset settings behavior by this. <a href="xml.html#replacementdef">(reference)</a></li>
+      <li>Added &lt;include&gt;. You can load external xml files in private.xml. <a href="xml.html#include">(reference)</a></li>
       <li>Added --ScrollWheelToKey--.</li>
       <li>Added --ScrollWheelToScrollWheel--.</li>
       <li>Added KeyCode::VK_WAIT_*.</li>
@@ -1182,8 +1182,8 @@ EOS
       <li>
         Dynamic ApplicationType,DeviceVendor,DeviceProduct definition feature has been added.
         <ul>
-          <li><a href="xml.html.en#appdef">Application Specific Setting</a></li>
-          <li><a href="xml.html.en#devicedef">Device Specific Setting</a></li>
+          <li><a href="xml.html#appdef">Application Specific Setting</a></li>
+          <li><a href="xml.html#devicedef">Device Specific Setting</a></li>
         </ul>
       </li>
       <li>Added --StripModifierFromScrollWheel--.</li>
@@ -1203,7 +1203,7 @@ EOS
   <li>Some improvements on Mac OS X 10.7 (Lion).</li>
   <li>
     Removed "General &gt; Enable CapsLock LED Hack" from preferences.<br />
-    If you're using this setting for PCKeyboardHack, use <a href="seil.html.en#noaction">"No Action" configuration</a> instead.
+    If you're using this setting for PCKeyboardHack, use <a href="seil.html#noaction">"No Action" configuration</a> instead.
   </li>
   <li>
     Cleaned up "Simultaneous Vi Mode".<br />
@@ -1280,7 +1280,7 @@ EOS
     Attached an application named "multi-touch extension".<br />
     This application activates specific setting while fingers touch the multi-touch device.<br />
     <a href="http://www.sonycsl.co.jp/person/rekimoto/tsense/soft/index.html" target="_blank">ThumbSense</a> is one of the function which this application supplies.<br />
-    See <a href="document.html.en#multitouchextension">Multi-touch extension</a> for more details.
+    See <a href="document.html#multitouchextension">Multi-touch extension</a> for more details.
   </li>
   <li>Fixed some issues.</li>
   <li>Increased prepared settings.</li>
@@ -1301,7 +1301,7 @@ EOS
 <ul>
   <li>
     Now, you can add your original settings very very easily.<br />
-    <a href="document.html.en#privatexml">How to add new settings.</a><br />
+    <a href="document.html#privatexml">How to add new settings.</a><br />
     You don't need to build a package from source code anymore.
   </li>
   <li>
