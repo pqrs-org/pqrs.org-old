@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>NesterDC - Dreamcast用のソフトウェア</title>
+    <title>NesterDC - Software for Dreamcast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -38,31 +38,21 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li >
-                  <a href="/dreamcast/software/nesterdc/index.html.ja">NesterDC</a>
+                  <a href="/dreamcast/software/nesterdc/index.html">NesterDC</a>
                 </li>
                 <li class=active>
-                  <a href="/dreamcast/software/nesterdc/history.html.ja">更新履歴</a>
+                  <a href="/dreamcast/software/nesterdc/history.html">Version History</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.ja">プロフィール</a>
+                <a href="/profile.html">Profile</a>
               </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/dreamcast/software/nesterdc/history.html.en">English</a></li>
-                <li><a href="/dreamcast/software/nesterdc/history.html.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
@@ -72,55 +62,55 @@
   <section>
     <div class="page-header">
       <h1>
-          更新履歴
+        Version History
       </h1>
     </div>
       <h2>
         Version 7.1
           <small>
-2002年12月2日          </small>
+Dec 2, 2002          </small>
       </h2>
       <ul>
-  <li>エミュレーション速度を最適化</li>
-  <li>NNNesterJ形式のチートコードに対応</li>
-  <li>数多くのNNNesterJ形式のチートコードをzipパッケージに同梱</li>
-  <li>DreamcastのUIまわりのソースコードを改善</li>
-  <li>開発環境を更新（gcc-3.2、binutils-2.13.1）</li>
+  <li>Optimized emulation speed.</li>
+  <li>NNNesterJ style cheat code feature has been added.</li>
+  <li>Many NNNesterJ style cheat codes has been added into zip package.</li>
+  <li>Improved source code around UI of Dreamcast.</li>
+  <li>Updated development environment (gcc-3.2, binutils-2.13.1)</li>
   <li>
-    ファミコンの外部機器に対応
+    NES external device support.
     <ul>
-      <li>アルカノイドパドル（Dreamcastのマウスで操作）</li>
-      <li>マージャンコントローラ（Dreamcastのキーボードで操作）</li>
+      <li>Arkanoid Paddle (controlled by Dreamcast Mouse)</li>
+      <li>Mahjong Controller (controlled by Dreamcast Keyboard)</li>
     </ul>
   </li>
-  <li>その他、いくつかの改良</li>
+  <li>Some misc improvements.</li>
 </ul>
 
       <h2>
         Version 7.0
       </h2>
       <ul>
-  <li>新しいフォントレンダラー</li>
-  <li>Dreamcastまわりのソースコードをリライト</li>
-  <li>バグフィックス</li>
-  <li>1番目のコントローラ以外でもシステムメニューを操作できるようになりました</li>
-  <li>Dreamcastのコントローラとファミコンのコントローラのマッピング設定</li>
-  <li>キーバインドを固定しました</li>
-  <li>KOSを1.1.8に更新しました</li>
+  <li>New font renderer.</li>
+  <li>Rewrited almost all Dreamcast specific code.</li>
+  <li>Important bug fix.</li>
+  <li>You can operate the system menu by the 2nd and subsequent controllers besides the 1st controller.</li>
+  <li>virtual maple port binding on Dreamcast Controllers.</li>
+  <li>Fixate KEY bind.</li>
+  <li>Update KOS to 1.1.8.</li>
   <li>
-    NESの外部デバイス
+    NES external device support:
     <ul>
-      <li>キーボード</li>
-      <li>光線銃</li>
-      <li>ハイパーショット</li>
+      <li>Family Keyboard</li>
+      <li>Optical Gun</li>
+      <li>Hyper Shot</li>
     </ul>
   </li>
   <li>
-    Dreamcastのデバイス
+    Dreamcast device support:
     <ul>
-      <li>アーケードスティック</li>
-      <li>Dreamcastのキーボード（jp106のみ）</li>
-      <li>Dreamcastのマウス</li>
+      <li>Arcade Stick</li>
+      <li>Dreamcast Keyboard (jp106 only)</li>
+      <li>Dreamcast Mouse</li>
     </ul>
   </li>
 </ul>
@@ -129,31 +119,31 @@
         Version 6.0
       </h2>
       <ul>
-  <li>バイリニアフィルタを追加しました</li>
-  <li>Game Genieに対応しました</li>
-  <li>KOSの更新によって、Dreamcastのコントローラの処理を改善しました</li>
-  <li>PPUのエミュレーション、およびN106のエミュレーションの速度を改善しました</li>
+  <li>Added bilinear filter.</li>
+  <li>Added Game Genie feature.</li>
+  <li>Improved Dreamcast controller handling by upgrading KOS.</li>
+  <li>Tuned PPU emulation and N106 emulation.</li>
 </ul>
 
       <h2>
         Version 5.0
       </h2>
       <ul>
-  <li>フルスクリーン機能を追加しました</li>
-  <li>エミュレーション速度を最適化しました</li>
-  <li>4人プレイに対応しました</li>
-  <li>VGA出力に対応しました</li>
-  <li>その他細かい機能追加</li>
+  <li>Added full screen feature.</li>
+  <li>Optimized emulation speed.</li>
+  <li>Added 4 players support.</li>
+  <li>Added VGA support.</li>
+  <li>Added misc features.</li>
 </ul>
 
       <h2>
         Version 4.0
       </h2>
       <ul>
-  <li>CPU/PPU/APU/マッパーのエミュレーションをunofficial nesterから移植しました</li>
-  <li>VMUへのステートセーブに対応しました</li>
-  <li>クイックステートセーブに対応しました</li>
-  <li>その他細かい機能追加</li>
+  <li>CPU/PPU/APU/Mappers emulation were ported from unofficial nester.</li>
+  <li>Added VMU state save/load feature.</li>
+  <li>Added quick state save/load feature.</li>
+  <li>Added misc features.</li>
 </ul>
 
   </section>
