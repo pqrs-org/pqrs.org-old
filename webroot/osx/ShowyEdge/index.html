@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>ShowyEdge - OS X用のソフトウェア</title>
+    <title>ShowyEdge - Software for OS X</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -38,28 +38,18 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.ja" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
                 <li class=active>
-                  <a href="/osx/ShowyEdge/index.html.ja">ShowyEdge</a>
+                  <a href="/osx/ShowyEdge/index.html">ShowyEdge</a>
                 </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li >
-                <a href="/profile.html.ja">プロフィール</a>
+                <a href="/profile.html">Profile</a>
               </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="/osx/ShowyEdge/index.html.en">English</a></li>
-                <li><a href="/osx/ShowyEdge/index.html.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
@@ -81,14 +71,15 @@ src="img/menubar@2x.png" width="830" height="190"        style="border: 1px soli
       </p>
 
       <p>
-          ShowyEdgeは現在の入力ソースに応じて画面の上端にカラーバーを表示して、入力ソースを視認しやすくします。<br />
+        ShowyEdge displays a color bar at the top edge of the screen depending on the current input source.<br />
+        You can recognize the current input source very easily even if you are using fullscreen apps.<br />
         <br />
       </p>
 
       <p>
 <a class="btn btn-primary btn-lg"
-            href="files/ShowyEdge-3.2.0.dmg">ShowyEdge-3.2.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.9以降で動作します。</span></a>      </p>
+            href="files/ShowyEdge-3.2.0.dmg">Download ShowyEdge-3.2.0
+            &nbsp;<span class="label label-default">For OS X 10.9+</span></a>      </p>
 
       <p>
         <a href="https://github.com/tekezo/ShowyEdge/blob/master/LICENSE.md" target="_blank">
@@ -97,21 +88,22 @@ src="img/menubar@2x.png" width="830" height="190"        style="border: 1px soli
       </p>
 
       <div class="alert alert-warning" role="alert">
-          Sparkleフレームワークの脆弱性について:<br />
-          ShowyEdgeはフィードやファイルにHTTPSを用いているので、<a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">Sparkleフレームワークの脆弱性</a>の影響を受けません。安全にソフトウェア更新を行えます。
+        About Sparkle Updater Vulnerability:<br />
+        ShowyEdge is safe from <a href="https://sparkle-project.org/documentation/security/" class="alert-link" target="_blank">the Sparkle Updater Vulnerability</a>
+        because ShowyEdge uses HTTPS for feeds and files.
       </div>
 
       <hr />
 
       <p>
 <a class="btn btn-default"
-            href="files/ShowyEdge-2.2.0.dmg">ShowyEdge-2.2.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.8、10.7用</span></a>      </p>
+            href="files/ShowyEdge-2.2.0.dmg">Download ShowyEdge-2.2.0
+            &nbsp;<span class="label label-default">For OS X 10.8, 10.7</span></a>      </p>
 
       <p>
 <a class="btn btn-default"
-            href="files/ShowyEdge-1.8.0.dmg">ShowyEdge-1.8.0をダウンロード
-            &nbsp;<span class="label label-default">OS X 10.6用</span></a>      </p>
+            href="files/ShowyEdge-1.8.0.dmg">Download ShowyEdge-1.8.0
+            &nbsp;<span class="label label-default">For OS X 10.6</span></a>      </p>
     </div>
   </header>
 
@@ -120,14 +112,14 @@ src="img/menubar@2x.png" width="830" height="190"        style="border: 1px soli
       <section>
         <div class="page-header">
           <h1 id="installation">
-              インストール方法
+            Installation
           </h1>
         </div>
 
         <ol class="steps">
           <li>
             <p>
-                ダウンロードしたdmgファイルを開きます。
+              Open a downloaded dmg file.
             </p>
             <p>
               <img
@@ -138,8 +130,8 @@ src="../images/dmg-icon@2x.png" width="128" height="128"              />
 
           <li>
             <p>
-                ShowyEdgeのアイコンをApplicationsに移動してください。<br />
-                すると、ShowyEdgeがApplicationsにインストールされます。
+              Move ShowyEdge icon into Applications icon.<br />
+              Then, ShowyEdge will be installed into Applications.
             </p>
             <div class="row">
               <div class="col-lg-4">
@@ -161,7 +153,7 @@ src="../images/dmg-icon@2x.png" width="128" height="128"              />
 
           <li>
             <p>
-                LaunchpadからShowyEdgeを開いてください。
+              Open ShowyEdge from Launchpad.
             </p>
             <div class="row">
               <div class="col-lg-4">
@@ -183,8 +175,8 @@ src="../images/dmg-icon@2x.png" width="128" height="128"              />
 
           <li>
             <p>
-                設定画面が開きます。
-                必要に応じて設定を変更してから、ウィンドウを閉じてください。
+              Preferences will be opened.<br />
+              Change values if needed and then close the window.<br />
             </p>
             <div class="row">
               <div class="col-lg-4">
@@ -209,17 +201,17 @@ src="../images/dmg-icon@2x.png" width="128" height="128"              />
       <section>
         <div class="page-header">
           <h1 id="usage">
-              使い方
+            Usage
           </h1>
         </div>
 
         <p>
-            ShowyEdgeは多くの入力ソースに対して、あらかじめ色の設定が行われていますので、
-            設定を行わなくても使用することができます。
+          ShowyEdge provides preset colors for many input sources.<br />
+          Therefore you can use ShowyEdge without any configuration.
         </p>
 
         <p>
-            例えば、入力ソースをフランス語にするとカラーバーの色が「青、白、赤」になります。
+          For example, a color bar becomes blue-white-red when you change input source to French.
         </p>
 
         <p>
@@ -230,16 +222,16 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
         </p>
 
         <h2>
-            色の設定
+          Color configuration
         </h2>
 
         <p>
-            あなたの入力ソースが設定されていなかったり、入力ソースの色を変更したい場合は、以下の手順で行います。
+          You can configure colors by following procedures if there is no preset colors for your input source or you want to change the color.
         </p>
 
         <ol class="steps">
           <li>
-              LaunchpadからShowyEdgeを開いてください。
+            Open ShowyEdge from Launchpad.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
@@ -258,7 +250,7 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
             </div>
           </li>
           <li>
-              設定画面が開きますので、「Add custom color」ボタンを押してください。
+            Preferences will be opened. Then, press "Add custom color" button on Preferences.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
@@ -277,7 +269,7 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
             </div>
           </li>
           <li>
-              入力ソースの設定が追加されますので、色を変更してください。
+            Change colors of input source.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
@@ -301,13 +293,13 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
       <section>
         <div class="page-header">
           <h1 id="quit">
-              終了する方法
+            How to quit
           </h1>
         </div>
 
         <ol class="steps">
           <li>
-              LaunchpadからShowyEdgeを開いてください。
+            Open ShowyEdge from Launchpad.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
@@ -326,7 +318,7 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
             </div>
           </li>
           <li>
-              「Quit ShowyEdge」ボタンを押してください。
+            Press "Quit ShowyEdge" button.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
@@ -350,16 +342,16 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
       <section>
         <div class="page-header">
           <h1 id="uninstall">
-              アンインストール方法
+            Uninstall
           </h1>
         </div>
 
         <ol class="steps">
           <li>
-              まず、<a href="#quit">ShowyEdgeを終了させてください。</a>
+            First, <a href="#quit">quit ShowyEdge.</a>
           </li>
           <li>
-              FinderでApplicationsを開いてください。そしてShowyEdgeを削除してください。
+            Open Applications in Finder and then delete ShowyEdge.
             <div class="row">
               <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
@@ -383,7 +375,7 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
       <section>
         <div class="page-header">
           <h1 id="development">
-              開発
+            Development
           </h1>
         </div>
         <p>
@@ -394,17 +386,17 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
       <section>
         <div class="page-header">
           <h1 id="history">
-              更新履歴
+            Version History
           </h1>
         </div>
 
           <h2>
             Version 3.2.0
               <small>
-2017年3月23日              </small>
+Mar 23, 2017              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-3.2.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
@@ -413,7 +405,7 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      色の透過率を設定できるようにしました。
+      An opacity slider has been added to color picker.
     </div>
   </div>
 
@@ -423,10 +415,10 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
           <h2>
             Version 3.1.0
               <small>
-2016年4月17日              </small>
+Apr 17, 2016              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-3.1.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
@@ -435,28 +427,28 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      設定に「Colors layout orientation」を追加しました。
+      "Colors layout orientation" setting has been added.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      ログイン後のShowyEdgeの自動起動の挙動を改善しました。
+      The behavior of starting ShowyEdge on system startup has been improved.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      設定画面のUIを改善しました。
+      The preferences window UI has been improved.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      メモリ使用量を削減しました。
+      Memory usage has been reduced.
     </div>
   </div>
 
@@ -466,10 +458,10 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
           <h2>
             Version 3.0.0
               <small>
-2015年12月3日              </small>
+Dec 3, 2015              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-3.0.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
@@ -478,28 +470,28 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.8をサポート外としました。
+      OS X 10.8 support has been dropped.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.7をサポート外としました。
+      OS X 10.7 support has been dropped.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      設定画面がリサイズ可能になりました。
+      ShowyEdge Preferences became resizable.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      Sparkleフレームワークを更新しました。
+      Sparkle Framework has been updated.
     </div>
   </div>
 
@@ -509,126 +501,126 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
           <h2>
             Version 2.2.0
               <small>
-2015年8月30日              </small>
+Aug 30, 2015              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-2.2.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>「Check for updates（Sparkle）」を更新しました。</li>
-  <li>Closeボタンを追加しました。</li>
+  <li>Close button has been added.</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
 </ul>
 
           </div>
           <h2>
             Version 2.1.0
               <small>
-2014年12月2日              </small>
+Dec 2, 2014              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-2.1.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>複数のディスプレイの扱いを改善しました。各ディスプレイにカラーバーが表示されます。</li>
-  <li>Quitボタンを追加しました。</li>
+  <li>Multiple displays support has been improved. The indicator is shown in the all screen.</li>
+  <li>Quit button has been added.</li>
 </ul>
 
           </div>
           <h2>
             Version 2.0.0
               <small>
-2014年8月24日              </small>
+Aug 24, 2014              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-2.0.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>「Check for updates（Sparkle）」を更新しました。</li>
-  <li>サポートOSを「OS X 10.7以降」に変更しました。</li>
+  <li>"Check for updates" (Sparkle) has been updated.</li>
+  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
 </ul>
 
           </div>
           <h2>
             Version 1.8.0
               <small>
-2014年3月13日              </small>
+Mar 13, 2014              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-1.8.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>マルチディスプレイをサポートしました。</li>
+  <li>Multiple displays have been supported.</li>
 </ul>
 
           </div>
           <h2>
             Version 1.7.0
               <small>
-2013年10月18日              </small>
+Oct 18, 2013              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-1.7.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>設定に「Indicator opacity」を追加しました。</li>
-  <li>Developer IDで署名しました。</li>
+  <li>Added "Indicator opacity" configuration.</li>
+  <li>Signed with Developer ID..</li>
 </ul>
 
           </div>
           <h2>
             Version 1.6.0
               <small>
-2013年10月13日              </small>
+Oct 13, 2013              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-1.6.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>設定に「Use custom frame」を追加しました。</li>
-  <li>設定に「Show icon in Dock」を追加しました。</li>
-  <li>いくつかの細かい改善を行いました。</li>
+  <li>Added "Use custom frame" configuration.</li>
+  <li>Added "Show icon in Dock" configuration.</li>
+  <li>Fixed minor issues.</li>
 </ul>
 
           </div>
           <h2>
             Version 1.4.0
               <small>
-2013年6月16日              </small>
+Jun 16, 2013              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-1.4.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>ファイルのパーミッションを修正。</li>
+  <li>Revised file permissions.</li>
 </ul>
 
           </div>
           <h2>
             Version 1.3.0
               <small>
-2013年6月14日              </small>
+Jun 14, 2013              </small>
 
               <a class="btn btn-default btn-small" href="files/ShowyEdge-1.3.0.dmg">
-                  ダウンロード
+                Download
               </a>
           </h2>
           <div style="margin-left: 2em">
             <ul>
-  <li>最初のリリース。</li>
+  <li>First release.</li>
 </ul>
 
           </div>
@@ -639,32 +631,32 @@ src="img/menubar@2x.png" width="830" height="190"          style="border: 1px so
         <ul class="nav bs-sidenav">
               <li>
                 <a href="#installation">
-                  インストール方法
+                  Installation
                 </a>
               </li>
               <li>
                 <a href="#usage">
-                  使い方
+                  Usage
                 </a>
               </li>
               <li>
                 <a href="#quit">
-                  終了する方法
+                  How to quit
                 </a>
               </li>
               <li>
                 <a href="#uninstall">
-                  アンインストール方法
+                  Uninstall
                 </a>
               </li>
               <li>
                 <a href="#development">
-                  開発
+                  Development
                 </a>
               </li>
               <li>
                 <a href="#history">
-                  更新履歴
+                  Version History
                 </a>
               </li>
         </ul>
