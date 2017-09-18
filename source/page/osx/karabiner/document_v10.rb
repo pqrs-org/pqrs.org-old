@@ -20,127 +20,74 @@ class DocumentV10 < KarabinerBase
   end
 
   def title
-    case @language
-    when :en
-      'Manual - ' + super()
-    when :ja
-      'マニュアル - ' + super()
-    end
+    'Manual - ' + super()
   end
 
   def tabs_definition
     [
-     {
-       :href => '#usage',
-       :name_l10n => {
-         :en => 'Usage',
-         :ja => '使い方',
-       }
-     },
-     {
-       :href => '#keyrepeat',
-       :name_l10n => {
-         :en => 'Change key repeat rate',
-         :ja => 'キーリピート速度の変更',
-       }
-     },
-     {
-       :href => '#quit',
-       :name_l10n => {
-         :en => 'How to quit',
-         :ja => '終了する方法',
-       }
-     },
-     {
-       :href => '#uninstall',
-       :name_l10n => {
-         :en => 'Uninstall',
-         :ja => 'アンインストール方法',
-       }
-     },
-     {
-       :href => '#check-for-updates',
-       :name_l10n => {
-         :en => 'Check for updates',
-         :ja => '最新版への更新',
-       }
-     },
-     {
-       :href => '#axnotifier',
-       :name_l10n => {
-         :en => 'AXNotifier',
-         :ja => 'AXNotifier',
-       }
-     },
-     {
-       :href => '#eventviewer',
-       :name_l10n => {
-         :en => 'Eventviewer',
-         :ja => 'イベントビューア',
-       }
-     },
-     {
-       :href => '#privatexml',
-       :name_l10n => {
-         :en => 'How to add your own settings',
-         :ja => '設定の追加',
-       }
-     },
-     {
-       :href => '#implicit',
-       :name_l10n => {
-         :en => 'Implicit behavior',
-         :ja => '暗黙の挙動',
-       }
-     },
-     {
-       :href => '#event-modification-chaining',
-       :name_l10n => {
-         :en => 'Input event modification chaining',
-         :ja => '入力イベントの変更の順番',
-       }
-     },
-     {
-       :name_l10n => {
-         :en => 'Misc.',
-         :ja => 'その他',
-       }
-     },
-     {
-       :href => '#multitouchextension',
-       :name_l10n => {
-         :en => 'Multi-touch extension',
-         :ja => 'マルチタッチ拡張',
-       }
-     },
-     {
-       :href => '#profiles',
-       :name_l10n => {
-         :en => 'Multiple profiles',
-         :ja => '複数の設定の使い分け',
-       }
-     },
-     {
-       :href => '#commandlineinterface',
-       :name_l10n => {
-         :en => 'Command line interface',
-         :ja => 'コマンドラインインターフェース',
-       }
-     },
-     {
-       :href => '#preferences',
-       :name_l10n => {
-         :en => 'The location of the configuration file',
-         :ja => '設定ファイルの場所',
-       }
-     },
-     {
-       :href => '#debugmode',
-       :name_l10n => {
-         :en => 'debug mode',
-         :ja => 'デバッグモード',
-       }
-     },
+      {
+        :href => '#usage',
+        :name => 'Usage',
+      },
+      {
+        :href => '#keyrepeat',
+        :name => 'Change key repeat rate',
+      },
+      {
+        :href => '#quit',
+        :name => 'How to quit',
+      },
+      {
+        :href => '#uninstall',
+        :name => 'Uninstall',
+      },
+      {
+        :href => '#check-for-updates',
+        :name => 'Check for updates',
+      },
+      {
+        :href => '#axnotifier',
+        :name => 'AXNotifier',
+      },
+      {
+        :href => '#eventviewer',
+        :name => 'Eventviewer',
+      },
+      {
+        :href => '#privatexml',
+        :name => 'How to add your own settings',
+      },
+      {
+        :href => '#implicit',
+        :name => 'Implicit behavior',
+      },
+      {
+        :href => '#event-modification-chaining',
+        :name => 'Input event modification chaining',
+      },
+      {
+        :name => 'Misc.',
+      },
+      {
+        :href => '#multitouchextension',
+        :name => 'Multi-touch extension',
+      },
+      {
+        :href => '#profiles',
+        :name => 'Multiple profiles',
+      },
+      {
+        :href => '#commandlineinterface',
+        :name => 'Command line interface',
+      },
+      {
+        :href => '#preferences',
+        :name => 'The location of the configuration file',
+      },
+      {
+        :href => '#debugmode',
+        :name => 'debug mode',
+      },
     ]
   end
 end

@@ -3,126 +3,76 @@
 
 class KarabinerBase < PqrsBase
   def title
-    case @language
-    when :en
-      'Karabiner - Software for OS X'
-    when :ja
-      'Karabiner - OS X用のソフトウェア'
-    end
+    'Karabiner - Software for OS X'
   end
 
   def navs_left_data
     [
       {
         :href => '/osx/karabiner/index.html',
-        :name_l10n => {
-          :en => 'Karabiner',
-          :ja => 'Karabiner',
-        },
+        :name => 'Karabiner',
       },
       {
-        :name_l10n => {
-          :en => 'Documents',
-          :ja => 'ドキュメント',
-        },
+        :name => 'Documents',
         :dropdown => {
           :items => [
             {
               :href => '/osx/karabiner/document.html',
-              :name_l10n => {
-                :en => 'Manual',
-                :ja => 'マニュアル（英語）',
-              },
+              :name => 'Manual',
             },
             {
               :href => '/osx/karabiner/source.html',
-              :name_l10n => {
-                :en => 'License and Source Code',
-                :ja => 'ライセンス・ソースコード',
-              },
+              :name => 'License and Source Code',
             },
             {
               :href => '/osx/karabiner/history.html',
-              :name_l10n => {
-                :en => 'Version History',
-                :ja => '更新履歴',
-              },
+              :name => 'Version History',
             },
           ]
         },
       },
       {
-        :name_l10n => {
-          :en => 'Archives',
-          :ja => '昔のページ',
-        },
+        :name => 'Archives',
         :dropdown => {
           :items => [
             {
               :href => '/osx/karabiner/seil.html',
-              :name_l10n => {
-                :en => 'Seil',
-                :ja => 'Seil',
-              },
+              :name => 'Seil',
             },
             {
               :href => '/osx/karabiner/noejectdelay.html',
-              :name_l10n => {
-                :en => 'NoEjectDelay',
-                :ja => 'NoEjectDelay',
-              },
+              :name => 'NoEjectDelay',
             },
             {
               :href => '/osx/karabiner/document_v10.html',
-              :name_l10n => {
-                :en => 'Manual for Karabiner-10.22.0',
-                :ja => 'マニュアル（Karabiner-10.22.0向け）',
-              },
+              :name => 'Manual for Karabiner-10.22.0',
             },
             {
               :href => '/osx/karabiner/gallery_v10.html',
-              :name_l10n => {
-                :en => 'Gallery',
-                :ja => '設定の一例',
-              },
+              :name => 'Gallery',
             },
             {
               :href => '/osx/karabiner/xml.html',
-              :name_l10n => {
-                :en => 'private.xml',
-                :ja => 'private.xml（英語）',
-              },
+              :name => 'private.xml',
             },
             {
               :href => '/osx/karabiner/faq.html',
-              :name_l10n => {
-                :en => 'Q&A',
-                :ja => 'Q&A',
-              },
+              :name => 'Q&A',
             },
             {
               :href => '/osx/karabiner/list.html',
-              :name_l10n => {
-                :en => 'List of prepared settings',
-                :ja => 'あらかじめ用意されている設定項目一覧',
-              },
+              :name => 'List of prepared settings',
             },
           ],
         },
       },
       {
         :href => '/osx/karabiner/pricing.html',
-        :name_l10n => {
-          :en => 'Pricing',
-          :ja => '支援',
-        },
+        :name => 'Pricing',
       },
       {
         :href => '/osx/karabiner/contact.html',
-        :name_l10n => {
-          :en => 'Contact',
-          :ja => '連絡先',
-        },
+        :name => 'Contact',
       },
     ]
   end
