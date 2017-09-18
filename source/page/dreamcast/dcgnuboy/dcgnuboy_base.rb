@@ -3,30 +3,19 @@
 
 class DcgnuboyBase < PqrsBase
   def title
-    case @language
-    when :en
-      'dcgnuboy - Software for Dreamcast'
-    when :ja
-      'dcgnuboy - Dreamcast用のソフトウェア'
-    end
+    'dcgnuboy - Software for Dreamcast'
   end
 
   def navs_left_data
     [
-     {
-       :href => '/dreamcast/software/dcgnuboy/index.html',
-       :name_l10n => {
-         :en => 'dcgnuboy',
-         :ja => 'dcgnuboy',
-       },
-     },
-     {
-       :href => '/dreamcast/software/dcgnuboy/history.html',
-       :name_l10n => {
-         :en => 'Version History',
-         :ja => '更新履歴',
-       },
-     },
+      {
+        :href => '/dreamcast/software/dcgnuboy/index.html',
+        :name => 'dcgnuboy',
+      },
+      {
+        :href => '/dreamcast/software/dcgnuboy/history.html',
+        :name => 'Version History',
+      },
     ]
   end
 end

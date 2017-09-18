@@ -10,7 +10,6 @@ require 'pathname'
 require 'fileutils'
 
 class PqrsBase < Mustache
-  attr_accessor :language
   attr_accessor :path
   attr_accessor :body
 
@@ -30,10 +29,7 @@ class PqrsBase < Mustache
     [
       {
         :href => '/profile.html',
-        :name_l10n => {
-          :en => 'Profile',
-          :ja => 'プロフィール',
-        },
+        :name => 'Profile',
       },
     ]
   end
@@ -59,11 +55,11 @@ class PqrsBase < Mustache
   end
 
   def navs_left
-    set_nav_class(set_l10n_text(navs_left_data))
+    set_nav_class(navs_left_data)
   end
 
   def navs_right
-    set_nav_class(set_l10n_text(navs_right_data))
+    set_nav_class(navs_right_data)
   end
 
   def current_nav_path
@@ -83,14 +79,7 @@ class PqrsBase < Mustache
   end
 
   def tabs
-    set_tab_class(set_l10n_text(tabs_definition))
-  end
-
-  def language_en
-    @language == :en
-  end
-  def language_ja
-    @language == :ja
+    set_tab_class(tabs_definition)
   end
 
   def escape_html_without_render(text)
@@ -179,40 +168,11 @@ EOS
   end
 
   def format_date(text)
-    case language()
-    when :en
-      return Time.parse(render(text)).strftime('%b %-d, %Y')
-    when :ja
-      return Time.parse(render(text)).strftime('%Y年%-m月%-d日')
-    else
-      throw 'unknown language'
-    end
+    return Time.parse(render(text)).strftime('%b %-d, %Y')
   end
 
   def format_date_rss(text)
     return Time.parse(render(text)).strftime('%a, %d %b %Y %H:%M:%S %Z')
-  end
-
-  def set_l10n_text(hash)
-    if hash.class == Array then
-      hash.each_with_index do |v,k|
-        hash[k] = set_l10n_text(v)
-      end
-
-    elsif hash.class == Hash then
-      hash.each do |k,v|
-        if /_l10n$/ =~ k.to_s then
-          hash[k] = v[@language]
-          if hash[k].nil? then
-            throw "unknown language for #{k}: #{@language}"
-          end
-        else
-          hash[k] = set_l10n_text(v)
-        end
-      end
-    end
-
-    hash
   end
 
   def slice_to_cols(data, number)

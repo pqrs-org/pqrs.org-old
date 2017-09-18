@@ -39,23 +39,19 @@ class PqrsUtil
     self.update_file_if_needed(tmpfilepath, filepath)
   end
 
-  def self.render(path, mustache_class, language)
+  def self.render(path, mustache_class)
     body = mustache_class.new
     body.path = path
-    body.language = language
 
     layout = mustache_class.new
     layout.path = path
-    layout.language = language
     layout.body = body.render
     layout.template_file = $template_directory + '/pqrs_layout.mustache'
     layout.render
   end
 
   def self.make_page(destination_file, mustache_class)
-    [:en, :ja].each do |language|
-      self.put_file_if_needed($destination_directory + destination_file + '.' + language.to_s,
-                              self.render(destination_file, mustache_class, language))
-    end
+    self.put_file_if_needed($destination_directory + destination_file,
+                            self.render(destination_file, mustache_class))
   end
 end

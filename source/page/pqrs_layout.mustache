@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{language}}">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>{{title}}</title>
@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a href="/index.html.{{language}}" class="navbar-brand">pqrs.org</a>
+          <a href="/index.html" class="navbar-brand">pqrs.org</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse">
           <ul class="nav navbar-nav">
@@ -49,13 +49,13 @@
               {{#dropdown}}
                 <li class="{{nav_class}}">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    {{name_l10n}}
+                    {{name}}
                     <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
                     {{#items}}
                       <li {{#dropdown_nav_class}}class="{{dropdown_nav_class}}"{{/dropdown_nav_class}}>
-                        <a href="{{href}}.{{language}}">{{name_l10n}}</a>
+                        <a href="{{href}}">{{name}}</a>
                       </li>
                     {{/items}}
                   </ul>
@@ -63,7 +63,7 @@
               {{/dropdown}}
               {{^dropdown}}
                 <li {{#nav_class}}class={{nav_class}}{{/nav_class}}>
-                  <a href="{{href}}.{{language}}">{{name_l10n}}</a>
+                  <a href="{{href}}">{{name}}</a>
                 </li>
               {{/dropdown}}
             {{/navs_left}}
@@ -71,19 +71,9 @@
           <ul class="nav navbar-nav navbar-right">
             {{#navs_right}}
               <li {{#nav_class}}class={{nav_class}}{{/nav_class}}>
-                <a href="{{href}}.{{language}}">{{name_l10n}}</a>
+                <a href="{{href}}">{{name}}</a>
               </li>
             {{/navs_right}}
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Language
-                <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="{{path}}.en">English</a></li>
-                <li><a href="{{path}}.ja">Japanese</a></li>
-              </ul>
-            </li>
           </ul>
         </nav>
       </div>
