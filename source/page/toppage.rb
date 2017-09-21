@@ -12,15 +12,15 @@ class Toppage < PqrsBase
     data = [
       # ============================================================
       {
-        :id => 'os-x',
-        :name => 'OS X',
+        :id => 'macos',
+        :name => 'macOS',
         :rows => [
           {
             :name => 'Karabiner',
             :link => '/osx/karabiner/',
             :icon => '/img/icon/osx/karabiner-32.png',
             :body => <<EOS,
-<p>A powerful and stable keyboard customizer for OS X.</p>
+<p>A powerful and stable keyboard customizer for macOS.</p>
 EOS
           },
 
@@ -29,7 +29,7 @@ EOS
             :link => '/osx/ShowyEdge/',
             :icon => '/img/icon/osx/ShowyEdge-32.png',
             :body => <<EOS,
-<p>An Indicator of the current input source which has a very high visibility for OS X.</p>
+<p>An Indicator of the current input source which has a very high visibility for macOS.</p>
 EOS
           },
         ]

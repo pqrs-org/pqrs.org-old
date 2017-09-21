@@ -3,7 +3,7 @@
 
 class KarabinerBase < PqrsBase
   def title
-    'Karabiner - Software for OS X'
+    'Karabiner - Software for macOS'
   end
 
   def navs_left_data

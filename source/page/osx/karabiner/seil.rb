@@ -20,7 +20,7 @@ class Seil < KarabinerBase
   end
 
   def title
-    'Seil - Software for OS X'
+    'Seil - Software for macOS'
   end
 
   def tabs_definition
@@ -110,14 +110,14 @@ EOS
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.10 support has been dropped.
+      macOS 10.10 support has been dropped.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.9 support has been dropped.
+      macOS 10.9 support has been dropped.
     </div>
   </div>
 
@@ -154,7 +154,7 @@ EOS
   <li>
     Fixed an issue:
     <ul>
-      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
+      <li>kext loading issue on macOS 10.11 beta 6 has been fixed.</li>
     </ul>
   </li>
 </ul>
@@ -166,7 +166,7 @@ EOS
         :link => 'files/Seil-11.2.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>OS X 10.11 has been supported.</li>
+  <li>macOS 10.11 has been supported.</li>
   <li>Fast User Switching support has been improved.</li>
 </ul>
 EOS
@@ -187,8 +187,8 @@ EOS
         :link => 'files/Seil-11.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>OS X 10.10 support has been improved.</li>
-  <li>OS X 10.8 support has been dropped.</li>
+  <li>macOS 10.10 support has been improved.</li>
+  <li>macOS 10.8 support has been dropped.</li>
   <li>List of known key code has been updated.</li>
 </ul>
 EOS
@@ -253,7 +253,7 @@ EOS
         :link => 'files/PCKeyboardHack-10.7.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Supported OS X 10.10.</li>
+  <li>Supported macOS 10.10.</li>
   <li>Changed a way to launch at login. (LaunchAgents -&gt; Login Items)</li>
 </ul>
 EOS
@@ -314,7 +314,7 @@ EOS
         :link => 'files/PCKeyboardHack-10.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Supported OS X 10.9.</li>
+  <li>Supported macOS 10.9.</li>
   <li>Icons have been updated. (Thanks to Kouji TAMURA.)</li>
   <li>Signed with Developer ID.</li>
 </ul>
@@ -337,7 +337,7 @@ EOS
         :link => 'files/PCKeyboardHack-8.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Update for OS X 10.8 Mountain Lion.</li>
+  <li>Update for macOS 10.8 Mountain Lion.</li>
 </ul>
 EOS
       },
@@ -381,7 +381,7 @@ EOS
 <ul>
   <li>Added remappable keys: Command, Control, Option, Shift, Escape, Delete, Return, Keypad Enter.</li>
   <li>Added software update feature.</li>
-  <li>Fixed a minor issue on Mac OS X 10.7.</li>
+  <li>Fixed a minor issue on Mac macOS 10.7.</li>
 </ul>
 EOS
       },
@@ -391,7 +391,7 @@ EOS
         :link => 'files/PCKeyboardHack-7.0.0.pkg.zip',
         :body => <<EOS,
 <ul>
-  <li>Update for Mac OS X 10.7 Lion.</li>
+  <li>Update for Mac macOS 10.7 Lion.</li>
   <li>Removed "Change Control Key" feature. Use KeyRemap4MacBook to do it.</li>
 </ul>
 EOS

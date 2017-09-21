@@ -5,7 +5,7 @@ require '../../../classes/bootstrap.rb'
 
 class Index < PqrsBase
   def title
-    'ShowyEdge - Software for OS X'
+    'ShowyEdge - Software for macOS'
   end
 
   def navs_left_data
@@ -113,14 +113,14 @@ EOS
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.8 support has been dropped.
+      macOS 10.8 support has been dropped.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.7 support has been dropped.
+      macOS 10.7 support has been dropped.
     </div>
   </div>
 
@@ -170,7 +170,7 @@ EOS
         :body => <<EOS,
 <ul>
   <li>"Check for updates" (Sparkle) has been updated.</li>
-  <li>The minimum OS version requirement has been changed. (OS X 10.6 -> OS X 10.7)</li>
+  <li>The minimum OS version requirement has been changed. (macOS 10.6 -> macOS 10.7)</li>
 </ul>
 EOS
       },

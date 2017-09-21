@@ -16,7 +16,7 @@ class Noejectdelay < KarabinerBase
   end
 
   def title
-    'NoEjectDelay - Software for OS X'
+    'NoEjectDelay - Software for macOS'
   end
 
   def tabs_definition
@@ -77,14 +77,14 @@ EOS
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.10 support has been dropped.
+      macOS 10.10 support has been dropped.
     </div>
   </div>
 
   <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      OS X 10.9 support has been dropped.
+      macOS 10.9 support has been dropped.
     </div>
   </div>
 
@@ -118,7 +118,7 @@ EOS
         :link => 'files/NoEjectDelay-6.1.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>OS X 10.11 has been supported.</li>
+  <li>macOS 10.11 has been supported.</li>
 </ul>
 EOS
       },
@@ -128,8 +128,8 @@ EOS
         :link => 'files/NoEjectDelay-6.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>OS X 10.10 has been supported.</li>
-  <li>OS X 10.8 support has been dropped.</li>
+  <li>macOS 10.10 has been supported.</li>
+  <li>macOS 10.8 support has been dropped.</li>
 </ul>
 EOS
       },
@@ -142,7 +142,7 @@ EOS
   <li>
     Fixed an issue:
     <ul>
-      <li>NoEjectDelay causes kernel panic on OS X 10.9.2.</li>
+      <li>NoEjectDelay causes kernel panic on macOS 10.9.2.</li>
     </ul>
   </li>
 </ul>
@@ -175,7 +175,7 @@ EOS
         :link => 'files/NoEjectDelay-5.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Supported OS X 10.9.</li>
+  <li>Supported macOS 10.9.</li>
   <li>Signed with Developer ID.</li>
 </ul>
 EOS
@@ -196,7 +196,7 @@ EOS
         :link => 'files/NoEjectDelay-4.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Update for OS X 10.8 Mountain Lion.</li>
+  <li>Update for macOS 10.8 Mountain Lion.</li>
 </ul>
 EOS
       },
@@ -246,7 +246,7 @@ EOS
         :link => 'files/NoEjectDelay-3.1.0.pkg.zip',
         :body => <<EOS,
 <ul>
-  <li>Fixed a minor issue on Mac OS X 10.7.</li>
+  <li>Fixed a minor issue on Mac macOS 10.7.</li>
 </ul>
 EOS
       },
@@ -256,7 +256,7 @@ EOS
         :link => 'files/NoEjectDelay-3.0.0.pkg.zip',
         :body => <<EOS,
 <ul>
-  <li>Update for Mac OS X 10.7 Lion.</li>
+  <li>Update for Mac macOS 10.7 Lion.</li>
 </ul>
 EOS
       },

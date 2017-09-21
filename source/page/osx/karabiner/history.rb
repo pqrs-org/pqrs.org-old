@@ -241,7 +241,7 @@ EOS
     <div class="update-description-label"></div>
     <div class="update-description-body">
       Fixed an issue that is introduced in Karabiner 10.17.0:<br />
-      Karabiner will be crashed when you change settings after you opened and closed the Preferences window in OS X 10.10.
+      Karabiner will be crashed when you change settings after you opened and closed the Preferences window in macOS 10.10.
     </div>
   </div>
 
@@ -671,7 +671,7 @@ EOS
     Fixed issues:
     <ul>
       <li>Some Java apps might be crash when AXNotifier is enabled. (Eclipse, Screencast-O-Matic, RazorSQL, EditRocket)</li>
-      <li>kext loading issue on OS X 10.11 beta 6 has been fixed.</li>
+      <li>kext loading issue on macOS 10.11 beta 6 has been fixed.</li>
     </ul>
   </li>
 </ul>
@@ -746,7 +746,7 @@ EOS
         :body => <<EOS,
 <ul>
   <li>Stability at reloading XML has been improved.</li>
-  <li>OS X 10.10 support has been improved.</li>
+  <li>macOS 10.10 support has been improved.</li>
   <li>Prepared settings have been updated.</li>
   <li>"Check for updates" (Sparkle) has been updated.</li>
   <li>"Restart AXNotifier" button has been added into Preferences.</li>
@@ -1020,14 +1020,14 @@ EOS
         :link => 'files/KeyRemap4MacBook-9.0.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Optimized for OS X 10.9. <br />
-    KeyRemap4MacBook 9.0.0 requires OS X 10.9+.</li>
+  <li>Optimized for macOS 10.9. <br />
+    KeyRemap4MacBook 9.0.0 requires macOS 10.9+.</li>
   <li>Added delay configurations into multi-touch extension.</li>
-  <li>Drop power button support due to limitations of OS X 10.9. <br />
+  <li>Drop power button support due to limitations of macOS 10.9. <br />
     You can no longer change the power button on MacBook.</li>
   <li>Fixed issues:
     <ul><li>ENV_HOME does not work properly in included xml.</li>
-      <li>New plugged devices will not be recognized on OS X 10.9.</li>
+      <li>New plugged devices will not be recognized on macOS 10.9.</li>
       <li>KeyRemap4MacBook disables the shut down dialog.</li>
       <li>Fn key on Leopold FC660M cancels mouse dragging.</li></ul></li>
   <li>Updated prepared settings:
@@ -1065,7 +1065,7 @@ EOS
         :link => 'files/KeyRemap4MacBook-8.3.0.dmg',
         :body => <<EOS,
 <ul>
-  <li>Fixed an issue that "Look up" feature of OS X (tap trackpad with three fingers) does not work properly.</li>
+  <li>Fixed an issue that "Look up" feature of macOS (tap trackpad with three fingers) does not work properly.</li>
   <li>Some minor improvements.</li>
 </ul>
 EOS
@@ -1078,7 +1078,7 @@ EOS
 <ul>
   <li>Fixed an issue that object selection is disabled on Adobe Fireworks.</li>
   <li>Fixed an issue that "General &gt; Don't remap XXX" does not take effect immediately.</li>
-  <li>Fixed an issue that control-eject shortcut does not work properly on OS X 10.7 and 10.6.</li>
+  <li>Fixed an issue that control-eject shortcut does not work properly on macOS 10.7 and 10.6.</li>
 </ul>
 EOS
       },
@@ -1213,7 +1213,7 @@ EOS
         :link => 'files/KeyRemap4MacBook-7.4.0.pkg.zip',
         :body => <<EOS,
 <ul>
-  <li>Some improvements on Mac OS X 10.7 (Lion).</li>
+  <li>Some improvements on Mac macOS 10.7 (Lion).</li>
   <li>
     Removed "General &gt; Enable CapsLock LED Hack" from preferences.<br />
     If you're using this setting for PCKeyboardHack, use <a href="seil.html#noaction">"No Action" configuration</a> instead.
@@ -1281,7 +1281,7 @@ EOS
         :body => <<EOS,
 <ul>
   <li>
-    Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac OS X.<br />
+    Added setting to be able to use "Logitech Number Pad" which we were not able not use in Mac macOS.<br />
     Activate "Change KeyPad Key &gt; Logitech Number Pad Hack".
   </li>
   <li>
