@@ -571,9 +571,18 @@
         {{/strip_indented_lines}}</pre>
 
         <p>
-          Do not make a symlink to <b>karabiner.json</b>.<br />
-          Karabiner-Elements does not reload the configuration file properly in this case.
+          You have to restart karabiner_console_user_server process by the following command after you made a symlink
+          in ordre to tell Karabiner-Elements that the parent directory is changed.
         </p>
+
+        <pre>{{#strip_indented_lines}}
+          |$ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
+        {{/strip_indented_lines}}</pre>
+
+        <div class="alert alert-warning">
+          Do not make a symlink to <b>karabiner.json</b>.<br />
+          Karabiner-Elements does not reload the configuration file properly if you make a symlink to json file directly.
+        </div>
       </section>
 
       <section>
@@ -590,17 +599,17 @@
           There is no way that malicious processes steal your input events from Karabiner-Elements.
         </p>
 
-        <h2>Processes</h2>
+        <h2>Components</h2>
 
         <p>
-          Karabiner-Elements has two core processes.
+          Karabiner-Elements works with the following core components.
         </p>
 
         <table class="table table-striped">
           <tbody>
             <tr>
               <th>
-                <b>karabiner_grabber</b>
+                <b>karabiner_grabber</b> process
               </th>
               <td>
                 <ul>
@@ -611,16 +620,29 @@
             </tr>
             <tr>
               <th>
-                <b>karabiner_console_user_server</b>
+                <b>karabiner_console_user_server</b> process
               </th>
               <td>
                 <ul>
-                  <li>Session user process</li>
+                  <li>Session user process.</li>
                   <li>karabiner_grabber grabs keyboards while karabiner_console_user_server is running.</li>
                   <li>Shell command is executed in this process.</li>
                   <li>Connect to karabiner_grabber via unix domain socket.</li>
                 </ul>
               </td>
+            </tr>
+            <th>
+              <b>Karabiner VirtualHIDDevice</b> kernel extension
+            </th>
+            <td>
+              <ul>
+                <li>Virtual keyboard and pointing device.</li>
+                <li>
+                  Non privileged process is forbidden to post events to virtual device.<br />
+                  (Only the <b>karabiner_grabber</b> process can post events.
+                </li>
+              </ul>
+            </td>
             </tr>
           </tbody>
         </table>
