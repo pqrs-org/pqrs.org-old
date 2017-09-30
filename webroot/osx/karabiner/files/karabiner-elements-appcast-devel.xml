@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.0.0</title>
+      <title>Version 11.0.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,46 +15,17 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.0.0 Update</h2>
+<h2>About v11.0.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
+  <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      v11.0.0:<br />
       <ul>
-        <li>
-          The first stable release of Karabiner-Elements.<br />
-          (There is no changes from Karabiner-Elements 0.91.16.)
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      v0.91.16:<br />
-      <ul>
-        <li>Karabiner-Elements waits grabbing device until all modifier keys are released in order to avoid modifier flags stuck issue in mouse events.</li>
-        <li>Support consumer keys (e.g., media key events in Logitech keyboards.)</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      v0.91.13:<br />
-      <ul>
-        <li>
-          Add per device support in `Simple Modifications` and `Fn Function Keys`. <br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v0.91.13_0.png" alt="Simple Modifications" class="img" />
-        </li>
-        <li>The modifier flag event handling has been improved.</li>
+        <li>Fixed an issue that modifier flags state is not changed properly in pointing device events from Apple trackpads.</li>
       </ul>
     </div>
   </div>
@@ -63,14 +34,14 @@
 
 <!-- update-description-end -->
 <p>
-  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+  <a href="https://pqrs.org/osx/karabiner/karabiner-elements.html#history">More</a>
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 18 Sep 2017 15:26:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.0.0.dmg"
-                 sparkle:version="11.0.0" length="4132990" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQC+rGpmGseyOlZ8uOcWOHn4Du5F2gIVAIrFhazZjGN29pYPjKiEv2ZEKbIo"
+      <pubDate>Sat, 30 Sep 2017 20:34:08 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.0.1.dmg"
+                 sparkle:version="11.0.1" length="4630141" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFB+pGGKv+K7TrdTwJL/0nnIaNg/cAhQNHliDs5uGvHM75hy1is4WrhhR9A=="
                  />
     </item>
 
