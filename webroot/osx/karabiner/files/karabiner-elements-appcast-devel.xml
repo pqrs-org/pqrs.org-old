@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.0.2</title>
+      <title>Version 11.0.3</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.0.2 Update</h2>
+<h2>About v11.0.3 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -25,7 +25,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed an issue that modifier flags state is not changed properly in pointing device events from Apple trackpads.</li>
+        <li>Fixed an issue that modifier flags becomes improperly state by mouse events.</li>
       </ul>
     </div>
   </div>
@@ -38,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 01 Oct 2017 03:40:43 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.0.2.dmg"
-                 sparkle:version="11.0.2" length="4846920" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFD44nayrBSyqkm8qHUfYDXVukKQlAhRJ2QHPUHl9shGtTq9yVtbHi9stlQ=="
+      <pubDate>Sun, 01 Oct 2017 11:39:07 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.0.3.dmg"
+                 sparkle:version="11.0.3" length="4857301" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCtEEFobB1mrJ+jzHVaoW/AwhGAtAIVAKYWtTEHlefCDljbZ+N9Uwz1tLq9"
                  />
     </item>
 
