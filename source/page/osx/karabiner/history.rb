@@ -12,6 +12,25 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => 'Karabiner-Elements 11.1.0',
+        :updated => '2017-10-04',
+        :link => 'files/Karabiner-Elements-11.1.0.dmg',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that modifier flags becomes improperly state by mouse events.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => 'Karabiner-Elements 11.0.0',
         :updated => '2017-09-18',
         :link => 'files/Karabiner-Elements-11.0.0.dmg',
