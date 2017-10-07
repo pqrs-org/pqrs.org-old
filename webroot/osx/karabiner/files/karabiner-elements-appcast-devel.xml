@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.1.0</title>
+      <title>Version 11.1.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.1.0 Update</h2>
+<h2>About v11.1.1 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -25,7 +25,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed an issue that modifier flags becomes improperly state by mouse events.</li>
+        <li>The virtual keyboard handling has been improved.</li>
       </ul>
     </div>
   </div>
@@ -38,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 04 Oct 2017 00:31:05 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.0.dmg"
-                 sparkle:version="11.1.0" length="4857454" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFEfcOFoPw667pZj5zr70EC0G1f7hAhUApSV3v4vuuqS0EOoOjKDSQGHVat8="
+      <pubDate>Sat, 07 Oct 2017 09:23:49 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.1.dmg"
+                 sparkle:version="11.1.1" length="4881024" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFH5ZpsMAxJuw8eX+AIelYjbOtSIJAhRlgvbGRyp79f+sM+jeB6RZ83PN2g=="
                  />
     </item>
 
