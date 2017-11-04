@@ -42,6 +42,34 @@
     <div class="update-description-body">
       <ul>
         <li>
+          `to_delayed_action` has been added.<br />
+          Examples:
+          <ul>
+            <li>
+              Quit application by pressing command-q twice
+              <ul>
+                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/command_q.json.erb</li>
+                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/command_q.json</li>
+              </ul>
+            </li>
+            <li>
+              Emacs key bindings [C-x key strokes]
+              <ul>
+                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/emacs_key_bindings.json.erb</li>
+                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/emacs_key_bindings.json</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
           `input_source_if` and `input_source_unless` has been added to `conditions`.<br />
           Examples:
           <ul>
