@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.1.15</title>
+      <title>Version 11.1.17</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,11 +15,23 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.1.15 Update</h2>
+<h2>About v11.1.17 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          The caps lock LED manipulation has been disabled for non Apple keyboards until it is enabled manually.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v11.1.16_0.png" alt="has caps lock led" class="img" />
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -113,10 +125,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 04 Nov 2017 17:07:12 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.15.dmg"
-                 sparkle:version="11.1.15" length="5174144" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDkUC4XSLS1fKh2S1lbgncDzYmMPAhUA6Ubs4Lpn4pcrYi0Y2KA0yPOTiU0="
+      <pubDate>Tue, 07 Nov 2017 17:22:03 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.17.dmg"
+                 sparkle:version="11.1.17" length="5195164" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHdChxKrA2gjn3KS3m6L6wgePqd/AhRMrhCiQGaioyMG/K30M2SWxF38Gg=="
                  />
     </item>
 
