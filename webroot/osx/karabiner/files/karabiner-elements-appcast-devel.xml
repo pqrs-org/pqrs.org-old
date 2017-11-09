@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.1.18</title>
+      <title>Version 11.1.19</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.1.18 Update</h2>
+<h2>About v11.1.19 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -108,6 +108,27 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `keyboard_type_if` and `keyboard_type_unless` has been added to `conditions`.<br />
+          Example:
+          <ul>
+            <li>
+              Change control-[ to escape
+              <ul>
+                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/example_keyboard_type.json.erb</li>
+                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -125,10 +146,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 08 Nov 2017 02:16:48 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.18.dmg"
-                 sparkle:version="11.1.18" length="5194985" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCAv3enmTNtZAXoyjI3WhOjbKdmKQIULuINWMtdklnLQ8Ck/3yVW7avS/c="
+      <pubDate>Thu, 09 Nov 2017 03:37:46 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.19.dmg"
+                 sparkle:version="11.1.19" length="5197012" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFCoePwt1X2dTBZq5C9RMdK6wZYMpAhQnlpc02lpUW3oONF61cM7hNZZ01g=="
                  />
     </item>
 
