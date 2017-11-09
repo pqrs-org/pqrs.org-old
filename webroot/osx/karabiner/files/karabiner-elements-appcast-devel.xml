@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.1.22</title>
+      <title>Version 11.2.0</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.1.22 Update</h2>
+<h2>About v11.2.0 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -26,7 +26,7 @@
     <div class="update-description-body">
       <ul>
         <li>
-          The caps lock LED manipulation has been disabled for non Apple keyboards until it is enabled manually.<br />
+          The caps lock LED manipulation has been disabled with non Apple keyboards until it is enabled manually.<br />
           <img src="https://pqrs.org/osx/karabiner/img/news/v11.1.16_0.png" alt="has caps lock led" class="img" />
         </li>
       </ul>
@@ -57,20 +57,8 @@
           `to_delayed_action` has been added.<br />
           Examples:
           <ul>
-            <li>
-              Quit application by pressing command-q twice
-              <ul>
-                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/command_q.json.erb</li>
-                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/command_q.json</li>
-              </ul>
-            </li>
-            <li>
-              Emacs key bindings [C-x key strokes]
-              <ul>
-                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/emacs_key_bindings.json.erb</li>
-                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/emacs_key_bindings.json</li>
-              </ul>
-            </li>
+            <li>Quit application by pressing command-q twice</li>
+            <li>Emacs key bindings [C-x key strokes]<ul>
           </ul>
         </li>
       </ul>
@@ -81,14 +69,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>
-          `input_source_if` and `input_source_unless` has been added to `conditions`.<br />
-          Examples:
-          <ul>
-            <li>https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_input_source.json</li>
-            <li>https://github.com/tekezo/Karabiner-Elements/blob/master/tests/src/manipulator_conditions/json/input_source.json</li>
-          </ul>
-        </li>
+        <li>`input_source_if` and `input_source_unless` has been added to `conditions`.</li>
       </ul>
     </div>
   </div>
@@ -97,13 +78,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>
-          select_input_source` has been added.<br />
-          Example:
-          <ul>
-            <li>https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_select_input_source.json</li>
-          </ul>
-        </li>
+        <li>select_input_source` has been added.</li>
       </ul>
     </div>
   </div>
@@ -112,19 +87,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>
-          `keyboard_type_if` and `keyboard_type_unless` has been added to `conditions`.<br />
-          Example:
-          <ul>
-            <li>
-              Change control-[ to escape
-              <ul>
-                <li>src:  https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/example_keyboard_type.json.erb</li>
-                <li>json: https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
+        <li>`keyboard_type_if` and `keyboard_type_unless` has been added to `conditions`.</li>
       </ul>
     </div>
   </div>
@@ -142,14 +105,14 @@
 
 <!-- update-description-end -->
 <p>
-  <a href="https://pqrs.org/osx/karabiner/karabiner-elements.html#history">More</a>
+  <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/NEWS.md">More</a>
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 09 Nov 2017 15:24:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.1.22.dmg"
-                 sparkle:version="11.1.22" length="4266494" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDQSLLt62N7iuB+JfqRn7g+eeq5wAhREAq6V8CZkSI0DoLh4yal/KXkMPw=="
+      <pubDate>Thu, 09 Nov 2017 15:39:08 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.2.0.dmg"
+                 sparkle:version="11.2.0" length="4266202" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFH9+fOld4gJ+n71Kt7Q7Gpea+46GAhQ56XqTdA8SxzYebID1b+5Jcyy6KA=="
                  />
     </item>
 
