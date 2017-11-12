@@ -55,7 +55,7 @@ EOF
 
 <!-- update-description-end -->
 <p>
-  <a href="https://pqrs.org/osx/karabiner/karabiner-elements.html#history">More</a>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 </p>
 ]]>
       </description>
