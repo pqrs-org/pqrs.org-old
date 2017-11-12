@@ -25,7 +25,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed an issue that Karabiner-11.2.0 does not work properly due to a possibility of macOS kernel extension cache problem.</li>
+        <li>Fixed an issue that Karabiner-11.2.0 does not work properly on some environments due to a possibility of macOS kernel extension cache problem.</li>
       </ul>
     </div>
   </div>
