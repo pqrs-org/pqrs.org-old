@@ -12,6 +12,25 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => 'Karabiner-Elements 11.3.0',
+        :updated => '2017-11-12',
+        :link => 'files/Karabiner-Elements-11.3.0.dmg',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that Karabiner-11.2.0 does not work properly on some environments due to a possibility of macOS kernel extension cache problem.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => 'Karabiner-Elements 11.2.0',
         :updated => '2017-11-09',
         :link => 'files/Karabiner-Elements-11.2.0.dmg',
