@@ -25,7 +25,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which have pseudo vendor id (Apple Inc.).</li>
+        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which do not have their own vendor id.</li>
       </ul>
     </div>
   </div>
