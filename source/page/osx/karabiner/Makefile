@@ -1,6 +1,7 @@
 all:
 	./index.rb
 	./document.rb
+	./json.rb
 	./xml.rb
 	./faq.rb
 	./seil.rb

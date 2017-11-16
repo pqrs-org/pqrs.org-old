@@ -1,0 +1,145 @@
+<div class="container">
+  <header>
+    <div class="page-header">
+      <h1>karabiner.json Reference Manual</h1>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="location">File location</h1>
+        </div>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th><b>~/.config/karabiner/karabiner.json</b></th>
+              <td>
+                Main configuration file.<br />
+                Karabiner-Elements watches this file and reload it automatically when it is updated.
+              </td>
+            </tr>
+            <tr>
+              <th><b>~/.config/karabiner/assets/complex_modifications</b></th>
+              <td>
+                Imported complex_modifications files.<br />
+                You can use them in <b>Preferences &gt; Complex Modifications &gt; Add rule</b>.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="basic-syntax">karabiner.json syntax</h1>
+        </div>
+
+        <h2>The basic syntax of karabiner.json</h2>
+
+        {{#indented_json}}
+          |{
+          |    "global": {
+          |        ...
+          |    },
+          |    "profiles": [
+          |        {
+          |            "name": "Profile name",
+          |            "selected": true,
+          |            "simple_modifications": [
+          |                ...
+          |            ],
+          |            "fn_function_keys": [
+          |                ...
+          |            ],
+          |            "complex_modifications": {
+          |                "parameters": {
+          |                    ...
+          |                },
+          |                "rules": [
+          |                    ...
+          |                ]
+          |            },
+          |            "virtual_hid_keyboard": {
+          |                "keyboard_type": "ansi",
+          |                "caps_lock_delay_milliseconds": 0
+          |            },
+          |            "devices": [
+          |                ...
+          |            ]
+          |        },
+          |        {
+          |            "name": "Profile name",
+          |            "selected": false,
+          |            ...
+          |        },
+          |        ...
+          |    ]
+          |}
+        {{/indented_json}}
+
+        <h2 id="complex_modifications-syntax">The syntax of complex_modifications rules</h2>
+
+        {{#indented_json}}
+          |{
+          |    "complex_modifications": {
+          |        "parameters": {
+          |            ...
+          |        },
+          |        "rules": [
+          |            {
+          |                "description": "description of the rule",
+          |                "manipulators": [
+          |                    {
+          |                        "type": "basic",
+          |                        "from": {
+          |                            "key_code": "key_code name which you want to change",
+          |                            "modifiers": {
+          |                                "mandatory": [
+          |                                    "modifier name",
+          |                                    ...
+          |                                ],
+          |                                "optional": [
+          |                                    "modifier name",
+          |                                    ...
+          |                                ]
+          |                            }
+          |                        },
+          |                        "to": [
+          |                            {
+          |                                "key_code": "key_code name",
+          |                                "modifiers": [
+          |                                    "modifier name",
+          |                                    ...
+          |                                ]
+          |                            }
+          |                        ]
+          |                    },
+          |                    {
+          |                        "type": "basic",
+          |                        ...
+          |                    },
+          |                    ...
+          |                ]
+          |            },
+          |            {
+          |                "description": "description of the rule",
+          |                "manipulators": [
+          |                    ...
+          |                ]
+          |            },
+          |            ...
+          |        ]
+          |    }
+          |}
+        {{/indented_json}}
+      </section>
+
+    </div>
+    <div class="col-md-3">
+      {{> ../../pqrs_tabs }}
+    </div>
+  </div>
+</div>

@@ -163,6 +163,12 @@ EOS
       '</pre>'
   end
 
+  def indented_json(text)
+    '<pre class="prettyprint lang-json">' +
+      escape_html_without_render(strip_indented_lines_without_render(text.strip)) +
+      '</pre>'
+  end
+
   def curly
     '{{'
   end
