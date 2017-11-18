@@ -158,7 +158,23 @@
           |    }
           |}
         {{/indented_json}}
+      </section>
 
+      <section>
+        <div class="page-header">
+          <h1 id="complex_modifications-manipulator-priority">complex_modifications manipulator priority</h1>
+        </div>
+
+        <p>
+          The manipulators are evaluated from the top to the bottom and the input event is manipulated only the first matched manipulator.
+        </p>
+
+        <p>
+          In other words, if there are multiple manipulators which change the same key, the manipulator placed at the top is applied and other manipulators are ignored.
+        </p>
+      </section>
+
+      <section>
         <h2 id="manipulator-definition">manipulator definition</h2>
 
         <table class="table">
@@ -284,10 +300,267 @@
             <tr>
               <td><code>modifiers</code></td>
               <td><code class="optional">optional</code></td>
-              <td></td>
+              <td>
+                Specify modifiers. (e.g., "change control-h to delete")
+              </td>
             </tr>
           </tbody>
         </table>
+
+        <h3 id="from-event-definition-modifiers">modifiers in from event definition</h3>
+
+        <code>modifiers</code> works as follows.
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>When <code>modifiers</code> is omitted</th>
+              <td>
+                Events are manipulated only if modifier keys are not pressed.
+              </td>
+            </tr>
+            <tr>
+              <th>When <code>modifiers > mandatory</code> is specified</th>
+              <td>
+                Events are manipulated if mandatory modifiers are pressed. <br />
+                Mandatory modifiers are omitted from <code>to events</code>.
+              </td>
+            </tr>
+            <tr>
+              <th>When <code>modifiers > optional</code> is specified</th>
+              <td>
+                Events are also manipulated even if optional modifiers are pressed.<br />
+                Optional modifiers are kept in <code>to events</code>.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="from-event-definition-examples">Examples</h3>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>Change escape to tab without <code>modifiers</code></p>
+
+            {{#indented_json}}
+              |{
+              |    "type": "basic",
+              |    "from": {
+              |        "key_code": "escape"
+              |    },
+              |    "to": [
+              |        {
+              |            "key_code": "tab"
+              |        }
+              |    ]
+              |}
+            {{/indented_json}}
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>key</th>
+                  <th>manipulated</th>
+                  <th>result</th>
+                </tr>
+                <tr>
+                  <td>escape</td>
+                  <td><b>manipulated</b></td>
+                  <td>tab</td>
+                </tr>
+                <tr>
+                  <td>left_shift + escape</td>
+                  <td>not manipulated</td>
+                  <td>left_shift + escape</td>
+                </tr>
+                <tr>
+                  <td>left_control + escape</td>
+                  <td>not manipulated</td>
+                  <td>left_control + escape</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>Change escape to tab with <code>optional modifiers</code></p>
+
+            {{#indented_json}}
+              |{
+              |    "type": "basic",
+              |    "from": {
+              |        "key_code": "escape",
+              |        "modifiers": {
+              |            "optional": [
+              |                "left_shift",
+              |                "left_control"
+              |            ]
+              |        }
+              |    },
+              |    "to": [
+              |        {
+              |            "key_code": "tab"
+              |        }
+              |    ]
+              |}
+            {{/indented_json}}
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>key</th>
+                  <th>manipulated</th>
+                  <th>result</th>
+                </tr>
+                <tr>
+                  <td>escape</td>
+                  <td><b>manipulated</b></td>
+                  <td>tab</td>
+                </tr>
+                <tr>
+                  <td>left_shift + escape</td>
+                  <td><b>manipulated</b></td>
+                  <td>left_shift + tab</td>
+                </tr>
+                <tr>
+                  <td>left_control + escape</td>
+                  <td><b>manipulated</b></td>
+                  <td>left_control + tab</td>
+                </tr>
+                <tr>
+                  <td>left_option + escape</td>
+                  <td>not manipulated</td>
+                  <td>left_option + escape</td>
+                </tr>
+                <tr>
+                  <td>left_shift + left_option + escape</td>
+                  <td>not manipulated</td>
+                  <td>
+                    left_shift + left_option + escape<br />
+                    (because left_option is not in optional modifiers)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>Change control-h to delete without <code>optional modifiers</code></p>
+
+            {{#indented_json}}
+              |{
+              |    "type": "basic",
+              |    "from": {
+              |        "key_code": "h",
+              |        "modifiers": {
+              |            "mandatory": [
+              |                "control"
+              |            ]
+              |        }
+              |    },
+              |    "to": [
+              |        {
+              |            "key_code": "delete_or_backspace"
+              |        }
+              |    ]
+              |}
+            {{/indented_json}}
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>key</th>
+                  <th>manipulated</th>
+                  <th>result</th>
+                </tr>
+                <tr>
+                  <td>h</td>
+                  <td>not manipulated</td>
+                  <td>h</td>
+                </tr>
+                <tr>
+                  <td>left_control + h</td>
+                  <td><b>manipulated</b></td>
+                  <td>delete_or_backspace</td>
+                </tr>
+                <tr>
+                  <td>left_control + left_option + h</td>
+                  <td>not manipulated</td>
+                  <td>
+                    left_control + left_option + h<br />
+                    (because left_option is not in optional modifiers)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>Change control-h to delete with <code>optional modifiers</code></p>
+
+            {{#indented_json}}
+              |{
+              |    "type": "basic",
+              |    "from": {
+              |        "key_code": "h",
+              |        "modifiers": {
+              |            "mandatory": [
+              |                "control"
+              |            ],
+              |            "optional": [
+              |                "caps_lock",
+              |                "option"
+              |            ]
+              |        }
+              |    },
+              |    "to": [
+              |        {
+              |            "key_code": "delete_or_backspace"
+              |        }
+              |    ]
+              |}
+            {{/indented_json}}
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>key</th>
+                  <th>manipulated</th>
+                  <th>result</th>
+                </tr>
+                <tr>
+                  <td>h</td>
+                  <td>not manipulated</td>
+                  <td>h</td>
+                </tr>
+                <tr>
+                  <td>left_control + h</td>
+                  <td><b>manipulated</b></td>
+                  <td>delete_or_backspace</td>
+                </tr>
+                <tr>
+                  <td>left_control + left_option + h</td>
+                  <td><b>manipulated</b></td>
+                  <td>left_option + delete_or_backspace</td>
+                </tr>
+                <tr>
+                  <td>left_control + left_shift + h</td>
+                  <td>not manipulated</td>
+                  <td>
+                    left_control + left_shift + h<br />
+                    (because left_shift is not in optional modifiers)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
       </section>
 
