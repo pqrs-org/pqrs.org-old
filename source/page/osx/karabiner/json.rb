@@ -31,19 +31,31 @@ class Json < KarabinerBase
       },
       {
         :href => '#complex_modifications-data-structure',
-        :name => 'data structure',
+        :name => 'Data structure',
       },
       {
         :href => '#complex_modifications-manipulator-priority',
-        :name => 'manipulator priority',
+        :name => 'Manipulator priority',
       },
       {
         :href => '#complex_modifications-manipulator-definition',
-        :name => 'manipulator definition',
+        :name => 'Manipulator definition',
       },
       {
         :href => '#from-event-definition',
         :name => 'from event definition',
+      },
+      {
+        :href => '#from-event-definition-modifiers',
+        :name => 'Modifiers in from event definition',
+      },
+      {
+        :href => '#from-event-definition-examples',
+        :name => 'Examples',
+      },
+      {
+        :href => '#from-event-definition-modifiers-list',
+        :name => 'The list of modifiers'
       },
     ]
   end
