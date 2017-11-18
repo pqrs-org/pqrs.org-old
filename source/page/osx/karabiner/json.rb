@@ -20,15 +20,23 @@ class Json < KarabinerBase
         :name => 'File location',
       },
       {
-        :name => 'syntax',
+        :name => 'data structure',
       },
       {
-        :href => '#basic-syntax',
-        :name => 'karabiner.json syntax',
+        :href => '#root-data-structure',
+        :name => 'karabiner.json data structure',
       },
       {
-        :href => '#complex_modifications-syntax',
-        :name => 'complex_modifications syntax',
+        :href => '#complex_modifications-data-structure',
+        :name => 'complex_modifications data structure',
+      },
+      {
+        :href => '#manipulator-definition',
+        :name => 'manipulator definition',
+      },
+      {
+        :href => '#from-event-definition',
+        :name => 'from event definition',
       },
     ]
   end

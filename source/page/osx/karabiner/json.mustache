@@ -34,10 +34,10 @@
 
       <section>
         <div class="page-header">
-          <h1 id="basic-syntax">karabiner.json syntax</h1>
+          <h1 id="root-data-structure">karabiner.json data structure</h1>
         </div>
 
-        <h2>The basic syntax of karabiner.json</h2>
+        <h2>karabiner.json</h2>
 
         {{#indented_json}}
           |{
@@ -80,7 +80,7 @@
           |}
         {{/indented_json}}
 
-        <h2 id="complex_modifications-syntax">The syntax of complex_modifications rules</h2>
+        <h2 id="complex_modifications-data-structure">complex_modifications in <b>karabiner.json &gt; profiles</b></h2>
 
         {{#indented_json}}
           |{
@@ -90,32 +90,55 @@
           |        },
           |        "rules": [
           |            {
-          |                "description": "description of the rule",
+          |                "description": "This description is shown in Preferences.",
           |                "manipulators": [
           |                    {
           |                        "type": "basic",
-          |                        "from": {
-          |                            "key_code": "key_code name which you want to change",
-          |                            "modifiers": {
-          |                                "mandatory": [
-          |                                    "modifier name",
-          |                                    ...
-          |                                ],
-          |                                "optional": [
-          |                                    "modifier name",
-          |                                    ...
-          |                                ]
-          |                            }
-          |                        },
+          |
+          |                        "from": from event definition,
+          |
           |                        "to": [
-          |                            {
-          |                                "key_code": "key_code name",
-          |                                "modifiers": [
-          |                                    "modifier name",
-          |                                    ...
-          |                                ]
-          |                            }
-          |                        ]
+          |                            to event definition,
+          |                            to event definition,
+          |                            ...
+          |                        ],
+          |
+          |                        "to_if_alone": [
+          |                            to event definition,
+          |                            to event definition,
+          |                            ...
+          |                        ],
+          |
+          |                        "to_after_key_up": [
+          |                            to event definition,
+          |                            to event definition,
+          |                            ...
+          |                        ],
+          |
+          |                        "to_delayed_action": {
+          |                            "to_if_invoked": [
+          |                                to event definition,
+          |                                to event definition,
+          |                                ...
+          |                            ],
+          |                            "to_if_canceled": [
+          |                                to event definition,
+          |                                to event definition,
+          |                                ...
+          |                            ]
+          |                        },
+          |
+          |                        "conditions": [
+          |                            condition definition,
+          |                            condition definition,
+          |                            ...
+          |                        ],
+          |
+          |                        "parameters": {
+          |                            ...
+          |                        },
+          |
+          |                        "description": "Optional description for human"
           |                    },
           |                    {
           |                        "type": "basic",
@@ -125,7 +148,7 @@
           |                ]
           |            },
           |            {
-          |                "description": "description of the rule",
+          |                "description": "...",
           |                "manipulators": [
           |                    ...
           |                ]
@@ -135,6 +158,137 @@
           |    }
           |}
         {{/indented_json}}
+
+        <h2 id="manipulator-definition">manipulator definition</h2>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>Always <code>"type": "basic"</code></td>
+            </tr>
+            <tr>
+              <td><code>from</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                The name of key code, consumer key code or pointing button which you want to change.
+                <a href="#from-event-definition">(detail)</a>
+              </td>
+            </tr>
+            <tr>
+              <td><code>to</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>events which are sent when you press <code>from</code> key.</td>
+            </tr>
+            <tr>
+              <td><code>to_if_alone</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>events which are sent when you press <code>from</code> key alone.</td>
+            </tr>
+            <tr>
+              <td><code>to_after_key_up</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>events which are sent after you release <code>from</code> key.</td>
+            </tr>
+            <tr>
+              <td><code>to_delayed_action</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <code>to_delayed_action</code> sends <code>to_delayed_action > to_if_invoked</code> events after 500 milliseconds at you press <code>from</code> key.<br />
+                <code>to_delayed_action > to_if_canceled</code> events are sent if you press another key between <code>from</code> key and to_delayed_action invoked. (<code>to_if_invoked</code> events are not sent if <code>to_if_canceled</code> events are sent.)
+              </td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A manipulator description for human.</td>
+            </tr>
+            <tr>
+              <td><code>condition</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                Manipulator is applied only if condition is matched. (The frontmost application, device, etc.)
+              </td>
+            </tr>
+            <tr>
+              <td><code>parameters</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                Override parameters such as <code>to_delayed_action_delay_milliseconds</code>.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 id="from-event-definition">from event definition</h2>
+
+        {{#indented_json}}
+          |{
+          |    "from": {
+          |        "key_code": "The name of key_code",
+          |        "consumer_key_code": "The name of consumer_key_code",
+          |        "pointing_button": "The name of pointing_button",
+          |
+          |        "modifiers": {
+          |            "mandatory": [
+          |                modifier,
+          |                modifier,
+          |                ...
+          |            ],
+          |            "optional": [
+          |                modifier,
+          |                modifier,
+          |                ...
+          |            ]
+          |        }
+          |    }
+          |}
+        {{/indented_json}}
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>key_code</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <a href="document.html#eventviewer">You can find key_code by EventViewer.</a>
+                <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/src/apps/PreferencesWindow/PreferencesWindow/Resources/simple_modifications.json">(list)</a>
+              </td>
+            </tr>
+            <tr>
+              <td><code>consumer_key_code</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <code>key_code</code>, <code>consumer_key_code</code> and <code>pointing_button</code> are exclusive.<br />
+                You can specify one of them.
+              </td>
+            </tr>
+            <tr>
+              <td><code>pointing_button</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                Do not specify <code>"pointing_button": "button1"</code> in <code>from</code> unless you made new <code>button1</code> by other manipulator.
+              </td>
+            </tr>
+            <tr>
+              <td><code>modifiers</code></td>
+              <td><code class="optional">optional</code></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
       </section>
 
     </div>
