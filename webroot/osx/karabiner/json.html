@@ -272,10 +272,23 @@
         <p>
           The manipulators are evaluated from the top to the bottom and the input event is manipulated only the first matched manipulator.
         </p>
+
+        <p>
+          In other words, if there are multiple manipulators which change the same key, the manipulator placed at the top is applied and other manipulators are ignored.
+        </p>
+
+        <h2>Simple Modifications and Complex Modifications</h2>
+
+        <p>
+          Simple Modifications and Complex Modifications are independent. Thus, Simple Modifications does not affect above priority.<br />
+          <a href="document.html#event-modification-chaining">Input event modification chaining (Simple Modifications, Complex Modifications, Function Keys Modifications) description.</a>
+        </p>
       </section>
 
       <section>
-        <h2 id="manipulator-definition">manipulator definition</h2>
+        <div class="page-header">
+          <h1 id="complex_modifications-manipulator-definition">complex_modifications manipulator definition</h1>
+        </div>
 
         <table class="table">
           <tbody>
@@ -664,13 +677,19 @@
                   karabiner.json data structure
                 </a>
               </li>
+              <li class="nav-header">complex_modifications</li>
               <li>
                 <a href="#complex_modifications-data-structure">
-                  complex_modifications data structure
+                  data structure
                 </a>
               </li>
               <li>
-                <a href="#manipulator-definition">
+                <a href="#complex_modifications-manipulator-priority">
+                  manipulator priority
+                </a>
+              </li>
+              <li>
+                <a href="#complex_modifications-manipulator-definition">
                   manipulator definition
                 </a>
               </li>

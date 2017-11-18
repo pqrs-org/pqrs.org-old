@@ -27,11 +27,18 @@ class Json < KarabinerBase
         :name => 'karabiner.json data structure',
       },
       {
-        :href => '#complex_modifications-data-structure',
-        :name => 'complex_modifications data structure',
+        :name => 'complex_modifications',
       },
       {
-        :href => '#manipulator-definition',
+        :href => '#complex_modifications-data-structure',
+        :name => 'data structure',
+      },
+      {
+        :href => '#complex_modifications-manipulator-priority',
+        :name => 'manipulator priority',
+      },
+      {
+        :href => '#complex_modifications-manipulator-definition',
         :name => 'manipulator definition',
       },
       {
