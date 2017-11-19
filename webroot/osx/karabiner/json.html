@@ -150,6 +150,7 @@
         <ul>
           <li><a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">Swap <b>;</b> and <b>:</b> (Equal to swap <b>;</b> and <b>shift-;</b>)</a></li>
           <li><a href="#typical-complex_modifications-examples-change-control-h-to-delete">Change <b>control-h</b> to <b>delete</b> (And <b>control-option-h</b> to <b>option-delete</b>)</a></li>
+          <li><a href="#typical-complex_modifications-examples-disable-command-l-on-finder">Disable <b>command-l</b> on Finder</a></li>
         </ul>
 
         <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
@@ -195,7 +196,7 @@
         <div id="typical-complex_modifications-examples-change-control-h-to-delete">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Change control-h to delete (and option-control-h to option-delete)</p>
+              <p>Change <b>control-h</b> to <b>delete</b> (and <b>option-control-h</b> to <b>option-delete</b>)</p>
 
 <pre class="prettyprint lang-json">{
     "type": "basic",
@@ -209,6 +210,36 @@
     "to": [
         {
             "key_code": "delete_or_backspace"
+        }
+    ]
+}</pre>            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-disable-command-l-on-finder">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Disable <b>command-l</b> on Finder</p>
+
+<pre class="prettyprint lang-json">{
+    "type": "basic",
+    "from": {
+        "key_code": "l",
+        "modifiers": {
+            "mandatory": [
+                "command"
+            ],
+            "optional": [
+                "caps_lock"
+            ]
+        }
+    },
+    "conditions": [
+        {
+            "type": "frontmost_application_if",
+            "bundle_identifiers": [
+                "^com\\.apple\\.finder$"
+            ]
         }
     ]
 }</pre>            </div>
