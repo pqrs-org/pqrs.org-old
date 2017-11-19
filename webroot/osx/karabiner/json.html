@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.1b9c92cf5ba3d02db170c6e573327493fd5ca548.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.d79f857976972beba48407c8f65994e566505761.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -140,6 +140,80 @@
             </tr>
           </tbody>
         </table>
+      </section>
+
+      <section>
+        <div class="page-header">
+          <h1 id="typical-complex_modifications-examples">Typical complex_modifications examples</h1>
+        </div>
+
+        <ul>
+          <li><a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">Swap <b>;</b> and <b>:</b> (Equal to swap <b>;</b> and <b>shift-;</b>)</a></li>
+          <li><a href="#typical-complex_modifications-examples-change-control-h-to-delete">Change <b>control-h</b> to <b>delete</b> (And <b>control-option-h</b> to <b>option-delete</b>)</a></li>
+        </ul>
+
+        <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Swap <b>;</b> and <b>:</b></p>
+
+<pre class="prettyprint lang-json">{
+    "description": "change shift+; to ;",
+    "type": "basic",
+    "from": {
+        "key_code": "semicolon",
+        "modifiers": {
+            "mandatory": [ "shift" ],
+            "optional": [ "caps_lock" ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "semicolon"
+        }
+    ]
+},
+{
+    "description": "; to shift+;",
+    "type": "basic",
+    "from": {
+        "key_code": "semicolon",
+        "modifiers": {
+            "optional": [ "caps_lock" ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "semicolon",
+            "modifiers": [ "left_shift" ]
+        }
+    ]
+}</pre>            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-change-control-h-to-delete">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Change control-h to delete (and option-control-h to option-delete)</p>
+
+<pre class="prettyprint lang-json">{
+    "type": "basic",
+    "from": {
+        "key_code": "h",
+        "modifiers": {
+            "mandatory": [ "control" ],
+            "optional": [ "caps_lock", "option" ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "delete_or_backspace"
+        }
+    ]
+}</pre>            </div>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -660,7 +734,7 @@
           </div>
         </div>
 
-        <h3 id="from-event-definition-modifiers-list">The list of modifiers</h3>
+        <h3 id="from-event-definition-modifiers-list">The list of modifiers in from definition</h3>
 
         <table class="table">
           <tbody>
@@ -740,6 +814,11 @@
               <li>
                 <a href="#location">
                   File location
+                </a>
+              </li>
+              <li>
+                <a href="#typical-complex_modifications-examples">
+                  Typical complex_modifications examples
                 </a>
               </li>
               <li class="nav-header">data structure</li>

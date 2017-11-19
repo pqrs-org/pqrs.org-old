@@ -34,6 +34,86 @@
 
       <section>
         <div class="page-header">
+          <h1 id="typical-complex_modifications-examples">Typical complex_modifications examples</h1>
+        </div>
+
+        <ul>
+          <li><a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">Swap <b>;</b> and <b>:</b> (Equal to swap <b>;</b> and <b>shift-;</b>)</a></li>
+          <li><a href="#typical-complex_modifications-examples-change-control-h-to-delete">Change <b>control-h</b> to <b>delete</b> (And <b>control-option-h</b> to <b>option-delete</b>)</a></li>
+        </ul>
+
+        <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Swap <b>;</b> and <b>:</b></p>
+
+              {{#indented_json}}
+                |{
+                |    "description": "change shift+; to ;",
+                |    "type": "basic",
+                |    "from": {
+                |        "key_code": "semicolon",
+                |        "modifiers": {
+                |            "mandatory": [ "shift" ],
+                |            "optional": [ "caps_lock" ]
+                |        }
+                |    },
+                |    "to": [
+                |        {
+                |            "key_code": "semicolon"
+                |        }
+                |    ]
+                |},
+                |{
+                |    "description": "; to shift+;",
+                |    "type": "basic",
+                |    "from": {
+                |        "key_code": "semicolon",
+                |        "modifiers": {
+                |            "optional": [ "caps_lock" ]
+                |        }
+                |    },
+                |    "to": [
+                |        {
+                |            "key_code": "semicolon",
+                |            "modifiers": [ "left_shift" ]
+                |        }
+                |    ]
+                |}
+              {{/indented_json}}
+            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-change-control-h-to-delete">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Change control-h to delete (and option-control-h to option-delete)</p>
+
+              {{#indented_json}}
+                |{
+                |    "type": "basic",
+                |    "from": {
+                |        "key_code": "h",
+                |        "modifiers": {
+                |            "mandatory": [ "control" ],
+                |            "optional": [ "caps_lock", "option" ]
+                |        }
+                |    },
+                |    "to": [
+                |        {
+                |            "key_code": "delete_or_backspace"
+                |        }
+                |    ]
+                |}
+              {{/indented_json}}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1 id="root-data-structure">karabiner.json data structure</h1>
         </div>
 
@@ -571,7 +651,7 @@
           </div>
         </div>
 
-        <h3 id="from-event-definition-modifiers-list">The list of modifiers</h3>
+        <h3 id="from-event-definition-modifiers-list">The list of modifiers in from definition</h3>
 
         <table class="table">
           <tbody>

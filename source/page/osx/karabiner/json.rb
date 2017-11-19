@@ -20,6 +20,10 @@ class Json < KarabinerBase
         :name => 'File location',
       },
       {
+        :href => '#typical-complex_modifications-examples',
+        :name => 'Typical complex_modifications examples',
+      },
+      {
         :name => 'data structure',
       },
       {

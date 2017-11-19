@@ -123,11 +123,14 @@ code.optional {
   text-align: center;
 }
 
-h1[id],
-h2[id],
-h3[id] {
-  padding-top: $header-nav-height + 20px !important;
-  margin-top: -($header-nav-height + 20px) !important;
+div.container {
+  h1[id],
+  h2[id],
+  h3[id],
+  div[id] {
+    padding-top: $header-nav-height + 20px !important;
+    margin-top: -($header-nav-height + 20px) !important;
+  }
 }
 
 body.with-page-top-fixed-alert {
@@ -151,7 +154,8 @@ body.with-page-top-fixed-alert {
 
     h1[id],
     h2[id],
-    h3[id] {
+    h3[id],
+    div[id] {
       padding-top: $header-nav-height + $page-top-fixed-alert-height + 20px !important;
       margin-top: -($header-nav-height + $page-top-fixed-alert-height + 20px) !important;
     }
