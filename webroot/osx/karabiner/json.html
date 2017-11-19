@@ -151,6 +151,8 @@
           <li><a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">Swap <b>;</b> and <b>:</b> (Equal to swap <b>;</b> and <b>shift-;</b>)</a></li>
           <li><a href="#typical-complex_modifications-examples-change-control-h-to-delete">Change <b>control-h</b> to <b>delete</b> (And <b>control-option-h</b> to <b>option-delete</b>)</a></li>
           <li><a href="#typical-complex_modifications-examples-disable-command-l-on-finder">Disable <b>command-l</b> on Finder</a></li>
+          <li><a href="#typical-complex_modifications-examples-post-escape-if-left-control-is-pressed-alone">Post <b>escape</b> if <b>left_control</b> is pressed alone</a></li>
+          <li><a href="#typical-complex_modifications-examples-change-right-shift-x2-to-mission-control">Change <b>right_shift x2</b> to <b>mission_control</b></a></li>
         </ul>
 
         <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
@@ -159,13 +161,16 @@
               <p>Swap <b>;</b> and <b>:</b></p>
 
 <pre class="prettyprint lang-json">{
-    "description": "change shift+; to ;",
     "type": "basic",
     "from": {
         "key_code": "semicolon",
         "modifiers": {
-            "mandatory": [ "shift" ],
-            "optional": [ "caps_lock" ]
+            "mandatory": [
+                "shift"
+            ],
+            "optional": [
+                "caps_lock"
+            ]
         }
     },
     "to": [
@@ -174,19 +179,23 @@
         }
     ]
 },
+
 {
-    "description": "; to shift+;",
     "type": "basic",
     "from": {
         "key_code": "semicolon",
         "modifiers": {
-            "optional": [ "caps_lock" ]
+            "optional": [
+                "caps_lock"
+            ]
         }
     },
     "to": [
         {
             "key_code": "semicolon",
-            "modifiers": [ "left_shift" ]
+            "modifiers": [
+                "left_shift"
+            ]
         }
     ]
 }</pre>            </div>
@@ -203,8 +212,13 @@
     "from": {
         "key_code": "h",
         "modifiers": {
-            "mandatory": [ "control" ],
-            "optional": [ "caps_lock", "option" ]
+            "mandatory": [
+                "control"
+            ],
+            "optional": [
+                "caps_lock",
+                "option"
+            ]
         }
     },
     "to": [
@@ -242,6 +256,108 @@
             ]
         }
     ]
+}</pre>            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-post-escape-if-left-control-is-pressed-alone">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Post <b>escape</b> if <b>left_control</b> is pressed alone</p>
+
+<pre class="prettyprint lang-json">{
+    "type": "basic",
+    "from": {
+        "key_code": "left_control",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "left_control",
+            "lazy": true
+        }
+    ],
+    "to_if_alone": [
+        {
+            "key_code": "escape"
+        }
+    ]
+}</pre>            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-change-right-shift-x2-to-mission-control">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Change <b>right_shift x2</b> to <b>mission_control</b></p>
+
+<pre class="prettyprint lang-json">{
+    "type": "basic",
+    "from": {
+        "key_code": "right_shift",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "mission_control"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "variable_if",
+            "name": "right_shift pressed",
+            "value": 1
+        }
+    ]
+},
+
+{
+    "type": "basic",
+    "from": {
+        "key_code": "right_shift",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "set_variable": {
+                "name": "right_shift pressed",
+                "value": 1
+            }
+        },
+        {
+            "key_code": "right_shift"
+        }
+    ],
+    "to_delayed_action": {
+        "to_if_invoked": [
+            {
+                "set_variable": {
+                    "name": "right_shift pressed",
+                    "value": 0
+                }
+            }
+        ],
+        "to_if_canceled": [
+            {
+                "set_variable": {
+                    "name": "right_shift pressed",
+                    "value": 0
+                }
+            }
+        ]
+    }
 }</pre>            </div>
           </div>
         </div>
