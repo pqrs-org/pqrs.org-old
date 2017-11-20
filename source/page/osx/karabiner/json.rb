@@ -69,6 +69,13 @@ class Json < KarabinerBase
         :href => '#to-event-definition-modifiers-list',
         :name => 'The list of modifiers in to definition'
       },
+      {
+        :name => 'condition definition'
+      },
+      {
+        :href => '#condition-definition-frontmost-application',
+        :name => 'condition definition frontmost_application_if and frontmost_application_unless'
+      },
     ]
   end
 end

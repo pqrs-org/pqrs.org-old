@@ -560,7 +560,7 @@
               <td>A manipulator description for human.</td>
             </tr>
             <tr>
-              <td><code>condition</code></td>
+              <td><code>conditions</code></td>
               <td><code class="optional">optional</code></td>
               <td>
                 Manipulator is applied only if condition is matched. (The frontmost application, device, etc.)
@@ -1086,6 +1086,62 @@
           <li><code>right_shift</code></li>
           <li><code>fn</code></li>
         </ul>
+
+        <h2 id="condition-definition">condition definition</h2>
+
+        <h3 id="condition-definition-frontmost_application"><code>frontmost_application_if</code> and <code>frontmost_application_unless</code></h3>
+
+<pre class="prettyprint lang-json">{
+    "type": "frontmost_application_if",
+    "bundle_identifiers": [
+        bundle identifier regex,
+        bundle identifier regex,
+        ...
+    ],
+    "file_paths": [
+        file path regex,
+        file path regex,
+        ...
+    ]
+}</pre>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Either:
+                <ul>
+                  <li><code>"type": "frontmost_application_if"</code></li>
+                  <li><code>"type": "frontmost_application_unless"</code></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>bundle_identifiers</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                bundle identifier regexs.<br />
+                You can examine application's bundle identifier in <b>EventViewer &gt; Frontmost Application tab</b>.
+              </td>
+            </tr>
+            <tr>
+              <td><code>file_paths</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                file path regexs.<br />
+                You can examine application's file path in <b>EventViewer &gt; Frontmost Application tab</b>.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
       </section>
 
     </div>
@@ -1152,6 +1208,12 @@
               <li>
                 <a href="#to-event-definition-modifiers-list">
                   The list of modifiers in to definition
+                </a>
+              </li>
+              <li class="nav-header">condition definition</li>
+              <li>
+                <a href="#condition-definition-frontmost-application">
+                  condition definition frontmost_application_if and frontmost_application_unless
                 </a>
               </li>
         </ul>
