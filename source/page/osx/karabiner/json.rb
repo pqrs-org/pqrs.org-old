@@ -59,7 +59,15 @@ class Json < KarabinerBase
       },
       {
         :href => '#from-event-definition-modifiers-list',
-        :name => 'The list of modifiers'
+        :name => 'The list of modifiers in from definition'
+      },
+      {
+        :href => '#to-event-definition',
+        :name => 'to event definition',
+      },
+      {
+        :href => '#to-event-definition-modifiers-list',
+        :name => 'The list of modifiers in to definition'
       },
     ]
   end

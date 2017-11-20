@@ -491,26 +491,34 @@
 
         {{#indented_json}}
           |{
-          |    "from": {
-          |        "key_code": "The name of key_code",
-          |        "consumer_key_code": "The name of consumer_key_code",
-          |        "pointing_button": "The name of pointing_button",
+          |    "key_code": "The name of key_code",
+          |    "consumer_key_code": "The name of consumer_key_code",
+          |    "pointing_button": "The name of pointing_button",
+          |    "any": "key_code or consumer_key_code or pointing_button",
           |
-          |        "modifiers": {
-          |            "mandatory": [
-          |                modifier,
-          |                modifier,
-          |                ...
-          |            ],
-          |            "optional": [
-          |                modifier,
-          |                modifier,
-          |                ...
-          |            ]
-          |        }
+          |    "modifiers": {
+          |        "mandatory": [
+          |            modifier,
+          |            modifier,
+          |            ...
+          |        ],
+          |        "optional": [
+          |            modifier,
+          |            modifier,
+          |            ...
+          |        ]
           |    }
           |}
         {{/indented_json}}
+
+        <div class="alert alert-info" role="alert">
+          <p>
+            Note:<br />
+            <code>key_code</code>, <code>consumer_key_code</code>, <code>pointing_button</code> and <code>any</code>
+            are exclusive.
+            You can specify one of them.
+          </p>
+        </div>
 
         <table class="table">
           <tbody>
@@ -530,16 +538,34 @@
             <tr>
               <td><code>consumer_key_code</code></td>
               <td><code class="optional">optional</code></td>
-              <td>
-                <code>key_code</code>, <code>consumer_key_code</code> and <code>pointing_button</code> are exclusive.<br />
-                You can specify one of them.
-              </td>
+              <td></td>
             </tr>
             <tr>
               <td><code>pointing_button</code></td>
               <td><code class="optional">optional</code></td>
               <td>
-                Do not specify <code>"pointing_button": "button1"</code> in <code>from</code> unless you made new <code>button1</code> by other manipulator.
+                <div class="alert alert-warning" role="alert">
+                  Caution:<br />
+                  Be careful when manipulating <code>button1</code> to avoid losing the left click button.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>any</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                You can use <code>any</code> as follows.<br />
+                These matches all key codes, consumer key codes or pointing buttons.
+                <ul>
+                  <li><code>"any": "key_code"</code></li>
+                  <li><code>"any": "consumer_key_code"</code></li>
+                  <li><code>"any": "pointing_button"</code></li>
+                </ul>
+
+                <div class="alert alert-warning" role="alert">
+                  Caution:<br />
+                  Be careful when using <code>"any": "pointing_button"</code> to avoid losing the left click button.
+                </div>
               </td>
             </tr>
             <tr>
@@ -547,6 +573,7 @@
               <td><code class="optional">optional</code></td>
               <td>
                 Specify modifiers. (e.g., "change control-h to delete")
+                <a href="#from-event-definition-modifiers">(detail)</a>
               </td>
             </tr>
           </tbody>
@@ -878,6 +905,116 @@
           </tbody>
         </table>
 
+        <h2 id="to-event-definition">to event definition</h2>
+
+        {{#indented_json}}
+          |{
+          |    "key_code": "The name of key_code",
+          |    "consumer_key_code": "The name of consumer_key_code",
+          |    "pointing_button": "The name of pointing_button",
+          |
+          |    "shell_command": "shell command",
+          |
+          |    "select_input_source": {
+          |        "language": "language regex",
+          |        "input_source_id": "input source id regex",
+          |        "input_mode_id": "input mode id regex"
+          |    },
+          |
+          |    "set_variable": {
+          |        "name": "variable name",
+          |        "value": "variable value"
+          |    },
+          |
+          |    "modifiers": [
+          |        modifier,
+          |        modifier,
+          |        ...
+          |    ]
+          |}
+        {{/indented_json}}
+
+        <div class="alert alert-info" role="alert">
+          <p>
+            Note:<br />
+            <code>key_code</code>, <code>consumer_key_code</code>, <code>pointing_button</code>,
+            <code>shell_command</code>, <code>select_input_source</code> and <code>set_variable</code>
+            are exclusive.
+            You can specify one of them.
+          </p>
+        </div>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>key_code</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <a href="document.html#eventviewer">You can find key_code by EventViewer.</a>
+                <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/src/apps/PreferencesWindow/PreferencesWindow/Resources/simple_modifications.json">(list)</a>
+              </td>
+            </tr>
+            <tr>
+              <td><code>consumer_key_code</code></td>
+              <td><code class="optional">optional</code></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><code>pointing_button</code></td>
+              <td><code class="optional">optional</code></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><code>shell_command</code></td>
+              <td><code class="optional">optional</code></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><code>select_input_source</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                You can find the current input source identifiers by <b>EventViewer &gt; Variables tab</b>.<br />
+                <code>language</code>, <code>input_source_id</code> and <code>input_mode_id</code> are optional.
+                <code>select_input_source</code> finds the input source by the specified regexs.
+              </td>
+            </tr>
+            <tr>
+              <td><code>set_variable</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                You can use variables with <code>variable_if</code> and <code>variable_unless</code> conditions.<br />
+                You can confirm the current variables state in <b>EventViewer &gt; Variables tab</b>.
+              </td>
+            </tr>
+            <tr>
+              <td><code>modifiers</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                Specify modifiers.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="to-event-definition-modifiers-list">The list of modifiers in to definition</h3>
+
+        <ul>
+          <li><code>caps_lock</code></li>
+          <li><code>left_command</code></li>
+          <li><code>left_control</code></li>
+          <li><code>left_option</code></li>
+          <li><code>left_shift</code></li>
+          <li><code>right_command</code></li>
+          <li><code>right_control</code></li>
+          <li><code>right_option</code></li>
+          <li><code>right_shift</code></li>
+          <li><code>fn</code></li>
+        </ul>
       </section>
 
     </div>
