@@ -1151,13 +1151,10 @@
         {{/indented_json}}
 
         <div class="alert alert-info" role="alert">
-          <p>
-            Note:<br />
-            It's useful for supporting "change control-[ to escape" with all keyboard types.
-            <a href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json">(example json)</a><br />
-            Some characters have different key code for each keyboard types.<br />
-            (e,g,. <b>[</b> is <code>open_bracket</code> on <b>ansi</b> and <b>iso</b>, <code>close_bracket</code> on <b>jis</b>.)
-          </p>
+          It's useful for supporting "change control-[ to escape" with all keyboard types.
+          <a href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json">(example json)</a><br />
+          Some characters have different key code for each keyboard types.<br />
+          (e,g,. <b>[</b> is <code>open_bracket</code> on <b>ansi</b> and <b>iso</b>, <code>close_bracket</code> on <b>jis</b>.)
         </div>
 
         <table class="table">
@@ -1188,6 +1185,120 @@
                   <li><code>iso</code></li>
                   <li><code>jis</code></li>
                 </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A condition description for human.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="condition-definition-input-source"><code>input_source_if</code> and <code>input_source_unless</code></h3>
+
+        {{#indented_json}}
+          |{
+          |    "type": "input_source_if",
+          |    "input_sources": [
+          |        {
+          |            "language": "language regex",
+          |            "input_source_id": "input source id regex",
+          |            "input_mode_id": "input mode id regex"
+          |        },
+          |        {
+          |            "language": "language regex",
+          |            "input_source_id": "input source id regex",
+          |            "input_mode_id": "input mode id regex"
+          |        },
+          |        ...
+          |    ]
+          |}
+        {{/indented_json}}
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Either:
+                <ul>
+                  <li><code>"type": "input_source_if"</code></li>
+                  <li><code>"type": "input_source_unless"</code></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>input_sources</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                <p>
+                  Target input source definitions.<br />
+                  You can find the current input source identifiers by <b>EventViewer &gt; Variables tab</b>.<br />
+                </p>
+                <p>
+                  <code>language</code>, <code>input_source_id</code> and <code>input_mode_id</code> are optional.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A condition description for human.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 id="condition-definition-variable"><code>variable_if</code> and <code>variable_unless</code></h3>
+
+        {{#indented_json}}
+          |{
+          |    "type": "variable_if",
+          |    "name": "variable name",
+          |    "value": variable value
+          |}
+        {{/indented_json}}
+
+        <div class="alert alert-info" role="alert">
+          <code>variable_if</code> and <code>variable_unless</code> are designed to use with <code>set_variable</code>.
+        </div>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Either:
+                <ul>
+                  <li><code>"type": "variable_if"</code></li>
+                  <li><code>"type": "variable_unless"</code></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>name</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Target variable name.
+              </td>
+            </tr>
+            <tr>
+              <td><code>value</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Target variable value.
               </td>
             </tr>
             <tr>

@@ -84,6 +84,14 @@ class Json < KarabinerBase
         :href => '#condition-definition-keyboard-type',
         :name => 'condition definition keyboard_type_if and keyboard_type_unless'
       },
+      {
+        :href => '#condition-definition-input-source',
+        :name => 'condition definition input_source_if and input_source_unless'
+      },
+      {
+        :href => '#condition-definition-variable',
+        :name => 'condition definition variable_if and variable_unless'
+      },
     ]
   end
 end
