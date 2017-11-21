@@ -30,6 +30,17 @@
             </tr>
           </tbody>
         </table>
+
+        <h2>Automation reload mechanism</h2>
+
+        <p>
+          Karabiner-Elements watches <b>~/.config/karabiner/karabiner.json</b> and reloads it if updated.
+        </p>
+
+        <p>
+          The mechanism is that Karabiner-Elements watches the parent directory <b>~/.config/karabiner</b> by using the File System Events API.<br />
+          Thus, Karabiner-Elements fails detecting file updates after you change the parent directory (e.g., recreate the parent directory).
+        </p>
       </section>
 
       <section>
