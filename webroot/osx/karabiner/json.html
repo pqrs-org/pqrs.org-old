@@ -151,6 +151,33 @@
           The mechanism is that Karabiner-Elements watches the parent directory <b>~/.config/karabiner</b> by using the File System Events API.<br />
           Thus, Karabiner-Elements fails detecting file updates after you change the parent directory (e.g., recreate the parent directory).
         </p>
+
+        <h2>Error messages</h2>
+
+        <p>
+          Error messages will be output into <b>~/.local/share/karabiner/log/console_user_server.log</b> if there are errors such as parse error.
+        </p>
+
+        <p>
+          You can also view the error messages in <b>Karabiner-Elements Preferences &gt; Log</b>.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/karabiner-elements-error-log@2x.png" alt="error log" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 1060px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-error-log@2x.png" alt="error log" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -561,8 +588,8 @@
               <td><code>to_delayed_action</code></td>
               <td><code class="optional">optional</code></td>
               <td>
-                <code>to_delayed_action</code> sends <code>to_delayed_action > to_if_invoked</code> events after 500 milliseconds at you press <code>from</code> key.<br />
-                <code>to_delayed_action > to_if_canceled</code> events are sent if you press another key between <code>from</code> key and to_delayed_action invoked. (<code>to_if_invoked</code> events are not sent if <code>to_if_canceled</code> events are sent.)
+                <code>to_delayed_action</code> sends <code>to_delayed_action &gt; to_if_invoked</code> events after 500 milliseconds at you press <code>from</code> key.<br />
+                <code>to_delayed_action &gt; to_if_canceled</code> events are sent if you press another key between <code>from</code> key and to_delayed_action invoked. (<code>to_if_invoked</code> events are not sent if <code>to_if_canceled</code> events are sent.)
               </td>
             </tr>
             <tr>
@@ -689,14 +716,14 @@
               </td>
             </tr>
             <tr>
-              <th>When <code>modifiers > mandatory</code> is specified</th>
+              <th>When <code>modifiers &gt; mandatory</code> is specified</th>
               <td>
                 Events are manipulated if mandatory modifiers are pressed. <br />
                 Mandatory modifiers are omitted from <code>to events</code>.
               </td>
             </tr>
             <tr>
-              <th>When <code>modifiers > optional</code> is specified</th>
+              <th>When <code>modifiers &gt; optional</code> is specified</th>
               <td>
                 Events are also manipulated even if optional modifiers are pressed.<br />
                 Optional modifiers are kept in <code>to events</code>.
@@ -1199,7 +1226,7 @@
               <td>
                 <p>
                   Target device definitions.<br />
-                  You can examine vendor_id and product_id in <b>Karabiner-Elements Preferences > Devices</b>.
+                  You can examine vendor_id and product_id in <b>Karabiner-Elements Preferences &gt; Devices</b>.
                 </p>
                 <p>
                   <code>product_id</code> is optional. All devices which have specified <code>vendor_id</code> will be matched if <code>product_id</code> is omitted.
