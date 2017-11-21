@@ -1070,10 +1070,73 @@
                 You can examine application's file path in <b>EventViewer &gt; Frontmost Application tab</b>.
               </td>
             </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A condition description for human.</td>
+            </tr>
           </tbody>
         </table>
 
+        <h3 id="condition-definition-device"><code>device_if</code> and <code>device_unless</code></h3>
 
+        {{#indented_json}}
+          |{
+          |    "type": "device_if",
+          |    "identifiers": [
+          |        {
+          |            "vendor_id": 1111,
+          |            "product_id": 2222,
+          |            "description": "my keyboard 1"
+          |        },
+          |        {
+          |            "vendor_id": 3333,
+          |            "product_id": 4444,
+          |            "description": "my keyboard 2"
+          |        },
+          |        ...
+          |    ]
+          |}
+        {{/indented_json}}
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Either:
+                <ul>
+                  <li><code>"type": "device_if"</code></li>
+                  <li><code>"type": "device_unless"</code></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>identifiers</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <p>
+                Target device definitions.<br />
+                You can examine vendor_id and product_id in <b>Karabiner-Elements Preferences > Devices</b>.
+                </p>
+                <p>
+                  <code>product_id</code> is optional. All devices which have specified <code>vendor_id</code> will be matched if <code>product_id</code> is omitted.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A condition description for human.</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
     </div>
