@@ -76,6 +76,14 @@ class Json < KarabinerBase
         :href => '#condition-definition-frontmost-application',
         :name => 'condition definition frontmost_application_if and frontmost_application_unless'
       },
+      {
+        :href => '#condition-definition-device',
+        :name => 'condition definition device_if and device_unless'
+      },
+      {
+        :href => '#condition-definition-keyboard-type',
+        :name => 'condition definition keyboard_type_if and keyboard_type_unless'
+      },
     ]
   end
 end
