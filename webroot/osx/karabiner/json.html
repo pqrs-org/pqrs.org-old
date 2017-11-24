@@ -1044,7 +1044,10 @@
         modifier,
         modifier,
         ...
-    ]
+    ],
+
+    "lazy": false,
+    "repeat": false
 }</pre>
         <div class="alert alert-info" role="alert">
           <p>
@@ -1108,6 +1111,40 @@
               <td><code class="optional">optional</code></td>
               <td>
                 Specify modifiers.
+              </td>
+            </tr>
+            <tr>
+              <td><code>lazy</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <p>
+                  <code>true</code> or <code>false</code>. The default value is <code>false</code>.
+                </p>
+                <p>
+                  <code>lazy</code> parameter works with modifier. (e.g., <code>"key_code": "left_shift"</code>)<br />
+                  When <code>"lazy": true</code>, the modifier works as the lazy modifier.<br />
+                  The lazy modifier does not send own key events until another key is pressed together.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><code>repeat</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <p>
+                  <code>true</code> or <code>false</code>. The default value is <code>true</code>.
+                </p>
+                <p>
+                  When <code>"repeat": false</code>, both <b>key_down</b> and <b>key_up</b> events are sent when you press the key.<br />
+                  (When <code>"repeat": true</code>, <b>key_up</b> event is sent when you release the key.)
+                </p>
+                <p>
+                  This behavior suppresses the key repeating when <code>"repeat": false</code>.
+                </p>
+                <div class="alert alert-info" role="alert">
+                  Note:<br />
+                  When you want to use <code>"repeat": false</code>, you have to set <code>repeat</code> in the last to event if you have multiple to events in a manipulator.
+                </div>
               </td>
             </tr>
           </tbody>
