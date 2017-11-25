@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.3.5</title>
+      <title>Version 11.3.6</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.3.5 Update</h2>
+<h2>About v11.3.6 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -30,6 +30,22 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `mouse_key` has been added.<br />
+          Examples:<br />
+          <ul>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#os_functionality">Mouse keys (simple)</a></li>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#os_functionality">Mouse keys (full)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -38,10 +54,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 24 Nov 2017 15:56:19 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.3.5.dmg"
-                 sparkle:version="11.3.5" length="4274910" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFH0r0gjwHig4kYFtG63fYC9B39q7AhUA2nFpKwDZEckNJjrS63WBVs/I0Mk="
+      <pubDate>Sat, 25 Nov 2017 10:24:04 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.3.6.dmg"
+                 sparkle:version="11.3.6" length="4274962" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDYm+E39gQZXGc/RvGMdYnnKV4L3AhQdg7fl8hpVuA6LqQJtzjh/ftJnYg=="
                  />
     </item>
 
