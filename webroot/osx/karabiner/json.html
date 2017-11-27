@@ -1121,6 +1121,7 @@
                   <li><code>{ "y": speed }</code></li>
                   <li><code>{ "vertical_wheel": speed }</code></li>
                   <li><code>{ "horizontal_wheel": speed }</code></li>
+                  <li><code>{ "speed_multiplier": 1.0 }</code></li>
                 </ul>
 
                 Examples:<br />
@@ -1144,6 +1145,11 @@
                   <li>fast scroll right: <code>{ "mouse_key": { "horizontal_wheel": -64 } }</code></li>
                   <li>fast scroll up: <code>{ "mouse_key": { "vertical_wheel": -64 } }</code></li>
                   <li>fast scroll down: <code>{ "mouse_key": { "vertical_wheel": 64 } }</code></li>
+                </ul>
+
+                <ul>
+                  <li>speed multiplier x2: <code>{ "mouse_key": { "speed_multiplier": 2.0 } }</code></li>
+                  <li>speed multiplier /2: <code>{ "mouse_key": { "speed_multiplier": 0.5 } }</code></li>
                 </ul>
 
                 <div class="alert alert-info" role="alert">
