@@ -2,6 +2,7 @@ all:
 	./index.rb
 	./document.rb
 	./json.rb
+	./help.rb
 	./xml.rb
 	./faq.rb
 	./seil.rb

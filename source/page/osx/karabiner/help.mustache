@@ -1,0 +1,50 @@
+<div class="container">
+  <header>
+    <div class="page-header">
+      <h1>Karabiner-Elements Help</h1>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="troubleshooting">Troubleshooting</h1>
+        </div>
+
+        <h2 id="kext-allow-button-does-not-work">Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/system-preferences-security-and-privacy@2x.png An alert of Kext policy
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hide after you click it.<br />
+          If the button does not hide after click, you did not succeed to click it.
+        </p>
+
+        <p>
+          It's because macOS blocks the click if you are using an app which intercepts mouse events.<br />
+          You have to quit them before pressing the allow button.
+        </p>
+
+        <b>Apps which prevent the click:</b><br />
+        <ul>
+          <li>MagicPrefs</li>
+          <li>SteerMouse</li>
+          <li>Witch</li>
+          <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
+          <li>etc.</li>
+        </ul>
+      </section>
+
+    </div>
+    <div class="col-md-3">
+      {{> ../../pqrs_tabs }}
+    </div>
+  </div>
+</div>

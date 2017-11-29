@@ -25,6 +25,10 @@ class KarabinerBase < PqrsBase
               :name => 'karabiner.json Reference Manual',
             },
             {
+              :href => '/osx/karabiner/help.html',
+              :name => 'Help',
+            },
+            {
               :href => '/osx/karabiner/source.html',
               :name => 'License and Source Code',
             },

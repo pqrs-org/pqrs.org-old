@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Pricing - Karabiner - Software for macOS</title>
+    <title>Help - Karabiner - Software for macOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap core CSS -->
@@ -45,7 +45,7 @@
                 <li >
                   <a href="/osx/karabiner/index.html">Karabiner</a>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Documents
                     <b class="caret"></b>
@@ -57,7 +57,7 @@
                       <li >
                         <a href="/osx/karabiner/json.html">karabiner.json Reference Manual</a>
                       </li>
-                      <li >
+                      <li class="active">
                         <a href="/osx/karabiner/help.html">Help</a>
                       </li>
                       <li >
@@ -97,7 +97,7 @@
                       </li>
                   </ul>
                 </li>
-                <li class=active>
+                <li >
                   <a href="/osx/karabiner/pricing.html">Pricing</a>
                 </li>
                 <li >
@@ -114,62 +114,72 @@
     </header>
 
     <div class="container">
-  <section>
+  <header>
     <div class="page-header">
-      <h1>
-        Pricing
-      </h1>
+      <h1>Karabiner-Elements Help</h1>
     </div>
+  </header>
 
-    <p style="margin: 50px 0; font-size: 120%">
-      <strong>
-        Karabiner is <a href="source.html">an open source software</a> and you can use it without any purchases.
-      </strong>
-    </p>
+  <div class="row">
+    <div class="col-md-9 pqrs-docs-container">
+      <section>
+        <div class="page-header">
+          <h1 id="troubleshooting">Troubleshooting</h1>
+        </div>
 
-    <hr />
+        <h2 id="kext-allow-button-does-not-work">Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
 
-    <h2>
-      Purchase to support this project
-    </h2>
-
-    <p>
-      You can pay software fee via PayPal to support this project.<br />
-      (It's nearly a donation, but we can not receive a donation by japanese law and the constraints on government regulation.
-      Thus, it has taken the form of software fee.)<br />
-      <br />
-      We does not provide any difference between purchased users and not-purchased users.<br />
-      Please pay if you are interested to support this project.
-    </p>
-
-    <hr />
-
-    <div class="row">
-      <div class="col-lg-2">
-        <img
-        class="pull-left"
-        alt="PayPal" style="margin-right: 20px"
-src="img/PayPal_mark_180x113.gif" width="180" height="113"        />
-      </div>
-      <div class="col-lg-4">
-        <form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
-        <input type="hidden" name="cmd" value="_xclick"/>
-        <input type="hidden" name="business" value="tekezo@pqrs.org"/>
-        <input type="hidden" name="lc" value="US"/>
-        <input type="hidden" name="item_name" value="Karabiner for macOS"/>
-        <input type="hidden" name="no_note" value="0"/>
-        <input type="hidden" name="no_shipping" value="1"/>
-        <input type="hidden" name="currency_code" value="USD"/>
-        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"/>
-        <input type="hidden" name="amount" value="10.00"/>
-
-        <button type="submit" class="btn btn-primary">
-          Open PayPal Payments Form (Pay $10 for Karabiner)
-        </button>
-        </form>
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/system-preferences-security-and-privacy@2x.png" alt="An alert of Kext policy" />
+</a>
+<div class="modal fade" id="lightbox-1" tabindex="30001">
+  <div class="modal-dialog clickable" style="width: 728px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/system-preferences-security-and-privacy@2x.png" alt="An alert of Kext policy" style="width: 100%" />
       </div>
     </div>
-  </section>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <p>
+          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hide after you click it.<br />
+          If the button does not hide after click, you did not succeed to click it.
+        </p>
+
+        <p>
+          It's because macOS blocks the click if you are using an app which intercepts mouse events.<br />
+          You have to quit them before pressing the allow button.
+        </p>
+
+        <b>Apps which prevent the click:</b><br />
+        <ul>
+          <li>MagicPrefs</li>
+          <li>SteerMouse</li>
+          <li>Witch</li>
+          <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
+          <li>etc.</li>
+        </ul>
+      </section>
+
+    </div>
+    <div class="col-md-3">
+      <div class="bs-docs-sidebar" id="bs-docs-sidebar">
+        <ul class="nav bs-sidenav">
+              <li class="nav-header">troubleshooting</li>
+              <li>
+                <a href="#kext-allow-button-does-not-work">
+                  Allow button in System Preferences does not work
+                </a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 
