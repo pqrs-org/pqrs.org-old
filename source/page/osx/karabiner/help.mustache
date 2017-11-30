@@ -64,7 +64,7 @@
 
               <ol>
                 <li>
-                  Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
+                  Import <a href="complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
                 </li>
                 <li>
                   Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
@@ -109,7 +109,7 @@
 
               <ol>
                 <li>
-                  Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#escape">Change escape key</a>
+                  Import <a href="complex_modifications/#escape">Change escape key</a>
                 </li>
                 <li>
                   Enable <b>Change fn+escape to eject.</b><br />
@@ -131,7 +131,52 @@
         </div>
       </section>
 
+      <section>
+        <div class="page-header">
+          <h2 id="advanced">Advanced topics</h2>
+        </div>
+
+        <div id="installed-files">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Installed files</h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                Karabiner-Elements installs files into the following locations.
+              </p>
+
+              <b>System files</b>
+              <ul>
+                <li>/Applications/Karabiner-Elements.app</li>
+                <li>/Applications/Karabiner-EventViewer.app</li>
+                <li>/Library/Application Support/org.pqrs/Karabiner-Elements</li>
+                <li>/Library/Application Support/org.pqrs/Karabiner-VirtualHIDDevice</li>
+                <li>/Library/Application Support/org.pqrs/config</li>
+                <li>/Library/Application Support/org.pqrs/tmp</li>
+                <li>/Library/LaunchDaemons/org.pqrs.karabiner.karabiner_grabber.plist</li>
+                <li>/Library/LaunchAgents/org.pqrs.karabiner.karabiner_console_user_server.plist</li>
+                <li>/var/log/karabiner</li>
+              </ul>
+
+              <b>User files</b>
+              <ul>
+                <li>~/.config/karabiner</li>
+                <li>~/.local/share/karabiner</li>
+              </ul>
+
+              <div class="alert alert-warning" role="alert">
+                <p>
+                  Warning:<br />
+                  If you want to uninstall Karabiner-Elements, you have to use <a href="document.html#uninstall">Karabiner-Elements uninstaller.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+
     <div class="col-md-3">
       {{> ../../pqrs_tabs }}
     </div>
