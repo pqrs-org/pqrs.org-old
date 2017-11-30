@@ -9,76 +9,89 @@
     <div class="col-md-9 pqrs-docs-container">
       <section>
         <div class="page-header">
-          <h1 id="troubleshooting">Troubleshooting</h1>
+          <h2 id="troubleshooting">Troubleshooting</h2>
         </div>
 
-        <h2 id="kext-allow-button-does-not-work">Trouble: Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
+        <div id="kext-allow-button-does-not-work">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trouble: Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  {{#lightbox}}
+                    img/system-preferences-security-and-privacy@2x.png An alert of Kext policy
+                  {{/lightbox}}
+                </div>
+              </div>
 
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/system-preferences-security-and-privacy@2x.png An alert of Kext policy
-            {{/lightbox}}
+              <p>
+                The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hidden after you click it.<br />
+                If the button does not hide after click, you did not succeed to click it.
+              </p>
+
+              <p>
+                It's because macOS blocks the click if you are using an app which intercepts mouse events.<br />
+                You have to quit them before pressing the allow button.
+              </p>
+
+              <b>Apps which prevent the click:</b><br />
+              <ul>
+                <li>MagicPrefs</li>
+                <li>SteerMouse</li>
+                <li>Witch</li>
+                <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
+                <li>etc.</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <p>
-          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hidden after you click it.<br />
-          If the button does not hide after click, you did not succeed to click it.
-        </p>
+        <br />
+        {{! ================================================================================ }}
 
-        <p>
-          It's because macOS blocks the click if you are using an app which intercepts mouse events.<br />
-          You have to quit them before pressing the allow button.
-        </p>
+        <div id="touch-bar-function-keys">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trouble: Touch bar does not change to f1-f12 when I press the fn key.</h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                It's an issue of macOS, and unfortunately, Karabiner-Elements cannot avoid this issue.<br />
+                Instead, please change fn+number keys to function keys in Karabiner-Elements configuration.
+              </p>
 
-        <b>Apps which prevent the click:</b><br />
-        <ul>
-          <li>MagicPrefs</li>
-          <li>SteerMouse</li>
-          <li>Witch</li>
-          <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
-          <li>etc.</li>
-        </ul>
+              <ol>
+                <li>
+                  Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
+                </li>
+                <li>
+                  Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
+                </li>
+                <li>
+                  Then, you can use f1-f12 keys by fn+number keys.
+                </li>
+              </ol>
 
-        <hr class="horizontal-separator" />
+              <div class="row">
+                <div class="col-lg-4">
+                  {{#lightbox}}
+                    img/karabiner-elements-fn_plus_numbers_to_function_keys@2x.png fn_plus_numbers_to_function_keys
+                  {{/lightbox}}
+                </div>
+              </div>
 
-        <h2 id="touch-bar-function-keys">Trouble: Touch bar does not change to f1-f12 when I press the fn key.</h2>
-
-        <p>
-          It's an issue of macOS, and unfortunately, Karabiner-Elements cannot avoid this issue.<br />
-          Instead, please change fn+number keys to function keys in Karabiner-Elements configuration.
-        </p>
-
-        <ol>
-          <li>
-            Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
-          </li>
-          <li>
-            Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
-          </li>
-          <li>
-            Then, you can use f1-f12 keys by fn+number keys.
-          </li>
-        </ol>
-
-        <div class="row">
-          <div class="col-lg-4">
-            {{#lightbox}}
-              img/karabiner-elements-fn_plus_numbers_to_function_keys@2x.png fn_plus_numbers_to_function_keys
-            {{/lightbox}}
+              <div class="alert alert-info" role="alert">
+                <p>
+                  Note:<br />
+                  (If you are using "Use all F1, F2, etc. keys as standard function keys.",
+                  enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="alert alert-info" role="alert">
-          <p>
-            Note:<br />
-            (If you are using "Use all F1, F2, etc. keys as standard function keys.",
-            enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
-          </p>
-        </div>
-
-
       </section>
 
     </div>
