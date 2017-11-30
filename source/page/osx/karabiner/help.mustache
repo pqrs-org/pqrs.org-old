@@ -70,7 +70,7 @@
                   Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
                 </li>
                 <li>
-                  Then, you can use f1-f12 keys by fn+number keys.
+                  You can use f1-f12 keys by fn+number keys.
                 </li>
               </ol>
 
@@ -88,6 +88,43 @@
                   (If you are using "Use all F1, F2, etc. keys as standard function keys.",
                   enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        {{! ================================================================================ }}
+
+        <div id="control-eject">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.</h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                It's an issue of macOS, and unfortunately, Karabiner-Elements cannot avoid this issue.<br />
+                Instead, please change fn+escape to eject and use control+fn+escape (== control+eject) shortcut.
+              </p>
+
+              <ol>
+                <li>
+                  Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#escape">Change escape key</a>
+                </li>
+                <li>
+                  Enable <b>Change fn+escape to eject.</b><br />
+                </li>
+                <li>
+                  You can use control+fn+escape as control+eject.
+                </li>
+              </ol>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  {{#lightbox}}
+                    img/karabiner-elements-fn-escape-to-eject@2x.png Change fn+escape to eject.
+                  {{/lightbox}}
+                </div>
               </div>
             </div>
           </div>

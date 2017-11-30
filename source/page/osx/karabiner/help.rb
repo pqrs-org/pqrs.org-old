@@ -22,6 +22,10 @@ class Help < KarabinerBase
         :href => '#touch-bar-function-keys',
         :name => 'Trouble: Touch bar does not change to f1-f12 when I press the fn key.',
       },
+      {
+        :href => '#control-eject',
+        :name => 'Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.',
+      },
     ]
   end
 end
