@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.d79f857976972beba48407c8f65994e566505761.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.d0a9242abb2972c724f94fb7e4f79d46eb957053.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -127,7 +127,7 @@
           <h1 id="troubleshooting">Troubleshooting</h1>
         </div>
 
-        <h2 id="kext-allow-button-does-not-work">Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
+        <h2 id="kext-allow-button-does-not-work">Trouble: Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
 
         <div class="row">
           <div class="col-lg-4">
@@ -147,7 +147,7 @@
         </div>
 
         <p>
-          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hide after you click it.<br />
+          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hidden after you click it.<br />
           If the button does not hide after click, you did not succeed to click it.
         </p>
 
@@ -164,6 +164,54 @@
           <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
           <li>etc.</li>
         </ul>
+
+        <hr class="horizontal-separator" />
+
+        <h2 id="touch-bar-function-keys">Trouble: Touch bar does not change to f1-f12 when I press the fn key.</h2>
+
+        <p>
+          It's an issue of macOS, and unfortunately, Karabiner-Elements cannot avoid this issue.<br />
+          Instead, please change fn+number keys to function keys in Karabiner-Elements configuration.
+        </p>
+
+        <ol>
+          <li>
+            Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
+          </li>
+          <li>
+            Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
+          </li>
+          <li>
+            Then, you can use f1-f12 keys by fn+number keys.
+          </li>
+        </ol>
+
+        <div class="row">
+          <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/karabiner-elements-fn_plus_numbers_to_function_keys@2x.png" alt="fn_plus_numbers_to_function_keys" />
+</a>
+<div class="modal fade" id="lightbox-2" tabindex="30002">
+  <div class="modal-dialog clickable" style="width: 1060px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-fn_plus_numbers_to_function_keys@2x.png" alt="fn_plus_numbers_to_function_keys" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+          <p>
+            Note:<br />
+            (If you are using "Use all F1, F2, etc. keys as standard function keys.",
+            enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
+          </p>
+        </div>
+
+
       </section>
 
     </div>
@@ -173,7 +221,12 @@
               <li class="nav-header">troubleshooting</li>
               <li>
                 <a href="#kext-allow-button-does-not-work">
-                  Allow button in System Preferences does not work
+                  Trouble: Allow button in System Preferences does not work.
+                </a>
+              </li>
+              <li>
+                <a href="#touch-bar-function-keys">
+                  Trouble: Touch bar does not change to f1-f12 when I press the fn key.
                 </a>
               </li>
         </ul>

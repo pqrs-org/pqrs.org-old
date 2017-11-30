@@ -16,7 +16,11 @@ class Help < KarabinerBase
       },
       {
         :href => '#kext-allow-button-does-not-work',
-        :name => 'Allow button in System Preferences does not work',
+        :name => 'Trouble: Allow button in System Preferences does not work.',
+      },
+      {
+        :href => '#touch-bar-function-keys',
+        :name => 'Trouble: Touch bar does not change to f1-f12 when I press the fn key.',
       },
     ]
   end

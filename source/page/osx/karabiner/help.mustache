@@ -12,7 +12,7 @@
           <h1 id="troubleshooting">Troubleshooting</h1>
         </div>
 
-        <h2 id="kext-allow-button-does-not-work">Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
+        <h2 id="kext-allow-button-does-not-work">Trouble: Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h2>
 
         <div class="row">
           <div class="col-lg-4">
@@ -23,7 +23,7 @@
         </div>
 
         <p>
-          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hide after you click it.<br />
+          The allow button on <b>System Preferences &gt; Security &amp; Privacy</b> should be hidden after you click it.<br />
           If the button does not hide after click, you did not succeed to click it.
         </p>
 
@@ -40,6 +40,45 @@
           <li>If you are using macOS from remote via <b>Screen Sharing</b>, you cannot click the allow button.</li>
           <li>etc.</li>
         </ul>
+
+        <hr class="horizontal-separator" />
+
+        <h2 id="touch-bar-function-keys">Trouble: Touch bar does not change to f1-f12 when I press the fn key.</h2>
+
+        <p>
+          It's an issue of macOS, and unfortunately, Karabiner-Elements cannot avoid this issue.<br />
+          Instead, please change fn+number keys to function keys in Karabiner-Elements configuration.
+        </p>
+
+        <ol>
+          <li>
+            Import <a href="https://pqrs.org/osx/karabiner/complex_modifications/#fn_plus_numbers_to_function_keys">Map fn + number keys to function keys</a>
+          </li>
+          <li>
+            Enable <b>Map fn + number keys to their corresponding function keys</b>.<br />
+          </li>
+          <li>
+            Then, you can use f1-f12 keys by fn+number keys.
+          </li>
+        </ol>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/karabiner-elements-fn_plus_numbers_to_function_keys@2x.png fn_plus_numbers_to_function_keys
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+          <p>
+            Note:<br />
+            (If you are using "Use all F1, F2, etc. keys as standard function keys.",
+            enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
+          </p>
+        </div>
+
+
       </section>
 
     </div>
