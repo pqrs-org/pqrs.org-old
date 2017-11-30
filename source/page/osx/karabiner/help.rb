@@ -12,7 +12,7 @@ class Help < KarabinerBase
   def tabs_definition
     [
       {
-        :name => 'troubleshooting',
+        :name => 'Troubleshooting',
       },
       {
         :href => '#kext-allow-button-does-not-work',
@@ -26,6 +26,13 @@ class Help < KarabinerBase
         :href => '#control-eject',
         :name => 'Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.',
       },
+      {
+        :name => 'Advanced topics',
+      },
+      {
+        :href => '#installed-files',
+        :name => 'Installed files',
+      }
     ]
   end
 end
