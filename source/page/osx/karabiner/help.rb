@@ -27,6 +27,10 @@ class Help < KarabinerBase
         :name => 'Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.',
       },
       {
+        :href => '#json-owner-is-invalid',
+        :name => 'Trouble: "karabiner.json is not owned by a valid user" error message',
+      },
+      {
         :name => 'Advanced topics',
       },
       {

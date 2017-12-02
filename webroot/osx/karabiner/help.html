@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.d0a9242abb2972c724f94fb7e4f79d46eb957053.css" rel="stylesheet" />
+    <link href="/cache/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.aaf8d78cbfeb3e1aa66831b156fcd448e8062c52.css" rel="stylesheet" />
     <link href="/cache/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -269,6 +269,40 @@
             </div>
           </div>
         </div>
+
+        <br />
+
+        <div id="json-owner-is-invalid">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trouble: <b>karabiner.json is not owned by a valid user</b> error message in log</h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                If the following error message is appeared in log, your home directory owner ship is not valid.
+              </p>
+
+              <pre>
+[warning] [grabber] /Users/.../karabiner.json is not owned by a valid user.
+</pre>
+
+              <p>
+                The cause is that you are using external storage and rotating your home directory into the volume.<br />
+                You have to enable ownership to the external volume by the following command in Terminal.app.
+              </p>
+
+              <div class="pre-shell">
+                <pre class="shell">
+sudo diskutil enableOwnership disk99999s99999
+</pre>
+              </div>
+
+              <p>
+                (See diskutil manual for detail.)
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -334,6 +368,11 @@
               <li>
                 <a href="#control-eject">
                   Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.
+                </a>
+              </li>
+              <li>
+                <a href="#json-owner-is-invalid">
+                  Trouble: &quot;karabiner.json is not owned by a valid user&quot; error message
                 </a>
               </li>
               <li class="nav-header">Advanced topics</li>

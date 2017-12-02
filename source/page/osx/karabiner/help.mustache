@@ -129,6 +129,41 @@
             </div>
           </div>
         </div>
+
+        <br />
+        {{! ================================================================================ }}
+
+        <div id="json-owner-is-invalid">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Trouble: <b>karabiner.json is not owned by a valid user</b> error message in log</h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                If the following error message is appeared in log, your home directory owner ship is not valid.
+              </p>
+
+              <pre>{{#strip_indented_lines}}
+                |[warning] [grabber] /Users/.../karabiner.json is not owned by a valid user.
+              {{/strip_indented_lines}}</pre>
+
+              <p>
+                The cause is that you are using external storage and rotating your home directory into the volume.<br />
+                You have to enable ownership to the external volume by the following command in Terminal.app.
+              </p>
+
+              <div class="pre-shell">
+                <pre class="shell">{{#strip_indented_lines}}
+                  |sudo diskutil enableOwnership disk99999s99999
+                {{/strip_indented_lines}}</pre>
+              </div>
+
+              <p>
+                (See diskutil manual for detail.)
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>

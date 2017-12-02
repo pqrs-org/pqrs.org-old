@@ -136,6 +136,22 @@ div.container {
     padding-top: $header-nav-height + 20px !important;
     margin-top: -($header-nav-height + 20px) !important;
   }
+
+  div.pre-shell {
+    background-color: #ccc;
+    border-radius: 4px;
+
+    pre {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+  }
+  div.pre-shell:before {
+    content: "Terminal";
+    font-weight: bold;
+    padding: 3px 10px;
+    display: block;
+  }
 }
 
 body.with-page-top-fixed-alert {
