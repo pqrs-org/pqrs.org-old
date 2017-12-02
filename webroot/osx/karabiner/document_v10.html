@@ -1189,7 +1189,8 @@ src="img/v10/karabiner-profiles-menu-selected@2x.png" width="254" height="198"  
         <p>
           Execute the karabiner command with no argument.
         </p>
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner
 Usage:
   Profile operations:
@@ -1232,6 +1233,7 @@ Examples:
   $ karabiner relaunch
   $ karabiner be_careful_to_use__clear_all_values_by_name NewItem
 </pre>
+        </div>
 
         <h2>
           About "list" and "select" option
@@ -1242,21 +1244,25 @@ Examples:
         <ol>
           <li>
             Get a list of profiles by "list" option.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner list
 0: Default
 1: Don't Remap
 2: Empty
 3: Test
 </pre>
+            </div>
           </li>
           <li>
             Choose a profile by "select" option.
             <br />
             The numeral argument is a profile index. It starts from 0.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner select 1
 </pre>
+            </div>
           </li>
         </ol>
 
@@ -1268,16 +1274,20 @@ $ /Applications/Karabiner.app/Contents/Library/bin/karabiner select 1
             Export configuration by "export" option.
             <br />
             The output is a shell script.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner export > ~/Desktop/karabiner-import.sh
 </pre>
+            </div>
           </li>
           <li>
             You can import it from Terminal.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ sh ~/Desktop/karabiner-import.sh
 ...........................................
 </pre>
+            </div>
           </li>
         </ol>
 
@@ -1289,12 +1299,14 @@ $ sh ~/Desktop/karabiner-import.sh
         <p>
           If you want to reset the configuration before import, please use <code>be_careful_to_use__clear_all_values_by_name</code> before running karabiner-import.sh.
         </p>
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ /Applications/Karabiner.app/Contents/Library/bin/karabiner \
      be_careful_to_use__clear_all_values_by_name \
      YOUR_PROFILE_NAME
 $ sh ~/Desktop/karabiner-import.sh
 </pre>
+        </div>
       </section>
 
       <section>

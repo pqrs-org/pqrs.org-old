@@ -429,18 +429,20 @@
         <p>
           Execute seil with no argument.
         </p>
-        <pre>{{#strip_indented_lines}}
-          |$ /Applications/Seil.app/Contents/Library/bin/seil
-          |Usage:
-          |  seil export
-          |  seil relaunch
-          |  seil set IDENTIFIER VALUE
-          |
-          |Example:
-          |  seil export
-          |  seil relaunch
-          |  seil set keycode_capslock 80
-        {{/strip_indented_lines}}</pre>
+        <div class="pre-shell">
+          <pre>{{#strip_indented_lines}}
+            |$ /Applications/Seil.app/Contents/Library/bin/seil
+            |Usage:
+            |  seil export
+            |  seil relaunch
+            |  seil set IDENTIFIER VALUE
+            |
+            |Example:
+            |  seil export
+            |  seil relaunch
+            |  seil set keycode_capslock 80
+          {{/strip_indented_lines}}</pre>
+        </div>
 
         <h2 id="export">
           About "export" option
@@ -450,16 +452,20 @@
             Export configuration by "export" option.
             <br />
             The output is a shell script.
-            <pre>{{#strip_indented_lines}}
-              |$ /Applications/Seil.app/Contents/Library/bin/seil export > ~/Desktop/seil-import.sh
-            {{/strip_indented_lines}}</pre>
+            <div class="pre-shell">
+              <pre>{{#strip_indented_lines}}
+                |$ /Applications/Seil.app/Contents/Library/bin/seil export > ~/Desktop/seil-import.sh
+              {{/strip_indented_lines}}</pre>
+            </div>
           </li>
           <li>
             You can import it from Terminal.
-            <pre>{{#strip_indented_lines}}
-              |$ sh ~/Desktop/seil-import.sh
-              |...........................................
-            {{/strip_indented_lines}}</pre>
+            <div class="pre-shell">
+              <pre>{{#strip_indented_lines}}
+                |$ sh ~/Desktop/seil-import.sh
+                |...........................................
+              {{/strip_indented_lines}}</pre>
+            </div>
           </li>
         </ol>
       </section>

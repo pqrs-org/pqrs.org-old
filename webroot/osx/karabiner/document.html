@@ -862,9 +862,11 @@ src="img/karabiner-elements-menu-profiles@2x.png" width="384" height="203"      
         </p>
 
         <h2>Usage</h2>
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default profile'
 </pre>
+        </div>
       </section>
 
       <section>
@@ -887,19 +889,23 @@ $ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' -
           Example:
         </p>
 
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ mv ~/.config/karabiner ~/Dropbox/private
 $ ln -s ~/Dropbox/private/karabiner ~/.config
 </pre>
+        </div>
 
         <p>
           You have to restart karabiner_console_user_server process by the following command after you made a symlink
           in ordre to tell Karabiner-Elements that the parent directory is changed.
         </p>
 
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
 </pre>
+        </div>
 
         <div class="alert alert-warning">
           Do not make a symlink to <b>karabiner.json</b>.<br />

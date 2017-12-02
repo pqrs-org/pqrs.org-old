@@ -548,9 +548,11 @@
         </p>
 
         <h2>Usage</h2>
-        <pre>{{#strip_indented_lines}}
-          |$ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default profile'
-        {{/strip_indented_lines}}</pre>
+        <div class="pre-shell">
+          <pre>{{#strip_indented_lines}}
+            |$ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default profile'
+          {{/strip_indented_lines}}</pre>
+        </div>
       </section>
 
       <section>
@@ -573,19 +575,23 @@
           Example:
         </p>
 
-        <pre>{{#strip_indented_lines}}
-          |$ mv ~/.config/karabiner ~/Dropbox/private
-          |$ ln -s ~/Dropbox/private/karabiner ~/.config
-        {{/strip_indented_lines}}</pre>
+        <div class="pre-shell">
+          <pre>{{#strip_indented_lines}}
+            |$ mv ~/.config/karabiner ~/Dropbox/private
+            |$ ln -s ~/Dropbox/private/karabiner ~/.config
+          {{/strip_indented_lines}}</pre>
+        </div>
 
         <p>
           You have to restart karabiner_console_user_server process by the following command after you made a symlink
           in ordre to tell Karabiner-Elements that the parent directory is changed.
         </p>
 
-        <pre>{{#strip_indented_lines}}
-          |$ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
-        {{/strip_indented_lines}}</pre>
+        <div class="pre-shell">
+          <pre>{{#strip_indented_lines}}
+            |$ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_server
+          {{/strip_indented_lines}}</pre>
+        </div>
 
         <div class="alert alert-warning">
           Do not make a symlink to <b>karabiner.json</b>.<br />

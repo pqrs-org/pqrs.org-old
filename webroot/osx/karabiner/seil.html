@@ -527,7 +527,8 @@ src="img/v10/seil-icon@2x.png" width="140" height="159"            />
         <p>
           Execute seil with no argument.
         </p>
-        <pre>
+        <div class="pre-shell">
+          <pre>
 $ /Applications/Seil.app/Contents/Library/bin/seil
 Usage:
   seil export
@@ -539,6 +540,7 @@ Example:
   seil relaunch
   seil set keycode_capslock 80
 </pre>
+        </div>
 
         <h2 id="export">
           About "export" option
@@ -548,16 +550,20 @@ Example:
             Export configuration by "export" option.
             <br />
             The output is a shell script.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ /Applications/Seil.app/Contents/Library/bin/seil export > ~/Desktop/seil-import.sh
 </pre>
+            </div>
           </li>
           <li>
             You can import it from Terminal.
-            <pre>
+            <div class="pre-shell">
+              <pre>
 $ sh ~/Desktop/seil-import.sh
 ...........................................
 </pre>
+            </div>
           </li>
         </ol>
       </section>
