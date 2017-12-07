@@ -7,6 +7,72 @@
     <language>en</language>
 
     <item>
+      <title>Version 11.4.0</title>
+      <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item{margin:10px 0;padding:0;border-radius:.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 .5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:.2em 1em;padding:.5em}.update-description .update-description-body img.img{width:100%}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:"new";color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:"important";color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:"fixed";color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:"improved";color:#cd6118}
+/*# sourceMappingURL=sparkle.css.map */
+</style>
+
+<h2>About v11.4.0 Update</h2>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which do not have their own vendor id.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `mouse_key` has been added.<br />
+          Examples:<br />
+          <ul>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_simple">Mouse keys (simple)</a></li>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full">Mouse keys (full)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `location_id` has been added to `device_if` and `device_unless`.<br />
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
+]]>
+      </description>
+      <pubDate>Thu, 07 Dec 2017 14:21:11 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.0.dmg"
+                 sparkle:version="11.4.0" length="4283299" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFPjySYZ+7CIIxLUrncIfpq17SByAhR/KGWKLSNphSS26NVEpNhTyt7wag=="
+                 />
+    </item>
+
+    <item>
       <title>Version 11.3.0</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
