@@ -1116,8 +1116,7 @@
               <td><code>mouse_key</code></td>
               <td><code class="optional">optional</code></td>
               <td>
-                <p><span class="label label-info">Available since Karabiner-Elements-11.3.5</p>
-                Operate mouse pointer and scroll by <code>mouse_key</code>.<br />
+                Move mouse pointer and scroll by <code>mouse_key</code>.<br />
                 You can specify operations by combination of follows.<br />
                 <ul>
                   <li><code>{ "x": speed }</code></li>
@@ -1320,11 +1319,20 @@
               <td><code class="required">required</code></td>
               <td>
                 <p>
-                  Target device definitions.<br />
-                  You can examine vendor_id and product_id in <b>Karabiner-Elements Preferences &gt; Devices</b>.
+                  Target device designation by the following identifiers.<br />
+                  You can examine them in <b>EventViewer &gt; Devices tab</b>.
                 </p>
+
+                <ul>
+                  <li><code>vendor_id</code></li>
+                  <li><code>product_id</code></li>
+                  <li><code>location_id</code></li>
+                  <li><code>is_keyboard</code></li>
+                  <li><code>is_pointing_device</code></li>
+                </ul>
+
                 <p>
-                  <code>product_id</code> is optional. All devices which have specified <code>vendor_id</code> will be matched if <code>product_id</code> is omitted.
+                  All identifiers are optional.
                 </p>
               </td>
             </tr>
