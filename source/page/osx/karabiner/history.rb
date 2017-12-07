@@ -12,6 +12,52 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => 'Karabiner-Elements 11.4.0',
+        :updated => '2017-12-07',
+        :link => 'files/Karabiner-Elements-11.4.0.dmg',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which do not have their own vendor id.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `mouse_key` has been added.<br />
+          Examples:<br />
+          <ul>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_simple">Mouse keys (simple)</a></li>
+            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full">Mouse keys (full)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `location_id` has been added to `device_if` and `device_unless`.<br />
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => 'Karabiner-Elements 11.3.0',
         :updated => '2017-11-12',
         :link => 'files/Karabiner-Elements-11.3.0.dmg',
