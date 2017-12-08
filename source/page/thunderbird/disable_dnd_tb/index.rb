@@ -21,6 +21,23 @@ class Index < DisableDndTbBase
   def histories
     data = [
       {
+        :version => '3.1.0',
+        :link => 'files/disable_dnd_tb-3.1.0.xpi',
+        :updated => '2017-12-08',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Update targetApplicationw to Thunderbird 45-58.
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => '3.0.0',
         :link => 'files/disable_dnd_tb-3.0.0.xpi',
         :updated => '2016-04-28',
