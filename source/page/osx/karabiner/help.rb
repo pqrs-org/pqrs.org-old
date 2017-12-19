@@ -31,6 +31,13 @@ class Help < KarabinerBase
         :name => 'Trouble: "karabiner.json is not owned by a valid user" error message',
       },
       {
+        :name => 'How-to',
+      },
+      {
+        :href => '#mouse-button',
+        :name => 'How-to: How to change mouse buttons',
+      },
+      {
         :name => 'Advanced topics',
       },
       {

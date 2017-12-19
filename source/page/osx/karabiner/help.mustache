@@ -15,7 +15,8 @@
         <div id="kext-allow-button-does-not-work">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Trouble: Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h3>
+              <span class="label label-danger pull-right">Trouble</span>
+              <h3 class="panel-title">Allow button on <b>System Preferences &gt; Security &amp; Privacy</b> does not work.</h3>
             </div>
             <div class="panel-body">
               <div class="row">
@@ -54,7 +55,8 @@
         <div id="touch-bar-function-keys">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Trouble: Touch bar does not change to f1-f12 when I press the fn key.</h3>
+              <span class="label label-danger pull-right">Trouble</span>
+              <h3 class="panel-title">Touch bar does not change to f1-f12 when I press the fn key.</h3>
             </div>
             <div class="panel-body">
               <p>
@@ -99,7 +101,8 @@
         <div id="control-eject">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Trouble: Control-eject shortcut does not work when Karabiner-Elements is running.</h3>
+              <span class="label label-danger pull-right">Trouble</span>
+              <h3 class="panel-title">Control-eject shortcut does not work when Karabiner-Elements is running.</h3>
             </div>
             <div class="panel-body">
               <p>
@@ -136,7 +139,8 @@
         <div id="json-owner-is-invalid">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Trouble: <b>karabiner.json is not owned by a valid user</b> error message in log</h3>
+              <span class="label label-danger pull-right">Trouble</span>
+              <h3 class="panel-title"><b>karabiner.json is not owned by a valid user</b> error message in log</h3>
             </div>
             <div class="panel-body">
               <p>
@@ -168,12 +172,56 @@
 
       <section>
         <div class="page-header">
+          <h2 id="how-to">How-to</h2>
+        </div>
+
+        <div id="mouse-button">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <span class="label label-success pull-right">How-to</span>
+              <h3 class="panel-title">
+                How to change mouse buttons
+              </h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                Karabiner-Elements does not modify mouse devices by default.<br />
+                You have to enable your mouse on Karabiner-Elements Preferences.
+              </p>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  {{#lightbox}}
+                    img/karabiner-elements-mouse-button-devices@2x.png Karabiner-Elements Preferences Devices
+                  {{/lightbox}}
+                </div>
+              </div>
+
+              <p>
+                Then, use <b>Simple Modifications</b> to assign a key to a button or use <a href="complex_modifications/#mouse_button">Complex Modifications</a> for more advanced usage.
+              </p>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  {{#lightbox}}
+                    img/karabiner-elements-mouse-button-simple-modifications@2x.png Karabiner-Elements Preferences Simple Modifications
+                  {{/lightbox}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h2 id="advanced">Advanced topics</h2>
         </div>
 
         <div id="installed-files">
           <div class="panel panel-default">
             <div class="panel-heading">
+              <span class="label label-warning pull-right">Advanced</span>
               <h3 class="panel-title">Installed files</h3>
             </div>
             <div class="panel-body">
