@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.4.0</title>
+      <title>Version 11.4.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.4.0 Update</h2>
+<h2>About v11.4.1 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -25,34 +25,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which do not have their own vendor id.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `mouse_key` has been added.<br />
-          Examples:<br />
-          <ul>
-            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_simple">Mouse keys (simple)</a></li>
-            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full">Mouse keys (full)</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `location_id` has been added to `device_if` and `device_unless`.<br />
-        </li>
+        <li>Avoided a VMware Remote Console issue that mouse pointer does not work properly on VMRC when Karabiner-Elements grabs the pointing device.</li>
       </ul>
     </div>
   </div>
@@ -65,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 07 Dec 2017 14:21:11 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.0.dmg"
-                 sparkle:version="11.4.0" length="4283299" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFPjySYZ+7CIIxLUrncIfpq17SByAhR/KGWKLSNphSS26NVEpNhTyt7wag=="
+      <pubDate>Tue, 19 Dec 2017 02:19:54 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.1.dmg"
+                 sparkle:version="11.4.1" length="4276705" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFEO7EmbH+9Nz5yb3D+FqdPCVzpXuAhQjFeeUCSQs5b87XbpkTJbE3ib8Kw=="
                  />
     </item>
 
