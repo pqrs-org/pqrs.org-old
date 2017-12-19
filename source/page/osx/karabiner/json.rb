@@ -70,6 +70,10 @@ class Json < KarabinerBase
         :name => 'The list of modifiers in to definition'
       },
       {
+        :href => '#to-if-alone',
+        :name => 'Detail of to_if_alone'
+      },
+      {
         :name => 'condition definition'
       },
       {

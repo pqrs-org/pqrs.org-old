@@ -1219,6 +1219,45 @@
           <li><code>fn</code></li>
         </ul>
 
+        <h2 id="to-if-alone">Detail of <code>to_if_alone</code></h3>
+
+        <p>
+          <code>to_if_alone</code> posts events when the <b>from key</b> is pressed alone.<br />
+          The events are posted at the <b>from key</b> is released.
+        </p>
+
+        <h3>About cancellation</h3>
+
+        <p>
+          <code>to_if_alone</code> is canceled if other events (keys, buttons or scroll wheel) is happen while the <b>from key</b> is pressed down.
+        </p>
+        <p>
+          The cancellation also happens when you press <b>from key</b> long. (The default timeout is 1000 milliseconds.)<br />
+          You can adjust the timeout milliseconds by <code>parameters &gt; basic.to_if_alone_timeout_milliseconds</code>.<br />
+          The following examples set the timeout 500 milliseconds.
+        </p>
+
+<pre class="prettyprint lang-json">{
+    "from": ...,
+    "to": ...,
+    "to_if_alone": [
+        {
+            "key_code": "escape"
+        }
+    ],
+    "parameters": {
+        "basic.to_if_alone_timeout_milliseconds": 500
+    },
+    "type": "basic"
+}</pre>
+
+        <h3>About key repeat</h3>
+
+        <p>
+          <code>to_if_alone</code> posts both <b>key_down</b> and <b>key_up</b> events at the same time.<br />
+          Thus, you cannot use key repeat for <code>to_if_alone</code> events.
+        </p>
+
         <h2 id="condition-definition">condition definition</h2>
 
         <h3 id="condition-definition-frontmost-application"><code>frontmost_application_if</code> and <code>frontmost_application_unless</code></h3>
@@ -1571,6 +1610,11 @@
               <li>
                 <a href="#to-event-definition-modifiers-list">
                   The list of modifiers in to definition
+                </a>
+              </li>
+              <li>
+                <a href="#to-if-alone">
+                  Detail of to_if_alone
                 </a>
               </li>
               <li class="nav-header">condition definition</li>
