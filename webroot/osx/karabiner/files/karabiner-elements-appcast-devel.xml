@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.4.2</title>
+      <title>Version 11.4.3</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.4.2 Update</h2>
+<h2>About v11.4.3 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -39,6 +39,24 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved modifier flags handling in `to events`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that `to_if_alone` does not work properly when `to` is empty.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -47,10 +65,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 23 Dec 2017 09:04:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.2.dmg"
-                 sparkle:version="11.4.2" length="4278791" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFF/a4W6eA3IsnJwYNWB7xVl18SjJAhUA4eaGRcnMS6/4xh4whaiNW3kaKMA="
+      <pubDate>Sun, 24 Dec 2017 07:54:59 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.3.dmg"
+                 sparkle:version="11.4.3" length="4278540" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCL1WdtChng+BFn1zAxBNonEosSAwIUe6HTJg4WJuHH7UV6jfo9Sz1Zgas="
                  />
     </item>
 
