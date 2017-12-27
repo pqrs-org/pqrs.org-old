@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.4.3</title>
+      <title>Version 11.4.4</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,11 +15,20 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.4.3 Update</h2>
+<h2>About v11.4.4 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>`to_if_held_down` has been added.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
@@ -65,10 +74,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 24 Dec 2017 07:54:59 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.3.dmg"
-                 sparkle:version="11.4.3" length="4278540" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCL1WdtChng+BFn1zAxBNonEosSAwIUe6HTJg4WJuHH7UV6jfo9Sz1Zgas="
+      <pubDate>Wed, 27 Dec 2017 18:06:11 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.4.4.dmg"
+                 sparkle:version="11.4.4" length="4297270" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFw63+NfeF+kzi4UGdJ0VZ/f4rWvAhUAvit/hqyd3d0iu91UNu5K6NrCE6w="
                  />
     </item>
 
