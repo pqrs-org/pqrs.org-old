@@ -67,17 +67,44 @@
         </div>
 
         <ul>
-          <li><a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">Swap <b>;</b> and <b>:</b> (Equal to swap <b>;</b> and <b>shift-;</b>)</a></li>
-          <li><a href="#typical-complex_modifications-examples-change-control-h-to-delete">Change <b>control-h</b> to <b>delete</b> (And <b>control-option-h</b> to <b>option-delete</b>)</a></li>
-          <li><a href="#typical-complex_modifications-examples-disable-command-l-on-finder">Disable <b>command-l</b> on Finder</a></li>
-          <li><a href="#typical-complex_modifications-examples-post-escape-if-left-control-is-pressed-alone">Post <b>escape</b> if <b>left_control</b> is pressed alone</a></li>
-          <li><a href="#typical-complex_modifications-examples-change-right-shift-x2-to-mission-control">Change <b>right_shift x2</b> to <b>mission_control</b></a></li>
+          <li>
+            <a href="#typical-complex_modifications-examples-swap-semicolon-and-colon">
+              Swap <b>;</b> and <b>:</b>.
+              (Equal to swap <b>;</b> and <b>shift-;</b>.)
+            </a>
+          </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-change-control-h-to-delete">
+              Change <b>control-h</b> to <b>delete</b>.
+              (And <b>control-option-h</b> to <b>option-delete</b>.)
+            </a>
+          </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-disable-command-l-on-finder">
+              Disable <b>command-l</b> on Finder.
+            </a>
+          </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-post-escape-if-left-control-is-pressed-alone">
+              Post <b>escape</b> if <b>left_control</b> is pressed alone.
+            </a>
+          </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-open-alfred-when-escape-is-held-down">
+              Open <b>Alfred 3</b> if <b>escape</b> is held down.
+            </a>
+          </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-change-right-shift-x2-to-mission-control">
+              Change <b>right_shift x2</b> to <b>mission_control</b>.
+            </a>
+          </li>
         </ul>
 
         <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Swap <b>;</b> and <b>:</b></p>
+              <p>Swap <b>;</b> and <b>:</b>.</p>
 
               {{#indented_json}}
                 |{
@@ -127,7 +154,7 @@
         <div id="typical-complex_modifications-examples-change-control-h-to-delete">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Change <b>control-h</b> to <b>delete</b> (and <b>option-control-h</b> to <b>option-delete</b>)</p>
+              <p>Change <b>control-h</b> to <b>delete</b>. (And <b>option-control-h</b> to <b>option-delete</b>.)</p>
 
               {{#indented_json}}
                 |{
@@ -158,7 +185,7 @@
         <div id="typical-complex_modifications-examples-disable-command-l-on-finder">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Disable <b>command-l</b> on Finder</p>
+              <p>Disable <b>command-l</b> on Finder.</p>
 
               {{#indented_json}}
                 |{
@@ -191,7 +218,7 @@
         <div id="typical-complex_modifications-examples-post-escape-if-left-control-is-pressed-alone">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Post <b>escape</b> if <b>left_control</b> is pressed alone</p>
+              <p>Post <b>escape</b> if <b>left_control</b> is pressed alone.</p>
 
               {{#indented_json}}
                 |{
@@ -221,10 +248,50 @@
           </div>
         </div>
 
+        <div id="typical-complex_modifications-examples-open-alfred-when-escape-is-held-down">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Open <b>Alfred 3</b> if <b>escape</b> is held down.</p>
+
+              <p>
+                <span class="label label-danger">Caution</span> to_if_held_down is available with the latest beta version. (Karabiner-Elements 11.4.4 or later)
+              </p>
+
+              {{#indented_json}}
+                |{
+                |    "type": "basic",
+                |    "from": {
+                |        "key_code": "escape",
+                |        "modifiers": {
+                |            "optional": [
+                |                "caps_lock"
+                |            ]
+                |        }
+                |    },
+                |    "parameters": {
+                |        "basic.to_if_alone_timeout_milliseconds": 500,
+                |        "basic.to_if_held_down_threshold_milliseconds": 500
+                |    },
+                |    "to_if_alone": [
+                |        {
+                |            "key_code": "escape"
+                |        }
+                |    ],
+                |    "to_if_held_down": [
+                |        {
+                |            "shell_command": "open -a 'Alfred 3.app'"
+                |        }
+                |    ]
+                |}
+              {{/indented_json}}
+            </div>
+          </div>
+        </div>
+
         <div id="typical-complex_modifications-examples-change-right-shift-x2-to-mission-control">
           <div class="panel panel-default">
             <div class="panel-body">
-              <p>Change <b>right_shift x2</b> to <b>mission_control</b></p>
+              <p>Change <b>right_shift x2</b> to <b>mission_control</b>.</p>
 
               {{#indented_json}}
                 |{
