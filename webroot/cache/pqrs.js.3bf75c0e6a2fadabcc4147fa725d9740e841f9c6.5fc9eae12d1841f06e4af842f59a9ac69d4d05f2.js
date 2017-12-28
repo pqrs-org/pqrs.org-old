@@ -6,7 +6,7 @@
         /* from bs/assets/js/application.js */
         var $window = $(window);
         var $body = $(document.body);
-        var $sideBar = $('#bs-docs-sidebar');
+        var $sideBar = $('.bs-docs-sidebar');
 
         $body.scrollspy({
             target: '.bs-docs-sidebar'
