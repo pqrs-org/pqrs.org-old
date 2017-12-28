@@ -20,6 +20,10 @@ class Document < KarabinerBase
   def tabs_definition
     [
       {
+        :href => '#features',
+        :name => 'Features',
+      },
+      {
         :href => '#usage',
         :name => 'Usage',
       },
