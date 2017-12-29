@@ -134,6 +134,8 @@
           Karabiner-Elements is a powerful and stable keyboard customizer for macOS.
         </p>
 
+        <h2>Core features</h2>
+
         <ul>
           <li><b>Simple Modifications:</b> Map normal keys to arbitrary key functions.</li>
           <li><b>Complex Modifications:</b> Map keys by complex rules. e.g., key to modifiers, modifiers+key to key, send key event if pressed alone, etc.</li>
@@ -143,6 +145,19 @@
           <li><b>Modifier Flag Sync:</b> Synchronize modifier flags across all connected keyboards.</li>
           <li><b>Secure Keyboard Entry Support:</b> Work well on Secure Keyboard Entry environment such as a password prompt, terminal with Secure Keyboard Entry, etc.</li>
         </ul>
+
+        <h2>Current limitations</h2>
+
+        <ul>
+          <li>Karabiner-Elements cannot modify <b>the eject key</b> due to the limitation of macOS API.</li>
+          <li>Karabiner-Elements cannot modify <b>the fn key on non Apple keyboards</b> such as Logitech keyboards.</li>
+          <li>
+            Karabiner-Elements ignores the <b>System Preferences &gt; Keyboard &gt; Modifier Keys...</b> configuration.<br />
+            Change modifiers by using <b>Simple Modifications</b>.
+            <a href="#event-modification-chaining">(detail of input event modification chaining)</a>
+          </li>
+        </ul>
+
       </section>
 
       <section>
