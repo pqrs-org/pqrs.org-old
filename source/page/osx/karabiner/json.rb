@@ -74,6 +74,10 @@ class Json < KarabinerBase
         :name => 'Detail of to_if_alone'
       },
       {
+        :href => '#to-if-held-down',
+        :name => 'Detail of to_if_held_down'
+      },
+      {
         :name => 'condition definition'
       },
       {

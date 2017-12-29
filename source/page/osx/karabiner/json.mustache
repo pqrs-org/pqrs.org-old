@@ -31,6 +31,8 @@
           </tbody>
         </table>
 
+        {{! ================================================================================ }}
+
         <h2>Automation reload mechanism</h2>
 
         <p>
@@ -41,6 +43,8 @@
           The mechanism is that Karabiner-Elements watches the parent directory <b>~/.config/karabiner</b> by using the File System Events API.<br />
           Thus, Karabiner-Elements fails detecting file updates after you change the parent directory (e.g., recreate the parent directory).
         </p>
+
+        {{! ================================================================================ }}
 
         <h2>Error messages</h2>
 
@@ -253,9 +257,9 @@
             <div class="panel-body">
               <p>Open <b>Alfred 3</b> if <b>escape</b> is held down.</p>
 
-              <p>
-                <span class="label label-danger">Caution</span> to_if_held_down is available with the latest beta version. (Karabiner-Elements 11.4.4 or later)
-              </p>
+              <div class="alert alert-danger" role="alert">
+                <strong>Caution:</strong> to_if_held_down is available with the latest beta version. (Karabiner-Elements 11.4.4 or later)
+              </div>
 
               {{#indented_json}}
                 |{
@@ -412,6 +416,8 @@
           |}
         {{/indented_json}}
 
+        {{! ================================================================================ }}
+
         <h2 id="complex_modifications-data-structure">complex_modifications in <b>karabiner.json &gt; profiles</b></h2>
 
         {{#indented_json}}
@@ -436,6 +442,12 @@
           |                        ],
           |
           |                        "to_if_alone": [
+          |                            to event definition,
+          |                            to event definition,
+          |                            ...
+          |                        ],
+          |
+          |                        "to_if_held_down": [
           |                            to event definition,
           |                            to event definition,
           |                            ...
@@ -505,6 +517,8 @@
           In other words, if there are multiple manipulators which change the same key, the manipulator placed at the top is applied and other manipulators are ignored.
         </p>
 
+        {{! ================================================================================ }}
+
         <h2>Simple Modifications and Complex Modifications</h2>
 
         <p>
@@ -549,6 +563,17 @@
               <td>events which are sent when you press <code>from</code> key alone.</td>
             </tr>
             <tr>
+              <td><code>to_if_held_down</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                events which are sent when you hold down <code>from</code> key.
+
+                <div class="alert alert-danger" role="alert">
+                  <strong>Caution:</strong> to_if_held_down is available with the latest beta version. (Karabiner-Elements 11.4.4 or later)
+                </div>
+              </td>
+            </tr>
+            <tr>
               <td><code>to_after_key_up</code></td>
               <td><code class="optional">optional</code></td>
               <td>events which are sent after you release <code>from</code> key.</td>
@@ -582,6 +607,8 @@
             </tr>
           </tbody>
         </table>
+
+        {{! ================================================================================ }}
 
         <h2 id="from-event-definition">from event definition</h2>
 
@@ -1001,6 +1028,8 @@
           </tbody>
         </table>
 
+        {{! ================================================================================ }}
+
         <h2 id="to-event-definition">to event definition</h2>
 
         {{#indented_json}}
@@ -1200,7 +1229,9 @@
           <li><code>fn</code></li>
         </ul>
 
-        <h2 id="to-if-alone">Detail of <code>to_if_alone</code></h3>
+        {{! ================================================================================ }}
+
+        <h2 id="to-if-alone">Detail of <code>to_if_alone</code></h2>
 
         <p>
           <code>to_if_alone</code> posts events when the <b>from key</b> is pressed alone.<br />
@@ -1234,13 +1265,26 @@
           |}
         {{/indented_json}}
 
-
         <h3>About key repeat</h3>
 
         <p>
           <code>to_if_alone</code> posts both <b>key_down</b> and <b>key_up</b> events at the same time.<br />
           Thus, you cannot use key repeat for <code>to_if_alone</code> events.
         </p>
+
+        {{! ================================================================================ }}
+
+        <h2 id="to-if-held-down">Detail of <code>to_if_held_down</code></h2>
+
+        <p>
+          <code>to_if_held_down</code> posts events when the <b>from key</b> is held down.<br />
+        </p>
+
+        <p>
+          If <code>to</code> events are specified, <code>to</code> events are released before <code>to_if_held_down</code> are posted.
+        </p>
+
+        {{! ================================================================================ }}
 
         <h2 id="condition-definition">condition definition</h2>
 
