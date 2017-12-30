@@ -59,7 +59,7 @@ EOS
         :rows => [
           {
             :name => 'ImageLnk',
-            :link => 'http://imagelnk.pqrs.org/',
+            :link => 'https://imagelnk.pqrs.org/',
             :icon => '/img/icon/web/imagelnk-32.png',
             :body => <<EOS,
 <p>Web API to get a direct link of images from image pages.</p>
