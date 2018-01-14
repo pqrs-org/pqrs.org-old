@@ -56,7 +56,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <span class="label label-danger pull-right">Trouble</span>
-              <h3 class="panel-title">Touch bar does not change to f1-f12 when I press the fn key.</h3>
+              <h3 class="panel-title">Touch Bar does not change to f1-f12 when I press the fn key.</h3>
             </div>
             <div class="panel-body">
               <p>
@@ -90,6 +90,25 @@
                   (If you are using "Use all F1, F2, etc. keys as standard function keys.",
                   enable <b>Map fn + number keys to their corresponding media control keys</b> instead.)
                 </p>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Detail of problem</div>
+                <div class="panel-body">
+                  <p>
+                    The fn key events are ignored by Touch Bar since the following facts.
+                  </p>
+
+                  <ol>
+                    <li>Touch Bar accepts the fn key event only from the build-in keyboard.</li>
+                    <li>The fn key events are sent from Karabiner's virtual keyboard when Karabiner-Elements is running.</li>
+                  </ol>
+
+                  <p>
+                    Unfortunately, posting input events via own virtual keyboard is the only way to accomplish the stable input event modification.<br />
+                    In other words, we cannot post the fn key event through the built-in keyboard if we want to change key events stably.
+                  </mogemogep>
+                </div>
               </div>
             </div>
           </div>
