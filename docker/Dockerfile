@@ -19,3 +19,5 @@ RUN cd /tmp && \
   make install
 
 RUN mkdir -p /opt/pqrs.org
+
+CMD make -C /opt/pqrs.org/source

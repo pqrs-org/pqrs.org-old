@@ -1,20 +1,9 @@
 # pqrs.org
 
-## System Requirements
-
-* ruby
- * mustache
- * RMagick
- * sass
-* tidy-html5 https://github.com/htacg/tidy-html5/tree/master
-
-## Generate HTML
+## Update HTML
 
 ```
-cd vagrant
-vagrant up
-vagrant ssh
-
-cd pqrs.org/source
-make
+cd docker
+docker-compose build
+docker-compose run --rm pqrs.org
 ```

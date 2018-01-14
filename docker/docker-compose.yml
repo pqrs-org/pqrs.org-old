@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pqrs.org:
+    build: .
+    volumes:
+    - ..:/opt/pqrs.org
+volumes:
+  logvolume01: {}
