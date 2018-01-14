@@ -4,7 +4,7 @@
 require 'rubygems'
 require 'mustache'
 require 'time'
-require 'RMagick'
+require 'rmagick'
 require 'digest/sha1'
 require 'pathname'
 require 'fileutils'
