@@ -3,9 +3,8 @@
 ## Update HTML
 
 ```
-cd docker
-docker-compose build
-docker-compose run --rm pqrs.org
+./docker/build.sh
+./docker/run.sh
 ```
 
 ## Run server
