@@ -189,23 +189,23 @@ EOS
     result
   end
 
-  def cache_file(file_path)
+  def assets(file_path)
     pn = Pathname.new(File.join($source_directory, file_path))
 
     file_path_sha1 = Digest::SHA1.hexdigest(file_path)
     file_sha1 = Digest::SHA1.file(pn.to_path).hexdigest
 
-    cache_link_fixed = File.join('cache', pn.basename.to_s + '.' + file_path_sha1.to_s + '.')
-    cache_link = cache_link_fixed + file_sha1.to_s + pn.extname
-    cache_file_path = File.join($destination_directory, cache_link)
+    constant_part = File.join('assets', pn.basename.to_s + '.' + file_path_sha1.to_s + '.')
+    link = constant_part + file_sha1.to_s + pn.extname
+    output_file_path = File.join($destination_directory, link)
 
-    unless File.exists?(cache_file_path)
+    unless File.exists?(output_file_path)
       # Remove old files
-      FileUtils.rm Dir.glob(File.join($destination_directory, cache_link_fixed + '*'))
+      FileUtils.rm Dir.glob(File.join($destination_directory, constant_part + '*'))
 
-      FileUtils.copy_file(pn.to_path, cache_file_path)
+      FileUtils.copy_file(pn.to_path, output_file_path)
     end
 
-    '/' + cache_link
+    '/' + link
   end
 end
