@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.5.0</title>
+      <title>Version 11.5.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,53 +15,17 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.5.0 Update</h2>
+<h2>About v11.5.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>`to_if_held_down` has been added.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Avoided a VMware Remote Console issue that mouse pointer does not work properly on VMRC when Karabiner-Elements grabs the pointing device.</li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Improved a way to save karabiner.json.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved modifier flags handling in `to events`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that `to_if_alone` does not work properly when `to` is empty.</li>
+        <li>Improved modifier flags handling around pointing button manipulations.</li>
       </ul>
     </div>
   </div>
@@ -74,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 30 Dec 2017 00:52:07 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.0.dmg"
-                 sparkle:version="11.5.0" length="4297308" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDaHBNMrxxbYLbUjznBPR47yymyWwIVALuCFukyGlqQHw5E7HVK1+uaGeRj"
+      <pubDate>Fri, 19 Jan 2018 03:09:59 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.1.dmg"
+                 sparkle:version="11.5.1" length="4297205" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDEdPL84nmnHthHis6Bqx/yxIGAQAhQ/cEDd1dX+2AiwrmWMgKrueqflzw=="
                  />
     </item>
 
