@@ -30,6 +30,15 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Mouse keys have been added into Simple Modifications.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
