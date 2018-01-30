@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.5.3</title>
+      <title>Version 11.5.4</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.5.3 Update</h2>
+<h2>About v11.5.4 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -39,6 +39,15 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The eject key has been added into the from key of Simple Modifications.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -47,10 +56,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 23 Jan 2018 01:18:50 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.3.dmg"
-                 sparkle:version="11.5.3" length="4264664" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFCRmbbY57wH4dj72Lb/JLvV5kgM/AhQ6gEOuBSX3CM1d62yu9D31YUNUZA=="
+      <pubDate>Tue, 30 Jan 2018 17:12:02 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.4.dmg"
+                 sparkle:version="11.5.4" length="4264727" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFEtw74rUt/OUj+fm5YOODMuoXdDvAhUA6LgkkpFOm1TrdznTkC0VZVIedng="
                  />
     </item>
 
