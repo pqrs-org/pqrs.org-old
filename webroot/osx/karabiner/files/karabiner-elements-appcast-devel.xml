@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.5.4</title>
+      <title>Version 11.5.5</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,11 +15,25 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.5.4 Update</h2>
+<h2>About v11.5.5 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Simultaneous key presses has been supported in complex modifications.
+          <ul>
+            <li>Example: <a href="https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -56,10 +70,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 30 Jan 2018 17:12:02 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.4.dmg"
-                 sparkle:version="11.5.4" length="4264727" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFEtw74rUt/OUj+fm5YOODMuoXdDvAhUA6LgkkpFOm1TrdznTkC0VZVIedng="
+      <pubDate>Tue, 13 Feb 2018 05:55:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.5.dmg"
+                 sparkle:version="11.5.5" length="4290901" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFhsy0znkdA2D29m0X6fkT7QyFUbAhUA5W7lUEGy+HqFw7GxOEHbd3H3KqQ="
                  />
     </item>
 
