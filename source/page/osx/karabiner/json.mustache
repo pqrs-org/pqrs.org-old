@@ -103,6 +103,11 @@
               Change <b>right_shift x2</b> to <b>mission_control</b>.
             </a>
           </li>
+          <li>
+            <a href="#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">
+              Change <b>equal+delete</b> to <b>forward_delete</b> if these keys are pressed simultaneously.
+            </a>
+          </li>
         </ul>
 
         <div id="typical-complex_modifications-examples-swap-semicolon-and-colon">
@@ -357,6 +362,37 @@
                 |            }
                 |        ]
                 |    }
+                |}
+              {{/indented_json}}
+            </div>
+          </div>
+        </div>
+
+        <div id="typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p><span class="label label-primary">Available in beta versions (since version 11.5.5)</span></p>
+
+              <p>Change <b>equal+delete</b> to <b>forward_delete</b> if these keys are pressed simultaneously.</p>
+
+              {{#indented_json}}
+                |{
+                |    "type": "basic",
+                |    "from": {
+                |        "simultaneous": [
+                |            {
+                |                "key_code": "equal_sign"
+                |            },
+                |            {
+                |                "key_code": "delete_or_backspace"
+                |            }
+                |        ]
+                |    },
+                |    "to": [
+                |        {
+                |            "key_code": "delete_forward"
+                |        }
+                |    ]
                 |}
               {{/indented_json}}
             </div>
@@ -622,7 +658,17 @@
           |            modifier,
           |            ...
           |        ]
-          |    }
+          |    },
+          |
+          |    "simultaneous": [
+          |        {
+          |           "key_code, consumer_key_code, pointing_button or any"
+          |        },
+          |        {
+          |           "key_code, consumer_key_code, pointing_button or any"
+          |        },
+          |        ...
+          |    ]
           |}
         {{/indented_json}}
 
@@ -689,6 +735,23 @@
               <td>
                 Specify modifiers. (e.g., "change control-h to delete")
                 <a href="#from-event-definition-modifiers">(detail)</a>
+              </td>
+            </tr>
+            <tr>
+              <td><code>simultaneous</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <p><span class="label label-primary">Available in beta versions (since version 11.5.5)</span></p>
+
+                Specify multiple events which are pressed simultaneously.
+
+                <div class="alert alert-info" role="alert">
+                  <p>
+                    Note:<br />
+                    <code>simultaneous</code> brings input event delay (50 milliseconds) in order to detect multiple input events pressed instantaneously.<br />
+                    You can adjust the delay milliseconds by <code>parameters &gt; basic.simultaneous_threshold_milliseconds</code>.<br />
+                  </p>
+                </div>
               </td>
             </tr>
           </tbody>
