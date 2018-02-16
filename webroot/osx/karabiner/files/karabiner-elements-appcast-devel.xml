@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.5.7</title>
+      <title>Version 11.5.8</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.5.7 Update</h2>
+<h2>About v11.5.8 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -74,6 +74,15 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The Vendor ID and Product ID of virtual devices has been changed. (0x0,0x0 -> 0x16c0,0x27db and 0x16c0,0x27da)</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -82,10 +91,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 14 Feb 2018 02:04:51 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.7.dmg"
-                 sparkle:version="11.5.7" length="4293427" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFFmBooYJumqzbp5juMdRNiIk/j5+AhRsBmSXepSj88AiUR2w5CSAw0AyAQ=="
+      <pubDate>Fri, 16 Feb 2018 17:30:39 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.5.8.dmg"
+                 sparkle:version="11.5.8" length="4560637" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDxNLpgiFOHl0jEsnmqakfEm24Y8gIUUqEAFIKOhPMeunKSshiEEje0OVI="
                  />
     </item>
 
