@@ -18,6 +18,8 @@ RUN cd /tmp && \
   make && \
   make install
 
+RUN gem install file-monitor
+
 RUN mkdir -p /opt/pqrs.org
 
 CMD make -C /opt/pqrs.org/source
