@@ -13,7 +13,7 @@ FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
 
   files do
     allow /source\/|webroot\/.+\.(png|jpg)/
-    disallow /\/\./
+    disallow /\/\.|\#$/
   end
 
   exec do |events|
