@@ -5,8 +5,10 @@ require 'file-monitor'
 
 FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
   dirs do
-    disallow /\/\.git$/
+    disallow /\/\./
     disallow /source\/css\/output/
+    disallow /webroot\/assets/
+    disallow /appcast-updater/
   end
 
   files do
