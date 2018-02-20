@@ -12,6 +12,79 @@ class History < KarabinerBase
   def histories
     data = [
       {
+        :version => 'Karabiner-Elements 11.6.0',
+        :updated => '2018-02-20',
+        :link => 'files/Karabiner-Elements-11.6.0.dmg',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Simultaneous key presses has been supported in complex modifications.
+          <ul>
+            <li>Example: <a href="https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete</a></li>
+            <li>Detail: <a href="https://pqrs.org/osx/karabiner/json.html#simultaneous">https://pqrs.org/osx/karabiner/json.html#simultaneous</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved Mouse key scroll wheel direction referring `System Preferences &gt; Mouse &gt; Scroll direction`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved modifier flags handling around pointing button manipulations.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Mouse keys have been added into Simple Modifications.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v11.6.0_0.png" alt="mouse keys in Simple Modifications" class="img" />
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The eject key has been added into the from key of Simple Modifications.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The Vendor ID and Product ID of virtual devices has been changed. (0x0,0x0 -> 0x16c0,0x27db and 0x16c0,0x27da)</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => 'Karabiner-Elements 11.5.0',
         :updated => '2017-12-30',
         :link => 'files/Karabiner-Elements-11.5.0.dmg',

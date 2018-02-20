@@ -7,6 +7,99 @@
     <language>en</language>
 
     <item>
+      <title>Version 11.6.0</title>
+      <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item{margin:10px 0;padding:0;border-radius:.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 .5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:.2em 1em;padding:.5em}.update-description .update-description-body img.img{width:100%}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:"new";color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:"important";color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:"fixed";color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:"improved";color:#cd6118}
+/*# sourceMappingURL=sparkle.css.map */
+</style>
+
+<h2>About v11.6.0 Update</h2>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Simultaneous key presses has been supported in complex modifications.
+          <ul>
+            <li>Example: <a href="https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete</a></li>
+            <li>Detail: <a href="https://pqrs.org/osx/karabiner/json.html#simultaneous">https://pqrs.org/osx/karabiner/json.html#simultaneous</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved Mouse key scroll wheel direction referring `System Preferences &gt; Mouse &gt; Scroll direction`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved modifier flags handling around pointing button manipulations.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Mouse keys have been added into Simple Modifications.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v11.6.0_0.png" alt="mouse keys in Simple Modifications" class="img" />
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The eject key has been added into the from key of Simple Modifications.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The Vendor ID and Product ID of virtual devices has been changed. (0x0,0x0 -> 0x16c0,0x27db and 0x16c0,0x27da)</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
+]]>
+      </description>
+      <pubDate>Tue, 20 Feb 2018 18:35:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.0.dmg"
+                 sparkle:version="11.6.0" length="4553783" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFHQilCxDXi08g4hkf5Pw/uiDLgvsAhUA7NFHZm2Q7eWc56AeB56eTujKz3Y="
+                 />
+    </item>
+
+    <item>
       <title>Version 11.5.0</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
