@@ -570,12 +570,14 @@
         </div>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>
@@ -687,12 +689,14 @@
         </div>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>key_code</code></td>
               <td><code class="optional">optional</code></td>
@@ -749,14 +753,7 @@
                 <p><span class="label label-primary">Available in beta versions (since version 11.5.5)</span></p>
 
                 Specify multiple events which are pressed simultaneously.
-
-                <div class="alert alert-info" role="alert">
-                  <p>
-                    Note:<br />
-                    <code>simultaneous</code> brings input event delay (50 milliseconds) in order to detect multiple input events pressed instantaneously.<br />
-                    You can adjust the delay milliseconds by <code>parameters &gt; basic.simultaneous_threshold_milliseconds</code>.<br />
-                  </p>
-                </div>
+                <a href="#simultaneous">(detail)</a>
               </td>
             </tr>
           </tbody>
@@ -812,12 +809,14 @@
             {{/indented_json}}
 
             <table class="table">
-              <tbody>
+              <thead>
                 <tr>
                   <th>key</th>
                   <th>manipulated</th>
                   <th>result</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>escape</td>
                   <td><b>manipulated</b></td>
@@ -863,12 +862,14 @@
             {{/indented_json}}
 
             <table class="table">
-              <tbody>
+              <thead>
                 <tr>
                   <th>key</th>
                   <th>manipulated</th>
                   <th>result</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>escape</td>
                   <td><b>manipulated</b></td>
@@ -926,12 +927,14 @@
             {{/indented_json}}
 
             <table class="table">
-              <tbody>
+              <thead>
                 <tr>
                   <th>key</th>
                   <th>manipulated</th>
                   <th>result</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>h</td>
                   <td>not manipulated</td>
@@ -983,12 +986,14 @@
             {{/indented_json}}
 
             <table class="table">
-              <tbody>
+              <thead>
                 <tr>
                   <th>key</th>
                   <th>manipulated</th>
                   <th>result</th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
                   <td>h</td>
                   <td>not manipulated</td>
@@ -1020,11 +1025,13 @@
         <h3 id="from-event-definition-modifiers-list">The list of modifiers in from definition</h3>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>name</th>
               <th>description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>caps_lock</code></td>
               <td></td>
@@ -1090,6 +1097,171 @@
 
         {{! ================================================================================ }}
 
+        <h2 id="simultaneous">Detail of <code>simultaneous</code></h2>
+
+        <p>
+          <code>simultaneous</code> manipulates keys which are pressed simultaneously in 50 milliseconds.
+        </p>
+
+        <h3>About threshold milliseconds</h3>
+
+        <p>
+          You can adjust threshold on <b>Preferences &gt; Complex Modifications &gt; Parameters</b>.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4">
+            {{#lightbox}}
+              img/karabiner-elements-simultaneous_threshold_milliseconds@2x.png simultaneous_threshold_milliseconds
+            {{/lightbox}}
+          </div>
+        </div>
+
+        <p>
+          It is same as adjusting <code>basic.simultaneous_threshold_milliseconds</code> parameter in json.
+        </p>
+
+        <h3>About manipulation</h3>
+
+        <p>
+          There are some cases <code>simultaneous</code> does not modify events.
+        </p>
+
+        <ul>
+          <li><code>simultaneous</code> does not modify events if input events are interrupted by another event.</li>
+          <li><code>simultaneous</code> does not modify events if any input events are released before all input events are pressed.</li>
+        </ul>
+
+        <p>
+          For example, changing <b>a</b>+<b>s</b>+<b>d</b> to <b>mission_control</b> works as the following table.
+        </p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Input</th>
+              <th>Output</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ol>
+                  <li><b>a</b> key_down</li>
+                  <li><b>s</b> key_down</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <ol>
+                  <li><b>mission_control</b></li>
+                </ol>
+              </td>
+              <td>
+                <span class="glyphicon glyphicon-ok"></span> Manipulated.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ol>
+                  <li><b>s</b> key_down</li>
+                  <li><b>a</b> key_down</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <ol>
+                  <li><b>mission_control</b></li>
+                </ol>
+              </td>
+              <td>
+                <span class="glyphicon glyphicon-ok"></span> Manipulated.<br />
+                The key order is insensitive.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ol>
+                  <li><b>a</b> key_down</li>
+                  <li><b>s</b> key_down</li>
+                  <li><b>a</b> key_up</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <ol>
+                  <li><b>a</b> key_down</li>
+                  <li><b>s</b> key_down</li>
+                  <li><b>a</b> key_up</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <span class="glyphicon glyphicon-remove"></span> Not manipulated.<br />
+                <b>a</b> is released before all input events are pressed.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ol>
+                  <li><b>a</b> key_down</li>
+                  <li><b>s</b> key_down</li>
+                  <li><b>f</b> key_down</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <ol>
+                  <li><b>a</b> key_down</li>
+                  <li><b>s</b> key_down</li>
+                  <li><b>f</b> key_down</li>
+                  <li><b>d</b> key_down</li>
+                </ol>
+              </td>
+              <td>
+                <span class="glyphicon glyphicon-remove"></span> Not manipulated.<br />
+                Another key (<b>f</b>) is pressed before all input events are pressed.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Note: The manipulator definition of changing <b>a</b>+<b>s</b>+<b>d</b> to <b>mission_control</b>.
+        </p>
+
+        {{#indented_json}}
+          |{
+          |  "type": "basic",
+          |  "from": {
+          |    "simultaneous": [
+          |      {
+          |        "key_code": "a"
+          |      },
+          |      {
+          |        "key_code": "s"
+          |      },
+          |      {
+          |        "key_code": "d"
+          |      }
+          |    ],
+          |    "modifiers": {
+          |      "optional": [
+          |        "any"
+          |      ]
+          |    }
+          |  },
+          |  "to": [
+          |    {
+          |      "key_code": "mission_control"
+          |    }
+          |  ]
+          |}
+        {{/indented_json}}
+
+        {{! ================================================================================ }}
+
         <h2 id="to-event-definition">to event definition</h2>
 
         {{#indented_json}}
@@ -1135,12 +1307,14 @@
         </div>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>key_code</code></td>
               <td><code class="optional">optional</code></td>
@@ -1367,12 +1541,14 @@
         {{/indented_json}}
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>
@@ -1430,12 +1606,14 @@
         {{/indented_json}}
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>
@@ -1497,12 +1675,14 @@
         </div>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>
@@ -1556,12 +1736,14 @@
         {{/indented_json}}
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>
@@ -1609,12 +1791,14 @@
         </div>
 
         <table class="table">
-          <tbody>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Required</th>
               <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>type</code></td>
               <td><code class="required">required</code></td>

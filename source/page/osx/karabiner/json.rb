@@ -62,6 +62,10 @@ class Json < KarabinerBase
         :name => 'The list of modifiers in from definition'
       },
       {
+        :href => '#simultaneous',
+        :name => 'Detail of simultaneous'
+      },
+      {
         :href => '#to-event-definition',
         :name => 'to event definition',
       },
