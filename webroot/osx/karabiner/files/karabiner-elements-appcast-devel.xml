@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.6.0</title>
+      <title>Version 11.6.1</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,71 +15,17 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.6.0 Update</h2>
+<h2>About v11.6.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
+  <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>
-          Simultaneous key presses has been supported in complex modifications.
-          <ul>
-            <li>Example: <a href="https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete</a></li>
-            <li>Detail: <a href="https://pqrs.org/osx/karabiner/json.html#simultaneous">https://pqrs.org/osx/karabiner/json.html#simultaneous</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved Mouse key scroll wheel direction referring `System Preferences &gt; Mouse &gt; Scroll direction`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved modifier flags handling around pointing button manipulations.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Mouse keys have been added into Simple Modifications.<br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v11.6.0_0.png" alt="mouse keys in Simple Modifications" class="img" />
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The eject key has been added into the from key of Simple Modifications.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The Vendor ID and Product ID of virtual devices has been changed. (0x0,0x0 -> 0x16c0,0x27db and 0x16c0,0x27da)</li>
+        <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
       </ul>
     </div>
   </div>
@@ -92,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 20 Feb 2018 18:35:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.0.dmg"
-                 sparkle:version="11.6.0" length="4553783" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFHQilCxDXi08g4hkf5Pw/uiDLgvsAhUA7NFHZm2Q7eWc56AeB56eTujKz3Y="
+      <pubDate>Wed, 21 Feb 2018 11:21:29 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.1.dmg"
+                 sparkle:version="11.6.1" length="4553870" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDkt+4h7+uJgTmVOgQm6ETzSFIibQIVAJE/b45+KZWmxK/ebMPkSTHLWslb"
                  />
     </item>
 
