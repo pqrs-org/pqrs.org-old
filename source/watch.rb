@@ -3,6 +3,18 @@
 require 'rubygems'
 require 'file-monitor'
 
+def update
+  system('make -C /opt/pqrs.org/source')
+  puts
+  puts '----------------------------------------'
+  puts '--------------- UPDATED ----------------'
+  puts '----------------------------------------'
+  puts
+  STDOUT.flush
+end
+
+update()
+
 FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
   dirs do
     disallow /\/\./
@@ -17,6 +29,6 @@ FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
   end
 
   exec do |events|
-    system('make -C /opt/pqrs.org/source')
+    update()
   end
 end
