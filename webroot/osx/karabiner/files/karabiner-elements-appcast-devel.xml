@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.6.2</title>
+      <title>Version 11.6.4</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,17 +15,44 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.6.2 Update</h2>
+<h2>About v11.6.4 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
         <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-update">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-update">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
       </ul>
     </div>
   </div>
@@ -38,10 +65,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 26 Feb 2018 16:09:50 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.2.dmg"
-                 sparkle:version="11.6.2" length="4561216" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCXy0TL71C2S1JctJxnoD2TdoE7pwIVAN3WpaRUlbEMB9pnE/6I4qfBuDxN"
+      <pubDate>Tue, 27 Feb 2018 18:33:30 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.4.dmg"
+                 sparkle:version="11.6.4" length="4561460" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDZPvd9GvpEY3FNwoZ7Y+jlkacCgQIVAJy9rr32UEvFEQTZuHTXn0eoMHF6"
                  />
     </item>
 
