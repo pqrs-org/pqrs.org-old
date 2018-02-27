@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <div class="update-description-item update-description-item-update">
+  <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
@@ -48,7 +48,7 @@
     </div>
   </div>
 
-  <div class="update-description-item update-description-item-update">
+  <div class="update-description-item update-description-item-important">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
