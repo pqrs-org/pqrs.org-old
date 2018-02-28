@@ -21,20 +21,20 @@
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
         <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
       </ul>
     </div>
   </div>
