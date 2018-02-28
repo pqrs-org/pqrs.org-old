@@ -43,16 +43,13 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
+        <li>
+          Incompatible changes
+          <ul>
+            <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
+            <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
