@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.6.5</title>
+      <title>Version 11.6.6</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,11 +15,20 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.6.5 Update</h2>
+<h2>About v11.6.6 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-fixed">
     <div class="update-description-label"></div>
@@ -30,11 +39,11 @@
     </div>
   </div>
 
-  <div class="update-description-item update-description-item-new">
+  <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
+        <li>Improved keyboard repeat handling with `simultaneous`.</li>
       </ul>
     </div>
   </div>
@@ -62,10 +71,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 01 Mar 2018 10:21:43 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.5.dmg"
-                 sparkle:version="11.6.5" length="4561736" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCsMW1zBu63xyrCvgbW6DwKGRZQsgIUWpiqQyxcBvraZVEPOiTpcA0XmGw="
+      <pubDate>Fri, 02 Mar 2018 17:49:47 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.6.6.dmg"
+                 sparkle:version="11.6.6" length="4561947" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCBTowbO3dC4ZH+lLZkleptUcCauQIUTjkYvlLzzN8lag8mR35HOSA6tNE="
                  />
     </item>
 
