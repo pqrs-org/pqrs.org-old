@@ -539,6 +539,8 @@
         {{/indented_json}}
       </section>
 
+      <hr class="horizontal-separator" />
+
       <section>
         <div class="page-header">
           <h1 id="complex_modifications-manipulator-priority">complex_modifications manipulator priority</h1>
@@ -561,6 +563,8 @@
           <a href="document.html#event-modification-chaining">Input event modification chaining (Simple Modifications, Complex Modifications, Function Keys Modifications) description.</a>
         </p>
       </section>
+
+      <hr class="horizontal-separator" />
 
       <section>
         <div class="page-header">
@@ -642,6 +646,8 @@
         </table>
 
         {{! ================================================================================ }}
+
+        <hr class="horizontal-separator" />
 
         <h2 id="from-event-definition">from event definition</h2>
 
@@ -755,6 +761,8 @@
           </tbody>
         </table>
 
+        <hr class="horizontal-separator thin" />
+
         <h3 id="from-event-definition-modifiers">modifiers in from event definition</h3>
 
         <code>modifiers</code> works as follows.
@@ -783,6 +791,8 @@
             </tr>
           </tbody>
         </table>
+
+        <hr class="horizontal-separator thin" />
 
         <h3 id="from-event-definition-examples">Examples</h3>
 
@@ -1018,6 +1028,8 @@
           </div>
         </div>
 
+        <hr class="horizontal-separator thin" />
+
         <h3 id="from-event-definition-modifiers-list">The list of modifiers in from definition</h3>
 
         <table class="table">
@@ -1093,13 +1105,15 @@
 
         {{! ================================================================================ }}
 
-        <h2 id="simultaneous">Detail of <code>simultaneous</code></h2>
+        <hr class="horizontal-separator thin" />
+
+        <h3 id="simultaneous">Detail of <code>simultaneous</code></h3>
 
         <p>
           <code>simultaneous</code> manipulates keys which are pressed simultaneously in 50 milliseconds.
         </p>
 
-        <h3>About threshold milliseconds</h3>
+        <h4>About threshold milliseconds</h4>
 
         <p>
           You can adjust threshold on <b>Preferences &gt; Complex Modifications &gt; Parameters</b>.
@@ -1117,7 +1131,7 @@
           It is same as adjusting <code>basic.simultaneous_threshold_milliseconds</code> parameter in json.
         </p>
 
-        <h3>About manipulation</h3>
+        <h4>About manipulation</h4>
 
         <p>
           There are some cases <code>simultaneous</code> does not modify events.
@@ -1257,6 +1271,8 @@
         {{/indented_json}}
 
         {{! ================================================================================ }}
+
+        <hr class="horizontal-separator" />
 
         <h2 id="to-event-definition">to event definition</h2>
 
@@ -1444,6 +1460,8 @@
           </tbody>
         </table>
 
+        <hr class="horizontal-separator thin" />
+
         <h3 id="to-event-definition-modifiers-list">The list of modifiers in to definition</h3>
 
         <ul>
@@ -1461,14 +1479,16 @@
 
         {{! ================================================================================ }}
 
-        <h2 id="to-if-alone">Detail of <code>to_if_alone</code></h2>
+        <hr class="horizontal-separator thin" />
+
+        <h3 id="to-if-alone">Detail of <code>to_if_alone</code></h3>
 
         <p>
           <code>to_if_alone</code> posts events when the <b>from key</b> is pressed alone.<br />
           The events are posted at the <b>from key</b> is released.
         </p>
 
-        <h3>About cancellation</h3>
+        <h4>About cancellation</h4>
 
         <p>
           <code>to_if_alone</code> is canceled if other events (keys, buttons or scroll wheel) is happen while the <b>from key</b> is pressed down.
@@ -1495,7 +1515,7 @@
           |}
         {{/indented_json}}
 
-        <h3>About key repeat</h3>
+        <h4>About key repeat</h4>
 
         <p>
           <code>to_if_alone</code> posts both <b>key_down</b> and <b>key_up</b> events at the same time.<br />
@@ -1504,7 +1524,9 @@
 
         {{! ================================================================================ }}
 
-        <h2 id="to-if-held-down">Detail of <code>to_if_held_down</code></h2>
+        <hr class="horizontal-separator thin" />
+
+        <h3 id="to-if-held-down">Detail of <code>to_if_held_down</code></h3>
 
         <p>
           <code>to_if_held_down</code> posts events when the <b>from key</b> is held down.<br />
@@ -1515,6 +1537,8 @@
         </p>
 
         {{! ================================================================================ }}
+
+        <hr class="horizontal-separator" />
 
         <h2 id="condition-definition">condition definition</h2>
 
@@ -1579,6 +1603,8 @@
             </tr>
           </tbody>
         </table>
+
+        <hr class="horizontal-separator thin" />
 
         <h3 id="condition-definition-device"><code>device_if</code> and <code>device_unless</code></h3>
 
@@ -1651,6 +1677,8 @@
           </tbody>
         </table>
 
+        <hr class="horizontal-separator thin" />
+
         <h3 id="condition-definition-keyboard-type"><code>keyboard_type_if</code> and <code>keyboard_type_unless</code></h3>
 
         {{#indented_json}}
@@ -1709,6 +1737,8 @@
             </tr>
           </tbody>
         </table>
+
+        <hr class="horizontal-separator thin" />
 
         <h3 id="condition-definition-input-source"><code>input_source_if</code> and <code>input_source_unless</code></h3>
 
@@ -1771,6 +1801,8 @@
             </tr>
           </tbody>
         </table>
+
+        <hr class="horizontal-separator thin" />
 
         <h3 id="condition-definition-variable"><code>variable_if</code> and <code>variable_unless</code></h3>
 
