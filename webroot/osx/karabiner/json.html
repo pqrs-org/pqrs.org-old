@@ -771,7 +771,16 @@
            "key_code, consumer_key_code, pointing_button or any"
         },
         ...
-    ]
+    ],
+    "simultaneous_options": {
+        "key_down_order": "A restriction of input events order",
+        "key_up_order": "A restriction of input events order",
+        "to_after_key_up": [
+            to event definition,
+            to event definition,
+            ...
+        ]
+    }
 }</pre>
         <div class="alert alert-info" role="alert">
           <p>
@@ -846,6 +855,14 @@
               <td>
                 Specify multiple events which are pressed simultaneously.
                 <a href="#simultaneous">(detail)</a>
+              </td>
+            </tr>
+            <tr>
+              <td><code>simultaneous_options</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                Options for <code>simultaneous</code>.
+                <a href="#simultaneous-options">(detail)</a>
               </td>
             </tr>
           </tbody>
@@ -1224,8 +1241,8 @@
         </p>
 
         <ul>
-          <li><code>simultaneous</code> does not modify events if any input events are released before all input events are pressed.</li>
-          <li><code>simultaneous</code> does not modify events if input events are interrupted by another event.</li>
+          <li><code>simultaneous</code> does not modify events if any <b>from events</b> are released before all <b>from events</b> are pressed.</li>
+          <li><code>simultaneous</code> does not modify events if <b>from events</b> are interrupted by another event.</li>
         </ul>
 
         <p>
@@ -1353,6 +1370,147 @@
     }
   ]
 }</pre>
+        <h4 id="simultaneous-key-up">About key_up</h4>
+
+        <div class="alert alert-info" role="alert">This key_up behavior is available only in the beta versions.</div>
+
+        <p>
+          The key_up event is posted when you release any <b>from events</b>.
+        </p>
+
+        <p>
+          For example, changing <b>tab</b>+<b>q</b> to <b>mission_control</b> works as the following table.
+        </p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Input</th>
+              <th>Output</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <b>tab</b> key_down
+              </td>
+              <td>
+                ---
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>q</b> key_down
+              </td>
+              <td>
+                <b>mission_control</b> key_down
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>tab</b> key_up
+              </td>
+              <td>
+                <b>mission_control</b> key_up
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>q</b> key_up
+              </td>
+              <td>
+                ---
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4 id="simultaneous-options">About <code>simultaneous_options</code></h4>
+
+        <div class="alert alert-info" role="alert"><code>simultaneous_options</code> is available only in the beta versions.</div>
+
+        <p>
+          There are some options for <code>simultaneous</code>.
+        </p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Description</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>key_down_order</code>
+              </td>
+              <td>
+                Restriction of key_down order
+              </td>
+              <td>
+                <code>insensitive</code>, <code>strict</code> or <code>strict_inverse</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>key_up_order</code>
+              </td>
+              <td>
+                Restriction of key_up order
+              </td>
+              <td>
+                <code>insensitive</code>, <code>strict</code> or <code>strict_inverse</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>to_after_key_up</code>
+              </td>
+              <td>
+                events will be posted when all <b>from events</b> are released.
+              </td>
+              <td>
+                An array of <b>to event definitions</b>.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4 id="simultaneous-options-key-down-order">About <code>key_down_order</code></h4>
+
+        <p><code>simultaneous</code> checks the order of key_down events if <code>key_down_order</code> is specified and is not <code>insensitive</code>.
+
+        <p>For example, this definition manipulates <b>tab,q</b> to <b>mission_control</b> and does not manipulate <b>q,tab</b> events.
+
+<pre class="prettyprint lang-json">{
+  "type": "basic",
+  "from": {
+    "simultaneous": [
+      {
+        "key_code": "tab"
+      },
+      {
+        "key_code": "q"
+      }
+    ],
+    "simultaneous_options": {
+        "key_down_order": "strict"
+    },
+    "modifiers": {
+      "optional": [
+        "any"
+      ]
+    }
+  },
+  "to": [
+    {
+      "key_code": "mission_control"
+    }
+  ]
+}</pre>
+
 
         <hr class="horizontal-separator" />
 
