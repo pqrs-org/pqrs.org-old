@@ -1113,7 +1113,7 @@
           <code>simultaneous</code> manipulates keys which are pressed simultaneously in 50 milliseconds.
         </p>
 
-        <h4>About threshold milliseconds</h4>
+        <h4 id="simultaneous-threshold-milliseconds">About threshold milliseconds</h4>
 
         <p>
           You can adjust threshold on <b>Preferences &gt; Complex Modifications &gt; Parameters</b>.
@@ -1131,7 +1131,7 @@
           It is same as adjusting <code>basic.simultaneous_threshold_milliseconds</code> parameter in json.
         </p>
 
-        <h4>About manipulation</h4>
+        <h4 id="simultaneous-manipulation">About manipulation</h4>
 
         <p>
           There are some cases <code>simultaneous</code> does not modify events.
@@ -1488,7 +1488,7 @@
           The events are posted at the <b>from key</b> is released.
         </p>
 
-        <h4>About cancellation</h4>
+        <h4 id="to-if-alone-cancellation">About cancellation</h4>
 
         <p>
           <code>to_if_alone</code> is canceled if other events (keys, buttons or scroll wheel) is happen while the <b>from key</b> is pressed down.
@@ -1515,7 +1515,7 @@
           |}
         {{/indented_json}}
 
-        <h4>About key repeat</h4>
+        <h4 id="to-if-alone-keyboard-repeat">About keyboard repeat</h4>
 
         <p>
           <code>to_if_alone</code> posts both <b>key_down</b> and <b>key_up</b> events at the same time.<br />

@@ -27,7 +27,7 @@
 
         /* ------------------------------------------------------------ */
         /* pqrs.org */
-        $('h1[id], h2[id], h3[id], div[id]').each(function() {
+        $('h1[id], h2[id], h3[id], h4[id], div[id]').each(function() {
             var $this = $(this);
             $this.prepend(' <a class="js-id-link" href="#' + $this.attr('id') + '"><small><span class="glyphicon glyphicon-link"></span></small></a> ');
             $this.wrapInner('<div class="js-id-link-wrapper"></div>');
