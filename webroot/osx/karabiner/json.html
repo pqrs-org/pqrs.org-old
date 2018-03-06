@@ -1478,7 +1478,7 @@
           </tbody>
         </table>
 
-        <h4 id="simultaneous-options-key-down-order">About <code>key_down_order</code></h4>
+        <h4 id="simultaneous-options-key-down-order">About <code>simultaneous_options</code> &gt; <code>key_down_order</code></h4>
 
         <p><code>simultaneous</code> checks the order of key_down events if <code>key_down_order</code> is specified and is not <code>insensitive</code>.
 
@@ -1510,6 +1510,52 @@
     }
   ]
 }</pre>
+        <h4 id="simultaneous-options-key-up-order">About <code>simultaneous_options</code> &gt; <code>key_up_order</code></h4>
+
+        <p><code>simultaneous</code> checks the order of key_up events if <code>key_up_order</code> is specified and is not <code>insensitive</code>.
+
+        <div class="alert alert-info" role="alert">
+          <h5>Note:</h5>
+          <p><code>key_up_order</code> is ignored if <code>simultaneous_threshold_milliseconds</code> is reached.</p>
+        </div>
+
+        <p>
+          For example, this definition manipulates <b>tab,q</b> to <b>mission_control</b> if the <b>tab</b> key is released before the <b>q</b> key within 500 milliseconds.<br />
+          (You should set a large value to <code>simultaneous_threshold_milliseconds</code> when you use <code>key_up_order</code>.)
+        </p>
+
+<pre class="prettyprint lang-json">{
+  "type": "basic",
+  "parameters": {
+    "basic.simultaneous_threshold_milliseconds": 500
+  },
+  "from": {
+    "simultaneous": [
+      {
+        "key_code": "tab"
+      },
+      {
+        "key_code": "q"
+      }
+    ],
+    "simultaneous_options": {
+        "key_up_order": "strict"
+    },
+    "modifiers": {
+      "optional": [
+        "any"
+      ]
+    }
+  },
+  "to": [
+    {
+      "key_code": "mission_control"
+    }
+  ]
+}</pre>
+        <h4 id="simultaneous-options-key-up-order">About <code>simultaneous_options</code> &gt; <code>to_after_key_up</code></h4>
+
+        <p><code>simultaneous_options</code> &gt; <code>to_after_key_up</code> will be posted when all <b>from events</b> are released.</p>
 
 
         <hr class="horizontal-separator" />
