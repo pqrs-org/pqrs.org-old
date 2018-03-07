@@ -13,7 +13,7 @@ def update_all
   STDOUT.flush
 end
 
-# update_all()
+update_all()
 
 FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
   dirs do
@@ -38,6 +38,9 @@ FileMonitor.watch File.dirname(File.dirname(__FILE__)) do
         if File.exists?(rb_path)
           needs_all = false
           system("cd #{File.dirname(rb_path)} && ruby #{rb_path}")
+
+          puts 'run ' + rb_path
+          STDOUT.flush
         end
       end
     end
