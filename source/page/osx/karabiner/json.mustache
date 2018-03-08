@@ -1444,6 +1444,46 @@
           (You should set a large value to <code>simultaneous_threshold_milliseconds</code> when you use <code>key_up_order</code>.)
         </p>
 
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Input</th>
+              <th>Output</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <b>tab</b> &amp; <b>q</b> key_down
+              </td>
+              <td>
+                ---
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>tab</b> key_up
+              </td>
+              <td>
+                <p>
+                  <b>mission_control</b> key_down<br />
+                  <b>mission_control</b> key_up
+                </p>
+
+                <span class="label label-info">NOTE</span> Events will be posted just before <b>the last from event's key_up</b>.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>q</b> key_up
+              </td>
+              <td>
+                ---
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
         {{#indented_json}}
           |{
           |  "type": "basic",
@@ -1479,6 +1519,18 @@
         <h4 id="simultaneous-options-key-up-order">About <code>simultaneous_options</code> &gt; <code>to_after_key_up</code></h4>
 
         <p><code>simultaneous_options</code> &gt; <code>to_after_key_up</code> will be posted when all <b>from events</b> are released.</p>
+
+        <p>
+          <code>to_after_key_up</code> is typically used to clear mode flag variables when all <b>from events</b> are released.
+        </p>
+
+        Example:<br />
+        <ul>
+          <li>
+            <a href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/mouse_keys_mode_v4.json">Mouse Keys Mode v4 json</a>
+            <a href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/src/json/mouse_keys_mode_v4.json.rb">(json generator)</a>
+          </li>
+        </ul>
 
         {{! ================================================================================ }}
 
