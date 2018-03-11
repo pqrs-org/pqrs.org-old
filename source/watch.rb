@@ -2,6 +2,14 @@
 
 require 'rubygems'
 require 'file-monitor'
+require 'webrick'
+
+Thread.new do
+  WEBrick::HTTPServer.new(
+    :DocumentRoot => "/opt/pqrs.org/webroot",
+    :Port => 8000
+  ).start
+end
 
 def update_all
   system('make -C /opt/pqrs.org/source')
