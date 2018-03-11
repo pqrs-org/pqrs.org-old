@@ -24,7 +24,7 @@ class Json < KarabinerBase
         :name => 'Typical complex_modifications examples',
       },
       {
-        :name => 'data structure',
+        :name => 'Data structure',
       },
       {
         :href => '#root-data-structure',
@@ -82,7 +82,7 @@ class Json < KarabinerBase
         :name => 'Detail of to_if_held_down'
       },
       {
-        :name => 'condition definition'
+        :name => 'Condition definition'
       },
       {
         :href => '#condition-definition-frontmost-application',
@@ -103,6 +103,13 @@ class Json < KarabinerBase
       {
         :href => '#condition-definition-variable',
         :name => 'condition definition variable_if and variable_unless'
+      },
+      {
+        :name => 'Help'
+      },
+      {
+        :href => '#virtual-modifier',
+        :name => 'Virtual modifier'
       },
     ]
   end

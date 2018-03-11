@@ -2126,6 +2126,107 @@
         </table>
       </section>
 
+      <section>
+        <div class="page-header">
+          <h1>Help</h1>
+        </div>
+
+        <h2 id="virtual-modifier">Help: Virtual modifier</h2>
+        <p>Use variables (<code>set_variable</code> and <code>variable_if</code>) if you want to add your own modifiers.</p>
+
+        <h3>Example:</h3>
+        <p>
+          The following manipulator definitions change <b>keypad_1</b> to virtual modifier.
+        </p>
+        <ul>
+          <li>Use <b>keypad_1</b> as virtual modifier (<b>my_modifier_1</b>).</li>
+          <li>Change  <b>keypad_1</b> + <b>a</b> to <b>mission_control</b>.</li>
+          <li>Change  <b>keypad_1</b> + <b>s</b> to <b>launchpad</b>.</li>
+        </ul>
+
+        {{#indented_json}}
+          |[
+          |    {
+          |        "type": "basic",
+          |        "from": {
+          |            "key_code": "keypad_1",
+          |            "modifiers": {
+          |                "mandatory": [],
+          |                "optional": [
+          |                    "any"
+          |                ]
+          |            }
+          |        },
+          |        "to": [
+          |            {
+          |                "set_variable": {
+          |                    "name": "my_modifier_1",
+          |                    "value": 1
+          |                }
+          |            }
+          |        ],
+          |        "to_after_key_up": [
+          |            {
+          |                "set_variable": {
+          |                    "name": "my_modifier_1",
+          |                    "value": 0
+          |                }
+          |            }
+          |        ]
+          |    },
+          |
+          |    {
+          |        "type": "basic",
+          |        "from": {
+          |            "key_code": "a",
+          |            "modifiers": {
+          |                "mandatory": [],
+          |                "optional": [
+          |                    "any"
+          |                ]
+          |            }
+          |        },
+          |        "to": [
+          |            {
+          |                "key_code": "mission_control"
+          |            }
+          |        ],
+          |        "conditions": [
+          |            {
+          |                "type": "variable_if",
+          |                "name": "my_modifier_1",
+          |                "value": 1
+          |            }
+          |        ]
+          |    },
+          |
+          |    {
+          |        "type": "basic",
+          |        "from": {
+          |            "key_code": "s",
+          |            "modifiers": {
+          |                "mandatory": [],
+          |                "optional": [
+          |                    "any"
+          |                ]
+          |            }
+          |        },
+          |        "to": [
+          |            {
+          |                "key_code": "launchpad"
+          |            }
+          |        ],
+          |        "conditions": [
+          |            {
+          |                "type": "variable_if",
+          |                "name": "my_modifier_1",
+          |                "value": 1
+          |            }
+          |        ]
+          |    }
+          |]
+        {{/indented_json}}
+      </section>
     </div>
     <div class="col-md-3">
       {{> ../../pqrs_tabs }}
