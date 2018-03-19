@@ -32,7 +32,7 @@ rm -f "$targetdir/karabiner-elements-appcast-devel.xml.tmp"
 
     <item>
       <title>Version $version</title>
-      <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
+      <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
 EOF
