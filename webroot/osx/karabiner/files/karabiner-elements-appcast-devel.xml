@@ -47,17 +47,12 @@
     <div class="update-description-body">
       <ul>
         <li>
-          Incompatible changes
-          <ul>
-            <li>
-              `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
-              Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
-              <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
-            </li>
-            <li>
-              `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
-            </li>
-          </ul>
+          `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
+          Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
+        </li>
+        <li>
+          `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
         </li>
       </ul>
     </div>
