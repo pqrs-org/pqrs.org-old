@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 11.99.1</title>
+      <title>Version 11.99.2</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v11.99.1 Update</h2>
+<h2>About v11.99.2 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -54,6 +54,15 @@
         <li>
           `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
         </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>EventViewer has been improved showing the correct key name for PC keyboard keys and international keys.</li>
       </ul>
     </div>
   </div>
@@ -108,10 +117,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 19 Mar 2018 10:17:27 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.99.1.dmg"
-                 sparkle:version="11.99.1" length="4422752" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCYa9Xo+vZh6eetXpOAOjze2Az0gwIVAMiUE2zKu2aJD7+/ZyebIGout2y3"
+      <pubDate>Wed, 21 Mar 2018 12:15:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-11.99.2.dmg"
+                 sparkle:version="11.99.2" length="4586496" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFBDeKMvXsZp2IRatt06fMuyS21piAhUAhyOB6/RqTZ7SU32Nzu9JkhkABmQ="
                  />
     </item>
 
