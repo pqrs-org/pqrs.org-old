@@ -58,6 +58,16 @@ body {
         margin-bottom: 20px;
       }
     }
+
+    .update-description {
+      .update-description-item {
+        .update-description-body {
+          img.img {
+            max-width: 600px;
+          }
+        }
+      }
+    }
   }
 }
 
