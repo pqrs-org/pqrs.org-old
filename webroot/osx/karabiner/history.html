@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/assets/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.27da64b0bb0cb2abc0f4d4978ea4ad4f4de8bdd1.css" rel="stylesheet" />
+    <link href="/assets/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.bbb477cd973c8a934b2655309e60c01bfe07e8de.css" rel="stylesheet" />
     <link href="/assets/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.836499e34fc1b57390d4e70838eb1546d31b9ec2.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -125,6 +125,109 @@
         Version History
       </h1>
     </div>
+      <h2>
+        Karabiner-Elements 12.0.0
+          <small>
+Apr 12, 2018          </small>
+
+          <a class="btn btn-default" href="files/Karabiner-Elements-12.0.0.dmg">
+            Download
+          </a>
+      </h2>
+      <div style="margin-left: 2em">
+        <div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          macOS 10.11 support has been dropped.<br />
+          Karabiner-Elements works on macOS 10.12 (Sierra) or later.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The virtual keyboard compatibility has been improved.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
+          Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
+        </li>
+        <li>
+          `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>EventViewer has been improved showing the correct key name for PC keyboard keys and international keys.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved keyboard repeat handling with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Incompatible changes
+          <ul>
+            <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
+            <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+      </div>
       <h2>
         Karabiner-Elements 11.6.0
           <small>
