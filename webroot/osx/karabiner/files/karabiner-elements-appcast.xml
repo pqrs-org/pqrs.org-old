@@ -7,6 +7,124 @@
     <language>en</language>
 
     <item>
+      <title>Version 12.0.0</title>
+      <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item{margin:10px 0;padding:0;border-radius:.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 .5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:.2em 1em;padding:.5em}.update-description .update-description-body img.img{width:100%}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:"new";color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:"important";color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:"fixed";color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:"improved";color:#cd6118}
+/*# sourceMappingURL=sparkle.css.map */
+</style>
+
+<h2>About v12.0.0 Update</h2>
+
+<!-- update-description-begin -->
+
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          macOS 10.11 support has been dropped.<br />
+          Karabiner-Elements works on macOS 10.12 (Sierra) or later.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>The virtual keyboard compatibility has been improved.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
+          Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
+          <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
+        </li>
+        <li>
+          `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>EventViewer has been improved showing the correct key name for PC keyboard keys and international keys.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved keyboard repeat handling with `simultaneous`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Incompatible changes
+          <ul>
+            <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
+            <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
+]]>
+      </description>
+      <pubDate>Thu, 12 Apr 2018 16:00:09 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.0.dmg"
+                 sparkle:version="12.0.0" length="4808258" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCTjkvkXWs73nOioCOYpAoEjj8dlgIULtKVd0QYK/ZOu7fUgGxhj35nxy4="
+                 />
+    </item>
+
+    <item>
       <title>Version 11.6.0</title>
       <sparkle:minimumSystemVersion>10.10.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
