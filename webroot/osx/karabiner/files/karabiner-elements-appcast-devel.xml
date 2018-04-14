@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.0</title>
+      <title>Version 12.0.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,96 +15,17 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.0.0 Update</h2>
+<h2>About v12.0.1 Update</h2>
 
 <!-- update-description-begin -->
 
 <div class="update-description">
 
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          macOS 10.11 support has been dropped.<br />
-          Karabiner-Elements works on macOS 10.12 (Sierra) or later.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The virtual keyboard compatibility has been improved.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
-          Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
-        </li>
-        <li>
-          `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>EventViewer has been improved showing the correct key name for PC keyboard keys and international keys.</li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved keyboard repeat handling with `simultaneous`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Incompatible changes
-          <ul>
-            <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
-            <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
-          </ul>
-        </li>
+        <li>Added `simultaneous_options.key_up_when`.</li>
       </ul>
     </div>
   </div>
@@ -117,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 12 Apr 2018 16:00:09 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.0.dmg"
-                 sparkle:version="12.0.0" length="4808258" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCTjkvkXWs73nOioCOYpAoEjj8dlgIULtKVd0QYK/ZOu7fUgGxhj35nxy4="
+      <pubDate>Sat, 14 Apr 2018 11:25:27 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.1.dmg"
+                 sparkle:version="12.0.1" length="4809067" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDCb8sxmpQNAa1+AH85Fh8/dHoxkAIVANnNFsx+2E2IrkHTXdh2XYbXD9T9"
                  />
     </item>
 
