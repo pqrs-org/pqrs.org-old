@@ -780,6 +780,7 @@
     "simultaneous_options": {
         "key_down_order": "A restriction of input events order",
         "key_up_order": "A restriction of input events order",
+        "key_up_when": "When key_up events are posted",
         "to_after_key_up": [
             to event definition,
             to event definition,
@@ -1448,7 +1449,7 @@
                 <code>key_down_order</code>
               </td>
               <td>
-                Restriction of key_down order
+                Restriction of key_down order.
               </td>
               <td>
                 <code>insensitive</code>, <code>strict</code> or <code>strict_inverse</code>
@@ -1459,10 +1460,22 @@
                 <code>key_up_order</code>
               </td>
               <td>
-                Restriction of key_up order
+                Restriction of key_up order.
               </td>
               <td>
                 <code>insensitive</code>, <code>strict</code> or <code>strict_inverse</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>key_up_when</code>
+              </td>
+              <td>
+                When key_up events are posted.
+                <div class="alert alert-info" role="alert"><code>simultaneous_options.key_up_when</code> is available only in the beta versions.</div>
+              </td>
+              <td>
+                <code>any</code> or <code>all</code>
               </td>
             </tr>
             <tr>
@@ -1594,6 +1607,40 @@
     }
   ]
 }</pre>
+        <h4 id="simultaneous-options-key-up-when">About <code>simultaneous_options</code> &gt; <code>key_up_when</code></h4>
+
+        <div class="alert alert-info" role="alert"><code>simultaneous_options.key_up_when</code> is available only in the beta versions.</div>
+
+        Specify when key_up events are posted.
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>any</code>
+              </td>
+              <td>
+                Post key_up events when any key is released.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>all</code>
+              </td>
+              <td>
+                Post key_up events when all keys are released.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
         <h4 id="simultaneous-options-key-up-order">About <code>simultaneous_options</code> &gt; <code>to_after_key_up</code></h4>
 
         <p><code>simultaneous_options</code> &gt; <code>to_after_key_up</code> will be posted when all <b>from events</b> are released.</p>
