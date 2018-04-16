@@ -1612,7 +1612,8 @@
           |    ],
           |
           |    "lazy": false,
-          |    "repeat": true
+          |    "repeat": true,
+          |    "hold_down_milliseconds": 0
           |}
         {{/indented_json}}
 
@@ -1763,6 +1764,22 @@
                   Note:<br />
                   When you want to use <code>"repeat": false</code>, you have to set <code>repeat</code> in the last to event if you have multiple to events in a manipulator.
                 </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>hold_down_milliseconds</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>
+                <p>
+                  An integer value. The default value is <code>0</code>.
+                </p>
+                <p>
+                  Specify a key press period for when both key down and key up events are posted at the same time (e.g. <code>to_if_alone</code>)
+                </p>
+                <p>
+                  Generally <code>hold_down_milliseconds</code> is used with <code>"key_code": "caps_lock"</code>.
+                </p>
+                <div class="alert alert-info" role="alert"><code>hold_down_milliseconds</code> is available only in the beta versions.</div>
               </td>
             </tr>
           </tbody>
