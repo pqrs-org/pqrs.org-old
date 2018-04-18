@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.5</title>
+      <title>Version 12.0.6</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.0.5 Update</h2>
+<h2>About v12.0.6 Update</h2>
 
 <!-- update-description-begin -->
 
@@ -39,6 +39,27 @@
     </div>
   </div>
 
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Increased rollover limit of virtual keyboard. (6 -&gt; 32)<br />
+          This change mainly improves usability when you are using multiple keyboards at the same time.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved modifier flags handling in `to_after_key_up` and `to_if_alone`.</li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <!-- update-description-end -->
@@ -47,10 +68,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 16 Apr 2018 19:46:03 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.5.dmg"
-                 sparkle:version="12.0.5" length="4804501" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDGxF9wOky0sZPmVc+BjZ3C4iwWKwIUJQmRpl3QSbsOLLOvA4ZHEUfJyMk="
+      <pubDate>Wed, 18 Apr 2018 15:49:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.6.dmg"
+                 sparkle:version="12.0.6" length="4815080" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFAcqk6qvwVFQPkBYxDW/k30OdrSmAhUAz50IlmhTWj5guPmYuWGz1XnAZFg="
                  />
     </item>
 
