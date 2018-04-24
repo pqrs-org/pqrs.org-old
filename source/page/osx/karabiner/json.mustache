@@ -681,6 +681,7 @@
           |        ...
           |    ],
           |    "simultaneous_options": {
+          |        "detect_key_down_uninterruptedly": false,
           |        "key_down_order": "A restriction of input events order",
           |        "key_up_order": "A restriction of input events order",
           |        "key_up_when": "When key_up events are posted",
@@ -1356,6 +1357,18 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td>
+                <code>detect_key_down_uninterruptedly</code>
+              </td>
+              <td>
+                Specify whether key_down detection is interrupted with unrelated events.
+                <div class="alert alert-info" role="alert"><code>simultaneous_options.detect_key_down_uninterruptedly</code> is available only in the beta versions.</div>
+              </td>
+              <td>
+                <code>true</code> or <code>false</code>
+              </td>
+            </tr>
             <tr>
               <td>
                 <code>key_down_order</code>
