@@ -1,6 +1,6 @@
 #!/bin/bash
 
-basedir=`dirname $0`
+basedir=$(dirname $0)
 cd "$basedir"
 
 priv_pem="secret/karabiner_elements_priv.pem"
@@ -8,20 +8,20 @@ priv_pem="secret/karabiner_elements_priv.pem"
 
 targetdir="../webroot/osx/karabiner/files"
 
-latest_dmg=`ruby scripts/get-latest.rb $targetdir/Karabiner-Elements-*.dmg`
-version=$(echo `basename $latest_dmg .dmg` | sed 's|Karabiner-Elements-||')
-length=`ruby scripts/get-length.rb $latest_dmg`
-dsaSignature=`sh scripts/sign_update.sh $latest_dmg $priv_pem`
-pubDate=`ruby scripts/get-time.rb`
+latest_dmg=$(ruby scripts/get-latest.rb $targetdir/Karabiner-Elements-*.dmg)
+version=$(echo $(basename $latest_dmg .dmg) | sed 's|Karabiner-Elements-||')
+length=$(ruby scripts/get-length.rb $latest_dmg)
+dsaSignature=$(sh scripts/sign_update.sh $latest_dmg $priv_pem)
+pubDate=$(ruby scripts/get-time.rb)
 
-if [ "$version" == `ruby scripts/get-version.rb < "$targetdir/karabiner-elements-appcast-devel.xml"` ]; then
-    echo " `basename $0`: Already up-to-date."
-    exit 0
+if [ "$version" == $(ruby scripts/get-version.rb <"$targetdir/karabiner-elements-appcast-devel.xml") ]; then
+	echo " $(basename $0): Already up-to-date."
+	exit 0
 fi
 
 rm -f "$targetdir/karabiner-elements-appcast-devel.xml.tmp"
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat <<EOF
+cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
@@ -37,22 +37,19 @@ rm -f "$targetdir/karabiner-elements-appcast-devel.xml.tmp"
 <style>
 EOF
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat ../source/css/output/sparkle.css
+cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" ../source/css/output/sparkle.css
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat <<EOF
+cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 </style>
 
 <h2>About v$version Update</h2>
 
 <!-- update-description-begin -->
-
 EOF
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" ruby -e 'print $1.strip if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/karabiner-elements-appcast-devel.xml"
+cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" update-descriptions/karabiner-elements/beta.html
 
->>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" cat <<EOF
-
-
+cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 <!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
@@ -73,6 +70,6 @@ EOF
 mv "$targetdir/karabiner-elements-appcast-devel.xml.tmp" "$targetdir/karabiner-elements-appcast-devel.xml"
 chmod 644 "$targetdir/karabiner-elements-appcast-devel.xml"
 echo \
-    '\033[33;40m' \
-    "`basename $0`: karabiner-elements-appcast-devel.xml is updated." \
-    '\033[0m'
+	'\033[33;40m' \
+	"$(basename $0): karabiner-elements-appcast-devel.xml is updated." \
+	'\033[0m'
