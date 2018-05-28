@@ -449,7 +449,7 @@
           Examples:
           <ul>
             <li>Quit application by pressing command-q twice</li>
-            <li>Emacs key bindings [C-x key strokes]<ul>
+            <li>Emacs key bindings [C-x key strokes]</li>
           </ul>
         </li>
       </ul>
