@@ -1,0 +1,47 @@
+<ul>
+  <li>
+    Incompatibility changes:
+    <ul>
+      <li>
+        The fn keypad has been removed from implicit behavior.
+        <br /> Please use either of the following settings instead if you need.
+        <ul>
+          <li>"Fn+Number to KeyPad"</li>
+          <li>"Use old style fn keypad"</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    New functions and improvements:
+    <ul>
+      <li>The external keyboard handling has been improved.</li>
+      <li>Prepared settings have been updated.</li>
+      <li>
+        Updates for people who add new settings by oneself:
+        <ul>
+          <li>
+            The following filters have been added.
+            <ul>
+              <li>
+                <code>&lt;lastsentevent_not&gt;</code>
+              </li>
+              <li>
+                <code>&lt;lastsentevent_only&gt;</code>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Fixed issues:
+    <ul>
+      <li>
+        <code>__DropKeyAfterRemap__</code> does not work properly if the target key is changed by
+        <code>&lt;autogen&gt;</code> that is defined before
+        <code>__DropKeyAfterRemap__</code>.</li>
+    </ul>
+  </li>
+</ul>
