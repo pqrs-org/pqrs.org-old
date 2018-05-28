@@ -1,0 +1,54 @@
+<ul>
+  <li>
+    Fixed an issue:
+    <ul>
+      <li>"Kernel extension is not loaded" alert might be shown on some machines when automatic login is enabled.</li>
+    </ul>
+  </li>
+  <li>Updated prepared settings.</li>
+  <li>
+    Updates for people who add new settings by oneself:
+    <ul>
+      <li>
+        These manipulators have been integrated into __KeyToKey__.
+        <br /> You can change KeyCode, ConsumerKeyCode and PointingButton by __KeyToKey__.
+        <ul>
+          <li>__KeyToConsumer__</li>
+          <li>__ConsumerToKey__</li>
+          <li>__ConsumerToConsumer__</li>
+          <li>__KeyToPointingButton__</li>
+          <li>__PointingButtonToKey__</li>
+          <li>__PointingButtonToPointingButton__</li>
+        </ul>
+      </li>
+      <li>
+        You can use KeyCode, ConsumerKeyCode and PointingButton in these manipulators:
+        <ul>
+          <li>__KeyOverlaidModifier__</li>
+          <li>__HoldingKeyToKey__</li>
+          <li>__SimultaneousKeyPresses__</li>
+          <li>__DoublePressModifier__</li>
+          <li>__ScrollWheelToKey__</li>
+          <li>__PointingRelativeToScroll__</li>
+        </ul>
+      </li>
+      <li>Improved KeyCode::VK_CONFIG_* behavior in the edge case.</li>
+      <li>
+        You can change the delay and speed of keyboard repeat per autogen.
+        <br /> For example, this autogen changes control-p to up arrow with:
+        <ul>
+          <li>delay until repeat: 100ms</li>
+          <li>key repeat: 10ms</li>
+        </ul>
+        <pre>
+&lt;autogen&gt;
+  __KeyToKey__
+  KeyCode::P, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL,
+  KeyCode::CURSOR_UP,
+  DelayUntilRepeat::RawValue::100,
+  KeyRepeat::RawValue::10,
+&lt;/autogen&gt;</pre>
+      </li>
+    </ul>
+  </li>
+</ul>

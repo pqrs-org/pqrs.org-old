@@ -1,6 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: utf-8 -*-
-
 require 'rubygems'
 require 'mustache'
 require 'time'
@@ -35,20 +33,20 @@ class PqrsBase < Mustache
   end
 
   def set_nav_class(data)
-    data.each_with_index do |v,k|
-      unless v[:dropdown].nil? then
+    data.each_with_index do |v, k|
+      if v[:dropdown].nil?
+        v[:nav_class] = (current_nav_path == v[:href] ? 'active' : nil)
+        data[k] = v
+      else
         v[:nav_class] = 'dropdown'
-        v[:dropdown][:items].each_with_index do |v1,k1|
-          if current_nav_path() == v1[:href] then
+        v[:dropdown][:items].each_with_index do |v1, k1|
+          if current_nav_path == v1[:href]
             v[:nav_class] += ' active'
             v[:dropdown][:items][k1][:dropdown_nav_class] = 'active'
           end
         end
         data[k] = v
 
-      else
-        v[:nav_class] = (current_nav_path() == v[:href] ? 'active' : nil)
-        data[k] = v
       end
     end
     data
@@ -71,7 +69,7 @@ class PqrsBase < Mustache
   end
 
   def set_tab_class(data)
-    data.each_with_index do |v,k|
+    data.each_with_index do |v, k|
       v[:tab_class] = (@path == v[:href] ? 'active' : nil)
       data[k] = v
     end
@@ -83,10 +81,10 @@ class PqrsBase < Mustache
   end
 
   def escape_html_without_render(text)
-    text.
-      gsub('&', '&amp;').
-      gsub('<', '&lt;').
-      gsub('>', '&gt;')
+    text
+      .gsub('&', '&amp;')
+      .gsub('<', '&lt;')
+      .gsub('>', '&gt;')
   end
 
   def escape_html(text)
@@ -98,11 +96,11 @@ class PqrsBase < Mustache
   end
 
   def strip_lines(text)
-    render(text).split(/\n/).map {|l| l.strip}.join("\n")
+    render(text).split(/\n/).map(&:strip).join("\n")
   end
 
   def strip_indented_lines_without_render(text)
-    text.split(/\n/).map {|l| l.strip[1..-1]}.join("\n")
+    text.split(/\n/).map { |l| l.strip[1..-1] }.join("\n")
   end
 
   def strip_indented_lines(text)
@@ -112,13 +110,13 @@ class PqrsBase < Mustache
   def imgsrc(text)
     src = render(text).strip
     path = File.join(File.dirname(File.join($destination_directory, @path)), src)
-    img = Magick::Image::read(path).first
+    img = Magick::Image.read(path).first
 
     width = img.columns
     height = img.rows
-    if /@2x\./ =~ File.basename(path) then
-      width = width / 2
-      height = height / 2
+    if /@2x\./ =~ File.basename(path)
+      width /= 2
+      height /= 2
     end
 
     "src=\"#{src}\" width=\"#{width}\" height=\"#{height}\""
@@ -131,21 +129,19 @@ class PqrsBase < Mustache
     a = render(text).strip.split(/ /, 2)
     src = a[0].strip
     alt = a[1].strip
-    id = "lightbox-" + @lightbox_id.to_s
+    id = 'lightbox-' + @lightbox_id.to_s
 
     path = File.join(File.dirname(File.join($destination_directory, @path)), src)
-    img = Magick::Image::read(path).first
+    img = Magick::Image.read(path).first
     margin = 60
     width = img.columns
-    if /@2x\./ =~ File.basename(path) then
-      width = width / 2
-    end
+    width /= 2 if /@2x\./ =~ File.basename(path)
 
     <<EOS
 <a data-toggle="modal" href="##{id}" class="thumbnail">
   <img src="#{src}" alt="#{alt}" />
 </a>
-<div class="modal fade" id="#{id}" tabindex="#{@lightbox_id + 30000}">
+<div class="modal fade" id="#{id}" tabindex="#{@lightbox_id + 30_000}">
   <div class="modal-dialog clickable" style="width: #{width + margin}px;">
     <div class="modal-content">
       <div class="modal-body">
@@ -174,11 +170,11 @@ EOS
   end
 
   def format_date(text)
-    return Time.parse(render(text)).strftime('%b %-d, %Y')
+    Time.parse(render(text)).strftime('%b %-d, %Y')
   end
 
   def format_date_rss(text)
-    return Time.parse(render(text)).strftime('%a, %d %b %Y %H:%M:%S %Z')
+    Time.parse(render(text)).strftime('%a, %d %b %Y %H:%M:%S %Z')
   end
 
   def slice_to_cols(data, number)
@@ -199,7 +195,7 @@ EOS
     link = constant_part + file_sha1.to_s + pn.extname
     output_file_path = File.join($destination_directory, link)
 
-    unless File.exists?(output_file_path)
+    unless File.exist?(output_file_path)
       # Remove old files
       FileUtils.rm Dir.glob(File.join($destination_directory, constant_part + '*'))
 
@@ -207,5 +203,9 @@ EOS
     end
 
     '/' + link
+  end
+
+  def update_description(name, version)
+    File.read(__dir__ + "/../../appcast-updater/update-descriptions/#{name}/#{version}.html")
   end
 end
