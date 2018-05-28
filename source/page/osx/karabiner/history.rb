@@ -15,419 +15,49 @@ class History < KarabinerBase
         :version => 'Karabiner-Elements 12.0.0',
         :updated => '2018-04-12',
         :link => 'files/Karabiner-Elements-12.0.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          macOS 10.11 support has been dropped.<br />
-          Karabiner-Elements works on macOS 10.12 (Sierra) or later.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The virtual keyboard compatibility has been improved.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `Keyboard type` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)<br />
-          Please change the keyboard type from `System Preferences &gt; Keyboard &gt; Change Keyboard Type...`.<br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v12.0.0_0.png" alt="Keyboard Preferences" class="img" />
-        </li>
-        <li>
-          `Caps Lock Delay` in the virtual keyboard preferences has been removed. (Adverse effect of virtual keyboard improvement.)
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>EventViewer has been improved showing the correct key name for PC keyboard keys and international keys.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Added `simultaneous_options.key_down_order`, `simultaneous_options.key_up_order` and `simultaneous_options.to_after_key_up`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that `to_if_alone`, `to_if_held_down` and `to_delayed_action` does not work properly with `simultaneous`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved keyboard repeat handling with `simultaneous`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Incompatible changes
-          <ul>
-            <li>Changed `simultaneous` behaviour to post key_up events when any key is released.</li>
-            <li>Changed `to_after_key_up` and `to_if_alone` behaviour as mandatory modifiers are removed from these events.</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/12.0.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.6.0',
         :updated => '2018-02-20',
         :link => 'files/Karabiner-Elements-11.6.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Simultaneous key presses has been supported in complex modifications.
-          <ul>
-            <li>Example: <a href="https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete">https://pqrs.org/osx/karabiner/json.html#typical-complex_modifications-examples-simultaneous-equal-delete-to-forward-delete</a></li>
-            <li>Detail: <a href="https://pqrs.org/osx/karabiner/json.html#simultaneous">https://pqrs.org/osx/karabiner/json.html#simultaneous</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved Mouse key scroll wheel direction referring `System Preferences &gt; Mouse &gt; Scroll direction`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved modifier flags handling around pointing button manipulations.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Mouse keys have been added into Simple Modifications.<br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v11.6.0_0.png" alt="mouse keys in Simple Modifications" class="img" />
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The eject key has been added into the from key of Simple Modifications.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The Vendor ID and Product ID of virtual devices has been changed. (0x0,0x0 -> 0x16c0,0x27db and 0x16c0,0x27da)</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.6.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.5.0',
         :updated => '2017-12-30',
         :link => 'files/Karabiner-Elements-11.5.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>`to_if_held_down` has been added.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Avoided a VMware Remote Console issue that mouse pointer does not work properly on VMRC when Karabiner-Elements grabs the pointing device.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved a way to save karabiner.json.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved modifier flags handling in `to events`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that `to_if_alone` does not work properly when `to` is empty.</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.5.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.4.0',
         :updated => '2017-12-07',
         :link => 'files/Karabiner-Elements-11.4.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that the checkbox in `Preferences &gt; Devices` is disabled for keyboards which do not have their own vendor id.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `mouse_key` has been added.<br />
-          Examples:<br />
-          <ul>
-            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_simple">Mouse keys (simple)</a></li>
-            <li><a href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_keys_full">Mouse keys (full)</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `location_id` has been added to `device_if` and `device_unless`.<br />
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.4.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.3.0',
         :updated => '2017-11-12',
         :link => 'files/Karabiner-Elements-11.3.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that Karabiner-11.2.0 does not work properly on some environments due to a possibility of macOS kernel extension cache problem.</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.3.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.2.0',
         :updated => '2017-11-09',
         :link => 'files/Karabiner-Elements-11.2.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          The caps lock LED manipulation has been disabled with non Apple keyboards until it is enabled manually.<br />
-          <img src="https://pqrs.org/osx/karabiner/img/news/v11.1.16_0.png" alt="has caps lock led" class="img" />
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Mouse button modifications has been added.<br />
-          Note:
-          <ul>
-            <li>You have to enable your Mouse manually in Preferences &gt; Devices tab.</li>
-            <li>Karabiner-Elements cannot modify Apple's pointing devices.</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `to_delayed_action` has been added.<br />
-          Examples:
-          <ul>
-            <li>Quit application by pressing command-q twice</li>
-            <li>Emacs key bindings [C-x key strokes]<ul>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>`input_source_if` and `input_source_unless` has been added to `conditions`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>select_input_source` has been added.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>`keyboard_type_if` and `keyboard_type_unless` has been added to `conditions`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>The virtual keyboard handling has been improved.</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.2.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.1.0',
         :updated => '2017-10-04',
         :link => 'files/Karabiner-Elements-11.1.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that modifier flags becomes improperly state by mouse events.</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.1.0.html'),
       },
       {
         :version => 'Karabiner-Elements 11.0.0',
         :updated => '2017-09-18',
         :link => 'files/Karabiner-Elements-11.0.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      The first stable release of Karabiner-Elements.<br />
-      (There is no changes from Karabiner-Elements 0.91.16.)
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => File.read(__dir__ + '/../../../../appcast-updater/update-descriptions/karabiner-elements/11.0.0.html'),
       },
       {
         :version => 'Karabiner 10.22.0',
