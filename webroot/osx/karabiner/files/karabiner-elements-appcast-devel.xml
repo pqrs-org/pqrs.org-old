@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.0.12</title>
+      <title>Version 12.1.0</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.0.12 Update</h2>
+<h2>About v12.1.0 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -75,7 +75,7 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>Fixed a random key repeat issue at extremely high system CPU usage.</li>
+        <li>Fixed an issue that random key repeat happen at extremely high system CPU usage.</li>
       </ul>
     </div>
   </div>
@@ -103,10 +103,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 27 May 2018 11:41:39 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.0.12.dmg"
-                 sparkle:version="12.0.12" length="5020580" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFCgDrW6IUX2xnMEOgDzHWIt8+/HLAhUAzAjT5Wwks4T0tVve0Fdamy4Abgo="
+      <pubDate>Wed, 30 May 2018 23:49:42 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.0.dmg"
+                 sparkle:version="12.1.0" length="5020563" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQC0mopQ+Z6Zeczl7L+uOtaqzUsIOwIUQ9d6BT+W3rtd7l+0QcljyU0Etgk="
                  />
     </item>
 
