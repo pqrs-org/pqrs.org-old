@@ -1,0 +1,79 @@
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added new items into `simultaneous_options`:
+          <ul>
+            <li>`simultaneous_options.detect_key_down_uninterruptedly`</li>
+            <li>`simultaneous_options.key_up_when`</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added new parameters into `to event definition`:
+          <ul>
+            <li>`hold_down_milliseconds`</li>
+            <li>`halt`</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Increased rollover limit of virtual keyboard. (6 -&gt; 32)
+          <br />This change mainly improves usability when you are using multiple keyboards at the same time.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Improved modifier flags handling in `to_after_key_up` and `to_if_alone`.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Fixed an issue that random key repeat happen at extremely high system CPU usage.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>Incompatible changes
+          <ul>
+            <li>
+              Changed the order of `to_if_alone` and `to_after_key_up` event handling.
+              <br />`to_if_alone` will be handled before `to_after_key_up`.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
