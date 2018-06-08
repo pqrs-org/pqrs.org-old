@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.1.0</title>
+      <title>Version 12.1.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.1.0 Update</h2>
+<h2>About v12.1.1 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -25,72 +25,8 @@
     <div class="update-description-body">
       <ul>
         <li>
-          Added new items into `simultaneous_options`:
-          <ul>
-            <li>`simultaneous_options.detect_key_down_uninterruptedly`</li>
-            <li>`simultaneous_options.key_up_when`</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Added new parameters into `to event definition`:
-          <ul>
-            <li>`hold_down_milliseconds`</li>
-            <li>`halt`</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Increased rollover limit of virtual keyboard. (6 -&gt; 32)
-          <br />This change mainly improves usability when you are using multiple keyboards at the same time.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Improved modifier flags handling in `to_after_key_up` and `to_if_alone`.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Fixed an issue that random key repeat happens at extremely high system CPU usage.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>Incompatible changes
-          <ul>
-            <li>
-              Changed the order of `to_if_alone` and `to_after_key_up` event handling.
-              <br />`to_if_alone` will be handled before `to_after_key_up`.
-            </li>
-          </ul>
+            Karabiner-Elements makes a backup file of karabiner.json before updating it if the backup file does not exists.
+            (~/.config/karabiner/automatic_backups/karabiner.YYYY-MM-DD.json)
         </li>
       </ul>
     </div>
@@ -103,10 +39,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 30 May 2018 23:49:42 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.0.dmg"
-                 sparkle:version="12.1.0" length="5020563" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQC0mopQ+Z6Zeczl7L+uOtaqzUsIOwIUQ9d6BT+W3rtd7l+0QcljyU0Etgk="
+      <pubDate>Fri, 08 Jun 2018 18:51:18 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.1.dmg"
+                 sparkle:version="12.1.1" length="5034687" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFBrC2z8jrYLs+0IT4BvaD5dblX3YAhQahFBf6nAJxv9kOrJSw8Lh7MqrOA=="
                  />
     </item>
 
