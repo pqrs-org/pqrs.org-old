@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.1.1</title>
+      <title>Version 12.1.2</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.1.1 Update</h2>
+<h2>About v12.1.2 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -26,7 +26,7 @@
       <ul>
         <li>
             Karabiner-Elements makes a backup file of karabiner.json before updating it if the backup file does not exists.
-            (~/.config/karabiner/automatic_backups/karabiner.YYYY-MM-DD.json)
+            (~/.config/karabiner/automatic_backups/karabiner_YYYYMMDD.json)
         </li>
       </ul>
     </div>
@@ -39,10 +39,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 08 Jun 2018 18:51:18 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.1.dmg"
-                 sparkle:version="12.1.1" length="5034687" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFBrC2z8jrYLs+0IT4BvaD5dblX3YAhQahFBf6nAJxv9kOrJSw8Lh7MqrOA=="
+      <pubDate>Mon, 11 Jun 2018 13:15:51 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.2.dmg"
+                 sparkle:version="12.1.2" length="5036176" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQC5rWxRqXxQGWHZhnPhxzdblQyX2AIUd33CbVb27e6iv+4S4+Y705P+hME="
                  />
     </item>
 
