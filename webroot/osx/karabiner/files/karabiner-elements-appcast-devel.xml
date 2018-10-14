@@ -30,6 +30,9 @@
         <li>
           A device grabbing process has been improved. (Observing device state by a separated `karabiner_observer` process.)
         </li>
+        <li>
+          The task dispatcher has been improved by using pqrs::dispatcher.
+        </li>
       </ul>
     </div>
   </div>
