@@ -25,14 +25,23 @@
     <div class="update-description-body">
       <ul>
         <li>
-          Karabiner-Elements makes a backup file of karabiner.json before updating it if the backup file does not exists. (~/.config/karabiner/automatic_backups/karabiner_YYYYMMDD.json)
+          Karabiner-Elements makes a backup file of karabiner.json before updating it if the backup file does not
+          exists. (~/.config/karabiner/automatic_backups/karabiner_YYYYMMDD.json)
         </li>
-        <li>
-          A device grabbing process has been improved. (Observing device state by a separated `karabiner_observer` process.)
-        </li>
-        <li>
-          The task dispatcher has been improved by using pqrs::dispatcher.
-        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <li>
+        A device grabbing process has been improved. (Observing device state by a separated `karabiner_observer`
+        process.)
+      </li>
+      <li>
+        The task dispatcher has been improved by using pqrs::dispatcher.
+      </li>
       </ul>
     </div>
   </div>
@@ -44,10 +53,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 14 Oct 2018 15:55:38 -0000</pubDate>
+      <pubDate>Sun, 14 Oct 2018 16:03:47 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.50.dmg"
                  sparkle:version="12.1.50" length="5319720" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCgTdNmrGi34ehPXRMmRDt86U6k4gIUVx9Z+p04+Hqk30TDxVOlSTHiqi0="
+                 sparkle:dsaSignature="MCwCFEvNsEL+Gm0NBLkQeze4mYbTosaWAhQA9aPkLBjXEwFboJxBtoVBZNnLKw=="
                  />
     </item>
 
