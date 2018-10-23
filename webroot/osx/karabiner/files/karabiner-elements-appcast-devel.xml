@@ -46,13 +46,14 @@
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
-      <li>
-        A device grabbing process has been improved. (Observing device state by a separated `karabiner_observer`
-        process.)
-      </li>
-      <li>
-        The task dispatcher has been improved by using pqrs::dispatcher.
-      </li>
+      <ul>
+        <li>
+          A device grabbing process has been improved. (Observing device state by a separated `karabiner_observer`
+          process.)
+        </li>
+        <li>
+          The task dispatcher has been improved by using pqrs::dispatcher.
+        </li>
       </ul>
     </div>
   </div>
@@ -64,10 +65,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 23 Oct 2018 17:36:31 -0000</pubDate>
+      <pubDate>Tue, 23 Oct 2018 17:40:25 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.51.dmg"
                  sparkle:version="12.1.51" length="5332741" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCzIj2ZK99CbVHyAvZ17QNeJRbuFAIVAJQfgFdJpZpn3+PxOJ5/9c4cR4j5"
+                 sparkle:dsaSignature="MC0CFQDHQ+ADp72qV4PXhJ/BAlJYQwqGlAIUcJj+UGCVs1zrj+aTrHgAVh7fY90="
                  />
     </item>
 
