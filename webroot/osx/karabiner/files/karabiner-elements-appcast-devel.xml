@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.1.50</title>
+      <title>Version 12.1.51</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,21 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.1.50 Update</h2>
+<h2>About v12.1.51 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Fixed an issue that Caps Lock LED does not work on macOS Mojave.
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
@@ -53,10 +64,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 14 Oct 2018 16:03:47 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.50.dmg"
-                 sparkle:version="12.1.50" length="5319720" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFEvNsEL+Gm0NBLkQeze4mYbTosaWAhQA9aPkLBjXEwFboJxBtoVBZNnLKw=="
+      <pubDate>Tue, 23 Oct 2018 17:36:31 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.1.51.dmg"
+                 sparkle:version="12.1.51" length="5332741" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCzIj2ZK99CbVHyAvZ17QNeJRbuFAIVAJQfgFdJpZpn3+PxOJ5/9c4cR4j5"
                  />
     </item>
 
