@@ -1,6 +1,6 @@
 #!/bin/bash
 
-basedir=`dirname $0`
+basedir=$(dirname $0)
 cd "$basedir"
 
 priv_pem="secret/ShowyEdge_priv.pem"
@@ -8,20 +8,20 @@ priv_pem="secret/ShowyEdge_priv.pem"
 
 targetdir="../webroot/osx/ShowyEdge/files"
 
-latest_dmg=`ruby scripts/get-latest.rb $targetdir/ShowyEdge-*.dmg`
-version=$(echo `basename $latest_dmg .dmg` | sed 's|ShowyEdge-||')
-length=`ruby scripts/get-length.rb $latest_dmg`
-dsaSignature=`sh scripts/sign_update.sh $latest_dmg $priv_pem`
-pubDate=`ruby scripts/get-time.rb`
+latest_dmg=$(ruby scripts/get-latest.rb $targetdir/ShowyEdge-*.dmg)
+version=$(echo $(basename $latest_dmg .dmg) | sed 's|ShowyEdge-||')
+length=$(ruby scripts/get-length.rb $latest_dmg)
+dsaSignature=$(sh scripts/sign_update.sh $latest_dmg $priv_pem)
+pubDate=$(ruby scripts/get-time.rb)
 
-if [ "$version" == `ruby scripts/get-version.rb < "$targetdir/appcast-devel.xml"` ]; then
-    echo " `basename $0`: Already up-to-date."
+if [ "$version" == $(ruby scripts/get-version.rb <"$targetdir/appcast-devel.xml") ]; then
+    echo " $(basename $0): Already up-to-date."
     exit 0
 fi
 
 rm -f "$targetdir/appcast-devel.xml.tmp"
 
->>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
+cat >>"$targetdir/appcast-devel.xml.tmp" <<EOF
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
@@ -37,22 +37,19 @@ rm -f "$targetdir/appcast-devel.xml.tmp"
 <style>
 EOF
 
->>"$targetdir/appcast-devel.xml.tmp" cat ../source/css/output/sparkle.css
+cat >>"$targetdir/appcast-devel.xml.tmp" ../source/css/output/sparkle.css
 
->>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
+cat >>"$targetdir/appcast-devel.xml.tmp" <<EOF
 </style>
 
 <h2>About v$version Update</h2>
 
 <!-- update-description-begin -->
-
 EOF
 
->>"$targetdir/appcast-devel.xml.tmp" ruby -e 'print $1.strip if /<!-- update-description-begin -->(.+?)<!-- update-description-end -->/m =~ $stdin.read' < "$targetdir/appcast-devel.xml"
+cat >>"$targetdir/appcast-devel.xml.tmp" update-descriptions/showyedge/beta.html
 
->>"$targetdir/appcast-devel.xml.tmp" cat <<EOF
-
-
+cat >>"$targetdir/appcast-devel.xml.tmp" <<EOF
 <!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
@@ -74,5 +71,5 @@ mv "$targetdir/appcast-devel.xml.tmp" "$targetdir/appcast-devel.xml"
 chmod 644 "$targetdir/appcast-devel.xml"
 echo \
     '\033[33;40m' \
-    "`basename $0`: appcast-devel.xml is updated." \
+    "$(basename $0): appcast-devel.xml is updated." \
     '\033[0m'
