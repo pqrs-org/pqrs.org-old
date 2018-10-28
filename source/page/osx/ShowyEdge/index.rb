@@ -1,6 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: utf-8 -*-
-
 require '../../../classes/bootstrap.rb'
 
 class Index < PqrsBase
@@ -47,23 +45,18 @@ class Index < PqrsBase
   end
 
   def histories
-    data = [
+    [
+      {
+        :version => '3.3.0',
+        :updated => '2018-10-28',
+        :link => 'files/ShowyEdge-3.3.0.dmg',
+        :body => update_description('showyedge', '3.3.0'),
+      },
       {
         :version => '3.2.0',
         :updated => '2017-03-23',
         :link => 'files/ShowyEdge-3.2.0.dmg',
-        :body => <<EOS,
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      An opacity slider has been added to color picker.
-    </div>
-  </div>
-
-</div>
-EOS
+        :body => update_description('showyedge', '3.2.0'),
       },
       {
         :version => '3.1.0',
@@ -76,7 +69,7 @@ EOS
         :updated => '2015-12-03',
         :link => 'files/ShowyEdge-3.0.0.dmg',
         :body => update_description('showyedge', '3.0.0'),
-       },
+      },
       {
         :version => '2.2.0',
         :updated => '2015-08-30',

@@ -1,5 +1,7 @@
 Metrics/AbcSize:
   Enabled: false
+Metrics/ClassLength:
+  Enabled: false
 Metrics/LineLength:
   Enabled: false
 Metrics/MethodLength:
@@ -7,6 +9,8 @@ Metrics/MethodLength:
 Metrics/ModuleLength:
   Enabled: false
 
+Style/Documentation:
+  Enabled: false
 Style/HashSyntax:
   Enabled: false
 Style/TrailingCommaInArrayLiteral:
