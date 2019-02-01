@@ -17,7 +17,7 @@ class History < KarabinerBase
       },
       {
         :version => 'Karabiner-Elements 12.1.0',
-        :updated => '2018-04-12',
+        :updated => '2018-05-30',
         :link => 'files/Karabiner-Elements-12.1.0.dmg',
         :body => update_description('karabiner', '12.1.0'),
       },
