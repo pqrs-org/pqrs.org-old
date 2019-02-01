@@ -1,3 +1,7 @@
 {
   "editor.formatOnSave": false,
+  "files.exclude": {
+    "go/build/": true,
+    "webroot/": true
+  },
 }
