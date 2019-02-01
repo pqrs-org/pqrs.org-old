@@ -7,6 +7,84 @@
     <language>en</language>
 
     <item>
+      <title>Version 12.2.0</title>
+      <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>
+.update-description-item{margin:10px 0;padding:0;border-radius:0.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 0.5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:0.2em 1em;padding:1em 1em 0.5em 1em}.update-description .update-description-body img.img{width:100%}.update-description .update-description-body ul{padding-left:2em}.update-description .update-description-body>ul{margin:0;padding:0}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:'new';color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:'important';color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:'fixed';color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:'improved';color:#cd6118}
+/*# sourceMappingURL=sparkle.css.map */
+</style>
+
+<h2>About v12.2.0 Update</h2>
+
+<!-- update-description-begin -->
+<div class="update-description">
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Fixed an issue that Caps Lock LED does not work on macOS Mojave.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          `shell_command` string max length has been expanded. (256 byte -> 32
+          KB)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Karabiner-Elements makes a backup file of karabiner.json before
+          updating it if the backup file does not exists.
+          (~/.config/karabiner/automatic_backups/karabiner_YYYYMMDD.json)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          A device grabbing process has been improved. (Observing device state
+          by a separated `karabiner_observer` process.)
+        </li>
+        <li>
+          The event processing has been improved and the latency has been
+          reduced.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- update-description-end -->
+<p>
+  <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
+</p>
+]]>
+      </description>
+      <pubDate>Fri, 01 Feb 2019 14:17:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.0.dmg"
+                 sparkle:version="12.2.0" length="6241304" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFeP32Gobdl2XRBUVGRwmSy0/5ZmAhUAs5cDjfyUWfV8mgWI2F8wv+IXw+I="
+                 />
+    </item>
+
+    <item>
       <title>Version 12.1.0</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
