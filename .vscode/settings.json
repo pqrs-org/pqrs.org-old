@@ -1,7 +1,9 @@
 {
   "editor.formatOnSave": false,
   "files.exclude": {
-    "go/build/": true,
-    "webroot/": true
+    "**/*.dmg": true,
+    "**/*.gz": true,
+    "**/*.zip": true,
+    "go/build/": true
   },
 }
