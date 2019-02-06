@@ -201,7 +201,7 @@
                   <p>
                     Unfortunately, posting input events via own virtual keyboard is the only way to accomplish the stable input event modification.<br />
                     In other words, we cannot post the fn key event through the built-in keyboard if we want to change key events stably.
-                  </mogemogep>
+                  </p>
                 </div>
               </div>
             </div>
@@ -320,6 +320,48 @@
                     img/karabiner-elements-mouse-button-simple-modifications@2x.png Karabiner-Elements Preferences Simple Modifications
                   {{/lightbox}}
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="disable-caps-lock-delay">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <span class="label label-success pull-right">How-to</span>
+              <h3 class="panel-title">
+                How to disable caps lock delay
+              </h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                Enable <b>Disable caps_lock delay</b> setting from Complex Modification.
+              </p>
+
+              <ol>
+                <li>
+                  Import <b>Change caps_lock key</b> setting from
+                  <a href="https://pqrs.org/osx/karabiner/complex_modifications/#caps_lock">here</a>.
+                </li>
+                <li>
+                  Enable <b>Disable caps_lock delay</b>.
+                  <div class="row">
+                    <div class="col-lg-4">
+                      {{#lightbox}}
+                        img/karabiner-elements-disable-caps-lock-delay@2x.png Disable caps_lock delay
+                      {{/lightbox}}
+                    </div>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="alert alert-info" role="alert">
+                <p>
+                  Note:<br />
+                  Actually, this setting does not disable the caps lock delay of macOS.<br />
+                  This setting puts a wait between caps lock key down and key up event
+                  in order to ensure macOS recognize the caps lock event.
+                </p>
               </div>
             </div>
           </div>

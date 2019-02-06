@@ -38,6 +38,10 @@ class Help < KarabinerBase
         :name => 'How-to: How to change mouse buttons',
       },
       {
+        :href => '#disable-caps-lock-delay',
+        :name => 'How-to: How to disable caps lock delay',
+      },
+      {
         :name => 'Advanced topics',
       },
       {

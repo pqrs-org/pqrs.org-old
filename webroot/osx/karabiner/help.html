@@ -356,7 +356,7 @@
                   <p>
                     Unfortunately, posting input events via own virtual keyboard is the only way to accomplish the stable input event modification.<br />
                     In other words, we cannot post the fn key event through the built-in keyboard if we want to change key events stably.
-                  </mogemogep>
+                  </p>
                 </div>
               </div>
             </div>
@@ -504,6 +504,57 @@ sudo diskutil enableOwnership disk99999s99999
             </div>
           </div>
         </div>
+
+        <div id="disable-caps-lock-delay">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <span class="label label-success pull-right">How-to</span>
+              <h3 class="panel-title">
+                How to disable caps lock delay
+              </h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                Enable <b>Disable caps_lock delay</b> setting from Complex Modification.
+              </p>
+
+              <ol>
+                <li>
+                  Import <b>Change caps_lock key</b> setting from
+                  <a href="https://pqrs.org/osx/karabiner/complex_modifications/#caps_lock">here</a>.
+                </li>
+                <li>
+                  Enable <b>Disable caps_lock delay</b>.
+                  <div class="row">
+                    <div class="col-lg-4">
+<a data-toggle="modal" href="#lightbox-8" class="thumbnail">
+  <img src="img/karabiner-elements-disable-caps-lock-delay@2x.png" alt="Disable caps_lock delay" />
+</a>
+<div class="modal fade" id="lightbox-8" tabindex="30008">
+  <div class="modal-dialog clickable" style="width: 1060px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-disable-caps-lock-delay@2x.png" alt="Disable caps_lock delay" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="alert alert-info" role="alert">
+                <p>
+                  Note:<br />
+                  Actually, this setting does not disable the caps lock delay of macOS.<br />
+                  This setting puts a wait between caps lock key down and key up event
+                  in order to ensure macOS recognize the caps lock event.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -581,6 +632,11 @@ sudo diskutil enableOwnership disk99999s99999
               <li>
                 <a href="#mouse-button">
                   How-to: How to change mouse buttons
+                </a>
+              </li>
+              <li>
+                <a href="#disable-caps-lock-delay">
+                  How-to: How to disable caps lock delay
                 </a>
               </li>
               <li class="nav-header">Advanced topics</li>
