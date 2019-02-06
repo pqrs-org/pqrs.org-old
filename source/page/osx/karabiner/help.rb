@@ -42,6 +42,10 @@ class Help < KarabinerBase
         :name => 'How-to: How to disable caps lock delay',
       },
       {
+        :href => '#key-repeat',
+        :name => 'How-to: How to adjust the key repeat rate',
+      },
+      {
         :name => 'Advanced topics',
       },
       {
