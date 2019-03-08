@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.2.0</title>
+      <title>Version 12.2.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,57 +15,18 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.2.0 Update</h2>
+<h2>About v12.2.1 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Fixed an issue that Caps Lock LED does not work on macOS Mojave.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          `shell_command` string max length has been expanded. (256 byte -> 32
-          KB)
-        </li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
         <li>
-          Karabiner-Elements makes a backup file of karabiner.json before
-          updating it if the backup file does not exists.
-          (~/.config/karabiner/automatic_backups/karabiner_YYYYMMDD.json)
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          A device grabbing process has been improved. (Observing device state
-          by a separated `karabiner_observer` process.)
-        </li>
-        <li>
-          The event processing has been improved and the latency has been
-          reduced.
+          Added `--lint-complex-modifications` option into `karabiner_cli`.
+          <br />
+          It allows you checks a complex-modifications json file.
         </li>
       </ul>
     </div>
@@ -77,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 01 Feb 2019 14:17:14 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.0.dmg"
-                 sparkle:version="12.2.0" length="6241304" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFFeP32Gobdl2XRBUVGRwmSy0/5ZmAhUAs5cDjfyUWfV8mgWI2F8wv+IXw+I="
+      <pubDate>Fri, 08 Mar 2019 12:12:40 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.1.dmg"
+                 sparkle:version="12.2.1" length="5909685" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDFOa0fx82DJsLGmYKL697NQfh3+AIVALfkROCCEjOjuJ294NC6NN0duHly"
                  />
     </item>
 
