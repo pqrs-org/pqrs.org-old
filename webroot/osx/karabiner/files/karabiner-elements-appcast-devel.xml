@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.2.3</title>
+      <title>Version 12.2.4</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,27 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.2.3 Update</h2>
+<h2>About v12.2.4 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Set Karabiner-Elements.app and Karabiner-EventViewer.app immutable in
+          order to ensure unremovable them except built-in uninstaller.<br />
+          Please use the uninstaller when you want to remove
+          Karabiner-Elements.<br />
+          <a href="https://pqrs.org/osx/karabiner/document.html#uninstall">
+            https://pqrs.org/osx/karabiner/document.html#uninstall
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -38,10 +55,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 21 Mar 2019 00:43:09 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.3.dmg"
-                 sparkle:version="12.2.3" length="6072728" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQC3OSOrrbj3+t9D3Rvo5ZXVuUMt4wIVALou0rqDXfoUpNLx0fIZIhS9Ncmn"
+      <pubDate>Thu, 21 Mar 2019 08:54:45 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.4.dmg"
+                 sparkle:version="12.2.4" length="6072847" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCj6fnHGAtnfG/DGXV22wJxZuzvvgIVAO39Aavoqh8fARNQhuLAjjRFnAc1"
                  />
     </item>
 
