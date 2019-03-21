@@ -10,7 +10,7 @@
 
     <!-- Documentation extras -->
     <link href="/assets/bootstrap/bootstrap-3.3.6/docs/assets/css/docs.min.css" rel="stylesheet" />
-    <link href="/assets/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.bbb477cd973c8a934b2655309e60c01bfe07e8de.css" rel="stylesheet" />
+    <link href="/assets/pqrs.css.012c71be18538cb7b3c9f8bd91a51a2ac34bfcc2.f056d7d3dd966089f2096fd23d644fbb6270a455.css" rel="stylesheet" />
     <link href="/assets/sparkle.css.ee7a21f32e4ae06d27096592b155cc233ffea47e.579cdb8624eca124c6457a0910175eccae84391d.css" rel="stylesheet" />
 
     <!-- Bootstrap extra -->
@@ -132,47 +132,81 @@
     <div class="col-md-9 pqrs-docs-container">
       <section>
         <div class="page-header">
-          <h1 id="features">Features</h1>
+          <h2 id="features">Features</h2>
         </div>
 
         <p>
-          Karabiner-Elements is a powerful and stable keyboard customizer for macOS.
+          Karabiner-Elements is a powerful and stable keyboard customizer for
+          macOS.
         </p>
 
-        <h2>Core features</h2>
+        <h3>Core features</h3>
 
         <ul>
-          <li><b>Simple Modifications:</b> Map normal keys to arbitrary key functions.</li>
-          <li><b>Complex Modifications:</b> Map keys by complex rules. e.g., key to modifiers, modifiers+key to key, send key event if pressed alone, etc.</li>
-          <li><b>Function Keys:</b> Map function keys to arbitrary key functions.</li>
-          <li><b>Devices:</b> Apply modifications to specified keyboards only.</li>
-          <li><b>Profiles:</b> Support the creation of multiple profiles that the user can switch between.</li>
-          <li><b>Modifier Flag Sync:</b> Synchronize modifier flags across all connected keyboards.</li>
-          <li><b>Secure Keyboard Entry Support:</b> Work well on Secure Keyboard Entry environment such as a password prompt, terminal with Secure Keyboard Entry, etc.</li>
-        </ul>
-
-        <h2>Current limitations</h2>
-
-        <ul>
-          <li>Karabiner-Elements cannot modify <b>the eject key</b> on some keyboard (e.g., Apple Wired Keyboard) due to the limitation of macOS API.</li>
-          <li>Karabiner-Elements cannot modify <b>the fn key on non Apple keyboards</b> such as Logitech keyboards.</li>
           <li>
-            Karabiner-Elements ignores the <b>System Preferences &gt; Keyboard &gt; Modifier Keys...</b> configuration.<br />
-            Change modifiers by using <b>Simple Modifications</b>.
-            <a href="#event-modification-chaining">(detail of input event modification chaining)</a>
+            <b>Simple Modifications:</b> Map normal keys to arbitrary key
+            functions.
+          </li>
+          <li>
+            <b>Complex Modifications:</b> Map keys by complex rules. e.g., key
+            to modifiers, modifiers+key to key, send key event if pressed alone,
+            etc.
+          </li>
+          <li>
+            <b>Function Keys:</b> Map function keys to arbitrary key functions.
+          </li>
+          <li>
+            <b>Devices:</b> Apply modifications to specified keyboards only.
+          </li>
+          <li>
+            <b>Profiles:</b> Support the creation of multiple profiles that the
+            user can switch between.
+          </li>
+          <li>
+            <b>Modifier Flag Sync:</b> Synchronize modifier flags across all
+            connected keyboards.
+          </li>
+          <li>
+            <b>Secure Keyboard Entry Support:</b> Work well on Secure Keyboard
+            Entry environment such as a password prompt, terminal with Secure
+            Keyboard Entry, etc.
           </li>
         </ul>
 
+        <h3>Current limitations</h3>
+
+        <ul>
+          <li>
+            Karabiner-Elements cannot modify <b>the eject key</b> on some
+            keyboard (e.g., Apple Wired Keyboard) due to the limitation of macOS
+            API.
+          </li>
+          <li>
+            Karabiner-Elements cannot modify
+            <b>the fn key on non Apple keyboards</b> such as Logitech keyboards.
+          </li>
+          <li>
+            Karabiner-Elements ignores the
+            <b>System Preferences &gt; Keyboard &gt; Modifier Keys...</b>
+            configuration.<br />
+            Change modifiers by using <b>Simple Modifications</b>.
+            <a href="#event-modification-chaining"
+              >(detail of input event modification chaining)</a
+            >
+          </li>
+        </ul>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="usage">Usage</h1>
+          <h2 id="usage">Usage</h2>
         </div>
 
-        <h2>Step 1</h2>
+        <h3>Step 1</h3>
         <p>
-          Open Launchpad (or open <span class="glyphicon glyphicon-folder-open"></span> Applications folder from Finder).
+          Open Launchpad (or open
+          <span class="glyphicon glyphicon-folder-open"></span> Applications
+          folder from Finder).
         </p>
         <p>
           Then, click Karabiner-Elements.
@@ -180,45 +214,53 @@
         <div class="row">
           <div class="col-lg-4">
             <p>
-              <img
-              alt="launchpad"
-src="img/karabiner-elements-icon@2x.png" width="184" height="177"              />
+              <img alt="launchpad" src="img/karabiner-elements-icon@2x.png" width="184" height="177" />
             </p>
           </div>
         </div>
 
-        <h2>Step 2</h2>
+        <h3>Step 2</h3>
 
         <p>
           An alert about kext policy will be shown since macOS High Sierra.<br />
-          Click <b>Open System Preferences &gt; Security &amp; Privacy</b> button, then press <b>Allow</b> button.
+          Click
+          <b>Open System Preferences &gt; Security &amp; Privacy</b> button,
+          then press <b>Allow</b> button.
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-1" class="thumbnail">
-  <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext policy" />
+            <a data-toggle="modal" href="#lightbox-1" class="thumbnail">
+  <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext
+            policy" />
 </a>
 <div class="modal fade" id="lightbox-1" tabindex="30001">
   <div class="modal-dialog clickable" style="width: 959px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext policy" style="width: 100%" />
+        <img src="img/high-sierra-kext-policy@2x.png" alt="An alert of Kext
+            policy" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
+
           </div>
         </div>
 
         <div class="panel panel-default">
           <div class="panel-heading">Note</div>
           <div class="panel-body">
-            If the <b>Allow</b> button is not hidden after you click it, you failed to click the button.<br />
-            Please follow <a href="help.html#kext-allow-button-does-not-work">this instruction</a> to solve the problem.
+            If the <b>Allow</b> button is not hidden after you click it, you
+            failed to click the button.<br />
+            Please follow
+            <a href="help.html#kext-allow-button-does-not-work"
+              >this instruction</a
+            >
+            to solve the problem.
           </div>
         </div>
 
-        <h2>Step 3</h2>
+        <h3>Step 3</h3>
 
         <p>
           Keyboard Setup Assistant will be opened.<br />
@@ -226,36 +268,51 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-2" class="thumbnail">
-  <img src="img/keyboard-setup-assistant@2x.png" alt="Keyboard Setup Assistant" />
+            <a data-toggle="modal" href="#lightbox-2" class="thumbnail">
+  <img src="img/keyboard-setup-assistant@2x.png" alt="Keyboard Setup
+            Assistant" />
 </a>
 <div class="modal fade" id="lightbox-2" tabindex="30002">
   <div class="modal-dialog clickable" style="width: 676px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/keyboard-setup-assistant@2x.png" alt="Keyboard Setup Assistant" style="width: 100%" />
+        <img src="img/keyboard-setup-assistant@2x.png" alt="Keyboard Setup
+            Assistant" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
+
           </div>
         </div>
 
-        <h2>Step 4</h2>
+        <h3>Step 4</h3>
         <p>
           Configure Karabiner-Elements from UI.
         </p>
 
         <ul>
-          <li><a href="#configuration-keyboard-type">Set keyboard type (ANSI, ISO or JIS)</a></li>
+          <li>
+            <a href="#configuration-keyboard-type"
+              >Set keyboard type (ANSI, ISO or JIS)</a
+            >
+          </li>
           <li><a href="#configuration-devices">Choose devices</a></li>
-          <li><a href="#configuration-simple-modifications">Change a key to another key</a></li>
-          <li><a href="#configuration-complex-modifications">Use more complex rules</a></li>
+          <li>
+            <a href="#configuration-simple-modifications"
+              >Change a key to another key</a
+            >
+          </li>
+          <li>
+            <a href="#configuration-complex-modifications"
+              >Use more complex rules</a
+            >
+          </li>
         </ul>
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-3" class="thumbnail">
   <img src="img/karabiner-elements-preferences@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-3" tabindex="30003">
@@ -272,29 +329,23 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
       </section>
 
       <section>
-        <div class="page-header">
-          <h1 id="configuration">
-            Configuration
-          </h1>
-        </div>
+        <h2 id="configuration-simple-modifications">
+          Change a key to another key
+        </h2>
 
-        <section>
-          <h2 id="configuration-simple-modifications">Change a key to another key</h2>
+        <p>
+          You can change a key to another key in
+          <b>Simple Modifications</b> tab.
+        </p>
 
-          <p>
-            You can change a key to another key in <b>Simple Modifications</b> tab.
-          </p>
+        <div class="instruction">
+          <h3>Step 1</h3>
 
-          <div class="instruction">
-            <h3>Step 1</h3>
+          <p>Choose target device, then press <b>Add item</b> button.</p>
 
-            <p>
-              Choose target device, then press <b>Add item</b> button.
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-4" class="thumbnail">
+          <div class="row">
+            <div class="col-lg-4">
+              <a data-toggle="modal" href="#lightbox-4" class="thumbnail">
   <img src="img/karabiner-elements-simple-modifications-1@2x.png" alt="Simple Modifications" />
 </a>
 <div class="modal fade" id="lightbox-4" tabindex="30004">
@@ -306,9 +357,10 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-5" class="thumbnail">
+
+            </div>
+            <div class="col-lg-4">
+              <a data-toggle="modal" href="#lightbox-5" class="thumbnail">
   <img src="img/karabiner-elements-simple-modifications-2@2x.png" alt="Simple Modifications" />
 </a>
 <div class="modal fade" id="lightbox-5" tabindex="30005">
@@ -320,19 +372,21 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-              </div>
+
             </div>
+          </div>
 
-            <h3>Step 2</h3>
+          <h3>Step 2</h3>
 
-            <p>
-              Select <b>From key</b> and <b>To key</b>.<br />
-              You can investigate the key name by using <a href="#eventviewer">Karabiner-EventViewer</a>.
-            </p>
+          <p>
+            Select <b>From key</b> and <b>To key</b>.<br />
+            You can investigate the key name by using
+            <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
 
-            <div class="row">
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-6" class="thumbnail">
+          <div class="row">
+            <div class="col-lg-4">
+              <a data-toggle="modal" href="#lightbox-6" class="thumbnail">
   <img src="img/karabiner-elements-simple-modifications-3@2x.png" alt="Simple Modifications" />
 </a>
 <div class="modal fade" id="lightbox-6" tabindex="30006">
@@ -344,9 +398,10 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-7" class="thumbnail">
+
+            </div>
+            <div class="col-lg-4">
+              <a data-toggle="modal" href="#lightbox-7" class="thumbnail">
   <img src="img/karabiner-elements-eventviewer-name@2x.png" alt="Karabiner EventViewer" />
 </a>
 <div class="modal fade" id="lightbox-7" tabindex="30007">
@@ -358,245 +413,288 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-              </div>
+
             </div>
-
-            <h3>Step 3</h3>
-
-            <p>
-              Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
-            </p>
           </div>
-        </section>
 
-        <section>
-          <h2 id="configuration-complex-modifications">Use more complex rules</h2>
+          <h3>Step 3</h3>
 
           <p>
-            Karabiner-Elements provides more complex event modifications.<br />
-            It changes keys according to the conditions.
+            Confirm the result in
+            <a href="#eventviewer">Karabiner-EventViewer</a>.
           </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="configuration-complex-modifications">Use more complex rules</h2>
+
+        <p>
+          Karabiner-Elements provides more complex event modifications.<br />
+          It changes keys according to the conditions.
+        </p>
+
+        <p>
+          Examples:
+        </p>
+
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <th>Modifier flags + key to keys</th>
+              <td>
+                <ul>
+                  <li>Change control-m to return key.</li>
+                  <li>Change control-h to delete key.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Key to modifier flags + keys</th>
+              <td>
+                <ul>
+                  <li>Change caps lock to command+control+option+shift key</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Post other key events when a key pressed alone</th>
+              <td>
+                <ul>
+                  <li>
+                    Post escape key when you press left control key alone.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Change keys in specific apps</th>
+              <td>
+                <ul>
+                  <li>
+                    Change left command key to left control key in virtual
+                    machines.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Execute shell command</th>
+              <td>
+                <ul>
+                  <li>Open Activity Monitor by right shift+a</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          You can import predefined rules from the internet (or make your own
+          rules).
+        </p>
+
+        <div class="instruction">
+          <h3>Step 1</h3>
 
           <p>
-            Examples:
+            Open <b>Complex Modifications</b> tab and press
+            <b>Add rule</b> button, then press
+            <b>Import more rules from the internet</b> button.<br />
+            Or open
+            <a
+              href="https://pqrs.org/osx/karabiner/complex_modifications/"
+              target="_blank"
+              >this page</a
+            >.
           </p>
 
-          <table class="table table-striped">
-            <tbody>
-              <tr>
-                <th>Modifier flags + key to keys</th>
-                <td>
-                  <ul>
-                    <li>Change control-m to return key.</li>
-                    <li>Change control-h to delete key.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th>Key to modifier flags + keys</th>
-                <td>
-                  <ul>
-                    <li>Change caps lock to command+control+option+shift key</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th>Post other key events when a key pressed alone</th>
-                <td>
-                  <ul>
-                    <li>Post escape key when you press left control key alone.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th>Change keys in specific apps</th>
-                <td>
-                  <ul>
-                    <li>Change left command key to left control key in virtual machines.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <th>Execute shell command</th>
-                <td>
-                  <ul>
-                    <li>Open Activity Monitor by right shift+a</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <p>
-            You can import predefined rules from the internet (or make your own rules).
-          </p>
-
-          <div class="instruction">
-            <h3>Step 1</h3>
-
-            <p>
-              Open <b>Complex Modifications</b> tab and press <b>Add rule</b> button, then press <b>Import more rules from the internet</b> button.<br />
-              Or open <a href="https://pqrs.org/osx/karabiner/complex_modifications/" target="_blank">this page</a>.
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-8" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-1@2x.png" alt="Complex Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-1@2x.png" alt="Complex
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-8" tabindex="30008">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-1@2x.png" alt="Complex Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-1@2x.png" alt="Complex
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-9" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-2@2x.png" alt="Complex Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-2@2x.png" alt="Complex
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-9" tabindex="30009">
   <div class="modal-dialog clickable" style="width: 954px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-2@2x.png" alt="Complex Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-2@2x.png" alt="Complex
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
+
             </div>
+          </div>
 
-            <h3>Step 2</h3>
+          <h3>Step 2</h3>
 
-            <p>
-              A web browser is opened. Press <b>Import</b> button in the page.<br />
-              A confirmation dialog is shown. Press <b>Allow</b> button.
-            </p>
+          <p>
+            A web browser is opened. Press <b>Import</b> button in the page.<br />
+            A confirmation dialog is shown. Press <b>Allow</b> button.
+          </p>
 
-            <div class="row">
-              <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-10" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-3@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-3@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-10" tabindex="30010">
   <div class="modal-dialog clickable" style="width: 1306px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-3@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-3@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-11" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-4@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-4@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-11" tabindex="30011">
   <div class="modal-dialog clickable" style="width: 1301px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-4@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-4@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-12" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-5@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-5@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-12" tabindex="30012">
   <div class="modal-dialog clickable" style="width: 552px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-5@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-5@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
+
             </div>
+          </div>
 
-            <h3>Step 3</h3>
+          <h3>Step 3</h3>
 
-            <p>
-              Karabiner-Elements is shown again. Press <b>Import</b> button, then new rules are imported.<br />
-              Press <b>Enable</b> button.
-            </p>
+          <p>
+            Karabiner-Elements is shown again. Press <b>Import</b> button, then
+            new rules are imported.<br />
+            Press <b>Enable</b> button.
+          </p>
 
-            <div class="row">
-              <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-13" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-6@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-6@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-13" tabindex="30013">
   <div class="modal-dialog clickable" style="width: 954px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-6@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-6@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
-              <div class="col-lg-4">
+
+            </div>
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-14" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-7@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-7@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-14" tabindex="30014">
   <div class="modal-dialog clickable" style="width: 954px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-7@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-7@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
+
             </div>
+          </div>
 
-            <h3>Step 4</h3>
+          <h3>Step 4</h3>
 
-            <p>
-              New rule is enabled.<br />
-              Confirm the result in <a href="#eventviewer">Karabiner-EventViewer</a>.
-            </p>
+          <p>
+            New rule is enabled.<br />
+            Confirm the result in
+            <a href="#eventviewer">Karabiner-EventViewer</a>.
+          </p>
 
-            <div class="row">
-              <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-4">
 <a data-toggle="modal" href="#lightbox-15" class="thumbnail">
-  <img src="img/karabiner-elements-complex-modifications-8@2x.png" alt="Simple Modifications" />
+  <img src="img/karabiner-elements-complex-modifications-8@2x.png" alt="Simple
+              Modifications" />
 </a>
 <div class="modal fade" id="lightbox-15" tabindex="30015">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-complex-modifications-8@2x.png" alt="Simple Modifications" style="width: 100%" />
+        <img src="img/karabiner-elements-complex-modifications-8@2x.png" alt="Simple
+              Modifications" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
-              </div>
+
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <h2 id="configuration-devices">Choose devices</h2>
+      <section>
+        <h2 id="configuration-devices">Choose devices</h2>
 
-          <p>
-            Choose devices which Karabiner-Elements modifies events in <b>Devices</b> tab.<br />
-            You can also disable MacBook built-in keyboard if external keyboards are connected in <b>Devices</b> tab.
-          </p>
+        <p>
+          Choose devices which Karabiner-Elements modifies events in
+          <b>Devices</b> tab.<br />
+          You can also disable MacBook built-in keyboard if external keyboards
+          are connected in <b>Devices</b> tab.
+        </p>
 
-          <div class="row">
-            <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-16" class="thumbnail">
+        <div class="row">
+          <div class="col-lg-4">
+            <a data-toggle="modal" href="#lightbox-16" class="thumbnail">
   <img src="img/karabiner-elements-devices@2x.png" alt="Devices" />
 </a>
 <div class="modal fade" id="lightbox-16" tabindex="30016">
@@ -608,20 +706,21 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <h2 id="configuration-keyboard-type">Set keyboard type</h2>
+      <section>
+        <h2 id="configuration-keyboard-type">Set keyboard type</h2>
 
-          <p>
-            You can change keyboard type via Keyboard Setup Assistant from <b>System Preferences &gt; Keyboard</b>.
-          </p>
+        <p>
+          You can change keyboard type via Keyboard Setup Assistant from
+          <b>System Preferences &gt; Keyboard</b>.
+        </p>
 
-          <div class="row">
-            <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-17" class="thumbnail">
+        <div class="row">
+          <div class="col-lg-4">
+            <a data-toggle="modal" href="#lightbox-17" class="thumbnail">
   <img src="img/system-preferences-keyboard-setup-assistant@2x.png" alt="Keyboard Setup Assistant" />
 </a>
 <div class="modal fade" id="lightbox-17" tabindex="30017">
@@ -633,16 +732,16 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
-            </div>
+
           </div>
-        </section>
+        </div>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="quit">
+          <h2 id="quit">
             How to quit
-          </h1>
+          </h2>
         </div>
 
         <p>
@@ -651,7 +750,7 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-18" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-18" class="thumbnail">
   <img src="img/karabiner-elements-menu-quit@2x.png" alt="Menu" />
 </a>
 <div class="modal fade" id="lightbox-18" tabindex="30018">
@@ -665,7 +764,7 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
 </div>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-19" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-19" class="thumbnail">
   <img src="img/karabiner-elements-quit@2x.png" alt="Preferences" />
 </a>
 <div class="modal fade" id="lightbox-19" tabindex="30019">
@@ -683,36 +782,52 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
 
       <section>
         <div class="page-header">
-          <h1 id="uninstall">
+          <h2 id="uninstall">
             Uninstall
-          </h1>
+          </h2>
         </div>
         <p>
           Press the "Uninstall Karabiner-Elements" button in "Misc" tab.
         </p>
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-20" class="thumbnail">
-  <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall Karabiner-Elements" />
+            <a data-toggle="modal" href="#lightbox-20" class="thumbnail">
+  <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall
+            Karabiner-Elements" />
 </a>
 <div class="modal fade" id="lightbox-20" tabindex="30020">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall Karabiner-Elements" style="width: 100%" />
+        <img src="img/karabiner-elements-uninstall@2x.png" alt="Uninstall
+            Karabiner-Elements" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
+
+          </div>
+        </div>
+
+        <div class="alert alert-warning">
+          <strong>Advanced topic:</strong><br/>
+
+          <p>
+            If you don't want to use above GUI, you can also uninstall Karabiner-Elements from command line.
+          </p>
+          <div class="pre-shell">
+            <pre>
+$ sudo '/Library/Application Support/org.pqrs/Karabiner-Elements/uninstall_core.sh'
+</pre>
           </div>
         </div>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="check-for-updates">
+          <h2 id="check-for-updates">
             Check for updates
-          </h1>
+          </h2>
         </div>
 
         <p>
@@ -721,28 +836,32 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-21" class="thumbnail">
-  <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check for updates" />
+            <a data-toggle="modal" href="#lightbox-21" class="thumbnail">
+  <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check
+            for updates" />
 </a>
 <div class="modal fade" id="lightbox-21" tabindex="30021">
   <div class="modal-dialog clickable" style="width: 960px;">
     <div class="modal-content">
       <div class="modal-body">
-        <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check for updates" style="width: 100%" />
+        <img src="img/karabiner-elements-check-for-updates@2x.png" alt="Check
+            for updates" style="width: 100%" />
       </div>
     </div>
   </div>
 </div>
+
           </div>
         </div>
 
         <p>
-          If you want to use the latest beta version, use "Check for beta updates" button.
+          If you want to use the latest beta version, use "Check for beta
+          updates" button.
         </p>
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-22" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-22" class="thumbnail">
   <img src="img/karabiner-elements-check-for-updates-beta@2x.png" alt="Check for updates" />
 </a>
 <div class="modal fade" id="lightbox-22" tabindex="30022">
@@ -754,15 +873,16 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
     </div>
   </div>
 </div>
+
           </div>
         </div>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="eventviewer">
+          <h2 id="eventviewer">
             How to confirm result of configuration
-          </h1>
+          </h2>
         </div>
 
         <p>
@@ -773,20 +893,19 @@ src="img/karabiner-elements-icon@2x.png" width="184" height="177"              /
         <div class="row">
           <div class="col-lg-6">
             <p>
-              <img
-              alt="menu"
-src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"              />
+              <img alt="menu" src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184" />
             </p>
           </div>
         </div>
 
         <p>
-          Input events will be shown when you type keyboard on EventViewer or press pointing buttons on Mouse Area.
+          Input events will be shown when you type keyboard on EventViewer or
+          press pointing buttons on Mouse Area.
         </p>
 
         <div class="row">
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-23" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-23" class="thumbnail">
   <img src="img/karabiner-elements-eventviewer@2x.png" alt="eventviewer" />
 </a>
 <div class="modal fade" id="lightbox-23" tabindex="30023">
@@ -804,9 +923,9 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
 
       <section>
         <div class="page-header">
-          <h1 id="profiles">
+          <h2 id="profiles">
             Multiple profiles
-          </h1>
+          </h2>
         </div>
         <p>
           You can switch profiles from menu bar. <br />
@@ -816,13 +935,11 @@ src="img/karabiner-elements-eventviewer-icon@2x.png" width="210" height="184"   
         <div class="row">
           <div class="col-lg-6">
             <p>
-              <img
-              alt="profiles"
-src="img/karabiner-elements-menu-profiles@2x.png" width="384" height="203"              />
+              <img alt="profiles" src="img/karabiner-elements-menu-profiles@2x.png" width="384" height="203" />
             </p>
           </div>
           <div class="col-lg-4">
-<a data-toggle="modal" href="#lightbox-24" class="thumbnail">
+            <a data-toggle="modal" href="#lightbox-24" class="thumbnail">
   <img src="img/karabiner-elements-profiles@2x.png" alt="Profiles" />
 </a>
 <div class="modal fade" id="lightbox-24" tabindex="30024">
@@ -840,68 +957,95 @@ src="img/karabiner-elements-menu-profiles@2x.png" width="384" height="203"      
 
       <section>
         <div class="page-header">
-          <h1 id="implicit">
+          <h2 id="implicit">
             Implicit behavior
-          </h1>
+          </h2>
         </div>
 
         <p>
-          Karabiner-Elements modifies following behavior automatically without any configurations:
+          Karabiner-Elements modifies following behavior automatically without
+          any configurations:
         </p>
 
-        <h2>
+        <h3>
           Share state of modifier keys with all connected keyboards:
-        </h2>
+        </h3>
         <p>
-          When you are using multiple keyboards, modifier keys are shared with all keyboards.<br />
-          For example, pressing "shift key on keyboard1" and "space key on keyboard2" sends shift-space.
+          When you are using multiple keyboards, modifier keys are shared with
+          all keyboards.<br />
+          For example, pressing "shift key on keyboard1" and "space key on
+          keyboard2" sends shift-space.
         </p>
 
-        <h2>
+        <h3>
           Add fn-key combinations:
-        </h2>
+        </h3>
         <p>
           Karabiner adds fn-key combinations:
         </p>
 
-        <h3>Fn-Arrow keys:</h3>
+        <h4>Fn-Arrow keys:</h4>
         <table class="table table-striped">
           <colgroup>
             <col class="col-lg-4" />
             <col class="col-lg-8" />
           </colgroup>
           <thead>
-            <tr><th>Key combination</th><th>Result</th></tr>
+            <tr>
+              <th>Key combination</th>
+              <th>Result</th>
+            </tr>
           </thead>
           <tbody>
-            <tr><td>Fn-Up Arrow</td><td>PageUp</td></tr>
-            <tr><td>Fn-Down Arrow</td><td>PageDown</td></tr>
-            <tr><td>Fn-Left Arrow</td><td>Home</td></tr>
-            <tr><td>Fn-Right Arrow</td><td>End</td></tr>
+            <tr>
+              <td>Fn-Up Arrow</td>
+              <td>PageUp</td>
+            </tr>
+            <tr>
+              <td>Fn-Down Arrow</td>
+              <td>PageDown</td>
+            </tr>
+            <tr>
+              <td>Fn-Left Arrow</td>
+              <td>Home</td>
+            </tr>
+            <tr>
+              <td>Fn-Right Arrow</td>
+              <td>End</td>
+            </tr>
           </tbody>
         </table>
 
-        <h3>Fn-Return, Fn-Delete:</h3>
+        <h4>Fn-Return, Fn-Delete:</h4>
         <table class="table table-striped">
           <colgroup>
             <col class="col-lg-4" />
             <col class="col-lg-8" />
           </colgroup>
           <thead>
-            <tr><th>Key combination</th><th>Result</th></tr>
+            <tr>
+              <th>Key combination</th>
+              <th>Result</th>
+            </tr>
           </thead>
           <tbody>
-            <tr><td>Fn-Return</td><td>Enter</td></tr>
-            <tr><td>Fn-Delete</td><td>Forward Delete</td></tr>
+            <tr>
+              <td>Fn-Return</td>
+              <td>Enter</td>
+            </tr>
+            <tr>
+              <td>Fn-Delete</td>
+              <td>Forward Delete</td>
+            </tr>
           </tbody>
         </table>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="event-modification-chaining">
+          <h2 id="event-modification-chaining">
             Input event modification chaining
-          </h1>
+          </h2>
         </div>
 
         <p>
@@ -912,27 +1056,37 @@ src="img/karabiner-elements-menu-profiles@2x.png" width="384" height="203"      
           <li>Catch events from hardware.</li>
           <li>Apply <b>Simple Modifications</b>.</li>
           <li>Apply <b>Complex Modifications</b>.</li>
-          <li>Apply <b>Function Keys Modifications (change f1...f12 keys to media controls)</b>.</li>
+          <li>
+            Apply
+            <b
+              >Function Keys Modifications (change f1...f12 keys to media
+              controls)</b
+            >.
+          </li>
           <li>Post events to applications via a virtual keyboard.</li>
         </ol>
 
         <div class="alert alert-warning">
-          System modifier keys configuration in <b>System Preferences &gt; Keyboard</b> is ignored when you use Karabiner-Elements.<br />
-          Change modifier keys in Karabiner-Elements's <b>Simple Modifications</b>.
+          System modifier keys configuration in
+          <b>System Preferences &gt; Keyboard</b> is ignored when you use
+          Karabiner-Elements.<br />
+          Change modifier keys in Karabiner-Elements's
+          <b>Simple Modifications</b>.
         </div>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="command-line-interface">
+          <h2 id="command-line-interface">
             Command line interface
-          </h1>
+          </h2>
         </div>
         <p>
-          Karabiner-Elements provides a command line interface which allows you to select a profile. (karabiner_cli command)
+          Karabiner-Elements provides a command line interface which allows you
+          to select a profile. (karabiner_cli command)
         </p>
 
-        <h2>Usage</h2>
+        <h3>Usage</h3>
         <div class="pre-shell">
           <pre>
 $ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default profile'
@@ -942,18 +1096,20 @@ $ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' -
 
       <section>
         <div class="page-header">
-          <h1 id="configuration-file-path">
+          <h2 id="configuration-file-path">
             The location of the configuration file
-          </h1>
+          </h2>
         </div>
         <p>
-          Karabiner-Elements stores configuration to a json file which is located <b>~/.config/karabiner/karabiner.json</b>
+          Karabiner-Elements stores configuration to a json file which is
+          located <b>~/.config/karabiner/karabiner.json</b>
         </p>
 
-        <h2>About symbolic link</h2>
+        <h3>About symbolic link</h3>
 
         <p>
-          If you want to move karabiner.json to another place and make symbolic link, link to <b>~/.config/karabiner</b> directory.
+          If you want to move karabiner.json to another place and make symbolic
+          link, link to <b>~/.config/karabiner</b> directory.
         </p>
 
         <p>
@@ -968,8 +1124,9 @@ $ ln -s ~/Dropbox/private/karabiner ~/.config
         </div>
 
         <p>
-          You have to restart karabiner_console_user_server process by the following command after you made a symlink
-          in ordre to tell Karabiner-Elements that the parent directory is changed.
+          You have to restart karabiner_console_user_server process by the
+          following command after you made a symlink in ordre to tell
+          Karabiner-Elements that the parent directory is changed.
         </p>
 
         <div class="pre-shell">
@@ -980,25 +1137,30 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
 
         <div class="alert alert-warning">
           Do not make a symlink to <b>karabiner.json</b>.<br />
-          Karabiner-Elements does not reload the configuration file properly if you make a symlink to json file directly.
+          Karabiner-Elements does not reload the configuration file properly if
+          you make a symlink to json file directly.
         </div>
       </section>
 
       <section>
         <div class="page-header">
-          <h1 id="security">
+          <h2 id="security">
             Security
-          </h1>
+          </h2>
         </div>
         <p>
-          Preventing event leaks is one of the most important point of Karabiner-Elements architecture design.
+          Preventing event leaks is one of the most important point of
+          Karabiner-Elements architecture design.
         </p>
         <p>
-          Karabiner-Elements treats all input events in privileged process which is named <b>karabiner_grabber</b> in order to guard input events from other processes.<br />
-          There is no way that malicious processes steal your input events from Karabiner-Elements.
+          Karabiner-Elements treats all input events in privileged process which
+          is named <b>karabiner_grabber</b> in order to guard input events from
+          other processes.<br />
+          There is no way that malicious processes steal your input events from
+          Karabiner-Elements.
         </p>
 
-        <h2>Components</h2>
+        <h3>Components</h3>
 
         <p>
           Karabiner-Elements works with the following core components.
@@ -1007,46 +1169,47 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
         <table class="table table-striped">
           <tbody>
             <tr>
-              <th>
-                <b>karabiner_grabber</b> process
-              </th>
+              <th><b>karabiner_grabber</b> process</th>
               <td>
                 <ul>
                   <li>Privileged process.</li>
-                  <li>Grab the keyboard hardware and catch events, modify events then post it to virtual devices.</li>
+                  <li>
+                    Grab the keyboard hardware and catch events, modify events
+                    then post it to virtual devices.
+                  </li>
                 </ul>
               </td>
             </tr>
             <tr>
-              <th>
-                <b>karabiner_console_user_server</b> process
-              </th>
+              <th><b>karabiner_console_user_server</b> process</th>
               <td>
                 <ul>
                   <li>Session user process.</li>
-                  <li>karabiner_grabber grabs keyboards while karabiner_console_user_server is running.</li>
+                  <li>
+                    karabiner_grabber grabs keyboards while
+                    karabiner_console_user_server is running.
+                  </li>
                   <li>Shell command is executed in this process.</li>
                   <li>Connect to karabiner_grabber via unix domain socket.</li>
                 </ul>
               </td>
             </tr>
-            <th>
-              <b>Karabiner VirtualHIDDevice</b> kernel extension
-            </th>
-            <td>
-              <ul>
-                <li>Virtual keyboard and pointing device.</li>
-                <li>
-                  Non privileged process is forbidden to post events to virtual device.<br />
-                  (Only the <b>karabiner_grabber</b> process can post events.
-                </li>
-              </ul>
-            </td>
+            <th><b>Karabiner VirtualHIDDevice</b> kernel extension</th>
+            <tr>
+              <td>
+                <ul>
+                  <li>Virtual keyboard and pointing device.</li>
+                  <li>
+                    Non privileged process is forbidden to post events to
+                    virtual device.<br />
+                    (Only the <b>karabiner_grabber</b> process can post events.
+                  </li>
+                </ul>
+              </td>
             </tr>
           </tbody>
         </table>
       </section>
-
     </div>
     <div class="col-md-3">
       <div class="bs-docs-sidebar">
