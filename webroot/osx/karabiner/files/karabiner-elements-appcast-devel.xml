@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.2.4</title>
+      <title>Version 12.2.5</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.2.4 Update</h2>
+<h2>About v12.2.5 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -48,6 +48,31 @@
       </ul>
     </div>
   </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Changes for users who write their own json.
+          <ul>
+            <li>
+              `to` and `to_*` support single object, e.g., `"to": { "key_code":
+              "spacebar" }`.
+            </li>
+            <li>
+              New modifier aliases are added: `left_alt`, `left_gui`,
+              `right_alt`, `right_gui`.
+            </li>
+            <li>
+              `key_code`, `consumer_key_code` and `pointing_button` supports a
+              number value, e.g., `"from": {"key_code": 175}`.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <!-- update-description-end -->
 <p>
@@ -55,10 +80,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 21 Mar 2019 08:54:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.4.dmg"
-                 sparkle:version="12.2.4" length="6072847" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCj6fnHGAtnfG/DGXV22wJxZuzvvgIVAO39Aavoqh8fARNQhuLAjjRFnAc1"
+      <pubDate>Sat, 23 Mar 2019 03:59:45 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.5.dmg"
+                 sparkle:version="12.2.5" length="6073351" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFQTjqAPa7YoegrkIL2j8p6cXG6xAhUA6qmvp2nfzW1wdz6PVMIV7qKYbuw="
                  />
     </item>
 
