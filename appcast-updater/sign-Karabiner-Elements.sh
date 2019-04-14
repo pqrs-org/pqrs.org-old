@@ -15,8 +15,15 @@ dsaSignature=$(sh scripts/sign_update.sh $latest_dmg $priv_pem)
 pubDate=$(ruby scripts/get-time.rb)
 
 if [ "$version" == $(ruby scripts/get-version.rb <"$targetdir/karabiner-elements-appcast-devel.xml") ]; then
-    echo " $(basename $0): Already up-to-date."
-    exit 0
+  echo " $(basename $0): Already up-to-date."
+  exit 0
+fi
+
+if xcrun stapler validate -q $latest_dmg; then
+  echo " $(basename $latest_dmg) is notarized"
+else
+  echo " ERROR: $(basename $latest_dmg) is not notarized"
+  exit 1
 fi
 
 rm -f "$targetdir/karabiner-elements-appcast-devel.xml.tmp"
@@ -70,6 +77,6 @@ EOF
 mv "$targetdir/karabiner-elements-appcast-devel.xml.tmp" "$targetdir/karabiner-elements-appcast-devel.xml"
 chmod 644 "$targetdir/karabiner-elements-appcast-devel.xml"
 echo \
-    '\033[33;40m' \
-    "$(basename $0): karabiner-elements-appcast-devel.xml is updated." \
-    '\033[0m'
+  '\033[33;40m' \
+  "$(basename $0): karabiner-elements-appcast-devel.xml is updated." \
+  '\033[0m'
