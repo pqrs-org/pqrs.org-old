@@ -29,7 +29,15 @@
             href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_motion_to_scroll"
             >Change mouse motion to scroll
           </a>
-          feature.
+          feature.<br />
+          <br />
+          Note:<br />
+          You have to enable your mice on
+          <a
+            href="https://pqrs.org/osx/karabiner/document.html#configuration-devices"
+            >Devices tab</a
+          >
+          when you want to use this feature.
         </li>
       </ul>
     </div>
@@ -124,10 +132,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 15 Apr 2019 15:51:25 -0000</pubDate>
+      <pubDate>Mon, 15 Apr 2019 16:07:13 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.12.dmg"
                  sparkle:version="12.2.12" length="6180493" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQC2CpKyFE0FmRmOvidCxBYfkydcPwIUUO9NoEZ9kS0zmENi10We/Es+DtU="
+                 sparkle:dsaSignature="MC4CFQCd1iRqbefBOLpraWZxX6C+ldxJgwIVAMgE/XDVMomn8S3D4MiQM+8ILa7Z"
                  />
     </item>
 
