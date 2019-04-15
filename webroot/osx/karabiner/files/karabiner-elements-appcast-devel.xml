@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.2.11</title>
+      <title>Version 12.2.12</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,26 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.2.11 Update</h2>
+<h2>About v12.2.12 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added
+          <a
+            href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_motion_to_scroll"
+            >Change mouse motion to scroll
+          </a>
+          feature.
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -44,6 +60,34 @@
           Added `--lint-complex-modifications` option into `karabiner_cli`.
           <br />
           It allows you checks a complex-modifications json file.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added a wait before grabbing device in order to avoid an macOS issue
+          that device will be unusable after Karabiner-Elements is quit.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-important">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          complex modifications json will be checked strictly since this
+          release. Please check
+          <a href="https://pqrs.org/osx/karabiner/json.html#location"
+            >error messages</a
+          >
+          if your complex modifications does not work after upgrade.
         </li>
       </ul>
     </div>
@@ -80,10 +124,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 15 Apr 2019 04:37:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.11.dmg"
-                 sparkle:version="12.2.11" length="6180726" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQC8xiAlOT44hRkrhWh9YF76grbi6AIVAJTQx4fv/9R/LGsLXK4usoQIaQMI"
+      <pubDate>Mon, 15 Apr 2019 15:41:13 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.12.dmg"
+                 sparkle:version="12.2.12" length="6180493" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFDxzJ4DUZd2tRbmbuD8j/xgEvMLIAhQ7iDqjhoVVrIU+6xFzdz3M576+jQ=="
                  />
     </item>
 
