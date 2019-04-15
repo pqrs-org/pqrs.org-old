@@ -45,7 +45,7 @@
           <a href="https://pqrs.org/osx/karabiner/json.html#location"
             >error messages</a
           >
-          if your complex modifications does not work after upgrade.
+          if your complex modifications do not work after upgrade.
         </li>
       </ul>
     </div>
@@ -124,10 +124,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 15 Apr 2019 15:43:47 -0000</pubDate>
+      <pubDate>Mon, 15 Apr 2019 15:51:25 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.12.dmg"
                  sparkle:version="12.2.12" length="6180493" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHLM4ecUdnxeYVCHceHA5wT6LE0CAhQmWtWG1uoUGFpPfUCvliGj7XZarw=="
+                 sparkle:dsaSignature="MC0CFQC2CpKyFE0FmRmOvidCxBYfkydcPwIUUO9NoEZ9kS0zmENi10We/Es+DtU="
                  />
     </item>
 
