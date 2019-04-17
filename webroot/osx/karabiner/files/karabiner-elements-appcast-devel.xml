@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.2.13</title>
+      <title>Version 12.2.14</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.2.13 Update</h2>
+<h2>About v12.2.14 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -132,10 +132,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 16 Apr 2019 04:41:24 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.13.dmg"
-                 sparkle:version="12.2.13" length="6180563" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDd7bqWIJ7kVE/OUZDepfFqXWEHuwIVAL0JjWdPNSyjqf8lC4Pal3pcUco5"
+      <pubDate>Wed, 17 Apr 2019 03:46:54 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.2.14.dmg"
+                 sparkle:version="12.2.14" length="6180134" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFHexyPxpc/g1Xs0R+4jRJKn7lMTzAhUAjMnNmmnZBaxn9M4YG3ENRxoXNFc="
                  />
     </item>
 
