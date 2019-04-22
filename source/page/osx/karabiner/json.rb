@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
@@ -59,11 +58,11 @@ class Json < KarabinerBase
       },
       {
         :href => '#from-event-definition-modifiers-list',
-        :name => 'The list of modifiers in from definition'
+        :name => 'The list of modifiers in from definition',
       },
       {
         :href => '#simultaneous',
-        :name => 'Detail of simultaneous'
+        :name => 'Detail of simultaneous',
       },
       {
         :href => '#to-event-definition',
@@ -71,45 +70,52 @@ class Json < KarabinerBase
       },
       {
         :href => '#to-event-definition-modifiers-list',
-        :name => 'The list of modifiers in to definition'
+        :name => 'The list of modifiers in to definition',
       },
       {
         :href => '#to-if-alone',
-        :name => 'Detail of to_if_alone'
+        :name => 'Detail of to_if_alone',
       },
       {
         :href => '#to-if-held-down',
-        :name => 'Detail of to_if_held_down'
+        :name => 'Detail of to_if_held_down',
       },
       {
-        :name => 'Condition definition'
+        :name => 'Condition definition',
       },
       {
         :href => '#condition-definition-frontmost-application',
-        :name => 'condition definition frontmost_application_if and frontmost_application_unless'
+        :name => 'condition definition frontmost_application_if and frontmost_application_unless',
       },
       {
         :href => '#condition-definition-device',
-        :name => 'condition definition device_if and device_unless'
+        :name => 'condition definition device_if and device_unless',
       },
       {
         :href => '#condition-definition-keyboard-type',
-        :name => 'condition definition keyboard_type_if and keyboard_type_unless'
+        :name => 'condition definition keyboard_type_if and keyboard_type_unless',
       },
       {
         :href => '#condition-definition-input-source',
-        :name => 'condition definition input_source_if and input_source_unless'
+        :name => 'condition definition input_source_if and input_source_unless',
       },
       {
         :href => '#condition-definition-variable',
-        :name => 'condition definition variable_if and variable_unless'
+        :name => 'condition definition variable_if and variable_unless',
       },
       {
-        :name => 'Help'
+        :name => 'Change mouse motion to scroll',
+      },
+      {
+        :href => '#mouse-motion-to-scroll',
+        :name => 'mouse_motion_to_scroll',
+      },
+      {
+        :name => 'Help',
       },
       {
         :href => '#virtual-modifier',
-        :name => 'Virtual modifier'
+        :name => 'Virtual modifier',
       },
     ]
   end

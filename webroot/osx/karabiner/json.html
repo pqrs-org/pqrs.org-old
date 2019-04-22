@@ -1521,9 +1521,15 @@
 
         <h4 id="simultaneous-options-key-down-order">About <code>simultaneous_options</code> &gt; <code>key_down_order</code></h4>
 
-        <p><code>simultaneous</code> checks the order of key_down events if <code>key_down_order</code> is specified and is not <code>insensitive</code>.
+        <p>
+          <code>simultaneous</code> checks the order of key_down events
+          if <code>key_down_order</code> is specified and is not <code>insensitive</code>.
+        </p>
 
-        <p>For example, this definition manipulates <b>tab,q</b> to <b>mission_control</b> and does not manipulate <b>q,tab</b> events.
+        <p>
+          For example, this definition manipulates <b>tab,q</b> to <b>mission_control</b> and
+          does not manipulate <b>q,tab</b> events.
+        </p>
 
 <pre class="prettyprint lang-json">{
   "type": "basic",
@@ -1553,7 +1559,10 @@
 }</pre>
         <h4 id="simultaneous-options-key-up-order">About <code>simultaneous_options</code> &gt; <code>key_up_order</code></h4>
 
-        <p><code>simultaneous</code> checks the order of key_up events if <code>key_up_order</code> is specified and is not <code>insensitive</code>.
+        <p>
+          <code>simultaneous</code> checks the order of key_up events
+          if <code>key_up_order</code> is specified and is not <code>insensitive</code>.
+        </p>
 
         <div class="alert alert-info" role="alert">
           <h5>Note:</h5>
@@ -2124,7 +2133,7 @@
 }</pre>
         <div class="alert alert-info" role="alert">
           It's useful for supporting "change control-[ to escape" with all keyboard types.
-          <a href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json">(example json)</a><br />
+          <a target="_blank" href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/example_keyboard_type.json">(example json)</a><br />
           Some characters have different key code for each keyboard types.<br />
           (e,g,. <b>[</b> is <code>open_bracket</code> on <b>ansi</b> and <b>iso</b>, <code>close_bracket</code> on <b>jis</b>.)
         </div>
@@ -2288,6 +2297,57 @@
 
       <section>
         <div class="page-header">
+          <h1>Change mouse motion to scroll</h1>
+        </div>
+
+        <h2 id="mouse-motion-to-scroll">mouse_motion_to_scroll</h2>
+
+        <div class="alert alert-info">
+          <code>mouse_motion_to_scroll</code> is available since Karabiner-Elements 12.3.0.
+        </div>
+
+        <p>
+          Use <code>"type": "mouse_motion_to_scroll"</code> instead of <code>"type": "basic"</code>.
+        </p>
+
+<pre class="prettyprint lang-json">{
+    "type": "mouse_motion_to_scroll",
+
+    "from": {
+        "modifiers": {
+            "mandatory": [
+                modifier,
+                modifier,
+                ...
+            ],
+            "optional": [
+                modifier,
+                modifier,
+                ...
+            ]
+        }
+    },
+    "conditions": [
+        condition definition,
+        condition definition,
+        ...
+    ],
+    "options": {
+        "speed_multiplier": 1.0
+    }
+}</pre>
+        <h3>Typical examples</h3>
+        <p>
+          <a target="_blank" href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/mouse_motion_to_scroll.json">mouse_motion_to_scroll.json</a>
+        </p>
+        <p>
+          <code>button4</code> and <code>button5</code> in <a target="_blank" href="https://github.com/pqrs-org/KE-complex_modifications/blob/master/docs/json/mouse_motion_to_scroll.json">mouse_motion_to_scroll.json</a> are using <a href="#virtual-modifier">a virtual modifier</a>
+          (using a <code>enable_mouse_motion_to_scroll</code> variable as flag).
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1>Help</h1>
         </div>
 
@@ -2300,8 +2360,8 @@
         </p>
         <ul>
           <li>Use <b>keypad_1</b> as virtual modifier (<b>my_modifier_1</b>).</li>
-          <li>Change  <b>keypad_1</b> + <b>a</b> to <b>mission_control</b>.</li>
-          <li>Change  <b>keypad_1</b> + <b>s</b> to <b>launchpad</b>.</li>
+          <li>Change <b>keypad_1</b> + <b>a</b> to <b>mission_control</b>.</li>
+          <li>Change <b>keypad_1</b> + <b>s</b> to <b>launchpad</b>.</li>
         </ul>
 
 <pre class="prettyprint lang-json">[
@@ -2489,6 +2549,12 @@
               <li>
                 <a href="#condition-definition-variable">
                   condition definition variable_if and variable_unless
+                </a>
+              </li>
+              <li class="nav-header">Change mouse motion to scroll</li>
+              <li>
+                <a href="#mouse-motion-to-scroll">
+                  mouse_motion_to_scroll
                 </a>
               </li>
               <li class="nav-header">Help</li>
