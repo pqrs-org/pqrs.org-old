@@ -4,6 +4,11 @@
     "**/*.dmg": true,
     "**/*.gz": true,
     "**/*.zip": true,
-    "go/build/": true
+    "go/build/": true,
+    "webroot/**/*.css": true,
+    "webroot/**/*.html": true,
+    "webroot/**/*.map": true,
+    "webroot/**/images": true,
+    "webroot/**/img": true
   },
 }
