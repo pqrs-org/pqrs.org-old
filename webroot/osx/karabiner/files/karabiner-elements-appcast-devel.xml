@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.3.0</title>
+      <title>Version 12.3.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,112 +15,16 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.3.0 Update</h2>
+<h2>About v12.3.1 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Added
-          <a
-            href="https://pqrs.org/osx/karabiner/complex_modifications/#mouse_motion_to_scroll"
-            >Change mouse motion to scroll
-          </a>
-          feature.<br />
-          <br />
-          Note:<br />
-          You have to enable your mice on
-          <a
-            href="https://pqrs.org/osx/karabiner/document.html#configuration-devices"
-            >Devices tab</a
-          >
-          when you want to use this feature.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-important">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          complex modifications json will be checked strictly since this
-          release. Please check
-          <a href="https://pqrs.org/osx/karabiner/json.html#location"
-            >error messages</a
-          >
-          if your complex modifications do not work after upgrade.
-        </li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
         <li>
-          Set Karabiner-Elements.app and Karabiner-EventViewer.app immutable in
-          order to ensure unremovable them except built-in uninstaller.<br />
-          Please use the uninstaller when you want to remove
-          Karabiner-Elements.<br />
-          <a href="https://pqrs.org/osx/karabiner/document.html#uninstall">
-            https://pqrs.org/osx/karabiner/document.html#uninstall
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Added `--lint-complex-modifications` option into `karabiner_cli`.
-          <br />
-          It allows you checks a complex-modifications json file.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Added a wait before grabbing device in order to avoid an macOS issue
-          that device will be unusable after Karabiner-Elements is quit.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Changes for users who write their own json.
-          <ul>
-            <li>
-              `to` and `to_*` support single object, e.g., `"to": { "key_code":
-              "spacebar" }`.
-            </li>
-            <li>
-              New modifier aliases are added: `left_alt`, `left_gui`,
-              `right_alt`, `right_gui`.
-            </li>
-            <li>
-              `key_code`, `consumer_key_code` and `pointing_button` supports a
-              number value, e.g., `"from": {"key_code": 175}`.
-            </li>
-          </ul>
+          Changed event code format to decimal number from hex on EventViewer.
         </li>
       </ul>
     </div>
@@ -132,10 +36,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 24 Apr 2019 11:02:03 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.0.dmg"
-                 sparkle:version="12.3.0" length="6247983" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCoKdZORAKzzp03HJZ2PRvlJe31FAIVAOE6yKYF2bBgev2YUsTfFTmJ0kPM"
+      <pubDate>Thu, 25 Apr 2019 03:32:14 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.1.dmg"
+                 sparkle:version="12.3.1" length="6248870" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFxiz17kpbe7WWY3yYC7XrqD+DnqAhUAly6ZHlZY6K4dhI1bY7OsipSib3A="
                  />
     </item>
 
