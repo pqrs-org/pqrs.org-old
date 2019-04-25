@@ -24,7 +24,7 @@
     <div class="update-description-body">
       <ul>
         <li>
-          Changed event code format to decimal number from hex on EventViewer.
+          Event code format on EventViewer changed to decimal number from hex.
         </li>
       </ul>
     </div>
@@ -36,10 +36,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 25 Apr 2019 03:32:14 -0000</pubDate>
+      <pubDate>Thu, 25 Apr 2019 06:03:24 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.1.dmg"
                  sparkle:version="12.3.1" length="6248870" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFFxiz17kpbe7WWY3yYC7XrqD+DnqAhUAly6ZHlZY6K4dhI1bY7OsipSib3A="
+                 sparkle:dsaSignature="MC0CFQCELaZBh4iLtbDnGq8iG7uGqKPeRwIUFd8/RKkXV4cyWauTXut6femLG/M="
                  />
     </item>
 
