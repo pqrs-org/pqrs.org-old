@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.3.3</title>
+      <title>Version 12.3.4</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,9 +15,23 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.3.3 Update</h2>
+<h2>About v12.3.4 Update</h2>
 
 <!-- update-description-begin -->
+<div class="update-description">
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Add `Mouse Key XY speed` configuration into `Karabiner-Elements
+          Preferences &gt; Virtual Keyboard` tab.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <div class="update-description">
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
@@ -36,10 +50,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 28 Apr 2019 08:35:23 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.3.dmg"
-                 sparkle:version="12.3.3" length="6263742" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCA1oUQl+DBF0JGZy8XzNk20Xdu9gIVAIV2zwCiFXddCecd7GO4KZO/UTir"
+      <pubDate>Wed, 01 May 2019 06:39:52 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.4.dmg"
+                 sparkle:version="12.3.4" length="6286384" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFATalJi5hElvpgJXShMc5MKfjTXHAhQSiHQOFydOTpZkW2SSPJ7d4prRfA=="
                  />
     </item>
 
