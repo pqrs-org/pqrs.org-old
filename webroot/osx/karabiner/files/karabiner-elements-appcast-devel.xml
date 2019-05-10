@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.3.4</title>
+      <title>Version 12.3.5</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,22 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.3.4 Update</h2>
+<h2>About v12.3.5 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Fixed a key stuck issue when the key is pressed immediately after the
+          keyboard is connected.
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -50,10 +62,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 01 May 2019 06:39:52 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.4.dmg"
-                 sparkle:version="12.3.4" length="6286384" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFATalJi5hElvpgJXShMc5MKfjTXHAhQSiHQOFydOTpZkW2SSPJ7d4prRfA=="
+      <pubDate>Fri, 10 May 2019 20:01:48 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.3.5.dmg"
+                 sparkle:version="12.3.5" length="6231818" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHTNYVB3V0Oiam2bNfjfMvgOBK7EAhQggxkRjwPMp/SBf7XWNwtez5JP1g=="
                  />
     </item>
 
