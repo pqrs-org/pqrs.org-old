@@ -24,8 +24,32 @@
     <div class="update-description-body">
       <ul>
         <li>
-          Fixed a key stuck issue when the key is pressed immediately after the
-          keyboard is connected.
+          Fixed a key stuck issue which occurs when the key is held down before
+          Karabiner-Elements opens the device.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          <p>
+            `Device is ignored temporarily` alert has been introduced.<br />
+            This alert will be shown if you hold keys or buttons down before
+            Karabiner-Elements open the device.
+          </p>
+          <p>
+            Please press the described key or button again to dismiss the alert.
+          </p>
+          <img
+            src="https://pqrs.org/osx/karabiner/img/news/v12.4.0_0.png"
+            alt="notification window"
+            class="img"
+            style="max-width: 420px; margin: 10px 0"
+          />
         </li>
       </ul>
     </div>
@@ -62,10 +86,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 14 May 2019 14:10:07 -0000</pubDate>
+      <pubDate>Tue, 14 May 2019 14:32:15 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.0.dmg"
                  sparkle:version="12.4.0" length="6344917" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCr1r9h5REIlmLdTja4lSKm4g/rkwIUTEv883K06H0+LLjMsb/Duhl2qZs="
+                 sparkle:dsaSignature="MCwCFAT5FGt7T8py0FwBfwL0v2mBi89vAhQl5eid30L8VkPIsr//Jf3QK/f5Hw=="
                  />
     </item>
 
