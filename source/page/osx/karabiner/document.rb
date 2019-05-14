@@ -73,6 +73,10 @@ class Document < KarabinerBase
         :name => 'Misc.',
       },
       {
+        :href => '#ignored-temporarily',
+        :name => '`Device is ignored temporarily` alert',
+      },
+      {
         :href => '#implicit',
         :name => 'Implicit behavior',
       },

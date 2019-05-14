@@ -957,6 +957,32 @@ $ sudo '/Library/Application Support/org.pqrs/Karabiner-Elements/uninstall_core.
 
       <section>
         <div class="page-header">
+          <h2 id="ignored-temporarily">
+            `Device is ignored temporarily` alert
+          </h2>
+        </div>
+        <p>
+          <b>Device is ignored temporarily</b> alert will be shown
+          if you hold keys or buttons down before Karabiner-Elements open the device.
+        </p>
+        <p>
+          Press the described key or button again to dismiss the alert.
+        </p>
+
+        <div class="row">
+          <div class="col-12">
+            <p>
+              <img
+                alt="profiles"
+                src="img/karabiner-elements-notification-window@2x.png" width="419" height="99"
+              />
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h2 id="implicit">
             Implicit behavior
           </h2>
@@ -1272,6 +1298,11 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
                 </a>
               </li>
               <li class="nav-header">Misc.</li>
+              <li>
+                <a href="#ignored-temporarily">
+                  `Device is ignored temporarily` alert
+                </a>
+              </li>
               <li>
                 <a href="#implicit">
                   Implicit behavior
