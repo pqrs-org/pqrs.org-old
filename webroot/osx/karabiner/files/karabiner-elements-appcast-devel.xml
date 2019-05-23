@@ -30,6 +30,17 @@
       </ul>
     </div>
   </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added `Show key code in hexadecimal format` option into EventViewer.
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <!-- update-description-end -->
 <p>
@@ -37,10 +48,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 23 May 2019 05:50:28 -0000</pubDate>
+      <pubDate>Thu, 23 May 2019 05:59:26 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.3.dmg"
                  sparkle:version="12.4.3" length="6352784" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDPF0XLICLRNsnL1KM4ybdanNPzawIUfoxTA0yc2j3+DZ/2ltt+pPCBr7s="
+                 sparkle:dsaSignature="MC0CFQCakLPqAeksJnP0JcRqz2I1Kh0dJQIUXE9NZKAqKtP80FZ6RYKFIkx+x6w="
                  />
     </item>
 
