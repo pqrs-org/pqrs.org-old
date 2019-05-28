@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.4.3</title>
+      <title>Version 12.4.5</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.4.3 Update</h2>
+<h2>About v12.4.5 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -26,6 +26,19 @@
         <li>
           Fixed a key stuck issue which occurs when the key is released, and at
           the exact same moment Karabiner-Elements opens the device.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Fixed a issue which Karabiner-Elements mistakes a remote user for a
+          current console user if another user is logged in from Screen Sharing
+          while console is used.
         </li>
       </ul>
     </div>
@@ -48,10 +61,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 23 May 2019 05:59:26 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.3.dmg"
-                 sparkle:version="12.4.3" length="6352784" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCakLPqAeksJnP0JcRqz2I1Kh0dJQIUXE9NZKAqKtP80FZ6RYKFIkx+x6w="
+      <pubDate>Tue, 28 May 2019 13:22:37 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.5.dmg"
+                 sparkle:version="12.4.5" length="6919188" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQClMVXlVSpQEFgzP1N8joDf95Y+sgIUfGZ9Jgrn1LTE6eKiE14WGwxnV5g="
                  />
     </item>
 
