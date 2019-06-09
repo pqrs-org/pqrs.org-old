@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.4.8</title>
+      <title>Version 12.4.9</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.4.8 Update</h2>
+<h2>About v12.4.9 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -39,6 +39,18 @@
           Fixed a issue which Karabiner-Elements mistakes a remote user for a
           current console user if another user is logged in from Screen Sharing
           while console is used.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Improved `XXX is ignored temporarily until YYY is pressed again`
+          behavior.
         </li>
       </ul>
     </div>
@@ -86,10 +98,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 03 Jun 2019 04:55:48 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.8.dmg"
-                 sparkle:version="12.4.8" length="6958617" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDIvbKI5egqS1FCTzSQbzyy6uQBNAIUSyiRYK32Wv74en9YBo7zXPwE3gU="
+      <pubDate>Sun, 09 Jun 2019 06:56:49 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.9.dmg"
+                 sparkle:version="12.4.9" length="6966638" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHSP4iKqoyzVFYCobyB/Im9gI1p0AhRQYMETlKBgq0bkPIdGY7Dfv2zcrQ=="
                  />
     </item>
 
