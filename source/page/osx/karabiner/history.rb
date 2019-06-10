@@ -10,6 +10,12 @@ class History < KarabinerBase
   def histories
     [
       {
+        :version => 'Karabiner-Elements 12.5.0',
+        :updated => '2019-06-10',
+        :link => 'files/Karabiner-Elements-12.5.0.dmg',
+        :body => update_description('karabiner', '12.5.0'),
+      },
+      {
         :version => 'Karabiner-Elements 12.4.0',
         :updated => '2019-05-14',
         :link => 'files/Karabiner-Elements-12.4.0.dmg',
