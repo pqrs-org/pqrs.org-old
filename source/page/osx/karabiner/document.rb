@@ -70,6 +70,10 @@ class Document < KarabinerBase
         :name => 'Multiple profiles',
       },
       {
+        :href => '#log',
+        :name => 'Show log messages',
+      },
+      {
         :name => 'Misc.',
       },
       {
