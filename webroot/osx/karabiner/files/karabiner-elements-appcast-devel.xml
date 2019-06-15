@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.5.0</title>
+      <title>Version 12.5.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,79 +15,15 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.5.0 Update</h2>
+<h2>About v12.5.1 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Fixed a key stuck issue which occurs when the key is released, and at
-          the exact same moment Karabiner-Elements opens the device.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-fixed">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Fixed a issue which Karabiner-Elements mistakes a remote user for a
-          current console user if another user is logged in from Screen Sharing
-          while console is used.
-        </li>
-      </ul>
-    </div>
-  </div>
-
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
-        <li>
-          Improved `XXX is ignored temporarily until YYY is pressed again`
-          behavior.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Add `Delay before open device` configuration into `Karabiner-Elements
-          Preferences &gt; Devices &gt; Advanced` tab.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Move `Disable the built-in keyboard while one of the following
-          selected devices is connected` configuration into `Karabiner-Elements
-          Preferences &gt; Devices &gt; Advanced` tab.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Added `Show key code in hexadecimal format` option into EventViewer.
-        </li>
+        <li>Suppressed unnecessary log messages.</li>
       </ul>
     </div>
   </div>
@@ -98,10 +34,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 10 Jun 2019 15:21:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.0.dmg"
-                 sparkle:version="12.5.0" length="6966734" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFDMfIpF8nVFHj2aTqnj3Pen/RV1DAhUAro8/ZkTK9ZC9N0FxDGZ3/GquGdw="
+      <pubDate>Sat, 15 Jun 2019 06:46:32 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.1.dmg"
+                 sparkle:version="12.5.1" length="6966148" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFGrFy4yaWLhTJ2KyVYN/meYKOTPaAhUAnAz9AcUvqOmwuv4s2IJV2Jqnb+4="
                  />
     </item>
 
