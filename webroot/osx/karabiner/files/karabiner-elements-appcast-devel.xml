@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.5.1</title>
+      <title>Version 12.5.2</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,22 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.5.1 Update</h2>
+<h2>About v12.5.2 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Introduced karabiner_kextd. (kext loading function was separated from
+          karabiner_grabber.)
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-improved">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -34,10 +46,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 15 Jun 2019 06:46:32 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.1.dmg"
-                 sparkle:version="12.5.1" length="6966148" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFGrFy4yaWLhTJ2KyVYN/meYKOTPaAhUAnAz9AcUvqOmwuv4s2IJV2Jqnb+4="
+      <pubDate>Sat, 22 Jun 2019 12:47:38 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.2.dmg"
+                 sparkle:version="12.5.2" length="7360913" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHk//Nh+ASfodWj9aTtDasQOfj17AhRvtNSkjGi/HxZp0hzEs1+zYEQORA=="
                  />
     </item>
 
