@@ -21,8 +21,39 @@ class Index < DisableDndTbBase
   def histories
     data = [
       {
+        :version => '4.1.0',
+        :updated => '2019-07-07',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Removed unused files from the package.
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
+        :version => '4.0.0',
+        :updated => '2019-07-06',
+        :body => <<EOS,
+<div class="update-description">
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      Updated targetApplication to Thunderbird 68.
+    </div>
+  </div>
+
+</div>
+EOS
+      },
+      {
         :version => '3.2.0',
-        :link => 'files/disable_dnd_tb-3.2.0.xpi',
         :updated => '2018-05-29',
         :body => <<EOS,
 <div class="update-description">
@@ -39,7 +70,6 @@ EOS
       },
       {
         :version => '3.1.0',
-        :link => 'files/disable_dnd_tb-3.1.0.xpi',
         :updated => '2017-12-08',
         :body => <<EOS,
 <div class="update-description">
@@ -56,7 +86,6 @@ EOS
       },
       {
         :version => '3.0.0',
-        :link => 'files/disable_dnd_tb-3.0.0.xpi',
         :updated => '2016-04-28',
         :body => <<EOS,
 <div class="update-description">
@@ -73,7 +102,6 @@ EOS
       },
       {
         :version => '2.1.0',
-        :link => 'files/disable_dnd_tb-2.1.0.xpi',
         :updated => '2011-06-29',
         :body => <<EOS,
 <div class="update-description">
@@ -90,7 +118,6 @@ EOS
       },
       {
         :version => '2.0.0',
-        :link => 'files/disable_dnd_tb-2.0.0.xpi',
         :updated => '2010-08-14',
         :body => <<EOS,
 <div class="update-description">
@@ -107,7 +134,6 @@ EOS
       },
       {
         :version => '1.0.1',
-        :link => 'files/disable_dnd_tb-1.0.1.xpi',
         :updated => '2007-04-12',
         :body => <<EOS,
 <div class="update-description">
@@ -124,7 +150,6 @@ EOS
       },
       {
         :version => '1.0.0',
-        :link => 'files/disable_dnd_tb-1.0.0.xpi',
         :updated => '2007-02-28',
         :body => <<EOS,
 <div class="update-description">
