@@ -19,6 +19,10 @@ class Help < KarabinerBase
         :name => 'Trouble: Allow button in System Preferences does not work.',
       },
       {
+        :href => '#does-not-work-after-macos-update',
+        :name => 'Trouble: Karabiner-Elements does not work after macOS update.',
+      },
+      {
         :href => '#touch-bar-function-keys',
         :name => 'Trouble: Touch bar does not change to f1-f12 when I press the fn key.',
       },
