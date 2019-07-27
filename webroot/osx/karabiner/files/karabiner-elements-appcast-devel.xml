@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.5.3</title>
+      <title>Version 12.5.5</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,21 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.5.3 Update</h2>
+<h2>About v12.5.5 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Supported macOS Catalina (10.15)
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="update-description-item update-description-item-new">
     <div class="update-description-label"></div>
     <div class="update-description-body">
@@ -46,10 +57,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 22 Jun 2019 13:31:34 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.3.dmg"
-                 sparkle:version="12.5.3" length="7361364" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCmeaFWwh85HqCEY0xDayhmqpRZNwIUEGE1eotFAAtIOb23YP/70C7DNhE="
+      <pubDate>Sat, 27 Jul 2019 16:07:10 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.5.dmg"
+                 sparkle:version="12.5.5" length="7425409" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFCauyCYTyv0dbMfTAq3qil697Q6hAhUAs5DORQflRYRbMLeMTPzIRbF+Tzw="
                  />
     </item>
 
