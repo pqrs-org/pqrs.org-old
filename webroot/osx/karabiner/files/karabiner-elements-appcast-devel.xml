@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.5.5</title>
+      <title>Version 12.5.6</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.5.5 Update</h2>
+<h2>About v12.5.6 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -25,6 +25,18 @@
       <ul>
         <li>
           Supported macOS Catalina (10.15)
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-fixed">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Fixed a issue that Karabiner-Elements fails to grab a device in rare
+          cases.
         </li>
       </ul>
     </div>
@@ -57,10 +69,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 27 Jul 2019 16:07:10 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.5.dmg"
-                 sparkle:version="12.5.5" length="7425409" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFCauyCYTyv0dbMfTAq3qil697Q6hAhUAs5DORQflRYRbMLeMTPzIRbF+Tzw="
+      <pubDate>Sun, 04 Aug 2019 14:51:07 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.6.dmg"
+                 sparkle:version="12.5.6" length="7443349" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGckJ/n+mC8gtTa7UUjadc43nZL5AhQTM/TgU7CWosKA9ozZVtPwhdYtuw=="
                  />
     </item>
 
