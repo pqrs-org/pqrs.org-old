@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: utf-8 -*-
 
 require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
@@ -26,6 +25,10 @@ class Document < KarabinerBase
       {
         :href => '#usage',
         :name => 'Usage',
+      },
+      {
+        :href => '#usage-catalina',
+        :name => 'Usage (macOS Catalina)',
       },
       {
         :name => 'Configuration',
