@@ -40,6 +40,10 @@ body {
       border-radius: 4px;
     }
 
+    img.border {
+      border: 1px solid gray;
+    }
+
     div.instruction {
       padding: 5px 10px 5px 10px;
       border: 2px solid #614788;
@@ -167,7 +171,7 @@ div.container {
     }
   }
   div.pre-shell:before {
-    content: "Terminal";
+    content: 'Terminal';
     font-weight: bold;
     padding: 3px 10px;
     display: block;
@@ -224,7 +228,6 @@ body.with-page-top-fixed-alert {
 #collapser ul {
   margin-bottom: 10px;
 }
-
 
 /* --------------------------------------------------
  * common
