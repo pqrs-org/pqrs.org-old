@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.5.93</title>
+      <title>Version 12.6.0</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.5.93 Update</h2>
+<h2>About v12.6.0 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -25,9 +25,11 @@
       <ul>
         <li>
           Supported macOS Catalina (10.15)<br />
-          (You need an
-          <a href="https://pqrs.org/osx/karabiner/document.html#usage-catalina">extra configuration</a> on
-          macOS Catalina.)
+          (You need
+          <a href="https://pqrs.org/osx/karabiner/document.html#usage-catalina">
+            an extra configuration
+          </a>
+          on macOS Catalina.)
         </li>
       </ul>
     </div>
@@ -61,6 +63,15 @@
     <div class="update-description-label"></div>
     <div class="update-description-body">
       <ul>
+        <li>Improved EventViewer to show modifier flags of key events.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
         <li>Suppressed unnecessary log messages.</li>
       </ul>
     </div>
@@ -72,10 +83,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 16 Aug 2019 07:04:40 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.93.dmg"
-                 sparkle:version="12.5.93" length="7493379" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFE99IPlKq+l9JBiw8l8JtTW3EceeAhUAi4c3BKHOBB0SaQ2vB4x4AAPuTxo="
+      <pubDate>Fri, 16 Aug 2019 07:39:46 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.6.0.dmg"
+                 sparkle:version="12.6.0" length="7493221" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDTttweqLpgKkugwFZl308OCJoLDgIUblPYNOedNkwAvkXyvbL4hF/5g+0="
                  />
     </item>
 
