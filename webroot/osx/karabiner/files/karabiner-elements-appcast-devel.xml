@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.6.2</title>
+      <title>Version 12.6.4</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.6.2 Update</h2>
+<h2>About v12.6.4 Update</h2>
 
 <!-- update-description-begin -->
 <div class="update-description">
@@ -30,6 +30,39 @@
       </ul>
     </div>
   </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Added `--set-variables` option into `karabiner_cli`.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-new">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          MultitouchExtension app has been added.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="update-description-item update-description-item-improved">
+    <div class="update-description-label"></div>
+    <div class="update-description-body">
+      <ul>
+        <li>
+          Dark Mode has been supported.
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 <!-- update-description-end -->
 <p>
@@ -37,10 +70,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Tue, 20 Aug 2019 22:31:10 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.6.2.dmg"
-                 sparkle:version="12.6.2" length="7500244" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFCHk5GmDYIk3MBpV/wIJhMq+bXMnAhUAr7mOQ6Oilp8yvwDqjpRlgVKt6nM="
+      <pubDate>Thu, 05 Sep 2019 03:58:30 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.6.4.dmg"
+                 sparkle:version="12.6.4" length="8468242" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDiM+OT2PwIx6fL/lwoa9sCF43WpgIVAKRudTwE5kmJt6RW42u++kIBrFHH"
                  />
     </item>
 
