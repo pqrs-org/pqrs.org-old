@@ -48,7 +48,7 @@
       <ul>
         <li>
           MultitouchExtension app has been added.
-        </li>
+          <a href="https://pqrs.org/osx/karabiner/document.html#multitouch-extension">(Usage)</a>
       </ul>
     </div>
   </div>
@@ -70,10 +70,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 08 Sep 2019 08:49:36 -0000</pubDate>
+      <pubDate>Mon, 09 Sep 2019 15:31:06 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.6.10.dmg"
                  sparkle:version="12.6.10" length="8475778" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFAn4SaNOGjZO2q2q3u/DsRXi6M+DAhUA4PsQcOJpHqWq4dahvEJTLDV5xxM="
+                 sparkle:dsaSignature="MC4CFQDz8dRGwXCOpO0nS7FoUpDGNVKSegIVAOi4n6YNN/ELpsLJxAHdfEGqhcKd"
                  />
     </item>
 
