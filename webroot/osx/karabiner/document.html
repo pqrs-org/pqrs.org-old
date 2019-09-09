@@ -1186,6 +1186,101 @@ $ sudo '/Library/Application Support/org.pqrs/Karabiner-Elements/uninstall_core.
 
       <section>
         <div class="page-header">
+          <h2 id="multitouch-extension">
+            MultitouchExtension
+          </h2>
+        </div>
+
+        <p>
+          Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.
+        </p>
+
+        <h3>Related Complex Modifications examples</h3>
+
+        <ul>
+          <li>
+            <a href="https://pqrs.org/osx/karabiner/complex_modifications/#multitouch_vi_mode" target="_blank">
+              Multitouch Vi Mode
+            </a>
+          </li>
+          <li>
+            <a href="https://pqrs.org/osx/karabiner/complex_modifications/#multitouch_diamond_cursor" target="_blank">
+              Multitouch Diamond Cursor
+            </a>
+          </li>
+          <li>
+            <a href="https://pqrs.org/osx/karabiner/complex_modifications/#multitouch_mouse_buttons" target="_blank">
+              Multitouch Mouse Buttons
+            </a>
+          </li>
+          <li>
+            <a href="https://pqrs.org/osx/karabiner/complex_modifications/#thumbsense" target="_blank">
+              ThumbSense
+            </a>
+          </li>
+        </ul>
+
+        <h3>
+          MultitouchExtension usage
+        </h3>
+        <ol class="steps">
+          <li>
+            Open MultitouchExtension app from Preferences &gt; Misc.
+            <div class="row">
+              <div class="col-lg-8">
+<a data-toggle="modal" href="#lightbox-27" class="thumbnail">
+  <img src="img/karabiner-elements-multitouch-extension-1@2x.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-27" tabindex="30027">
+  <div class="modal-dialog clickable" style="width: 1060px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-multitouch-extension-1@2x.png" alt="Preferences" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            Enable "Start at login" on MultitouchExtension Preferences.
+            <div class="row">
+              <div class="col-lg-6">
+<a data-toggle="modal" href="#lightbox-28" class="thumbnail">
+  <img src="img/karabiner-elements-multitouch-extension-2@2x.png" alt="Preferences" />
+</a>
+<div class="modal fade" id="lightbox-28" tabindex="30028">
+  <div class="modal-dialog clickable" style="width: 600px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-multitouch-extension-2@2x.png" alt="Preferences" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+        </ol>
+
+        <div class="alert alert-info">
+          Note:<br/>
+          If you hid Karabiner-MultitouchExtension icon in Dock,
+          press "Open MultitouchExtension app" button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences.
+        </div>
+
+        <h3>
+          How to integrate MultitouchExtension to your complex modifications
+        </h3>
+
+        <p>
+          See <a href="json.html#multitouch-extension" target="_blank">karabiner.json reference manual</a>.
+        </p>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h2 id="command-line-interface">
             Command line interface
           </h2>
@@ -1404,6 +1499,11 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
               <li>
                 <a href="#event-modification-chaining">
                   Input event modification chaining
+                </a>
+              </li>
+              <li>
+                <a href="#multitouch-extension">
+                  MultitouchExtension
                 </a>
               </li>
               <li>

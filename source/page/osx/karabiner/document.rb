@@ -92,6 +92,10 @@ class Document < KarabinerBase
         :name => 'Input event modification chaining',
       },
       {
+        :href => '#multitouch-extension',
+        :name => 'MultitouchExtension',
+      },
+      {
         :href => '#command-line-interface',
         :name => 'Command line interface',
       },

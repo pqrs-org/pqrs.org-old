@@ -2348,6 +2348,117 @@
 
       <section>
         <div class="page-header">
+          <h1>MultitouchExtension</h1>
+        </div>
+
+        <h2 id="multitouch-extension">MultitouchExtension integration</h2>
+
+        <p>
+          <a href="document.html#multitouch-extension" target="_blank">
+            Karabiner-MultitouchExtension
+          </a>
+          allows you to change keys only when the finger is on the trackpad.
+        </p>
+
+        <p>
+          You can use <code>variable_if</code> or <code>variable_unless</code> to determine either the finger is on trackpad.
+        </p>
+
+        <h3>Example</h3>
+
+        <p>
+          The following json changes <code>k</code> key to <code>up_arrow</code> when the finger is on the trackpad.
+        </p>
+
+<pre class="prettyprint lang-json">{
+  "type": "basic",
+  "from": {
+    "key_code": "k"
+  },
+  "to": [
+    {
+      "key_code": "up_arrow"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "variable_unless",
+      "name": "multitouch_extension_finger_count_total",
+      "value": 0
+    }
+  ]
+}</pre>
+        <h3>Variables</h3>
+
+        <p>
+          Karabiner-MultitouchExtension changes the following variables when the finger count on the trackpad is changed.
+        </p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Variable name</th>
+              <th>Variable value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>multitouch_extension_finger_count_total</td>
+              <td>Total count of fingers on the trackpad</td>
+            </tr>
+            <tr>
+              <td>multitouch_extension_finger_count_upper_half_area</td>
+              <td>Count of fingers on the upper half of trackpad</td>
+            </tr>
+            <tr>
+              <td>multitouch_extension_finger_count_lower_half_area</td>
+              <td>Count of fingers on the lower half of trackpad</td>
+            </tr>
+            <tr>
+              <td>multitouch_extension_finger_count_left_half_area</td>
+              <td>Count of fingers on the left half of trackpad</td>
+            </tr>
+            <tr>
+              <td>multitouch_extension_finger_count_right_half_area</td>
+              <td>Count of fingers on the right half of trackpad</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="alert alert-info">
+          Note:<br/>
+          <p>
+            <code>finger_count_total == finger_count_upper_half_area + finger_count_lower_half_area</code>
+          </p>
+          <p>
+            <code>finger_count_total == finger_count_left_half_area + finger_count_right_half_area</code>
+          </p>
+        </div>
+
+        <p>
+          You can confirm the variables state on <b>Karabiner-EventViewer &gt; Variables</b>.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-8">
+<a data-toggle="modal" href="#lightbox-3" class="thumbnail">
+  <img src="img/karabiner-elements-eventviewer-variables@2x.png" alt="Variables" />
+</a>
+<div class="modal fade" id="lightbox-3" tabindex="30003">
+  <div class="modal-dialog clickable" style="width: 934px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-eventviewer-variables@2x.png" alt="Variables" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h1>Help</h1>
         </div>
 
@@ -2555,6 +2666,12 @@
               <li>
                 <a href="#mouse-motion-to-scroll">
                   mouse_motion_to_scroll
+                </a>
+              </li>
+              <li class="nav-header">MultitouchExtension</li>
+              <li>
+                <a href="#multitouch-extension">
+                  MultitouchExtension integration
                 </a>
               </li>
               <li class="nav-header">Help</li>

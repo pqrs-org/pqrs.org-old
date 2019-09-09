@@ -111,6 +111,13 @@ class Json < KarabinerBase
         :name => 'mouse_motion_to_scroll',
       },
       {
+        :name => 'MultitouchExtension',
+      },
+      {
+        :href => '#multitouch-extension',
+        :name => 'MultitouchExtension integration',
+      },
+      {
         :name => 'Help',
       },
       {
