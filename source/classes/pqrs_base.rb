@@ -15,6 +15,14 @@ class PqrsBase < Mustache
     throw 'You must set title'
   end
 
+  def og_title
+    false
+  end
+
+  def og_image
+    false
+  end
+
   def body_classes
     []
   end

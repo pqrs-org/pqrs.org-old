@@ -31,6 +31,13 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <meta name="twitter:card" content="summary" />
+    {{#og_title}}
+      <meta property="og:title" content="{{og_title}}" />
+    {{/og_title}}
+    {{#og_image}}
+      <meta property="og:image" content="{{og_image}}" />
+    {{/og_image}}
   </head>
 
   <body class="{{#body_classes}} {{class}} {{/body_classes}}">

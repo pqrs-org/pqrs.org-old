@@ -6,6 +6,14 @@ class KarabinerBase < PqrsBase
     'Karabiner - Software for macOS'
   end
 
+  def og_title
+    'Karabiner'
+  end
+
+  def og_image
+    'https://pqrs.org/img/icon/osx/karabiner.png'
+  end
+
   def navs_left_data
     [
       {
