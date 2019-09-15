@@ -1,6 +1,4 @@
 #!/usr/bin/ruby
-# -*- coding: utf-8 -*-
-
 class DisableDndTbBase < PqrsBase
   def title
     'Disable DragAndDrop - Thunderbird Extension'

@@ -6,6 +6,18 @@ class Index < PqrsBase
     'ShowyEdge - Software for macOS'
   end
 
+  def og_title
+    'ShowyEdge'
+  end
+
+  def og_description
+    'ShowyEdge displays a color bar at the top edge of the screen depending on the current input source.'
+  end
+
+  def og_image
+    'https://pqrs.org/osx/ShowyEdge/img/menubar@2x.png'
+  end
+
   def navs_left_data
     [
       {
