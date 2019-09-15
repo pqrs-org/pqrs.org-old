@@ -16,7 +16,7 @@ class Toppage < PqrsBase
         :name => 'macOS',
         :rows => [
           {
-            :name => 'Karabiner',
+            :name => 'Karabiner-Elements',
             :link => '/osx/karabiner/',
             :icon => '/img/icon/osx/karabiner-32.png',
             :body => <<EOS,
@@ -45,8 +45,7 @@ EOS
             :icon => '/img/icon/thunderbird/default-32.png',
             :body => <<EOS,
 <p>
-A Thunderbird extension which disables drag and drop in the folder pane.
-This extension prevents unintended folder movement.
+Thunderbird add-on which disables drag and drop on the folder tree in order to prevent unintended folder movement.
 </p>
 EOS
           },

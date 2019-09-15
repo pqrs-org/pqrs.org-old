@@ -3,11 +3,11 @@
 
 class KarabinerBase < PqrsBase
   def title
-    'Karabiner - Software for macOS'
+    'Karabiner-Elements - Software for macOS'
   end
 
   def og_title
-    'Karabiner'
+    'Karabiner-Elements'
   end
 
   def og_description
@@ -22,7 +22,7 @@ class KarabinerBase < PqrsBase
     [
       {
         :href => '/osx/karabiner/index.html',
-        :name => 'Karabiner',
+        :name => 'Karabiner-Elements',
       },
       {
         :name => 'Documents',
