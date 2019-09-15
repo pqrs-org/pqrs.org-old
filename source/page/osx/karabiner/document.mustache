@@ -864,6 +864,25 @@
         </p>
 
         <h3>Usage</h3>
+
+        <h4>Show help</h4>
+
+        <div class="pre-shell">
+          <pre>{{#strip_indented_lines}}
+            |$ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli'
+            |
+            |A command line utility of Karabiner-Elements.
+            |Usage:
+            |  karabiner_cli [OPTION...]
+            |
+            |      --select-profile arg      Select a profile by name.
+            |      --set-variables arg       Json string: {[key: string]: number}
+            |      ...
+          {{/strip_indented_lines}}</pre>
+        </div>
+
+        <h4>Switch profile</h4>
+
         <div class="pre-shell">
           <pre>{{#strip_indented_lines}}
             |$ '/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Default profile'
