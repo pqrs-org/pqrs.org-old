@@ -10,6 +10,10 @@ class KarabinerBase < PqrsBase
     'Karabiner'
   end
 
+  def og_description
+    'A powerful and stable keyboard customizer for macOS'
+  end
+
   def og_image
     'https://pqrs.org/img/icon/osx/karabiner.png'
   end

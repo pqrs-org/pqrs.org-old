@@ -19,6 +19,10 @@ class PqrsBase < Mustache
     false
   end
 
+  def og_description
+    false
+  end
+
   def og_image
     false
   end
