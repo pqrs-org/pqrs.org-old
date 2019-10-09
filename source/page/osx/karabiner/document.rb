@@ -84,6 +84,10 @@ class Document < KarabinerBase
         :name => '`Device is ignored temporarily` alert',
       },
       {
+        :href => '#disable-built-in-keyboard',
+        :name => 'Disable the built-in keyboard when external keyboard is connected',
+      },
+      {
         :href => '#implicit',
         :name => 'Implicit behavior',
       },
