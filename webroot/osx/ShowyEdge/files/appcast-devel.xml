@@ -7,41 +7,33 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.3.0</title>
+      <title>Version 3.3.2</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
-.update-description-item{margin:10px 0;padding:0;border-radius:.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 .5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:.2em 1em;padding:.5em}.update-description .update-description-body img.img{width:100%}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:"new";color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:"important";color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:"fixed";color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:"improved";color:#cd6118}
+.update-description-item{margin:10px 0;padding:0;border-radius:0.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 0.5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:0.2em 1em;padding:1em 1em 0.5em 1em}.update-description .update-description-body img.img{width:100%}.update-description .update-description-body ul{padding-left:2em}.update-description .update-description-body>ul{margin:0;padding:0}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:'new';color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:'important';color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:'fixed';color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:'improved';color:#cd6118}
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v3.3.0 Update</h2>
+<h2>About v3.3.2 Update</h2>
 
 <!-- update-description-begin -->
-<div class="update-description">
-
-  <div class="update-description-item update-description-item-improved">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          ShowyEdge has been notarized for macOS Mojave.
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</div>
+<pre>
+-   ⚡️ Improvements
+    -   Set transparency (20%) forcely if the indicator size is larger than
+        the menu bar height in order to avoid the indicator hides all windows.
+    -   Sparkle Framework has been updated.
+</pre>
 <!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 28 Oct 2018 04:09:26 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.3.0.dmg"
-                 sparkle:version="3.3.0" length="2484560" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGL9lfESIuyfVqSbGvplefRB7oiNAhRU43JorlyBZpltqDeojwbnklzUMg=="
+      <pubDate>Sat, 12 Oct 2019 13:09:45 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.3.2.dmg"
+                 sparkle:version="3.3.2" length="3098315" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCWsrc99Q9swEzqbmZmPwN8QathdQIVAJDqasgd8ggfgoUg2wY9CZtooQjF"
       />
     </item>
 
