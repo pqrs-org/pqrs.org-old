@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 3.3.2</title>
+      <title>Version 3.4.0</title>
       <sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v3.3.2 Update</h2>
+<h2>About v3.4.0 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -33,10 +33,10 @@ the menu bar height in order to avoid the indicator hides all windows.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 12 Oct 2019 13:34:48 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.3.2.dmg"
-                 sparkle:version="3.3.2" length="3098315" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFDwYfTYXEBVHNljz34qoSIdAl8vmAhRC47hH18JGDAgPOSr3WUEkZS013g=="
+      <pubDate>Sat, 12 Oct 2019 14:06:17 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.4.0.dmg"
+                 sparkle:version="3.4.0" length="3098242" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFFHsCg1uGXerRNbrxjPG/7ikS2I7AhQQ6rTATWYmuhSuDLrggKr5wG46TQ=="
       />
     </item>
 
