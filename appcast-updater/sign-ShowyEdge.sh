@@ -54,7 +54,7 @@ cat >>"$targetdir/appcast-devel.xml.tmp" <<EOF
 <!-- update-description-begin -->
 EOF
 
-cat >>"$targetdir/appcast-devel.xml.tmp" update-descriptions/showyedge/beta.html
+blackfriday-tool update-descriptions/showyedge/beta.md >>"$targetdir/appcast-devel.xml.tmp"
 
 cat >>"$targetdir/appcast-devel.xml.tmp" <<EOF
 <!-- update-description-end -->

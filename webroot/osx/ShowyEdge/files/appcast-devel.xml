@@ -18,22 +18,25 @@
 <h2>About v3.3.2 Update</h2>
 
 <!-- update-description-begin -->
-<pre>
--   ⚡️ Improvements
-    -   Set transparency (20%) forcely if the indicator size is larger than
-        the menu bar height in order to avoid the indicator hides all windows.
-    -   Sparkle Framework has been updated.
-</pre>
+<ul>
+<li>⚡️ Improvements
+
+<ul>
+<li>Set transparency (20%) forcely if the indicator size is larger than
+the menu bar height in order to avoid the indicator hides all windows.</li>
+<li>Sparkle Framework has been updated.</li>
+</ul></li>
+</ul>
 <!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/ShowyEdge/">ShowyEdge WebSite</a>
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 12 Oct 2019 13:09:45 -0000</pubDate>
+      <pubDate>Sat, 12 Oct 2019 13:34:48 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-3.3.2.dmg"
                  sparkle:version="3.3.2" length="3098315" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCWsrc99Q9swEzqbmZmPwN8QathdQIVAJDqasgd8ggfgoUg2wY9CZtooQjF"
+                 sparkle:dsaSignature="MCwCFDwYfTYXEBVHNljz34qoSIdAl8vmAhRC47hH18JGDAgPOSr3WUEkZS013g=="
       />
     </item>
 
