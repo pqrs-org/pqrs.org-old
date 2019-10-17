@@ -26,7 +26,7 @@ EOS
 
           {
             :name => 'ShowyEdge',
-            :link => '/osx/ShowyEdge/',
+            :link => 'https://showyedge.pqrs.org/',
             :icon => '/img/icon/osx/ShowyEdge-32.png',
             :body => <<EOS,
 <p>An Indicator of the current input source which has a very high visibility for macOS.</p>
