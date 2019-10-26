@@ -4,4 +4,3 @@ all:
 	$(MAKE) -C dreamcast
 	$(MAKE) -C gba
 	$(MAKE) -C osx
-	$(MAKE) -C thunderbird

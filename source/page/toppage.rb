@@ -41,11 +41,11 @@ EOS
         :rows => [
           {
             :name => 'Disable DragAndDrop',
-            :link => '/thunderbird/extensions/disable_dnd_tb/',
+            :link => 'https://disable-draganddrop-tb.pqrs.org',
             :icon => '/img/icon/thunderbird/default-32.png',
             :body => <<EOS,
 <p>
-Thunderbird add-on which disables drag and drop on the folder tree in order to prevent unintended folder movement.
+A Thunderbird add-on which disables drag and drop on the folder tree in order to prevent unintended folder movement.
 </p>
 EOS
           },
