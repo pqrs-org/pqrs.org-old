@@ -19,3 +19,6 @@ tab_width = 8
 
 [*.css]
 indent_size = 4
+
+[*.md]
+indent_size = 4
