@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.7.2</title>
+      <title>Version 12.7.3</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,34 +15,32 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.7.2 Update</h2>
+<h2>About v12.7.3 Update</h2>
 
 <!-- update-description-begin -->
-<div class="update-description">
-  <div class="update-description-item update-description-item-new">
-    <div class="update-description-label"></div>
-    <div class="update-description-body">
-      <ul>
-        <li>
-          Add `--show-current-profile-name` option into `karabiner_cli`.
-        </li>
-        <li>
-          Add `--list-profile-names` option into `karabiner_cli`.
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+<ul>
+<li>✨ New Features
+
+<ul>
+<li>Add <code>--show-current-profile-name</code> option into <code>karabiner_cli</code>.</li>
+<li>Add <code>--list-profile-names</code> option into <code>karabiner_cli</code>.</li>
+</ul></li>
+<li>🐛 Bug Fixes
+
+<ul>
+<li>Fixed an issue that Caps Lock LED is always manipulated even <code>Manipulate LED</code> setting is off.</li>
+</ul></li>
+</ul>
 <!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 </p>
 ]]>
       </description>
-      <pubDate>Thu, 03 Oct 2019 04:48:07 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.2.dmg"
-                 sparkle:version="12.7.2" length="8836635" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHPmvMSlMWtIT/8SQw4aoi18/BfqAhRbWZgz93yiCwrMUR0G2jWkXJ1pGg=="
+      <pubDate>Mon, 04 Nov 2019 12:41:41 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.3.dmg"
+                 sparkle:version="12.7.3" length="8742480" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQDMlsiKKDNUOJ6P4QOWueHz9HrHkAIVAKBo4xpDYb7zgnRysT3/4rIuHHDl"
                  />
     </item>
 
