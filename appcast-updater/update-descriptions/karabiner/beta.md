@@ -1,0 +1,5 @@
+-   ✨ New Features
+    -   Add `--show-current-profile-name` option into `karabiner_cli`.
+    -   Add `--list-profile-names` option into `karabiner_cli`.
+-   🐛 Bug Fixes
+    -   Fixed an issue that Caps Lock LED is always manipulated even `Manipulate LED` setting is off.

@@ -54,7 +54,7 @@ cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 <!-- update-description-begin -->
 EOF
 
-cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" update-descriptions/karabiner/beta.html
+blackfriday-tool update-descriptions/karabiner/beta.md >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp"
 
 cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 <!-- update-description-end -->
