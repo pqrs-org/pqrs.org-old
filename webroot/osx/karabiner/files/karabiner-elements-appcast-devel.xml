@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.7.3</title>
+      <title>Version 12.7.4</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.7.3 Update</h2>
+<h2>About v12.7.4 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -29,6 +29,7 @@
 
 <ul>
 <li>Fixed an issue that Caps Lock LED is always manipulated even <code>Manipulate LED</code> setting is off.</li>
+<li>Fixed an issue that MultitouchExtension does not handle ignored area properly when a finger is touched ignored area repeatedly.</li>
 </ul></li>
 </ul>
 <!-- update-description-end -->
@@ -37,10 +38,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Mon, 04 Nov 2019 12:41:41 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.3.dmg"
-                 sparkle:version="12.7.3" length="8742480" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDMlsiKKDNUOJ6P4QOWueHz9HrHkAIVAKBo4xpDYb7zgnRysT3/4rIuHHDl"
+      <pubDate>Sat, 09 Nov 2019 01:31:33 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.4.dmg"
+                 sparkle:version="12.7.4" length="8742319" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFBdU673EtK2s1noU/MIj/0Czj+QAAhUA7h/3JSM4XWaYlGuTGbHlCzS8I2Y="
                  />
     </item>
 
