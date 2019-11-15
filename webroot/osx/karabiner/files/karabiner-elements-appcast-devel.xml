@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.7.5</title>
+      <title>Version 12.7.90</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.7.5 Update</h2>
+<h2>About v12.7.90 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -28,6 +28,7 @@
 <li>🐛 Bug Fixes
 
 <ul>
+<li>Fixed an issue that Karabiner-Elements stops working after switching user on macOS Catalina.</li>
 <li>Fixed an issue that Caps Lock LED is always manipulated even <code>Manipulate LED</code> setting is off.</li>
 <li>Fixed an issue that MultitouchExtension does not handle ignored area properly when a finger is touched ignored area repeatedly.</li>
 </ul></li>
@@ -38,10 +39,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 15 Nov 2019 03:43:23 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.5.dmg"
-                 sparkle:version="12.7.5" length="8774564" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCGkJNH7+0lfqRhqDzL9dyXmZJJYwIVAMHLr5wY1UmAPsipUQOm/J2ApTEM"
+      <pubDate>Fri, 15 Nov 2019 16:33:34 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.90.dmg"
+                 sparkle:version="12.7.90" length="8776022" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDH3F18UK0iltOYQquQgI0tLjZz8gIUHJJ7KBwHl7/qabWkzkepUFgITWo="
                  />
     </item>
 
