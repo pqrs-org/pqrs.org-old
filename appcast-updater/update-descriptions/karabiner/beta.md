@@ -1,7 +1,3 @@
--   ✨ New Features
-    -   Add `--show-current-profile-name` option into `karabiner_cli`.
-    -   Add `--list-profile-names` option into `karabiner_cli`.
--   🐛 Bug Fixes
-    -   Fixed an issue that Karabiner-Elements stops working after switching user on macOS Catalina.
-    -   Fixed an issue that Caps Lock LED is always manipulated even `Manipulate LED` setting is off.
-    -   Fixed an issue that MultitouchExtension does not handle ignored area properly when a finger is touched ignored area repeatedly.
+-   ⚡️ Improvements
+    -   Added a workaround for non-dismissible `Device is ignored temporarily` alert
+        which is caused by some devices that sends abnormal input events.

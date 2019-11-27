@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.0</title>
+      <title>Version 12.8.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,22 +15,15 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.0 Update</h2>
+<h2>About v12.8.1 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
-<li>✨ New Features
+<li>⚡️ Improvements
 
 <ul>
-<li>Add <code>--show-current-profile-name</code> option into <code>karabiner_cli</code>.</li>
-<li>Add <code>--list-profile-names</code> option into <code>karabiner_cli</code>.</li>
-</ul></li>
-<li>🐛 Bug Fixes
-
-<ul>
-<li>Fixed an issue that Karabiner-Elements stops working after switching user on macOS Catalina.</li>
-<li>Fixed an issue that Caps Lock LED is always manipulated even <code>Manipulate LED</code> setting is off.</li>
-<li>Fixed an issue that MultitouchExtension does not handle ignored area properly when a finger is touched ignored area repeatedly.</li>
+<li>Added a workaround for non-dismissible <code>Device is ignored temporarily</code> alert
+which is caused by some devices that sends abnormal input events.</li>
 </ul></li>
 </ul>
 <!-- update-description-end -->
@@ -39,10 +32,10 @@
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 17 Nov 2019 13:51:29 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.0.dmg"
-                 sparkle:version="12.8.0" length="8775733" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDq59rY0ZZ+2UYS6wwE3QOnStkmQwIVAN2dYwKSWHFBFvKyhBaY0VFQNP1E"
+      <pubDate>Wed, 27 Nov 2019 04:21:43 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.1.dmg"
+                 sparkle:version="12.8.1" length="8776360" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDEhLjT+iYe2hy8gR1PZynvsMJx7gIUf4lnXv+aaucmXZKBZt+yaCnjF1E="
                  />
     </item>
 
