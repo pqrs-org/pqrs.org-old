@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.1</title>
+      <title>Version 12.8.2</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.1 Update</h2>
+<h2>About v12.8.2 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -32,10 +32,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 27 Nov 2019 04:21:43 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.1.dmg"
-                 sparkle:version="12.8.1" length="8776360" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDEhLjT+iYe2hy8gR1PZynvsMJx7gIUf4lnXv+aaucmXZKBZt+yaCnjF1E="
+      <pubDate>Sun, 01 Dec 2019 16:58:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.2.dmg"
+                 sparkle:version="12.8.2" length="8783330" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFHoBXhow/GCvh/P7qP95Myah1H10AhRPHW+4fBoY724ljo02hWphEFPIJw=="
                  />
     </item>
 
