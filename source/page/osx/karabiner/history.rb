@@ -3,6 +3,10 @@ require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
 class History < KarabinerBase
+  def og_description
+    'Version History'
+  end
+
   def title
     'Version History - ' + super()
   end
