@@ -5,6 +5,10 @@ require '../../../classes/bootstrap.rb'
 require './karabiner_base.rb'
 
 class Pricing < KarabinerBase
+  def og_description
+    'Supporting this project'
+  end
+
   def title
     'Pricing - ' + super()
   end
