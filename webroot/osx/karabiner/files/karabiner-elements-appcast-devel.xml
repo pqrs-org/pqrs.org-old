@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.2</title>
+      <title>Version 12.8.3</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.2 Update</h2>
+<h2>About v12.8.3 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -25,6 +25,11 @@
 <li>Added a workaround for non-dismissible <code>Device is ignored temporarily</code> alert
 which is caused by some devices that sends abnormal input events.</li>
 </ul></li>
+<li>🐛 Bug Fixes
+
+<ul>
+<li>Fixed <code>Add {key_code} to Karabiner-Elements</code> button on EventViewer for unnamed keys (raw number key codes).</li>
+</ul></li>
 </ul>
 <!-- update-description-end -->
 <p>
@@ -32,10 +37,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Sun, 01 Dec 2019 16:58:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.2.dmg"
-                 sparkle:version="12.8.2" length="8783330" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFHoBXhow/GCvh/P7qP95Myah1H10AhRPHW+4fBoY724ljo02hWphEFPIJw=="
+      <pubDate>Fri, 27 Dec 2019 04:21:15 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.3.dmg"
+                 sparkle:version="12.8.3" length="8786482" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFGhyEYraBqPpe0Rd8VTAsWcXLUpmAhRRUYmD4FM/rC5lwWXstNHI01XB7w=="
                  />
     </item>
 
