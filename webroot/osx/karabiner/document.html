@@ -1399,6 +1399,53 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
 
       <section>
         <div class="page-header">
+          <h2 id="export">
+            Export and import configuration
+          </h2>
+        </div>
+        <p>
+          Copy <b>~/.config/karabiner/karabiner.json</b> in order to copy Karabiner-Elements configuration to another machine.
+        </p>
+        <p>
+          Since Karabiner-Elements v12.8.3, you can copy the file via GUI.
+        </p>
+
+        <h3>Export</h3>
+
+        <ol class="steps">
+          <li>
+            Open config folder from Preferences &gt; Misc.
+            <div class="row">
+              <div class="col-lg-8">
+<a data-toggle="modal" href="#lightbox-30" class="thumbnail">
+  <img src="img/karabiner-elements-export@2x.png" alt="Export" />
+</a>
+<div class="modal fade" id="lightbox-30" tabindex="30030">
+  <div class="modal-dialog clickable" style="width: 1060px;">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/karabiner-elements-export@2x.png" alt="Export" style="width: 100%" />
+      </div>
+    </div>
+  </div>
+</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            Finder will be opened. Copy the <b>karabiner.json</b> file.
+          </li>
+        </ol>
+
+        <h3>Import</h3>
+        <ol class="steps">
+          <li>Open config folder from Preferences &gt; Misc.</li>
+          <li>Replace <b>karabiner.json</b> with the exported file.</li>
+        </ol>
+      </section>
+
+      <section>
+        <div class="page-header">
           <h2 id="security">
             Security
           </h2>
@@ -1570,6 +1617,11 @@ $ launchctl kickstart -k gui/`id -u`/org.pqrs.karabiner.karabiner_console_user_s
               <li>
                 <a href="#configuration-file-path">
                   The location of the configuration file
+                </a>
+              </li>
+              <li>
+                <a href="#export">
+                  Export and import configuration
                 </a>
               </li>
               <li>

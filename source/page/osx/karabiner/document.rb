@@ -108,6 +108,10 @@ class Document < KarabinerBase
         :name => 'The location of the configuration file',
       },
       {
+        :href => '#export',
+        :name => 'Export and import configuration',
+      },
+      {
         :href => '#security',
         :name => 'Security',
       },
