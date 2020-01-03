@@ -24,7 +24,6 @@
 <ul>
 <li>Added a workaround for non-dismissible <code>Device is ignored temporarily</code> alert
 which is caused by some devices that sends abnormal input events.</li>
-<li>Hardened Runtime (which is provided by macOS in order to improve security) has been enabled.</li>
 </ul></li>
 <li>🐛 Bug Fixes
 
@@ -38,10 +37,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 03 Jan 2020 08:16:35 -0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 08:28:13 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.4.dmg"
                  sparkle:version="12.8.4" length="8815932" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCioI2YHBvSt5hU82sqDbS7d3fNWQIVALL2WX8ladD79s2iIvSP0YK4GjIp"
+                 sparkle:dsaSignature="MC4CFQCA5qHTNEKxp0BcMt95/73L8pyYoQIVANK50voTQkFd14x0UGwT/Uc72Np0"
                  />
     </item>
 
