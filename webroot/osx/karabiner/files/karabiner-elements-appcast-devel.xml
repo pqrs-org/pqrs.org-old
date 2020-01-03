@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.3</title>
+      <title>Version 12.8.4</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.3 Update</h2>
+<h2>About v12.8.4 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -24,6 +24,7 @@
 <ul>
 <li>Added a workaround for non-dismissible <code>Device is ignored temporarily</code> alert
 which is caused by some devices that sends abnormal input events.</li>
+<li>Hardened Runtime (which is provided by macOS in order to improve security) has been enabled.</li>
 </ul></li>
 <li>🐛 Bug Fixes
 
@@ -37,10 +38,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 27 Dec 2019 04:21:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.3.dmg"
-                 sparkle:version="12.8.3" length="8786482" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFGhyEYraBqPpe0Rd8VTAsWcXLUpmAhRRUYmD4FM/rC5lwWXstNHI01XB7w=="
+      <pubDate>Fri, 03 Jan 2020 08:16:35 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.4.dmg"
+                 sparkle:version="12.8.4" length="8815932" type="application/octet-stream"
+                 sparkle:dsaSignature="MC4CFQCioI2YHBvSt5hU82sqDbS7d3fNWQIVALL2WX8ladD79s2iIvSP0YK4GjIp"
                  />
     </item>
 
