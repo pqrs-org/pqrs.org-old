@@ -23,7 +23,7 @@
 
 <ul>
 <li><code>Open config folder</code> button has been added into Preferences.<br>
-The feature provides <a href="https://pqrs.org/osx/karabiner/document.html#export">a easy way exporting configuration</a>.</li>
+The feature provides <a href="https://pqrs.org/osx/karabiner/document.html#export">an easy way exporting configuration</a>.</li>
 </ul></li>
 <li>⚡️ Improvements
 
@@ -43,10 +43,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 15 Jan 2020 14:13:50 -0000</pubDate>
+      <pubDate>Wed, 15 Jan 2020 14:16:54 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.90.dmg"
                  sparkle:version="12.8.90" length="8816653" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCciaxU41WFP/I/r/zzndhzo9lMzwIUckGPWCqtSE7SleHNwL+MI9ui4Yc="
+                 sparkle:dsaSignature="MC4CFQDeLR28SdwTb6vs43e3ZgDRNs2QXQIVAJPl6h8iTS30EWsGaRAcp2rruYqb"
                  />
     </item>
 
