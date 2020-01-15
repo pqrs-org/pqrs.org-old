@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.4</title>
+      <title>Version 12.8.90</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,10 +15,16 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.4 Update</h2>
+<h2>About v12.8.90 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
+<li>✨ New Features
+
+<ul>
+<li><code>Open config folder</code> button has been added into Preferences.<br>
+The feature provides <a href="https://pqrs.org/osx/karabiner/document.html#export">a easy way exporting configuration</a>.</li>
+</ul></li>
 <li>⚡️ Improvements
 
 <ul>
@@ -37,10 +43,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 03 Jan 2020 08:28:13 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.4.dmg"
-                 sparkle:version="12.8.4" length="8815932" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQCA5qHTNEKxp0BcMt95/73L8pyYoQIVANK50voTQkFd14x0UGwT/Uc72Np0"
+      <pubDate>Wed, 15 Jan 2020 14:13:50 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.90.dmg"
+                 sparkle:version="12.8.90" length="8816653" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQCciaxU41WFP/I/r/zzndhzo9lMzwIUckGPWCqtSE7SleHNwL+MI9ui4Yc="
                  />
     </item>
 
