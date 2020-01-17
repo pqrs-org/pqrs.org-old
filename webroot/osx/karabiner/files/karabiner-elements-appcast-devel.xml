@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.90</title>
+      <title>Version 12.8.91</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.90 Update</h2>
+<h2>About v12.8.91 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -43,10 +43,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Wed, 15 Jan 2020 14:16:54 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.90.dmg"
-                 sparkle:version="12.8.90" length="8816653" type="application/octet-stream"
-                 sparkle:dsaSignature="MC4CFQDeLR28SdwTb6vs43e3ZgDRNs2QXQIVAJPl6h8iTS30EWsGaRAcp2rruYqb"
+      <pubDate>Fri, 17 Jan 2020 10:29:13 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.91.dmg"
+                 sparkle:version="12.8.91" length="8817066" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFQDVnFT0lczQK9FEG5tF2Uof54b4XAIUA+BDmNfUWVfTrmmY1JF6YcUVyVY="
                  />
     </item>
 
