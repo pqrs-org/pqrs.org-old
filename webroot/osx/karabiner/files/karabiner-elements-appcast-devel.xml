@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.8.91</title>
+      <title>Version 12.9.0</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -15,7 +15,7 @@
 /*# sourceMappingURL=sparkle.css.map */
 </style>
 
-<h2>About v12.8.91 Update</h2>
+<h2>About v12.9.0 Update</h2>
 
 <!-- update-description-begin -->
 <ul>
@@ -35,6 +35,8 @@ which is caused by some devices that sends abnormal input events.</li>
 
 <ul>
 <li>Fixed <code>Add {key_code} to Karabiner-Elements</code> button on EventViewer for unnamed keys (raw number key codes).</li>
+<li>Fixed an issue that modifier flag events are not dispatched when changing pointing button while other character keys are pressed.
+(e.g., when changing pointing_button::button3 -&gt; command+pointing_button::button1, command modifier is not sent when button1 is pressed while <code>t</code> key is also pressed.)</li>
 </ul></li>
 </ul>
 <!-- update-description-end -->
@@ -43,10 +45,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Fri, 17 Jan 2020 10:29:13 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.91.dmg"
-                 sparkle:version="12.8.91" length="8817066" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQDVnFT0lczQK9FEG5tF2Uof54b4XAIUA+BDmNfUWVfTrmmY1JF6YcUVyVY="
+      <pubDate>Sat, 18 Jan 2020 12:37:56 -0000</pubDate>
+      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.9.0.dmg"
+                 sparkle:version="12.9.0" length="8817100" type="application/octet-stream"
+                 sparkle:dsaSignature="MCwCFE8UYcj9dYmTe9Ljfk77CK9YxfXkAhQybUe0Z3Hpoh9DSPckvAlxUqh8fQ=="
                  />
     </item>
 
