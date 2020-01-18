@@ -35,7 +35,7 @@ which is caused by some devices that sends abnormal input events.</li>
 
 <ul>
 <li>Fixed <code>Add {key_code} to Karabiner-Elements</code> button on EventViewer for unnamed keys (raw number key codes).</li>
-<li>Fixed an issue that modifier flag events are not dispatched when changing pointing button while other character keys are pressed.
+<li>Fixed an issue that modifier flag events are not dispatched when changing pointing button while other character keys are pressed.<br>
 (e.g., when changing pointing_button::button3 -&gt; command+pointing_button::button1, command modifier is not sent when button1 is pressed while <code>t</code> key is also pressed.)</li>
 </ul></li>
 </ul>
@@ -45,10 +45,10 @@ which is caused by some devices that sends abnormal input events.</li>
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 18 Jan 2020 12:37:56 -0000</pubDate>
+      <pubDate>Sat, 18 Jan 2020 13:01:54 -0000</pubDate>
       <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.9.0.dmg"
                  sparkle:version="12.9.0" length="8817100" type="application/octet-stream"
-                 sparkle:dsaSignature="MCwCFE8UYcj9dYmTe9Ljfk77CK9YxfXkAhQybUe0Z3Hpoh9DSPckvAlxUqh8fQ=="
+                 sparkle:dsaSignature="MC0CFQCTTO8Ow8Gx9B/vActicPOXBLV2kgIUVc/ciHTyLu+2QLP+pmiArVvXxV0="
                  />
     </item>
 
