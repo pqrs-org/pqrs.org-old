@@ -33,7 +33,7 @@ cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Karabiner-Elements Changelog</title>
-    <link>https://pqrs.org/osx/karabiner/files/karabiner-elements-appcast-devel.xml</link>
+    <link>https://karabiner-elements.pqrs.org/files/karabiner-elements-appcast-devel.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
 
@@ -64,7 +64,7 @@ cat >>"$targetdir/karabiner-elements-appcast-devel.xml.tmp" <<EOF
 ]]>
       </description>
       <pubDate>$pubDate</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-$version.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-$version.dmg"
                  sparkle:version="$version" length="$length" type="application/octet-stream"
                  sparkle:dsaSignature="$dsaSignature"
                  />

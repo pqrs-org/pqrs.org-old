@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Karabiner-Elements Changelog</title>
-    <link>https://pqrs.org/osx/karabiner/files/karabiner-elements-appcast.xml</link>
+    <link>https://karabiner-elements.pqrs.org/files/karabiner-elements-appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
 
@@ -46,7 +46,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Sat, 18 Jan 2020 13:01:54 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.9.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.9.0.dmg"
                  sparkle:version="12.9.0" length="8817100" type="application/octet-stream"
                  sparkle:dsaSignature="MC0CFQCTTO8Ow8Gx9B/vActicPOXBLV2kgIUVc/ciHTyLu+2QLP+pmiArVvXxV0="
                  />
@@ -86,7 +86,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Sun, 17 Nov 2019 13:51:29 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.8.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.8.0.dmg"
                  sparkle:version="12.8.0" length="8775733" type="application/octet-stream"
                  sparkle:dsaSignature="MC4CFQDq59rY0ZZ+2UYS6wwE3QOnStkmQwIVAN2dYwKSWHFBFvKyhBaY0VFQNP1E"
                  />
@@ -174,7 +174,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Thu, 12 Sep 2019 14:16:47 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.7.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.7.0.dmg"
                  sparkle:version="12.7.0" length="8475492" type="application/octet-stream"
                  sparkle:dsaSignature="MC0CFQDfc0Aogv+Es+xiPZGLu+2xkJQnlgIUCUsOOVk2DXS6s6/qrfBFbD0Qybc="
                  />
@@ -258,7 +258,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Fri, 16 Aug 2019 07:39:46 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.6.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.6.0.dmg"
                  sparkle:version="12.6.0" length="7493221" type="application/octet-stream"
                  sparkle:dsaSignature="MC0CFQDTttweqLpgKkugwFZl308OCJoLDgIUblPYNOedNkwAvkXyvbL4hF/5g+0="
                  />
@@ -357,7 +357,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Mon, 10 Jun 2019 15:21:45 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.5.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.5.0.dmg"
                  sparkle:version="12.5.0" length="6966734" type="application/octet-stream"
                  sparkle:dsaSignature="MC0CFDMfIpF8nVFHj2aTqnj3Pen/RV1DAhUAro8/ZkTK9ZC9N0FxDGZ3/GquGdw="
                  />
@@ -444,7 +444,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Tue, 14 May 2019 14:32:15 -0000</pubDate>
-      <enclosure url="https://pqrs.org/osx/karabiner/files/Karabiner-Elements-12.4.0.dmg"
+      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.4.0.dmg"
                  sparkle:version="12.4.0" length="6344917" type="application/octet-stream"
                  sparkle:dsaSignature="MCwCFAT5FGt7T8py0FwBfwL0v2mBi89vAhQl5eid30L8VkPIsr//Jf3QK/f5Hw=="
                  />
