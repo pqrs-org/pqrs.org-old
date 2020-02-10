@@ -86,7 +86,7 @@ which is caused by some devices that sends abnormal input events.</li>
 ]]>
       </description>
       <pubDate>Sun, 17 Nov 2019 13:51:29 -0000</pubDate>
-      <enclosure url="https://karabiner-elements.pqrs.org/files/Karabiner-Elements-12.8.0.dmg"
+      <enclosure url="https://github.com/pqrs-org/Karabiner-Elements/releases/download/v12.8.0/Karabiner-Elements-12.8.0.dmg"
                  sparkle:version="12.8.0" length="8775733" type="application/octet-stream"
                  sparkle:dsaSignature="MC4CFQDq59rY0ZZ+2UYS6wwE3QOnStkmQwIVAN2dYwKSWHFBFvKyhBaY0VFQNP1E"
                  />

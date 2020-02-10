@@ -22,7 +22,7 @@ class History < KarabinerBase
       {
         :version => 'Karabiner-Elements 12.8.0',
         :updated => '2019-11-17',
-        :link => 'files/Karabiner-Elements-12.8.0.dmg',
+        :link => 'https://github.com/pqrs-org/Karabiner-Elements/releases/download/v12.8.0/Karabiner-Elements-12.8.0.dmg',
         :body => update_description('karabiner', '12.8.0'),
       },
       {
