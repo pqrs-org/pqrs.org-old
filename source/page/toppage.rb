@@ -25,6 +25,15 @@ EOS
           },
 
           {
+            :name => 'Tinkle',
+            :link => 'https://tinkle.pqrs.org/',
+            :icon => '/img/icon/osx/tinkle-32.png',
+            :body => <<EOS,
+<p>A macOS app that appends a visual effect at the focused window changes.</p>
+EOS
+          },
+
+          {
             :name => 'ShowyEdge',
             :link => 'https://showyedge.pqrs.org/',
             :icon => '/img/icon/osx/ShowyEdge-32.png',
