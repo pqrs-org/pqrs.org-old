@@ -16,7 +16,7 @@ class History < KarabinerBase
       {
         :version => 'Karabiner-Elements 12.9.0',
         :updated => '2020-01-18',
-        :link => 'files/Karabiner-Elements-12.9.0.dmg',
+        :link => 'https://github.com/pqrs-org/Karabiner-Elements/releases/download/v12.9.0/Karabiner-Elements-12.9.0.dmg',
         :body => update_description('karabiner', '12.9.0'),
       },
       {
