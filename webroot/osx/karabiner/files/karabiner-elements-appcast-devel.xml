@@ -7,49 +7,32 @@
     <language>en</language>
 
     <item>
-      <title>Version 12.9.0</title>
+      <title>Version 12.9.1</title>
       <sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<style>
-.update-description-item{margin:10px 0;padding:0;border-radius:0.25em;border-width:1.5em 1px 1px 1px;border-style:solid}.update-description-label{margin:-1.5em 0 0 0.5em;padding:0;font-size:75%;font-weight:700;line-height:1;color:#fff}.update-description .update-description-body{margin:0.2em 1em;padding:1em 1em 0.5em 1em}.update-description .update-description-body img.img{width:100%}.update-description .update-description-body ul{padding-left:2em}.update-description .update-description-body>ul{margin:0;padding:0}.update-description-item-new{border-color:#dff2fc}.update-description-item-new .update-description-label:before{content:'new';color:#337ab7}.update-description-item-important{border-color:#feeeed}.update-description-item-important .update-description-label:before{content:'important';color:#d9534f}.update-description-item-fixed{border-color:#cae5cd}.update-description-item-fixed .update-description-label:before{content:'fixed';color:#184212}.update-description-item-improved{border-color:#f4dda5}.update-description-item-improved .update-description-label:before{content:'improved';color:#cd6118}
-/*# sourceMappingURL=sparkle.css.map */
-</style>
-
-<h2>About v12.9.0 Update</h2>
-
-<!-- update-description-begin -->
+<h2>About v12.9.1 Update</h2>
 <ul>
 <li>✨ New Features
 
 <ul>
-<li><code>Open config folder</code> button has been added into Preferences.<br>
-The feature provides <a href="https://pqrs.org/osx/karabiner/document.html#export">an easy way exporting configuration</a>.</li>
+<li><code>event_changed_if</code> and <code>event_changed_unless</code> has been added to <code>conditions</code>.</li>
 </ul></li>
 <li>⚡️ Improvements
 
 <ul>
-<li>Added a workaround for non-dismissible <code>Device is ignored temporarily</code> alert
-which is caused by some devices that sends abnormal input events.</li>
-</ul></li>
-<li>🐛 Bug Fixes
-
-<ul>
-<li>Fixed <code>Add {key_code} to Karabiner-Elements</code> button on EventViewer for unnamed keys (raw number key codes).</li>
-<li>Fixed an issue that modifier flag events are not dispatched when changing pointing button while other character keys are pressed.<br>
-(e.g., when changing pointing_button::button3 -&gt; command+pointing_button::button1, command modifier is not sent when button1 is pressed while <code>t</code> key is also pressed.)</li>
+<li>Preserve f1-f12 keys if the key is changed by complex modifications (e.g., &ldquo;change command+e to f2&rdquo;) instead of changing these keys to media keys such as brightness control, volume control, etc.</li>
 </ul></li>
 </ul>
-<!-- update-description-end -->
 <p>
   <a href="https://pqrs.org/osx/karabiner/history.html">More</a>
 </p>
 ]]>
       </description>
-      <pubDate>Sat, 18 Jan 2020 13:01:54 -0000</pubDate>
-      <enclosure url="https://github.com/pqrs-org/Karabiner-Elements/releases/download/v12.9.0/Karabiner-Elements-12.9.0.dmg"
-                 sparkle:version="12.9.0" length="8817100" type="application/octet-stream"
-                 sparkle:dsaSignature="MC0CFQCTTO8Ow8Gx9B/vActicPOXBLV2kgIUVc/ciHTyLu+2QLP+pmiArVvXxV0="
-                 />
+      <pubDate>Sun, 16 Feb 2020 08:38:33 -0000</pubDate>
+      <enclosure url="https://github.com/pqrs-org/Karabiner-Elements/releases/download/beta/Karabiner-Elements-12.9.1.dmg"
+                 sparkle:version="12.9.1" length="8823723" type="application/octet-stream"
+                 sparkle:dsaSignature="MC0CFFZ+QzQWTo9hPApfDQM3nFWUxazxAhUAnABhgUEoncANdi/5awvbjFAcP2Y="
+      />
     </item>
 
   </channel>
