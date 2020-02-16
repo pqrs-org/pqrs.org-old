@@ -104,6 +104,10 @@ class Json < KarabinerBase
         :name => 'condition definition variable_if and variable_unless',
       },
       {
+        :href => '#condition-definition-event-changed',
+        :name => 'condition definition event_changed_if and event_changed_unless',
+      },
+      {
         :name => 'Change mouse motion to scroll',
       },
       {

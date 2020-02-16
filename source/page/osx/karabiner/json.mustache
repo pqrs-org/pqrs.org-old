@@ -2257,6 +2257,57 @@
         </table>
       </section>
 
+        <hr class="horizontal-separator thin" />
+
+        <h3 id="condition-definition-event-changed"><code>event_changed_if</code> and <code>event_changed_unless</code></h3>
+
+        <p>
+          Change an event if/unless the event is already changed by other manipulators.
+        </p>
+
+        {{#indented_json}}
+          |{
+          |    "type": "event_changed_if",
+          |    "value": true
+          |}
+        {{/indented_json}}
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Required</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>type</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                Either:
+                <ul>
+                  <li><code>"type": "event_changed_if"</code></li>
+                  <li><code>"type": "event_changed_unless"</code></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td><code>value</code></td>
+              <td><code class="required">required</code></td>
+              <td>
+                <code>true</code> or <code>false</code>
+              </td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code class="optional">optional</code></td>
+              <td>A condition description for human.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
       <section>
         <div class="page-header">
           <h1>Change mouse motion to scroll</h1>
