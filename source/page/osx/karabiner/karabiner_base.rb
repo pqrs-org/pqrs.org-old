@@ -33,6 +33,11 @@ class KarabinerBase < PqrsBase
               :name => 'Manual',
             },
             {
+              :href => 'https://ke-complex-modifications.pqrs.org/',
+              :name => 'Complex Modifications rules',
+              :attr => 'target="blank"',
+            },
+            {
               :href => '/osx/karabiner/help.html',
               :name => 'Help',
             },
