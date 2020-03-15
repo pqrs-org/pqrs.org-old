@@ -17,7 +17,7 @@ class Toppage < PqrsBase
         :rows => [
           {
             :name => 'Karabiner-Elements',
-            :link => '/osx/karabiner/',
+            :link => 'https://karabiner-elements.pqrs.org/',
             :icon => '/img/icon/osx/karabiner-32.png',
             :body => <<EOS,
 <p>A powerful and stable keyboard customizer for macOS.</p>
