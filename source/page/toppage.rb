@@ -112,7 +112,7 @@ EOS
           },
           {
             :name => 'dcgnuboy',
-            :link => '/dreamcast/software/dcgnuboy/',
+            :link => 'https://dcgnuboy.pqrs.org/',
             :body => <<EOS,
 <p>Gameboy &amp; Gameboy Color emulator for Dreamcast.</p>
 EOS
