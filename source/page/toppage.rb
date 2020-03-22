@@ -105,7 +105,7 @@ EOS
         :rows => [
           {
             :name => 'NesterDC',
-            :link => '/dreamcast/software/nesterdc/',
+            :link => 'https://nesterdc.pqrs.org/',
             :body => <<EOS,
 <p>NES emulator for Dreamcast.</p>
 EOS
