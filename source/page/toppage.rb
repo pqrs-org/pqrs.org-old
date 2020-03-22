@@ -90,7 +90,7 @@ EOS
           },
           {
             :name => 'BulletGBA',
-            :link => '/gba/bulletgba/',
+            :link => 'https://bulletgba.pqrs.org/',
             :icon => '/img/icon/gba/bulletgba-32.png',
             :body => <<EOS,
 <p>A homebrew bullet hell simulator for Gameboy Advance.</p>
