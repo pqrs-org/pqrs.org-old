@@ -82,7 +82,7 @@ EOS
         :rows => [
           {
             :name => 'Vulkanon',
-            :link => '/gba/vulkanon/',
+            :link => 'https://vulkanon.pqrs.org/',
             :icon => '/img/icon/gba/vulkanon-32.png',
             :body => <<EOS,
 <p>A homebrew bullet hell shooter for Gameboy Advance.</p>

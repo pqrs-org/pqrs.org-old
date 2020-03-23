@@ -1,5 +1,4 @@
 all:
 	./toppage.rb
 	./profile.rb
-	$(MAKE) -C gba
 	$(MAKE) -C osx
