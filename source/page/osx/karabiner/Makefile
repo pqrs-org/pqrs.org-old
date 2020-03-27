@@ -1,16 +1,9 @@
 all:
 	./index.rb
-	./document.rb
-	./json.rb
-	./help.rb
 	./xml.rb
 	./faq.rb
 	./seil.rb
 	./noejectdelay.rb
 	./source.rb
-	./history.rb
-	./list.rb
-	./pricing.rb
-	./contact.rb
 	./document_v10.rb
 	./gallery_v10.rb
